@@ -20,7 +20,8 @@ from pathlib import Path
 import yaml
 
 from . import anac, ted
-from .common import Filtro, Opportunita, chiave_testo, log, sessione_http
+from .common import (Filtro, Opportunita, chiave_testo, log, pulisci_titolo,
+                     sessione_http)
 
 DATA = Path("data")
 FONTI = {"ted": ted.raccogli, "anac": anac.raccogli}
@@ -77,6 +78,19 @@ def deduplica(tutte: dict[str, Opportunita]) -> dict[str, Opportunita]:
                                     or o.primo_rilevamento < principale.primo_rilevamento):
             principale.primo_rilevamento = o.primo_rilevamento
     return {o.id: o for o in per_chiave.values()}
+
+
+def rivaluta(tutte: dict[str, Opportunita], filtro: Filtro) -> dict[str, Opportunita]:
+    """Riapplica i filtri attuali a tutto lo storico, così una modifica a
+    config.yaml ripulisce anche le opportunità raccolte in passato."""
+    tenute = {}
+    for k, o in tutte.items():
+        o.titolo = pulisci_titolo(o.titolo)
+        motivo = filtro.valuta(o.titolo, o.ente, o.cpv)
+        if motivo:
+            o.motivo_match = motivo
+            tenute[k] = o
+    return tenute
 
 
 def pota(tutte: dict[str, Opportunita], cfg: dict) -> dict[str, Opportunita]:
@@ -150,7 +164,7 @@ def main() -> int:
 
     storico = carica_storico()
     prima = set(storico)
-    tutte = pota(deduplica(unisci(storico, nuove, oggi)), cfg)
+    tutte = pota(rivaluta(deduplica(unisci(storico, nuove, oggi)), filtro), cfg)
     riepilogo["nuove_opportunita"] = len(set(tutte) - prima)
     riepilogo["totale"] = len(tutte)
 

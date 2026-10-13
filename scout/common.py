@@ -140,6 +140,14 @@ def normalizza_cpv(codice: str) -> str:
     return re.sub(r"\D", "", str(codice))[:8]
 
 
+_RE_PREFISSO_TED = re.compile(r"^\s*Italia\s*[–—-]\s*.+?\s+[–—]\s+")
+
+
+def pulisci_titolo(titolo: str) -> str:
+    """Toglie il prefisso standard TED "Italia – <categoria CPV> – "."""
+    return _RE_PREFISSO_TED.sub("", titolo or "", count=1).strip()
+
+
 def chiave_testo(s: str) -> str:
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]", "", s.lower())[:90]
@@ -154,6 +162,7 @@ class Filtro:
         self.re_ente = self._compila(cfg.get("enti_sanitari_regex"))
         self.re_sanita = self._compila(cfg.get("parole_chiave_sanita_regex"))
         self.re_escl = self._compila(cfg.get("esclusioni_regex"))
+        self.re_aggr = self._compila(cfg.get("aggregatori_misti_regex"))
 
     @staticmethod
     def _compila(lista):
@@ -179,4 +188,6 @@ class Filtro:
             m = self.re_sanita.search(titolo)
             if m:
                 return f"Oggetto sanitario ('{m.group(0)}') + CPV IT ({it[0]})"
+        if self.re_aggr and self.re_aggr.search(ente):
+            return f"Soggetto aggregatore + CPV IT ({it[0]}) - da verificare"
         return None

@@ -22,6 +22,8 @@ import zipfile
 from datetime import date
 from pathlib import Path
 
+import requests
+
 from .common import Filtro, Opportunita, log, normalizza_cpv, parse_data, parse_importo
 
 STATO = Path("state/anac.json")
@@ -43,6 +45,14 @@ COLONNE = {
 ESSENZIALI = ("cig", "ente", "cpv")
 ERRORI: list[str] = []  # errori non bloccanti dell'ultima esecuzione
 
+# Il portale ANAC rifiuta alcune richieste "non da browser": ci presentiamo come tale.
+HEADERS_BROWSER = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
+    "Accept": "application/json, text/html, application/zip, */*;q=0.8",
+    "Accept-Language": "it-IT,it;q=0.9,en;q=0.8",
+}
+
 csv.field_size_limit(min(sys.maxsize, 2**31 - 1))
 
 
@@ -58,14 +68,41 @@ def _salva_stato(stato: dict) -> None:
     STATO.write_text(json.dumps(stato, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+def _risorse_da_pattern(acfg: dict) -> list[dict]:
+    pattern = (acfg.get("url_file_pattern") or "").strip()
+    if not pattern:
+        return []
+    oggi, out = date.today(), []
+    anno, mese = oggi.year, oggi.month
+    for _ in range(max(int(acfg.get("mesi_da_elaborare", 2)) + 1, 3)):
+        url = pattern.format(anno=anno, mese=mese)
+        out.append({"url": url, "nome": url.rsplit("/", 1)[-1], "versione": "pattern",
+                    "opzionale": True})
+        anno, mese = (anno, mese - 1) if mese > 1 else (anno - 1, 12)
+    return out
+
+
 def _scopri_risorse(acfg: dict, sess) -> list[dict]:
+    try:
+        return _scopri_risorse_ckan(acfg, sess)
+    except Exception as e:
+        alternative = _risorse_da_pattern(acfg)
+        if not alternative:
+            raise RuntimeError(
+                f"{e}. Il portale blocca l'API: compila 'anac.url_file_pattern' "
+                "in config.yaml per scaricare direttamente i file mensili.") from e
+        log.warning("ANAC: API non disponibile (%s), uso url_file_pattern", e)
+        return alternative
+
+
+def _scopri_risorse_ckan(acfg: dict, sess) -> list[dict]:
     oggi = date.today()
     anni = [oggi.year] + ([oggi.year - 1] if oggi.month <= 3 else [])
     risorse = []
     for anno in anni:
         dataset = acfg["dataset_pattern"].format(anno=anno)
         url = f"{acfg['base_url'].rstrip('/')}/api/3/action/package_show"
-        r = sess.get(url, params={"id": dataset}, timeout=60)
+        r = sess.get(url, params={"id": dataset}, headers=HEADERS_BROWSER, timeout=60)
         if r.status_code == 404:
             log.warning("ANAC: dataset %s non trovato", dataset)
             continue
@@ -85,10 +122,14 @@ def _scopri_risorse(acfg: dict, sess) -> list[dict]:
 
 def _scarica(sess, url: str) -> str:
     fd, percorso = tempfile.mkstemp(suffix=".dat")
-    with os.fdopen(fd, "wb") as f, sess.get(url, stream=True, timeout=600) as r:
-        r.raise_for_status()
-        for blocco in r.iter_content(1 << 20):
-            f.write(blocco)
+    try:
+        with os.fdopen(fd, "wb") as f, sess.get(url, stream=True, headers=HEADERS_BROWSER, timeout=600) as r:
+            r.raise_for_status()
+            for blocco in r.iter_content(1 << 20):
+                f.write(blocco)
+    except Exception:
+        os.remove(percorso)
+        raise
     return percorso
 
 
@@ -209,6 +250,12 @@ def raccogli(cfg: dict, filtro: Filtro, sess) -> list[Opportunita]:
             percorso = _scarica(sess, res["url"])
             risultati.extend(_elabora_file(percorso, filtro, acfg))
             elaborati[res["url"]] = res["versione"]
+        except requests.HTTPError as e:
+            if res.get("opzionale") and e.response is not None and e.response.status_code == 404:
+                log.info("ANAC: %s non ancora pubblicato, salto", res["nome"])
+                continue
+            log.exception("ANAC: errore su %s", res["nome"])
+            ERRORI.append(f"{res['nome']}: {e}")
         except Exception as e:  # un file difettoso non blocca gli altri
             log.exception("ANAC: errore su %s", res["nome"])
             ERRORI.append(f"{res['nome']}: {e}")

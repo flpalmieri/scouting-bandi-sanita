@@ -11,7 +11,7 @@ import time
 from datetime import date, timedelta
 
 from .common import (Filtro, Opportunita, appiattisci, log, normalizza_cpv,
-                     parse_data, parse_importo, testo)
+                     parse_data, parse_importo, pulisci_titolo, testo)
 
 CAMPI_MINIMI = [
     "publication-number", "publication-date", "notice-title", "buyer-name",
@@ -54,7 +54,7 @@ def _converti(avviso: dict, filtro: Filtro, tipi: list[str]) -> Opportunita | No
     if tipi and tipo and not any(tipo.lower().startswith(p) for p in tipi):
         return None
 
-    titolo = testo(avviso.get("notice-title"), separatore=" | ")
+    titolo = pulisci_titolo(testo(avviso.get("notice-title"), separatore=" | "))
     ente = testo(avviso.get("buyer-name"), separatore="; ")
     cpv = sorted({normalizza_cpv(c) for c in appiattisci(avviso.get("classification-cpv"))} - {""})
 
