@@ -123,6 +123,8 @@ esclusioni_regex:
   - 'ristorazion'
   - 'lavanderi'
   - 'vigilanza\s+armata'
+  - '\bausili'                                # ausili per pazienti (es. software di ingrandimento)
+  - 'assistit[oa]\s+[A-Z]\.\s*[A-Z]\.'          # forniture nominative "assistito M.B."
 
 # --- TED (Tenders Electronic Daily) -----------------------------------
 ted:
@@ -217,6 +219,16 @@ portali_html:
       lettore: scheda_sito
       max_pagine: 5
       url: "https://www.uslumbria1.it/bandi-di-gara/?pagenumber={pagina}"
+    - nome: USL Umbria 2
+      nome_fonte: USL Umbria 2
+      sigla: uslumbria2
+      ente: USL Umbria 2
+      regione: Umbria
+      lettore: tabella
+      # Solo la prima pagina (15 avvisi più recenti): le successive richiedono
+      # un postback ASP.NET. In alternativa esiste il feed
+      # https://www.uslumbria2.it/feeds/bandi-di-gara-e-contratti.rss
+      url: "https://www.uslumbria2.it/pagine/bandi-di-gara-e-contratti"
 
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
