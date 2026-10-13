@@ -170,6 +170,18 @@ portali_rss:
       regione: Puglia
       tipo: bando
       max_pagine: 30
+      escludi_stati: [Revocato, Annullato]
+      campi:                      # nomi dei campi afs: del feed (senza prefisso)
+        titolo: [Oggetto, TitoloDocumento]
+        descrizione: [TitoloDocumento]
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cig: [CIG]
+        cpv: [CPV]
+        stato: [statoFunzionale]
+        id: [IdMsg]
       url: "https://eproc.empulia.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=20&nPag={pagina}"
     - nome: EmPULIA consultazioni
       nome_fonte: EmPULIA
@@ -177,6 +189,18 @@ portali_rss:
       regione: Puglia
       tipo: consultazione di mercato
       max_pagine: 5
+      escludi_stati: [Revocato, Annullato]
+      campi:                      # nomi dei campi afs: del feed (senza prefisso)
+        titolo: [Oggetto, TitoloDocumento]
+        descrizione: [TitoloDocumento]
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cig: [CIG]
+        cpv: [CPV]
+        stato: [statoFunzionale]
+        id: [IdMsg]
       url: "https://eproc.empulia.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
 
 # --- Conservazione -----------------------------------------------------
