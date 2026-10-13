@@ -97,10 +97,28 @@ def parse_importo(valore) -> float | None:
             s = s.replace(",", "")
     elif "," in s:
         s = s.replace(",", ".")
+    elif re.fullmatch(r"\d{1,3}(\.\d{3})+", s):   # 14.400 = quattordicimila
+        s = s.replace(".", "")
     try:
         return float(s)
     except ValueError:
         return None
+
+
+_RE_NUMERO = re.compile(r"\d{1,3}(?:\.\d{3})+(?:,\d+)?|\d+,\d+|\d+")
+
+
+def estrai_importo(testo: str | None) -> float | None:
+    """Importo da testo libero ("EURO 14.400 OLTRE IVA", "Importo presunto 36 mesi: € 11.112,00").
+    Preferisce la cifra dopo il simbolo €; altrimenti la più grande trovata."""
+    if not testo:
+        return None
+    m = re.search(r"€\s*(" + _RE_NUMERO.pattern + ")", testo)
+    if m:
+        return parse_importo(m.group(1))
+    valori = [parse_importo(n) for n in _RE_NUMERO.findall(testo)]
+    valori = [v for v in valori if v is not None]
+    return max(valori) if valori else None
 
 
 def appiattisci(valore) -> list[str]:
@@ -232,4 +250,6 @@ class Filtro:
             motivo = self.valuta(o.titolo, o.ente, o.cpv)
             if motivo or "TED" in o.fonti:
                 return motivo
+        if (o.tipo or "").startswith("programmazione"):
+            return o.motivo_match or "Programmazione acquisti"
         return self.valuta_testo(o.titolo, o.ente, o.descrizione or "")

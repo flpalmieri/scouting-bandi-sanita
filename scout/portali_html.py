@@ -18,7 +18,7 @@ import time
 from pathlib import Path
 from urllib.parse import urljoin
 
-from .common import Filtro, Opportunita, log, parse_data
+from .common import Filtro, Opportunita, estrai_importo, log, parse_data
 
 CAMPIONI = Path("state/campioni")
 ERRORI: list[str] = []
@@ -69,13 +69,60 @@ def lettore_scheda_sito(pagina: str, url_base: str) -> list[dict]:
     return voci
 
 
-LETTORI = {"scheda_sito": lettore_scheda_sito}
+def _titolo_da_link(href: str) -> str:
+    slug = href.rstrip("/").rsplit("/", 1)[-1]
+    return re.sub(r"[-_]+", " ", slug).strip().capitalize()
+
+
+def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
+    """Elenchi in forma di tabella (es. USL Umbria 2): le colonne vengono
+    riconosciute dalle intestazioni (oggetto, scadenza, tipologia, importo)."""
+    voci = []
+    for tabella in re.findall(r"<table[^>]*>(.*?)</table>", pagina, re.DOTALL | re.IGNORECASE):
+        righe = re.findall(r"<tr[^>]*>(.*?)</tr>", tabella, re.DOTALL | re.IGNORECASE)
+        if not righe:
+            continue
+        intestazioni = [_testo(h).lower() for h in re.findall(r"<th[^>]*>(.*?)</th>", righe[0], re.DOTALL | re.IGNORECASE)]
+        if not any("oggetto" in h for h in intestazioni):
+            continue
+
+        def colonna(*parole):
+            for i, h in enumerate(intestazioni):
+                if any(p in h for p in parole):
+                    return i
+            return None
+
+        c_ogg, c_scad = colonna("oggetto"), colonna("scadenza")
+        c_tipo, c_imp = colonna("tipolog", "tipo"), colonna("importo")
+        for riga in righe[1:]:
+            celle = re.findall(r"<td[^>]*>(.*?)</td>", riga, re.DOTALL | re.IGNORECASE)
+            if not celle:
+                continue
+            cella = lambda i: _testo(celle[i]).replace("\n", " ") if i is not None and i < len(celle) else ""
+            href = re.search(r'<a[^>]+href="([^"]+)"', riga)
+            link = urljoin(url_base, html.unescape(href.group(1))) if href else None
+            titolo = cella(c_ogg) or (_titolo_da_link(link) if link else "")
+            voci.append({
+                "titolo": RE_SPAZI.sub(" ", titolo).strip(),
+                "link": link,
+                "testo": f"DATA SCADENZA: {cella(c_scad)}\nTIPOLOGIA: {cella(c_tipo)}\nIMPORTO: {cella(c_imp)}",
+                "scadenza_grezza": cella(c_scad),
+                "tipo_grezzo": cella(c_tipo),
+                "importo_grezzo": cella(c_imp),
+            })
+    return voci
+
+
+LETTORI = {"scheda_sito": lettore_scheda_sito, "tabella": lettore_tabella}
+RE_PROGRAMMAZIONE = re.compile(r"programmazione\s+(triennale|biennale)|programma\s+(triennale|biennale)", re.IGNORECASE)
 
 
 # ------------------------------------------------------------------ conversione
 
-def _tipo(titolo: str) -> str:
-    t = titolo.lower()
+def _tipo(titolo: str, tipo_grezzo: str = "") -> str:
+    t = f"{titolo} {tipo_grezzo}".lower()
+    if RE_PROGRAMMAZIONE.search(t):
+        return "programmazione acquisti"
     if "consultazione preliminare" in t or "consultazione di mercato" in t:
         return "consultazione di mercato"
     if "manifestazion" in t or "avviso esplorativo" in t or "indagine di mercato" in t:
@@ -91,15 +138,17 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
         return None
     ente = sito.get("ente", "")
     motivo = filtro.valuta_testo(titolo, ente, "")
+    if not motivo and RE_PROGRAMMAZIONE.search(titolo) and filtro.re_ente and filtro.re_ente.search(ente):
+        motivo = "Programmazione acquisti di un ente sanitario: consultala per le gare IT in arrivo"
     if not motivo:
         return None
 
     m = RE_PUBBLICAZIONE.search(testo)
     pubblicazione = parse_data(m.group(1)) if m else None
 
-    scadenza = None
+    scadenza = parse_data(voce.get("scadenza_grezza"))
     m = RE_SCADENZA_ETICHETTA.search(testo)
-    if m:
+    if m and not scadenza:
         scadenza = parse_data(m.group(1))
     if not scadenza:
         m = RE_SCADENZA_TESTO.search(f"{titolo}\n{testo}")
@@ -114,7 +163,8 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
         scadenza=scadenza,
         pubblicazione=pubblicazione,
         cig=sorted({c.upper() for c in RE_CIG.findall(f"{titolo} {testo}")}),
-        tipo=_tipo(titolo),
+        tipo=_tipo(titolo, voce.get("tipo_grezzo", "")),
+        importo=estrai_importo(voce.get("importo_grezzo")),
         link=voce.get("link"),
         regione=sito.get("regione"),
         motivo_match=motivo,
