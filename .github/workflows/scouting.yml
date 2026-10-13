@@ -33,13 +33,19 @@ jobs:
       - name: Salva i risultati nel repository
         if: always()
         run: |
-          mkdir -p data state
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          mkdir -p data state
           git add data state
           if git diff --cached --quiet; then
             echo "Nessuna modifica"
-          else
-            git commit -m "Aggiornamento bandi $(date -u +%F)"
-            git push
+            exit 0
           fi
+          git commit -m "Aggiornamento bandi $(date -u +%F)"
+          # Se nel frattempo il repository è cambiato, integra le modifiche e riprova
+          for tentativo in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            echo "Push non riuscito, nuovo tentativo tra 10 secondi"
+            sleep 10
+          done
+          exit 1
