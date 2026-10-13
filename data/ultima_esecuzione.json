@@ -1,0 +1,18 @@
+{
+  "eseguito_il": "2026-10-13T10:52:41+00:00",
+  "fonti": {
+    "ted": {
+      "esito": "ok",
+      "pertinenti": 2
+    },
+    "anac": {
+      "esito": "errore",
+      "pertinenti": 0
+    }
+  },
+  "errori": [
+    "anac: 403 Client Error: Forbidden for url: https://dati.anticorruzione.it/opendata/api/3/action/package_show?id=cig-2026"
+  ],
+  "nuove_opportunita": 2,
+  "totale": 2
+}

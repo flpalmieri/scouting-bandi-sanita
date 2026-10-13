@@ -1,0 +1,48 @@
+{
+ "aggiornato_il": "2026-10-13T10:52:41+00:00",
+ "totale": 2,
+ "opportunita": [
+  {
+   "id": "ted:705264-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Italia – Server – PROCEDURA APERTA AVENTE AD OGGETTO LA FORNITURA DI ATTREZZATURE SCIENTIFICHE AD ALTO CONTENUTO TECNOLOGICO PER LA REALIZZAZIONE DI UNA ARCHITETTURA DI CALCOLO AD ALTE PRESTAZIONI PER INTELLIGENZA ARTIFICIALE E E SIMULAZIONI DI CALCOLO QUANTISTICO, NELL’AMBITO DEL PROGETTO FIS 3 - QARECA CUP E53C25002450001- CUI F00876220633202600012",
+   "ente": "UNIVERSITA' DEGLI STUDI DI NAPOLI FEDERICO II",
+   "scadenza": "2026-11-13",
+   "pubblicazione": "2026-10-13",
+   "importo": 505920.0,
+   "cpv": [
+    "48820000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/705264-2026",
+   "regione": null,
+   "motivo_match": "Oggetto sanitario ('CUP') + CPV IT (48820000)",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:683594-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Italia – Servizi connessi al software – ARIA_2026_478_F - Procedura aperta, ai sensi dell’art. 71 del D.lgs. 36/2023, per l’impl. del Clinical Decision Support System (CDSS)",
+   "ente": "Azienda Regionale per l'Innovazione e gli Acquisti S.p.A.",
+   "scadenza": "2026-12-02",
+   "pubblicazione": "2026-10-05",
+   "importo": 5973478.8,
+   "cpv": [
+    "72260000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/683594-2026",
+   "regione": null,
+   "motivo_match": "Oggetto sanitario ('Clinic') + CPV IT (72260000)",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  }
+ ]
+}
