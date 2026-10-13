@@ -1,0 +1,45 @@
+name: Scouting bandi sanità
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # ogni giorno alle 05:00 UTC
+  workflow_dispatch:       # avvio manuale dalla scheda Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scouting
+  cancel-in-progress: false
+
+jobs:
+  scouting:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installa dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Raccogli bandi
+        run: python -m scout.main
+
+      - name: Salva i risultati nel repository
+        if: always()
+        run: |
+          mkdir -p data state
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data state
+          if git diff --cached --quiet; then
+            echo "Nessuna modifica"
+          else
+            git commit -m "Aggiornamento bandi $(date -u +%F)"
+            git push
+          fi
