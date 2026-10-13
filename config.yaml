@@ -51,8 +51,7 @@ aggregatori_misti_regex:
   - '\bARIA\b'
   - 'azienda\s+regionale\s+per\s+l.innovazione\s+e\s+gli\s+acquisti'
   - '\bconsip\b'
-  - 'centrale\s+(unica\s+)?(di\s+)?committenza'
-  - 'soggetto\s+aggregatore'
+  - 'innova\s*puglia'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -81,6 +80,43 @@ parole_chiave_sanita_regex:
   - 'case\s+della\s+comunit'
   - 'centrali\s+operative\s+territoriali|\bCOT\b'
 
+# Parole chiave informatiche: servono per le fonti senza CPV (feed RSS dei
+# portali regionali), dove l'oggetto IT si riconosce solo dal testo.
+parole_chiave_it_regex:
+  - 'software'
+  - 'informatic'
+  - 'applicativ'
+  - 'gestional'
+  - 'sistem\w*\s+informativ'
+  - 'piattaforma\s+(digitale|informatica|telematica|software|web|regionale)'
+  - 'licenz\w*\s+(d.uso|software)'
+  - '\blicenze\b'
+  - '\bcloud\b'
+  - 'data\s*center'
+  - 'cyber'
+  - 'sicurezza\s+informatica'
+  - 'digitalizzazion'
+  - 'dematerializzazion'
+  - 'interoperabilit'
+  - 'telemedicin'
+  - 'teleconsult'
+  - 'telemonitor'
+  - 'fascicolo\s+sanitario'
+  - 'cartella\s+clinica'
+  - '\bPACS\b'
+  - '\bRIS\b'
+  - '\bLIS\b'
+  - '\bERP\b'
+  - 'intelligenza\s+artificiale'
+  - 'postazioni\s+di\s+lavoro'
+  - 'rete\s+dati|networking'
+  - 'manutenzione\s+(correttiva|evolutiva|adeguativa)'
+  - '\bICT\b'
+  - '\bIT\s+service'
+  - '\bSaaS\b'
+  - 'portale\s+web'
+  - '\bapp\b'
+
 # Esclusioni: se il titolo contiene una di queste, l'avviso viene scartato.
 esclusioni_regex:
   - 'pulizi'
@@ -92,7 +128,7 @@ esclusioni_regex:
 ted:
   abilitato: true
   url: "https://api.ted.europa.eu/v3/notices/search"
-  finestra_giorni: 90          # quanti giorni indietro guardare a ogni esecuzione
+  finestra_giorni: 10          # quanti giorni indietro guardare a ogni esecuzione
                                # (per recuperare lo storico alzalo a 90 per un lancio, poi riportalo a 10)
   max_pagine: 40               # 250 avvisi per pagina
   # Tipi di avviso da tenere (prefissi): cn = bando, pin = preinformazione.
@@ -111,7 +147,7 @@ ted:
 
 # --- ANAC open data (dataset CIG) -------------------------------------
 anac:
-  abilitato: true
+  abilitato: false              # dati CIG 2026 non ancora pubblicati
   base_url: "https://dati.anticorruzione.it/opendata"
   dataset_pattern: "cig-{anno}"    # id del dataset CKAN, un dataset per anno
   mesi_da_elaborare: 2             # al primo avvio, quanti file mensili recenti leggere
@@ -122,6 +158,26 @@ anac:
   # Per compilarlo: apri il dataset CIG sul portale ANAC dal browser e copia il
   # link di download di un file mensile, sostituendo anno e mese con {anno} e {mese}.
   url_file_pattern: ""
+
+# --- Feed RSS dei portali regionali ------------------------------------
+# Per i feed paginati, {pagina} nell'indirizzo viene sostituito con 1, 2, 3...
+portali_rss:
+  abilitato: true
+  feed:
+    - nome: EmPULIA bandi
+      nome_fonte: EmPULIA
+      sigla: empulia
+      regione: Puglia
+      tipo: bando
+      max_pagine: 30
+      url: "https://eproc.empulia.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=20&nPag={pagina}"
+    - nome: EmPULIA consultazioni
+      nome_fonte: EmPULIA
+      sigla: empulia-cons
+      regione: Puglia
+      tipo: consultazione di mercato
+      max_pagine: 5
+      url: "https://eproc.empulia.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
 
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
