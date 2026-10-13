@@ -203,6 +203,21 @@ portali_rss:
         id: [IdMsg]
       url: "https://eproc.empulia.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
 
+# --- Siti che pubblicano i bandi solo come pagine HTML ---------------------
+# lettore: il modello di pagina (vedi scout/portali_html.py).
+# ente: nome dell'ente, usato quando la pagina non lo riporta per ogni bando.
+portali_html:
+  abilitato: true
+  siti:
+    - nome: USL Umbria 1
+      nome_fonte: USL Umbria 1
+      sigla: uslumbria1
+      ente: USL Umbria 1
+      regione: Umbria
+      lettore: scheda_sito
+      max_pagine: 5
+      url: "https://www.uslumbria1.it/bandi-di-gara/?pagenumber={pagina}"
+
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
 giorni_conservazione_senza_scadenza: 120

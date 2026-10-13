@@ -287,6 +287,7 @@
     var t = (o.tipo || "").toLowerCase();
     if (t.indexOf("consultazione") >= 0) return "Consultazione di mercato";
     if (t.indexOf("pin") === 0) return "Preinformazione";
+    if (t.indexOf("avviso") >= 0) return "Avviso esplorativo";
     return "Bando";
   }
 
