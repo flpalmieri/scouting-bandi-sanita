@@ -218,5 +218,7 @@ class Filtro:
     def valuta_opportunita(self, o) -> str | None:
         """Sceglie il filtro giusto in base ai dati disponibili."""
         if o.cpv:
-            return self.valuta(o.titolo, o.ente, o.cpv)
+            motivo = self.valuta(o.titolo, o.ente, o.cpv)
+            if motivo or "TED" in o.fonti:
+                return motivo
         return self.valuta_testo(o.titolo, o.ente, o.descrizione or "")

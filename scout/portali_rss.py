@@ -15,6 +15,8 @@ import html
 import re
 import time
 import xml.etree.ElementTree as ET
+
+from requests.utils import requote_uri
 from pathlib import Path
 
 from .common import Filtro, Opportunita, log, parse_data, parse_importo
@@ -54,7 +56,8 @@ def _pulisci(testo: str | None) -> str:
 
 
 def _nome_locale(tag: str) -> str:
-    return tag.rsplit("}", 1)[-1].lower()
+    """'{ns}Oggetto' oppure 'afs:Oggetto' -> 'oggetto'."""
+    return tag.rsplit("}", 1)[-1].rsplit(":", 1)[-1].lower()
 
 
 def _elementi(contenuto: bytes) -> list[dict[str, str]]:
@@ -88,7 +91,17 @@ def _elementi(contenuto: bytes) -> list[dict[str, str]]:
     return voci
 
 
+def _valore(campi: dict[str, str], nomi) -> str:
+    """Primo campo non vuoto tra quelli indicati (nomi senza prefisso, minuscoli)."""
+    for n in nomi or []:
+        v = _pulisci(campi.get(n.lower()))
+        if v:
+            return v
+    return ""
+
+
 def _cerca_campo(campi: dict[str, str], parole: tuple[str, ...]) -> str:
+    """Ricerca euristica per nome di campo, usata quando il feed non ha una mappa."""
     for nome, valore in campi.items():
         if nome in ("title", "description", "link", "guid"):
             continue
@@ -97,46 +110,70 @@ def _cerca_campo(campi: dict[str, str], parole: tuple[str, ...]) -> str:
     return ""
 
 
+RE_CODICE_CPV = re.compile(r"\b(\d{8})(?:-\d)?\b")
+
+
 def _converti(campi: dict[str, str], feed: dict, filtro: Filtro) -> Opportunita | None:
-    titolo = _pulisci(campi.get("title")).replace("\n", " ")
-    descrizione = _pulisci(campi.get("description") or campi.get("summary") or campi.get("content"))
+    mappa = feed.get("campi") or {}
+
+    stato = _valore(campi, mappa.get("stato"))
+    if stato and stato.lower() in {s.lower() for s in feed.get("escludi_stati", [])}:
+        return None
+
+    titolo = _valore(campi, mappa.get("titolo", ["title"])).replace("\n", " ")
+    descrizione = _valore(campi, mappa.get("descrizione", ["description", "summary", "content"]))
     if not titolo:
         return None
     tutto = f"{titolo}\n{descrizione}"
 
-    ente = _cerca_campo(campi, ("ente", "amministrazione", "stazione", "author", "creator"))
+    ente = (_valore(campi, mappa.get("ente"))
+            or _cerca_campo(campi, ("ente", "amministrazione", "stazione", "author", "creator")))
     if not ente:
         m = RE_ENTE.search(descrizione)
         ente = m.group(1).strip() if m else ""
 
-    scadenza = parse_data(_cerca_campo(campi, ("scadenz", "deadline", "termine")))
+    scadenza = parse_data(_valore(campi, mappa.get("scadenza"))
+                          or _cerca_campo(campi, ("scadenz", "deadline", "termine")))
     if not scadenza:
         m = RE_SCADENZA.search(tutto)
         scadenza = parse_data(m.group(1)) if m else None
 
-    motivo = filtro.valuta_testo(titolo, ente, descrizione)
+    cpv = sorted(set(RE_CODICE_CPV.findall(_valore(campi, mappa.get("cpv")))))
+
+    # Con il CPV si usa il filtro preciso; il filtro testuale recupera i casi
+    # con CPV non informatico ma oggetto chiaramente IT (es. telemedicina).
+    motivo = (filtro.valuta(titolo, ente, cpv) if cpv else None) \
+        or filtro.valuta_testo(titolo, ente, descrizione)
     if not motivo:
         return None
 
-    importo = parse_importo(_cerca_campo(campi, ("importo", "valore", "amount")))
+    importo = parse_importo(_valore(campi, mappa.get("importo"))
+                            or _cerca_campo(campi, ("importo", "valore", "amount")))
     if importo is None:
         m = RE_IMPORTO.search(tutto)
         importo = parse_importo(m.group(1)) if m else None
 
-    link = (campi.get("link") or "").strip() or None
-    chiave = (campi.get("guid") or link or titolo).strip()
-    identificativo = hashlib.sha1(chiave.encode("utf-8")).hexdigest()[:12]
+    cig = set(c.upper() for c in RE_CIG.findall(tutto))
+    cig |= set(re.findall(r"\b[0-9A-Z]{10}\b", _valore(campi, mappa.get("cig")).upper()))
+
+    link = (campi.get("link") or "").strip()
+    link = requote_uri(link) if link else None
+    chiave = _valore(campi, mappa.get("id")) or (campi.get("guid") or link or titolo).strip()
+    if not _valore(campi, mappa.get("id")):
+        chiave = hashlib.sha1(chiave.encode("utf-8")).hexdigest()[:12]
 
     return Opportunita(
-        id=f"{feed['sigla']}:{identificativo}",
+        id=f"{feed['sigla']}:{chiave}",
         fonti=[feed["nome_fonte"]],
         titolo=titolo,
         ente=ente,
         scadenza=scadenza,
-        pubblicazione=parse_data(campi.get("pubdate") or campi.get("published") or campi.get("date")),
+        pubblicazione=parse_data(_valore(campi, mappa.get("pubblicazione"))
+                                 or campi.get("pubdate") or campi.get("published")),
         importo=importo,
-        cig=sorted(set(c.upper() for c in RE_CIG.findall(tutto))),
-        tipo=feed.get("tipo"),
+        cpv=cpv,
+        cig=sorted(cig),
+        tipo=feed.get("tipo") or _valore(campi, mappa.get("tipo")) or None,
         link=link,
         regione=feed.get("regione"),
         motivo_match=motivo,
