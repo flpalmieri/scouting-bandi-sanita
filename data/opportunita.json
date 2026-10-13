@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-10-13T14:42:09+00:00",
- "totale": 20,
+ "aggiornato_il": "2026-10-13T15:27:54+00:00",
+ "totale": 21,
  "opportunita": [
   {
    "id": "ted:488543-2026",
@@ -446,6 +446,26 @@
    "regione": "Umbria",
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "uslumbria2:5137a51e173c",
+   "fonti": [
+    "USL Umbria 2"
+   ],
+   "titolo": "PROGRAMMAZIONE TRIENNALE PER L'ACQUISIZIONE DI FORNITURE E SERVIZI PER GLI ANNI 2026-2027 E 2028",
+   "ente": "USL Umbria 2",
+   "scadenza": null,
+   "pubblicazione": null,
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "programmazione acquisti",
+   "link": "https://www.uslumbria2.it/atti/programmazione-triennale-per-lacquisizione-di-forniture-e-servizi-per-gli-anni-2026-2027-e-2028",
+   "regione": "Umbria",
+   "motivo_match": "Programmazione acquisti di un ente sanitario: consultala per le gare IT in arrivo",
+   "descrizione": "DATA SCADENZA: \nTIPOLOGIA: \nIMPORTO: ",
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   }
