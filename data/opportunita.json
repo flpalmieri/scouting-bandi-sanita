@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-10-13T13:28:20+00:00",
- "totale": 19,
+ "aggiornato_il": "2026-10-13T13:56:34+00:00",
+ "totale": 16,
  "opportunita": [
   {
    "id": "ted:488543-2026",
@@ -22,6 +22,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/488543-2026",
    "regione": null,
    "motivo_match": "Soggetto aggregatore + CPV IT (72220000) - da verificare",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -43,6 +44,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/560269-2026",
    "regione": null,
    "motivo_match": "CPV software sanitario (48814000)",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -66,6 +68,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/505032-2026",
    "regione": null,
    "motivo_match": "Soggetto aggregatore + CPV IT (72000000) - da verificare",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -87,6 +90,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/529363-2026",
    "regione": null,
    "motivo_match": "Soggetto aggregatore + CPV IT (72253000) - da verificare",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -109,6 +113,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/552990-2026",
    "regione": null,
    "motivo_match": "Ente sanitario + CPV IT (72212760)",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -130,27 +135,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/576256-2026",
    "regione": null,
    "motivo_match": "Ente sanitario + CPV IT (48460000)",
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-13"
-  },
-  {
-   "id": "ted:605356-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "PROCEDURA APERTA (A RILEVANZA COMUNITARIA) PER L’APPALTO MEDIANTE SOTTOSCRIZIONE DI UN ACCORDO QUADRO DEL SERVIZIO DI SUPPORTO ALLA GESTIONE DEL CENTRO INNOVAZIONE E TECNOLOGIE",
-   "ente": "Centrale Unica di Committenza Area Vasta Brescia - Provincia di Brescia",
-   "scadenza": "2026-10-05",
-   "pubblicazione": "2026-09-02",
-   "importo": 650000.0,
-   "cpv": [
-    "72600000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/605356-2026",
-   "regione": null,
-   "motivo_match": "Soggetto aggregatore + CPV IT (72600000) - da verificare",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -172,6 +157,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/603211-2026",
    "regione": null,
    "motivo_match": "Ente sanitario + CPV IT (48100000)",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -193,6 +179,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/549088-2026",
    "regione": null,
    "motivo_match": "Ente sanitario + CPV IT (48000000)",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -215,58 +202,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/621105-2026",
    "regione": null,
    "motivo_match": "Ente sanitario + CPV IT (72000000)",
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-13"
-  },
-  {
-   "id": "ted:566426-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "Servizio di Gestione del Sistema Telematico Acquisti Regionale della Toscana (START)",
-   "ente": "SOGGETTO AGGREGATORE REGIONE TOSCANA - SETTORE SISTEMA CLOUD TOSCANO, INFRASTRUTTURE DIGITALI E PIATTAFORME ABILITANTI",
-   "scadenza": "2026-10-14",
-   "pubblicazione": "2026-08-17",
-   "importo": 8571100.0,
-   "cpv": [
-    "72260000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/566426-2026",
-   "regione": null,
-   "motivo_match": "Soggetto aggregatore + CPV IT (72260000) - da verificare",
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-13"
-  },
-  {
-   "id": "ted:539014-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "FORNITURA DI BENI E SERVIZI PER LA GESTIONE INTEGRATA DELLE POSTAZIONI DI LAVORO (PDL) SUDDIVISA IN 5 LOTTI",
-   "ente": "SOGGETTO AGGREGATORE REGIONE TOSCANA - SERVIZI IT E INFRASTRUTTURE DIGITALI INTERNE",
-   "scadenza": "2026-10-26",
-   "pubblicazione": "2026-08-04",
-   "importo": 74414859.92,
-   "cpv": [
-    "30213000",
-    "30213100",
-    "30237200",
-    "48100000",
-    "48300000",
-    "48331000",
-    "48730000",
-    "48900000",
-    "72100000",
-    "72610000",
-    "72611000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/539014-2026",
-   "regione": null,
-   "motivo_match": "Soggetto aggregatore + CPV IT (48100000) - da verificare",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -288,6 +224,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/654909-2026",
    "regione": null,
    "motivo_match": "Ente sanitario + CPV IT (72250000)",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -313,6 +250,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/660706-2026",
    "regione": null,
    "motivo_match": "Ente sanitario + CPV IT (48000000)",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -334,6 +272,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/669839-2026",
    "regione": null,
    "motivo_match": "Soggetto aggregatore + CPV IT (48611000) - da verificare",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -356,6 +295,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/674254-2026",
    "regione": null,
    "motivo_match": "Soggetto aggregatore + CPV IT (48730000) - da verificare",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -377,6 +317,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/670003-2026",
    "regione": null,
    "motivo_match": "Oggetto sanitario ('Cartella Clinica') + CPV IT (72000000)",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -398,6 +339,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/683594-2026",
    "regione": null,
    "motivo_match": "Oggetto sanitario ('Clinic') + CPV IT (72260000)",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -419,6 +361,7 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/560155-2026",
    "regione": null,
    "motivo_match": "Oggetto sanitario ('ospedal') + CPV IT (72250000)",
+   "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   }

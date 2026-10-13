@@ -1,18 +1,18 @@
 {
-  "eseguito_il": "2026-10-13T13:28:20+00:00",
+  "eseguito_il": "2026-10-13T13:56:34+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
-      "pertinenti": 32
+      "pertinenti": 1
     },
-    "anac": {
-      "esito": "errore",
-      "pertinenti": 0
+    "portali_rss": {
+      "esito": "ok",
+      "pertinenti": 5
     }
   },
   "errori": [
-    "anac: 403 Client Error: Forbidden for url: https://dati.anticorruzione.it/opendata/api/3/action/package_show?id=cig-2026. Il portale blocca l'API: compila 'anac.url_file_pattern' in config.yaml per scaricare direttamente i file mensili."
+    "portali_rss: EmPULIA bandi: HTTPSConnectionPool(host='eproc.empulia.it', port=443): Max retries exceeded with url: /portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=20&nPag=7 (Caused by ResponseError('too many 500 error responses'))"
   ],
-  "nuove_opportunita": 18,
-  "totale": 19
+  "nuove_opportunita": 0,
+  "totale": 16
 }

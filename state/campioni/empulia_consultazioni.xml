@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:afs="http://www.aflink.it/XMLBANDI">
+<channel>
+<title>Elenco dei bandi di gara In Corso</title>
+<ttl>15</ttl>
+<description>Bandi pubblici portale</description>
+<language>IT-it</language>
+<afs:totRecord>666</afs:totRecord>
+<item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2909646&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-26T10:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>09/10/2026</pubDate>
+	
+	<description>
+Consultazione preliminare di mercato, indetta ai sensi dell’art. 77 del D. Lgs 36/2023 e s.m.i., per la fornitura di un Sistema di sequenziamento per l’analisi dell’intero genoma umano e per l’intero esoma basato su long reads.&lt;strong&gt;Scadenza : 26/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[Consultazione preliminare di mercato, indetta ai sensi dell’art. 77 del D. Lgs 36/2023 e s.m.i., per la fornitura di un Sistema di sequenziamento per l’analisi dell’intero genoma umano e per l’intero esoma basato su long reads.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[A.O.U. Ospedali Riuniti FOGGIA ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-26T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2909646]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[CPM Sistema Sequenziamento Long]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-09T12:32:04.300]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-09T12:32:04]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2903407&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-22T13:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>07/10/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Consultazione preliminare di mercato, indetta ai sensi dell’art. 77 del D. Lgs 36/2023 e s.m.i., per la fornitura di “Alcoli e reattivi per laboratorio”.&lt;strong&gt;Scadenza : 22/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Consultazione preliminare di mercato, indetta ai sensi dell’art. 77 del D. Lgs 36/2023 e s.m.i., per la fornitura di “Alcoli e reattivi per laboratorio”.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[A.O.U. Ospedali Riuniti FOGGIA ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-22T13:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2903407]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[“Alcoli e reattivi per laboratorio”]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-08T09:46:56.727]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-07T13:54:57]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2909669&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-21T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>09/10/2026</pubDate>
+	
+	<description>
+AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO ai sensi dell’art. 77 del D.lgs. 36/2023 s.m.i.: acquisizione di sistemi di “Energy Device”, funzionali alle attivit&#224; chirurgiche dei Dipartimenti dell&#39;ASL BA
+&lt;strong&gt;Scadenza : 21/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO ai sensi dell’art. 77 del D.lgs. 36/2023 s.m.i.: acquisizione di sistemi di “Energy Device”, funzionali alle attività chirurgiche dei Dipartimenti dell'ASL BA
+]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-21T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2909669]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[consultazione preliminare sistemi Energy Device ASL BA]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-09T12:51:19.967]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-09T12:51:19]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2848448&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-19T09:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>02/10/2026</pubDate>
+	
+	<description>
+Avviso di una consultazione preliminare di mercato ai fini dell’acquisizione di manifestazione di interesse necessario all’acquisizione di n.1 Sistema di Elettroporazione Irreversibile (IRE), compreso lo Starter Kit costituito da n.6 elettrodi attivatori necessario all’UOC di Radiologia Diagnostica ed Interventistica, nell’ambito del Programma Operativo Complementare (POC)/POR Puglia 14-20 (FESR) - DGR n.910 del 30/06/2026. CUP G29I26001150006.14/&lt;strong&gt;Scadenza : 19/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[Avviso di una consultazione preliminare di mercato ai fini dell’acquisizione di manifestazione di interesse necessario all’acquisizione di n.1 Sistema di Elettroporazione Irreversibile (IRE), compreso lo Starter Kit costituito da n.6 elettrodi attivatori necessario all’UOC di Radiologia Diagnostica ed Interventistica, nell’ambito del Programma Operativo Complementare (POC)/POR Puglia 14-20 (FESR) - DGR n.910 del 30/06/2026. CUP G29I26001150006.14/]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[IRCCS “S. De Bellis” ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-19T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2848448]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[all’acquisizione di n.1 Sistema di Elettroporazione Irreversibile (IRE) ]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-02T10:21:47.697]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-02T10:21:47]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2799364&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-16T10:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>29/09/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Consultazione preliminare di mercato ai sensi dell’art. 77 e 78 del D.lgs. n. 36/2023 per l’affidamento, a seguito di successiva indizione di procedura di gara, della fornitura di Dispositivi Medici per Oftalmologia in Unione Temporanea di Acquisto tra la ASL FG e l’Azienda Ospedaliero-Universitaria Policlinico di Foggia&lt;strong&gt;Scadenza : 16/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Consultazione preliminare di mercato ai sensi dell’art. 77 e 78 del D.lgs. n. 36/2023 per l’affidamento, a seguito di successiva indizione di procedura di gara, della fornitura di Dispositivi Medici per Oftalmologia in Unione Temporanea di Acquisto tra la ASL FG e l’Azienda Ospedaliero-Universitaria Policlinico di Foggia]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[A.O.U. Ospedali Riuniti FOGGIA ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-16T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2799364]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[DISPOSITIVI MEDICI PER OFTALMOLOGIA]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-12T16:58:38.847]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-29T14:11:21]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2635454&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-15T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>07/07/2026</pubDate>
+	
+	<description>
+CONSULTAZIONE PRELIMINARE DI MERCATO, EX ART. 77 DEL D.LGS. N. 36 /2023, FINALIZZATA ALL’INDIZIONE DI UNA GARA TELEMATICA AVENTE AD OGGETTO L’AFFIDAMENTO DEL “SERVIZIO DI ELISOCCORSO (HEMS-HHO-HAA) INTEGRATO CON SERVIZIO DI EMERGENZA SANITARIA 118 PER LA REGIONE PUGLIA”.&lt;strong&gt;Scadenza : 15/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[CONSULTAZIONE PRELIMINARE DI MERCATO, EX ART. 77 DEL D.LGS. N. 36 /2023, FINALIZZATA ALL’INDIZIONE DI UNA GARA TELEMATICA AVENTE AD OGGETTO L’AFFIDAMENTO DEL “SERVIZIO DI ELISOCCORSO (HEMS-HHO-HAA) INTEGRATO CON SERVIZIO DI EMERGENZA SANITARIA 118 PER LA REGIONE PUGLIA”.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[InnovaPuglia S.p.A.]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-15T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2635454]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[CONSULTAZIONE PRELIMINARE DI MERCATO “SERVIZIO DI ELISOCCORSO (HEMS-HHO-HAA) ]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-07-07T16:08:12.700]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-07-07T16:08:12]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2909743&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-14T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>09/10/2026</pubDate>
+	
+	<description>
+Avviso di consultazione preliminare di mercato, propedeutica all’affidamento della fornitura triennale di FILTRI PER PLASMAFERESI PRISMAFLEX TPE1000 e PRISMAFLEX TPE2000 utilizzati con Monitor Prismax per utenza pediatrica da destinare alla U.O.S.D. Nefrologia e Dialisi Pediatrica dell’ Ospedale Pediatrico Giovanni XXIII. &lt;strong&gt;Scadenza : 14/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[Avviso di consultazione preliminare di mercato, propedeutica all’affidamento della fornitura triennale di FILTRI PER PLASMAFERESI PRISMAFLEX TPE1000 e PRISMAFLEX TPE2000 utilizzati con Monitor Prismax per utenza pediatrica da destinare alla U.O.S.D. Nefrologia e Dialisi Pediatrica dell’ Ospedale Pediatrico Giovanni XXIII. ]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[A.O.U. Policlinico BARI ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-14T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2909743]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Filtri per Plasmaferesi PRISMAFLEX TPE1000 e PRISMAFLEX TPE2000]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-12T10:37:20.240]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-09T12:13:09]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2734004&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-12T09:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>23/09/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Manifestazione di interesse finalizzata all’acquisizione di dispositivi diagnostici di ultima generazione, non basati sull’impiego di radiazioni ionizzanti, destinati alle attivit&#224; di prevenzione, diagnosi precoce e valutazione del rischio di fragilit&#224; ossea.&lt;strong&gt;Scadenza : 12/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Manifestazione di interesse finalizzata all’acquisizione di dispositivi diagnostici di ultima generazione, non basati sull’impiego di radiazioni ionizzanti, destinati alle attività di prevenzione, diagnosi precoce e valutazione del rischio di fragilità ossea.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-12T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2734004]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[1]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[1]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[ecografi_DARE]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-12T15:32:54.427]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-23T13:10:56]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2709287&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-09T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>07/09/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO: DISPOSITIVI MEDICI PER ANESTESIA E RIANIMAZIONE&lt;strong&gt;Scadenza : 09/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO: DISPOSITIVI MEDICI PER ANESTESIA E RIANIMAZIONE]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-09T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2709287]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[DISPOSITIVI MEDICI PER ANESTESIA E RIANIMAZIONE]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-09T11:56:37.020]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-07T14:15:04]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2727382&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-05T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>18/09/2026</pubDate>
+	
+	<description>
+CONSULTAZIONE PRELIMINARE DI MERCATO AI SENSI DELL’ART.77 DEL D.LGS.N.36/2023 PER LA VERIFICA DI INFUNGIBILITA’ PER L’ACQUISIZIONE IN NOLEGGIO PER LA DURATA DI MESI 60 DI UNO STRUMENTO ANALITICO CON TECNICA NEFELOMETRICA PER LA DIAGNOSTICA LIQUORALE DA INSTALLARE PRESSO IL LABORATORIO DI NEUROCHIMICA DELL’U.O.C. NEUROFISIOPATOLOGIA DELL’ A.O.U.C. POLICLINICO DI BARI.&lt;strong&gt;Scadenza : 05/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[CONSULTAZIONE PRELIMINARE DI MERCATO AI SENSI DELL’ART.77 DEL D.LGS.N.36/2023 PER LA VERIFICA DI INFUNGIBILITA’ PER L’ACQUISIZIONE IN NOLEGGIO PER LA DURATA DI MESI 60 DI UNO STRUMENTO ANALITICO CON TECNICA NEFELOMETRICA PER LA DIAGNOSTICA LIQUORALE DA INSTALLARE PRESSO IL LABORATORIO DI NEUROCHIMICA DELL’U.O.C. NEUROFISIOPATOLOGIA DELL’ A.O.U.C. POLICLINICO DI BARI.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[A.O.U. Policlinico BARI ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-05T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2727382]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-02T15:49:23.843]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-18T12:12:06]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2729863&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-05T10:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>23/09/2026</pubDate>
+	
+	<description>
+Richiesta di partecipazione alla consultazione preliminare di mercato sul portale telematico Empulia per la fornitura di dispositivi per la terapia endoscopica a pressione negativa, ESO-SPONGE da utilizzare presso la UOC di Chirurgia Generale del PO San Paolo.&lt;strong&gt;Scadenza : 05/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[Richiesta di partecipazione alla consultazione preliminare di mercato sul portale telematico Empulia per la fornitura di dispositivi per la terapia endoscopica a pressione negativa, ESO-SPONGE da utilizzare presso la UOC di Chirurgia Generale del PO San Paolo.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-05T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2729863]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[ESO-SPONGE ]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-09-29T16:48:41.660]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-23T09:03:40]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2730458&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-05T09:00:30]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>22/09/2026</pubDate>
+	
+	<description>
+Avviso di consultazione preliminare di mercato ai sensi dell’art. 77 D. Lgs 36/2023, per “Kit per Pericardiocentesi” occorrenti all’ U.O.S,D. Emodinamica e Cardiologia Interventistica.&lt;strong&gt;Scadenza : 05/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[Avviso di consultazione preliminare di mercato ai sensi dell’art. 77 D. Lgs 36/2023, per “Kit per Pericardiocentesi” occorrenti all’ U.O.S,D. Emodinamica e Cardiologia Interventistica.]]></afs:Oggetto>
+    <afs:Tip
