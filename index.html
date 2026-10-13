@@ -124,6 +124,7 @@
   .etichetta { display: inline-block; font-size: .75rem; padding: 1px 7px; border-radius: 4px; border: 1px solid var(--linea); color: var(--tenue); }
   .etichetta.nuovo { border-color: var(--accento); color: var(--accento); }
   .etichetta.verifica { border-color: var(--presto); color: var(--presto); }
+  .etichetta.infungibile { border-color: var(--urgente); color: var(--urgente); font-weight: 600; cursor: help; }
   .motivo { font-size: .8rem; color: var(--tenue); margin: 6px 0 0; }
   .stato { display: grid; gap: 6px; font-size: .8rem; color: var(--tenue); }
   .stato .data { font: 500 .9rem var(--cifre); color: var(--inchiostro); }
@@ -270,7 +271,8 @@
     return tutte.filter(function (o) {
       if (fonte && o.fonti.indexOf(fonte) < 0) return false;
       if (regione && (o.regione || "Non indicata") !== regione) return false;
-      if (tipo && etichettaTipo(o) !== tipo) return false;
+      if (tipo === "_infungibile") { if (!infungibile(o)) return false; }
+      else if (tipo && etichettaTipo(o) !== tipo) return false;
       var s = statiSalvati[o.id] || "";
       if (stato === "attivi" && s === "scartata") return false;
       if (stato === "_da" && s !== "") return false;
@@ -340,6 +342,13 @@
     });
   }
 
+  var RE_INFUNGIBILE = /infungibil|esclusivit|assenza\s+di\s+concorrenza/i;
+  function infungibile(o) {
+    return RE_INFUNGIBILE.test((o.titolo || "") + " " + (o.descrizione || ""));
+  }
+  var SPIEGAZIONE_INFUNGIBILE = "L'ente intende affidare direttamente al fornitore attuale, ritenendo che non esistano alternative. " +
+    "Se hai una soluzione equivalente puoi rispondere all'avviso entro la scadenza e chiedere che si faccia una gara.";
+
   function riga(o) {
     var g = giorni(o);
     var grp = gruppo(g);
@@ -367,7 +376,10 @@
       (o.cig && o.cig.length) ? el("dt", { testo: "CIG" }) : null,
       (o.cig && o.cig.length) ? el("dd", { testo: "CIG " + o.cig.join(", ") }) : null,
       nuovo ? el("dd", {}, [el("span", { classe: "etichetta nuovo", testo: "Nuovo" })]) : null,
-      daVerificare ? el("dd", {}, [el("span", { classe: "etichetta verifica", testo: "Da verificare" })]) : null
+      daVerificare ? el("dd", {}, [el("span", { classe: "etichetta verifica", testo: "Da verificare" })]) : null,
+      infungibile(o) ? el("dd", {}, [el("span", { classe: "etichetta infungibile", tabindex: "0",
+        title: SPIEGAZIONE_INFUNGIBILE, "aria-label": "Infungibilità, contestabile. " + SPIEGAZIONE_INFUNGIBILE,
+        testo: "Infungibilità – contestabile" })]) : null
     ]);
 
     var select = el("select", { "aria-label": "Stato di lavorazione" });
@@ -501,6 +513,7 @@
       opzioni(document.getElementById("f-fonte"), unici(function (o) { return o.fonti; }), "Tutte");
       opzioni(document.getElementById("f-regione"), unici(function (o) { return o.regione || "Non indicata"; }), "Tutte");
       opzioni(document.getElementById("f-tipo"), unici(etichettaTipo), "Tutti");
+      document.getElementById("f-tipo").appendChild(el("option", { value: "_infungibile", testo: "Solo infungibilità" }));
       var stato = document.getElementById("f-stato");
       stato.appendChild(el("option", { value: "_da", testo: "Solo: da valutare" }));
       STATI.forEach(function (s) { if (s[0]) stato.appendChild(el("option", { value: s[0], testo: "Solo: " + s[1].toLowerCase() })); });
