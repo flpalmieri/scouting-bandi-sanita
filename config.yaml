@@ -1,0 +1,113 @@
+# =====================================================================
+#  Scouting bandi software / IT in ambito sanitario - configurazione
+# =====================================================================
+
+# --- Filtro CPV --------------------------------------------------------
+# Un avviso passa il filtro CPV se almeno uno dei suoi codici inizia con
+# uno di questi prefissi (si confrontano solo le cifre, senza "-x").
+cpv_prefissi:
+  - "48"        # Pacchetti software e sistemi di informazione
+  - "72"        # Servizi informatici: consulenza, sviluppo, Internet, supporto
+  # - "302"     # Apparecchiature informatiche (decommenta se ti interessa l'hardware)
+  # - "64216"   # Servizi di messaggistica e informazione elettronica
+
+# CPV che vengono inclusi SEMPRE, anche se l'ente non risulta sanitario.
+cpv_sempre_inclusi:
+  - "48180000"  # Pacchetti software medici
+  - "48814000"  # Sistemi di informazione medica
+
+# --- Riconoscimento enti sanitari -------------------------------------
+# Espressioni regolari (case-insensitive) sul nome della stazione appaltante.
+enti_sanitari_regex:
+  - '\bA\.?S\.?L\b'
+  - '\bA\.?S\.?P\b'
+  - '\bASST\b'
+  - '\bATS\b'
+  - '\bA\.?U\.?S\.?L\b'
+  - '\bU\.?L\.?S\.?S\b'
+  - '\bU\.?S\.?L\b'
+  - '\bASU\s?(FC|GI)\b'
+  - '\bAST\b'
+  - '\bASUR\b'
+  - '\bARCS\b'
+  - '\bAREU\b'
+  - '\bIRCCS\b'
+  - 'azienda\s+(socio[\s-]?)?sanitari'
+  - 'azienda\s+(universitari\w*\s+)?ospedalier'
+  - 'ospedal'
+  - 'policlinic'
+  - 'istituto\s+zooprofilattico'
+  - 'istituto\s+(nazionale\s+)?(dei\s+)?tumori'
+  - 'azienda\s+zero'
+  - '\bESTAR\b'
+  - 'so\.?re\.?sa'
+  - 'intercent'
+  - '\bARIA\s+S\.?P\.?A'
+  - 'servizio\s+sanitario'
+  - 'agenzia\s+regionale.*salute'
+
+# Parole chiave sul titolo/oggetto che indicano un contesto sanitario
+# (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
+parole_chiave_sanita_regex:
+  - 'sanitari'
+  - 'ospedal'
+  - 'clinic'
+  - 'telemedicin'
+  - 'telemonitor'
+  - 'teleconsult'
+  - 'fascicolo\s+sanitario'
+  - '\bFSE\b'
+  - 'cartella\s+clinica'
+  - '\bRIS\b'
+  - '\bPACS\b'
+  - '\bLIS\b'
+  - '\bCUP\b'
+  - 'pronto\s+soccorso'
+  - 'farmac'
+  - 'pazient'
+  - 'ricoveri'
+  - 'ambulatori'
+  - 'dossier\s+sanitario'
+  - 'medicina\s+(generale|territoriale)'
+  - 'case\s+della\s+comunit'
+  - 'centrali\s+operative\s+territoriali|\bCOT\b'
+
+# Esclusioni: se il titolo contiene una di queste, l'avviso viene scartato.
+esclusioni_regex:
+  - 'pulizi'
+  - 'ristorazion'
+  - 'lavanderi'
+  - 'vigilanza\s+armata'
+
+# --- TED (Tenders Electronic Daily) -----------------------------------
+ted:
+  abilitato: true
+  url: "https://api.ted.europa.eu/v3/notices/search"
+  finestra_giorni: 10          # quanti giorni indietro guardare a ogni esecuzione
+  max_pagine: 40               # 250 avvisi per pagina
+  # Tipi di avviso da tenere (prefissi): cn = bando, pin = preinformazione.
+  # Aggiungi "can" per raccogliere anche le aggiudicazioni.
+  tipi_avviso_prefissi: ["cn", "pin"]
+  campi:
+    - publication-number
+    - publication-date
+    - notice-title
+    - buyer-name
+    - classification-cpv
+    - deadline-receipt-tender-date-lot
+    - notice-type
+    - estimated-value-lot
+    - links
+
+# --- ANAC open data (dataset CIG) -------------------------------------
+anac:
+  abilitato: true
+  base_url: "https://dati.anticorruzione.it/opendata"
+  dataset_pattern: "cig-{anno}"    # id del dataset CKAN, un dataset per anno
+  mesi_da_elaborare: 2             # al primo avvio, quanti file mensili recenti leggere
+  solo_aperte: true                # tieni solo gare con scadenza offerta futura
+  includi_senza_scadenza: false
+
+# --- Conservazione -----------------------------------------------------
+giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
+giorni_conservazione_senza_scadenza: 120
