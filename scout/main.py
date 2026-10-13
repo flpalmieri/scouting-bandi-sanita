@@ -19,12 +19,12 @@ from pathlib import Path
 
 import yaml
 
-from . import anac, ted
+from . import anac, portali_rss, ted
 from .common import (Filtro, Opportunita, chiave_testo, log, pulisci_titolo,
                      sessione_http)
 
 DATA = Path("data")
-FONTI = {"ted": ted.raccogli, "anac": anac.raccogli}
+FONTI = {"ted": ted.raccogli, "anac": anac.raccogli, "portali_rss": portali_rss.raccogli}
 NOMI_CAMPI = {f.name for f in fields(Opportunita)}
 
 
@@ -86,7 +86,7 @@ def rivaluta(tutte: dict[str, Opportunita], filtro: Filtro) -> dict[str, Opportu
     tenute = {}
     for k, o in tutte.items():
         o.titolo = pulisci_titolo(o.titolo)
-        motivo = filtro.valuta(o.titolo, o.ente, o.cpv)
+        motivo = filtro.valuta_opportunita(o)
         if motivo:
             o.motivo_match = motivo
             tenute[k] = o
@@ -161,6 +161,7 @@ def main() -> int:
             riepilogo["fonti"][nome] = {"esito": "errore", "pertinenti": 0}
             riepilogo["errori"].append(f"{nome}: {e}")
     riepilogo["errori"].extend(f"anac: {e}" for e in anac.ERRORI)
+    riepilogo["errori"].extend(f"portali_rss: {e}" for e in portali_rss.ERRORI)
 
     storico = carica_storico()
     prima = set(storico)

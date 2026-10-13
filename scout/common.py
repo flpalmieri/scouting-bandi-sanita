@@ -29,6 +29,7 @@ class Opportunita:
     link: str | None = None
     regione: str | None = None
     motivo_match: str = ""
+    descrizione: str | None = None       # testo aggiuntivo (fonti senza CPV)
     primo_rilevamento: str | None = None
     ultimo_rilevamento: str | None = None
 
@@ -163,6 +164,7 @@ class Filtro:
         self.re_sanita = self._compila(cfg.get("parole_chiave_sanita_regex"))
         self.re_escl = self._compila(cfg.get("esclusioni_regex"))
         self.re_aggr = self._compila(cfg.get("aggregatori_misti_regex"))
+        self.re_it = self._compila(cfg.get("parole_chiave_it_regex"))
 
     @staticmethod
     def _compila(lista):
@@ -191,3 +193,30 @@ class Filtro:
         if self.re_aggr and self.re_aggr.search(ente):
             return f"Soggetto aggregatore + CPV IT ({it[0]}) - da verificare"
         return None
+
+    def valuta_testo(self, titolo: str, ente: str, descrizione: str = "") -> str | None:
+        """Filtro per fonti senza CPV (es. feed RSS dei portali regionali):
+        l'oggetto deve parlare di informatica e il contesto deve essere sanitario."""
+        titolo, ente = titolo or "", ente or ""
+        testo_completo = f"{titolo} {descrizione or ''}"
+        if self.re_escl and self.re_escl.search(titolo):
+            return None
+        m_it = self.re_it.search(testo_completo) if self.re_it else None
+        if not m_it:
+            return None
+        parola = m_it.group(0).strip()
+        if self.re_ente and self.re_ente.search(ente):
+            return f"Ente sanitario + oggetto IT ('{parola}')"
+        if self.re_sanita:
+            m = self.re_sanita.search(testo_completo)
+            if m:
+                return f"Oggetto sanitario ('{m.group(0)}') + oggetto IT ('{parola}')"
+        if self.re_aggr and self.re_aggr.search(ente):
+            return f"Soggetto aggregatore + oggetto IT ('{parola}') - da verificare"
+        return None
+
+    def valuta_opportunita(self, o) -> str | None:
+        """Sceglie il filtro giusto in base ai dati disponibili."""
+        if o.cpv:
+            return self.valuta(o.titolo, o.ente, o.cpv)
+        return self.valuta_testo(o.titolo, o.ente, o.descrizione or "")
