@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bandi software in sanità</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🩺</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --sfondo: #F3F6F6;
+    --superficie: #FFFFFF;
+    --inchiostro: #17303A;
+    --tenue: #5B6F78;
+    --linea: #D5DFE1;
+    --accento: #0E7C6B;
+    --urgente: #B42318;
+    --presto: #A15C07;
+    --avanti: #0E7C6B;
+    --neutro: #8197A0;
+    --evidenza: #FFF4D6;
+    --testo: "IBM Plex Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+    --cifre: "IBM Plex Sans Condensed", "Arial Narrow", "IBM Plex Sans", system-ui, sans-serif;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --sfondo: #0F1D22;
+      --superficie: #152830;
+      --inchiostro: #E3ECEE;
+      --tenue: #9AB0B8;
+      --linea: #26404A;
+      --accento: #3CC2A9;
+      --urgente: #F27A6C;
+      --presto: #E3A447;
+      --avanti: #3CC2A9;
+      --neutro: #7D949C;
+      --evidenza: #3A3517;
+    }
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  html { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 16px); }
+  body {
+    margin: 0; background: var(--sfondo); color: var(--inchiostro);
+    font: 15px/1.5 var(--testo); -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .pagina { max-width: 1180px; margin: 0 auto; padding: 28px 20px 64px; }
+
+  /* Testata */
+  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; }
+  h1 { font: 600 1.6rem/1.2 var(--testo); margin: 0; letter-spacing: -0.01em; }
+  .sintesi { margin: 6px 0 0; color: var(--tenue); max-width: 70ch; }
+  .sintesi strong { color: var(--inchiostro); font-weight: 600; }
+  .aggiornato { color: var(--tenue); font-size: .85rem; }
+
+  /* Pista delle scadenze */
+  .pista { margin: 28px 0 8px; background: var(--superficie); border: 1px solid var(--linea); border-radius: 10px; padding: 18px 20px 12px; }
+  .pista h2 { font: 500 .95rem var(--testo); margin: 0 0 14px; color: var(--tenue); }
+  .binario { position: relative; height: 64px; }
+  .binario .asse { position: absolute; left: 0; right: 0; top: 36px; height: 2px; background: var(--linea); }
+  .binario .soglia { position: absolute; top: 0; bottom: 18px; border-left: 1px dashed var(--linea); }
+  .binario .tacca { position: absolute; top: 46px; font: 500 .75rem var(--cifre); color: var(--tenue); transform: translateX(-50%); white-space: nowrap; }
+  .binario .tacca.primo { transform: none; }
+  .binario .tacca.ultimo { transform: translateX(-100%); }
+  .punto {
+    position: absolute; width: 14px; height: 14px; margin-left: -7px; border-radius: 50%;
+    border: 2px solid var(--superficie); cursor: pointer; padding: 0;
+    background: var(--colore, var(--neutro));
+  }
+  .punto:hover, .punto:focus-visible { transform: scale(1.35); outline: none; box-shadow: 0 0 0 2px var(--colore); }
+  .legenda { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: .8rem; color: var(--tenue); margin-top: 4px; }
+  .legenda span::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; background: var(--c); vertical-align: 0; }
+
+  /* Filtri */
+  .filtri { display: grid; grid-template-columns: minmax(200px, 2fr) repeat(4, minmax(130px, 1fr)); gap: 10px; margin: 22px 0 6px; }
+  .filtri label { display: grid; gap: 3px; font-size: .78rem; color: var(--tenue); }
+  .filtri input, .filtri select, .stato select {
+    font: inherit; font-size: .9rem; color: var(--inchiostro); background: var(--superficie);
+    border: 1px solid var(--linea); border-radius: 6px; padding: 7px 9px; width: 100%;
+  }
+  .filtri input:focus-visible, .filtri select:focus-visible, .stato select:focus-visible, a:focus-visible, button:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--accento); outline-offset: 2px;
+  }
+  .conteggio { font-size: .85rem; color: var(--tenue); margin: 8px 0 0; }
+
+  /* Gruppi */
+  section.gruppo { margin-top: 30px; }
+  .gruppo > h2, .gruppo > details > summary {
+    font: 600 1.05rem var(--testo); margin: 0 0 8px; display: flex; align-items: baseline; gap: 10px;
+    border-bottom: 2px solid var(--colore); padding-bottom: 6px;
+  }
+  .gruppo > details > summary { cursor: pointer; list-style: none; }
+  .gruppo > details > summary::-webkit-details-marker { display: none; }
+  .gruppo > details > summary::after { content: "Mostra"; margin-left: auto; font: 500 .8rem var(--testo); color: var(--tenue); }
+  .gruppo > details[open] > summary::after { content: "Nascondi"; }
+  .gruppo .n { font: 500 .9rem var(--cifre); color: var(--tenue); }
+  .gruppo .vuoto { color: var(--tenue); font-size: .9rem; margin: 10px 0; }
+
+  /* Righe */
+  ol.elenco { list-style: none; margin: 0; padding: 0; }
+  .riga {
+    display: grid; grid-template-columns: 76px minmax(0, 1fr) 190px; gap: 4px 20px;
+    padding: 14px 4px; border-bottom: 1px solid var(--linea); align-items: start;
+  }
+  .riga.evidenziata { background: var(--evidenza); transition: background .6s; }
+  .riga.scartata { opacity: .5; }
+  .conto { font-family: var(--cifre); color: var(--colore); line-height: 1; text-align: right; padding-top: 2px; }
+  .conto b { display: block; font-size: 2.1rem; font-weight: 700; letter-spacing: -0.02em; }
+  .conto small { font-size: .78rem; font-weight: 500; color: var(--tenue); }
+  .corpo h3 { font: 500 1rem/1.4 var(--testo); margin: 0; overflow-wrap: anywhere; }
+  .corpo h3 a { text-decoration: none; }
+  .corpo h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .ente { margin: 3px 0 0; color: var(--tenue); font-size: .9rem; }
+  .dettagli { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 7px 0 0; font-size: .82rem; color: var(--tenue); }
+  .dettagli dt { display: none; }
+  .dettagli dd { margin: 0; }
+  .importo { font: 600 .95rem var(--cifre); color: var(--inchiostro); }
+  .etichetta { display: inline-block; font-size: .75rem; padding: 1px 7px; border-radius: 4px; border: 1px solid var(--linea); color: var(--tenue); }
+  .etichetta.nuovo { border-color: var(--accento); color: var(--accento); }
+  .etichetta.verifica { border-color: var(--presto); color: var(--presto); }
+  .motivo { font-size: .8rem; color: var(--tenue); margin: 6px 0 0; }
+  .stato { display: grid; gap: 6px; font-size: .8rem; color: var(--tenue); }
+  .stato .data { font: 500 .9rem var(--cifre); color: var(--inchiostro); }
+
+  .avviso { background: var(--superficie); border: 1px solid var(--linea); border-left: 4px solid var(--urgente); border-radius: 8px; padding: 14px 18px; margin-top: 24px; }
+  footer { margin-top: 48px; font-size: .82rem; color: var(--tenue); max-width: 75ch; }
+
+  @media (max-width: 860px) {
+    .filtri { grid-template-columns: 1fr 1fr; }
+    .filtri label:first-child { grid-column: 1 / -1; }
+    .riga { grid-template-columns: 58px minmax(0, 1fr); }
+    .stato { grid-column: 2; grid-template-columns: auto 1fr; align-items: center; }
+    .conto b { font-size: 1.7rem; }
+  }
+  @media (max-width: 600px) {
+    .binario .tacca.stretta { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; scroll-behavior: auto !important; }
+  }
+</style>
+</head>
+<body>
+<div class="pagina">
+  <header>
+    <div>
+      <h1>Bandi software in sanità</h1>
+      <p class="sintesi" id="sintesi">Caricamento delle opportunità…</p>
+    </div>
+    <p class="aggiornato" id="aggiornato"></p>
+  </header>
+
+  <section class="pista" aria-labelledby="titolo-pista">
+    <h2 id="titolo-pista">Scadenze dei prossimi 60 giorni</h2>
+    <div class="binario" id="binario"></div>
+    <div class="legenda">
+      <span style="--c: var(--urgente)">entro 7 giorni</span>
+      <span style="--c: var(--presto)">entro 30 giorni</span>
+      <span style="--c: var(--avanti)">oltre 30 giorni</span>
+    </div>
+  </section>
+
+  <div class="filtri" role="search">
+    <label>Cerca in oggetto, ente o CIG
+      <input id="f-testo" type="search" placeholder="es. telemedicina, ASL Bari">
+    </label>
+    <label>Fonte <select id="f-fonte"></select></label>
+    <label>Regione <select id="f-regione"></select></label>
+    <label>Tipo <select id="f-tipo"></select></label>
+    <label>Stato
+      <select id="f-stato">
+        <option value="attivi">Non scartati</option>
+        <option value="">Tutti</option>
+      </select>
+    </label>
+  </div>
+  <p class="conteggio" id="conteggio"></p>
+
+  <div id="gruppi"></div>
+
+  <footer>
+    <p>I dati arrivano ogni mattina da TED ed EmPULIA. Prima di partecipare verifica sempre il bando sulla piattaforma originale: importi e scadenze possono essere rettificati.</p>
+    <p>Lo stato di lavorazione che imposti qui resta salvato solo in questo browser. <a href="data/opportunita.csv">Scarica l'elenco completo in CSV</a>.</p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var STATI = [
+    ["", "Da valutare"],
+    ["interessante", "Interessante"],
+    ["preparazione", "In preparazione"],
+    ["presentata", "Offerta presentata"],
+    ["scartata", "Scartata"]
+  ];
+  var GRUPPI = [
+    { id: "urgente", titolo: "Scadono entro 7 giorni", colore: "var(--urgente)" },
+    { id: "presto", titolo: "Scadono entro 30 giorni", colore: "var(--presto)" },
+    { id: "avanti", titolo: "Scadono più avanti", colore: "var(--avanti)" },
+    { id: "senza", titolo: "Senza scadenza indicata", colore: "var(--neutro)", nota: "Spesso sono preinformazioni o procedure con termine di partecipazione separato: controlla il bando." },
+    { id: "scadute", titolo: "Scadute di recente", colore: "var(--neutro)", chiuso: true }
+  ];
+  var GIORNO = 86400000;
+  var CHIAVE_STATI = "scouting-bandi:stati";
+
+  var tutte = [];
+  var statiSalvati = leggiStati();
+  var oggi = new Date(); oggi.setHours(0, 0, 0, 0);
+
+  function leggiStati() {
+    try { return JSON.parse(localStorage.getItem(CHIAVE_STATI) || "{}") || {}; }
+    catch (e) { return {}; }
+  }
+  function salvaStato(id, valore) {
+    if (valore) statiSalvati[id] = valore; else delete statiSalvati[id];
+    try { localStorage.setItem(CHIAVE_STATI, JSON.stringify(statiSalvati)); } catch (e) { /* storage non disponibile */ }
+  }
+
+  function data(iso) {
+    if (!iso) return null;
+    var p = iso.split("-");
+    return new Date(+p[0], +p[1] - 1, +p[2]);
+  }
+  function giorni(o) {
+    var d = data(o.scadenza);
+    return d ? Math.round((d - oggi) / GIORNO) : null;
+  }
+  function gruppo(g) {
+    if (g === null) return "senza";
+    if (g < 0) return "scadute";
+    if (g <= 7) return "urgente";
+    if (g <= 30) return "presto";
+    return "avanti";
+  }
+  var euro = new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
+  var dataLunga = new Intl.DateTimeFormat("it-IT", { day: "numeric", month: "long", year: "numeric" });
+  var dataBreve = new Intl.DateTimeFormat("it-IT", { day: "numeric", month: "short" });
+
+  function el(tag, attributi, figli) {
+    var n = document.createElement(tag);
+    if (attributi) for (var k in attributi) {
+      if (k === "testo") n.textContent = attributi[k];
+      else if (k === "classe") n.className = attributi[k];
+      else n.setAttribute(k, attributi[k]);
+    }
+    (figli || []).forEach(function (f) { if (f) n.appendChild(typeof f === "string" ? document.createTextNode(f) : f); });
+    return n;
+  }
+
+  function opzioni(select, valori, etichettaTutti) {
+    select.innerHTML = "";
+    select.appendChild(el("option", { value: "", testo: etichettaTutti }));
+    valori.forEach(function (v) { select.appendChild(el("option", { value: v, testo: v })); });
+  }
+
+  function filtrate() {
+    var testo = document.getElementById("f-testo").value.trim().toLowerCase();
+    var fonte = document.getElementById("f-fonte").value;
+    var regione = document.getElementById("f-regione").value;
+    var tipo = document.getElementById("f-tipo").value;
+    var stato = document.getElementById("f-stato").value;
+    return tutte.filter(function (o) {
+      if (fonte && o.fonti.indexOf(fonte) < 0) return false;
+      if (regione && (o.regione || "Non indicata") !== regione) return false;
+      if (tipo && etichettaTipo(o) !== tipo) return false;
+      var s = statiSalvati[o.id] || "";
+      if (stato === "attivi" && s === "scartata") return false;
+      if (stato === "_da" && s !== "") return false;
+      if (stato && stato !== "attivi" && stato !== "_da" && s !== stato) return false;
+      if (testo) {
+        var dove = [o.titolo, o.ente, (o.cig || []).join(" "), o.descrizione || ""].join(" ").toLowerCase();
+        if (dove.indexOf(testo) < 0) return false;
+      }
+      return true;
+    });
+  }
+
+  function etichettaTipo(o) {
+    var t = (o.tipo || "").toLowerCase();
+    if (t.indexOf("consultazione") >= 0) return "Consultazione di mercato";
+    if (t.indexOf("pin") === 0) return "Preinformazione";
+    return "Bando";
+  }
+
+  var PAROLE_COMUNI = ("A AD AI AL ALLA ALLE AGLI ALL CON DA DAL DALLA DEI DEL DELL DELLA DELLE DEGLI DI " +
+    "E ED IL IN LA LE LO GLI NEI NEL NELLA NELLE PER SU SUL SULLA TRA FRA UN UNA UNO O OD " +
+    "CHE NON PIU MESI ANNI LOTTO LOTTI GARA ATTO ANNO ENTE OGNI SALA BENI SEDE FASE TIPO USO").split(" ");
+  var SIGLE = ("ASL ASP ASST ATS AUSL USL ULSS AOU AO AOR ASUR IRCCS ESTAR ARIA ARES AREU INAIL INPS CONSIP SOGEI " +
+    "MEF PNRR ICT CUP FSE RIS PACS LIS CDSS ERP CRM NOC SOC SIEM SAAS PAAS IAAS AI IT UE").split(" ");
+  function tuttoMaiuscolo(t) {
+    var lettere = t.replace(/[^A-Za-zÀ-ÿ]/g, "");
+    return lettere.length >= 6 && lettere.replace(/[^A-ZÀ-Þ]/g, "").length / lettere.length > 0.75;
+  }
+  function eSigla(w, dentroParentesi) {
+    var W = w.toUpperCase();
+    if (SIGLE.indexOf(W) >= 0) return true;
+    if (w.length < 2 || PAROLE_COMUNI.indexOf(W) >= 0) return false;
+    return w.length <= 3 || (dentroParentesi && w.length <= 6);
+  }
+  function sostituisciParole(t, fn) {
+    var profondita = 0, out = "", i = 0;
+    t.replace(/([A-Za-zÀ-ÿ]+)|([^A-Za-zÀ-ÿ]+)/g, function (m, parola, altro) {
+      if (altro) {
+        for (var k = 0; k < altro.length; k++) {
+          if (altro[k] === "(") profondita++;
+          if (altro[k] === ")") profondita = Math.max(0, profondita - 1);
+        }
+        out += altro;
+      } else {
+        out += fn(parola, profondita > 0, i++);
+      }
+      return m;
+    });
+    return out;
+  }
+  // Oggetti scritti tutto in maiuscolo -> forma di frase, sigle preservate
+  function formaFrase(t) {
+    if (!tuttoMaiuscolo(t)) return t;
+    var r = sostituisciParole(t, function (w, par) { return eSigla(w, par) ? w : w.toLowerCase(); });
+    return r.replace(/[a-zà-ÿ]/, function (c) { return c.toUpperCase(); });
+  }
+  // Nomi di enti tutto in maiuscolo -> iniziali maiuscole, sigle preservate
+  function formaNome(t) {
+    if (!tuttoMaiuscolo(t)) return t;
+    return sostituisciParole(t, function (w, par, i) {
+      var W = w.toUpperCase();
+      if (SIGLE.indexOf(W) >= 0 || w.length === 1) return W;
+      if (i > 0 && PAROLE_COMUNI.indexOf(W) >= 0 && w.length <= 5) return w.toLowerCase();
+      return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
+    });
+  }
+
+  function riga(o) {
+    var g = giorni(o);
+    var grp = gruppo(g);
+    var colore = GRUPPI.filter(function (x) { return x.id === grp; })[0].colore;
+    var nuovo = o.primo_rilevamento && (oggi - data(o.primo_rilevamento)) / GIORNO <= 3;
+    var daVerificare = /verificare/i.test(o.motivo_match || "");
+
+    var conto;
+    if (g === null) conto = el("div", { classe: "conto" }, [el("small", { testo: "nessuna scadenza" })]);
+    else if (g < 0) conto = el("div", { classe: "conto" }, [el("b", { testo: String(-g) }), el("small", { testo: -g === 1 ? "giorno fa" : "giorni fa" })]);
+    else if (g === 0) conto = el("div", { classe: "conto" }, [el("b", { testo: "oggi" })]);
+    else conto = el("div", { classe: "conto" }, [el("b", { testo: String(g) }), el("small", { testo: g === 1 ? "giorno" : "giorni" })]);
+
+    var titolo = o.link
+      ? el("a", { href: o.link, target: "_blank", rel: "noopener", testo: formaFrase(o.titolo) })
+      : document.createTextNode(formaFrase(o.titolo));
+
+    var dettagli = el("dl", { classe: "dettagli" }, [
+      o.importo ? el("dt", { testo: "Importo" }) : null,
+      o.importo ? el("dd", { classe: "importo", testo: euro.format(o.importo) }) : null,
+      el("dt", { testo: "Fonte" }), el("dd", {}, [el("span", { classe: "etichetta", testo: o.fonti.join(" + ") })]),
+      el("dt", { testo: "Tipo" }), el("dd", {}, [el("span", { classe: "etichetta", testo: etichettaTipo(o) })]),
+      o.regione ? el("dt", { testo: "Regione" }) : null,
+      o.regione ? el("dd", { testo: o.regione }) : null,
+      (o.cig && o.cig.length) ? el("dt", { testo: "CIG" }) : null,
+      (o.cig && o.cig.length) ? el("dd", { testo: "CIG " + o.cig.join(", ") }) : null,
+      nuovo ? el("dd", {}, [el("span", { classe: "etichetta nuovo", testo: "Nuovo" })]) : null,
+      daVerificare ? el("dd", {}, [el("span", { classe: "etichetta verifica", testo: "Da verificare" })]) : null
+    ]);
+
+    var select = el("select", { "aria-label": "Stato di lavorazione" });
+    STATI.forEach(function (s) { select.appendChild(el("option", { value: s[0], testo: s[1] })); });
+    select.value = statiSalvati[o.id] || "";
+
+    var li = el("li", { classe: "riga", id: "o-" + o.id.replace(/[^a-zA-Z0-9_-]/g, "_"), style: "--colore:" + colore }, [
+      conto,
+      el("div", { classe: "corpo" }, [
+        el("h3", {}, [titolo]),
+        el("p", { classe: "ente", testo: o.ente ? formaNome(o.ente) : "Ente non indicato" }),
+        dettagli,
+        el("p", { classe: "motivo", testo: "Perché è qui: " + (o.motivo_match || "n.d.") })
+      ]),
+      el("div", { classe: "stato" }, [
+        el("span", { classe: "data", testo: o.scadenza ? dataLunga.format(data(o.scadenza)) : "Scadenza da verificare" }),
+        select
+      ])
+    ]);
+    if (select.value === "scartata") li.classList.add("scartata");
+    select.addEventListener("change", function () {
+      salvaStato(o.id, select.value);
+      li.classList.toggle("scartata", select.value === "scartata");
+      if (select.value === "scartata" && document.getElementById("f-stato").value === "attivi") disegna();
+    });
+    return li;
+  }
+
+  function disegnaPista(elenco) {
+    var binario = document.getElementById("binario");
+    binario.innerHTML = "";
+    binario.appendChild(el("div", { classe: "asse" }));
+    var MAX = 60;
+    [[0, "oggi", "primo"], [7, "7 gg", "stretta"], [30, "30 gg"], [60, "60 gg", "ultimo"]].forEach(function (t) {
+      var x = (t[0] / MAX * 100) + "%";
+      if (t[0] > 0 && t[0] < MAX) binario.appendChild(el("div", { classe: "soglia", style: "left:" + x }));
+      binario.appendChild(el("span", { classe: "tacca " + (t[2] || ""), style: "left:" + x, testo: t[1] }));
+    });
+    var pile = {};
+    elenco.forEach(function (o) {
+      var g = giorni(o);
+      if (g === null || g < 0 || g > MAX) return;
+      var livello = pile[g] = (pile[g] || 0) + 1;
+      var grp = gruppo(g);
+      var colore = GRUPPI.filter(function (x) { return x.id === grp; })[0].colore;
+      var punto = el("button", {
+        classe: "punto", type: "button",
+        style: "left:" + (g / MAX * 100) + "%; top:" + Math.max(0, 29 - (livello - 1) * 11) + "px; --colore:" + colore,
+        title: (g === 0 ? "Oggi" : g + " gg") + ": " + o.titolo.slice(0, 90),
+        "aria-label": "Scade " + (o.scadenza ? dataBreve.format(data(o.scadenza)) : "") + ": " + o.titolo.slice(0, 90)
+      });
+      punto.addEventListener("click", function () { vaiA(o); });
+      binario.appendChild(punto);
+    });
+  }
+
+  function vaiA(o) {
+    var r = document.getElementById("o-" + o.id.replace(/[^a-zA-Z0-9_-]/g, "_"));
+    if (!r) return;
+    var d = r.closest("details"); if (d) d.open = true;
+    r.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
+    r.classList.add("evidenziata");
+    setTimeout(function () { r.classList.remove("evidenziata"); }, 1800);
+  }
+
+  function disegna() {
+    var elenco = filtrate().sort(function (a, b) {
+      return (a.scadenza || "9999").localeCompare(b.scadenza || "9999") || (b.importo || 0) - (a.importo || 0);
+    });
+    disegnaPista(elenco);
+    document.getElementById("conteggio").textContent =
+      elenco.length === tutte.length ? tutte.length + " opportunità in elenco" : elenco.length + " opportunità su " + tutte.length + " corrispondono ai filtri";
+
+    var contenitore = document.getElementById("gruppi");
+    contenitore.innerHTML = "";
+    GRUPPI.forEach(function (gr) {
+      var voci = elenco.filter(function (o) { return gruppo(giorni(o)) === gr.id; });
+      if (!voci.length && (gr.id === "scadute" || gr.id === "senza")) return;
+      var titolo = [gr.titolo, el("span", { classe: "n", testo: String(voci.length) })];
+      var lista = el("ol", { classe: "elenco" }, voci.map(riga));
+      var corpo = voci.length ? lista : el("p", { classe: "vuoto", testo: "Nessuna opportunità in questa fascia con i filtri attuali." });
+      var sezione = el("section", { classe: "gruppo", style: "--colore:" + gr.colore });
+      if (gr.chiuso) {
+        sezione.appendChild(el("details", {}, [el("summary", {}, titolo), corpo]));
+      } else {
+        sezione.appendChild(el("h2", {}, titolo));
+        if (gr.nota && voci.length) sezione.appendChild(el("p", { classe: "vuoto", testo: gr.nota }));
+        sezione.appendChild(corpo);
+      }
+      contenitore.appendChild(sezione);
+    });
+  }
+
+  function sintesi(dati) {
+    var aperte = tutte.filter(function (o) { var g = giorni(o); return g === null || g >= 0; });
+    var settimana = aperte.filter(function (o) { var g = giorni(o); return g !== null && g <= 7; }).length;
+    var nuove = tutte.filter(function (o) { return o.primo_rilevamento && (oggi - data(o.primo_rilevamento)) / GIORNO <= 3; }).length;
+    var s = document.getElementById("sintesi");
+    s.innerHTML = "";
+    s.appendChild(el("strong", { testo: aperte.length + " opportunità aperte" }));
+    s.appendChild(document.createTextNode(", di cui " + settimana + (settimana === 1 ? " scade" : " scadono") + " entro una settimana"));
+    s.appendChild(document.createTextNode(nuove ? " e " + nuove + (nuove === 1 ? " comparsa" : " comparse") + " negli ultimi 3 giorni." : "."));
+    if (dati.aggiornato_il) {
+      document.getElementById("aggiornato").textContent = "Aggiornato il " +
+        new Intl.DateTimeFormat("it-IT", { dateStyle: "long", timeStyle: "short" }).format(new Date(dati.aggiornato_il));
+    }
+  }
+
+  function unici(fn) {
+    var visti = {};
+    tutte.forEach(function (o) { [].concat(fn(o)).forEach(function (v) { if (v) visti[v] = 1; }); });
+    return Object.keys(visti).sort(function (a, b) { return a.localeCompare(b, "it"); });
+  }
+
+  function errore(messaggio) {
+    document.getElementById("sintesi").textContent = "";
+    var box = el("div", { classe: "avviso" }, [
+      el("strong", { testo: "Impossibile caricare i dati. " }),
+      document.createTextNode(messaggio)
+    ]);
+    document.getElementById("gruppi").replaceChildren(box);
+  }
+
+  fetch("data/opportunita.json", { cache: "no-store" })
+    .then(function (r) {
+      if (!r.ok) throw new Error("Il file data/opportunita.json non è stato trovato (" + r.status + "). Avvia il workflow di scouting almeno una volta, poi ricarica la pagina.");
+      return r.json();
+    })
+    .then(function (dati) {
+      tutte = (dati.opportunita || []).map(function (o) { o.fonti = o.fonti || []; return o; });
+      opzioni(document.getElementById("f-fonte"), unici(function (o) { return o.fonti; }), "Tutte");
+      opzioni(document.getElementById("f-regione"), unici(function (o) { return o.regione || "Non indicata"; }), "Tutte");
+      opzioni(document.getElementById("f-tipo"), unici(etichettaTipo), "Tutti");
+      var stato = document.getElementById("f-stato");
+      stato.appendChild(el("option", { value: "_da", testo: "Solo: da valutare" }));
+      STATI.forEach(function (s) { if (s[0]) stato.appendChild(el("option", { value: s[0], testo: "Solo: " + s[1].toLowerCase() })); });
+      ["f-testo", "f-fonte", "f-regione", "f-tipo", "f-stato"].forEach(function (id) {
+        document.getElementById(id).addEventListener("input", disegna);
+      });
+      sintesi(dati);
+      disegna();
+    })
+    .catch(function (e) {
+      errore(location.protocol === "file:"
+        ? "Hai aperto il file direttamente dal computer: la pagina funziona solo pubblicata su GitHub Pages."
+        : e.message);
+    });
+})();
+</script>
+</body>
+</html>

@@ -29,6 +29,17 @@ Prossime fonti: piattaforme dei soggetti aggregatori regionali.
 
 Da quel momento lo script gira da solo ogni mattina.
 
+## Dashboard
+
+`index.html` è la dashboard: legge `data/opportunita.json` e mostra le
+opportunità raggruppate per scadenza. Per pubblicarla con GitHub Pages:
+**Settings → Pages → Build and deployment → Source: Deploy from a branch**,
+branch `main`, cartella `/ (root)`. L'indirizzo sarà
+`https://<utente>.github.io/scouting-bandi-sanita/`.
+
+Lo stato di lavorazione (interessante, in preparazione, scartata…) viene
+salvato nel browser di chi lo imposta e non è condiviso.
+
 ## Personalizzare i filtri
 
 Tutto è in `config.yaml`. Un avviso viene tenuto se:
