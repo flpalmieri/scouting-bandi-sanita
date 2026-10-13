@@ -5,8 +5,45 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>666</afs:totRecord>
+<afs:totRecord>667</afs:totRecord>
 <item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2914311&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-29T18:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>13/10/2026</pubDate>
+	
+	<description>
+MANIFESTAZIONE DI INTERESSE, EX ART. 76 e 79 (All. II.5) DELD.L.GS. 36/2023 PER LA FORNITURA A NOLEGGIO DI:un “Sistema Multiplex per dosaggio IGE specifiche con allergeni
+molecolari”&lt;strong&gt;Scadenza : 29/10/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[MANIFESTAZIONE DI INTERESSE, EX ART. 76 e 79 (All. II.5) DELD.L.GS. 36/2023 PER LA FORNITURA A NOLEGGIO DI:un “Sistema Multiplex per dosaggio IGE specifiche con allergeni
+molecolari”]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[A.O.U. Policlinico BARI ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-29T18:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2914311]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Manifestazione di interesse per la fornitura a noleggio di un "Sistema Multiplex per dosaggio IGE specifiche con allergeni molecolarii]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-13T16:06:54.613]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-13T16:06:54]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2909646&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-26T10:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
@@ -368,40 +405,4 @@ CONSULTAZIONE PRELIMINARE DI MERCATO AI SENSI DELL’ART.77 DEL D.LGS.N.36/2023 
 Richiesta di partecipazione alla consultazione preliminare di mercato sul portale telematico Empulia per la fornitura di dispositivi per la terapia endoscopica a pressione negativa, ESO-SPONGE da utilizzare presso la UOC di Chirurgia Generale del PO San Paolo.&lt;strong&gt;Scadenza : 05/10/2026&lt;/strong&gt;
 	</description>
 	
-	<afs:Oggetto><![CDATA[Richiesta di partecipazione alla consultazione preliminare di mercato sul portale telematico Empulia per la fornitura di dispositivi per la terapia endoscopica a pressione negativa, ESO-SPONGE da utilizzare presso la UOC di Chirurgia Generale del PO San Paolo.]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-05T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2729863]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[ESO-SPONGE ]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-09-29T16:48:41.660]]></afs:dataUltimaModifica>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-23T09:03:40]]></afs:DtPubblicazioneTecnical>
-	
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2730458&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-05T09:00:30]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>22/09/2026</pubDate>
-	
-	<description>
-Avviso di consultazione preliminare di mercato ai sensi dell’art. 77 D. Lgs 36/2023, per “Kit per Pericardiocentesi” occorrenti all’ U.O.S,D. Emodinamica e Cardiologia Interventistica.&lt;strong&gt;Scadenza : 05/10/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[Avviso di consultazione preliminare di mercato ai sensi dell’art. 77 D. Lgs 36/2023, per “Kit per Pericardiocentesi” occorrenti all’ U.O.S,D. Emodinamica e Cardiologia Interventistica.]]></afs:Oggetto>
-    <afs:Tip
+	<afs:Oggetto><![CDATA[Richiesta di partecipazione alla consultazione preliminare di mercato sul portale telematico Empulia per la fornitura di dispositivi per la terapia endoscopic
