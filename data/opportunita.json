@@ -1,25 +1,382 @@
 {
- "aggiornato_il": "2026-10-13T10:52:41+00:00",
- "totale": 2,
+ "aggiornato_il": "2026-10-13T13:28:20+00:00",
+ "totale": 19,
  "opportunita": [
   {
-   "id": "ted:705264-2026",
+   "id": "ted:488543-2026",
    "fonti": [
     "TED"
    ],
-   "titolo": "Italia – Server – PROCEDURA APERTA AVENTE AD OGGETTO LA FORNITURA DI ATTREZZATURE SCIENTIFICHE AD ALTO CONTENUTO TECNOLOGICO PER LA REALIZZAZIONE DI UNA ARCHITETTURA DI CALCOLO AD ALTE PRESTAZIONI PER INTELLIGENZA ARTIFICIALE E E SIMULAZIONI DI CALCOLO QUANTISTICO, NELL’AMBITO DEL PROGETTO FIS 3 - QARECA CUP E53C25002450001- CUI F00876220633202600012",
-   "ente": "UNIVERSITA' DEGLI STUDI DI NAPOLI FEDERICO II",
-   "scadenza": "2026-11-13",
-   "pubblicazione": "2026-10-13",
-   "importo": 505920.0,
+   "titolo": "Servizi di conduzione e supporto specialistico per l'infrastruttura ICT di Sogei, del MEF e delle Amministrazioni clienti - ID 2938",
+   "ente": "CONSIP SPA",
+   "scadenza": "2026-09-14",
+   "pubblicazione": "2026-07-15",
+   "importo": 420780651.78,
    "cpv": [
-    "48820000"
+    "72220000",
+    "72222300",
+    "79512000"
    ],
    "cig": [],
    "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/705264-2026",
+   "link": "https://ted.europa.eu/it/notice/-/detail/488543-2026",
    "regione": null,
-   "motivo_match": "Oggetto sanitario ('CUP') + CPV IT (48820000)",
+   "motivo_match": "Soggetto aggregatore + CPV IT (72220000) - da verificare",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:560269-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Procedura aperta con inversione procedimentale ai sensi degli artt. 71 - 107 comma 3 del decreto legislativo n. 36/2023 s.m.i da affidarsi con il criterio del minor prezzo di cui all'art. 108, comma 3, dello stesso decreto, volta all'affidamento della fornitura di una soluzione applicativa per la gestione delle conferme e delle disdette delle prenotazioni sanitarie e per il governo delle mancate p",
+   "ente": "UOC TECNICO MANUTENTIVA",
+   "scadenza": "2026-09-14",
+   "pubblicazione": "2026-08-13",
+   "importo": 80000.0,
+   "cpv": [
+    "48814000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/560269-2026",
+   "regione": null,
+   "motivo_match": "CPV software sanitario (48814000)",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:505032-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Servizi di sicurezza da remoto (ID 2737)",
+   "ente": "Consip S.p.A.",
+   "scadenza": "2026-09-15",
+   "pubblicazione": "2026-07-22",
+   "importo": 1189440000.0,
+   "cpv": [
+    "72000000",
+    "72253000",
+    "72510000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/505032-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (72000000) - da verificare",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:529363-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Servizio di conduzione del parco applicativo di Inail - ID 2968",
+   "ente": "CONSIP SPA",
+   "scadenza": "2026-09-18",
+   "pubblicazione": "2026-07-30",
+   "importo": 108926016.0,
+   "cpv": [
+    "72253000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/529363-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (72253000) - da verificare",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:552990-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "ID 26S023 Servizio di manutenzione della suite endpoint protection del fornitore Trend Micro",
+   "ente": "Azienda Ospedale-Università Padova",
+   "scadenza": "2026-09-21",
+   "pubblicazione": "2026-08-10",
+   "importo": 500000.003,
+   "cpv": [
+    "72212760",
+    "72212761"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/552990-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (72212760)",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:576256-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "ACQUISIZIONE DI UN SOFTWARE GESTIONALE PER LA DIGITALIZZAZIONE DEI FLUSSI DI LAVORO DELLA S.C. GENETICA MEDICA",
+   "ente": "ASST SANTI PAOLO E CARLO",
+   "scadenza": "2026-09-30",
+   "pubblicazione": "2026-08-20",
+   "importo": 1602000.0,
+   "cpv": [
+    "48460000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/576256-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (48460000)",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:605356-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "PROCEDURA APERTA (A RILEVANZA COMUNITARIA) PER L’APPALTO MEDIANTE SOTTOSCRIZIONE DI UN ACCORDO QUADRO DEL SERVIZIO DI SUPPORTO ALLA GESTIONE DEL CENTRO INNOVAZIONE E TECNOLOGIE",
+   "ente": "Centrale Unica di Committenza Area Vasta Brescia - Provincia di Brescia",
+   "scadenza": "2026-10-05",
+   "pubblicazione": "2026-09-02",
+   "importo": 650000.0,
+   "cpv": [
+    "72600000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/605356-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (72600000) - da verificare",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:603211-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "GARA EUROPEA A PROCEDURA APERTA MEDIANTE PIATTAFORMA DI INTERMEDIAZIONE TELEMATICA SINTEL PER LA FORNITURA DI UN SOFTWARE PER LA GESTIONE DELLA FORMAZIONE AREU PER LA DURATA DI 48 MESI",
+   "ente": "Agenzia Regionale Emergenza Urgenza (AREU 118)",
+   "scadenza": "2026-10-06",
+   "pubblicazione": "2026-09-02",
+   "importo": 636000.0,
+   "cpv": [
+    "48100000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/603211-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (48100000)",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:549088-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "PROCEDURA APERTA PER L'AFFIDAMENTO DEL CONTRATTO AVENTE AD OGGETTO LA FORNITURA DI UN SISTEMA GESTIONALE PER LE SALE OPERATORIE E DEL PERCORSO CHIRURGICO AZIENDALE PER UN PERIODO DI 72 MESI, RINNOVABILE PER ULTERIORI 36 MESI",
+   "ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
+   "scadenza": "2026-10-09",
+   "pubblicazione": "2026-08-07",
+   "importo": 5000000.0,
+   "cpv": [
+    "48000000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/549088-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (48000000)",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:621105-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Servizio di assistenza tecnica, manutenzione correttiva e evolutiva del sistema di gestione delle sale operatorie installato presso l'ASST Bergamo Ovest.",
+   "ente": "ASST DI BERGAMO OVEST",
+   "scadenza": "2026-10-12",
+   "pubblicazione": "2026-09-09",
+   "importo": 568050.0,
+   "cpv": [
+    "72000000",
+    "72253000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/621105-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (72000000)",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:566426-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Servizio di Gestione del Sistema Telematico Acquisti Regionale della Toscana (START)",
+   "ente": "SOGGETTO AGGREGATORE REGIONE TOSCANA - SETTORE SISTEMA CLOUD TOSCANO, INFRASTRUTTURE DIGITALI E PIATTAFORME ABILITANTI",
+   "scadenza": "2026-10-14",
+   "pubblicazione": "2026-08-17",
+   "importo": 8571100.0,
+   "cpv": [
+    "72260000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/566426-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (72260000) - da verificare",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:539014-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "FORNITURA DI BENI E SERVIZI PER LA GESTIONE INTEGRATA DELLE POSTAZIONI DI LAVORO (PDL) SUDDIVISA IN 5 LOTTI",
+   "ente": "SOGGETTO AGGREGATORE REGIONE TOSCANA - SERVIZI IT E INFRASTRUTTURE DIGITALI INTERNE",
+   "scadenza": "2026-10-26",
+   "pubblicazione": "2026-08-04",
+   "importo": 74414859.92,
+   "cpv": [
+    "30213000",
+    "30213100",
+    "30237200",
+    "48100000",
+    "48300000",
+    "48331000",
+    "48730000",
+    "48900000",
+    "72100000",
+    "72610000",
+    "72611000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/539014-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (48100000) - da verificare",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:654909-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "[2026_SIA_39] MANUTENZIONE ORDINARIA E STRAORDINARIA DEL SISTEMA ERP CONTABILE MICROSOFT DYNAMICS 365 BUSINESS CENTRAL",
+   "ente": "OSPEDALE DI SASSUOLO - S.P.A.",
+   "scadenza": "2026-10-30",
+   "pubblicazione": "2026-09-23",
+   "importo": 1349000.0,
+   "cpv": [
+    "72250000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/654909-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (72250000)",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:660706-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "GARA EUROPEA A PROCEDURA TELEMATICA APERTA, IN FORMA AGGREGATA, PER L’AGGIUDICAZIONE DEL CONTRATTO AVENTE AD OGGETTO IL SERVIZIO DI GESTIONE DEL NETWORK OPERATION CENTER (NOC)",
+   "ente": "asst grande ospedale metropolitano Niguarda",
+   "scadenza": "2026-10-30",
+   "pubblicazione": "2026-09-25",
+   "importo": 17150520.0,
+   "cpv": [
+    "32424000",
+    "48000000",
+    "48811000",
+    "48900000",
+    "72600000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/660706-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (48000000)",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:669839-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "ARIA_2026_660_F_ lotto unico, per la fornitura di licenze, dei prodotti “Qlik Sense Enterprise” e “Qlik Analytics Platform”",
+   "ente": "Azienda Regionale per l'Innovazione e gli Acquisti S.p.A.",
+   "scadenza": "2026-11-02",
+   "pubblicazione": "2026-09-29",
+   "importo": 451839.6,
+   "cpv": [
+    "48611000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/669839-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (48611000) - da verificare",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:674254-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Cybersecurity - soluzioni e servizi per la protezione e resilienza di reti e sistemi informativi (ID 2733)",
+   "ente": "CONSIP SPA",
+   "scadenza": "2026-11-04",
+   "pubblicazione": "2026-10-01",
+   "importo": 456379200.0,
+   "cpv": [
+    "30200000",
+    "48730000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/674254-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (48730000) - da verificare",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:670003-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Sanità digitale - Cartella Clinica Elettronica e Sistemi Informativi di Laboratorio (ID 2988)",
+   "ente": "CONSIP SPA",
+   "scadenza": "2026-11-05",
+   "pubblicazione": "2026-09-29",
+   "importo": 478800000.0,
+   "cpv": [
+    "72000000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/670003-2026",
+   "regione": null,
+   "motivo_match": "Oggetto sanitario ('Cartella Clinica') + CPV IT (72000000)",
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   },
@@ -28,7 +385,7 @@
    "fonti": [
     "TED"
    ],
-   "titolo": "Italia – Servizi connessi al software – ARIA_2026_478_F - Procedura aperta, ai sensi dell’art. 71 del D.lgs. 36/2023, per l’impl. del Clinical Decision Support System (CDSS)",
+   "titolo": "ARIA_2026_478_F - Procedura aperta, ai sensi dell’art. 71 del D.lgs. 36/2023, per l’impl. del Clinical Decision Support System (CDSS)",
    "ente": "Azienda Regionale per l'Innovazione e gli Acquisti S.p.A.",
    "scadenza": "2026-12-02",
    "pubblicazione": "2026-10-05",
@@ -41,6 +398,27 @@
    "link": "https://ted.europa.eu/it/notice/-/detail/683594-2026",
    "regione": null,
    "motivo_match": "Oggetto sanitario ('Clinic') + CPV IT (72260000)",
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "ted:560155-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Richiesta di offerta tecnico-economica per l’erogazione dei servizi di assistenza, manutenzione ed evoluzione delle soluzioni software in uso all’Azienda ospedaliero-universitaria Sant’Andrea, per una",
+   "ente": "A.O. Sant'Andrea",
+   "scadenza": null,
+   "pubblicazione": "2026-08-12",
+   "importo": 2737380.0,
+   "cpv": [
+    "72250000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/560155-2026",
+   "regione": null,
+   "motivo_match": "Oggetto sanitario ('ospedal') + CPV IT (72250000)",
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
   }
