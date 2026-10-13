@@ -53,6 +53,10 @@ def sessione_http() -> requests.Session:
 _RE_ISO = re.compile(r"(\d{4})-(\d{2})-(\d{2})")
 _RE_IT = re.compile(r"(\d{1,2})/(\d{1,2})/(\d{4})")
 _RE_COMPATTA = re.compile(r"^(\d{4})(\d{2})(\d{2})")
+_RE_PUNTI = re.compile(r"(\d{1,2})[.\-](\d{1,2})[.\-](\d{4})")
+MESI = {m: i for i, m in enumerate(
+    "gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre".split(), 1)}
+_RE_MESE = re.compile(r"(\d{1,2})\s*(?:°|º)?\s+(" + "|".join(MESI) + r")\s+(\d{4})", re.IGNORECASE)
 
 
 def parse_data(valore) -> str | None:
@@ -60,7 +64,14 @@ def parse_data(valore) -> str | None:
     if valore is None:
         return None
     s = str(valore).strip()
-    for rx, ordine in ((_RE_ISO, (1, 2, 3)), (_RE_IT, (3, 2, 1)), (_RE_COMPATTA, (1, 2, 3))):
+    m = _RE_MESE.search(s)
+    if m:
+        try:
+            return date(int(m.group(3)), MESI[m.group(2).lower()], int(m.group(1))).isoformat()
+        except ValueError:
+            pass
+    for rx, ordine in ((_RE_ISO, (1, 2, 3)), (_RE_IT, (3, 2, 1)), (_RE_PUNTI, (3, 2, 1)),
+                       (_RE_COMPATTA, (1, 2, 3))):
         m = rx.search(s)
         if m:
             try:
