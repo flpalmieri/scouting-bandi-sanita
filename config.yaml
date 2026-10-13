@@ -92,7 +92,7 @@ esclusioni_regex:
 ted:
   abilitato: true
   url: "https://api.ted.europa.eu/v3/notices/search"
-  finestra_giorni: 10          # quanti giorni indietro guardare a ogni esecuzione
+  finestra_giorni: 90          # quanti giorni indietro guardare a ogni esecuzione
                                # (per recuperare lo storico alzalo a 90 per un lancio, poi riportalo a 10)
   max_pagine: 40               # 250 avvisi per pagina
   # Tipi di avviso da tenere (prefissi): cn = bando, pin = preinformazione.
