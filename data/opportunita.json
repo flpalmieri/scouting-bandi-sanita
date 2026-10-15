@@ -1,53 +1,7 @@
 {
- "aggiornato_il": "2026-10-14T09:56:55+00:00",
- "totale": 22,
+ "aggiornato_il": "2026-10-15T09:38:30+00:00",
+ "totale": 21,
  "opportunita": [
-  {
-   "id": "ted:488543-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "Servizi di conduzione e supporto specialistico per l'infrastruttura ICT di Sogei, del MEF e delle Amministrazioni clienti - ID 2938",
-   "ente": "CONSIP SPA",
-   "scadenza": "2026-09-14",
-   "pubblicazione": "2026-07-15",
-   "importo": 420780651.78,
-   "cpv": [
-    "72220000",
-    "72222300",
-    "79512000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/488543-2026",
-   "regione": null,
-   "motivo_match": "Soggetto aggregatore + CPV IT (72220000) - da verificare",
-   "descrizione": null,
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-13"
-  },
-  {
-   "id": "ted:560269-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "Procedura aperta con inversione procedimentale ai sensi degli artt. 71 - 107 comma 3 del decreto legislativo n. 36/2023 s.m.i da affidarsi con il criterio del minor prezzo di cui all'art. 108, comma 3, dello stesso decreto, volta all'affidamento della fornitura di una soluzione applicativa per la gestione delle conferme e delle disdette delle prenotazioni sanitarie e per il governo delle mancate p",
-   "ente": "UOC TECNICO MANUTENTIVA",
-   "scadenza": "2026-09-14",
-   "pubblicazione": "2026-08-13",
-   "importo": 80000.0,
-   "cpv": [
-    "48814000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/560269-2026",
-   "regione": null,
-   "motivo_match": "CPV software sanitario (48814000)",
-   "descrizione": null,
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-13"
-  },
   {
    "id": "ted:505032-2026",
    "fonti": [
@@ -322,6 +276,28 @@
    "ultimo_rilevamento": "2026-10-13"
   },
   {
+   "id": "ted:711490-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA, AI SENSI DELL’ART. 71 DEL D.LGS 36/2023, FINALIZZATA ALL’AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DEL SOFTWARE UPDATE LICENSE & SUPPORT LICENZE ORACLE APPLICATION, GIA’ IN USO PRESSO L’ASST DELLA VALLE OLONA, PER UN PERIODO DI MESI 36, CON EVENTUALE OPZIONE DI RINNOVO PER ULTERIORI 12 MESI",
+   "ente": "ASST DELLA VALLE OLONA",
+   "scadenza": "2026-11-18",
+   "pubblicazione": "2026-10-15",
+   "importo": 395000.0,
+   "cpv": [
+    "72267000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/711490-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (72267000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-10-15",
+   "ultimo_rilevamento": "2026-10-15"
+  },
+  {
    "id": "ted:708163-2026",
    "fonti": [
     "TED"
@@ -341,7 +317,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72500000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-14",
-   "ultimo_rilevamento": "2026-10-14"
+   "ultimo_rilevamento": "2026-10-15"
   },
   {
    "id": "ted:683594-2026",
@@ -363,7 +339,7 @@
    "motivo_match": "Oggetto sanitario ('Clinic') + CPV IT (72260000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-14"
+   "ultimo_rilevamento": "2026-10-15"
   },
   {
    "id": "ted:560155-2026",
@@ -407,7 +383,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-14"
+   "ultimo_rilevamento": "2026-10-15"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -429,7 +405,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-14"
+   "ultimo_rilevamento": "2026-10-15"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -449,7 +425,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-14"
+   "ultimo_rilevamento": "2026-10-15"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -469,7 +445,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-14"
+   "ultimo_rilevamento": "2026-10-15"
   },
   {
    "id": "uslumbria2:5137a51e173c",
@@ -489,7 +465,7 @@
    "motivo_match": "Programmazione acquisti di un ente sanitario: consultala per le gare IT in arrivo",
    "descrizione": "DATA SCADENZA: \nTIPOLOGIA: \nIMPORTO: ",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-14"
+   "ultimo_rilevamento": "2026-10-15"
   }
  ]
 }
