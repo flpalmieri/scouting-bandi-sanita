@@ -1,31 +1,7 @@
 {
- "aggiornato_il": "2026-10-15T09:38:30+00:00",
- "totale": 21,
+ "aggiornato_il": "2026-10-16T09:31:56+00:00",
+ "totale": 23,
  "opportunita": [
-  {
-   "id": "ted:505032-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "Servizi di sicurezza da remoto (ID 2737)",
-   "ente": "Consip S.p.A.",
-   "scadenza": "2026-09-15",
-   "pubblicazione": "2026-07-22",
-   "importo": 1189440000.0,
-   "cpv": [
-    "72000000",
-    "72253000",
-    "72510000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/505032-2026",
-   "regione": null,
-   "motivo_match": "Soggetto aggregatore + CPV IT (72000000) - da verificare",
-   "descrizione": null,
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-13"
-  },
   {
    "id": "ted:529363-2026",
    "fonti": [
@@ -161,6 +137,30 @@
    "ultimo_rilevamento": "2026-10-13"
   },
   {
+   "id": "empulia:2899778",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DI UN BANDO DI GARA, AI SENSI DELL’ART. 76, COMMA 2, LETT. B) DEL D.LGS. N. 36/2023, DA ESPLETARSI IN MODALITÀ TELEMATICA SU PIATTAFORMA EMPULIA, PER L’AFFIDAMENTO DEI SERVIZI DI CONNETTIVITÀ DELLE SEDI ASL NON ATTIVE NEL PIANO DI RETE DI SANITÀ CONNESSA.",
+   "ente": "ASL TA",
+   "scadenza": "2026-10-27",
+   "pubblicazione": "2026-10-06",
+   "importo": 786869.2,
+   "cpv": [
+    "72411000"
+   ],
+   "cig": [
+    "BD3D498B8F"
+   ],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2899778&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T10:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + CPV IT (72411000)",
+   "descrizione": "Senza Titolo",
+   "primo_rilevamento": "2026-10-16",
+   "ultimo_rilevamento": "2026-10-16"
+  },
+  {
    "id": "ted:654909-2026",
    "fonti": [
     "TED"
@@ -231,6 +231,28 @@
    "ultimo_rilevamento": "2026-10-13"
   },
   {
+   "id": "empulia:2733473",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "“PR PUGLIA 2021-2027, ASSE VIII AZIONE 8.4 “RINNOVO E POTENZIAMENTO DELLE STRUTTURE OSPEDALIERE E SVILUPPO DELLA TELEMEDICINA. INTERVENTI: POTENZIAMENTO E RINNOVAMENTO DELLE DOTAZIONI STRUMENTALI PER LE SALE OPERATORIE DEI PRESIDI OSPEDALIERI DELLA ASL BR” PROCEDURA APERTA TELEMATICA (art. 25 e 71 D.Lgs. n. 36/2023) PER L’AFFIDAMENTO DELLA FORNITURA DI APPARECCHIATURE E RELATIVO MATERIALE CONSUMABILE IN N. 8 LOTTI DA AFFIDARE CON IL CRITERIO DELL’OFFERTA ECONOMICAMENTE PIU’ VANTAGGIOSA (art. 108, comma 1 e 2, del D. Lgs. n. 36/2023)",
+   "ente": "ASL BR",
+   "scadenza": "2026-11-04",
+   "pubblicazione": "2026-09-24",
+   "importo": 14104720.0,
+   "cpv": [
+    "33190000"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2733473&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-04T14:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('TELEMEDICIN')",
+   "descrizione": "Multilotto 2026 fesr 21 27 linea 8.4",
+   "primo_rilevamento": "2026-10-16",
+   "ultimo_rilevamento": "2026-10-16"
+  },
+  {
    "id": "ted:674254-2026",
    "fonti": [
     "TED"
@@ -276,6 +298,30 @@
    "ultimo_rilevamento": "2026-10-13"
   },
   {
+   "id": "empulia:2908141",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Procedura aperta, ai sensi degli artt. 25 e 71 del D.lgs. n. 36/2023 e ss.mm.ii., per l’affidamento della fornitura e posa in opera, comprensiva di installazione a perfetta regola d’arte, messa in esercizio, collaudo e servizio di manutenzione e assistenza tecnica full risk di 24 mesi, in regime di acquisto, di n. 1 Sistema Mobile a Erogazione di Flussi Laminari “Arco Sterile” e relativi accessori, da collocare presso la U.O.S.D. Oculistica del P.O. “Perinei” di Altamura e da affidare con il criterio dell’offerta economicamente più vantaggiosa individuata sulla base del miglior rapporto qualità/prezzo, ai sensi dell’art. 108, comma 1, del D.Lgs. n. 36/2023 e ss.mm.ii. CUP: D74E25000190002 Finanziamento: PR PUGLIA 2021-2027 – Azione 8.4 “Rinnovo e potenziamento delle strutture ospedaliere e sviluppo della telemedicina” – LINEA B",
+   "ente": "ASL BA",
+   "scadenza": "2026-11-11",
+   "pubblicazione": "2026-10-09",
+   "importo": 390560.0,
+   "cpv": [
+    "33162000"
+   ],
+   "cig": [
+    "BD4D79982E"
+   ],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2908141&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-11T11:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('telemedicin')",
+   "descrizione": "ARCO STERILE OCULISTICA",
+   "primo_rilevamento": "2026-10-16",
+   "ultimo_rilevamento": "2026-10-16"
+  },
+  {
    "id": "ted:711490-2026",
    "fonti": [
     "TED"
@@ -295,7 +341,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72267000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-15",
-   "ultimo_rilevamento": "2026-10-15"
+   "ultimo_rilevamento": "2026-10-16"
   },
   {
    "id": "ted:708163-2026",
@@ -317,7 +363,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72500000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-14",
-   "ultimo_rilevamento": "2026-10-15"
+   "ultimo_rilevamento": "2026-10-16"
   },
   {
    "id": "ted:683594-2026",
@@ -383,7 +429,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-15"
+   "ultimo_rilevamento": "2026-10-16"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -405,7 +451,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-15"
+   "ultimo_rilevamento": "2026-10-16"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -425,7 +471,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-15"
+   "ultimo_rilevamento": "2026-10-16"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -445,7 +491,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-15"
+   "ultimo_rilevamento": "2026-10-16"
   },
   {
    "id": "uslumbria2:5137a51e173c",
@@ -465,7 +511,7 @@
    "motivo_match": "Programmazione acquisti di un ente sanitario: consultala per le gare IT in arrivo",
    "descrizione": "DATA SCADENZA: \nTIPOLOGIA: \nIMPORTO: ",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-15"
+   "ultimo_rilevamento": "2026-10-16"
   }
  ]
 }
