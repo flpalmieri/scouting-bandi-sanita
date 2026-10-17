@@ -1,5 +1,5 @@
 {
- "aggiornato_il": "2026-10-16T09:31:56+00:00",
+ "aggiornato_il": "2026-10-17T09:02:20+00:00",
  "totale": 23,
  "opportunita": [
   {
@@ -341,7 +341,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72267000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-15",
-   "ultimo_rilevamento": "2026-10-16"
+   "ultimo_rilevamento": "2026-10-17"
   },
   {
    "id": "ted:708163-2026",
@@ -363,7 +363,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72500000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-14",
-   "ultimo_rilevamento": "2026-10-16"
+   "ultimo_rilevamento": "2026-10-17"
   },
   {
    "id": "ted:683594-2026",
@@ -429,7 +429,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-16"
+   "ultimo_rilevamento": "2026-10-17"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -451,7 +451,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-16"
+   "ultimo_rilevamento": "2026-10-17"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -471,7 +471,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-16"
+   "ultimo_rilevamento": "2026-10-17"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -491,7 +491,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-16"
+   "ultimo_rilevamento": "2026-10-17"
   },
   {
    "id": "uslumbria2:5137a51e173c",
@@ -511,7 +511,7 @@
    "motivo_match": "Programmazione acquisti di un ente sanitario: consultala per le gare IT in arrivo",
    "descrizione": "DATA SCADENZA: \nTIPOLOGIA: \nIMPORTO: ",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-16"
+   "ultimo_rilevamento": "2026-10-17"
   }
  ]
 }
