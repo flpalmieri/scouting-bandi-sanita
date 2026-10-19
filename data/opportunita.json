@@ -1,29 +1,7 @@
 {
- "aggiornato_il": "2026-10-18T09:21:24+00:00",
- "totale": 23,
+ "aggiornato_il": "2026-10-19T10:32:56+00:00",
+ "totale": 26,
  "opportunita": [
-  {
-   "id": "ted:529363-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "Servizio di conduzione del parco applicativo di Inail - ID 2968",
-   "ente": "CONSIP SPA",
-   "scadenza": "2026-09-18",
-   "pubblicazione": "2026-07-30",
-   "importo": 108926016.0,
-   "cpv": [
-    "72253000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/529363-2026",
-   "regione": null,
-   "motivo_match": "Soggetto aggregatore + CPV IT (72253000) - da verificare",
-   "descrizione": null,
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-13"
-  },
   {
    "id": "ted:552990-2026",
    "fonti": [
@@ -322,6 +300,29 @@
    "ultimo_rilevamento": "2026-10-16"
   },
   {
+   "id": "ted:722510-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Sistema ORMS integrato a dispositivi medici",
+   "ente": "A.O. San Camillo Forlanini",
+   "scadenza": "2026-11-17",
+   "pubblicazione": "2026-10-19",
+   "importo": 1845000.0,
+   "cpv": [
+    "48180000",
+    "48814300"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/722510-2026",
+   "regione": null,
+   "motivo_match": "CPV software sanitario (48180000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-10-19",
+   "ultimo_rilevamento": "2026-10-19"
+  },
+  {
    "id": "ted:711490-2026",
    "fonti": [
     "TED"
@@ -341,7 +342,30 @@
    "motivo_match": "Ente sanitario + CPV IT (72267000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-15",
-   "ultimo_rilevamento": "2026-10-18"
+   "ultimo_rilevamento": "2026-10-19"
+  },
+  {
+   "id": "ted:718813-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Servizio di assistenza tecnica, manutenzione correttiva e evolutiva del sistema di accoglienza aziendale CUP, PS e ADT installato presso l'ASST Bergamo Ovest.",
+   "ente": "ASST DI BERGAMO OVEST",
+   "scadenza": "2026-11-18",
+   "pubblicazione": "2026-10-19",
+   "importo": 1667416.66,
+   "cpv": [
+    "72250000",
+    "72253000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/718813-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (72250000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-10-19",
+   "ultimo_rilevamento": "2026-10-19"
   },
   {
    "id": "ted:708163-2026",
@@ -363,7 +387,29 @@
    "motivo_match": "Ente sanitario + CPV IT (72500000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-14",
-   "ultimo_rilevamento": "2026-10-18"
+   "ultimo_rilevamento": "2026-10-19"
+  },
+  {
+   "id": "ted:718962-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "ARIA_2025_197_F Acquisizione del Servizio Microsoft Unified Support",
+   "ente": "Azienda Regionale per l'Innovazione e gli Acquisti S.p.A.",
+   "scadenza": "2026-11-30",
+   "pubblicazione": "2026-10-19",
+   "importo": 812000.0,
+   "cpv": [
+    "72253000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/718962-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (72253000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-10-19",
+   "ultimo_rilevamento": "2026-10-19"
   },
   {
    "id": "ted:683594-2026",
@@ -410,6 +456,28 @@
    "ultimo_rilevamento": "2026-10-13"
   },
   {
+   "id": "ted:722587-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Indagine di mercato ex 68 CAD per l'individuazione di una soluzione software per la gestione del registro dei pazienti affetti da malattie rare",
+   "ente": "CSI PIEMONTE",
+   "scadenza": null,
+   "pubblicazione": "2026-10-19",
+   "importo": null,
+   "cpv": [
+    "48517000"
+   ],
+   "cig": [],
+   "tipo": "pin-only",
+   "link": "https://ted.europa.eu/it/notice/-/detail/722587-2026",
+   "regione": null,
+   "motivo_match": "Oggetto sanitario ('pazient') + CPV IT (48517000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-10-19",
+   "ultimo_rilevamento": "2026-10-19"
+  },
+  {
    "id": "uslumbria1:1bdb9ab7d6e8",
    "fonti": [
     "USL Umbria 1"
@@ -429,7 +497,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-18"
+   "ultimo_rilevamento": "2026-10-19"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -451,7 +519,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-18"
+   "ultimo_rilevamento": "2026-10-19"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -471,7 +539,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-18"
+   "ultimo_rilevamento": "2026-10-19"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -491,7 +559,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-18"
+   "ultimo_rilevamento": "2026-10-19"
   },
   {
    "id": "uslumbria2:5137a51e173c",
@@ -511,7 +579,7 @@
    "motivo_match": "Programmazione acquisti di un ente sanitario: consultala per le gare IT in arrivo",
    "descrizione": "DATA SCADENZA: \nTIPOLOGIA: \nIMPORTO: ",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-18"
+   "ultimo_rilevamento": "2026-10-19"
   }
  ]
 }
