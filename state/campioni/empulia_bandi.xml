@@ -5,352 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>102</afs:totRecord>
+<afs:totRecord>117</afs:totRecord>
 <item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2716708&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-19T13:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>11/09/2026</pubDate>
-	
-	<description>
-Affidamento del Servizio di Tesoreria Comunale della Citt&#224; Giovinazzo.&lt;strong&gt;Scadenza : 19/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[Affidamento del Servizio di Tesoreria Comunale della Città Giovinazzo.]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[Comune di Giovinazzo]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Comune di Giovinazzo]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[120.000,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-19T13:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BCED6C906F]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2716708]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Affidamento del Servizio di Tesoreria Comunale della Città Giovinazzo]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-13T17:06:31]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[66600000-6 - Servizi di tesoreria]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-11T09:16:07]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2915047&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-19T14:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>14/10/2026</pubDate>
-	
-	<description>
-Procedura telematica ex art. 140 commi 1 e 2 del D. lgs. n. 36/2023 per l’affidamento in urgenza della fornitura per mesi 2 di Sistema di fissaggio suturless per cateteri vascolari per le necessit&#224;  della Asl Taranto &lt;strong&gt;Scadenza : 19/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[Procedura telematica ex art. 140 commi 1 e 2 del D. lgs. n. 36/2023 per l’affidamento in urgenza della fornitura per mesi 2 di Sistema di fissaggio suturless per cateteri vascolari per le necessità  della Asl Taranto ]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL TA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL TA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[21.240,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-19T14:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2915047]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[NF - Fornitura urgente Sistema di fissaggio suturless per cateteri vascolari per le necessità  della Asl Taranto ]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-15T16:35:12]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[33141240-4 - Accessori per cateteri]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-14T09:33:40]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2734135&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-19T19:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>13/10/2026</pubDate>
-	
-	<description>
-Contratto triennale di manutenzione preventiva del digestore a microonde Anton Paar Multiwave 5000&lt;strong&gt;Scadenza : 19/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[Contratto triennale di manutenzione preventiva del digestore a microonde Anton Paar Multiwave 5000]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ARPA Puglia]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ARPA Puglia]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[5.481,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-19T19:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2734135]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Contratto triennale di manutenzione preventiva del digestore a microonde Anton Paar Multiwave 5000]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-19T11:34:52]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[38430000-8 - Apparecchi per analisi e rivelazione]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-13T16:48:05]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Avviso ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2909602&tipobando=Avviso&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-19T23:59:00]]></link>
-	<category>Avviso</category>
-	<pubDate>09/10/2026</pubDate>
-	
-	<description>
-Azione 8.4 FESR – FSE+ 2021 – 2027 - potenziamento della S.C. di Cardiologia – UTIC del P.O. di
-Cerignola: Sala di cardiologia interventistica ed Emodinamica – indizione Avviso Pubblico di Manifestazione di interesse finalizzato all’individuazione di Operatori
-interessati a partecipare alle procedure di selezione per lo specifico affidamento, ex art. 50
-comma 2 del D.lgs. 36/2023 e Allegato II.1 - CUP G35H25000060006&lt;strong&gt;Scadenza : 19/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[Azione 8.4 FESR – FSE+ 2021 – 2027 - potenziamento della S.C. di Cardiologia – UTIC del P.O. di
-Cerignola: Sala di cardiologia interventistica ed Emodinamica – indizione Avviso Pubblico di Manifestazione di interesse finalizzato all’individuazione di Operatori
-interessati a partecipare alle procedure di selezione per lo specifico affidamento, ex art. 50
-comma 2 del D.lgs. 36/2023 e Allegato II.1 - CUP G35H25000060006]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Avviso]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL FG ]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL FG ]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[815.935,94]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-19T23:59:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BD4CEDF4A1]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2909602]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[ala di cardiologia interventistica ed Emodinamica – indizione Avviso Pubblico di Manifestazione di interesse]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-19T12:31:24]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[45262522-6 - Lavori edili]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-09T11:39:17]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2908225&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-20T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>08/10/2026</pubDate>
-	
-	<description>
-PROCEDURA DI AFFIDAMENTO DIRETTO, DA ESPLETARSI TELEMATICAMENTE SULLA PIATTAFORMA EMPULIA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D. LGS. 36/2023, PER L’AFFIDAMENTO DIRETTO DEGLI INTERVENTI DI RIPRISTINO DEGLI ELIMINACODE IN USO PRESSO LA ASL DI TARANTO. 
-&lt;strong&gt;Scadenza : 20/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[PROCEDURA DI AFFIDAMENTO DIRETTO, DA ESPLETARSI TELEMATICAMENTE SULLA PIATTAFORMA EMPULIA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D. LGS. 36/2023, PER L’AFFIDAMENTO DIRETTO DEGLI INTERVENTI DI RIPRISTINO DEGLI ELIMINACODE IN USO PRESSO LA ASL DI TARANTO. 
-]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL TA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL TA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[2.600,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-20T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2908225]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-19T10:53:05]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[50300000-8 - Servizi di riparazione, manutenzione e servizi affini connessi a personal computer, attrezzature d'ufficio, apparecchiature per telecomunicazione e impianti audiovisivi]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-08T13:53:00]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2911409&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-20T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>12/10/2026</pubDate>
-	
-	<description>
-GT 141 PNRR - AFFIDAMENTO DEL SERVIZIO DI CSE DEGLI INTERVENTI DI ADEGUAMENTO O MIGLIORAMENTO SISMICO PRESSO IL P.O. GIANNUZZI DI MANDURIA – CUP: E81B21006510001&lt;strong&gt;Scadenza : 20/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[GT 141 PNRR - AFFIDAMENTO DEL SERVIZIO DI CSE DEGLI INTERVENTI DI ADEGUAMENTO O MIGLIORAMENTO SISMICO PRESSO IL P.O. GIANNUZZI DI MANDURIA – CUP: E81B21006510001]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL TA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL TA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[si]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[57.877,07]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-20T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2911409]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[GT 141 PNRR - AFFIDAMENTO DEL SERVIZIO DI CSE DEGLI INTERVENTI DI ADEGUAMENTO O MIGLIORAMENTO SISMICO PRESSO IL P.O. GIANNUZZI DI MANDURIA – CUP: E81B21006510001]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-18T22:58:59]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71330000-0 - Vari servizi di ingegneria]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-12T10:56:15]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2915768&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-20T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>14/10/2026</pubDate>
-	
-	<description>
-&lt;strong&gt;Bando Revocato - &lt;/strong&gt; Affidamento diretto ex art.140 commi 1 e 2 D.Lgs.36/23 per la fornitura in Somma Urgenza di Maschere di Venturi per le necessit&#224; del Dipartimento Farmaceutico della Asl Taranto.&lt;strong&gt;Scadenza : 20/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[<strong>Bando Revocato - </strong> Affidamento diretto ex art.140 commi 1 e 2 D.Lgs.36/23 per la fornitura in Somma Urgenza di Maschere di Venturi per le necessità del Dipartimento Farmaceutico della Asl Taranto.]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL TA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL TA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[1.000,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-20T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[Revocato]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2915768]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[S.L. Affidamento diretto ex art.140 commi 1 e 2 D.Lgs.36/23 per la fornitura in Somma Urgenza di Maschere di Venturi per le necessità del Dipartimento Farmaceutico della Asl Taranto]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-15T15:28:52]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[33157110-9 - Maschere ad ossigeno]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-14T13:03:47]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2918322&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-20T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>15/10/2026</pubDate>
-	
-	<description>
-Procedura di affidamento, ex art. 50, comma 1, lett. b) del D. Lgs 36/2023, mediante richiesta di preventivo su piattaforma EmPulia, per la fornitura del servizio di assistenza sanitaria domiciliare di III livello, in favore di un paziente ricompreso nel DSS di Nard&#242;, dalla data di presa in carico fino al 31.03.2027. Importo a base d’asta pari a € 29.662,20, oltre IVA come per legge, oltre opzioni ex art. 120, commi 3 e 9, D.Lgs n. 36/2023 .&lt;strong&gt;Scadenza : 20/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[Procedura di affidamento, ex art. 50, comma 1, lett. b) del D. Lgs 36/2023, mediante richiesta di preventivo su piattaforma EmPulia, per la fornitura del servizio di assistenza sanitaria domiciliare di III livello, in favore di un paziente ricompreso nel DSS di Nardò, dalla data di presa in carico fino al 31.03.2027. Importo a base d’asta pari a € 29.662,20, oltre IVA come per legge, oltre opzioni ex art. 120, commi 3 e 9, D.Lgs n. 36/2023 .]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL LE]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL LE]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[38.560,86]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-20T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2918322]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[98 ADI NARDO' - Invito dall' Avviso PE253539-26]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-16T09:38:24]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[85140000-2 - Vari servizi sanitari]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-15T16:57:52]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2796720&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-20T12:00:00]]></link>
 	<category>Bando</category>
@@ -387,7 +43,7 @@ PROCEDURA APERTA AI SENSI DELL’ART. 71 DEL D. LGS. N. 36/2023 CON IL CRITERIO 
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-15T09:03:48]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-10-19T21:07:43]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[39160000-1 - Arredo scolastico]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-29T14:15:19]]></afs:DtPubblicazioneTecnical>
@@ -438,4 +94,343 @@ Contrattualizzazione forniture beni sanitari, ex art. 76 comma 2 lett. c) D. Lgs
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2913523&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-20T12:00:00]]></link>
 	<category>Bando</category>
-	<pub
+	<pubDate>14/10/2026</pubDate>
+	
+	<description>
+ Richiesta di preventivo per la fornitura di n.ro 6 - Carrelli di varia tipologia- per le necessit&#224; della ASL TA – Osp.le “SS. Annunziata” - S.C. di Urologia.&lt;strong&gt;Scadenza : 20/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[ Richiesta di preventivo per la fornitura di n.ro 6 - Carrelli di varia tipologia- per le necessità della ASL TA – Osp.le “SS. Annunziata” - S.C. di Urologia.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ASL TA]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL TA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[952,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-20T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2913523]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Invito dall' Avviso PE142837-26-N.6 Carelli di varia tipologia]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-14T13:06:48]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[34911100-7 - Carrelli a mano]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-14T13:06:48]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2732057&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-20T14:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>22/09/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Revocato - &lt;/strong&gt; Affidamento, ai sensi degli artt. 25 e 50, comma 1, lett. B) del D.LGS. 36/2023 s.m.i., per l&#39;acquisizione dell&#39;integrazione di nuove sedi all&#39;interno della rete MPLS Infratel, dedicata alla ASL di Bari, attualmente gestita dall&#39;operatore Fastweb&lt;strong&gt;Scadenza : 20/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[<strong>Bando Revocato - </strong> Affidamento, ai sensi degli artt. 25 e 50, comma 1, lett. B) del D.LGS. 36/2023 s.m.i., per l'acquisizione dell'integrazione di nuove sedi all'interno della rete MPLS Infratel, dedicata alla ASL di Bari, attualmente gestita dall'operatore Fastweb]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ASL BA]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[1.144.951,40]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-20T14:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BD1274A38D]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[Revocato]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2732057]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-09-24T11:22:06]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[98300000-6 - Servizi vari]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-22T17:56:41]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2920628&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-20T19:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>19/10/2026</pubDate>
+	
+	<description>
+Procedura di affidamento diretto ex art. 50 comma 1 lettera b) del D.Lgs. n. 36/2023, del servizio di realizzazione del progetto “FoodExp Skills 2026&quot;&lt;strong&gt;Scadenza : 20/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[Procedura di affidamento diretto ex art. 50 comma 1 lettera b) del D.Lgs. n. 36/2023, del servizio di realizzazione del progetto “FoodExp Skills 2026"]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[Regione Puglia]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Regione Puglia]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[69.672,13]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-20T19:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2920628]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[FoodExp Skills 2026]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-19T15:02:05]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[79952100-3 - Servizi di organizzazione di eventi culturali]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-19T09:57:05]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2909240&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-20T20:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>12/10/2026</pubDate>
+	
+	<description>
+Fornitura e posa in opera di n.3 telecamere di videosorveglianza marca Dallmaier presso il Dipartimento Ambientale Provinciale di Foggia di ARPA Puglia&lt;strong&gt;Scadenza : 20/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[Fornitura e posa in opera di n.3 telecamere di videosorveglianza marca Dallmaier presso il Dipartimento Ambientale Provinciale di Foggia di ARPA Puglia]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ARPA Puglia]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ARPA Puglia]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[6.184,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-20T20:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2909240]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Fornitura e posa in opera di n.3 telecamere di videosorveglianza marca Dallmaier presso il Dipartimento Ambientale Provinciale di Foggia di ARPA Puglia]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-19T18:01:52]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[35120000-1 - Sistemi e dispositivi di sorveglianza e di sicurezza]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-12T14:02:25]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2914160&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-20T20:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>14/10/2026</pubDate>
+	
+	<description>
+Servizi di ingegneria finalizzati alla progettazione esecutiva, alla direzione operativa ed al coordinamento della sicurezza in fase di progettazione ed esecuzione degli interventi di adeguamento alla normativa antincendio, sugli impianti e sui luoghi di lavoro dell’immobile regionale in compropriet&#224; sito in Brindisi alla via Tor Pisana n.120&lt;strong&gt;Scadenza : 20/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[Servizi di ingegneria finalizzati alla progettazione esecutiva, alla direzione operativa ed al coordinamento della sicurezza in fase di progettazione ed esecuzione degli interventi di adeguamento alla normativa antincendio, sugli impianti e sui luoghi di lavoro dell’immobile regionale in comproprietà sito in Brindisi alla via Tor Pisana n.120]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[Regione Puglia]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Regione Puglia]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[139.999,99]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-20T20:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2914160]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Affidamento adeguamento antincendio Brindisi, via Tor Pisana]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-20T09:32:38]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[71321000-4 - Servizi di progettazione tecnica per impianti meccanici ed elettrici di edifici]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-14T14:15:24]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2900819&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-21T08:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>06/10/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Manifestazione di interesse per il servizio triennale di Assistenza Tecnica e Manutentiva anche Full-Risk per apparecchiature tecnico scientifiche ad Alta ed Altissima Tecnologia a marchio “SHIMADZU” in uso presso i Dipartimenti Ambientali Provinciali di Arpa Puglia, accreditati da ACCREDIA.&lt;strong&gt;Scadenza : 21/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Manifestazione di interesse per il servizio triennale di Assistenza Tecnica e Manutentiva anche Full-Risk per apparecchiature tecnico scientifiche ad Alta ed Altissima Tecnologia a marchio “SHIMADZU” in uso presso i Dipartimenti Ambientali Provinciali di Arpa Puglia, accreditati da ACCREDIA.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ARPA Puglia]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ARPA Puglia]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[492.240,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-21T08:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BD3DAA05B7]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2900819]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Nuovo Invito dall' Avviso PE163560-26 - art. 76.]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-14T12:41:29]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[45259000-7 - Riparazione e manutenzione di impianti]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-06T10:57:48]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2917571&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-21T09:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>16/10/2026</pubDate>
+	
+	<description>
+Procedura ex artt. 25 e 76, comma 2, lett. b) punto 2 del D. Lgs. n. 36/2023, per l’affidamento della fornitura annuale del farmaco brand  ZELITREX 1000MG 21 CPR - AIC 029503024&lt;strong&gt;Scadenza : 21/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[Procedura ex artt. 25 e 76, comma 2, lett. b) punto 2 del D. Lgs. n. 36/2023, per l’affidamento della fornitura annuale del farmaco brand  ZELITREX 1000MG 21 CPR - AIC 029503024]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ASL BA]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[66.223,50]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-21T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BD63FC83CF]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2917571]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[ZELITREX 1000MG 21 CPR]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-20T11:37:57]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[33690000-3 - Medicinali vari]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-16T09:42:40]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2918943&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-21T09:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>16/10/2026</pubDate>
+	
+	<description>
+AREA OSPEDALIERA BARI NORD – P.O. CORATO – Affidamento diretto ai sensi dell’art. 50 comma 1 lettera b) D.L.gs 36/2023 per la fornitura di detergente alcalino per lavastrumenti Smeg, per le esigenze della U.O.C. di Anestesia e Rianimazione del P.O. di Corato.&lt;strong&gt;Scadenza : 21/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[AREA OSPEDALIERA BARI NORD – P.O. CORATO – Affidamento diretto ai sensi dell’art. 50 comma 1 lettera b) D.L.gs 36/2023 per la fornitura di detergente alcalino per lavastrumenti Smeg, per le esigenze della U.O.C. di Anestesia e Rianimazione del P.O. di Corato.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ASL BA]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[4.800,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-21T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2918943]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[AREA OSPEDALIERA BARI NORD – P.O. CORATO – Affidamento diretto ai sensi dell’art. 50 comma 1 lettera b) D.L.gs 36/2023 per la fornitura di detergente alcalino per lavastrumenti Smeg, per le esigenze della U.O.C. di Anestesia e Rianimazione del P.O. d]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-20T10:27:22]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[39820000-6 - Agenti organici tensioattivi]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-16T11:41:35]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2913235&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-21T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>13/10/2026</pubDate>
+	
+	<description>
+Continuazione della fornitura del servizio di assistenza sanitaria domiciliare ad alta intensit&#224;, in favore dell’assistito C.L. residente nel territorio del Distretto Socio Sanita
