@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>670</afs:totRecord>
+<afs:totRecord>671</afs:totRecord>
 <item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2921232&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-05T12:00:00]]></link>
@@ -40,6 +40,41 @@ AVVISO DI CONSULTAZIONE RELIMINARE per la fornitura di sistemi per il lavaggio d
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
 	<afs:dataUltimaModifica><![CDATA[2026-10-19T11:42:13.950]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-19T11:42:13]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2924620&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-03T11:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>20/10/2026</pubDate>
+	
+	<description>
+Avviso di una consultazione preliminare di mercato, ex articolo 77 del d. lgs. n. 36/2023, ai fini dell’acquisizione di una manifestazione di interesse per fornitura di reagenti a marchio Cell Signaling Technology, per la prosecuzione delle attivit&#224; di ricerca dei laboratori dell’Ente per un periodo presunto di 36 mesi.&lt;strong&gt;Scadenza : 03/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[Avviso di una consultazione preliminare di mercato, ex articolo 77 del d. lgs. n. 36/2023, ai fini dell’acquisizione di una manifestazione di interesse per fornitura di reagenti a marchio Cell Signaling Technology, per la prosecuzione delle attività di ricerca dei laboratori dell’Ente per un periodo presunto di 36 mesi.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[IRCCS “S. De Bellis” ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-03T11:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2924620]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[FORNITURA REAGENTI A MARCHIO CELL SIGNALING TECHNOLOGY PER RICERCA PER 36 MESI]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-20T16:26:17.473]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-20T16:26:17]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
@@ -180,7 +215,7 @@ SISTEMI ELETTROCHIRURGICI PER PROCEDURE LEEP COMPLETI DI MODULO DEDICATO DI ASPI
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-13T16:31:02.667]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-10-21T10:21:22.433]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-13T16:31:02]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -215,7 +250,7 @@ SISTEMI ELETTROCHIRURGICI PER PROCEDURE LEEP COMPLETI DI MODULO DEDICATO DI ASPI
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-08T09:46:56.727]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-10-21T10:18:46.670]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-07T13:54:57]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -252,7 +287,7 @@ AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO ai sensi dell’art. 77 del D.lgs
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-20T11:50:10.440]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-10-21T11:01:05.860]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-09T12:51:19]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -370,39 +405,4 @@ CONSULTAZIONE PRELIMINARE DI MERCATO, EX ART. 77 DEL D.LGS. N. 36 /2023, FINALIZ
 Avviso di consultazione preliminare di mercato, propedeutica all’affidamento della fornitura triennale di FILTRI PER PLASMAFERESI PRISMAFLEX TPE1000 e PRISMAFLEX TPE2000 utilizzati con Monitor Prismax per utenza pediatrica da destinare alla U.O.S.D. Nefrologia e Dialisi Pediatrica dell’ Ospedale Pediatrico Giovanni XXIII. &lt;strong&gt;Scadenza : 14/10/2026&lt;/strong&gt;
 	</description>
 	
-	<afs:Oggetto><![CDATA[Avviso di consultazione preliminare di mercato, propedeutica all’affidamento della fornitura triennale di FILTRI PER PLASMAFERESI PRISMAFLEX TPE1000 e PRISMAFLEX TPE2000 utilizzati con Monitor Prismax per utenza pediatrica da destinare alla U.O.S.D. Nefrologia e Dialisi Pediatrica dell’ Ospedale Pediatrico Giovanni XXIII. ]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:DenominazioneEnte><![CDATA[A.O.U. Policlinico BARI ]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-14T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2909743]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Filtri per Plasmaferesi PRISMAFLEX TPE1000 e PRISMAFLEX TPE2000]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-12T10:37:20.240]]></afs:dataUltimaModifica>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-09T12:13:09]]></afs:DtPubblicazioneTecnical>
-	
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2734004&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-12T09:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>23/09/2026</pubDate>
-	
-	<description>
-&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Manifestazione di interesse finalizzata all’acquisizione di dispositivi diagnostici di ultima generazione, non basati sull’impiego di radiazioni ionizzanti, destinati alle attivit&#224; di prevenzione, diagnosi precoce e valutazione del rischio di fragilit&#224; ossea.&lt;strong&gt;Scadenza : 12/10/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Manifestazione di interesse finalizzata all’acquisizione di dispositivi diagnostici di ultima generazione, non basati sull’impiego di radiazioni ionizzanti, destinati alle at
+	<afs:Oggetto><![CDATA[Avviso di consultazione preliminare di mercato, propedeutica all’affidamento della fornitura triennale di FILTRI PER PLASMAFERESI PRISMAFLEX TPE1000 e PRISMAFLEX TPE2000 utilizzati con Monito
