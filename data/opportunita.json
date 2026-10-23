@@ -1,5 +1,5 @@
 {
- "aggiornato_il": "2026-10-22T09:52:21+00:00",
+ "aggiornato_il": "2026-10-23T09:46:03+00:00",
  "totale": 25,
  "opportunita": [
   {
@@ -297,7 +297,7 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-22"
+   "ultimo_rilevamento": "2026-10-23"
   },
   {
    "id": "ted:711490-2026",
@@ -319,7 +319,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72267000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-15",
-   "ultimo_rilevamento": "2026-10-22"
+   "ultimo_rilevamento": "2026-10-23"
   },
   {
    "id": "ted:718813-2026",
@@ -342,7 +342,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72250000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-22"
+   "ultimo_rilevamento": "2026-10-23"
   },
   {
    "id": "ted:708163-2026",
@@ -364,7 +364,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72500000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-14",
-   "ultimo_rilevamento": "2026-10-22"
+   "ultimo_rilevamento": "2026-10-23"
   },
   {
    "id": "ted:718962-2026",
@@ -386,7 +386,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72253000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-22"
+   "ultimo_rilevamento": "2026-10-23"
   },
   {
    "id": "ted:683594-2026",
@@ -452,7 +452,7 @@
    "motivo_match": "Oggetto sanitario ('pazient') + CPV IT (48517000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-22"
+   "ultimo_rilevamento": "2026-10-23"
   },
   {
    "id": "uslumbria1:1bdb9ab7d6e8",
@@ -474,7 +474,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-22"
+   "ultimo_rilevamento": "2026-10-23"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -496,7 +496,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-22"
+   "ultimo_rilevamento": "2026-10-23"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -516,7 +516,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-22"
+   "ultimo_rilevamento": "2026-10-23"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -536,7 +536,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-22"
+   "ultimo_rilevamento": "2026-10-23"
   },
   {
    "id": "uslumbria2:5137a51e173c",
