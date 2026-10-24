@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-10-23T09:46:03+00:00",
+  "eseguito_il": "2026-10-24T09:19:22+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -7,7 +7,7 @@
     },
     "portali_rss": {
       "esito": "ok",
-      "pertinenti": 5
+      "pertinenti": 4
     },
     "portali_html": {
       "esito": "ok",
