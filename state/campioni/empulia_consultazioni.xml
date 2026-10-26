@@ -255,7 +255,7 @@ molecolari”]]></afs:Oggetto>
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2930588&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-27T13:00:00]]></link>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2930588&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-27T13:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>23/10/2026</pubDate>
 	
@@ -279,7 +279,7 @@ AVVISO PUBBLICO DI MANIFESTAZIONE DI INTERESSE PER L’INDIVIDUAZIONE DI OPERATO
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -319,10 +319,10 @@ Consultazione preliminare di mercato, indetta ai sensi dell’art. 77 del D. Lgs
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
 	<afs:TitoloDocumento><![CDATA[CPM Sistema Sequenziamento Long]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-09T12:32:04.300]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-10-26T09:28:30.283]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-09T12:32:04]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -409,4 +409,4 @@ AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO ai sensi dell’art. 77 del D.lgs
 	<afs:Oggetto><![CDATA[AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO ai sensi dell’art. 77 del D.lgs. 36/2023 s.m.i.: acquisizione di sistemi di “Energy Device”, funzionali alle attività chirurgiche dei Dipartimenti dell'ASL BA
 ]]></afs:Oggetto>
     <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:D
+	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:Den

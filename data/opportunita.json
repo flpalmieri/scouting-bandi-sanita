@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-10-25T09:35:59+00:00",
- "totale": 25,
+ "aggiornato_il": "2026-10-26T10:47:33+00:00",
+ "totale": 30,
  "opportunita": [
   {
    "id": "ted:576256-2026",
@@ -92,6 +92,50 @@
    "ultimo_rilevamento": "2026-10-13"
   },
   {
+   "id": "empulia:2924901",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Invito finalizzato all’acquisizione di preventivi ai fini dell’eventuale affidamento diretto ai sensi dell’art. 50, comma 1, lett. b) del D.Lgs. 36/2023 della fornitura di PC Portatili a valere sul progetto: “Implementazione di nuovi modelli gestionali dei casi di intossicazione sul territorio regionale Pugliese” per la S.S.V.D. Centro Antiveleni di Puglia – Richiesta di conferma o eventuale miglioramento dell'offerta economica",
+   "ente": "A.O.U. Ospedali Riuniti FOGGIA",
+   "scadenza": "2026-10-27",
+   "pubblicazione": "2026-10-20",
+   "importo": 3299.7,
+   "cpv": [
+    "30213100"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2924901&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T10:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('gestional')",
+   "descrizione": "Invito dall' Avviso PE246914-26",
+   "primo_rilevamento": "2026-10-26",
+   "ultimo_rilevamento": "2026-10-26"
+  },
+  {
+   "id": "empulia:2929947",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "richiesta di preventivo preordinata ad un eventuale affidamento diretto ex. art. 50, comma 1 lett. b) del D.lgs. 36/2023 avente ad oggetto l’affidamento del servizio organizzativo del XVI° Convegno di Tossicologia Clinica del Centro Antiveleni Puglia dal titolo “Dalla Prevenzione al Trattamento delle Intossicazioni Funzioni e Ruolo del Centro Antiveleni di Puglia” – rientrante nel Progetto regionale “Implementazione di nuovi modelli gestionali nella segnalazione dei casi di intossicazione sul territorio regionale pugliese” di cui alla DRG n. 842 del 19 giugno 2025",
+   "ente": "A.O.U. Ospedali Riuniti FOGGIA",
+   "scadenza": "2026-10-27",
+   "pubblicazione": "2026-10-23",
+   "importo": 11400.0,
+   "cpv": [
+    "79950000"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2929947&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T10:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('gestional')",
+   "descrizione": "AFFIDAMENTO CONVEGNI CAV Invito dall' Avviso PE256386-26",
+   "primo_rilevamento": "2026-10-26",
+   "ultimo_rilevamento": "2026-10-26"
+  },
+  {
    "id": "empulia:2899778",
    "fonti": [
     "EmPULIA"
@@ -113,7 +157,31 @@
    "motivo_match": "Ente sanitario + CPV IT (72411000)",
    "descrizione": "Senza Titolo",
    "primo_rilevamento": "2026-10-16",
-   "ultimo_rilevamento": "2026-10-16"
+   "ultimo_rilevamento": "2026-10-26"
+  },
+  {
+   "id": "empulia:2928042",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Autorizzazione a contrarre per l’affidamento, ai sensi dell’art. 76, comma 2, lett. c) del d. lgs. n. 36/2023, mediante piattaforma telematica EmPulia dei Servizi Integrati di Raccolta, trasporto e smaltimento di rifiuti ospedalieri per la durata di mesi 2 (due) con opzione di rinnovo per ulteriori 2 (due) mesi.",
+   "ente": "ASL TA",
+   "scadenza": "2026-10-28",
+   "pubblicazione": "2026-10-22",
+   "importo": 552000.0,
+   "cpv": [
+    "90524400"
+   ],
+   "cig": [
+    "BD7C1D79B9"
+   ],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2928042&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-28T09:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('piattaforma telematica')",
+   "descrizione": "Raccolta, trasporto e smaltimento di rifiuti ospedalieri",
+   "primo_rilevamento": "2026-10-26",
+   "ultimo_rilevamento": "2026-10-26"
   },
   {
    "id": "ted:654909-2026",
@@ -186,26 +254,26 @@
    "ultimo_rilevamento": "2026-10-13"
   },
   {
-   "id": "empulia:2733473",
+   "id": "empulia:2923353",
    "fonti": [
     "EmPULIA"
    ],
-   "titolo": "“PR PUGLIA 2021-2027, ASSE VIII AZIONE 8.4 “RINNOVO E POTENZIAMENTO DELLE STRUTTURE OSPEDALIERE E SVILUPPO DELLA TELEMEDICINA. INTERVENTI: POTENZIAMENTO E RINNOVAMENTO DELLE DOTAZIONI STRUMENTALI PER LE SALE OPERATORIE DEI PRESIDI OSPEDALIERI DELLA ASL BR” PROCEDURA APERTA TELEMATICA (art. 25 e 71 D.Lgs. n. 36/2023) PER L’AFFIDAMENTO DELLA FORNITURA DI APPARECCHIATURE E RELATIVO MATERIALE CONSUMABILE IN N. 8 LOTTI DA AFFIDARE CON IL CRITERIO DELL’OFFERTA ECONOMICAMENTE PIU’ VANTAGGIOSA (art. 108, comma 1 e 2, del D. Lgs. n. 36/2023)",
-   "ente": "ASL BR",
+   "titolo": "Fondi FESR Puglia 2021- 2027 Azione 8.4 \"Rinnovo e potenziamento delle strutture ospedaliere e sviluppo della telemedicina\" Tipologia B – Potenziamento e rinnovamento delle dotazioni strumentali per le Sale Operatorie del P.O. “V. Fazzi” - Richiesta di preventivo svolta in modalità telematica finalizzata all’affidamento diretto ai sensi dell’art. 50 co. 1 lett. B D.Lgs n. 36/2023 per la fornitura di strumentario chirurgico a servizio della colonna già in uso di produzione Olympus da destinare alla U.O.C. di Urologia del P.O. “V.Fazzi” di Lecce. Importo presunto a basa d’asta € 103.000,00 (euro centotremila/00) oltre Iva.",
+   "ente": "ASL LE",
    "scadenza": "2026-11-04",
-   "pubblicazione": "2026-09-24",
-   "importo": 14104720.0,
+   "pubblicazione": "2026-10-20",
+   "importo": 103000.0,
    "cpv": [
-    "33190000"
+    "33169000"
    ],
    "cig": [],
    "tipo": "bando",
-   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2733473&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-04T14:00:00",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2923353&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-04T12:00:00",
    "regione": "Puglia",
-   "motivo_match": "Ente sanitario + oggetto IT ('TELEMEDICIN')",
-   "descrizione": "Multilotto 2026 fesr 21 27 linea 8.4",
-   "primo_rilevamento": "2026-10-16",
-   "ultimo_rilevamento": "2026-10-16"
+   "motivo_match": "Ente sanitario + oggetto IT ('telemedicin')",
+   "descrizione": "STRUMENTARIO CHIRURGICO COLONNA OLYMPUS PER U.O.C. DI UROLOGIA DEL P.O. V. FAZZI",
+   "primo_rilevamento": "2026-10-26",
+   "ultimo_rilevamento": "2026-10-26"
   },
   {
    "id": "ted:674254-2026",
@@ -253,6 +321,50 @@
    "ultimo_rilevamento": "2026-10-13"
   },
   {
+   "id": "empulia:2931485",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Manutenzione correttiva dell’Elettrobisturi ESG 410 di produzione Olympus ed Aggiornamento evolutivo di interfacciamento e collegamento wireless 4 K del monitor Sony 55” fornito nell’ambito del completamento del Sistema di Videolaparoscopia VISERA OTV- S700 Olympus dalla ditta Olympus Italia S.r.l., in uso presso Blocco Operatorio del P.O. “Veris Delli Ponti” di Scorrano - Affidamento diretto ai sensi dell'art. 50 comma 1 lett. b) del D.Lgs. n. 36/2023 - Ditta Olympus Italia S.r.l.",
+   "ente": "ASL LE",
+   "scadenza": "2026-11-06",
+   "pubblicazione": "2026-10-26",
+   "importo": 17000.0,
+   "cpv": [
+    "50422000"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2931485&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-06T10:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('Manutenzione correttiva')",
+   "descrizione": "Manutenzione correttiva dell’Elettrobisturi ESG 410 di produzione Olympus ed Aggiornamento evolutivo interfacciamento e collegamento wireless 4 K del monitor 55” - GRUPPO OPERATORIO P.O. SCORRANO",
+   "primo_rilevamento": "2026-10-26",
+   "ultimo_rilevamento": "2026-10-26"
+  },
+  {
+   "id": "empulia:2733473",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Bando Rettificato - “PR PUGLIA 2021-2027, ASSE VIII AZIONE 8.4 “RINNOVO E POTENZIAMENTO DELLE STRUTTURE OSPEDALIERE E SVILUPPO DELLA TELEMEDICINA. INTERVENTI: POTENZIAMENTO E RINNOVAMENTO DELLE DOTAZIONI STRUMENTALI PER LE SALE OPERATORIE DEI PRESIDI OSPEDALIERI DELLA ASL BR” PROCEDURA APERTA TELEMATICA (art. 25 e 71 D.Lgs. n. 36/2023) PER L’AFFIDAMENTO DELLA FORNITURA DI APPARECCHIATURE E RELATIVO MATERIALE CONSUMABILE IN N. 8 LOTTI DA AFFIDARE CON IL CRITERIO DELL’OFFERTA ECONOMICAMENTE PIU’ VANTAGGIOSA (art. 108, comma 1 e 2, del D. Lgs. n. 36/2023)",
+   "ente": "ASL BR",
+   "scadenza": "2026-11-09",
+   "pubblicazione": "2026-09-24",
+   "importo": 14104720.0,
+   "cpv": [
+    "33190000"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2733473&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-09T14:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('TELEMEDICIN')",
+   "descrizione": "Multilotto 2026 fesr 21 27 linea 8.4",
+   "primo_rilevamento": "2026-10-16",
+   "ultimo_rilevamento": "2026-10-26"
+  },
+  {
    "id": "empulia:2908141",
    "fonti": [
     "EmPULIA"
@@ -274,7 +386,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('telemedicin')",
    "descrizione": "ARCO STERILE OCULISTICA",
    "primo_rilevamento": "2026-10-16",
-   "ultimo_rilevamento": "2026-10-16"
+   "ultimo_rilevamento": "2026-10-26"
   },
   {
    "id": "ted:722510-2026",
@@ -297,7 +409,7 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-25"
+   "ultimo_rilevamento": "2026-10-26"
   },
   {
    "id": "ted:711490-2026",
@@ -342,7 +454,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72250000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-25"
+   "ultimo_rilevamento": "2026-10-26"
   },
   {
    "id": "ted:708163-2026",
@@ -386,7 +498,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72253000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-25"
+   "ultimo_rilevamento": "2026-10-26"
   },
   {
    "id": "ted:683594-2026",
@@ -452,7 +564,7 @@
    "motivo_match": "Oggetto sanitario ('pazient') + CPV IT (48517000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-25"
+   "ultimo_rilevamento": "2026-10-26"
   },
   {
    "id": "uslumbria1:1bdb9ab7d6e8",
@@ -474,7 +586,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-25"
+   "ultimo_rilevamento": "2026-10-26"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -496,7 +608,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-25"
+   "ultimo_rilevamento": "2026-10-26"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -516,7 +628,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-25"
+   "ultimo_rilevamento": "2026-10-26"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -536,7 +648,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-25"
+   "ultimo_rilevamento": "2026-10-26"
   },
   {
    "id": "uslumbria2:5137a51e173c",
