@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-10-26T10:47:33+00:00",
- "totale": 30,
+ "aggiornato_il": "2026-10-27T10:14:07+00:00",
+ "totale": 32,
  "opportunita": [
   {
    "id": "ted:576256-2026",
@@ -181,7 +181,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('piattaforma telematica')",
    "descrizione": "Raccolta, trasporto e smaltimento di rifiuti ospedalieri",
    "primo_rilevamento": "2026-10-26",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "ted:654909-2026",
@@ -268,12 +268,12 @@
    ],
    "cig": [],
    "tipo": "bando",
-   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2923353&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-04T12:00:00",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2923353&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-04T12:00:00",
    "regione": "Puglia",
    "motivo_match": "Ente sanitario + oggetto IT ('telemedicin')",
    "descrizione": "STRUMENTARIO CHIRURGICO COLONNA OLYMPUS PER U.O.C. DI UROLOGIA DEL P.O. V. FAZZI",
    "primo_rilevamento": "2026-10-26",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "ted:674254-2026",
@@ -340,7 +340,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('Manutenzione correttiva')",
    "descrizione": "Manutenzione correttiva dell’Elettrobisturi ESG 410 di produzione Olympus ed Aggiornamento evolutivo interfacciamento e collegamento wireless 4 K del monitor 55” - GRUPPO OPERATORIO P.O. SCORRANO",
    "primo_rilevamento": "2026-10-26",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "empulia:2733473",
@@ -362,7 +362,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('TELEMEDICIN')",
    "descrizione": "Multilotto 2026 fesr 21 27 linea 8.4",
    "primo_rilevamento": "2026-10-16",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "empulia:2908141",
@@ -386,7 +386,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('telemedicin')",
    "descrizione": "ARCO STERILE OCULISTICA",
    "primo_rilevamento": "2026-10-16",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "ted:722510-2026",
@@ -409,7 +409,7 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "ted:711490-2026",
@@ -454,7 +454,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72250000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "ted:708163-2026",
@@ -479,6 +479,50 @@
    "ultimo_rilevamento": "2026-10-24"
   },
   {
+   "id": "ted:744682-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Fornitura di una piattaforma integrata per la gestione dell'informazione clinica, la codifica semi-automatica delle doimissioni e l'analisi analitica della casistica ospedaliera",
+   "ente": "U.O.C. PROVVEDITORATO - Ospedali Riuniti Villa Sofia Cervello",
+   "scadenza": "2026-11-25",
+   "pubblicazione": "2026-10-27",
+   "importo": 701500.0,
+   "cpv": [
+    "48300000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/744682-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (48300000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-10-27",
+   "ultimo_rilevamento": "2026-10-27"
+  },
+  {
+   "id": "ted:745164-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "GARA EUROPEA A PROCEDURA APERTA AI SENSI DELL'ART. 71 DEL D.LGS. N. 36/2023, PER L'AFFIDAMENTO PER IL SERVIZIO DI UPGRADE EVOLUTIVO DI LICENZE, SERVER, LIBRERIE E STORAGE HPE PER LE ESIGENZE DEL REPARTO GESTIONE TELEMATICA",
+   "ente": "IZSAM - Istituto Zooprofilattico Sperimentale dell Abruzzo e del Molise G. Caporale",
+   "scadenza": "2026-11-27",
+   "pubblicazione": "2026-10-27",
+   "importo": 700000.0,
+   "cpv": [
+    "72500000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/745164-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (72500000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-10-27",
+   "ultimo_rilevamento": "2026-10-27"
+  },
+  {
    "id": "ted:718962-2026",
    "fonti": [
     "TED"
@@ -498,7 +542,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72253000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "ted:683594-2026",
@@ -564,7 +608,7 @@
    "motivo_match": "Oggetto sanitario ('pazient') + CPV IT (48517000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "uslumbria1:1bdb9ab7d6e8",
@@ -586,7 +630,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -608,7 +652,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -628,7 +672,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -648,7 +692,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-26"
+   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "uslumbria2:5137a51e173c",

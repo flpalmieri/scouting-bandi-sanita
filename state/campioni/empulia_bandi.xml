@@ -8,30 +8,328 @@
 <afs:totRecord>120</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2732800&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-26T12:00:00]]></link>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2917389&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T12:00:00]]></link>
 	<category>Bando</category>
-	<pubDate>24/09/2026</pubDate>
+	<pubDate>16/10/2026</pubDate>
 	
 	<description>
-PROCEDURA APERTA PER L’ AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA SPECIALISTICA SCOLASTICA DEGLI ALUNNI CON GRAVI DISABILIT&#192; NEI COMUNI DI CONVERSANO, MONOPOLI E POLIGNANO A MARE PER LA DURATA DI DUE ANNI. &lt;strong&gt;Scadenza : 26/10/2026&lt;/strong&gt;
+Invito alla Procedura negoziata senza pubblicazione di un bando di gara, ai sensi dell&#39;art. 50, comma 1 lett. e) e dell’art. 108 del D.Lgs. n. 36/2023 – previa consultazione preliminare di mercato, ai sensi dell’art. 77 del D.lgs. 36/2023 - per l’affidamento della fornitura in regime di somministrazione triennale di Gel antisettico mani pronto all’uso, Presidio Medico Chirurgico (PMC) o Biocida, con azione battericida e virucida, da destinare all’ASL Lecce.&lt;strong&gt;Scadenza : 27/10/2026&lt;/strong&gt;
 	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[<img title="Acquisto Sociale" alt="Acquisto Sociale" src="./images/Acquisto_Sociale.png">]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[PROCEDURA APERTA PER L’ AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA SPECIALISTICA SCOLASTICA DEGLI ALUNNI CON GRAVI DISABILITÀ NEI COMUNI DI CONVERSANO, MONOPOLI E POLIGNANO A MARE PER LA DURATA DI DUE ANNI. ]]></afs:Oggetto>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[Invito alla Procedura negoziata senza pubblicazione di un bando di gara, ai sensi dell'art. 50, comma 1 lett. e) e dell’art. 108 del D.Lgs. n. 36/2023 – previa consultazione preliminare di mercato, ai sensi dell’art. 77 del D.lgs. 36/2023 - per l’affidamento della fornitura in regime di somministrazione triennale di Gel antisettico mani pronto all’uso, Presidio Medico Chirurgico (PMC) o Biocida, con azione battericida e virucida, da destinare all’ASL Lecce.]]></afs:Oggetto>
     <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[Comune di Conversano]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Comune di Conversano]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:EnteProponente><![CDATA[ASL LE]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL LE]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
 	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>																  
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
 																   
-	<afs:a_base_asta><![CDATA[3.895.895,26]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-26T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BD127BAFF6]]></afs:CIG>
+	<afs:a_base_asta><![CDATA[134.640,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BD62A3CBDA]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
 																				   
 	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
 	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2732800]]></afs:IdMsg>
+	<afs:IdMsg><![CDATA[2917389]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[GEL DISINFETTANTE MANI]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-27T09:35:45]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-16T11:23:43]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2926365&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>21/10/2026</pubDate>
+	
+	<description>
+Procedura telematica sotto soglia - Richiesta di preventivo, ai sensi dell’art. 50, comma 1, lettera b) del D.Lgs. n. 36/2023, per l’affidamento del servizio di realizzazione di una pubblicazione divulgativa ed informativa, nell’ambito del Programma Regionale di valorizzazione delle lingue minoritarie storiche presenti in Puglia - MATRIA&lt;strong&gt;Scadenza : 27/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[Procedura telematica sotto soglia - Richiesta di preventivo, ai sensi dell’art. 50, comma 1, lettera b) del D.Lgs. n. 36/2023, per l’affidamento del servizio di realizzazione di una pubblicazione divulgativa ed informativa, nell’ambito del Programma Regionale di valorizzazione delle lingue minoritarie storiche presenti in Puglia - MATRIA]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[Fondazione Apulia Film Commission]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Fondazione Apulia Film Commission]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[8.500,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BD73B8E8ED]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2926365]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Servizio di realizzazione di una pubblicazione divulgativa ed informativa, nell’ambito del Programma Regionale MATRIA]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-26T18:15:06]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[79970000-4 - Servizi di editoria]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-21T11:18:15]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2926948&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>21/10/2026</pubDate>
+	
+	<description>
+“Servizio di archiviazione, custodia e gestione della documentazione sanitaria, assimilabile ed amministrativa” aggiudicato dall’ASL Bari con determinazione dirigenziale n. 0013249 del 17.11.2020. Estensione temporale del contratto per proroga tecnica.&lt;strong&gt;Scadenza : 27/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[“Servizio di archiviazione, custodia e gestione della documentazione sanitaria, assimilabile ed amministrativa” aggiudicato dall’ASL Bari con determinazione dirigenziale n. 0013249 del 17.11.2020. Estensione temporale del contratto per proroga tecnica.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ASL BR]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL BR]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[244.288,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BD7544A244]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2926948]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Proroga tecnicaServizio di archiviazione, custodia e gestione della documentazione sanitaria, assimilabile ed amministrativa]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-26T11:12:25]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[79995100-6 - Servizi di archiviazione]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-21T13:25:27]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2927730&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>22/10/2026</pubDate>
+	
+	<description>
+procedura ai sensi dell’art. 50, comma 1 lett. b) del D.lgs. 36/2023 per l’affidamento del servizio di riparazione strumentario chirurgico in dotazione alle SS.OO. del Policlinico di Foggia - RICHIESTA PREVENTIVO &lt;strong&gt;Scadenza : 27/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[procedura ai sensi dell’art. 50, comma 1 lett. b) del D.lgs. 36/2023 per l’affidamento del servizio di riparazione strumentario chirurgico in dotazione alle SS.OO. del Policlinico di Foggia - RICHIESTA PREVENTIVO ]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[A.O.U. Ospedali Riuniti FOGGIA ]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[A.O.U. Ospedali Riuniti FOGGIA ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[2.300,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2927730]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Riparazione Strumentario Chirurgico]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-27T10:40:31]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[50420000-5 - Servizi di riparazione e manutenzione di attrezzature medico-chirurgiche]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-22T09:35:31]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2927851&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>22/10/2026</pubDate>
+	
+	<description>
+procedura ai sensi dell’art. 50, comma 1 lett. b) del D.lgs. 36/2023 per l’affidamento del servizio di riparazione strumentario chirurgico in dotazione alle SS.OO. del Policlinico di Foggia - RICHIESTA PREVENTIVO &lt;strong&gt;Scadenza : 27/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[procedura ai sensi dell’art. 50, comma 1 lett. b) del D.lgs. 36/2023 per l’affidamento del servizio di riparazione strumentario chirurgico in dotazione alle SS.OO. del Policlinico di Foggia - RICHIESTA PREVENTIVO ]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[A.O.U. Ospedali Riuniti FOGGIA ]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[A.O.U. Ospedali Riuniti FOGGIA ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[3.500,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2927851]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Riparazione strumentario chirurgico]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-22T11:30:15]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[50422000-9 - Servizi di riparazione e manutenzione di attrezzature chirurgiche]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-22T11:30:15]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2931812&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>26/10/2026</pubDate>
+	
+	<description>
+Affidamento diretto ai sensi dell&#39;art. 50 comma 1 lett. b) per l&#39;acquisizione del servizio di sottoscrizione della dichiarazione IRAP integrativa per l’esercizio 2024.&lt;strong&gt;Scadenza : 27/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[Affidamento diretto ai sensi dell'art. 50 comma 1 lett. b) per l'acquisizione del servizio di sottoscrizione della dichiarazione IRAP integrativa per l’esercizio 2024.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[InnovaPuglia S.p.A.]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[InnovaPuglia S.p.A.]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[1.500,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2931812]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Sottoscrizione della dichiarazione IRAP integrativa per l’esercizio 2024]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-26T12:12:01]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[79220000-2 - Servizi fiscali]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-26T12:12:01]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2917802&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T13:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>16/10/2026</pubDate>
+	
+	<description>
+Procedura telematica di affidamento ex art. 50, co. 1, lett. b)del d. lgs. 36/2023 per la fornitura di“Poltrone Elettrificate per Prelievi” con assistenza tecnica triennale Full Risk post-garanzia, per le necessit&#224; della U.O. S.S.  Patologia Clinica del P.O. “Valle d’Itria” di Martina Franca - Asl Taranto – CIG:_________
+
+&lt;strong&gt;Scadenza : 27/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[Procedura telematica di affidamento ex art. 50, co. 1, lett. b)del d. lgs. 36/2023 per la fornitura di“Poltrone Elettrificate per Prelievi” con assistenza tecnica triennale Full Risk post-garanzia, per le necessità della U.O. S.S.  Patologia Clinica del P.O. “Valle d’Itria” di Martina Franca - Asl Taranto – CIG:_________
+
+]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ASL TA]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL TA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[10.350,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-27T13:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2917802]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Fornitura di“Poltrone Elettrificate per Prelievi]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-10-16T18:46:01]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-16T09:11:02]]></afs:DtPubblicazioneTecnical>
+										  
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2909340&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-28T08:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>12/10/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Procedura aperta ai sensi dell’art. 71 del D. Lgs. n. 36/2023 per l’affidamento in appalto della “Fornitura di arredi didattici innovativi per il Polo dell’infanzia Via Giotto e l’asilo nido Seveso” – nell’ambito del Potenziamento degli ambienti educativi per la fascia 0–6 anni. Programma Nazionale &quot;Scuola e Competenze&quot; 2021–2027 – Fondo Europeo di Sviluppo Regionale (FESR) - Obiettivo Specifico RSO4.2 - Azione RSO4.2.A5.A. - CUP: H44D25003100007&lt;strong&gt;Scadenza : 28/10/2026&lt;/strong&gt;
+	</description>
+	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Procedura aperta ai sensi dell’art. 71 del D. Lgs. n. 36/2023 per l’affidamento in appalto della “Fornitura di arredi didattici innovativi per il Polo dell’infanzia Via Giotto e l’asilo nido Seveso” – nell’ambito del Potenziamento degli ambienti educativi per la fascia 0–6 anni. Programma Nazionale "Scuola e Competenze" 2021–2027 – Fondo Europeo di Sviluppo Regionale (FESR) - Obiettivo Specifico RSO4.2 - Azione RSO4.2.A5.A. - CUP: H44D25003100007]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[Comune di Conversano]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Comune di Conversano]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
+																   
+	<afs:a_base_asta><![CDATA[352.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-28T08:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BD4E8F075C]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+																				   
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2909340]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
@@ -39,213 +337,41 @@ PROCEDURA APERTA PER L’ AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA SPECIALISTICA S
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[gara specialistica scolastica 2026]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[Fornitura di arredi didattici innovativi per il Polo dell’infanzia Via Giotto e l’asilo nido Seveso]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-26T11:38:40]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[85312000-9 - Servizi di assistenza sociale senza alloggio]]></afs:CPV>
+	<afs:dataUltimaModifica><![CDATA[2026-10-26T20:26:35]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[39160000-1 - Arredo scolastico]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-24T10:44:09]]></afs:DtPubblicazioneTecnical>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-12T09:16:44]]></afs:DtPubblicazioneTecnical>
 										  
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2915918&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-26T12:00:00]]></link>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2928042&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-28T09:00:00]]></link>
 	<category>Bando</category>
-	<pubDate>16/10/2026</pubDate>
+	<pubDate>22/10/2026</pubDate>
 	
 	<description>
-&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Fornitura di dispositivi e materiale di consumo per terapia ferrochelante sottocutanea.&lt;strong&gt;Scadenza : 26/10/2026&lt;/strong&gt;
+Autorizzazione a contrarre per l’affidamento, ai sensi dell’art. 76, comma 2, lett. c) del d. lgs. n. 36/2023, mediante piattaforma telematica EmPulia dei Servizi Integrati di Raccolta, trasporto e smaltimento di rifiuti ospedalieri per la durata di mesi 2 (due) con opzione di rinnovo per ulteriori 2 (due) mesi.&lt;strong&gt;Scadenza : 28/10/2026&lt;/strong&gt;
 	</description>
 	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Fornitura di dispositivi e materiale di consumo per terapia ferrochelante sottocutanea.]]></afs:Oggetto>
+	<afs:Oggetto><![CDATA[Autorizzazione a contrarre per l’affidamento, ai sensi dell’art. 76, comma 2, lett. c) del d. lgs. n. 36/2023, mediante piattaforma telematica EmPulia dei Servizi Integrati di Raccolta, trasporto e smaltimento di rifiuti ospedalieri per la durata di mesi 2 (due) con opzione di rinnovo per ulteriori 2 (due) mesi.]]></afs:Oggetto>
     <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
 	<afs:EnteProponente><![CDATA[ASL TA]]></afs:EnteProponente>
 	<afs:DenominazioneEnte><![CDATA[ASL TA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[40.000,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-26T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2915918]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[TERAPIA FERROHELANTE]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-22T14:48:59]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[33194110-0 - Pompe per infusione]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-16T12:54:06]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2922973&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-26T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>20/10/2026</pubDate>
-	
-	<description>
-Contrattualizzazione forniture beni sanitari anno 2025, ex art. 76 comma 2 lettera c) D.lgs 36/2023. Richiesta offerta 2026. &lt;strong&gt;Scadenza : 26/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[Contrattualizzazione forniture beni sanitari anno 2025, ex art. 76 comma 2 lettera c) D.lgs 36/2023. Richiesta offerta 2026. ]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL BA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[40.000,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-26T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BD6D083343]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2922973]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[CANE' S.P.A. Rinegoziazione 2026]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-23T13:15:22]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-20T09:11:23]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2928620&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-26T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>22/10/2026</pubDate>
-	
-	<description>
-Richiesta preventivo ai sensi dell’art. 50 Co. 1 lett. b) del d.lgs. n. 36/2023 per l’affidamento della fornitura biennale di bacchette per distacco coagulo occorrenti a questo Policlinico Foggia.
-
-&lt;strong&gt;Scadenza : 26/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[Richiesta preventivo ai sensi dell’art. 50 Co. 1 lett. b) del d.lgs. n. 36/2023 per l’affidamento della fornitura biennale di bacchette per distacco coagulo occorrenti a questo Policlinico Foggia.
-
-]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[A.O.U. Ospedali Riuniti FOGGIA ]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[A.O.U. Ospedali Riuniti FOGGIA ]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[1.000,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-26T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2928620]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[BACCHETTE Invito dall' Avviso PE224822-26]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-22T14:23:34]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-22T12:42:31]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2920646&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-26T20:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>19/10/2026</pubDate>
-	
-	<description>
-Servizio di manutenzione correttiva, per apparecchio a marchio Thermo Fisher Scientific, modello ASE 350 in dotazione presso i laboratori di ARPA Puglia - Dipartimento di Taranto&lt;strong&gt;Scadenza : 26/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[Servizio di manutenzione correttiva, per apparecchio a marchio Thermo Fisher Scientific, modello ASE 350 in dotazione presso i laboratori di ARPA Puglia - Dipartimento di Taranto]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ARPA Puglia]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ARPA Puglia]]></afs:DenominazioneEnte>
     <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
 	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[13.675,69]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-26T20:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2920646]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[TER- Servizio di manutenzione correttiva, per apparecchio a marchio Thermo Fisher Scientific, modello ASE 350 in dotazione presso i laboratori di ARPA Puglia - Dipartimento di Taranto]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-20T12:59:18]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[50410000-2 - Servizi di riparazione e manutenzione di apparecchiature di misurazione, collaudo e prova]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-19T10:13:22]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2928435&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-26T23:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>22/10/2026</pubDate>
-	
-	<description>
-Affidamento, ai sensi dell’articolo 50 comma 1 lett b) del D.Lgs. 36/2023, della fornitura di arredi non sanitari destinati al Presidio Ospedaliero Monopoli – Fasano. CUP D65F23000400003.&lt;strong&gt;Scadenza : 26/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[Affidamento, ai sensi dell’articolo 50 comma 1 lett b) del D.Lgs. 36/2023, della fornitura di arredi non sanitari destinati al Presidio Ospedaliero Monopoli – Fasano. CUP D65F23000400003.]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL BA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL BA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
 	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
 																   
-	<afs:a_base_asta><![CDATA[137.532,80]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-26T23:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:a_base_asta><![CDATA[552.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-28T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BD7C1D79B9]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
 																				   
 	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
 	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2928435]]></afs:IdMsg>
+	<afs:IdMsg><![CDATA[2928042]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
@@ -253,113 +379,27 @@ Affidamento, ai sensi dell’articolo 50 comma 1 lett b) del D.Lgs. 36/2023, del
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Fornitura di arredi non sanitari destinati al Presidio Ospedaliero Monopoli – Fasano]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[Raccolta, trasporto e smaltimento di rifiuti ospedalieri]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-22T21:16:26]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[44115800-7 - Arredi interni per edifici]]></afs:CPV>
+	<afs:dataUltimaModifica><![CDATA[2026-10-26T12:29:26]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[90524400-0 - Raccolta, trasporto e smaltimento di rifiuti ospedalieri]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-22T12:32:12]]></afs:DtPubblicazioneTecnical>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-22T18:38:03]]></afs:DtPubblicazioneTecnical>
 										  
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2921940&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T08:55:00]]></link>
+	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2931191&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-28T09:55:00]]></link>
 	<category>Bando</category>
-	<pubDate>19/10/2026</pubDate>
+	<pubDate>26/10/2026</pubDate>
 	
 	<description>
-Trattativa diretta, ai sensi dell’art.50, c.1, lett. b) del D.Lgs. 36/2023 E S.M.I., per la fornitura di prodotti a marchio Bio-Rad Laboratories, per la prosecuzione delle attivit&#224; del Laboratorio di Genetica, nell’ambito del progetto di ricerca The function of the SMYD3 methyltransferase in colorectal cancer stem cells: from mechanisms to therapies.
-Codice progetto PNRR-POC-2023-12378288 – CUP: G23C24000900006.&lt;strong&gt;Scadenza : 27/10/2026&lt;/strong&gt;
+RICHIESTA DI PREVENTIVO ai sensi dell’art.50, c.1, lett. b) del D.Lgs. 36/2023 E S.M.I., per la fornitura di prodotti Corning per la prosecuzione delle attivit&#224; del Laboratorio di Genetica, nell’ambito del progetto di ricerca The function of the SMYD3 methyltransferase in colorectal cancer stem cells: from mechanisms to therapies.
+Codice progetto PNRR-POC-2023-12378288 – CUP: G23C24000900006&lt;strong&gt;Scadenza : 28/10/2026&lt;/strong&gt;
 	</description>
 	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[Trattativa diretta, ai sensi dell’art.50, c.1, lett. b) del D.Lgs. 36/2023 E S.M.I., per la fornitura di prodotti a marchio Bio-Rad Laboratories, per la prosecuzione delle attività del Laboratorio di Genetica, nell’ambito del progetto di ricerca The function of the SMYD3 methyltransferase in colorectal cancer stem cells: from mechanisms to therapies.
-Codice progetto PNRR-POC-2023-12378288 – CUP: G23C24000900006.]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[IRCCS "S. De Bellis"]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[IRCCS “S. De Bellis” ]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[si]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[18.000,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-27T08:55:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2921940]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[FORNITURA REAGENTI BIO-RAD SU PROGETTO PNRR-POC-2023-12378288]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-19T14:07:52]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[33696500-0 - Reattivi per laboratorio]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-19T14:07:52]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2929263&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T09:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>22/10/2026</pubDate>
-	
-	<description>
-AVVISO PUBBLICO DEL 3 FEBBRAIO 2026, PROT N. 22870, PER RAFFORZARE E MIGLIORARE L&#39;OFFERTAEDUCATIVA NELLA FASCIA DI ET&#192; DA ZERO A SEI ANNI MEDIANTE LA FORNITURA DI ARREDI DIDATTICI INNOVATIVI - PROGRAMMA NAZIONALE “PN SCUOLA E COMPETENZE” 2021-2027, IN ATTUAZIONE DEL REGOLAMENTO (UE) N. 2021/1060 PER LE REGIONI -  FORNITURA DI ARREDI DIDATTICI INNOVATIVI PER L’ASILO NIDO DA 60 POSTI SITO IN VIA ORISTANO – COMPARTO C4 E PER L’ASILO NIDO DA 60 POSTI E MICRONIDO DA 12 POSTI SITI IN VIA I MAGGIO – PROCEDURA PER L’AFFIDAMENTO DEI SERVIZI DI INGEGNERIA ED ARCHITETTURA PER L’INCARICO DI DIRETTORE DELL’ESECUZIONE DEL CONTRATTO (DEC) PER LA FORNITURA DI ARREDI&lt;strong&gt;Scadenza : 27/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[AVVISO PUBBLICO DEL 3 FEBBRAIO 2026, PROT N. 22870, PER RAFFORZARE E MIGLIORARE L'OFFERTAEDUCATIVA NELLA FASCIA DI ETÀ DA ZERO A SEI ANNI MEDIANTE LA FORNITURA DI ARREDI DIDATTICI INNOVATIVI - PROGRAMMA NAZIONALE “PN SCUOLA E COMPETENZE” 2021-2027, IN ATTUAZIONE DEL REGOLAMENTO (UE) N. 2021/1060 PER LE REGIONI -  FORNITURA DI ARREDI DIDATTICI INNOVATIVI PER L’ASILO NIDO DA 60 POSTI SITO IN VIA ORISTANO – COMPARTO C4 E PER L’ASILO NIDO DA 60 POSTI E MICRONIDO DA 12 POSTI SITI IN VIA I MAGGIO – PROCEDURA PER L’AFFIDAMENTO DEI SERVIZI DI INGEGNERIA ED ARCHITETTURA PER L’INCARICO DI DIRETTORE DELL’ESECUZIONE DEL CONTRATTO (DEC) PER LA FORNITURA DI ARREDI]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[Comune di Modugno]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Comune di Modugno]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[10.842,45]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-27T09:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2929263]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[AFFIDAMENTO DIRETTO DEI SERVIZI DI INGEGNERIA ED ARCHITETTURA PER  L’INCARICO DI DIRETTORE DELL’ESECUZIONE DEL CONTRATTO (DEC) PER LA  FORNITURA DI ARREDI PER ASILO NIDO VIA ORISTANO E ASILO NIDO E MICRONIDO VIA I MAGGIO]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-23T13:06:31]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71240000-2 - Servizi architettonici, di ingegneria e pianificazione]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-22T18:49:11]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2922070&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T09:55:00]]></link>
-	<category>Bando</category>
-	<pubDate>19/10/2026</pubDate>
-	
-	<description>
-Trattativa diretta, ai sensi dell’art.50, c.1, lett. b) del D.Lgs. 36/2023 E S.M.I., per la fornitura di prodotti a marchio Invitrogen ed Applied Biosystems, per la prosecuzione delle attivit&#224; del Laboratorio di Genetica, nell’ambito del progetto di ricerca The function of the SMYD3 methyltransferase in colorectal cancer stem cells: from mechanisms to therapies.
-Codice progetto PNRR-POC-2023-12378288 – CUP: G23C24000900006&lt;strong&gt;Scadenza : 27/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[Trattativa diretta, ai sensi dell’art.50, c.1, lett. b) del D.Lgs. 36/2023 E S.M.I., per la fornitura di prodotti a marchio Invitrogen ed Applied Biosystems, per la prosecuzione delle attività del Laboratorio di Genetica, nell’ambito del progetto di ricerca The function of the SMYD3 methyltransferase in colorectal cancer stem cells: from mechanisms to therapies.
+	<afs:Oggetto><![CDATA[RICHIESTA DI PREVENTIVO ai sensi dell’art.50, c.1, lett. b) del D.Lgs. 36/2023 E S.M.I., per la fornitura di prodotti Corning per la prosecuzione delle attività del Laboratorio di Genetica, nell’ambito del progetto di ricerca The function of the SMYD3 methyltransferase in colorectal cancer stem cells: from mechanisms to therapies.
 Codice progetto PNRR-POC-2023-12378288 – CUP: G23C24000900006]]></afs:Oggetto>
     <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
 	<afs:EnteProponente><![CDATA[IRCCS "S. De Bellis"]]></afs:EnteProponente>
@@ -368,59 +408,7 @@ Codice progetto PNRR-POC-2023-12378288 – CUP: G23C24000900006]]></afs:Oggetto>
 	<afs:AppaltoPNRR><![CDATA[si]]></afs:AppaltoPNRR>
 	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>																  
 																   
-	<afs:a_base_asta><![CDATA[15.600,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-27T09:55:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:a_base_asta><![CDATA[12.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-28T09:55:00]]></afs:DtScadenzaBandoTecnical>
 	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2922070]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[FORNITURA PRODOTTI INVITROGEN ED APPLIED BIOSYSTEMS SU PROGETTO PNRR-POC-2023-12378288]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-19T14:07:54]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[33696500-0 - Reattivi per laboratorio]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-19T14:07:54]]></afs:DtPubblicazioneTecnical>
-										  
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2899778&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-27T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>06/10/2026</pubDate>
-	
-	<description>
- PROCEDURA  NEGOZIATA SENZA PREVIA PUBBLICAZIONE DI UN BANDO DI GARA, AI SENSI DELL’ART. 76, COMMA 2, LETT. B) DEL D.LGS. N. 36/2023, DA ESPLETARSI IN MODALIT&#192; TELEMATICA SU PIATTAFORMA  EMPULIA, PER L’AFFIDAMENTO DEI SERVIZI DI CONNETTIVIT&#192; DELLE SEDI ASL NON ATTIVE NEL PIANO DI RETE DI SANIT&#192; CONNESSA.&lt;strong&gt;Scadenza : 27/10/2026&lt;/strong&gt;
-	</description>
-	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
-	<afs:Oggetto><![CDATA[ PROCEDURA  NEGOZIATA SENZA PREVIA PUBBLICAZIONE DI UN BANDO DI GARA, AI SENSI DELL’ART. 76, COMMA 2, LETT. B) DEL D.LGS. N. 36/2023, DA ESPLETARSI IN MODALITÀ TELEMATICA SU PIATTAFORMA  EMPULIA, PER L’AFFIDAMENTO DEI SERVIZI DI CONNETTIVITÀ DELLE SEDI ASL NON ATTIVE NEL PIANO DI RETE DI SANITÀ CONNESSA.]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL TA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL TA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>																  
-																   
-	<afs:a_base_asta><![CDATA[786.869,20]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-27T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BD3D498B8F]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-																				   
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2899778]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bcon
+	<
