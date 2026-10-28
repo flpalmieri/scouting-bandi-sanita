@@ -1,20 +1,22 @@
 {
-  "eseguito_il": "2026-10-27T10:14:07+00:00",
+  "eseguito_il": "2026-10-28T11:01:34+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
-      "pertinenti": 10
+      "pertinenti": 11
     },
     "portali_rss": {
       "esito": "ok",
-      "pertinenti": 9
+      "pertinenti": 4
     },
     "portali_html": {
       "esito": "ok",
       "pertinenti": 4
     }
   },
-  "errori": [],
-  "nuove_opportunita": 2,
-  "totale": 32
+  "errori": [
+    "portali_rss: EmPULIA bandi: HTTPSConnectionPool(host='eproc.empulia.it', port=443): Max retries exceeded with url: /portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=20&nPag=8 (Caused by ResponseError('too many 500 error responses'))"
+  ],
+  "nuove_opportunita": 1,
+  "totale": 33
 }
