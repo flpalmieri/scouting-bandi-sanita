@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-10-29T11:19:54+00:00",
- "totale": 34,
+ "aggiornato_il": "2026-10-30T11:12:08+00:00",
+ "totale": 36,
  "opportunita": [
   {
    "id": "ted:576256-2026",
@@ -476,7 +476,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72200000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-10-28",
-   "ultimo_rilevamento": "2026-10-29"
+   "ultimo_rilevamento": "2026-10-30"
   },
   {
    "id": "ted:708163-2026",
@@ -520,7 +520,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48300000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
-   "ultimo_rilevamento": "2026-10-29"
+   "ultimo_rilevamento": "2026-10-30"
   },
   {
    "id": "ted:745164-2026",
@@ -542,7 +542,29 @@
    "motivo_match": "Ente sanitario + CPV IT (72500000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
-   "ultimo_rilevamento": "2026-10-29"
+   "ultimo_rilevamento": "2026-10-30"
+  },
+  {
+   "id": "ted:754163-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "GARA EUROPEA A PROCEDURA APERTA AI SENSI DEGLI ARTT. 14 E 71 DEL D.LGS. 36/2023 PER L'AFFIDAMENTO DELLA FORNITURA DI CREDITI \"ORACLE PAAS E IAAS UNIVERSAL CREDIT\" E DELLE SUBSCRIPTION \"ENTERPRISE RESOURCE PLANNING\", \"SUPPLY CHAIN EXECUTION\", \"PROCUREMENT CLOUD SERVICE\", \"PROCUREMENT FOR SELF SERVICE\" E \"ORACLE ADVANCED SERVICES FOR ITALY PUBLIC SECTOR FOR SAAS\", PER UNA DURATA DI 24 MESI",
+   "ente": "ASST DI CREMONA",
+   "scadenza": "2026-11-30",
+   "pubblicazione": "2026-10-30",
+   "importo": 4054800.0,
+   "cpv": [
+    "48000000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/754163-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (48000000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-10-30",
+   "ultimo_rilevamento": "2026-10-30"
   },
   {
    "id": "ted:718962-2026",
@@ -565,6 +587,29 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
    "ultimo_rilevamento": "2026-10-29"
+  },
+  {
+   "id": "ted:755116-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Procedura di gara aperta, ai sensi dell’art. 71 del D.lgs. n. 36/2023, per l’affidamento della fornitura del nuovo applicativo aziendale per la gestione del sistema qualità e dei relativi servizi di hosting, assistenza e manutenzione, per una durata di 72 mesi",
+   "ente": "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO",
+   "scadenza": "2026-12-02",
+   "pubblicazione": "2026-10-30",
+   "importo": 3072000.0,
+   "cpv": [
+    "48000000",
+    "48430000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/755116-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (48000000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-10-30",
+   "ultimo_rilevamento": "2026-10-30"
   },
   {
    "id": "ted:683594-2026",
@@ -608,7 +653,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (48517000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-10-29",
-   "ultimo_rilevamento": "2026-10-29"
+   "ultimo_rilevamento": "2026-10-30"
   },
   {
    "id": "ted:560155-2026",
@@ -674,7 +719,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-29"
+   "ultimo_rilevamento": "2026-10-30"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -696,7 +741,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-29"
+   "ultimo_rilevamento": "2026-10-30"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -716,7 +761,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-29"
+   "ultimo_rilevamento": "2026-10-30"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -736,7 +781,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-29"
+   "ultimo_rilevamento": "2026-10-30"
   },
   {
    "id": "uslumbria2:5137a51e173c",
