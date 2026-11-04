@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>678</afs:totRecord>
+<afs:totRecord>679</afs:totRecord>
 <item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2943864&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2027-01-18T12:00:00]]></link>
@@ -40,6 +40,43 @@ AVVISO PUBBLICO EX ART. 193, COMMA 4, DEL D. LGS. 36/2023 PER LA PRESENTAZIONE D
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
 	<afs:dataUltimaModifica><![CDATA[2026-11-02T18:51:56.273]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-02T18:51:56]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2949791&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-23T09:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>04/11/2026</pubDate>
+	
+	<description>
+Oggetto: Consultazione preliminare di mercato per la trasparenza ex ante ai sensi dell’art. 77 del
+D.Lgs. 36/23, per la fornitura dei seguenti sistemi analitici per la gestione di campioni in area di automazione ed in fase preanalitica dedicata, costituito da analizzatori in grado di effettuare immunodosaggi in chemiluminescenza e/o in elettrochemiluminescenza; quantitativa dell’Emoglobina umana dei campioni di feci; dei campioni urinari; della Velocit&#224; di Eritrosedimentazione (VES).&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[Oggetto: Consultazione preliminare di mercato per la trasparenza ex ante ai sensi dell’art. 77 del
+D.Lgs. 36/23, per la fornitura dei seguenti sistemi analitici per la gestione di campioni in area di automazione ed in fase preanalitica dedicata, costituito da analizzatori in grado di effettuare immunodosaggi in chemiluminescenza e/o in elettrochemiluminescenza; quantitativa dell’Emoglobina umana dei campioni di feci; dei campioni urinari; della Velocità di Eritrosedimentazione (VES).]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[A.O.U. Policlinico BARI ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2949791]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[CPM Workcell]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-04T12:20:24.553]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-04T12:20:24]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
@@ -113,7 +150,7 @@ AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSI PER L’ACQUISIZIONE DEL SERV
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2933371&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-09T14:00:00]]></link>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2933371&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-09T14:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>27/10/2026</pubDate>
 	
@@ -137,7 +174,7 @@ AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSI PER L’ACQUISIZIONE DEL SERV
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -215,7 +252,7 @@ AVVISO DI CONSULTAZIONE RELIMINARE per la fornitura di sistemi per il lavaggio d
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-19T11:42:13.950]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-04T12:33:07.743]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-19T11:42:13]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -367,44 +404,4 @@ molecolari”]]></afs:Oggetto>
 	<pubDate>23/10/2026</pubDate>
 	
 	<description>
-&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; AVVISO PUBBLICO DI MANIFESTAZIONE DI INTERESSE PER L’INDIVIDUAZIONE DI OPERATORI ECONOMICI DA INVITARE ALLA PROCEDURA NEGOZIATA D’URGENZA (EX ART. 140 E ART. 76, COMMA 2, LETT. C DEL D.LGS. 36/2023) PER L’AFFIDAMENTO IN CONCESSIONE TEMPORANEA DEL SERVIZIO DI GESTIONE, CUSTODIA E MANUTENZIONE DELLO STADIO COMUNALE &quot;VITO CURLO&quot;
-&lt;strong&gt;Scadenza : 28/10/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> AVVISO PUBBLICO DI MANIFESTAZIONE DI INTERESSE PER L’INDIVIDUAZIONE DI OPERATORI ECONOMICI DA INVITARE ALLA PROCEDURA NEGOZIATA D’URGENZA (EX ART. 140 E ART. 76, COMMA 2, LETT. C DEL D.LGS. 36/2023) PER L’AFFIDAMENTO IN CONCESSIONE TEMPORANEA DEL SERVIZIO DI GESTIONE, CUSTODIA E MANUTENZIONE DELLO STADIO COMUNALE "VITO CURLO"
-]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:DenominazioneEnte><![CDATA[Comune di Fasano]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-28T23:59:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2930588]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[CONCESSIONE GESTIONE STADIO "VITO CURLO"]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-27T17:42:00.173]]></afs:dataUltimaModifica>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-23T19:51:15]]></afs:DtPubblicazioneTecnical>
-	
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2909646&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-26T10:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>09/10/2026</pubDate>
-	
-	<description>
-Consultazione preliminare di mercato, indetta ai sensi dell’art. 77 del D. Lgs 36/2023 e s.m.i., per la fornitura di un Sistema di sequenziamento per l’analisi dell’intero genoma umano e per l’intero esoma basato su long reads.&lt;strong&gt;Scadenza : 26/10/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[Consultazione preliminare di mercato, indetta ai sensi dell’art. 77 del D. Lgs 36/2023 e s.m.i., per la fornitura di un Sistema di sequenziamento pe
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; AVVISO PUBBLICO DI MANIFESTAZIONE DI INTERESSE PER L’INDIVIDUAZIONE DI OPERATORI ECONOMICI DA INVITARE ALLA PROCEDURA NEGOZIATA D’URGENZA (EX ART. 140 E ART. 76, COMMA 2, LETT. C DEL D.LGS. 36/2023) PER L’AFFIDAMENTO IN 
