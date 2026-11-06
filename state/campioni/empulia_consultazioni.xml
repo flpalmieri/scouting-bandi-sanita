@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>679</afs:totRecord>
+<afs:totRecord>680</afs:totRecord>
 <item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2943864&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2027-01-18T12:00:00]]></link>
@@ -150,6 +150,59 @@ AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSI PER L’ACQUISIZIONE DEL SERV
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2953366&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-11T20:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>05/11/2026</pubDate>
+	
+	<description>
+PNRR M4C1-3.3 – MISSIONE 4 “ISTRUZIONE E RICERCA” – COMPONENTE 1 “POTENZIAMENTO DELL’OFFERTA DEI SERVIZI DI ISTRUZIONE: DAGLI ASILI NIDO ALLE UNIVERSIT&#192;” – INVESTIMENTO 3.3 “PIANO DI MESSA IN SICUREZZA E RIQUALIFICAZIONE DELL’EDILIZIA SCOLASTICA” - FINANZIATO DALL’UNIONE EUROPEA – NEXT GENERATION EU
+
+AVVISO DI CONSULTAZIONE E SELEZIONE DI OPERATORI ECONOMICI
+A CUI AFFIDARE, AI SENSI DELL’ART. 50, COMMA 1, LETT. B) DEL D.LGS 36/2023
+IL SERVIZIO TECNICO DI PROGETTAZIONE, DIREZIONE LAVORI E COORDINAMENTO SICUREZZA IN FASE DI PROGETTAZIONE/ESECUZIONE PER L’ADEGUAMENTO ALLA NORMATIVA ANTINCENDIO DEGLI EDIFICI PUBBLICI ADIBITI AD USO SCOLASTICO
+
+LOTTO 1: SCUOLA SECONDARIA DI I GRADO G. E. BALDASSARRE - CUP C58H25001920001
+LOTTO 2: SCUOLA PRIMARIA CEZZA - CUP C58H25001930001
+LOTTO 3: SCUOLA PRIMARIA D’ANNUNZIO - CUP C58H25001970001
+LOTTO 4: SCUOLA SECONDARIA DI I GRADO ROCCA - CUP C58H25001960001&lt;strong&gt;Scadenza : 11/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[PNRR M4C1-3.3 – MISSIONE 4 “ISTRUZIONE E RICERCA” – COMPONENTE 1 “POTENZIAMENTO DELL’OFFERTA DEI SERVIZI DI ISTRUZIONE: DAGLI ASILI NIDO ALLE UNIVERSITÀ” – INVESTIMENTO 3.3 “PIANO DI MESSA IN SICUREZZA E RIQUALIFICAZIONE DELL’EDILIZIA SCOLASTICA” - FINANZIATO DALL’UNIONE EUROPEA – NEXT GENERATION EU
+
+AVVISO DI CONSULTAZIONE E SELEZIONE DI OPERATORI ECONOMICI
+A CUI AFFIDARE, AI SENSI DELL’ART. 50, COMMA 1, LETT. B) DEL D.LGS 36/2023
+IL SERVIZIO TECNICO DI PROGETTAZIONE, DIREZIONE LAVORI E COORDINAMENTO SICUREZZA IN FASE DI PROGETTAZIONE/ESECUZIONE PER L’ADEGUAMENTO ALLA NORMATIVA ANTINCENDIO DEGLI EDIFICI PUBBLICI ADIBITI AD USO SCOLASTICO
+
+LOTTO 1: SCUOLA SECONDARIA DI I GRADO G. E. BALDASSARRE - CUP C58H25001920001
+LOTTO 2: SCUOLA PRIMARIA CEZZA - CUP C58H25001930001
+LOTTO 3: SCUOLA PRIMARIA D’ANNUNZIO - CUP C58H25001970001
+LOTTO 4: SCUOLA SECONDARIA DI I GRADO ROCCA - CUP C58H25001960001]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[Comune di Trani]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-11T20:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2953366]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[AVVISO DI CONSULTAZIONE ADEGUAMENTO ANTINCENDIO]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-05T17:52:33.480]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-05T17:52:33]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2933371&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-09T14:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>27/10/2026</pubDate>
@@ -182,7 +235,7 @@ AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSI PER L’ACQUISIZIONE DEL SERV
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-29T09:37:51.030]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-06T10:52:47.353]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-27T11:06:04]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -351,57 +404,4 @@ Avviso di consultazione preliminare di mercato ex art.77 D.lgs. 36/23 propedeuti
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
 	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[sistema per il trattamento a vapore acqueo per ipertrofia prostatica benigna REZUM e relativo materiale accessorio, per le necessità della S.C di Urologia del Presidio Ospedaliero Centrale “SS.Annunziata” di Taranto]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-28T11:16:20.423]]></afs:dataUltimaModifica>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-23T13:05:15]]></afs:DtPubblicazioneTecnical>
-	
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2914311&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-29T18:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>13/10/2026</pubDate>
-	
-	<description>
-MANIFESTAZIONE DI INTERESSE, EX ART. 76 e 79 (All. II.5) DELD.L.GS. 36/2023 PER LA FORNITURA A NOLEGGIO DI:un “Sistema Multiplex per dosaggio IGE specifiche con allergeni
-molecolari”&lt;strong&gt;Scadenza : 29/10/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[MANIFESTAZIONE DI INTERESSE, EX ART. 76 e 79 (All. II.5) DELD.L.GS. 36/2023 PER LA FORNITURA A NOLEGGIO DI:un “Sistema Multiplex per dosaggio IGE specifiche con allergeni
-molecolari”]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:DenominazioneEnte><![CDATA[A.O.U. Policlinico BARI ]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-10-29T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2914311]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Manifestazione di interesse per la fornitura a noleggio di un "Sistema Multiplex per dosaggio IGE specifiche con allergeni molecolarii]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-10-28T11:04:39.937]]></afs:dataUltimaModifica>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-13T16:06:54]]></afs:DtPubblicazioneTecnical>
-	
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2930588&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-28T23:59:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>23/10/2026</pubDate>
-	
-	<description>
-&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; AVVISO PUBBLICO DI MANIFESTAZIONE DI INTERESSE PER L’INDIVIDUAZIONE DI OPERATORI ECONOMICI DA INVITARE ALLA PROCEDURA NEGOZIATA D’URGENZA (EX ART. 140 E ART. 76, COMMA 2, LETT. C DEL D.LGS. 36/2023) PER L’AFFIDAMENTO IN CO
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso
