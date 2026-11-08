@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>152</afs:totRecord>
+<afs:totRecord>154</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2907586&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-09T10:00:00]]></link>
@@ -345,7 +345,7 @@ Procedura di gara ex artt.50 comma 1, lett b) e 25 del D.Lgs. n. 36/2023 e s.m.i
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-06T13:55:23]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-08T07:03:20]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[33690000-3 - Medicinali vari]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-03T10:40:00]]></afs:DtPubblicazioneTecnical>
