@@ -1,29 +1,7 @@
 {
- "aggiornato_il": "2026-11-08T11:43:57+00:00",
- "totale": 37,
+ "aggiornato_il": "2026-11-09T13:39:20+00:00",
+ "totale": 36,
  "opportunita": [
-  {
-   "id": "ted:549088-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "PROCEDURA APERTA PER L'AFFIDAMENTO DEL CONTRATTO AVENTE AD OGGETTO LA FORNITURA DI UN SISTEMA GESTIONALE PER LE SALE OPERATORIE E DEL PERCORSO CHIRURGICO AZIENDALE PER UN PERIODO DI 72 MESI, RINNOVABILE PER ULTERIORI 36 MESI",
-   "ente": "ASST DEGLI SPEDALI CIVILI DI BRESCIA",
-   "scadenza": "2026-10-09",
-   "pubblicazione": "2026-08-07",
-   "importo": 5000000.0,
-   "cpv": [
-    "48000000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/549088-2026",
-   "regione": null,
-   "motivo_match": "Ente sanitario + CPV IT (48000000)",
-   "descrizione": null,
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-13"
-  },
   {
    "id": "ted:621105-2026",
    "fonti": [
@@ -520,7 +498,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48000000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-30",
-   "ultimo_rilevamento": "2026-11-08"
+   "ultimo_rilevamento": "2026-11-09"
   },
   {
    "id": "ted:718962-2026",
@@ -565,7 +543,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48000000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-30",
-   "ultimo_rilevamento": "2026-11-08"
+   "ultimo_rilevamento": "2026-11-09"
   },
   {
    "id": "ted:683594-2026",
@@ -631,7 +609,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (48000000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-02",
-   "ultimo_rilevamento": "2026-11-08"
+   "ultimo_rilevamento": "2026-11-09"
   },
   {
    "id": "ted:768150-2026",
@@ -653,7 +631,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-05",
-   "ultimo_rilevamento": "2026-11-08"
+   "ultimo_rilevamento": "2026-11-09"
   },
   {
    "id": "ted:765436-2026",
@@ -675,7 +653,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72310000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-04",
-   "ultimo_rilevamento": "2026-11-08"
+   "ultimo_rilevamento": "2026-11-09"
   },
   {
    "id": "ted:560155-2026",
@@ -741,7 +719,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-08"
+   "ultimo_rilevamento": "2026-11-09"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -763,7 +741,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-08"
+   "ultimo_rilevamento": "2026-11-09"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -783,7 +761,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-08"
+   "ultimo_rilevamento": "2026-11-09"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -803,7 +781,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-08"
+   "ultimo_rilevamento": "2026-11-09"
   },
   {
    "id": "uslumbria2:5137a51e173c",
