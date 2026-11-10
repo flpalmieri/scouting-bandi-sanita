@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-09T13:39:20+00:00",
- "totale": 36,
+ "aggiornato_il": "2026-11-10T13:17:01+00:00",
+ "totale": 42,
  "opportunita": [
   {
    "id": "ted:621105-2026",
@@ -315,12 +315,78 @@
     "BD4D79982E"
    ],
    "tipo": "bando",
-   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2908141&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-11T11:00:00",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2908141&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-11T11:00:00",
    "regione": "Puglia",
    "motivo_match": "Ente sanitario + oggetto IT ('telemedicin')",
    "descrizione": "ARCO STERILE OCULISTICA",
    "primo_rilevamento": "2026-10-16",
-   "ultimo_rilevamento": "2026-10-27"
+   "ultimo_rilevamento": "2026-11-10"
+  },
+  {
+   "id": "empulia:2949856",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Affidamento diretto ai sensi dell’art. 50 comma 1 lett. b) del D.Lgs. n. 36/2023, per la manutenzione correttiva di un Tomografo a Risonanza Magnetica - sn 70444, Numero identificativo 61923775 Sw Ingenia r5.1.9/r4.1.9, in uso presso l’U.O.C. di Radiologia P.O. “V. Fazzi” del Polo Oncologico -",
+   "ente": "ASL LE",
+   "scadenza": "2026-11-11",
+   "pubblicazione": "2026-11-04",
+   "importo": 61190.0,
+   "cpv": [
+    "50430000"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2949856&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-11T10:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('manutenzione correttiva')",
+   "descrizione": "MANUTENZIONE CORRETTIVA TOMOGRAFO A RISONANZA MAGNETICA IN USO ALLA RADIOLOGIA P.O. V. FAZZI - DITTA PHILIPS",
+   "primo_rilevamento": "2026-11-10",
+   "ultimo_rilevamento": "2026-11-10"
+  },
+  {
+   "id": "empulia:2948438",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "FORNITURA DI COMPONENTI SOFTWARE E HARDWARE PER SISTEMA ERGO-SPIROMETRICO PRESENTE PRESSO U.O. DI CARDIOLOGIA DEL P.O. DI BARLETTA, COMPRENSIVO DI UN PERIODO DI GARANZIA FULL-RISK DI 24 MESI",
+   "ente": "ASL BAT",
+   "scadenza": "2026-11-12",
+   "pubblicazione": "2026-11-04",
+   "importo": 52000.0,
+   "cpv": [
+    "33182400"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2948438&tipobando=Avviso&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-12T12:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
+   "descrizione": "SISTEMA ERGOSPIROMETRICO",
+   "primo_rilevamento": "2026-11-10",
+   "ultimo_rilevamento": "2026-11-10"
+  },
+  {
+   "id": "empulia:2937954",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Richiesta di offerta per servizi di esportazione e migrazione dati dal sistema RIS/PACS attuale al nuovo sistema RIS/PACS SIRDImm",
+   "ente": "IRCCS Istituto Tumori “Giovanni Paolo II”",
+   "scadenza": "2026-11-13",
+   "pubblicazione": "2026-10-28",
+   "importo": 57000.0,
+   "cpv": [
+    "72212180"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2937954&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-13T10:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + CPV IT (72212180)",
+   "descrizione": "AD migrazione RIS-PACS",
+   "primo_rilevamento": "2026-11-10",
+   "ultimo_rilevamento": "2026-11-10"
   },
   {
    "id": "ted:722510-2026",
@@ -391,6 +457,28 @@
    "ultimo_rilevamento": "2026-10-29"
   },
   {
+   "id": "empulia:2934452",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Richiesta di preventivo svolta in modalità telematica finalizzata all’affidamento diretto ai sensi dell’art. 50 co. 1 lett. B D.Lgs n. 36/2023 per la fornitura di una licenza annuale gold del software ICON3D per la ricostruzione di immagini in 3D da destinare alla U.O.C. di Chirurgia Generale del P.O. “V.Fazzi” di Lecce. Importo presunto a basa d’asta € 40.000,00 (euro quarantamila/00) oltre Iva. .",
+   "ente": "ASL LE",
+   "scadenza": "2026-11-19",
+   "pubblicazione": "2026-10-27",
+   "importo": 40000.0,
+   "cpv": [
+    "48180000"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2934452&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-19T12:00:00",
+   "regione": "Puglia",
+   "motivo_match": "CPV software sanitario (48180000)",
+   "descrizione": "LICENZA SOFTWARE ANNUALE GOLD ICON3D PER LA UOC DI CHIRURGIA GENERALE DEL P.O. V. FAZZI DI LECCE",
+   "primo_rilevamento": "2026-11-10",
+   "ultimo_rilevamento": "2026-11-10"
+  },
+  {
    "id": "ted:746031-2026",
    "fonti": [
     "TED"
@@ -413,6 +501,30 @@
    "ultimo_rilevamento": "2026-11-07"
   },
   {
+   "id": "empulia:2929231",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "GARA TELEMATICA A PROCEDURA APERTA PER L’AFFIDAMENTO DEI “SERVIZI DI CONFIGURAZIONE, GESTIONE, ASSISTENZA E MANUTENZIONE CORRETTIVA, NORMATIVA ED EVOLUTIVA DELL’ECOSISTEMA INFORMATIVO AZIENDALE DI INNOVAPUGLIA E DI ASSISTENZA IN MATERIA CONTABILE, FISCALE, TRIBUTARIA, PREVIDENZIALE, DI GESTIONE AMMINISTRATIVA DEL PERSONALE E DI ELABORAZIONE DELLE BUSTE PAGA E CONSEGUENTI ADEMPIMENTI”",
+   "ente": "InnovaPuglia S.p.A.",
+   "scadenza": "2026-11-20",
+   "pubblicazione": "2026-10-29",
+   "importo": 753256.82,
+   "cpv": [
+    "72200000"
+   ],
+   "cig": [
+    "BD83612455"
+   ],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2929231&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-20T11:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Soggetto aggregatore + CPV IT (72200000) - da verificare",
+   "descrizione": "Procedura aperta per l'acquisizione del SIA",
+   "primo_rilevamento": "2026-11-10",
+   "ultimo_rilevamento": "2026-11-10"
+  },
+  {
    "id": "ted:708163-2026",
    "fonti": [
     "TED"
@@ -433,6 +545,30 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-14",
    "ultimo_rilevamento": "2026-10-24"
+  },
+  {
+   "id": "empulia:2939614",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Bando Rettificato - PROCEDURA NEGOZIATA TELEMATICA, AI SENSI DEGLI DELL’ART. 76 COMMA 2, LETT. B), N. 2 del D.LGS. 36/2023 s.m.i. PER L'ACQUISIZIONE DELL'INTEGRAZIONE DI NUOVE SEDI ALL'INTERNO DELLA RETE MPLS INFRATEL, DEDICATA ALLA ASL DI BARI, ATTUALMENTE GESTITA DALL'OPERATORE FASTWEB",
+   "ente": "ASL BA",
+   "scadenza": "2026-11-25",
+   "pubblicazione": "2026-10-29",
+   "importo": 1024430.2,
+   "cpv": [
+    "72720000"
+   ],
+   "cig": [
+    "BD9286C303"
+   ],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2939614&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T12:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + CPV IT (72720000)",
+   "descrizione": "PROCEDURA NEGOZIATA TELEMATICA, AI SENSI DEGLI DELL’ART. 76 COMMA 2, LETT. B), N. 2 del D.LGS. 36/2023 s.m.i.",
+   "primo_rilevamento": "2026-11-10",
+   "ultimo_rilevamento": "2026-11-10"
   },
   {
    "id": "ted:744682-2026",
@@ -609,7 +745,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (48000000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-02",
-   "ultimo_rilevamento": "2026-11-09"
+   "ultimo_rilevamento": "2026-11-10"
   },
   {
    "id": "ted:768150-2026",
@@ -631,7 +767,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-05",
-   "ultimo_rilevamento": "2026-11-09"
+   "ultimo_rilevamento": "2026-11-10"
   },
   {
    "id": "ted:765436-2026",
@@ -653,7 +789,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72310000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-04",
-   "ultimo_rilevamento": "2026-11-09"
+   "ultimo_rilevamento": "2026-11-10"
   },
   {
    "id": "ted:560155-2026",
@@ -719,7 +855,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-09"
+   "ultimo_rilevamento": "2026-11-10"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -741,7 +877,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-09"
+   "ultimo_rilevamento": "2026-11-10"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -761,7 +897,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-09"
+   "ultimo_rilevamento": "2026-11-10"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -781,7 +917,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-09"
+   "ultimo_rilevamento": "2026-11-10"
   },
   {
    "id": "uslumbria2:5137a51e173c",

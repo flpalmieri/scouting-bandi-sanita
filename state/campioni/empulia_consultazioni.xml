@@ -150,7 +150,7 @@ AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSI PER L’ACQUISIZIONE DEL SERV
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2953366&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-11T20:00:00]]></link>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2953366&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-11T20:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>05/11/2026</pubDate>
 	
@@ -190,7 +190,7 @@ LOTTO 4: SCUOLA SECONDARIA DI I GRADO ROCCA - CUP C58H25001960001]]></afs:Oggett
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -198,7 +198,7 @@ LOTTO 4: SCUOLA SECONDARIA DI I GRADO ROCCA - CUP C58H25001960001]]></afs:Oggett
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-09T12:23:36.987]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-10T12:45:27.380]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-05T17:52:33]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -229,13 +229,13 @@ LOTTO 4: SCUOLA SECONDARIA DI I GRADO ROCCA - CUP C58H25001960001]]></afs:Oggett
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
 	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:bconcluso><![CDATA[1]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[1]]></afs:bEsito>
 	<afs:TitoloDocumento><![CDATA[INDAGINE DI MERCATO finalizzato all’individuazione degli operatori economici da invitare alla successiva procedura negoziata ex art. 50, comma 1, lett. e), D.Lgs. 36/2023]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-09T12:07:01.497]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-10T09:39:57.463]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-27T11:06:04]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -404,4 +404,4 @@ Avviso di consultazione preliminare di mercato ex art.77 D.lgs. 36/23 propedeuti
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
 	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
