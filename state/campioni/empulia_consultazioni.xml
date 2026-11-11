@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>680</afs:totRecord>
+<afs:totRecord>681</afs:totRecord>
 <item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2943864&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2027-01-18T12:00:00]]></link>
@@ -40,6 +40,41 @@ AVVISO PUBBLICO EX ART. 193, COMMA 4, DEL D. LGS. 36/2023 PER LA PRESENTAZIONE D
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
 	<afs:dataUltimaModifica><![CDATA[2026-11-02T18:51:56.273]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-02T18:51:56]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2951598&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-23T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>11/11/2026</pubDate>
+	
+	<description>
+Consultazione per la fornitura di telini&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[Consultazione per la fornitura di telini]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[A.O.U. Ospedali Riuniti FOGGIA ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2951598]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Consultazione per la fornitura di telini]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-11T10:22:11.813]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-11T10:22:11]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
@@ -145,7 +180,7 @@ AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSI PER L’ACQUISIZIONE DEL SERV
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-02T16:29:32.777]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-11T10:47:59.957]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-23T09:25:06]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -198,7 +233,7 @@ LOTTO 4: SCUOLA SECONDARIA DI I GRADO ROCCA - CUP C58H25001960001]]></afs:Oggett
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-10T12:45:27.380]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-11T13:23:26.607]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-05T17:52:33]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -379,29 +414,4 @@ Consultazione preliminare di mercato, indetta ai sensi dell’art. 77 del D. Lgs
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-15T11:17:41]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2929318&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-02T12:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>23/10/2026</pubDate>
-	
-	<description>
-Avviso di consultazione preliminare di mercato ex art.77 D.lgs. 36/23 propedeutico all&#39;affidamento di sistema per il trattamento a vapore acqueo per ipertrofia prostatica benigna REZUM e relativo materiale accessorio, per le necessit&#224; della S.C di Urologia del Presidio Ospedaliero Centrale “SS.Annunziata” di Taranto&lt;strong&gt;Scadenza : 02/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[Avviso di consultazione preliminare di mercato ex art.77 D.lgs. 36/23 propedeutico all'affidamento di sistema per il trattamento a vapore acqueo per ipertrofia prostatica benigna REZUM e relativo materiale accessorio, per le necessità della S.C di Urologia del Presidio Ospedaliero Centrale “SS.Annunziata” di Taranto]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:DenominazioneEnte><![CDATA[ASL TA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-02T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2929318]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<title><![CDATA[Consultazione P

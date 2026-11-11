@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-10T13:17:01+00:00",
- "totale": 42,
+ "aggiornato_il": "2026-11-11T12:28:02+00:00",
+ "totale": 44,
  "opportunita": [
   {
    "id": "ted:621105-2026",
@@ -364,7 +364,29 @@
    "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
    "descrizione": "SISTEMA ERGOSPIROMETRICO",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
+  },
+  {
+   "id": "empulia:2960849",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Bando Rettificato - Affidamento, ex artt. 25 e 50 del D. Lgs. n. 36/2023, mediante utilizzo della piattaforma regionale Empulia, della fornitura urgente in somministrazione di medicazioni avanzate per le necessità dell’U.O.C. di Otorinolaringoiatria del P.O. “Di Venere” di Bari Carbonara.",
+   "ente": "ASL BA",
+   "scadenza": "2026-11-13",
+   "pubblicazione": "2026-11-10",
+   "importo": 6348.0,
+   "cpv": [
+    "33190000"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2960849&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-13T10:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('piattaforma regionale')",
+   "descrizione": "Fornitura urgente in somministrazione di medicazioni avanzate per le necessità dell’U.O.C. di Otorinolaringoiatria del P.O. “Di Venere” di Bari Carbonara.",
+   "primo_rilevamento": "2026-11-11",
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "empulia:2937954",
@@ -386,7 +408,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72212180)",
    "descrizione": "AD migrazione RIS-PACS",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "ted:722510-2026",
@@ -476,7 +498,7 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": "LICENZA SOFTWARE ANNUALE GOLD ICON3D PER LA UOC DI CHIRURGIA GENERALE DEL P.O. V. FAZZI DI LECCE",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "ted:746031-2026",
@@ -522,7 +544,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72200000) - da verificare",
    "descrizione": "Procedura aperta per l'acquisizione del SIA",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "ted:708163-2026",
@@ -568,7 +590,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72720000)",
    "descrizione": "PROCEDURA NEGOZIATA TELEMATICA, AI SENSI DEGLI DELL’ART. 76 COMMA 2, LETT. B), N. 2 del D.LGS. 36/2023 s.m.i.",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "ted:744682-2026",
@@ -745,7 +767,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (48000000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-02",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "ted:768150-2026",
@@ -767,7 +789,29 @@
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-05",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
+  },
+  {
+   "id": "ted:783479-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "PR26INF073 | Lotto 1 Procedura aperta sopra soglia comunitaria indetta su piattaforma telematica eAppalti SAT FVG, ai sensi dell’art. 71 D.lgs. n. 36/2023, per l’affidamento della fornitura di Licenze Firewall, sottoscrizioni e servizi di supporto FORTINET destinati all’infrastruttura di sicurezza informatica installata presso l’Azienda Sanitaria Universitaria Friuli Centrale per un periodo di 48",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "scadenza": "2026-12-09",
+   "pubblicazione": "2026-11-11",
+   "importo": 1841021.57,
+   "cpv": [
+    "48730000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/783479-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (48730000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-11",
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "ted:765436-2026",
@@ -789,7 +833,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72310000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-04",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "ted:560155-2026",
@@ -855,7 +899,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -877,7 +921,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -897,7 +941,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -917,7 +961,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-10"
+   "ultimo_rilevamento": "2026-11-11"
   },
   {
    "id": "uslumbria2:5137a51e173c",
