@@ -1,7 +1,27 @@
 {
- "aggiornato_il": "2026-11-12T17:22:27+00:00",
- "totale": 43,
+ "aggiornato_il": "2026-11-12T17:28:12+00:00",
+ "totale": 45,
  "opportunita": [
+  {
+   "id": "aura-cons:116432",
+   "fonti": [
+    "A.U.R.A."
+   ],
+   "titolo": "AVVISO ESPLORATIVO PER LA VERIFICA DI ESCLUSIVITÀ PROPEDEUTICA ALLA PROCEDURA NEGOZIATA SENZA PUBBLICAZIONE DI UN BANDO AI SENSI DELL’ART. 76 C. 2 LETT. B) N. 2 DEL D. LGS. 36/2023 PER RINNOVO SUBSCRIPTION E SERVIZIO FULL MANAGED WSO2.",
+   "ente": "PuntoZero s.c.a.r.l.",
+   "scadenza": "2026-10-16",
+   "pubblicazione": "2026-10-06",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://aura.puntozeroscarl.it/portale/index.php/?getdettaglio=yes&bando=116432&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-10-16T16:00:00",
+   "regione": "Umbria",
+   "motivo_match": "Soggetto aggregatore + oggetto IT ('SUBSCRIPTION') - da verificare",
+   "descrizione": "AVVISO ESPLORATIVO PER LA VERIFICA DI ESCLUSIVITÀ PROPEDEUTICA ALLA PROCEDURA NEGOZIATA SENZA PUBBLICAZIONE DI UN BANDO AI SENSI DELL’ART. 76 C. 2 LETT. B) N. 2 DEL D. LGS. 36/2023 PER RINNOVO SUBSCRIPTION E SERVIZIO FULL MANAGED WSO2.",
+   "primo_rilevamento": "2026-11-12",
+   "ultimo_rilevamento": "2026-11-12"
+  },
   {
    "id": "empulia:2924901",
    "fonti": [
@@ -208,6 +228,26 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "aura-cons:118091",
+   "fonti": [
+    "A.U.R.A."
+   ],
+   "titolo": "Bando Rettificato - AVVISO PER LA RACCOLTA DI PREVENTIVI FINALIZZATI ALL’AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1) LETT. B) DEL D.LGS. N. 36/2023 PER IL RINNOVO DEL SERVIZIO DI MONITORAGGIO DARK/DEEP WEB, COMPRENSIVO DELLA COMPONENTE DI THREAT INTELLIGENCE, PER LA DURATA DI 14 MESI.",
+   "ente": "PuntoZero s.c.a.r.l.",
+   "scadenza": "2026-11-04",
+   "pubblicazione": "2026-10-15",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://aura.puntozeroscarl.it/portale/index.php/?getdettaglio=yes&bando=118091&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-04T12:00:00",
+   "regione": "Umbria",
+   "motivo_match": "Soggetto aggregatore + oggetto IT ('DEEP WEB') - da verificare",
+   "descrizione": "AVVISO PER LA RACCOLTA DI PREVENTIVI FINALIZZATI ALL’AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1) LETT. B) DEL D.LGS. N. 36/2023 PER IL RINNOVO DEL SERVIZIO DI MONITORAGGIO DARK/DEEP WEB, COMPRENSIVO DELLA COMPONENTE DI THREAT INTELLIGENCE, PER",
+   "primo_rilevamento": "2026-11-12",
+   "ultimo_rilevamento": "2026-11-12"
   },
   {
    "id": "ted:670003-2026",
