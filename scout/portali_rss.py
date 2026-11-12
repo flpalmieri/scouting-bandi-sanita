@@ -187,6 +187,19 @@ def _salva_campione(feed: dict, contenuto: bytes) -> None:
     (CAMPIONI / f"{nome}.xml").write_bytes(contenuto[:30000])
 
 
+RE_TOT_RECORD = re.compile(rb"<(?:[\w-]+:)?totRecord>\s*(\d+)", re.IGNORECASE)
+RE_RIGHE_PAGINA = re.compile(r"numRowForPag=(\d+)", re.IGNORECASE)
+
+
+def _pagine_previste(contenuto: bytes, url_modello: str) -> int | None:
+    """Numero di pagine dichiarato dal feed (schema afs: totRecord + numRowForPag)."""
+    m_tot = RE_TOT_RECORD.search(contenuto[:5000])
+    m_righe = RE_RIGHE_PAGINA.search(url_modello)
+    if not (m_tot and m_righe) or int(m_righe.group(1)) <= 0:
+        return None
+    return max(1, -(-int(m_tot.group(1)) // int(m_righe.group(1))))   # arrotonda per eccesso
+
+
 def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
     url_modello = feed["url"]
     paginato = "{pagina}" in url_modello
@@ -195,12 +208,28 @@ def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
     visti: set[str] = set()
     letti = 0
 
-    for pagina in range(1, max_pagine + 1):
+    pagina = 0
+    while pagina < max_pagine:
+        pagina += 1
         url = url_modello.replace("{pagina}", str(pagina))
-        r = sess.get(url, headers=HEADERS, timeout=90)
-        r.raise_for_status()
+        try:
+            r = sess.get(url, headers=HEADERS, timeout=90)
+            r.raise_for_status()
+        except Exception as e:
+            if pagina == 1:
+                raise
+            # Una pagina successiva in errore non deve far perdere quelle gia' lette.
+            log.warning("RSS %s: pagina %d non letta (%s), tengo le %d precedenti",
+                        feed["nome"], pagina, e, pagina - 1)
+            ERRORI.append(f"{feed['nome']}: lette {pagina - 1} pagine, la {pagina} ha dato errore "
+                          f"(dati parziali, non persi)")
+            break
         if pagina == 1:
             _salva_campione(feed, r.content)
+            if paginato:
+                previste = _pagine_previste(r.content, url_modello)
+                if previste is not None:   # il feed dice quante pagine ha: non chiedere oltre
+                    max_pagine = min(max_pagine, previste)
         voci = _elementi(r.content)
         firme = {(v.get("guid") or v.get("link") or v.get("title") or "") for v in voci}
         if not voci or firme <= visti:   # pagina vuota o ripetuta: fine
@@ -211,7 +240,7 @@ def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
             o = _converti(v, feed, filtro)
             if o:
                 risultati[o.id] = o
-        if paginato:
+        if paginato and pagina < max_pagine:
             time.sleep(1)
 
     log.info("RSS %s: %d elementi letti, %d pertinenti", feed["nome"], letti, len(risultati))
