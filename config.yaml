@@ -52,6 +52,7 @@ aggregatori_misti_regex:
   - 'azienda\s+regionale\s+per\s+l.innovazione\s+e\s+gli\s+acquisti'
   - '\bconsip\b'
   - 'innova\s*puglia'
+  - 'punto\s*zero'                     # Umbria: compra per la sanità ma anche per la Regione
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -94,6 +95,7 @@ parole_chiave_it_regex:
   - '\bcloud\b'
   - 'data\s*center'
   - 'cyber'
+  - 'anti-?virus|anti-?spam|anti-?malware|firewall|endpoint'
   - 'sicurezza\s+informatica'
   - 'digitalizzazion'
   - 'dematerializzazion'
@@ -205,6 +207,31 @@ portali_rss:
         id: [IdMsg]
       url: "https://eproc.empulia.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
 
+    - nome: AURA bandi
+      nome_fonte: A.U.R.A.
+      sigla: aura
+      regione: Umbria
+      tipo: bando
+      max_pagine: 5
+      escludi_stati: [Revocato, Annullato]
+      campi:                      # nomi dei campi afs: del feed (senza prefisso)
+        titolo: [Oggetto, TitoloDocumento]
+        descrizione: [TitoloDocumento]
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cig: [CIG]
+        cpv: [CPV]
+        stato: [statoFunzionale]
+        id: [IdMsg]
+      url: "https://aura.puntozeroscarl.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=20&nPag={pagina}"
+    # Probabile feed delle consultazioni di A.U.R.A. (stesso software di EmPULIA).
+    # Prima di attivarlo apri l'indirizzo nel browser e controlla che risponda.
+    # - nome: AURA consultazioni
+    #   ...stessi campi del blocco sopra, con:
+    #   url: "https://aura.puntozeroscarl.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
+
 # --- Siti che pubblicano i bandi solo come pagine HTML ---------------------
 # lettore: il modello di pagina (vedi scout/portali_html.py).
 # ente: nome dell'ente, usato quando la pagina non lo riporta per ogni bando.
@@ -229,6 +256,28 @@ portali_html:
       # un postback ASP.NET. In alternativa esiste il feed
       # https://www.uslumbria2.it/feeds/bandi-di-gara-e-contratti.rss
       url: "https://www.uslumbria2.it/pagine/bandi-di-gara-e-contratti"
+    - nome: AO Perugia
+      nome_fonte: AO Perugia
+      sigla: aoperugia
+      ente: Azienda Ospedaliera di Perugia
+      regione: Umbria
+      lettore: box_etichette
+      # Solo la prima pagina (8 avvisi più recenti): le successive richiedono un postback ASP.NET.
+      url: "https://www.ospedale.perugia.it/pagine/bandi-di-gara-e-contratti"
+    - nome: AO Terni
+      nome_fonte: AO Terni
+      sigla: aoterni
+      ente: Azienda Ospedaliera Santa Maria di Terni
+      regione: Umbria
+      lettore: scheda_sito            # stesso tema di USL Umbria 1
+      max_pagine: 3                   # 12 schede per pagina, circa 5 settimane per pagina
+      # L'elenco mescola avvisi e atti (delibere/determine di nomina commissione o
+      # aggiudicazione): questi ultimi non sono opportunità e si scartano.
+      escludi_titoli_regex:
+        - '^\s*(delibera|deliberazione|determina|determinazione)\b'
+      # Per gli atti il sito indica come "SCADENZA" la fine della pubblicazione (5 anni).
+      scadenza_max_giorni: 365
+      url: "https://www.aospterni.it/bandi-di-gara-e-contratti/?pagenumber={pagina}"
 
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
