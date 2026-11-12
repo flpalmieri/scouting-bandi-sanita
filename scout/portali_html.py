@@ -16,6 +16,8 @@ Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url
   escludi_titoli_regex  - elenco di espressioni: le schede il cui titolo corrisponde
                           vengono scartate prima dei filtri (es. delibere e determine
                           di aggiudicazione, che non sono opportunita').
+  url_alternativo       - indirizzo da usare se il principale risponde con un errore
+                          (es. 403 dai server di GitHub); stesso formato di url.
   scadenza_max_giorni   - se la "scadenza" e' piu' lontana di cosi' dalla pubblicazione
                           (default 365) non e' un termine di gara ma la fine della
                           pubblicazione sul sito: viene ignorata.
@@ -27,6 +29,8 @@ import html
 import re
 import time
 from datetime import date
+
+import requests
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -244,6 +248,7 @@ def _salva_campione(sito: dict, contenuto: bytes) -> None:
 def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
     lettore = LETTORI[sito["lettore"]]
     url_modello = sito["url"]
+    alternativo = sito.get("url_alternativo")
     paginato = "{pagina}" in url_modello
     max_pagine = int(sito.get("max_pagine", 5)) if paginato else 1
     risultati: dict[str, Opportunita] = {}
@@ -252,8 +257,23 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
 
     for pagina in range(1, max_pagine + 1):
         url = url_modello.replace("{pagina}", str(pagina))
-        r = sess.get(url, headers=HEADERS, timeout=60)
-        r.raise_for_status()
+        try:
+            r = sess.get(url, headers=HEADERS, timeout=60)
+            r.raise_for_status()
+        except requests.RequestException as e:
+            # Alcuni portali bloccano i server cloud (es. 403 da GitHub Actions):
+            # si riprova sull'indirizzo alternativo indicato in config.yaml.
+            if not alternativo or url_modello == alternativo:
+                raise
+            log.warning("HTML %s: %s, provo l'indirizzo alternativo", sito["nome"], e)
+            url_modello = alternativo
+            url = url_modello.replace("{pagina}", str(pagina))
+            try:
+                r = sess.get(url, headers=HEADERS, timeout=60)
+                r.raise_for_status()
+            except requests.RequestException as e2:
+                raise RuntimeError(f"{sito['nome']}: indirizzo principale ({e}) e alternativo ({e2}) "
+                                   f"entrambi non raggiungibili") from e2
         if pagina == 1:
             _salva_campione(sito, r.content)
         voci = lettore(r.content.decode(r.encoding or "utf-8", errors="replace"), url)
