@@ -1,5 +1,5 @@
 {
- "aggiornato_il": "2026-11-12T16:41:58+00:00",
+ "aggiornato_il": "2026-11-12T17:22:27+00:00",
  "totale": 43,
  "opportunita": [
   {
@@ -358,12 +358,12 @@
    ],
    "cig": [],
    "tipo": "bando",
-   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2960849&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-13T10:00:00",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2960849&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-13T10:00:00",
    "regione": "Puglia",
    "motivo_match": "Ente sanitario + oggetto IT ('piattaforma regionale')",
    "descrizione": "Fornitura urgente in somministrazione di medicazioni avanzate per le necessità dell’U.O.C. di Otorinolaringoiatria del P.O. “Di Venere” di Bari Carbonara.",
    "primo_rilevamento": "2026-11-11",
-   "ultimo_rilevamento": "2026-11-11"
+   "ultimo_rilevamento": "2026-11-12"
   },
   {
    "id": "empulia:2937954",
@@ -385,7 +385,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72212180)",
    "descrizione": "AD migrazione RIS-PACS",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-11"
+   "ultimo_rilevamento": "2026-11-12"
   },
   {
    "id": "ted:722510-2026",
@@ -475,7 +475,7 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": "LICENZA SOFTWARE ANNUALE GOLD ICON3D PER LA UOC DI CHIRURGIA GENERALE DEL P.O. V. FAZZI DI LECCE",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-11"
+   "ultimo_rilevamento": "2026-11-12"
   },
   {
    "id": "ted:746031-2026",
@@ -521,7 +521,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72200000) - da verificare",
    "descrizione": "Procedura aperta per l'acquisizione del SIA",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-11"
+   "ultimo_rilevamento": "2026-11-12"
   },
   {
    "id": "ted:708163-2026",
@@ -567,7 +567,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72720000)",
    "descrizione": "PROCEDURA NEGOZIATA TELEMATICA, AI SENSI DEGLI DELL’ART. 76 COMMA 2, LETT. B), N. 2 del D.LGS. 36/2023 s.m.i.",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-11"
+   "ultimo_rilevamento": "2026-11-12"
   },
   {
    "id": "ted:744682-2026",
