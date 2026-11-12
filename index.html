@@ -342,8 +342,8 @@
     });
   }
 
-  // "non preceduta da bando": consultazioni preliminari per affidare senza gara a un unico fornitore (art. 76 D.Lgs. 36/2023)
-  var RE_INFUNGIBILE = /infungibil|esclusivit|assenza\s+di\s+concorrenza|non\s+preceduta\s+da\s+(?:bando|pubblicazione)|senza\s+(?:previa\s+)?pubblicazione\s+(?:di\s+(?:un\s+)?)?bando/i;
+  // "non preceduta da bando", "trasparenza preventiva" (avviso volontario ex art. 86): consultazioni preliminari per affidare senza gara a un unico fornitore (art. 76 D.Lgs. 36/2023)
+  var RE_INFUNGIBILE = /infungibil|esclusivit|assenza\s+di\s+concorrenza|non\s+preceduta\s+da\s+(?:bando|pubblicazione)|senza\s+(?:previa\s+)?pubblicazione\s+(?:del\s+|di\s+(?:un\s+)?)?bando|trasparenza\s+preventiva/i;
   function infungibile(o) {
     return RE_INFUNGIBILE.test((o.titolo || "") + " " + (o.descrizione || ""));
   }

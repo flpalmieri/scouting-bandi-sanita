@@ -296,6 +296,15 @@ portali_html:
       # Per gli atti il sito indica come "SCADENZA" la fine della pubblicazione (5 anni).
       scadenza_max_giorni: 365
       url: "https://www.aospterni.it/bandi-di-gara-e-contratti/?pagenumber={pagina}"
+    - nome: IZS Umbria e Marche
+      nome_fonte: IZSUM
+      sigla: izsum
+      ente: Istituto Zooprofilattico Sperimentale dell'Umbria e delle Marche
+      regione: Umbria
+      lettore: tabella                # portale PAT di ISWEB: colonne Oggetto / Data avviso
+      # Pagina "Avvisi" (consultazioni e indagini di mercato): circa 10 avvisi l'anno,
+      # tutti in una pagina. L'elenco non riporta la scadenza.
+      url: "https://trasparenza.izsum.it/page/588/avvisi.html"
 
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
