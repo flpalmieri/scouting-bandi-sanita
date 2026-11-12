@@ -305,6 +305,9 @@ portali_html:
       # Pagina "Avvisi" (consultazioni e indagini di mercato): circa 10 avvisi l'anno,
       # tutti in una pagina. L'elenco non riporta la scadenza.
       url: "https://trasparenza.izsum.it/page/588/avvisi.html"
+      # trasparenza.izsum.it risponde 403 da GitHub Actions (12/11/2026): stesso portale
+      # sul server di ISWEB, verificato dal browser.
+      url_alternativo: "https://izsum.internetsoluzioni.it/page/588/avvisi.html"
 
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
