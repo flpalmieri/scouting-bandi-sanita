@@ -5,9 +5,19 @@ Ogni sito si configura in config.yaml (sezione portali_html) indicando quale
 restituiscono un elenco di dizionari {titolo, link, testo}.
 
 Lettori disponibili:
-  scheda_sito  - elenchi WordPress / Bootstrap Italia con schede "scheda-sito"
-                 (es. USL Umbria 1): titolo nel link dell'h6, date nel blocco
-                 "data small" con le diciture DATA PUBBLICAZIONE / DATA SCADENZA.
+  scheda_sito    - elenchi WordPress / Bootstrap Italia con schede "scheda-sito"
+                   (es. USL Umbria 1, AO Terni): titolo nel link dell'h6, date nel
+                   blocco "data" (DATA PUBBLICAZIONE, DATA SCADENZA o SCADENZA).
+  tabella        - tabelle con intestazioni oggetto/scadenza/tipologia/importo (USL Umbria 2).
+  box_etichette  - riquadri C2I MediaCenter con etichette (AO Perugia).
+
+Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url:
+  escludi_titoli_regex  - elenco di espressioni: le schede il cui titolo corrisponde
+                          vengono scartate prima dei filtri (es. delibere e determine
+                          di aggiudicazione, che non sono opportunita').
+  scadenza_max_giorni   - se la "scadenza" e' piu' lontana di cosi' dalla pubblicazione
+                          (default 365) non e' un termine di gara ma la fine della
+                          pubblicazione sul sito: viene ignorata.
 """
 from __future__ import annotations
 
@@ -15,6 +25,7 @@ import hashlib
 import html
 import re
 import time
+from datetime import date
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -113,7 +124,33 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
     return voci
 
 
-LETTORI = {"scheda_sito": lettore_scheda_sito, "tabella": lettore_tabella}
+def lettore_box_etichette(pagina: str, url_base: str) -> list[dict]:
+    """Elenchi a riquadri con etichette (C2I MediaCenter, es. AO Perugia):
+    titolo in span.title > a, coppie "Etichetta / valore" in span.label-master."""
+    voci = []
+    for b in re.split(r'<div[^>]+class="[^"]*\bbox-content\b[^"]*"', pagina)[1:]:
+        m = re.search(r'<span[^>]+class="[^"]*\btitle\b[^"]*"[^>]*>\s*<a([^>]*)>(.*?)</a>',
+                      b, re.DOTALL | re.IGNORECASE)
+        if not m:
+            continue
+        href = re.search(r'href="([^"]+)"', m.group(1))
+        coppie = re.findall(
+            r'<span[^>]+class="[^"]*label-master[^"]*"[^>]*>\s*<strong>(.*?)</strong>\s*</span>(.*?)</span>',
+            b, re.DOTALL | re.IGNORECASE)
+        campi = {_testo(k).lower(): _testo(v) for k, v in coppie}
+        scad = next((v for k, v in campi.items() if "scadenz" in k), "")
+        pubb = next((v for k, v in campi.items() if "pubblicazion" in k), "")
+        voci.append({
+            "titolo": RE_SPAZI.sub(" ", _testo(m.group(2)).replace("\n", " ")).strip(),
+            "link": urljoin(url_base, html.unescape(href.group(1))) if href else None,
+            "testo": f"DATA PUBBLICAZIONE: {pubb}\nDATA SCADENZA: {scad}",
+            "scadenza_grezza": scad,
+        })
+    return voci
+
+
+LETTORI = {"scheda_sito": lettore_scheda_sito, "tabella": lettore_tabella,
+           "box_etichette": lettore_box_etichette}
 RE_PROGRAMMAZIONE = re.compile(r"programmazione\s+(triennale|biennale)|programma\s+(triennale|biennale)", re.IGNORECASE)
 
 
@@ -123,7 +160,7 @@ def _tipo(titolo: str, tipo_grezzo: str = "") -> str:
     t = f"{titolo} {tipo_grezzo}".lower()
     if RE_PROGRAMMAZIONE.search(t):
         return "programmazione acquisti"
-    if "consultazione preliminare" in t or "consultazione di mercato" in t:
+    if "consultazion" in t:   # anche con refusi ("consultazione prelimnare")
         return "consultazione di mercato"
     if "manifestazion" in t or "avviso esplorativo" in t or "indagine di mercato" in t:
         return "avviso esplorativo"
@@ -132,9 +169,24 @@ def _tipo(titolo: str, tipo_grezzo: str = "") -> str:
     return "bando"
 
 
+_CACHE_ESCLUSIONI: dict[str, re.Pattern | None] = {}
+
+
+def _esclusioni_sito(sito: dict) -> re.Pattern | None:
+    nome = sito.get("sigla") or sito.get("nome", "")
+    if nome not in _CACHE_ESCLUSIONI:
+        lista = sito.get("escludi_titoli_regex") or []
+        _CACHE_ESCLUSIONI[nome] = (re.compile("|".join(f"(?:{p})" for p in lista), re.IGNORECASE)
+                                   if lista else None)
+    return _CACHE_ESCLUSIONI[nome]
+
+
 def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     titolo, testo = voce["titolo"], voce["testo"]
     if not titolo:
+        return None
+    escl = _esclusioni_sito(sito)
+    if escl and escl.search(titolo):
         return None
     ente = sito.get("ente", "")
     motivo = filtro.valuta_testo(titolo, ente, "")
@@ -153,6 +205,12 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     if not scadenza:
         m = RE_SCADENZA_TESTO.search(f"{titolo}\n{testo}")
         scadenza = parse_data(m.group(1)) if m else None
+    # Alcuni siti chiamano "scadenza" la fine della pubblicazione (es. 5 anni dopo):
+    # non e' un termine per partecipare, quindi si ignora.
+    if scadenza and pubblicazione:
+        limite = int(sito.get("scadenza_max_giorni", 365))
+        if (date.fromisoformat(scadenza) - date.fromisoformat(pubblicazione)).days > limite:
+            scadenza = None
 
     chiave = voce.get("link") or titolo
     return Opportunita(
