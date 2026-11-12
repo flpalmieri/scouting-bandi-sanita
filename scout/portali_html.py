@@ -8,7 +8,8 @@ Lettori disponibili:
   scheda_sito    - elenchi WordPress / Bootstrap Italia con schede "scheda-sito"
                    (es. USL Umbria 1, AO Terni): titolo nel link dell'h6, date nel
                    blocco "data" (DATA PUBBLICAZIONE, DATA SCADENZA o SCADENZA).
-  tabella        - tabelle con intestazioni oggetto/scadenza/tipologia/importo (USL Umbria 2).
+  tabella        - tabelle con intestazioni oggetto/scadenza/tipologia/importo/data
+                   pubblicazione (USL Umbria 2; portali PAT di ISWEB come l'IZSUM).
   box_etichette  - riquadri C2I MediaCenter con etichette (AO Perugia).
 
 Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url:
@@ -105,6 +106,7 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
 
         c_ogg, c_scad = colonna("oggetto"), colonna("scadenza")
         c_tipo, c_imp = colonna("tipolog", "tipo"), colonna("importo")
+        c_pubb = colonna("pubblicazion", "data avviso")   # es. portali PAT/ISWEB
         for riga in righe[1:]:
             celle = re.findall(r"<td[^>]*>(.*?)</td>", riga, re.DOTALL | re.IGNORECASE)
             if not celle:
@@ -116,7 +118,8 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
             voci.append({
                 "titolo": RE_SPAZI.sub(" ", titolo).strip(),
                 "link": link,
-                "testo": f"DATA SCADENZA: {cella(c_scad)}\nTIPOLOGIA: {cella(c_tipo)}\nIMPORTO: {cella(c_imp)}",
+                "testo": (f"DATA PUBBLICAZIONE: {cella(c_pubb)}\n" if c_pubb is not None else "")
+                         + f"DATA SCADENZA: {cella(c_scad)}\nTIPOLOGIA: {cella(c_tipo)}\nIMPORTO: {cella(c_imp)}",
                 "scadenza_grezza": cella(c_scad),
                 "tipo_grezzo": cella(c_tipo),
                 "importo_grezzo": cella(c_imp),
@@ -162,7 +165,7 @@ def _tipo(titolo: str, tipo_grezzo: str = "") -> str:
         return "programmazione acquisti"
     if "consultazion" in t:   # anche con refusi ("consultazione prelimnare")
         return "consultazione di mercato"
-    if "manifestazion" in t or "avviso esplorativo" in t or "indagine di mercato" in t:
+    if "manifestazion" in t or "avviso esplorativo" in t or re.search(r"indagine\s+(conoscitiva\s+)?di\s+mercato", t):
         return "avviso esplorativo"
     if "avviso d'asta" in t or "avviso d’asta" in t or "alienazione" in t:
         return "asta"
