@@ -97,6 +97,10 @@ parole_chiave_it_regex:
   - 'cyber'
   - 'anti-?virus|anti-?spam|anti-?malware|firewall|endpoint'
   - 'sicurezza\s+informatica'
+  - 'threat\s+intelligence|\bddos\b|deep\s+web|dark\s+web|\bSIEM\b|vulnerability|penetration\s+test'
+  - 'subscription'                     # rinnovi di abbonamenti software (es. "subscription WSO2")
+  - 'full\s+managed|managed\s+(service|security)'
+  - 'middleware|api\s+(gateway|management)'
   - 'digitalizzazion'
   - 'dematerializzazion'
   - 'interoperabilit'
@@ -226,11 +230,25 @@ portali_rss:
         stato: [statoFunzionale]
         id: [IdMsg]
       url: "https://aura.puntozeroscarl.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=20&nPag={pagina}"
-    # Probabile feed delle consultazioni di A.U.R.A. (stesso software di EmPULIA).
-    # Prima di attivarlo apri l'indirizzo nel browser e controlla che risponda.
-    # - nome: AURA consultazioni
-    #   ...stessi campi del blocco sopra, con:
-    #   url: "https://aura.puntozeroscarl.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
+    - nome: AURA consultazioni
+      nome_fonte: A.U.R.A.
+      sigla: aura-cons
+      regione: Umbria
+      tipo: consultazione di mercato
+      max_pagine: 3                # circa 30 consultazioni, comprese le scadute
+      escludi_stati: [Revocato, Annullato]
+      campi:                      # stesso schema afs: dei bandi (verificato il 12/11/2026)
+        titolo: [Oggetto, TitoloDocumento]
+        descrizione: [TitoloDocumento]
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cig: [CIG]
+        cpv: [CPV]
+        stato: [statoFunzionale]
+        id: [IdMsg]
+      url: "https://aura.puntozeroscarl.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
 
 # --- Siti che pubblicano i bandi solo come pagine HTML ---------------------
 # lettore: il modello di pagina (vedi scout/portali_html.py).
