@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-13T08:47:15+00:00",
+  "eseguito_il": "2026-11-13T09:03:03+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -12,11 +12,15 @@
     "portali_html": {
       "esito": "ok",
       "pertinenti": 5
+    },
+    "acquistitelematici": {
+      "esito": "ok",
+      "pertinenti": 9
     }
   },
   "errori": [
     "portali_html: IZS Umbria e Marche: IZS Umbria e Marche: indirizzo principale (403 Client Error: Forbidden for url: https://trasparenza.izsum.it/page/588/avvisi.html) e alternativo (403 Client Error: Forbidden for url: https://izsum.internetsoluzioni.it/page/588/avvisi.html) entrambi non raggiungibili"
   ],
-  "nuove_opportunita": 1,
+  "nuove_opportunita": 0,
   "totale": 46
 }

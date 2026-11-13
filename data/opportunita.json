@@ -1,5 +1,5 @@
 {
- "aggiornato_il": "2026-11-13T08:47:15+00:00",
+ "aggiornato_il": "2026-11-13T09:03:03+00:00",
  "totale": 46,
  "opportunita": [
   {
@@ -634,6 +634,7 @@
   {
    "id": "ted:745164-2026",
    "fonti": [
+    "IZSAM",
     "TED"
    ],
    "titolo": "GARA EUROPEA A PROCEDURA APERTA AI SENSI DELL'ART. 71 DEL D.LGS. N. 36/2023, PER L'AFFIDAMENTO PER IL SERVIZIO DI UPGRADE EVOLUTIVO DI LICENZE, SERVER, LIBRERIE E STORAGE HPE PER LE ESIGENZE DEL REPARTO GESTIONE TELEMATICA",
@@ -644,10 +645,12 @@
    "cpv": [
     "72500000"
    ],
-   "cig": [],
+   "cig": [
+    "BD81AE24C2"
+   ],
    "tipo": "cn-standard",
    "link": "https://ted.europa.eu/it/notice/-/detail/745164-2026",
-   "regione": null,
+   "regione": "Abruzzo",
    "motivo_match": "Ente sanitario + CPV IT (72500000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
