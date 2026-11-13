@@ -102,6 +102,7 @@ parole_chiave_it_regex:
   - 'subscription'                     # rinnovi di abbonamenti software (es. "subscription WSO2")
   - 'full\s+managed|managed\s+(service|security)'
   - 'middleware|api\s+(gateway|management)'
+  - '\bLIMS\b|laboratory\s+information|information\s+management\s+system'   # sistemi informativi di laboratorio (IZS)
   - 'digitalizzazion'
   - 'dematerializzazion'
   - 'interoperabilit'
@@ -325,3 +326,20 @@ portali_html:
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
 giorni_conservazione_senza_scadenza: 120
+
+# --- Piattaforme DigitalPA ("<ente>.acquistitelematici.it") --------------------
+# L'elenco gare arriva da un servizio JSON (/ws/tender/fe) con titolo, date, stato,
+# CPV, CIG e link. Molti enti italiani usano questa piattaforma: per aggiungerne uno
+# basta un blocco con il suo indirizzo (host).
+acquistitelematici:
+  abilitato: true
+  siti:
+    - nome: IZSAM
+      nome_fonte: IZSAM
+      sigla: izsam
+      host: "https://izs.acquistitelematici.it"
+      ente: "IZSAM - Istituto Zooprofilattico Sperimentale dell'Abruzzo e del Molise G. Caporale"
+      regione: Abruzzo
+      tipi: [procedure-gara, manifestazioni-interesse]
+      max_risultati: 50            # le più recenti per data di pubblicazione (circa 100 l'anno per tipo)
+      escludi_stati: [annullata]
