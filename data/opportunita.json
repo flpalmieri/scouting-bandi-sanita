@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-13T13:57:08+00:00",
- "totale": 58,
+ "aggiornato_il": "2026-11-13T14:25:59+00:00",
+ "totale": 76,
  "opportunita": [
   {
    "id": "aura-cons:116432",
@@ -382,6 +382,66 @@
    "ultimo_rilevamento": "2026-11-13"
   },
   {
+   "id": "sintel:226212603",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "AVVISO DI INDAGINE DI MERCATO PER IL SERVIZIO DI MANUTENZIONE E ASSISTENZA DEI MODULI SOFTWARE DI SUPPORTO ALLA GESTIONE AMBULATORIALE (HCSUITE, MPSOLUTION) E ALLA PRESA IN CARICO DEI PAZIENTI CRONICI (IRISS), DEL SOFTWARE DSPFLUX E SISTEMA INCENTIVANTE, PER IL PERIODO DI N. 12 MESI.",
+   "ente": "ASST DI PAVIA",
+   "scadenza": "2026-11-14",
+   "pubblicazione": "2026-11-04",
+   "importo": 67500.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226212603",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:225929382",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "RDO, MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL, PER L’AFFIDAMENTO DELLA FORNITURA DI PROTESI VASCOLARI OCCORRENTI ALLA S.C. CARDIOCHIRURGIA DELL’ASST DEI SETTE LAGHI PER UN PERIODO DI 2 (DUE) ANNI CON OPZIONE DI PROROGA PER ULTERIORE UN (1) ANNO.",
+   "ente": "ASST DEI SETTE LAGHI",
+   "scadenza": "2026-11-16",
+   "pubblicazione": "2026-10-28",
+   "importo": 72530.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225929382",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('PIATTAFORMA INFORMATICA')",
+   "descrizione": "Tipo Sintel: Multilotto; Ambito: forniture/servizi sanitari",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226065903",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Richiesta di preventivo per la fornitura di n. 15 Carrelli medicali informatizzati per la gestione in mobilità della Cartella Clinica Elettronica occorrenti all’ASST di Mantova ai sensi dell’art. 50 comma 1, lett. b) del D. Lgs.31 marzo 2023, n. 36",
+   "ente": "ASST DI MANTOVA",
+   "scadenza": "2026-11-16",
+   "pubblicazione": "2026-11-02",
+   "importo": 53300.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226065903",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('informatizzat')",
+   "descrizione": "Tipo Sintel: Affidamento diretto previa richiesta di preventivi; Ambito: dispositivi medici",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
    "id": "ted:722510-2026",
    "fonti": [
     "TED"
@@ -403,6 +463,26 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
    "ultimo_rilevamento": "2026-10-29"
+  },
+  {
+   "id": "sintel:226083448",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "RICHIESTA DI OFFERTA MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL PER L’AFFIDAMENTO DELLA FORNITURA DI DISPOSITIVI PER CARDIOCHIRURGIA",
+   "ente": "ASST DEI SETTE LAGHI",
+   "scadenza": "2026-11-17",
+   "pubblicazione": "2026-11-02",
+   "importo": 6500.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226083448",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('PIATTAFORMA INFORMATICA')",
+   "descrizione": "Tipo Sintel: Procedura negoziata con la pubblicazione di un bando; Ambito: dispositivi medici",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "sintel:226408591",
@@ -447,6 +527,7 @@
   {
    "id": "ted:711490-2026",
    "fonti": [
+    "Sintel",
     "TED"
    ],
    "titolo": "PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA, AI SENSI DELL’ART. 71 DEL D.LGS 36/2023, FINALIZZATA ALL’AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DEL SOFTWARE UPDATE LICENSE & SUPPORT LICENZE ORACLE APPLICATION, GIA’ IN USO PRESSO L’ASST DELLA VALLE OLONA, PER UN PERIODO DI MESI 36, CON EVENTUALE OPZIONE DI RINNOVO PER ULTERIORI 12 MESI",
@@ -460,7 +541,7 @@
    "cig": [],
    "tipo": "cn-standard",
    "link": "https://ted.europa.eu/it/notice/-/detail/711490-2026",
-   "regione": null,
+   "regione": "Lombardia",
    "motivo_match": "Ente sanitario + CPV IT (72267000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-15",
@@ -488,6 +569,26 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
    "ultimo_rilevamento": "2026-10-29"
+  },
+  {
+   "id": "sintel:225527342",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "PROCEDURA DI GARA SOPRA SOGLIA COMUNITARIA AI SENSI DELL’ART. 71 DEL D. LGS. 36/2023 E S.M.I. PER L’ASSEGNAZIONE DEL SERVIZIO DI ASSISTENZA TECNICA, MANUTENZIONE CORRETTIVA E EVOLUTIVA DEL SISTEMA DI ACCOGLIENZA AZIENDALE CUP, PS E ADT INSTALLATO PRESSO L’ASST BERGAMO OVEST.",
+   "ente": "ASST DI BERGAMO OVEST",
+   "scadenza": "2026-11-18",
+   "pubblicazione": "2026-10-19",
+   "importo": 820422.13,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225527342",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('MANUTENZIONE CORRETTIVA')",
+   "descrizione": "Tipo Sintel: Procedura Aperta; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "sintel:226017422",
@@ -529,6 +630,46 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": "LICENZA SOFTWARE ANNUALE GOLD ICON3D PER LA UOC DI CHIRURGIA GENERALE DEL P.O. V. FAZZI DI LECCE",
    "primo_rilevamento": "2026-11-10",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226139605",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "RICHIESTA DI OFFERTA (RDO) APERTA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/2023, FINALIZZATA ALL’AFFIDAMENTO DELLA FORNITURA DI N. 1 VIDEODERMATOSCOPIO DIGITALE DOTATO DI SISTEMA PER FOTOGRAFIA CORPO INTERO E SUPPORTO CON INTELLIGENZA ARTIFICIALE DA DESTINARE ALLA CASA DI COMUNITÀ DI GALLARATE.",
+   "ente": "ASST DELLA VALLE OLONA",
+   "scadenza": "2026-11-20",
+   "pubblicazione": "2026-11-03",
+   "importo": 70000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226139605",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('INTELLIGENZA ARTIFICIALE')",
+   "descrizione": "Tipo Sintel: Procedura negoziata senza bando; Ambito: dispositivi medici",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:225386388",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "GARA D’APPALTO A PROCEDURA APERTA MULTILOTTO, ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL, AI SENSI DELL’ART. 71 DEL D. LGS. N. 36/2023, PER LA FORNITURA DI RETI CHIRURGICHE, MATRICI E MEMBRANE DERMICHE, OCCORRENTE ALLA ASST LODI PER UN PERIODO DI 36 MESI EVENTUALMENTE RINNOVABILE PER ULTERIORI MESI 12. ATTI 1.6.3/380.2026",
+   "ente": "ASST DI LODI",
+   "scadenza": "2026-11-20",
+   "pubblicazione": "2026-10-15",
+   "importo": 326544.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225386388",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
+   "descrizione": "Tipo Sintel: Multilotto; Ambito: dispositivi medici",
+   "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-13"
   },
   {
@@ -618,6 +759,26 @@
    "ultimo_rilevamento": "2026-11-13"
   },
   {
+   "id": "sintel:225537866",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "GARA D’APPALTO A PROCEDURA APERTA, ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL AI SENSI DEGLI ARTT. 14 E 71 DEL D. LGS. N. 36/2023 SS.MM.II, PER LA FORNITURA DI N. 1 APPARECCHIATURA PER TOMOGRAFIA ASSIALE COMPUTERIZZATA (TC), DA DESTINARE ALLA SC PRONTO SOCCORSO DEL PRESIDIO OSPEDALIERO DI LODI – CUP: F14E26000190002",
+   "ente": "ASST DI LODI",
+   "scadenza": "2026-11-23",
+   "pubblicazione": "2026-10-20",
+   "importo": 523809.52,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225537866",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
+   "descrizione": "Tipo Sintel: Procedura Aperta; Ambito: dispositivi medici",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
    "id": "ted:708163-2026",
    "fonti": [
     "TED"
@@ -640,6 +801,26 @@
    "ultimo_rilevamento": "2026-10-24"
   },
   {
+   "id": "sintel:225610516",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "PROCEDURA APERTA PER L’AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA TECNICA E MANUTENZIONE EVOLUTIVA DEL SISTEMA DI CONSERVAZIONE DIGITALE A NORMA DEI DOCUMENTI AMMINISTRATIVI, CLINICI E DIAGNOSTICI DELL’ASST PAPA GIOVANNI XXIII, ATTRAVERSO UNA SOLUZIONE IN MODALITA’ CLOUD. DURATA 48 MESI EVENTUALMENTE PROROGABILE PER MASSIMO ULTERIORI 24 MESI.",
+   "ente": "ASST PAPA GIOVANNI XXIII",
+   "scadenza": "2026-11-23",
+   "pubblicazione": "2026-10-20",
+   "importo": 510000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225610516",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('MANUTENZIONE EVOLUTIVA')",
+   "descrizione": "Tipo Sintel: Procedura Aperta; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
    "id": "sintel:225641266",
    "fonti": [
     "Sintel"
@@ -656,6 +837,29 @@
    "regione": "Veneto",
    "motivo_match": "Ente sanitario + oggetto IT ('applicativ')",
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "ted:768403-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Sistema ORMS integrato a dispositivi medici",
+   "ente": "A.O. San Camillo Forlanini",
+   "scadenza": "2026-11-24",
+   "pubblicazione": "2026-11-05",
+   "importo": 1845000.0,
+   "cpv": [
+    "48180000",
+    "48814300"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/768403-2026",
+   "regione": null,
+   "motivo_match": "CPV software sanitario (48180000)",
+   "descrizione": null,
    "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-13"
   },
@@ -721,6 +925,46 @@
    "motivo_match": "Ente sanitario + CPV IT (72720000)",
    "descrizione": "PROCEDURA NEGOZIATA TELEMATICA, AI SENSI DEGLI DELL’ART. 76 COMMA 2, LETT. B), N. 2 del D.LGS. 36/2023 s.m.i.",
    "primo_rilevamento": "2026-11-10",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226494167",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL, PER LA FORNITURA DI BATTERIE -",
+   "ente": "ASST DI CREMA",
+   "scadenza": "2026-11-25",
+   "pubblicazione": "2026-11-11",
+   "importo": 11567.36,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226494167",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226498092",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL, PER LA FORNITURA DI TORCE - ART. 50, COMMA 1, LETT. B) DEL D.LGS. 36/2023.",
+   "ente": "ASST DI CREMA",
+   "scadenza": "2026-11-25",
+   "pubblicazione": "2026-11-11",
+   "importo": 341.28,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226498092",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-13"
   },
   {
@@ -831,6 +1075,29 @@
    "ultimo_rilevamento": "2026-11-06"
   },
   {
+   "id": "ted:789687-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Sistema ORMS integrato a dispositivi medici",
+   "ente": "A.O. San Camillo Forlanini",
+   "scadenza": "2026-11-30",
+   "pubblicazione": "2026-11-13",
+   "importo": 1845000.0,
+   "cpv": [
+    "48180000",
+    "48814300"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/789687-2026",
+   "regione": null,
+   "motivo_match": "CPV software sanitario (48180000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
    "id": "ted:754163-2026",
    "fonti": [
     "TED"
@@ -851,6 +1118,66 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-30",
    "ultimo_rilevamento": "2026-11-09"
+  },
+  {
+   "id": "sintel:226017968",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "GARA EUROPEA A PROCEDURA APERTA, MONOLOTTO, AI SENSI DEGLI ARTT. 14 E 71 DEL D.LGS. 36/2023, PER L’AFFIDAMENTO DELLA FORNITURA DI CREDITI “ORACLE PAAS & IAAS UNIVERSAL CREDIT” E DELLE SUBSCRIPTION “ENTERPRISE RESOURCE PLANNING”, “SUPPLY CHAIN EXECUTION”, “PROCUREMENT CLOUD SERVICE”, “PROCUREMENT FOR SELF SERVICE” E “ORACLE ADVANCED SERVICES FOR ITALY PUBLIC SECTOR FOR SAAS”, PER UNA DURATA DI 24 MESI",
+   "ente": "ASST DI CREMONA",
+   "scadenza": "2026-11-30",
+   "pubblicazione": "2026-10-30",
+   "importo": 654000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226017968",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('SUBSCRIPTION')",
+   "descrizione": "Tipo Sintel: Procedura Aperta; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:225580182",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "ARIA_2025_197_F_ «Acquisizione del Servizio Microsoft Unified Support per un accesso diretto e univoco ai team di tecnici e sistemisti esperti della piattaforma M365, ai team di sviluppo dei prodotti, agli sviluppatori di software e al codice sorgente di Microsoft per i prodotti attuali e futuri»",
+   "ente": "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.",
+   "scadenza": "2026-11-30",
+   "pubblicazione": "2026-10-20",
+   "importo": 580000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225580182",
+   "regione": "Lombardia",
+   "motivo_match": "Soggetto aggregatore + oggetto IT ('software') - da verificare",
+   "descrizione": "Tipo Sintel: Procedura Aperta; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226559522",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "CONSULTAZIONE PRELIMINARE DI MERCATO AI FINI DELLA VERIFICA DEI PRESUPPOSTI PER L’ESPLETAMENTO DI UNA PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DI BANDO AI SENSI DELL’ART. 76, CO. 2, LETT. B), DEL D.LGS. N. 36 DEL 2023, PER L’AFFIDAMENTO DEI SERVIZI DI MANUTENZIONE E ASSISTENZA TECNICA SULLE SOLUZIONI INFORMATICHE FORNITE DALLA DITTA ENGINEERING INGEGNERIA INFORMATICA S.P.A. IN USO PRESSO L’AZIENDA ULSS N. 9 SCALIGERA PER IL PERIODO 01/01/2027 - 31/12/2027",
+   "ente": "AZIENDA ULSS N. 9 SCALIGERA",
+   "scadenza": "2026-11-30",
+   "pubblicazione": "2026-11-13",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226559522",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
+   "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:718962-2026",
@@ -897,6 +1224,7 @@
   {
    "id": "ted:755116-2026",
    "fonti": [
+    "Sintel",
     "TED"
    ],
    "titolo": "Procedura di gara aperta, ai sensi dell’art. 71 del D.lgs. n. 36/2023, per l’affidamento della fornitura del nuovo applicativo aziendale per la gestione del sistema qualità e dei relativi servizi di hosting, assistenza e manutenzione, per una durata di 72 mesi",
@@ -911,7 +1239,7 @@
    "cig": [],
    "tipo": "cn-standard",
    "link": "https://ted.europa.eu/it/notice/-/detail/755116-2026",
-   "regione": null,
+   "regione": "Lombardia",
    "motivo_match": "Ente sanitario + CPV IT (48000000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-30",
@@ -958,6 +1286,28 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-15"
+  },
+  {
+   "id": "ted:765795-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "ARIA_2026_478_F - Procedura aperta, ai sensi dell’art. 71 del D.lgs. 36/2023, per l’impl. del Clinical Decision Support System (CDSS)",
+   "ente": "Azienda Regionale per l'Innovazione e gli Acquisti S.p.A.",
+   "scadenza": "2026-12-02",
+   "pubblicazione": "2026-11-04",
+   "importo": 5973478.8,
+   "cpv": [
+    "72260000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/765795-2026",
+   "regione": null,
+   "motivo_match": "Oggetto sanitario ('Clinic') + CPV IT (72260000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:749235-2026",
@@ -1087,6 +1437,28 @@
    "motivo_match": "Ente sanitario + CPV IT (72310000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-04",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "ted:784397-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Procedura sopra soglia comunitaria per l'affidamento del servizio di ricezione ed elaborazione delle ricette con l'acquisizione ottica delle immagini, registrazione, gestione contabile, obliterazione, archiviazione e smaltimento delle ricette farmaceutiche, comprendente un sistema informatico web integrato e servizi specialistici.",
+   "ente": "Azienda Sanitaria Provinciale di Agrigento",
+   "scadenza": "2026-12-15",
+   "pubblicazione": "2026-11-11",
+   "importo": 1261125.0,
+   "cpv": [
+    "72310000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/784397-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (72310000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-13"
   },
   {
