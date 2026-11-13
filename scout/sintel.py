@@ -26,6 +26,10 @@ import time
 from pathlib import Path
 from urllib.parse import urljoin
 
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
 from .common import Filtro, Opportunita, log, parse_data, parse_importo, sessione_http
 
 CAMPIONI = Path("state/campioni")
@@ -206,24 +210,54 @@ def converti(riga: dict, cfg: dict, regione: str | None, filtro: Filtro) -> Oppo
 
 
 def _salva_campione(nome: str, pagina: str) -> None:
-    CAMPIONI.mkdir(parents=True, exist_ok=True)
-    (CAMPIONI / f"sintel_{nome}.html").write_text(pagina[:300000], encoding="utf-8")
+    try:
+        CAMPIONI.mkdir(parents=True, exist_ok=True)
+        (CAMPIONI / f"sintel_{nome}.html").write_text(pagina[:300000], encoding="utf-8")
+    except OSError:
+        log.exception("Sintel: impossibile salvare il campione %s", nome)
 
 
-def _invia(sess, url: str, action: str, campi: list[tuple[str, str]]):
-    r = sess.post(urljoin(url, action) if action else url, data=campi,
-                  headers={**HEADERS, "Referer": url}, timeout=90)
-    r.raise_for_status()
+class SintelNonRaggiungibile(RuntimeError):
+    """Il sito non risponde o rifiuta l'accesso: inutile provare le altre regioni."""
+
+
+def _controlla(r, nome: str) -> str:
+    """Salva sempre le risposte in errore, cosi' si vede cosa ha restituito il server."""
+    if r.status_code >= 400:
+        _salva_campione(f"errore_{nome}", f"<!-- HTTP {r.status_code} -->\n" + (r.text or ""))
+        if r.status_code in (401, 403, 407, 429):
+            raise SintelNonRaggiungibile(f"HTTP {r.status_code} (accesso rifiutato), "
+                                         f"vedi state/campioni/sintel_errore_{nome}.html")
+        raise RuntimeError(f"HTTP {r.status_code}, vedi state/campioni/sintel_errore_{nome}.html")
     return r.text
+
+
+def _richiesta(sess, metodo: str, url: str, nome: str, **kw) -> str:
+    try:
+        r = sess.request(metodo, url, timeout=(20, 90), **kw)
+    except requests.exceptions.RequestException as e:
+        raise SintelNonRaggiungibile(f"{type(e).__name__}: {e}") from e
+    return _controlla(r, nome)
+
+
+def _invia(sess, url: str, action: str, campi: list[tuple[str, str]], nome: str = "ricerca"):
+    return _richiesta(sess, "POST", urljoin(url, action) if action else url, nome,
+                      data=campi, headers={**HEADERS, "Referer": url})
 
 
 def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
     """Esegue una ricerca e scorre tutte le pagine. Restituisce le righe lette."""
     url = cfg["url"]
     pausa = float(cfg.get("pausa_secondi", 1))
-    r = sess.get(url, headers=HEADERS, timeout=90)
-    r.raise_for_status()
-    action, campi, campo_stato, campo_sede, pulsante = _modulo_ricerca(r.text)
+    etichetta = (regione or "tutte").lower().replace(" ", "_")
+    modulo = _richiesta(sess, "GET", url, f"apertura_{etichetta}", headers=HEADERS)
+    if not CAMPIONI.joinpath("sintel_modulo.html").exists():
+        _salva_campione("modulo", modulo)          # la pagina iniziale, una volta sola
+    try:
+        action, campi, campo_stato, campo_sede, pulsante = _modulo_ricerca(modulo)
+    except RuntimeError:
+        _salva_campione("modulo", modulo)
+        raise RuntimeError("modulo di ricerca non trovato: vedi state/campioni/sintel_modulo.html")
 
     campi = [(n, v) for n, v in campi if n not in (campo_stato, campo_sede)]
     campi += [(campo_stato, s) for s in cfg.get("stati", ["Open", "PublishedAcceptingRequest"])]
@@ -233,8 +267,7 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
         campi += [(campo_sede, v) for v in ["Tutte"] + list(cfg.get("regioni", []))]
     campi.append((pulsante["name"], pulsante.get("value", "Applica")))
     time.sleep(pausa)
-    pagina = _invia(sess, url, action, campi)
-    etichetta = (regione or "tutte").lower().replace(" ", "_")
+    pagina = _invia(sess, url, action, campi, f"ricerca_{etichetta}")
     _salva_campione(etichetta, pagina)
 
     # Elementi per pagina: si porta al massimo per fare meno richieste
@@ -243,7 +276,7 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
     if p_select and attuale != per_pagina and leggi_righe(pagina):
         p_campi = [(n, per_pagina if n == p_select else v) for n, v in p_campi]
         time.sleep(pausa)
-        pagina = _invia(sess, url, p_action, p_campi)
+        pagina = _invia(sess, url, p_action, p_campi, f"paginazione_{etichetta}")
 
     righe, visti = [], set()
     for n_pagina in range(1, int(cfg.get("max_pagine", 10)) + 1):
@@ -261,7 +294,7 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
             break
         time.sleep(pausa)
         try:
-            pagina = _invia(sess, url, p_action, p_campi + [avanti])
+            pagina = _invia(sess, url, p_action, p_campi + [avanti], f"pagina_{etichetta}")
         except Exception as e:  # le pagine gia' lette restano valide
             ERRORI.append(f"Sintel {regione or 'tutte'}: pagina {n_pagina + 1} in errore ({e}), dati parziali")
             break
@@ -271,7 +304,13 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
 
 def raccogli(cfg_tutto: dict, filtro: Filtro, sess=None) -> list[Opportunita]:
     cfg = cfg_tutto["sintel"]
-    sess_sintel = sessione_http()          # sessione propria: i cookie JSF restano separati
+    # Sessione propria (i cookie JSF restano separati) con pochi tentativi: se Sintel non
+    # risponde non deve consumare il tempo del workflow riprovando ogni regione.
+    sess_sintel = sessione_http()
+    sess_sintel.mount("https://", HTTPAdapter(max_retries=Retry(
+        total=int(cfg.get("tentativi", 2)), backoff_factor=2,
+        status_forcelist=(500, 502, 503, 504), allowed_methods=frozenset({"GET", "POST"}),
+        raise_on_status=False)))     # dopo l'ultimo tentativo si tiene la risposta, per salvarla
     regioni = list(cfg.get("regioni", [])) if cfg.get("per_regione", True) else [None]
     risultati: dict[str, Opportunita] = {}
     regione_di: dict[str, str] = {}
@@ -279,6 +318,9 @@ def raccogli(cfg_tutto: dict, filtro: Filtro, sess=None) -> list[Opportunita]:
     for regione in regioni:
         try:
             righe = _cerca(cfg, sess_sintel, regione)
+        except SintelNonRaggiungibile as e:
+            log.error("Sintel %s: sito non raggiungibile (%s), salto le altre regioni", regione, e)
+            raise RuntimeError(f"sito non raggiungibile: {e}") from e
         except Exception as e:
             log.exception("Sintel %s: errore", regione)
             errori.append(f"{regione or 'tutte'}: {e}")
