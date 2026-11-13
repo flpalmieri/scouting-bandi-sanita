@@ -307,6 +307,9 @@ portali_html:
       scadenza_max_giorni: 365
       url: "https://www.aospterni.it/bandi-di-gara-e-contratti/?pagenumber={pagina}"
     - nome: IZS Umbria e Marche
+      # DISATTIVATO (13/11/2026): i portali PAT di ISWEB rispondono 403 ai server di
+      # GitHub, anche sull'indirizzo internetsoluzioni.it. Scelta: non aggirare il blocco.
+      abilitato: false
       nome_fonte: IZSUM
       sigla: izsum
       ente: Istituto Zooprofilattico Sperimentale dell'Umbria e delle Marche
@@ -331,6 +334,9 @@ portali_html:
         - '^\s*ricors'
       url: "https://areacom.eu/bandi-gara-aperti?page={pagina}"
     - nome: ASL 1 Abruzzo
+      # DISATTIVATO (13/11/2026): portale PAT di ISWEB, 403 dai server di GitHub come l'IZSUM.
+      # Le sue gare si svolgono sulla piattaforma regionale GIADA: coprirla da lì.
+      abilitato: false
       nome_fonte: ASL 1 Abruzzo
       sigla: asl1abruzzo
       ente: "ASL 1 Avezzano-Sulmona-L'Aquila"
