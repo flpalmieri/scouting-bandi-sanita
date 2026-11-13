@@ -34,6 +34,7 @@ from .common import Filtro, Opportunita, log, parse_data, parse_importo, session
 
 CAMPIONI = Path("state/campioni")
 ERRORI: list[str] = []
+RIEPILOGO: dict[str, dict] = {}     # per regione: righe lette, pagine, elementi per pagina
 
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -269,17 +270,37 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
     time.sleep(pausa)
     pagina = _invia(sess, url, action, campi, f"ricerca_{etichetta}")
     _salva_campione(etichetta, pagina)
+    stat = RIEPILOGO.setdefault(etichetta, {})
+    stat["righe_prima_pagina"] = len(leggi_righe(pagina))
 
     # Elementi per pagina: si porta al massimo per fare meno richieste
     per_pagina = str(cfg.get("elementi_per_pagina", 200))
     p_action, p_campi, p_select, attuale, _ = _modulo_paginazione(pagina)
-    if p_select and attuale != per_pagina and leggi_righe(pagina):
+    stat["elementi_per_pagina"] = attuale
+    if p_select and attuale != per_pagina and stat["righe_prima_pagina"]:
         p_campi = [(n, per_pagina if n == p_select else v) for n, v in p_campi]
         time.sleep(pausa)
-        pagina = _invia(sess, url, p_action, p_campi, f"paginazione_{etichetta}")
+        try:
+            nuova = _invia(sess, url, p_action, p_campi, f"paginazione_{etichetta}")
+        except RuntimeError as e:
+            nuova = ""
+            log.warning("Sintel %s: cambio elementi per pagina non riuscito (%s)", etichetta, e)
+        if leggi_righe(nuova):
+            pagina = nuova
+            stat["elementi_per_pagina"] = per_pagina
+        else:
+            # si prosegue con le pagine da 10: piu' richieste, ma nessuna riga persa
+            if nuova:
+                _salva_campione(f"{etichetta}_cambio_pagina", nuova)
+            ERRORI.append(f"Sintel {regione or 'tutte'}: cambio a {per_pagina} elementi per pagina non riuscito, "
+                          f"proseguo con pagine da {attuale} (vedi state/campioni)")
 
     righe, visti = [], set()
-    for n_pagina in range(1, int(cfg.get("max_pagine", 10)) + 1):
+    max_pagine = int(cfg.get("max_pagine", 10))
+    if stat["elementi_per_pagina"] != per_pagina and attuale:
+        max_pagine = max_pagine * max(1, int(per_pagina) // max(1, int(attuale)))
+    n_pagina = 0
+    for n_pagina in range(1, max_pagine + 1):
         nuove = [r for r in leggi_righe(pagina) if r.get("ID SINTEL") not in visti]
         if not nuove:
             break
@@ -289,7 +310,7 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
         avanti = pulsanti.get(">")
         if not avanti:
             break
-        if n_pagina == int(cfg.get("max_pagine", 10)):
+        if n_pagina == max_pagine:
             ERRORI.append(f"Sintel {regione or 'tutte'}: raggiunto max_pagine ({n_pagina}), dati parziali")
             break
         time.sleep(pausa)
@@ -298,8 +319,20 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
         except Exception as e:  # le pagine gia' lette restano valide
             ERRORI.append(f"Sintel {regione or 'tutte'}: pagina {n_pagina + 1} in errore ({e}), dati parziali")
             break
-    log.info("Sintel %s: %d procedure lette", regione or "tutte le sedi", len(righe))
+    stat.update(pagine_lette=n_pagina, righe_lette=len(righe))
+    log.info("Sintel %s: %d procedure lette in %d pagine", regione or "tutte le sedi", len(righe), n_pagina)
     return righe
+
+
+def _scrivi_riepilogo() -> None:
+    """state/campioni/sintel_riepilogo.json: quante procedure per regione, per controllo."""
+    import json
+    try:
+        CAMPIONI.mkdir(parents=True, exist_ok=True)
+        (CAMPIONI / "sintel_riepilogo.json").write_text(
+            json.dumps(RIEPILOGO, indent=1, ensure_ascii=False), encoding="utf-8")
+    except OSError:
+        log.exception("Sintel: impossibile scrivere il riepilogo")
 
 
 def raccogli(cfg_tutto: dict, filtro: Filtro, sess=None) -> list[Opportunita]:
@@ -335,6 +368,9 @@ def raccogli(cfg_tutto: dict, filtro: Filtro, sess=None) -> list[Opportunita]:
             o = converti(riga, cfg, regione, filtro)
             if o:
                 risultati[o.id] = o
+                st = RIEPILOGO.setdefault((regione or "tutte").lower().replace(" ", "_"), {})
+                st["pertinenti"] = st.get("pertinenti", 0) + 1
+    _scrivi_riepilogo()
     if doppie:
         ERRORI.append(f"Sintel: {len(doppie)} procedure compaiono in piu' regioni (es. {doppie[0]}): "
                       "il filtro Sede legale non sembra funzionare, valutare per_regione: false")
