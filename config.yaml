@@ -25,6 +25,7 @@ enti_sanitari_regex:
   - '\bATS\b'
   - '\bA\.?U\.?S\.?L\b'
   - '\bU\.?L\.?S\.?S\b'
+  - '\bA\.?O\.?U\.?I?\b'                  # Azienda Ospedaliero-Universitaria (AOU, A.O.U., AOUI)
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -50,7 +51,7 @@ enti_sanitari_regex:
 rumore_procedurale_regex:
   - '(su|sulla|tramite|mediante|attraverso|nella|con)\s+(la\s+|l[\x27\u2019]\s*)?(propria\s+)?piattaforma\s+((web|telematica|informatica|digitale|elettronica|regionale|aziendale|e-?procurement|di\s+e-?procurement|di\s+negoziazione)\s+)*([A-Z][\w\.\-]*)?'
   - '\b(RDO|trattativa\s+diretta|ODA)\s+(su\s+)?(il\s+)?MePA\b'
-  - 'procedura\s+(aperta\s+|negoziata\s+|ristretta\s+)?telematica'
+  - 'procedura\s+(aperta\s+|negoziata\s+|ristretta\s+)?(telematica|informatizzata)'
 
 # Soggetti aggregatori che comprano sia per la sanità sia per altri settori:
 # le loro gare IT vengono incluse ma marcate "da verificare".
@@ -95,6 +96,7 @@ parole_chiave_sanita_regex:
 parole_chiave_it_regex:
   - 'software'
   - 'informatic'
+  - 'informatizzat'                    # "soluzione informatizzata" (AO Padova su Sintel)
   - 'applicativ'
   - 'gestional'
   - 'sistem\w*\s+informativ'
@@ -350,6 +352,29 @@ portali_html:
         - '\baggiudicazion'
         - 'differimento\s+fornitur'
       url: "https://trasparenza.asl1abruzzo.it/page/10/bandi-di-gara-e-contratti.html?p={pagina}"
+
+# --- Sintel (ARIA, Lombardia) ------------------------------------------------
+# Piattaforma di gara di tutte le aziende sanitarie lombarde (ASST, ATS, IRCCS,
+# AREU) e di ARIA; la usano anche enti di altre regioni (es. ULSS e aziende
+# ospedaliere del Veneto, AOU di Torino). Si legge la ricerca pubblica
+# sintelSearch.xhtml: una ricerca per ogni regione ("Sede legale"), cosi' ogni
+# gara ha la regione giusta. Vedi scout/sintel.py.
+sintel:
+  abilitato: true
+  nome_fonte: Sintel
+  sigla: sintel
+  url: "https://www.sintel.regione.lombardia.it/eprocdata/sintelSearch.xhtml"
+  url_dettaglio: "auctionDetail.xhtml?id={id}"
+  stati: [Open, PublishedAcceptingRequest]      # Pubblicata, Aperta pre-qualifica
+  per_regione: true             # false = una sola ricerca su tutte le sedi (regione "Non indicata")
+  regioni: [Lombardia, Veneto, Piemonte, Liguria, Emilia Romagna, Marche, Lazio, Abruzzo, Campania, Sicilia]
+  elementi_per_pagina: 200      # valori ammessi dal sito: 10, 25, 50, 100, 200
+  max_pagine: 10                # per regione
+  pausa_secondi: 1              # attesa tra una richiesta e l'altra
+  tentativi: 2                  # nuovi tentativi per richiesta in caso di errore 5xx
+  # Tipi Sintel da scartare: l'affidamento diretto e' gia' rivolto a un fornitore scelto.
+  # Restano "Affidamento diretto previa richiesta di preventivi", indagini, manifestazioni e gare.
+  escludi_tipi: ["Affidamento diretto"]
 
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
