@@ -1,0 +1,65 @@
+{
+ "lombardia": {
+  "righe_prima_pagina": 10,
+  "elementi_per_pagina": "200",
+  "pagine_lette": 1,
+  "righe_lette": 200,
+  "pertinenti": 7
+ },
+ "veneto": {
+  "righe_prima_pagina": 168,
+  "elementi_per_pagina": "200",
+  "pagine_lette": 1,
+  "righe_lette": 168,
+  "pertinenti": 9
+ },
+ "piemonte": {
+  "righe_prima_pagina": 149,
+  "elementi_per_pagina": "200",
+  "pagine_lette": 1,
+  "righe_lette": 149,
+  "pertinenti": 1
+ },
+ "liguria": {
+  "righe_prima_pagina": 44,
+  "elementi_per_pagina": "200",
+  "pagine_lette": 1,
+  "righe_lette": 44
+ },
+ "emilia_romagna": {
+  "righe_prima_pagina": 0,
+  "elementi_per_pagina": null,
+  "pagine_lette": 1,
+  "righe_lette": 0
+ },
+ "marche": {
+  "righe_prima_pagina": 0,
+  "elementi_per_pagina": null,
+  "pagine_lette": 1,
+  "righe_lette": 0
+ },
+ "lazio": {
+  "righe_prima_pagina": 0,
+  "elementi_per_pagina": null,
+  "pagine_lette": 1,
+  "righe_lette": 0
+ },
+ "abruzzo": {
+  "righe_prima_pagina": 0,
+  "elementi_per_pagina": null,
+  "pagine_lette": 1,
+  "righe_lette": 0
+ },
+ "campania": {
+  "righe_prima_pagina": 0,
+  "elementi_per_pagina": null,
+  "pagine_lette": 1,
+  "righe_lette": 0
+ },
+ "sicilia": {
+  "righe_prima_pagina": 0,
+  "elementi_per_pagina": null,
+  "pagine_lette": 1,
+  "righe_lette": 0
+ }
+}

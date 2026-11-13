@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-13T13:38:22+00:00",
- "totale": 60,
+ "aggiornato_il": "2026-11-13T13:57:08+00:00",
+ "totale": 58,
  "opportunita": [
   {
    "id": "aura-cons:116432",
@@ -358,28 +358,6 @@
    "descrizione": "SISTEMA ERGOSPIROMETRICO",
    "primo_rilevamento": "2026-11-10",
    "ultimo_rilevamento": "2026-11-11"
-  },
-  {
-   "id": "empulia:2960849",
-   "fonti": [
-    "EmPULIA"
-   ],
-   "titolo": "Bando Rettificato - Affidamento, ex artt. 25 e 50 del D. Lgs. n. 36/2023, mediante utilizzo della piattaforma regionale Empulia, della fornitura urgente in somministrazione di medicazioni avanzate per le necessità dell’U.O.C. di Otorinolaringoiatria del P.O. “Di Venere” di Bari Carbonara.",
-   "ente": "ASL BA",
-   "scadenza": "2026-11-13",
-   "pubblicazione": "2026-11-10",
-   "importo": 6348.0,
-   "cpv": [
-    "33190000"
-   ],
-   "cig": [],
-   "tipo": "bando",
-   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2960849&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-13T10:00:00",
-   "regione": "Puglia",
-   "motivo_match": "Ente sanitario + oggetto IT ('piattaforma regionale')",
-   "descrizione": "Fornitura urgente in somministrazione di medicazioni avanzate per le necessità dell’U.O.C. di Otorinolaringoiatria del P.O. “Di Venere” di Bari Carbonara.",
-   "primo_rilevamento": "2026-11-11",
-   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "empulia:2937954",
@@ -851,26 +829,6 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
    "ultimo_rilevamento": "2026-11-06"
-  },
-  {
-   "id": "sintel:226623009",
-   "fonti": [
-    "Sintel"
-   ],
-   "titolo": "RDO PER L’AFFIDAMENTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. B) DEL D.LGS. 36/2023, DEL SERVIZIO PER IL MANTENIMENTO DELLA CERTIFICAZIONE DEL SISTEMA DI GESTIONE QUALITÀ SECONDO LA NORMA ISO 9001:2015, COMPRENSIVO DI TRANSIZIONE ALL'EDIZIONE 2026, OCCORRENTE ALL’ASP IMMES E PAT, MEDIANTE RICORSO A PIATTAFORMA TELEMATICA SINTEL, PER IL TRIENNIO 2027-2028-2029",
-   "ente": "A.S.P. - ISTITUTI MILANESI MARTINITT E STELLINE E PIO ALBERGO TRIVULZIO",
-   "scadenza": "2026-11-30",
-   "pubblicazione": "2026-11-13",
-   "importo": 16500.0,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226623009",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + oggetto IT ('PIATTAFORMA TELEMATICA')",
-   "descrizione": "Tipo Sintel: Affidamento diretto previa richiesta di preventivi; Ambito: forniture/servizi",
-   "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:754163-2026",
