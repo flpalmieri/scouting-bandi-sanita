@@ -8,14 +8,16 @@ Lettori disponibili:
   scheda_sito    - elenchi WordPress / Bootstrap Italia con schede "scheda-sito"
                    (es. USL Umbria 1, AO Terni): titolo nel link dell'h6, date nel
                    blocco "data" (DATA PUBBLICAZIONE, DATA SCADENZA o SCADENZA).
-  tabella        - tabelle con intestazioni oggetto/scadenza/tipologia/importo/data
-                   pubblicazione (USL Umbria 2; portali PAT di ISWEB come l'IZSUM).
+  tabella        - tabelle con intestazioni oggetto (o "bando")/scadenza/tipologia/importo/
+                   CIG/data pubblicazione (USL Umbria 2, portali PAT di ISWEB come l'IZSUM,
+                   AreaCom Abruzzo su Drupal).
   box_etichette  - riquadri C2I MediaCenter con etichette (AO Perugia).
 
 Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url:
   escludi_titoli_regex  - elenco di espressioni: le schede il cui titolo corrisponde
                           vengono scartate prima dei filtri (es. delibere e determine
                           di aggiudicazione, che non sono opportunita').
+  pagina_iniziale       - numero della prima pagina in {pagina} (default 1; 0 per Drupal).
   url_alternativo       - indirizzo da usare se il principale risponde con un errore
                           (es. 403 dai server di GitHub); stesso formato di url.
   scadenza_max_giorni   - se la "scadenza" e' piu' lontana di cosi' dalla pubblicazione
@@ -99,7 +101,8 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
         if not righe:
             continue
         intestazioni = [_testo(h).lower() for h in re.findall(r"<th[^>]*>(.*?)</th>", righe[0], re.DOTALL | re.IGNORECASE)]
-        if not any("oggetto" in h for h in intestazioni):
+        # colonna del titolo: "Oggetto" (USL Umbria 2, PAT) oppure "Bando" (AreaCom, Drupal)
+        if not any("oggetto" in h or h in ("bando", "titolo") for h in intestazioni):
             continue
 
         def colonna(*parole):
@@ -109,6 +112,9 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
             return None
 
         c_ogg, c_scad = colonna("oggetto"), colonna("scadenza")
+        if c_ogg is None:
+            c_ogg = next(i for i, h in enumerate(intestazioni) if h in ("bando", "titolo"))
+        c_cig = colonna("cig")
         c_tipo, c_imp = colonna("tipolog", "tipo"), colonna("importo")
         c_pubb = colonna("pubblicazion", "data avviso")   # es. portali PAT/ISWEB
         for riga in righe[1:]:
@@ -123,7 +129,8 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
                 "titolo": RE_SPAZI.sub(" ", titolo).strip(),
                 "link": link,
                 "testo": (f"DATA PUBBLICAZIONE: {cella(c_pubb)}\n" if c_pubb is not None else "")
-                         + f"DATA SCADENZA: {cella(c_scad)}\nTIPOLOGIA: {cella(c_tipo)}\nIMPORTO: {cella(c_imp)}",
+                         + f"DATA SCADENZA: {cella(c_scad)}\nTIPOLOGIA: {cella(c_tipo)}\nIMPORTO: {cella(c_imp)}"
+                         + (f"\nCIG: {cella(c_cig)}" if c_cig is not None else ""),
                 "scadenza_grezza": cella(c_scad),
                 "tipo_grezzo": cella(c_tipo),
                 "importo_grezzo": cella(c_imp),
@@ -255,7 +262,8 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
     visti: set[str] = set()
     letti = 0
 
-    for pagina in range(1, max_pagine + 1):
+    prima = int(sito.get("pagina_iniziale", 1))   # alcuni siti contano da 0 (Drupal: ?page=0)
+    for pagina in range(prima, prima + max_pagine):
         url = url_modello.replace("{pagina}", str(pagina))
         try:
             r = sess.get(url, headers=HEADERS, timeout=60)
@@ -274,7 +282,7 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
             except requests.RequestException as e2:
                 raise RuntimeError(f"{sito['nome']}: indirizzo principale ({e}) e alternativo ({e2}) "
                                    f"entrambi non raggiungibili") from e2
-        if pagina == 1:
+        if pagina == prima:
             _salva_campione(sito, r.content)
         voci = lettore(r.content.decode(r.encoding or "utf-8", errors="replace"), url)
         firme = {v.get("link") or v["titolo"] for v in voci}
