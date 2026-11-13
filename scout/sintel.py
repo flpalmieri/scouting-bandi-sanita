@@ -307,8 +307,18 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
         righe.extend(nuove)
         visti.update(r.get("ID SINTEL") for r in nuove)
         p_action, p_campi, _, _, pulsanti = _modulo_paginazione(pagina)
-        avanti = pulsanti.get(">")
+        # Pagina successiva: prima il numero (con 200 per pagina le pagine sono poche e il
+        # sito puo' mostrare solo "1 2 3" senza ">"), poi il pulsante ">".
+        corrente = re.search(r'paginationSelectedCustom[^>]*>\s*(\d+)\s*<', pagina)
+        successiva = str(int(corrente.group(1)) + 1) if corrente else None
+        avanti = pulsanti.get(successiva) if successiva else None
+        avanti = avanti or pulsanti.get(">")
         if not avanti:
+            pieno = stat.get("elementi_per_pagina")
+            if pieno and str(len(nuove)) == str(pieno):
+                stat["possibile_troncamento"] = True
+                ERRORI.append(f"Sintel {regione or 'tutte'}: ultima pagina letta piena ({pieno} righe) "
+                              "ma nessun pulsante per la successiva: possibili dati parziali")
             break
         if n_pagina == max_pagine:
             ERRORI.append(f"Sintel {regione or 'tutte'}: raggiunto max_pagine ({n_pagina}), dati parziali")
@@ -337,6 +347,7 @@ def _scrivi_riepilogo() -> None:
 
 def raccogli(cfg_tutto: dict, filtro: Filtro, sess=None) -> list[Opportunita]:
     cfg = cfg_tutto["sintel"]
+    RIEPILOGO.clear()
     # Sessione propria (i cookie JSF restano separati) con pochi tentativi: se Sintel non
     # risponde non deve consumare il tempo del workflow riprovando ogni regione.
     sess_sintel = sessione_http()
@@ -370,6 +381,7 @@ def raccogli(cfg_tutto: dict, filtro: Filtro, sess=None) -> list[Opportunita]:
                 risultati[o.id] = o
                 st = RIEPILOGO.setdefault((regione or "tutte").lower().replace(" ", "_"), {})
                 st["pertinenti"] = st.get("pertinenti", 0) + 1
+                st.setdefault("titoli_pertinenti", []).append(f"{o.ente} - {o.titolo[:90]}")
     _scrivi_riepilogo()
     if doppie:
         ERRORI.append(f"Sintel: {len(doppie)} procedure compaiono in piu' regioni (es. {doppie[0]}): "

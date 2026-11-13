@@ -58,15 +58,29 @@ def unisci(storico: dict[str, Opportunita], nuove: list[Opportunita], oggi: str)
     return storico
 
 
+def _fondibili(a: Opportunita, b: Opportunita) -> bool:
+    """Due record con stessa chiave sono la stessa gara solo se vengono da fonti diverse
+    e non hanno CIG diversi. La chiave guarda i primi 90 caratteri del titolo, che nei
+    titoli lunghi (es. Sintel: "RICHIESTA DI OFFERTA (RDO) AI SENSI DELL'ART. 50...")
+    sono solo formule fisse: due procedure diverse dello stesso ente si confonderebbero."""
+    if a.id.split(":", 1)[0] == b.id.split(":", 1)[0]:
+        return False
+    if a.cig and b.cig and not set(a.cig) & set(b.cig):
+        return False
+    return True
+
+
 def deduplica(tutte: dict[str, Opportunita]) -> dict[str, Opportunita]:
     """Fonde la stessa gara vista su fonti diverse (stesso ente + stesso oggetto)."""
-    per_chiave: dict[str, Opportunita] = {}
+    per_chiave: dict[str, list[Opportunita]] = {}
+    tenute: dict[str, Opportunita] = {}
     ordine = sorted(tutte.values(), key=lambda o: (0 if "TED" in o.fonti else 1, o.id))
     for o in ordine:
         k = chiave_testo(o.ente)[:40] + "|" + chiave_testo(o.titolo)
-        principale = per_chiave.get(k)
+        principale = next((p for p in per_chiave.get(k, []) if p.id == o.id or _fondibili(p, o)), None)
         if principale is None or principale.id == o.id:
-            per_chiave[k] = o
+            per_chiave.setdefault(k, []).append(o)
+            tenute[o.id] = o
             continue
         # fusione: si tiene il record TED (ha il link) e si aggiungono i dati ANAC
         principale.fonti = sorted(set(principale.fonti) | set(o.fonti))
@@ -79,7 +93,7 @@ def deduplica(tutte: dict[str, Opportunita]) -> dict[str, Opportunita]:
         if o.primo_rilevamento and (not principale.primo_rilevamento
                                     or o.primo_rilevamento < principale.primo_rilevamento):
             principale.primo_rilevamento = o.primo_rilevamento
-    return {o.id: o for o in per_chiave.values()}
+    return tenute
 
 
 def rivaluta(tutte: dict[str, Opportunita], filtro: Filtro) -> dict[str, Opportunita]:
