@@ -44,6 +44,14 @@ enti_sanitari_regex:
   - 'servizio\s+sanitario'
   - 'agenzia\s+regionale.*salute'
 
+# Frasi che descrivono il CANALE della gara, non il suo oggetto: vengono ignorate
+# prima di cercare le parole IT (altrimenti "affidamento su piattaforma telematica
+# GIADA" di un farmaco sembrerebbe una gara informatica).
+rumore_procedurale_regex:
+  - '(su|sulla|tramite|mediante|attraverso|nella|con)\s+(la\s+|l[\x27\u2019]\s*)?(propria\s+)?piattaforma\s+((web|telematica|informatica|digitale|elettronica|regionale|aziendale|e-?procurement|di\s+e-?procurement|di\s+negoziazione)\s+)*([A-Z][\w\.\-]*)?'
+  - '\b(RDO|trattativa\s+diretta|ODA)\s+(su\s+)?(il\s+)?MePA\b'
+  - 'procedura\s+(aperta\s+|negoziata\s+|ristretta\s+)?telematica'
+
 # Soggetti aggregatori che comprano sia per la sanità sia per altri settori:
 # le loro gare IT vengono incluse ma marcate "da verificare".
 aggregatori_misti_regex:
@@ -322,6 +330,20 @@ portali_html:
       escludi_titoli_regex:
         - '^\s*ricors'
       url: "https://areacom.eu/bandi-gara-aperti?page={pagina}"
+    - nome: ASL 1 Abruzzo
+      nome_fonte: ASL 1 Abruzzo
+      sigla: asl1abruzzo
+      ente: "ASL 1 Avezzano-Sulmona-L'Aquila"
+      regione: Abruzzo
+      lettore: tabella                # portale PAT di ISWEB: CIG / Oggetto / Link BDNCP / Data di pubblicazione
+      max_pagine: 3                   # 20 righe per pagina, circa 3-4 settimane per pagina
+      # Elenco misto: oltre a indizioni e delibere a contrarre contiene affidamenti diretti
+      # e aggiudicazioni già concluse (con il nome del fornitore), che non sono opportunità.
+      escludi_titoli_regex:
+        - '^\W*(affidamento|trattativa)\s+dirett'
+        - '\baggiudicazion'
+        - 'differimento\s+fornitur'
+      url: "https://trasparenza.asl1abruzzo.it/page/10/bandi-di-gara-e-contratti.html?p={pagina}"
 
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
