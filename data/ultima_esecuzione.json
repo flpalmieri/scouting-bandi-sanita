@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-13T12:53:25+00:00",
+  "eseguito_il": "2026-11-13T13:38:22+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -16,9 +16,13 @@
     "acquistitelematici": {
       "esito": "ok",
       "pertinenti": 9
+    },
+    "sintel": {
+      "esito": "ok",
+      "pertinenti": 18
     }
   },
   "errori": [],
-  "nuove_opportunita": 0,
-  "totale": 45
+  "nuove_opportunita": 15,
+  "totale": 60
 }

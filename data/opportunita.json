@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-13T12:53:25+00:00",
- "totale": 45,
+ "aggiornato_il": "2026-11-13T13:38:22+00:00",
+ "totale": 60,
  "opportunita": [
   {
    "id": "aura-cons:116432",
@@ -427,6 +427,46 @@
    "ultimo_rilevamento": "2026-10-29"
   },
   {
+   "id": "sintel:226408591",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Indagine di mercato comparativa con preventivo. Servizio di traduzione in Lingua dei Segni Italiana (LIS) di video istituzionali e promozionali accessibili per la presentazione dei servizi offerti dall’Azienda U.L.SS. 7 Pedemontana.",
+   "ente": "AZIENDA ULSS N. 7 PEDEMONTANA",
+   "scadenza": "2026-11-17",
+   "pubblicazione": "2026-11-11",
+   "importo": 8000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226408591",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('LIS')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:225864375",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Indagine di mercato fornitura Subscription VmWare ASL CN1 2027",
+   "ente": "ASL CN1",
+   "scadenza": "2026-11-18",
+   "pubblicazione": "2026-11-12",
+   "importo": 100000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225864375",
+   "regione": "Piemonte",
+   "motivo_match": "Ente sanitario + oggetto IT ('Subscription')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
    "id": "ted:711490-2026",
    "fonti": [
     "TED"
@@ -472,6 +512,26 @@
    "ultimo_rilevamento": "2026-10-29"
   },
   {
+   "id": "sintel:226017422",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "ID25D063 - Fornitura di materiali per controllo interno di qualita’ e relativi software gestionali per la UOC Medicina di Laboratorio dell’ Azienda Ospedale - Universita’ Padova",
+   "ente": "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA",
+   "scadenza": "2026-11-18",
+   "pubblicazione": "2026-10-30",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226017422",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('software')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi sanitari",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
    "id": "empulia:2934452",
    "fonti": [
     "EmPULIA"
@@ -491,6 +551,46 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": "LICENZA SOFTWARE ANNUALE GOLD ICON3D PER LA UOC DI CHIRURGIA GENERALE DEL P.O. V. FAZZI DI LECCE",
    "primo_rilevamento": "2026-11-10",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226370252",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Acquisizione di un servizio in SaaS per il monitoraggio e asset management dei dispositivi di rete dell’ASST Nord Milano per un periodo di 24 mesi",
+   "ente": "ASST NORD MILANO",
+   "scadenza": "2026-11-20",
+   "pubblicazione": "2026-11-09",
+   "importo": 139000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226370252",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('SaaS')",
+   "descrizione": "Tipo Sintel: Affidamento diretto previa richiesta di preventivi; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226540955",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "REALIZZAZIONE A REGOLA D’ARTE DI N.60 PUNTI RETE DATI (PDL). CABLAGGIO IN RAME E FIBRA OTTICA COMPRENSIVO DI ATTIVITÀ E POSA IN OPERA PER I PRESIDI OSPEDALERI E STRUTTURE DELL’ASST NORD MILANO",
+   "ente": "ASST NORD MILANO",
+   "scadenza": "2026-11-20",
+   "pubblicazione": "2026-11-12",
+   "importo": 20000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226540955",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('RETE DATI')",
+   "descrizione": "Tipo Sintel: Affidamento diretto previa richiesta di preventivi; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-13"
   },
   {
@@ -562,6 +662,66 @@
    "ultimo_rilevamento": "2026-10-24"
   },
   {
+   "id": "sintel:225641266",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "ID 26S068 - Verifica di infungibilità del Servizio di assistenza e manutenzione ordinaria, correttiva ed evolutiva degli applicativi SCI – Sistema Contabile Integrato, EUSIS, LP Opera, NSO e dei relativi moduli e integrazioni del fornitore GPI Spa",
+   "ente": "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA",
+   "scadenza": "2026-11-23",
+   "pubblicazione": "2026-10-22",
+   "importo": 1440240.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225641266",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('applicativ')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226405292",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL, PER LA FORNITURA DI STOVIGLIERIA",
+   "ente": "ASST DI CREMA",
+   "scadenza": "2026-11-24",
+   "pubblicazione": "2026-11-10",
+   "importo": 22658.7,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226405292",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226385389",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "AVVISO ESPLORATIVO, EX ART. 77 DEL D. LGS. 36/2023, PER LA VERIFICA DELL’INFUNGIBILITA’ ED ESCLUSIVITA’ DELLA FORNITURA DELLE LICENZE D'USO E SERVIZI DI MANUTENZIONE ED ASSISTENZA DELLE PIATTAFORME MARGHERITATRE IN USO NELLE U.O. DI TERAPIA INTENSIVA-RIANIMAZIONE E TIN-3 IN USO PRESSO L’U.O. DI TERAPIA INTENSIVA NEONATALE",
+   "ente": "ASST DI MANTOVA",
+   "scadenza": "2026-11-24",
+   "pubblicazione": "2026-11-09",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226385389",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('LICENZE D'USO')",
+   "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
    "id": "empulia:2939614",
    "fonti": [
     "EmPULIA"
@@ -583,6 +743,46 @@
    "motivo_match": "Ente sanitario + CPV IT (72720000)",
    "descrizione": "PROCEDURA NEGOZIATA TELEMATICA, AI SENSI DEGLI DELL’ART. 76 COMMA 2, LETT. B), N. 2 del D.LGS. 36/2023 s.m.i.",
    "primo_rilevamento": "2026-11-10",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226465183",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "INDAGINE DI MERCATO PER LA FORNITURA IN AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. B) D.LGS. 36/2023, DA AGGIUDICARSI CON IL CRITERIO DELLA NEGOZIAZIONE, DELL’APPALTO AVENTE AD OGGETTO L’ACQUISIZIONE DI SERVIZI PROFESSIONALI, MEDIANTE RILASCIO DI LICENZE D’USO ANNUALI, COMPRENSIVE DELLA FORMAZIONE, PER IL MANTENIMENTO E L’AMPLIAMENTO DELLA PIATTAFORMA DI BUSINESS INTELLIGENCE AZIENDALE",
+   "ente": "AZIENDA ULSS N. 4 VENETO ORIENTALE",
+   "scadenza": "2026-11-25",
+   "pubblicazione": "2026-11-11",
+   "importo": 71000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226465183",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('LICENZE D’USO')",
+   "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226189839",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "CONSULTAZIONE PRELIMINARE DI MERCATO AI FINI DELLA VERIFICA DEI PRESUPPOSTI PER L’ESPLETAMENTO DI UNA PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DI BANDO AI SENSI DELL’ART. 76, CO. 2, LETT. B), DEL D.LGS. N. 36 DEL 2023, PER L’AFFIDAMENTO DEI SERVIZI DI MANUTENZIONE E ASSISTENZA TECNICA SUI MODULI SOFTWARE “SIO”, “SIA” E “SISTE” IN USO PRESSO L’AZIENDA ULSS N. 9 SCALIGERA PER IL BIENNIO 2027-2028",
+   "ente": "AZIENDA ULSS N. 9 SCALIGERA",
+   "scadenza": "2026-11-25",
+   "pubblicazione": "2026-11-09",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226189839",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
+   "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-13"
   },
   {
@@ -608,6 +808,26 @@
    "ultimo_rilevamento": "2026-11-06"
   },
   {
+   "id": "sintel:224328619",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "INDAGINE DI MERCATO FINALIZZATA ALL’ACQUISIZIONE DI PREVENTIVI PER EVENTUALE AFFIDAMENTO DIRETTO PER LA FORNITURA DI LICENZE MANAGEENGINE ENDPOINT CENTRAL NELL'AMBITO DEL PNRR M1C1 INV. 1.4 - CUP I31F24000040006",
+   "ente": "AZIENDA ULSS N. 8 BERICA",
+   "scadenza": "2026-11-27",
+   "pubblicazione": "2026-11-12",
+   "importo": 98312.52,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=224328619",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
    "id": "ted:745164-2026",
    "fonti": [
     "IZSAM",
@@ -631,6 +851,26 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
    "ultimo_rilevamento": "2026-11-06"
+  },
+  {
+   "id": "sintel:226623009",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "RDO PER L’AFFIDAMENTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. B) DEL D.LGS. 36/2023, DEL SERVIZIO PER IL MANTENIMENTO DELLA CERTIFICAZIONE DEL SISTEMA DI GESTIONE QUALITÀ SECONDO LA NORMA ISO 9001:2015, COMPRENSIVO DI TRANSIZIONE ALL'EDIZIONE 2026, OCCORRENTE ALL’ASP IMMES E PAT, MEDIANTE RICORSO A PIATTAFORMA TELEMATICA SINTEL, PER IL TRIENNIO 2027-2028-2029",
+   "ente": "A.S.P. - ISTITUTI MILANESI MARTINITT E STELLINE E PIO ALBERGO TRIVULZIO",
+   "scadenza": "2026-11-30",
+   "pubblicazione": "2026-11-13",
+   "importo": 16500.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226623009",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('PIATTAFORMA TELEMATICA')",
+   "descrizione": "Tipo Sintel: Affidamento diretto previa richiesta di preventivi; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:754163-2026",
@@ -677,6 +917,26 @@
    "ultimo_rilevamento": "2026-10-29"
   },
   {
+   "id": "sintel:226429225",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "AVVISO ESPLORATIVO AL FINE DI ACQUISIRE MANIFESTAZIONE DI INTERESSE ALLA PARTECIPAZIONE ALLA PROCEDURA DI GARA PER L’AFFIDAMENTO DEL SERVIZIO DI PREDISPOSIZIONE E GESTIONE DEL DOCUMENTO DI VALUTAZIONE DEI RISCHI (DVR) DELL’ASST DI LODI, MEDIANTE L’UTILIZZO DI UNA PIATTAFORMA DIGITALE",
+   "ente": "ASST DI LODI",
+   "scadenza": "2026-12-01",
+   "pubblicazione": "2026-11-10",
+   "importo": 0.1,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226429225",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('PIATTAFORMA DIGITALE')",
+   "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
    "id": "ted:755116-2026",
    "fonti": [
     "TED"
@@ -698,6 +958,26 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-30",
    "ultimo_rilevamento": "2026-11-09"
+  },
+  {
+   "id": "sintel:226226331",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "INDAGINE DI MERCATO COMPARATIVA CON PREVENTIVO. Affidamento diretto per l’acquisto di licenze d’uso annuali “Qlik” in uso presso l’Azienda ULSS 7 Pedemontana – anno 2027. GARA AULSS7_2026_00223",
+   "ente": "AZIENDA ULSS N. 7 PEDEMONTANA",
+   "scadenza": "2026-12-02",
+   "pubblicazione": "2026-11-10",
+   "importo": 13179.63,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226226331",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('licenze d’uso')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:683594-2026",
@@ -807,6 +1087,26 @@
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-11",
+   "ultimo_rilevamento": "2026-11-13"
+  },
+  {
+   "id": "sintel:226611250",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Soluzione informatizzata per la gestione salme",
+   "ente": "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA",
+   "scadenza": "2026-12-10",
+   "pubblicazione": "2026-11-13",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226611250",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('informatizzat')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-13"
   },
   {
