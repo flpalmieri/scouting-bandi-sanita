@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-13T09:03:03+00:00",
- "totale": 46,
+ "aggiornato_il": "2026-11-13T11:47:19+00:00",
+ "totale": 45,
  "opportunita": [
   {
    "id": "aura-cons:116432",
@@ -89,30 +89,6 @@
    "descrizione": "Senza Titolo",
    "primo_rilevamento": "2026-10-16",
    "ultimo_rilevamento": "2026-10-26"
-  },
-  {
-   "id": "empulia:2928042",
-   "fonti": [
-    "EmPULIA"
-   ],
-   "titolo": "Autorizzazione a contrarre per l’affidamento, ai sensi dell’art. 76, comma 2, lett. c) del d. lgs. n. 36/2023, mediante piattaforma telematica EmPulia dei Servizi Integrati di Raccolta, trasporto e smaltimento di rifiuti ospedalieri per la durata di mesi 2 (due) con opzione di rinnovo per ulteriori 2 (due) mesi.",
-   "ente": "ASL TA",
-   "scadenza": "2026-10-28",
-   "pubblicazione": "2026-10-22",
-   "importo": 552000.0,
-   "cpv": [
-    "90524400"
-   ],
-   "cig": [
-    "BD7C1D79B9"
-   ],
-   "tipo": "bando",
-   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2928042&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-10-28T09:00:00",
-   "regione": "Puglia",
-   "motivo_match": "Ente sanitario + oggetto IT ('piattaforma telematica')",
-   "descrizione": "Raccolta, trasporto e smaltimento di rifiuti ospedalieri",
-   "primo_rilevamento": "2026-10-26",
-   "ultimo_rilevamento": "2026-10-27"
   },
   {
    "id": "ted:654909-2026",
