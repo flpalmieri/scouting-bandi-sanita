@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-12T17:45:14+00:00",
- "totale": 45,
+ "aggiornato_il": "2026-11-13T08:47:15+00:00",
+ "totale": 46,
  "opportunita": [
   {
    "id": "aura-cons:116432",
@@ -20,7 +20,7 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('SUBSCRIPTION') - da verificare",
    "descrizione": "AVVISO ESPLORATIVO PER LA VERIFICA DI ESCLUSIVITÀ PROPEDEUTICA ALLA PROCEDURA NEGOZIATA SENZA PUBBLICAZIONE DI UN BANDO AI SENSI DELL’ART. 76 C. 2 LETT. B) N. 2 DEL D. LGS. 36/2023 PER RINNOVO SUBSCRIPTION E SERVIZIO FULL MANAGED WSO2.",
    "primo_rilevamento": "2026-11-12",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "empulia:2924901",
@@ -247,7 +247,7 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('DEEP WEB') - da verificare",
    "descrizione": "AVVISO PER LA RACCOLTA DI PREVENTIVI FINALIZZATI ALL’AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1) LETT. B) DEL D.LGS. N. 36/2023 PER IL RINNOVO DEL SERVIZIO DI MONITORAGGIO DARK/DEEP WEB, COMPRENSIVO DELLA COMPONENTE DI THREAT INTELLIGENCE, PER",
    "primo_rilevamento": "2026-11-12",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:670003-2026",
@@ -403,7 +403,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('piattaforma regionale')",
    "descrizione": "Fornitura urgente in somministrazione di medicazioni avanzate per le necessità dell’U.O.C. di Otorinolaringoiatria del P.O. “Di Venere” di Bari Carbonara.",
    "primo_rilevamento": "2026-11-11",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "empulia:2937954",
@@ -425,7 +425,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72212180)",
    "descrizione": "AD migrazione RIS-PACS",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:722510-2026",
@@ -515,7 +515,7 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": "LICENZA SOFTWARE ANNUALE GOLD ICON3D PER LA UOC DI CHIRURGIA GENERALE DEL P.O. V. FAZZI DI LECCE",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:746031-2026",
@@ -561,7 +561,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72200000) - da verificare",
    "descrizione": "Procedura aperta per l'acquisizione del SIA",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:708163-2026",
@@ -607,7 +607,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72720000)",
    "descrizione": "PROCEDURA NEGOZIATA TELEMATICA, AI SENSI DEGLI DELL’ART. 76 COMMA 2, LETT. B), N. 2 del D.LGS. 36/2023 s.m.i.",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:744682-2026",
@@ -806,7 +806,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-05",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:783479-2026",
@@ -828,7 +828,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-11",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:765436-2026",
@@ -850,7 +850,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72310000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-04",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:560155-2026",
@@ -873,6 +873,28 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
+  },
+  {
+   "id": "areacom:de08cb15e95e",
+   "fonti": [
+    "AreaCom"
+   ],
+   "titolo": "Servizi applicativi in ottica cloud e servizi di Demand e PMO per le Pubbliche Amministrazioni Locali - (ED.3 PAL)",
+   "ente": "AreaCom - Agenzia regionale dell'Abruzzo per la Committenza",
+   "scadenza": null,
+   "pubblicazione": "2026-07-23",
+   "importo": null,
+   "cpv": [],
+   "cig": [
+    "A0259125A9"
+   ],
+   "tipo": "bando",
+   "link": "https://areacom.eu/bandi-gara-contratti/cloud-demand-pmo-ed3-pal",
+   "regione": "Abruzzo",
+   "motivo_match": "Soggetto aggregatore + oggetto IT ('applicativ') - da verificare",
+   "descrizione": "DATA PUBBLICAZIONE: 23/07/2026\nDATA SCADENZA: \nTIPOLOGIA: Servizi\nIMPORTO: \nCIG: A0259125A9",
+   "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "ted:722587-2026",
@@ -916,7 +938,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -938,7 +960,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -958,7 +980,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "DATA PUBBLICAZIONE: 14/03/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "uslumbria1:d51c2283425d",
@@ -978,7 +1000,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-13"
   },
   {
    "id": "uslumbria2:5137a51e173c",
