@@ -49,7 +49,7 @@ enti_sanitari_regex:
 # prima di cercare le parole IT (altrimenti "affidamento su piattaforma telematica
 # GIADA" di un farmaco sembrerebbe una gara informatica).
 rumore_procedurale_regex:
-  - '(su|sulla|tramite|mediante|attraverso|nella|con)\s+(la\s+|l[\x27\u2019]\s*)?(propria\s+)?piattaforma\s+((web|telematica|informatica|digitale|elettronica|regionale|aziendale|e-?procurement|di\s+e-?procurement|di\s+negoziazione)\s+)*([A-Z][\w\.\-]*)?'
+  - '(su|sulla|tramite|mediante|attraverso|nella|con)\s+(ricorso\s+a(lla)?\s+|(l[\x27\u2019]\s*)?utilizzo\s+(della\s+)?)?(la\s+|l[\x27\u2019]\s*)?(propria\s+)?piattaforma\s+((web|telematica|informatica|digitale|elettronica|regionale|aziendale|e-?procurement|di\s+e-?procurement|di\s+negoziazione)\s+)*([A-Z][\w\.\-]*)?'
   - '\b(RDO|trattativa\s+diretta|ODA)\s+(su\s+)?(il\s+)?MePA\b'
   - 'procedura\s+(aperta\s+|negoziata\s+|ristretta\s+)?(telematica|informatizzata)'
 
