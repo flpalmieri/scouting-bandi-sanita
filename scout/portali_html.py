@@ -234,7 +234,8 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
         ente=ente,
         scadenza=scadenza,
         pubblicazione=pubblicazione,
-        cig=sorted({c.upper() for c in RE_CIG.findall(f"{titolo} {testo}")}),
+        cig=sorted({c.upper() for c in RE_CIG.findall(f"{titolo} {testo}")
+                    if c.strip("0")}),   # "0000000000" = CIG non disponibile
         tipo=_tipo(titolo, voce.get("tipo_grezzo", "")),
         importo=estrai_importo(voce.get("importo_grezzo")),
         link=voce.get("link"),

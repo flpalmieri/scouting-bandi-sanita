@@ -194,6 +194,9 @@ class Filtro:
         self.re_escl = self._compila(cfg.get("esclusioni_regex"))
         self.re_aggr = self._compila(cfg.get("aggregatori_misti_regex"))
         self.re_it = self._compila(cfg.get("parole_chiave_it_regex"))
+        # Frasi procedurali da ignorare prima di cercare le parole IT (es. "su piattaforma
+        # telematica GIADA": è il canale della gara, non il suo oggetto).
+        self.re_rumore = self._compila(cfg.get("rumore_procedurale_regex"))
 
     @staticmethod
     def _compila(lista):
@@ -230,7 +233,8 @@ class Filtro:
         testo_completo = f"{titolo} {descrizione or ''}"
         if self.re_escl and self.re_escl.search(titolo):
             return None
-        m_it = self.re_it.search(testo_completo) if self.re_it else None
+        testo_it = self.re_rumore.sub(" ", testo_completo) if self.re_rumore else testo_completo
+        m_it = self.re_it.search(testo_it) if self.re_it else None
         if not m_it:
             return None
         parola = m_it.group(0).strip()
