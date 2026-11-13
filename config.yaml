@@ -53,6 +53,7 @@ aggregatori_misti_regex:
   - '\bconsip\b'
   - 'innova\s*puglia'
   - 'punto\s*zero'                     # Umbria: compra per la sanità ma anche per la Regione
+  - 'areacom|agenzia\s+regionale\s+dell.abruzzo\s+per\s+la\s+committenza'   # Abruzzo: sanità, Regione e comuni
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -308,6 +309,18 @@ portali_html:
       # trasparenza.izsum.it risponde 403 da GitHub Actions (12/11/2026): stesso portale
       # sul server di ISWEB, verificato dal browser.
       url_alternativo: "https://izsum.internetsoluzioni.it/page/588/avvisi.html"
+    - nome: AreaCom Abruzzo
+      nome_fonte: AreaCom
+      sigla: areacom
+      ente: AreaCom - Agenzia regionale dell'Abruzzo per la Committenza
+      regione: Abruzzo
+      lettore: tabella                # Drupal: colonne Bando / Tipo di appalto / CIG / Data pubblicazione
+      pagina_iniziale: 0              # le pagine partono da ?page=0
+      max_pagine: 3                   # 15 bandi per pagina, circa 5 settimane per pagina
+      # Elenco misto: gare per ASL e ASR, ma anche lavori per i comuni e avvisi di ricorsi.
+      escludi_titoli_regex:
+        - '^\s*ricors'
+      url: "https://areacom.eu/bandi-gara-aperti?page={pagina}"
 
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
