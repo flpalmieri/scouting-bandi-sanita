@@ -3,9 +3,10 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 4,
-  "righe_lette": 614,
+  "righe_lette": 609,
   "pertinenti": 21,
   "titoli_pertinenti": [
+   "ASST DI PAVIA - AVVISO DI INDAGINE DI MERCATO PER IL SERVIZIO DI MANUTENZIONE E ASSISTENZA DELLA CARTELLA ",
    "ASST NORD MILANO - REALIZZAZIONE A REGOLA D’ARTE DI N.60 PUNTI RETE DATI (PDL). CABLAGGIO IN RAME E FIBRA OTT",
    "ASST DI CREMA - INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL,",
    "ASST DI CREMA - INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL,",
@@ -13,7 +14,6 @@
    "ASST DI CREMA - INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL,",
    "ASST DI MANTOVA - AVVISO ESPLORATIVO, EX ART. 77 DEL D. LGS. 36/2023, PER LA VERIFICA DELL’INFUNGIBILITA’ ED",
    "ASST NORD MILANO - Acquisizione di un servizio in SaaS per il monitoraggio e asset management dei dispositivi",
-   "ASST DI PAVIA - AVVISO DI INDAGINE DI MERCATO PER IL SERVIZIO DI MANUTENZIONE E ASSISTENZA DEI MODULI SOFT",
    "ASST DELLA VALLE OLONA - RICHIESTA DI OFFERTA (RDO) APERTA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/202",
    "ASST DEI SETTE LAGHI - RICHIESTA DI OFFERTA MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL PER L’A",
    "ASST DI MANTOVA - Richiesta di preventivo per la fornitura di n. 15 Carrelli medicali informatizzati per la ",
@@ -30,10 +30,10 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 170,
+  "righe_prima_pagina": 168,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 170,
+  "righe_lette": 168,
   "pertinenti": 9,
   "titoli_pertinenti": [
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA - Soluzione informatizzata per la gestione salme",
@@ -48,20 +48,20 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 149,
+  "righe_prima_pagina": 136,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 149,
+  "righe_lette": 136,
   "pertinenti": 1,
   "titoli_pertinenti": [
    "ASL CN1 - Indagine di mercato fornitura Subscription VmWare ASL CN1 2027"
   ]
  },
  "liguria": {
-  "righe_prima_pagina": 44,
+  "righe_prima_pagina": 45,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 44
+  "righe_lette": 45
  },
  "emilia_romagna": {
   "righe_prima_pagina": 0,
