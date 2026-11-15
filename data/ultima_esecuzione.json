@@ -1,9 +1,9 @@
 {
-  "eseguito_il": "2026-11-14T11:57:00+00:00",
+  "eseguito_il": "2026-11-15T12:31:32+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
-      "pertinenti": 7
+      "pertinenti": 5
     },
     "portali_rss": {
       "esito": "ok",
@@ -23,6 +23,6 @@
     }
   },
   "errori": [],
-  "nuove_opportunita": 1,
+  "nuove_opportunita": 0,
   "totale": 77
 }
