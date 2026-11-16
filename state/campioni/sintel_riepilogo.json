@@ -2,11 +2,12 @@
  "lombardia": {
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
-  "pagine_lette": 4,
-  "righe_lette": 602,
-  "pertinenti": 21,
+  "pagine_lette": 3,
+  "righe_lette": 557,
+  "pertinenti": 20,
   "titoli_pertinenti": [
    "ASST DI PAVIA - AVVISO DI INDAGINE DI MERCATO PER IL SERVIZIO DI MANUTENZIONE E ASSISTENZA DELLA CARTELLA ",
+   "ASST DI CREMA - INDAGINE DI MERCATO ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL PER L’APPROVV",
    "ASST NORD MILANO - REALIZZAZIONE A REGOLA D’ARTE DI N.60 PUNTI RETE DATI (PDL). CABLAGGIO IN RAME E FIBRA OTT",
    "ASST DI CREMA - INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL,",
    "ASST DI CREMA - INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL,",
@@ -16,10 +17,8 @@
    "ASST NORD MILANO - Acquisizione di un servizio in SaaS per il monitoraggio e asset management dei dispositivi",
    "ASST DELLA VALLE OLONA - RICHIESTA DI OFFERTA (RDO) APERTA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/202",
    "ASST DEI SETTE LAGHI - RICHIESTA DI OFFERTA MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL PER L’A",
-   "ASST DI MANTOVA - Richiesta di preventivo per la fornitura di n. 15 Carrelli medicali informatizzati per la ",
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO - Procedura di gara aperta, ai sensi dell’art. 71 del D.lgs. n. 36/2023, per l’affidamento d",
    "ASST DI CREMONA - GARA EUROPEA A PROCEDURA APERTA, MONOLOTTO, AI SENSI DEGLI ARTT. 14 E 71 DEL D.LGS. 36/202",
-   "ASST DEI SETTE LAGHI - RDO, MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL, PER L’AFFIDAMENTO DELL",
    "ASST PAPA GIOVANNI XXIII - PROCEDURA APERTA PER L’AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA TECNICA E MANUTENZIONE EVOLU",
    "ASST DELLA VALLE OLONA - PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA, AI SENSI DELL’ART. 71 DEL D.LGS 36/2023, FINALI",
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A. - ARIA_2025_197_F_ «Acquisizione del Servizio Microsoft Unified Support per un accesso diret",
@@ -30,10 +29,10 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 167,
+  "righe_prima_pagina": 162,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 167,
+  "righe_lette": 162,
   "pertinenti": 9,
   "titoli_pertinenti": [
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA - Soluzione informatizzata per la gestione salme",
@@ -48,20 +47,20 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 135,
+  "righe_prima_pagina": 134,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 135,
+  "righe_lette": 134,
   "pertinenti": 1,
   "titoli_pertinenti": [
    "ASL CN1 - Indagine di mercato fornitura Subscription VmWare ASL CN1 2027"
   ]
  },
  "liguria": {
-  "righe_prima_pagina": 45,
+  "righe_prima_pagina": 43,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 45
+  "righe_lette": 43
  },
  "emilia_romagna": {
   "righe_prima_pagina": 0,
