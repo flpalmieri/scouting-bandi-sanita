@@ -3,9 +3,10 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 3,
-  "righe_lette": 557,
+  "righe_lette": 573,
   "pertinenti": 20,
   "titoli_pertinenti": [
+   "ASST DEI SETTE LAGHI - RDO AD INVITO MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL PER LA FORNITU",
    "ASST DI PAVIA - AVVISO DI INDAGINE DI MERCATO PER IL SERVIZIO DI MANUTENZIONE E ASSISTENZA DELLA CARTELLA ",
    "ASST DI CREMA - INDAGINE DI MERCATO ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL PER L’APPROVV",
    "ASST NORD MILANO - REALIZZAZIONE A REGOLA D’ARTE DI N.60 PUNTI RETE DATI (PDL). CABLAGGIO IN RAME E FIBRA OTT",
@@ -16,7 +17,6 @@
    "ASST DI MANTOVA - AVVISO ESPLORATIVO, EX ART. 77 DEL D. LGS. 36/2023, PER LA VERIFICA DELL’INFUNGIBILITA’ ED",
    "ASST NORD MILANO - Acquisizione di un servizio in SaaS per il monitoraggio e asset management dei dispositivi",
    "ASST DELLA VALLE OLONA - RICHIESTA DI OFFERTA (RDO) APERTA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/202",
-   "ASST DEI SETTE LAGHI - RICHIESTA DI OFFERTA MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL PER L’A",
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO - Procedura di gara aperta, ai sensi dell’art. 71 del D.lgs. n. 36/2023, per l’affidamento d",
    "ASST DI CREMONA - GARA EUROPEA A PROCEDURA APERTA, MONOLOTTO, AI SENSI DEGLI ARTT. 14 E 71 DEL D.LGS. 36/202",
    "ASST PAPA GIOVANNI XXIII - PROCEDURA APERTA PER L’AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA TECNICA E MANUTENZIONE EVOLU",
@@ -29,16 +29,15 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 162,
+  "righe_prima_pagina": 166,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 162,
-  "pertinenti": 9,
+  "righe_lette": 166,
+  "pertinenti": 8,
   "titoli_pertinenti": [
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA - Soluzione informatizzata per la gestione salme",
    "AZIENDA ULSS N. 9 SCALIGERA - CONSULTAZIONE PRELIMINARE DI MERCATO AI FINI DELLA VERIFICA DEI PRESUPPOSTI PER L’ESPLETAM",
    "AZIENDA ULSS N. 4 VENETO ORIENTALE - INDAGINE DI MERCATO PER LA FORNITURA IN AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA ",
-   "AZIENDA ULSS N. 7 PEDEMONTANA - Indagine di mercato comparativa con preventivo. Servizio di traduzione in Lingua dei Segni",
    "AZIENDA ULSS N. 7 PEDEMONTANA - INDAGINE DI MERCATO COMPARATIVA CON PREVENTIVO. Affidamento diretto per l’acquisto di lice",
    "AZIENDA ULSS N. 9 SCALIGERA - CONSULTAZIONE PRELIMINARE DI MERCATO AI FINI DELLA VERIFICA DEI PRESUPPOSTI PER L’ESPLETAM",
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA - ID25D063 - Fornitura di materiali per controllo interno di qualita’ e relativi software ge",
@@ -47,20 +46,20 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 134,
+  "righe_prima_pagina": 136,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 134,
+  "righe_lette": 136,
   "pertinenti": 1,
   "titoli_pertinenti": [
    "ASL CN1 - Indagine di mercato fornitura Subscription VmWare ASL CN1 2027"
   ]
  },
  "liguria": {
-  "righe_prima_pagina": 43,
+  "righe_prima_pagina": 41,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 43
+  "righe_lette": 41
  },
  "emilia_romagna": {
   "righe_prima_pagina": 0,
