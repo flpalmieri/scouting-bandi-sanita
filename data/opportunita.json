@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-18T13:41:02+00:00",
- "totale": 82,
+ "aggiornato_il": "2026-11-18T21:52:00+00:00",
+ "totale": 73,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -382,26 +382,6 @@
    "ultimo_rilevamento": "2026-11-13"
   },
   {
-   "id": "sintel:225929382",
-   "fonti": [
-    "Sintel"
-   ],
-   "titolo": "RDO, MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL, PER L’AFFIDAMENTO DELLA FORNITURA DI PROTESI VASCOLARI OCCORRENTI ALLA S.C. CARDIOCHIRURGIA DELL’ASST DEI SETTE LAGHI PER UN PERIODO DI 2 (DUE) ANNI CON OPZIONE DI PROROGA PER ULTERIORE UN (1) ANNO.",
-   "ente": "ASST DEI SETTE LAGHI",
-   "scadenza": "2026-11-16",
-   "pubblicazione": "2026-10-28",
-   "importo": 72530.0,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225929382",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + oggetto IT ('PIATTAFORMA INFORMATICA')",
-   "descrizione": "Tipo Sintel: Multilotto; Ambito: forniture/servizi sanitari",
-   "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-15"
-  },
-  {
    "id": "sintel:226065903",
    "fonti": [
     "Sintel"
@@ -443,26 +423,6 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
    "ultimo_rilevamento": "2026-10-29"
-  },
-  {
-   "id": "sintel:226083448",
-   "fonti": [
-    "Sintel"
-   ],
-   "titolo": "RICHIESTA DI OFFERTA MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL PER L’AFFIDAMENTO DELLA FORNITURA DI DISPOSITIVI PER CARDIOCHIRURGIA",
-   "ente": "ASST DEI SETTE LAGHI",
-   "scadenza": "2026-11-17",
-   "pubblicazione": "2026-11-02",
-   "importo": 6500.0,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226083448",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + oggetto IT ('PIATTAFORMA INFORMATICA')",
-   "descrizione": "Tipo Sintel: Procedura negoziata con la pubblicazione di un bando; Ambito: dispositivi medici",
-   "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-16"
   },
   {
    "id": "sintel:226408591",
@@ -613,46 +573,6 @@
    "ultimo_rilevamento": "2026-11-18"
   },
   {
-   "id": "sintel:226045113",
-   "fonti": [
-    "Sintel"
-   ],
-   "titolo": "RICHIESTA DI OFFERTA ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL PER L’ADEGUAMENTO DELLA CODIFICA DIAGNOSI ICD-10-IM AL DWH AZIENDALE.",
-   "ente": "ASST DI CREMA",
-   "scadenza": "2026-11-20",
-   "pubblicazione": "2026-11-18",
-   "importo": 16500.0,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226045113",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
-   "descrizione": "Tipo Sintel: Affidamento diretto previa richiesta di preventivi; Ambito: forniture/servizi",
-   "primo_rilevamento": "2026-11-18",
-   "ultimo_rilevamento": "2026-11-18"
-  },
-  {
-   "id": "sintel:225386388",
-   "fonti": [
-    "Sintel"
-   ],
-   "titolo": "GARA D’APPALTO A PROCEDURA APERTA MULTILOTTO, ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL, AI SENSI DELL’ART. 71 DEL D. LGS. N. 36/2023, PER LA FORNITURA DI RETI CHIRURGICHE, MATRICI E MEMBRANE DERMICHE, OCCORRENTE ALLA ASST LODI PER UN PERIODO DI 36 MESI EVENTUALMENTE RINNOVABILE PER ULTERIORI MESI 12. ATTI 1.6.3/380.2026",
-   "ente": "ASST DI LODI",
-   "scadenza": "2026-11-20",
-   "pubblicazione": "2026-10-15",
-   "importo": 326544.0,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225386388",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
-   "descrizione": "Tipo Sintel: Multilotto; Ambito: dispositivi medici",
-   "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-18"
-  },
-  {
    "id": "sintel:226370252",
    "fonti": [
     "Sintel"
@@ -781,26 +701,6 @@
    "ultimo_rilevamento": "2026-11-18"
   },
   {
-   "id": "sintel:225537866",
-   "fonti": [
-    "Sintel"
-   ],
-   "titolo": "GARA D’APPALTO A PROCEDURA APERTA, ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL AI SENSI DEGLI ARTT. 14 E 71 DEL D. LGS. N. 36/2023 SS.MM.II, PER LA FORNITURA DI N. 1 APPARECCHIATURA PER TOMOGRAFIA ASSIALE COMPUTERIZZATA (TC), DA DESTINARE ALLA SC PRONTO SOCCORSO DEL PRESIDIO OSPEDALIERO DI LODI – CUP: F14E26000190002",
-   "ente": "ASST DI LODI",
-   "scadenza": "2026-11-23",
-   "pubblicazione": "2026-10-20",
-   "importo": 523809.52,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225537866",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
-   "descrizione": "Tipo Sintel: Procedura Aperta; Ambito: dispositivi medici",
-   "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-18"
-  },
-  {
    "id": "sintel:226630058",
    "fonti": [
     "Sintel"
@@ -908,23 +808,25 @@
    "ultimo_rilevamento": "2026-11-18"
   },
   {
-   "id": "sintel:226405292",
+   "id": "empulia:2972285",
    "fonti": [
-    "Sintel"
+    "EmPULIA"
    ],
-   "titolo": "INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL, PER LA FORNITURA DI STOVIGLIERIA",
-   "ente": "ASST DI CREMA",
+   "titolo": "FORNITURA DI COMPONENTI SOFTWARE E HARDWARE PER SISTEMA ERGO-SPIROMETRICO PRESENTE PRESSO U.O. DI CARDIOLOGIA DEL P.O. DI BARLETTA, COMPRENSIVO DI UN PERIODO DI GARANZIA FULL-RISK DI 24 MESI",
+   "ente": "ASL BAT",
    "scadenza": "2026-11-24",
-   "pubblicazione": "2026-11-10",
-   "importo": 22658.7,
-   "cpv": [],
+   "pubblicazione": "2026-11-18",
+   "importo": 52000.0,
+   "cpv": [
+    "33100000"
+   ],
    "cig": [],
-   "tipo": "avviso esplorativo",
-   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226405292",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
-   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
-   "primo_rilevamento": "2026-11-13",
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2972285&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T13:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
+   "descrizione": "Invito dall' Avviso PE279532-26",
+   "primo_rilevamento": "2026-11-18",
    "ultimo_rilevamento": "2026-11-18"
   },
   {
@@ -969,46 +871,6 @@
    "motivo_match": "Ente sanitario + CPV IT (72720000)",
    "descrizione": "PROCEDURA NEGOZIATA TELEMATICA, AI SENSI DEGLI DELL’ART. 76 COMMA 2, LETT. B), N. 2 del D.LGS. 36/2023 s.m.i.",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-18"
-  },
-  {
-   "id": "sintel:226494167",
-   "fonti": [
-    "Sintel"
-   ],
-   "titolo": "INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL, PER LA FORNITURA DI BATTERIE -",
-   "ente": "ASST DI CREMA",
-   "scadenza": "2026-11-25",
-   "pubblicazione": "2026-11-11",
-   "importo": 11567.36,
-   "cpv": [],
-   "cig": [],
-   "tipo": "avviso esplorativo",
-   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226494167",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
-   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
-   "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-18"
-  },
-  {
-   "id": "sintel:226498092",
-   "fonti": [
-    "Sintel"
-   ],
-   "titolo": "INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL, PER LA FORNITURA DI TORCE - ART. 50, COMMA 1, LETT. B) DEL D.LGS. 36/2023.",
-   "ente": "ASST DI CREMA",
-   "scadenza": "2026-11-25",
-   "pubblicazione": "2026-11-11",
-   "importo": 341.28,
-   "cpv": [],
-   "cig": [],
-   "tipo": "avviso esplorativo",
-   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226498092",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
-   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
-   "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-18"
   },
   {
@@ -1266,26 +1128,6 @@
    "ultimo_rilevamento": "2026-10-29"
   },
   {
-   "id": "sintel:226623987",
-   "fonti": [
-    "Sintel"
-   ],
-   "titolo": "INDAGINE DI MERCATO ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL PER L’APPROVVIGIONAMENTO DI DISPOSITIVI MEDICI CON CND VARI.",
-   "ente": "ASST DI CREMA",
-   "scadenza": "2026-12-01",
-   "pubblicazione": "2026-11-16",
-   "importo": 56250.0,
-   "cpv": [],
-   "cig": [],
-   "tipo": "avviso esplorativo",
-   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226623987",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
-   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: dispositivi medici",
-   "primo_rilevamento": "2026-11-16",
-   "ultimo_rilevamento": "2026-11-18"
-  },
-  {
    "id": "sintel:226429225",
    "fonti": [
     "Sintel"
@@ -1392,26 +1234,6 @@
    "descrizione": null,
    "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-14"
-  },
-  {
-   "id": "sintel:226735901",
-   "fonti": [
-    "Sintel"
-   ],
-   "titolo": "RDO AD INVITO MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL PER LA FORNITURA DELLE APPARECCHIATURE NECESSARIE PER L’AGGIORNAMENTO DELLA SALA OPERATORIA INTEGRATA – SALA 3 – DEL BLOCCO OPERATORIO DEL PRESIDIO DEL PONTE DI VARESE DELL’ASST SETTE LAGHI.",
-   "ente": "ASST DEI SETTE LAGHI",
-   "scadenza": "2026-12-03",
-   "pubblicazione": "2026-11-17",
-   "importo": 153000.0,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226735901",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + oggetto IT ('PIATTAFORMA INFORMATICA')",
-   "descrizione": "Tipo Sintel: Procedura negoziata senza bando; Ambito: dispositivi medici",
-   "primo_rilevamento": "2026-11-17",
-   "ultimo_rilevamento": "2026-11-18"
   },
   {
    "id": "ted:749235-2026",

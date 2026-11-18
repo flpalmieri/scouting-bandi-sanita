@@ -118,10 +118,10 @@ Richiesta preventivo per l’acquisto del medicinale esclusivo “COBENFY” (Pr
 	<pubDate>18/11/2026</pubDate>
 	
 	<description>
-CONSULTAZIONE PRELIMINARE DI MERCATO, EX ART. 77 DEL D.LGS. N. 36/2023, FINALIZZATA ALL’INDIZIONE DI UNA GARA TELEMATICA AVENTE AD OGGETTO L’AFFIDAMENTO DEI SERVIZI DEI SERVIZI DI LAVANOLO PER GLI ENTI DEL SSR&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; CONSULTAZIONE PRELIMINARE DI MERCATO, EX ART. 77 DEL D.LGS. N. 36/2023, FINALIZZATA ALL’INDIZIONE DI UNA GARA TELEMATICA AVENTE AD OGGETTO L’AFFIDAMENTO DEI SERVIZI DEI SERVIZI DI LAVANOLO PER GLI ENTI DEL SSR&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;
 	</description>
 	
-	<afs:Oggetto><![CDATA[CONSULTAZIONE PRELIMINARE DI MERCATO, EX ART. 77 DEL D.LGS. N. 36/2023, FINALIZZATA ALL’INDIZIONE DI UNA GARA TELEMATICA AVENTE AD OGGETTO L’AFFIDAMENTO DEI SERVIZI DEI SERVIZI DI LAVANOLO PER GLI ENTI DEL SSR]]></afs:Oggetto>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> CONSULTAZIONE PRELIMINARE DI MERCATO, EX ART. 77 DEL D.LGS. N. 36/2023, FINALIZZATA ALL’INDIZIONE DI UNA GARA TELEMATICA AVENTE AD OGGETTO L’AFFIDAMENTO DEI SERVIZI DEI SERVIZI DI LAVANOLO PER GLI ENTI DEL SSR]]></afs:Oggetto>
     <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
 	<afs:DenominazioneEnte><![CDATA[InnovaPuglia S.p.A.]]></afs:DenominazioneEnte>
     <afs:Contratto><![CDATA[]]></afs:Contratto>
@@ -143,7 +143,7 @@ CONSULTAZIONE PRELIMINARE DI MERCATO, EX ART. 77 DEL D.LGS. N. 36/2023, FINALIZZ
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-18T13:45:42.827]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-18T17:41:03.987]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T13:45:42]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -178,7 +178,7 @@ Consultazione per la fornitura di telini&lt;strong&gt;Scadenza : 23/11/2026&lt;/
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-18T13:57:42.063]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-18T16:34:13.710]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-11T10:22:11]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -421,6 +421,4 @@ CONSULTAZIONE PRELIMINARE DI MERCATO, EX ART. 77 DEL D.LGS. N. 36 /2023, FINALIZ
 	
 	<description>
 AVVISO DI CONSULTAZIONE RELIMINARE per la fornitura di sistemi per il lavaggio delle emazie, di Soluzioni per procedure di aferesi e lavaggio delle emazie e di Aghi da prelievo.&lt;strong&gt;Scadenza : 05/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[AVVISO DI CONSULTAZIONE RELIMINARE per la fornitura di sis
+	</descriptio

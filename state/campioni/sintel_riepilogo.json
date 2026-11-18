@@ -2,29 +2,62 @@
  "lombardia": {
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
+  "possibile_troncamento": true,
   "pagine_lette": 3,
-  "righe_lette": 585,
-  "pertinenti": 19,
+  "righe_lette": 600,
+  "enti_sanitari": {
+   "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 17,
+   "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 15,
+   "ASST DELLA VALLE OLONA": 14,
+   "ASST DI BERGAMO OVEST": 13,
+   "ASST LARIANA": 12,
+   "ASST DELLA VALTELLINA E DELL'ALTO LARIO": 11,
+   "ASST DI MANTOVA": 11,
+   "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 11,
+   "ASST DEI SETTE LAGHI": 10,
+   "ASST PAPA GIOVANNI XXIII": 9,
+   "FONDAZIONE IRCCS SAN GERARDO DEI TINTORI DI MONZA": 9,
+   "ASST DI BERGAMO EST": 8,
+   "ASST DI CREMA": 8,
+   "FONDAZIONE IRCCS CA' GRANDA - OSPEDALE MAGGIORE POLICLINICO": 8,
+   "AGENZIA REGIONALE EMERGENZA URGENZA (AREU 118)": 7,
+   "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA": 7,
+   "ASST RHODENSE": 7,
+   "ASST DI CREMONA": 6,
+   "ASST DI LODI": 6,
+   "ASST OVEST MILANESE": 6,
+   "ASST SANTI PAOLO E CARLO": 6,
+   "ASST DEGLI SPEDALI CIVILI DI BRESCIA": 4,
+   "ASST DELLA VALCAMONICA": 3,
+   "ASST DI LECCO": 3,
+   "ASST MELEGNANO E DELLA MARTESANA": 3,
+   "ASST NORD MILANO": 3,
+   "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLA LOMBARDIA E DELL'EMILIA ROMAGNA \"BRUNO UBERTINI\"": 3,
+   "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO": 2,
+   "ASST DEL GARDA": 2,
+   "ASST DI PAVIA": 2,
+   "ASST FATEBENEFRATELLI SACCO": 2,
+   "ATS DELLA CITTA METROPOLITANA DI MILANO": 2,
+   "A.S.P. - ISTITUTI MILANESI MARTINITT E STELLINE E PIO ALBERGO TRIVULZIO": 1,
+   "ASST BRIANZA": 1,
+   "ASST DELLA FRANCIACORTA": 1,
+   "ASST DI MONZA": 1,
+   "ATS DELLA MONTAGNA": 1
+  },
+  "procedure_altri_enti": 365,
+  "pertinenti": 11,
   "titoli_pertinenti": [
-   "ASST DEI SETTE LAGHI - RDO AD INVITO MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL PER LA FORNITU",
    "ASST DI PAVIA - AVVISO DI INDAGINE DI MERCATO PER IL SERVIZIO DI MANUTENZIONE E ASSISTENZA DELLA CARTELLA ",
-   "ASST DI CREMA - INDAGINE DI MERCATO ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL PER L’APPROVV",
    "ASST NORD MILANO - REALIZZAZIONE A REGOLA D’ARTE DI N.60 PUNTI RETE DATI (PDL). CABLAGGIO IN RAME E FIBRA OTT",
-   "ASST DI CREMA - INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL,",
-   "ASST DI CREMA - INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL,",
    "ASST DI LODI - AVVISO ESPLORATIVO AL FINE DI ACQUISIRE MANIFESTAZIONE DI INTERESSE ALLA PARTECIPAZIONE AL",
-   "ASST DI CREMA - INDAGINE DI MERCATO, ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL,",
    "ASST DI MANTOVA - AVVISO ESPLORATIVO, EX ART. 77 DEL D. LGS. 36/2023, PER LA VERIFICA DELL’INFUNGIBILITA’ ED",
    "ASST NORD MILANO - Acquisizione di un servizio in SaaS per il monitoraggio e asset management dei dispositivi",
    "ASST DELLA VALLE OLONA - RICHIESTA DI OFFERTA (RDO) APERTA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/202",
-   "ASST DI CREMA - RICHIESTA DI OFFERTA ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL ",
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO - Procedura di gara aperta, ai sensi dell’art. 71 del D.lgs. n. 36/2023, per l’affidamento d",
    "ASST DI CREMONA - GARA EUROPEA A PROCEDURA APERTA, MONOLOTTO, AI SENSI DEGLI ARTT. 14 E 71 DEL D.LGS. 36/202",
    "ASST PAPA GIOVANNI XXIII - PROCEDURA APERTA PER L’AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA TECNICA E MANUTENZIONE EVOLU",
    "ASST DELLA VALLE OLONA - PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA, AI SENSI DELL’ART. 71 DEL D.LGS 36/2023, FINALI",
-   "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A. - ARIA_2025_197_F_ «Acquisizione del Servizio Microsoft Unified Support per un accesso diret",
-   "ASST DI LODI - GARA D’APPALTO A PROCEDURA APERTA, ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTE",
-   "ASST DI LODI - GARA D’APPALTO A PROCEDURA APERTA MULTILOTTO, ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIA"
+   "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A. - ARIA_2025_197_F_ «Acquisizione del Servizio Microsoft Unified Support per un accesso diret"
   ]
  },
  "veneto": {
@@ -32,6 +65,21 @@
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
   "righe_lette": 170,
+  "enti_sanitari": {
+   "AZIENDA ULSS N. 8 BERICA": 31,
+   "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA": 28,
+   "AZIENDA ULSS N. 3 SERENISSIMA": 14,
+   "AZIENDA OSPEDALIERA UNIVERSITARIA INTEGRATA DI VERONA": 13,
+   "AZIENDA ULSS N. 7 PEDEMONTANA": 13,
+   "AZIENDA ZERO": 8,
+   "AZIENDA ULSS N. 5 POLESANA": 5,
+   "AZIENDA ULSS N. 4 VENETO ORIENTALE": 4,
+   "AZIENDA ULSS N. 9 SCALIGERA": 3,
+   "AZIENDA ULSS N. 1 DOLOMITI": 2,
+   "AZIENDA ULSS N. 2 MARCA TREVIGIANA": 2,
+   "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLE VENEZIE": 2
+  },
+  "procedure_altri_enti": 45,
   "pertinenti": 8,
   "titoli_pertinenti": [
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA - Soluzione informatizzata per la gestione salme",
@@ -45,10 +93,30 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 151,
+  "righe_prima_pagina": 156,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 151,
+  "righe_lette": 156,
+  "enti_sanitari": {
+   "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 38,
+   "ASL TO 4": 8,
+   "AZIENDA SANITARIA LOCALE ASTI - ASL AT": 7,
+   "AZIENDA OSPEDALIERA S. CROCE E CARLE": 6,
+   "AZIENDA OSPEDALIERA NOVARA": 5,
+   "AZIENDA SANITARIA LOCALE CITTÀ DI TORINO": 5,
+   "AZIENDA SANITARIA ZERO": 5,
+   "ASL CN1": 4,
+   "ASL NO DI NOVARA": 4,
+   "AZIENDA OSPEDALIERA SS. ANTONIO E BIAGIO E C ARRIGO": 4,
+   "AZIENDA OSPEDALIERO-UNIVERSITARIA SAN LUIGI GONZAGA": 3,
+   "AZIENDA SANITARIA LOCALE DI VERCELLI": 3,
+   "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DEL PIEMONTE, LIGURIA E VALLE D'AOSTA": 3,
+   "ASL TO3": 2,
+   "ASL VERBANO CUSIO OSSOLA": 2,
+   "AZIENDA SANITARIA LOCALE AL": 2,
+   "ASL BI": 1
+  },
+  "procedure_altri_enti": 54,
   "pertinenti": 1,
   "titoli_pertinenti": [
    "ASL CN1 - Indagine di mercato fornitura Subscription VmWare ASL CN1 2027"
@@ -58,42 +126,56 @@
   "righe_prima_pagina": 42,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 42
+  "righe_lette": 42,
+  "enti_sanitari": {},
+  "procedure_altri_enti": 42
  },
  "emilia_romagna": {
   "righe_prima_pagina": 0,
   "elementi_per_pagina": null,
   "pagine_lette": 1,
-  "righe_lette": 0
+  "righe_lette": 0,
+  "enti_sanitari": {},
+  "procedure_altri_enti": 0
  },
  "marche": {
-  "righe_prima_pagina": 0,
-  "elementi_per_pagina": null,
+  "righe_prima_pagina": 1,
+  "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 0
+  "righe_lette": 1,
+  "enti_sanitari": {},
+  "procedure_altri_enti": 1
  },
  "lazio": {
   "righe_prima_pagina": 0,
   "elementi_per_pagina": null,
   "pagine_lette": 1,
-  "righe_lette": 0
+  "righe_lette": 0,
+  "enti_sanitari": {},
+  "procedure_altri_enti": 0
  },
  "abruzzo": {
   "righe_prima_pagina": 0,
   "elementi_per_pagina": null,
   "pagine_lette": 1,
-  "righe_lette": 0
+  "righe_lette": 0,
+  "enti_sanitari": {},
+  "procedure_altri_enti": 0
  },
  "campania": {
   "righe_prima_pagina": 0,
   "elementi_per_pagina": null,
   "pagine_lette": 1,
-  "righe_lette": 0
+  "righe_lette": 0,
+  "enti_sanitari": {},
+  "procedure_altri_enti": 0
  },
  "sicilia": {
   "righe_prima_pagina": 0,
   "elementi_per_pagina": null,
   "pagine_lette": 1,
-  "righe_lette": 0
+  "righe_lette": 0,
+  "enti_sanitari": {},
+  "procedure_altri_enti": 0
  }
 }
