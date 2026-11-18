@@ -323,6 +323,11 @@ portali_html:
       ente: Azienda ULSS 6 Euganea
       regione: Veneto
       lettore: it_card
+      # 18/11/2026: dai server di GitHub la connessione va in timeout (dal browser in Italia
+      # il sito risponde). Prova con attesa breve: se fallisce ancora, mettere abilitato: false
+      # e controllare a mano https://www.aulss6.veneto.it/bandi-di-gara?stato=1 una volta al mese.
+      timeout_connessione: 15
+      tentativi: 1
       # Solo lo stato "Pubblicato" (stato=1), 10 schede per pagina, dalla piu' recente.
       url: "https://www.aulss6.veneto.it/bandi-di-gara?stato=1&p={pagina}"
       max_pagine: 5

@@ -22,6 +22,10 @@ Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url
   pagina_iniziale       - numero della prima pagina in {pagina} (default 1; 0 per Drupal).
   url_alternativo       - indirizzo da usare se il principale risponde con un errore
                           (es. 403 dai server di GitHub); stesso formato di url.
+  timeout_connessione   - secondi di attesa per la connessione (default 60). Utile per i siti
+                          che scartano in silenzio le connessioni dai server di GitHub.
+  tentativi             - nuovi tentativi in caso di errore (default: quelli della sessione
+                          comune, 5). Con un sito bloccato, pochi tentativi = poco tempo perso.
   scadenza_max_giorni   - se la "scadenza" e' piu' lontana di cosi' dalla pubblicazione
                           (default 365) non e' un termine di gara ma la fine della
                           pubblicazione sul sito: viene ignorata.
@@ -285,8 +289,24 @@ def _salva_campione(sito: dict, contenuto: bytes) -> None:
     (CAMPIONI / f"{nome}.html").write_bytes(contenuto[:60000])
 
 
+def _sessione_sito(sito: dict, sess):
+    """Sessione con tentativi ridotti per i siti che lo chiedono in config.yaml."""
+    if "tentativi" not in sito:
+        return sess
+    from requests.adapters import HTTPAdapter
+    from urllib3.util.retry import Retry
+    propria = requests.Session()
+    propria.headers.update(sess.headers)
+    propria.mount("https://", HTTPAdapter(max_retries=Retry(
+        total=int(sito["tentativi"]), backoff_factor=2,
+        status_forcelist=(429, 500, 502, 503, 504), allowed_methods=frozenset({"GET"}))))
+    return propria
+
+
 def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
     lettore = LETTORI[sito["lettore"]]
+    sess = _sessione_sito(sito, sess)
+    attesa = (float(sito.get("timeout_connessione", 60)), 60)   # (connessione, lettura)
     url_modello = sito["url"]
     alternativo = sito.get("url_alternativo")
     paginato = "{pagina}" in url_modello
@@ -299,7 +319,7 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
     for pagina in range(prima, prima + max_pagine):
         url = url_modello.replace("{pagina}", str(pagina))
         try:
-            r = sess.get(url, headers=HEADERS, timeout=60)
+            r = sess.get(url, headers=HEADERS, timeout=attesa)
             r.raise_for_status()
         except requests.RequestException as e:
             # Alcuni portali bloccano i server cloud (es. 403 da GitHub Actions):
@@ -310,7 +330,7 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
             url_modello = alternativo
             url = url_modello.replace("{pagina}", str(pagina))
             try:
-                r = sess.get(url, headers=HEADERS, timeout=60)
+                r = sess.get(url, headers=HEADERS, timeout=attesa)
                 r.raise_for_status()
             except requests.RequestException as e2:
                 raise RuntimeError(f"{sito['nome']}: indirizzo principale ({e}) e alternativo ({e2}) "
