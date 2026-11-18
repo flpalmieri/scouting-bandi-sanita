@@ -317,6 +317,8 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
             pieno = stat.get("elementi_per_pagina")
             if pieno and str(len(nuove)) == str(pieno):
                 stat["possibile_troncamento"] = True
+                _salva_campione(f"{etichetta}_ultima_pagina", pagina[:40000]
+                                + "\n<!-- ... parte centrale omessa ... -->\n" + pagina[-60000:])
                 ERRORI.append(f"Sintel {regione or 'tutte'}: ultima pagina letta piena ({pieno} righe) "
                               "ma nessun pulsante per la successiva: possibili dati parziali")
             break
@@ -338,6 +340,7 @@ def _censisci_enti(regione: str | None, righe: list[dict], filtro: Filtro) -> No
     """Per il censimento delle fonti: quali enti sanitari pubblicano su Sintel e con quante
     procedure aperte. Gli altri enti (comuni, province...) si contano soltanto."""
     sanitari: dict[str, int] = {}
+    altri_enti: dict[str, int] = {}
     altri = 0
     for r in righe:
         ente = r.get("STAZIONE APPALTANTE", "").strip()
@@ -345,9 +348,11 @@ def _censisci_enti(regione: str | None, righe: list[dict], filtro: Filtro) -> No
             sanitari[ente] = sanitari.get(ente, 0) + 1
         else:
             altri += 1
+            altri_enti[ente] = altri_enti.get(ente, 0) + 1
     st = RIEPILOGO.setdefault((regione or "tutte").lower().replace(" ", "_"), {})
     st["enti_sanitari"] = dict(sorted(sanitari.items(), key=lambda x: (-x[1], x[0])))
     st["procedure_altri_enti"] = altri
+    st["altri_enti"] = dict(sorted(altri_enti.items(), key=lambda x: (-x[1], x[0])))
 
 
 def _scrivi_riepilogo() -> None:

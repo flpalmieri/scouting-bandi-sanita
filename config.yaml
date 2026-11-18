@@ -26,6 +26,7 @@ enti_sanitari_regex:
   - '\bA\.?U\.?S\.?L\b'
   - '\bU\.?L\.?S\.?S\b'
   - '\bA\.?O\.?U\.?I?\b'                  # Azienda Ospedaliero-Universitaria (AOU, A.O.U., AOUI)
+  - 'istituto\s+oncologic|\bIOV\b'     # Istituto Oncologico Veneto (IRCCS) anche senza la parola IRCCS
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
