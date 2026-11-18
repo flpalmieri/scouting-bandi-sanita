@@ -3,8 +3,8 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 3,
-  "righe_lette": 573,
-  "pertinenti": 20,
+  "righe_lette": 585,
+  "pertinenti": 19,
   "titoli_pertinenti": [
    "ASST DEI SETTE LAGHI - RDO AD INVITO MEDIANTE UTILIZZO DI PIATTAFORMA INFORMATICA REGIONALE SINTEL PER LA FORNITU",
    "ASST DI PAVIA - AVVISO DI INDAGINE DI MERCATO PER IL SERVIZIO DI MANUTENZIONE E ASSISTENZA DELLA CARTELLA ",
@@ -17,22 +17,21 @@
    "ASST DI MANTOVA - AVVISO ESPLORATIVO, EX ART. 77 DEL D. LGS. 36/2023, PER LA VERIFICA DELL’INFUNGIBILITA’ ED",
    "ASST NORD MILANO - Acquisizione di un servizio in SaaS per il monitoraggio e asset management dei dispositivi",
    "ASST DELLA VALLE OLONA - RICHIESTA DI OFFERTA (RDO) APERTA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/202",
+   "ASST DI CREMA - RICHIESTA DI OFFERTA ATTRAVERSO L’UTILIZZO DEL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTEL ",
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO - Procedura di gara aperta, ai sensi dell’art. 71 del D.lgs. n. 36/2023, per l’affidamento d",
    "ASST DI CREMONA - GARA EUROPEA A PROCEDURA APERTA, MONOLOTTO, AI SENSI DEGLI ARTT. 14 E 71 DEL D.LGS. 36/202",
    "ASST PAPA GIOVANNI XXIII - PROCEDURA APERTA PER L’AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA TECNICA E MANUTENZIONE EVOLU",
    "ASST DELLA VALLE OLONA - PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA, AI SENSI DELL’ART. 71 DEL D.LGS 36/2023, FINALI",
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A. - ARIA_2025_197_F_ «Acquisizione del Servizio Microsoft Unified Support per un accesso diret",
    "ASST DI LODI - GARA D’APPALTO A PROCEDURA APERTA, ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIAZIONE SINTE",
-   "ASST DI BERGAMO OVEST - PROCEDURA DI GARA SOPRA SOGLIA COMUNITARIA AI SENSI DELL’ART. 71 DEL D. LGS. 36/2023 E S.M",
-   "ASST DELLA VALLE OLONA - PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA, AI SENSI DELL’ART. 71 DEL D.LGS 36/2023, FINALI",
    "ASST DI LODI - GARA D’APPALTO A PROCEDURA APERTA MULTILOTTO, ATTRAVERSO IL SISTEMA INFORMATICO DI NEGOZIA"
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 166,
+  "righe_prima_pagina": 170,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 166,
+  "righe_lette": 170,
   "pertinenti": 8,
   "titoli_pertinenti": [
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA - Soluzione informatizzata per la gestione salme",
@@ -46,20 +45,20 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 136,
+  "righe_prima_pagina": 151,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 136,
+  "righe_lette": 151,
   "pertinenti": 1,
   "titoli_pertinenti": [
    "ASL CN1 - Indagine di mercato fornitura Subscription VmWare ASL CN1 2027"
   ]
  },
  "liguria": {
-  "righe_prima_pagina": 41,
+  "righe_prima_pagina": 42,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 41
+  "righe_lette": 42
  },
  "emilia_romagna": {
   "righe_prima_pagina": 0,
