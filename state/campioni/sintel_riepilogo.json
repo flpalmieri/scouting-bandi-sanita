@@ -1,42 +1,80 @@
 {
- "lombardia": {
+ "lombardia_ambito_2": {
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
-  "possibile_troncamento": true,
-  "pagine_lette": 3,
-  "righe_lette": 600,
+  "pagine_lette": 2,
+  "righe_lette": 307
+ },
+ "lombardia_ambito_4": {
+  "righe_prima_pagina": 95,
+  "elementi_per_pagina": "200",
+  "pagine_lette": 1,
+  "righe_lette": 95
+ },
+ "lombardia_ambito_5": {
+  "righe_prima_pagina": 35,
+  "elementi_per_pagina": "200",
+  "pagine_lette": 1,
+  "righe_lette": 35
+ },
+ "lombardia_ambito_7": {
+  "righe_prima_pagina": 84,
+  "elementi_per_pagina": "200",
+  "pagine_lette": 1,
+  "righe_lette": 84
+ },
+ "lombardia_ambito_8": {
+  "righe_prima_pagina": 19,
+  "elementi_per_pagina": "200",
+  "pagine_lette": 1,
+  "righe_lette": 19
+ },
+ "lombardia_ambito_9": {
+  "righe_prima_pagina": 24,
+  "elementi_per_pagina": "200",
+  "pagine_lette": 1,
+  "righe_lette": 24
+ },
+ "lombardia_ambito_11": {
+  "righe_prima_pagina": 11,
+  "elementi_per_pagina": "200",
+  "pagine_lette": 1,
+  "righe_lette": 11
+ },
+ "lombardia": {
+  "righe_lette": 575,
   "enti_sanitari": {
-   "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 17,
+   "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 16,
    "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 15,
    "ASST DELLA VALLE OLONA": 14,
    "ASST DI BERGAMO OVEST": 13,
-   "ASST LARIANA": 12,
-   "ASST DELLA VALTELLINA E DELL'ALTO LARIO": 11,
-   "ASST DI MANTOVA": 11,
+   "ASST LARIANA": 11,
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 11,
-   "ASST DEI SETTE LAGHI": 10,
-   "ASST PAPA GIOVANNI XXIII": 9,
+   "ASST DEI SETTE LAGHI": 9,
    "FONDAZIONE IRCCS SAN GERARDO DEI TINTORI DI MONZA": 9,
-   "ASST DI BERGAMO EST": 8,
+   "ASST DELLA VALTELLINA E DELL'ALTO LARIO": 8,
    "ASST DI CREMA": 8,
+   "ASST DI MANTOVA": 8,
    "FONDAZIONE IRCCS CA' GRANDA - OSPEDALE MAGGIORE POLICLINICO": 8,
    "AGENZIA REGIONALE EMERGENZA URGENZA (AREU 118)": 7,
-   "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA": 7,
-   "ASST RHODENSE": 7,
-   "ASST DI CREMONA": 6,
+   "ASST DI BERGAMO EST": 7,
+   "ASST PAPA GIOVANNI XXIII": 7,
    "ASST DI LODI": 6,
-   "ASST OVEST MILANESE": 6,
-   "ASST SANTI PAOLO E CARLO": 6,
-   "ASST DEGLI SPEDALI CIVILI DI BRESCIA": 4,
+   "ASST RHODENSE": 6,
+   "ASST DI CREMONA": 5,
+   "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA": 5,
+   "ASST OVEST MILANESE": 4,
+   "ASST DEGLI SPEDALI CIVILI DI BRESCIA": 3,
    "ASST DELLA VALCAMONICA": 3,
    "ASST DI LECCO": 3,
-   "ASST MELEGNANO E DELLA MARTESANA": 3,
    "ASST NORD MILANO": 3,
+   "ASST SANTI PAOLO E CARLO": 3,
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLA LOMBARDIA E DELL'EMILIA ROMAGNA \"BRUNO UBERTINI\"": 3,
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO": 2,
    "ASST DEL GARDA": 2,
    "ASST DI PAVIA": 2,
    "ASST FATEBENEFRATELLI SACCO": 2,
+   "ASST MELEGNANO E DELLA MARTESANA": 2,
    "ATS DELLA CITTA METROPOLITANA DI MILANO": 2,
    "A.S.P. - ISTITUTI MILANESI MARTINITT E STELLINE E PIO ALBERGO TRIVULZIO": 1,
    "ASST BRIANZA": 1,
@@ -44,7 +82,7 @@
    "ASST DI MONZA": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 365,
+  "procedure_altri_enti": 363,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "COMUNE DI MILANO": 14,
@@ -54,7 +92,6 @@
    "PROVINCIA DI BERGAMO": 6,
    "PROVINCIA DI LECCO": 6,
    "PROVINCIA DI PAVIA": 6,
-   "AZIENDA SPECIALE SERVIZI DI AGRATE BRIANZA": 5,
    "COMUNE DI LIVIGNO": 5,
    "AGESP S.P.A.": 4,
    "COMUNE DI BUCCINASCO": 4,
@@ -69,6 +106,7 @@
    "MILANO RISTORAZIONE S.P.A.": 4,
    "SOCIETÀ PER L'ECOLOGIA E L'AMBIENTE SPA": 4,
    "ALER BRESCIA - CREMONA - MANTOVA": 3,
+   "AZIENDA SPECIALE SERVIZI DI AGRATE BRIANZA": 3,
    "COMUNE DI BRONI": 3,
    "COMUNE DI CASSANO MAGNAGO": 3,
    "COMUNE DI CASTRO": 3,
@@ -257,12 +295,12 @@
    "ASST DI LODI - AVVISO ESPLORATIVO AL FINE DI ACQUISIRE MANIFESTAZIONE DI INTERESSE ALLA PARTECIPAZIONE AL",
    "ASST DI MANTOVA - AVVISO ESPLORATIVO, EX ART. 77 DEL D. LGS. 36/2023, PER LA VERIFICA DELL’INFUNGIBILITA’ ED",
    "ASST NORD MILANO - Acquisizione di un servizio in SaaS per il monitoraggio e asset management dei dispositivi",
-   "ASST DELLA VALLE OLONA - RICHIESTA DI OFFERTA (RDO) APERTA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/202",
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO - Procedura di gara aperta, ai sensi dell’art. 71 del D.lgs. n. 36/2023, per l’affidamento d",
    "ASST DI CREMONA - GARA EUROPEA A PROCEDURA APERTA, MONOLOTTO, AI SENSI DEGLI ARTT. 14 E 71 DEL D.LGS. 36/202",
    "ASST PAPA GIOVANNI XXIII - PROCEDURA APERTA PER L’AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA TECNICA E MANUTENZIONE EVOLU",
    "ASST DELLA VALLE OLONA - PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA, AI SENSI DELL’ART. 71 DEL D.LGS 36/2023, FINALI",
-   "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A. - ARIA_2025_197_F_ «Acquisizione del Servizio Microsoft Unified Support per un accesso diret"
+   "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A. - ARIA_2025_197_F_ «Acquisizione del Servizio Microsoft Unified Support per un accesso diret",
+   "ASST DELLA VALLE OLONA - RICHIESTA DI OFFERTA (RDO) APERTA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/202"
   ]
  },
  "veneto": {
@@ -325,6 +363,7 @@
   "righe_lette": 156,
   "enti_sanitari": {
    "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 38,
+   "A.O. ORDINE MAURIZIANO TORINO": 10,
    "ASL TO 4": 8,
    "AZIENDA SANITARIA LOCALE ASTI - ASL AT": 7,
    "AZIENDA OSPEDALIERA S. CROCE E CARLE": 6,
@@ -340,11 +379,11 @@
    "ASL TO3": 2,
    "ASL VERBANO CUSIO OSSOLA": 2,
    "AZIENDA SANITARIA LOCALE AL": 2,
+   "SCR PIEMONTE SPA": 2,
    "ASL BI": 1
   },
-  "procedure_altri_enti": 54,
+  "procedure_altri_enti": 42,
   "altri_enti": {
-   "A.O. ORDINE MAURIZIANO TORINO": 10,
    "COMUNE DI ALESSANDRIA": 10,
    "COMUNE DI BIELLA": 7,
    "GIUNTA REGIONALE DEL PIEMONTE": 7,
@@ -352,7 +391,6 @@
    "PROVINCIA DEL VERBANO CUSIO OSSOLA": 3,
    "PROVINCIA DI BIELLA": 3,
    "CORDAR S.P.A. BIELLA SERVIZI": 2,
-   "SCR PIEMONTE SPA": 2,
    "UNIONE MONTANA DEI COMUNI DELLA VALSESIA": 2,
    "COMUNE DI BRUINO": 1,
    "COMUNE DI CARAGLIO": 1,

@@ -1,5 +1,5 @@
 {
- "aggiornato_il": "2026-11-18T22:05:03+00:00",
+ "aggiornato_il": "2026-11-18T22:15:41+00:00",
  "totale": 73,
  "opportunita": [
   {
@@ -1426,7 +1426,7 @@
    "tipo": "cn-standard",
    "link": "https://ted.europa.eu/it/notice/-/detail/560155-2026",
    "regione": null,
-   "motivo_match": "Oggetto sanitario ('ospedal') + CPV IT (72250000)",
+   "motivo_match": "Ente sanitario + CPV IT (72250000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
