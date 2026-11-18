@@ -316,6 +316,7 @@ portali_html:
       scadenza_max_giorni: 365
       url: "https://www.aospterni.it/bandi-di-gara-e-contratti/?pagenumber={pagina}"
     - nome: ULSS 6 Euganea
+      abilitato: false
       # Veneto. L'ULSS 6 svolge le procedure su Sintel ma non ne ha di visibili nella ricerca
       # pubblica (inviti e affidamenti): gli avvisi aperti a tutti li pubblica sul proprio sito.
       nome_fonte: ULSS 6 Euganea
