@@ -52,6 +52,10 @@ rumore_procedurale_regex:
   - '(su|sulla|tramite|mediante|attraverso|nella|con)\s+(ricorso\s+a(lla)?\s+|(l[\x27\u2019]\s*)?utilizzo\s+(della\s+)?)?(la\s+|l[\x27\u2019]\s*)?(propria\s+)?piattaforma\s+((web|telematica|informatica|digitale|elettronica|regionale|aziendale|e-?procurement|di\s+e-?procurement|di\s+negoziazione)\s+)*([A-Z][\w\.\-]*)?'
   - '\b(RDO|trattativa\s+diretta|ODA)\s+(su\s+)?(il\s+)?MePA\b'
   - 'procedura\s+(aperta\s+|negoziata\s+|ristretta\s+)?(telematica|informatizzata)'
+  # Sintel come canale di gara: "sistema informatico di negoziazione Sintel", "piattaforma
+  # informatica regionale Sintel". Parole intermedie solo da questo elenco chiuso, cosi'
+  # "sistema informativo ospedaliero tramite Sintel" resta IT.
+  - '\b(piattaforma|sistema)\s+((informatic[oa]|telematic[oa]|elettronic[oa]|digitale|regionale|di|del|della|negoziazione|e-?procurement|acquisti|denominat[oa]|aria|lombard[oa])\s+){0,5}["“«]?sintel\b'
 
 # Soggetti aggregatori che comprano sia per la sanità sia per altri settori:
 # le loro gare IT vengono incluse ma marcate "da verificare".

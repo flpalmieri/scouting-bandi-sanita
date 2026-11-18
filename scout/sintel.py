@@ -334,6 +334,22 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
     return righe
 
 
+def _censisci_enti(regione: str | None, righe: list[dict], filtro: Filtro) -> None:
+    """Per il censimento delle fonti: quali enti sanitari pubblicano su Sintel e con quante
+    procedure aperte. Gli altri enti (comuni, province...) si contano soltanto."""
+    sanitari: dict[str, int] = {}
+    altri = 0
+    for r in righe:
+        ente = r.get("STAZIONE APPALTANTE", "").strip()
+        if filtro.re_ente and filtro.re_ente.search(ente) or filtro.re_aggr and filtro.re_aggr.search(ente):
+            sanitari[ente] = sanitari.get(ente, 0) + 1
+        else:
+            altri += 1
+    st = RIEPILOGO.setdefault((regione or "tutte").lower().replace(" ", "_"), {})
+    st["enti_sanitari"] = dict(sorted(sanitari.items(), key=lambda x: (-x[1], x[0])))
+    st["procedure_altri_enti"] = altri
+
+
 def _scrivi_riepilogo() -> None:
     """state/campioni/sintel_riepilogo.json: quante procedure per regione, per controllo."""
     import json
@@ -370,6 +386,7 @@ def raccogli(cfg_tutto: dict, filtro: Filtro, sess=None) -> list[Opportunita]:
             errori.append(f"{regione or 'tutte'}: {e}")
             continue
         lette += len(righe)
+        _censisci_enti(regione, righe, filtro)
         for riga in righe:
             ids = riga.get("ID SINTEL", "")
             if regione and ids in regione_di and regione_di[ids] != regione:
