@@ -3,7 +3,7 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 307
+  "righe_lette": 308
  },
  "lombardia_ambito_4": {
   "righe_prima_pagina": 95,
@@ -42,7 +42,7 @@
   "righe_lette": 11
  },
  "lombardia": {
-  "righe_lette": 575,
+  "righe_lette": 576,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 16,
    "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 15,
@@ -82,7 +82,7 @@
    "ASST DI MONZA": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 363,
+  "procedure_altri_enti": 364,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "COMUNE DI MILANO": 14,
@@ -219,6 +219,7 @@
    "COMUNE DI MALONNO": 1,
    "COMUNE DI MEDA": 1,
    "COMUNE DI MELEGNANO": 1,
+   "COMUNE DI MONTE ISOLA": 1,
    "COMUNE DI MONTICELLI BRUSATI": 1,
    "COMUNE DI MONTICHIARI": 1,
    "COMUNE DI MONTÙ BECCARIA": 1,
