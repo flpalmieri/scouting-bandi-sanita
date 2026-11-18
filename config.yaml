@@ -27,6 +27,7 @@ enti_sanitari_regex:
   - '\bU\.?L\.?S\.?S\b'
   - '\bA\.?O\.?U\.?I?\b'                  # Azienda Ospedaliero-Universitaria (AOU, A.O.U., AOUI)
   - 'istituto\s+oncologic|\bIOV\b'     # Istituto Oncologico Veneto (IRCCS) anche senza la parola IRCCS
+  - '\bA\.\s?O\.(?=\s)'                 # "A.O. ORDINE MAURIZIANO TORINO" (Azienda Ospedaliera)
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -68,6 +69,7 @@ aggregatori_misti_regex:
   - 'innova\s*puglia'
   - 'punto\s*zero'                     # Umbria: compra per la sanità ma anche per la Regione
   - 'areacom|agenzia\s+regionale\s+dell.abruzzo\s+per\s+la\s+committenza'   # Abruzzo: sanità, Regione e comuni
+  - '\bSCR\s+piemonte\b|societ.\s+di\s+committenza\s+regione\s+piemonte'   # Piemonte: soggetto aggregatore (sanità e Regione)
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -313,6 +315,27 @@ portali_html:
       # Per gli atti il sito indica come "SCADENZA" la fine della pubblicazione (5 anni).
       scadenza_max_giorni: 365
       url: "https://www.aospterni.it/bandi-di-gara-e-contratti/?pagenumber={pagina}"
+    - nome: ULSS 6 Euganea
+      # Veneto. L'ULSS 6 svolge le procedure su Sintel ma non ne ha di visibili nella ricerca
+      # pubblica (inviti e affidamenti): gli avvisi aperti a tutti li pubblica sul proprio sito.
+      nome_fonte: ULSS 6 Euganea
+      sigla: ulss6
+      ente: Azienda ULSS 6 Euganea
+      regione: Veneto
+      lettore: it_card
+      # Solo lo stato "Pubblicato" (stato=1), 10 schede per pagina, dalla piu' recente.
+      url: "https://www.aulss6.veneto.it/bandi-di-gara?stato=1&p={pagina}"
+      max_pagine: 5
+      # Elenco misto: affidamenti a una ditta, aggiudicazioni e adesioni a gare
+      # centralizzate (Consip, Azienda Zero) non sono opportunita'.
+      escludi_titoli_regex:
+        - '^\s*affidamento\b'
+        - '\balla\s+ditta\b'
+        - '\baggiudicazion'
+        - 'presa\s+d.atto'
+        - '\badesione\b'
+      # La "Scadenza" del sito e' la fine della pubblicazione (31/12/2031, 01/01/2032).
+      scadenza_max_giorni: 365
     - nome: IZS Umbria e Marche
       # DISATTIVATO (13/11/2026): i portali PAT di ISWEB rispondono 403 ai server di
       # GitHub, anche sull'indirizzo internetsoluzioni.it. Scelta: non aggirare il blocco.
@@ -380,6 +403,14 @@ sintel:
   # Tipi Sintel da scartare: l'affidamento diretto e' gia' rivolto a un fornitore scelto.
   # Restano "Affidamento diretto previa richiesta di preventivi", indagini, manifestazioni e gare.
   escludi_tipi: ["Affidamento diretto"]
+  # Sintel restituisce al massimo 600 risultati per ricerca (3 pagine da 200; verificato sulla
+  # Lombardia il 18/11/2026). Per queste regioni si fa una ricerca per "Ambito della procedura".
+  tetto_risultati: 600           # massimo di righe che Sintel restituisce per ricerca
+  dividi_per_ambito: [Lombardia]
+  # Codici del filtro "Ambito": 2 forniture/servizi, 4 dispositivi medici, 5 forniture/servizi
+  # sanitari, 7 lavori, 8 incarichi a professionisti, 9 concessioni, 11 servizi sociali e altri.
+  # Esclusi 3 farmaci, 6 forniture/servizi ferroviari, 10 concorsi di progettazione.
+  ambiti: [2, 4, 5, 7, 8, 9, 11]
 
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso

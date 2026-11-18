@@ -93,6 +93,14 @@ def _campi_modulo(corpo: str) -> list[tuple[str, str]]:
     return campi
 
 
+def _campi_tutti(pagina: str) -> list[tuple[str, str]]:
+    """Tutti gli input del modulo di ricerca, anche le caselle non spuntate."""
+    for _, corpo in _moduli(pagina):
+        if "auctionStatus" in corpo:
+            return [(a.get("name", ""), a.get("value", "")) for a in (_attributi(x) for x in RE_INPUT.findall(corpo))]
+    return []
+
+
 def _modulo_ricerca(pagina: str) -> tuple[str, list[tuple[str, str]], str, str, dict]:
     """Trova il modulo di ricerca: restituisce (action, campi, nome campo stato,
     nome campo sede legale, nome pulsante)."""
@@ -246,11 +254,11 @@ def _invia(sess, url: str, action: str, campi: list[tuple[str, str]], nome: str 
                       data=campi, headers={**HEADERS, "Referer": url})
 
 
-def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
+def _cerca(cfg: dict, sess, regione: str | None, ambito: str | None = None) -> list[dict]:
     """Esegue una ricerca e scorre tutte le pagine. Restituisce le righe lette."""
     url = cfg["url"]
     pausa = float(cfg.get("pausa_secondi", 1))
-    etichetta = (regione or "tutte").lower().replace(" ", "_")
+    etichetta = (regione or "tutte").lower().replace(" ", "_") + (f"_ambito_{ambito}" if ambito else "")
     modulo = _richiesta(sess, "GET", url, f"apertura_{etichetta}", headers=HEADERS)
     if not CAMPIONI.joinpath("sintel_modulo.html").exists():
         _salva_campione("modulo", modulo)          # la pagina iniziale, una volta sola
@@ -260,7 +268,12 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
         _salva_campione("modulo", modulo)
         raise RuntimeError("modulo di ricerca non trovato: vedi state/campioni/sintel_modulo.html")
 
-    campi = [(n, v) for n, v in campi if n not in (campo_stato, campo_sede)]
+    campo_ambito = next((n for n, _ in _campi_tutti(modulo) if n.endswith(":bidType")), None)
+    if ambito and not campo_ambito:
+        raise RuntimeError("campo 'Ambito della procedura' non trovato nel modulo di ricerca")
+    campi = [(n, v) for n, v in campi if n not in (campo_stato, campo_sede, campo_ambito)]
+    if ambito:
+        campi.append((campo_ambito, ambito))
     campi += [(campo_stato, s) for s in cfg.get("stati", ["Open", "PublishedAcceptingRequest"])]
     if regione:
         campi.append((campo_sede, regione))
@@ -314,13 +327,16 @@ def _cerca(cfg: dict, sess, regione: str | None) -> list[dict]:
         avanti = pulsanti.get(successiva) if successiva else None
         avanti = avanti or pulsanti.get(">")
         if not avanti:
+            # Sintel non restituisce piu' di "tetto_risultati" righe per ricerca: se le si
+            # raggiunge, mancano dati (e la regione va divisa per ambito, vedi config).
             pieno = stat.get("elementi_per_pagina")
-            if pieno and str(len(nuove)) == str(pieno):
+            tetto = int(cfg.get("tetto_risultati", 600))
+            if pieno and str(len(nuove)) == str(pieno) and len(righe) >= tetto:
                 stat["possibile_troncamento"] = True
                 _salva_campione(f"{etichetta}_ultima_pagina", pagina[:40000]
                                 + "\n<!-- ... parte centrale omessa ... -->\n" + pagina[-60000:])
-                ERRORI.append(f"Sintel {regione or 'tutte'}: ultima pagina letta piena ({pieno} righe) "
-                              "ma nessun pulsante per la successiva: possibili dati parziali")
+                ERRORI.append(f"Sintel {etichetta}: raggiunto il tetto di {tetto} risultati, dati parziali "
+                              "(aggiungere la regione a dividi_per_ambito o, se gia' divisa, rivedere gli ambiti)")
             break
         if n_pagina == max_pagine:
             ERRORI.append(f"Sintel {regione or 'tutte'}: raggiunto max_pagine ({n_pagina}), dati parziali")
@@ -382,7 +398,21 @@ def raccogli(cfg_tutto: dict, filtro: Filtro, sess=None) -> list[Opportunita]:
     errori, lette, doppie = [], 0, []
     for regione in regioni:
         try:
-            righe = _cerca(cfg, sess_sintel, regione)
+            if regione in cfg.get("dividi_per_ambito", []):
+                # Sintel restituisce al massimo 600 risultati per ricerca (3 pagine da 200):
+                # per le regioni con piu' procedure si fa una ricerca per ambito.
+                righe = []
+                for ambito in [str(a) for a in cfg.get("ambiti", [])]:
+                    try:
+                        righe.extend(_cerca(cfg, sess_sintel, regione, ambito))
+                    except SintelNonRaggiungibile:
+                        raise
+                    except Exception as e:   # un ambito in errore non fa perdere gli altri
+                        log.exception("Sintel %s, ambito %s: errore", regione, ambito)
+                        ERRORI.append(f"Sintel {regione}, ambito {ambito}: {e}, dati parziali")
+                RIEPILOGO.setdefault(regione.lower().replace(" ", "_"), {})["righe_lette"] = len(righe)
+            else:
+                righe = _cerca(cfg, sess_sintel, regione)
         except SintelNonRaggiungibile as e:
             log.error("Sintel %s: sito non raggiungibile (%s), salto le altre regioni", regione, e)
             raise RuntimeError(f"sito non raggiungibile: {e}") from e

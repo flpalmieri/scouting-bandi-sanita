@@ -12,6 +12,8 @@ Lettori disponibili:
                    CIG/data pubblicazione (USL Umbria 2, portali PAT di ISWEB come l'IZSUM,
                    AreaCom Abruzzo su Drupal).
   box_etichette  - riquadri C2I MediaCenter con etichette (AO Perugia).
+  it_card        - schede Bootstrap Italia <article class="it-card"> con titolo nell'h3,
+                   "Codice", "Inizio", "Scadenza" ed etichette di stato e tipo (ULSS 6 Euganea).
 
 Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url:
   escludi_titoli_regex  - elenco di espressioni: le schede il cui titolo corrisponde
@@ -163,8 +165,36 @@ def lettore_box_etichette(pagina: str, url_base: str) -> list[dict]:
     return voci
 
 
+def lettore_it_card(pagina: str, url_base: str) -> list[dict]:
+    """Schede <article class="it-card"> (es. www.aulss6.veneto.it/bandi-di-gara): titolo e link
+    nell'h3 "it-card-title", poi "Codice:", "Inizio:", "Scadenza:" ed etichette (badge) con
+    stato (Pubblicato, Aggiudicato...) e tipo (Avviso, Bando, Asta, Adesione gara centralizzata)."""
+    voci = []
+    blocchi = re.split(r'<article\b[^>]*class="[^"]*\bit-card\b[^"]*"', pagina)[1:]
+    for b in blocchi:
+        b = b.split("</article>", 1)[0]
+        m = re.search(r'<h\d[^>]*it-card-title[^>]*>\s*<a([^>]*)>(.*?)</a>', b, re.DOTALL | re.IGNORECASE)
+        if not m:
+            continue
+        href = re.search(r'href="([^"]+)"', m.group(1))
+        testo = _testo(b[m.end():])
+        etichette = [_testo(x) for x in re.findall(r'<span[^>]*class="[^"]*\bbadge\b[^"]*"[^>]*>(.*?)</span>', b, re.DOTALL)]
+        inizio = re.search(r"Inizio\s*:\s*" + RE_DATA_TESTO, testo, re.IGNORECASE)
+        fine = re.search(r"Scadenza\s*:\s*" + RE_DATA_TESTO, testo, re.IGNORECASE)
+        voci.append({
+            "titolo": RE_SPAZI.sub(" ", _testo(m.group(2))).strip(),
+            "link": urljoin(url_base, html.unescape(href.group(1))) if href else None,
+            "testo": testo,
+            "pubblicazione_grezza": inizio.group(1) if inizio else None,
+            "scadenza_grezza": fine.group(1) if fine else None,
+            "tipo_grezzo": etichette[-1] if etichette else "",
+            "stato_grezzo": etichette[0] if len(etichette) > 1 else "",
+        })
+    return voci
+
+
 LETTORI = {"scheda_sito": lettore_scheda_sito, "tabella": lettore_tabella,
-           "box_etichette": lettore_box_etichette}
+           "box_etichette": lettore_box_etichette, "it_card": lettore_it_card}
 RE_PROGRAMMAZIONE = re.compile(r"programmazione\s+(triennale|biennale)|programma\s+(triennale|biennale)", re.IGNORECASE)
 
 
@@ -209,8 +239,10 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     if not motivo:
         return None
 
-    m = RE_PUBBLICAZIONE.search(testo)
-    pubblicazione = parse_data(m.group(1)) if m else None
+    pubblicazione = parse_data(voce.get("pubblicazione_grezza"))
+    if not pubblicazione:
+        m = RE_PUBBLICAZIONE.search(testo)
+        pubblicazione = parse_data(m.group(1)) if m else None
 
     scadenza = parse_data(voce.get("scadenza_grezza"))
     m = RE_SCADENZA_ETICHETTA.search(testo)
