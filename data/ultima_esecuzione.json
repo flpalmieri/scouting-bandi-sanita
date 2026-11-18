@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-18T21:52:00+00:00",
+  "eseguito_il": "2026-11-18T22:05:03+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -25,6 +25,6 @@
   "errori": [
     "sintel: Sintel Lombardia: ultima pagina letta piena (200 righe) ma nessun pulsante per la successiva: possibili dati parziali"
   ],
-  "nuove_opportunita": 1,
+  "nuove_opportunita": 0,
   "totale": 73
 }
