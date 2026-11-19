@@ -185,6 +185,8 @@ def main() -> int:
 
     storico = carica_storico()
     prima = set(storico)
+    # Regole dei feed che lo storico non conosce (procedure a invito, revoche, link corretti).
+    storico = portali_rss.correggi_storico(storico, cfg)
     tutte = pota(rivaluta(deduplica(unisci(storico, nuove, oggi)), filtro), cfg)
     riepilogo["nuove_opportunita"] = len(set(tutte) - prima)
     riepilogo["totale"] = len(tutte)

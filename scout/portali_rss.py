@@ -8,6 +8,17 @@ dedicati dell'elemento RSS sia nel testo della descrizione.
 Opzioni per feed oltre a "campi": "ente" (ente fisso, per i feed di un solo ente),
 "escludi_titoli_regex" (titoli da scartare, es. aggiudicazioni), "escludi_stati",
 "timeout_connessione" e "tentativi" (come per i portali HTML).
+Altre opzioni (19/11/2026, START Sanita' Toscana):
+  "escludi_campi": {NomeCampo: [valori]} scarta le voci con quel valore in un campo del feed
+      (confronto esatto, senza maiuscole/minuscole), es. {TipoProcedura: [Affidamento Diretto]}
+      per le procedure riservate agli invitati;
+  "link_sostituisci": {"testo": "nuovo testo"} corregge i link del feed (es. un percorso
+      che sul portale non esiste piu');
+  "enti_rinomina": {"nome nel feed": "nome da usare"}, es. per usare lo stesso nome di TED
+      e permettere a main.py di fondere la stessa gara vista sulle due fonti.
+Le voci scartate da una regola esplicita (stato, campo, titolo) finiscono in ESCLUSI: main.py
+le toglie anche dallo storico (es. un bando revocato dopo essere stato salvato).
+correggi_storico() applica link_sostituisci ed enti_rinomina anche alle voci gia' salvate.
 Con "campi: descrizione: []" la descrizione non viene letta (utile se contiene
 dati personali, es. il nome del RUP).
 
@@ -29,6 +40,7 @@ from .common import Filtro, Opportunita, log, parse_data, parse_importo
 
 CAMPIONI = Path("state/campioni")
 ERRORI: list[str] = []  # errori non bloccanti (un feed fallito su più feed)
+ESCLUSI: set[str] = set()  # id delle voci scartate da una regola esplicita (vedi correggi_storico)
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
@@ -133,16 +145,53 @@ def _data_rss(valore: str | None) -> str | None:
 RE_CODICE_CPV = re.compile(r"\b(\d{8})(?:-\d)?\b")
 
 
+def _id_voce(campi: dict[str, str], feed: dict, titolo: str) -> str:
+    """Identificativo stabile della voce: campo \"id\" della mappa, altrimenti un hash di
+    guid, link originale (prima di link_sostituisci) o titolo."""
+    mappa = feed.get("campi") or {}
+    chiave = _valore(campi, mappa.get("id"))
+    if not chiave:
+        link = (campi.get("link") or "").strip()
+        link = requote_uri(link) if link else None
+        chiave = (campi.get("guid") or link or titolo).strip()
+        chiave = hashlib.sha1(chiave.encode("utf-8")).hexdigest()[:12]
+    return f"{feed['sigla']}:{chiave}"
+
+
+def _correggi_link(link: str | None, feed: dict) -> str | None:
+    for vecchio, nuovo in (feed.get("link_sostituisci") or {}).items():
+        if link:
+            link = link.replace(vecchio, nuovo)
+    return link
+
+
+def _rinomina_ente(ente: str, feed: dict) -> str:
+    mappa = {k.strip().lower(): v for k, v in (feed.get("enti_rinomina") or {}).items()}
+    return mappa.get((ente or "").strip().lower(), ente)
+
+
+def _esclusa(campi: dict[str, str], feed: dict, titolo: str) -> bool:
+    """Regole esplicite di esclusione del feed: stato, valori di campo, titolo."""
+    mappa = feed.get("campi") or {}
+    stato = _valore(campi, mappa.get("stato"))
+    if stato and stato.lower() in {s.lower() for s in feed.get("escludi_stati", [])}:
+        return True
+    for nome, valori in (feed.get("escludi_campi") or {}).items():
+        v = _valore(campi, [nome]).strip().lower()
+        if v and v in {str(x).strip().lower() for x in valori}:
+            return True
+    escl = feed.get("escludi_titoli_regex")
+    if escl and re.search("|".join(f"(?:{e})" for e in escl), titolo, re.IGNORECASE):
+        return True
+    return False
+
+
 def _converti(campi: dict[str, str], feed: dict, filtro: Filtro) -> Opportunita | None:
     mappa = feed.get("campi") or {}
 
-    stato = _valore(campi, mappa.get("stato"))
-    if stato and stato.lower() in {s.lower() for s in feed.get("escludi_stati", [])}:
-        return None
-
     titolo = _valore(campi, mappa.get("titolo", ["title"])).replace("\n", " ")
-    escl = feed.get("escludi_titoli_regex")
-    if escl and re.search("|".join(f"(?:{e})" for e in escl), titolo, re.IGNORECASE):
+    if _esclusa(campi, feed, titolo):
+        ESCLUSI.add(_id_voce(campi, feed, titolo))
         return None
     descrizione = _valore(campi, mappa.get("descrizione", ["description", "summary", "content"]))
     if not titolo:
@@ -156,6 +205,7 @@ def _converti(campi: dict[str, str], feed: dict, filtro: Filtro) -> Opportunita 
     if not ente:
         m = RE_ENTE.search(descrizione)
         ente = m.group(1).strip() if m else ""
+    ente = _rinomina_ente(ente, feed)
 
     scadenza = parse_data(_valore(campi, mappa.get("scadenza"))
                           or _cerca_campo(campi, ("scadenz", "deadline", "termine")))
@@ -182,13 +232,10 @@ def _converti(campi: dict[str, str], feed: dict, filtro: Filtro) -> Opportunita 
     cig |= set(re.findall(r"\b[0-9A-Z]{10}\b", _valore(campi, mappa.get("cig")).upper()))
 
     link = (campi.get("link") or "").strip()
-    link = requote_uri(link) if link else None
-    chiave = _valore(campi, mappa.get("id")) or (campi.get("guid") or link or titolo).strip()
-    if not _valore(campi, mappa.get("id")):
-        chiave = hashlib.sha1(chiave.encode("utf-8")).hexdigest()[:12]
+    link = _correggi_link(requote_uri(link) if link else None, feed)
 
     return Opportunita(
-        id=f"{feed['sigla']}:{chiave}",
+        id=_id_voce(campi, feed, titolo),
         fonti=[feed["nome_fonte"]],
         titolo=titolo,
         ente=ente,
@@ -277,6 +324,24 @@ def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
     if letti == 0:
         raise RuntimeError(f"feed {feed['nome']} vuoto o non leggibile (vedi state/campioni)")
     return list(risultati.values())
+
+
+def correggi_storico(storico: dict, cfg: dict) -> dict:
+    """Applica allo storico le regole dei feed che lo storico da solo non conosce:
+    toglie le voci ora escluse da una regola esplicita (ESCLUSI, es. procedure a invito,
+    bandi revocati) e corregge link e nomi di ente delle voci gia' salvate."""
+    feeds = {f["sigla"]: f for f in (cfg.get("portali_rss") or {}).get("feed", [])}
+    tolte = [k for k in storico if k in ESCLUSI]
+    for k in tolte:
+        del storico[k]
+    if tolte:
+        log.info("RSS: tolte dallo storico %d voci ora escluse: %s", len(tolte), ", ".join(sorted(tolte)))
+    for o in storico.values():
+        feed = feeds.get(o.id.split(":", 1)[0])
+        if feed:
+            o.link = _correggi_link(o.link, feed)
+            o.ente = _rinomina_ente(o.ente, feed)
+    return storico
 
 
 def raccogli(cfg: dict, filtro: Filtro, sess) -> list[Opportunita]:

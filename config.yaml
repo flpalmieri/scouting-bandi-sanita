@@ -331,6 +331,18 @@ portali_rss:
         cpv: [CPV]
         stato: [statoFunzionale]
         id: [IdMsg]
+      # Il feed da' i link con /portale/index.php/, che sul sito risponde 404: la pagina vera
+      # e' sotto /portalegare/index.php/ con gli stessi parametri (verificato il 19/11/2026).
+      link_sostituisci:
+        "/portale/index.php/": "/portalegare/index.php/"
+      # Su TED ESTAR si chiama solo "ESTAR": stesso nome, cosi' main.py puo' fondere la stessa
+      # gara vista su TED e su START Sanita' (se anche i titoli coincidono).
+      enti_rinomina:
+        "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale": "ESTAR"
+      # "Affidamento Diretto": procedure riservate agli operatori invitati ("Invito", verificato
+      # sulle pagine di 623837 e 624018 il 19/11/2026), come gli affidamenti diretti di Sintel.
+      escludi_campi:
+        TipoProcedura: [Affidamento Diretto]
       url: "https://www.sanita.start.toscana.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=20&nPag={pagina}"
       timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
       tentativi: 1
@@ -354,6 +366,14 @@ portali_rss:
         cpv: [CPV]
         stato: [statoFunzionale]
         id: [IdMsg]
+      # Il feed da' i link con /portale/index.php/, che sul sito risponde 404: la pagina vera
+      # e' sotto /portalegare/index.php/ con gli stessi parametri (verificato il 19/11/2026).
+      link_sostituisci:
+        "/portale/index.php/": "/portalegare/index.php/"
+      # Su TED ESTAR si chiama solo "ESTAR": stesso nome, cosi' main.py puo' fondere la stessa
+      # gara vista su TED e su START Sanita' (se anche i titoli coincidono).
+      enti_rinomina:
+        "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale": "ESTAR"
       url: "https://www.sanita.start.toscana.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
       timeout_connessione: 20
       tentativi: 1
