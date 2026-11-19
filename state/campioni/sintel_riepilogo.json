@@ -6,10 +6,10 @@
   "righe_lette": 308
  },
  "lombardia_ambito_4": {
-  "righe_prima_pagina": 95,
+  "righe_prima_pagina": 94,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 95
+  "righe_lette": 94
  },
  "lombardia_ambito_5": {
   "righe_prima_pagina": 35,
@@ -18,10 +18,10 @@
   "righe_lette": 35
  },
  "lombardia_ambito_7": {
-  "righe_prima_pagina": 84,
+  "righe_prima_pagina": 83,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 84
+  "righe_lette": 83
  },
  "lombardia_ambito_8": {
   "righe_prima_pagina": 19,
@@ -42,7 +42,7 @@
   "righe_lette": 11
  },
  "lombardia": {
-  "righe_lette": 576,
+  "righe_lette": 574,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 16,
    "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 15,
@@ -63,11 +63,11 @@
    "ASST RHODENSE": 6,
    "ASST DI CREMONA": 5,
    "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA": 5,
-   "ASST OVEST MILANESE": 4,
    "ASST DEGLI SPEDALI CIVILI DI BRESCIA": 3,
    "ASST DELLA VALCAMONICA": 3,
    "ASST DI LECCO": 3,
    "ASST NORD MILANO": 3,
+   "ASST OVEST MILANESE": 3,
    "ASST SANTI PAOLO E CARLO": 3,
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLA LOMBARDIA E DELL'EMILIA ROMAGNA \"BRUNO UBERTINI\"": 3,
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO": 2,
@@ -82,7 +82,7 @@
    "ASST DI MONZA": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 364,
+  "procedure_altri_enti": 363,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "COMUNE DI MILANO": 14,
@@ -257,7 +257,6 @@
    "COMUNE DI TELGATE": 1,
    "COMUNE DI TICENGO": 1,
    "COMUNE DI TORRE DE' ROVERI": 1,
-   "COMUNE DI TORREVECCHIA PIA": 1,
    "COMUNE DI TREVIGLIO": 1,
    "COMUNE DI TURBIGO": 1,
    "COMUNE DI VALBRONA": 1,
@@ -305,10 +304,10 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 170,
+  "righe_prima_pagina": 169,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 170,
+  "righe_lette": 169,
   "enti_sanitari": {
    "AZIENDA ULSS N. 8 BERICA": 31,
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA": 28,
@@ -324,7 +323,7 @@
    "AZIENDA ULSS N. 2 MARCA TREVIGIANA": 2,
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLE VENEZIE": 2
   },
-  "procedure_altri_enti": 41,
+  "procedure_altri_enti": 40,
   "altri_enti": {
    "COMUNE DI VERONA": 11,
    "COMUNE DI PADOVA": 10,
@@ -333,7 +332,6 @@
    "CASA DI RIPOSO DI NOVENTA PADOVANA": 1,
    "CENTRO SERVIZI PER ANZIANI": 1,
    "CITTÀ DI OPPEANO": 1,
-   "COMUNE DI ASIAGO": 1,
    "COMUNE DI CHIOGGIA": 1,
    "COMUNE DI COLOGNOLA AI COLLI": 1,
    "COMUNE DI ISOLA DELLA SCALA": 1,
