@@ -1,5 +1,5 @@
 {
- "aggiornato_il": "2026-11-19T06:36:12+00:00",
+ "aggiornato_il": "2026-11-19T08:39:25+00:00",
  "totale": 75,
  "opportunita": [
   {
@@ -203,7 +203,7 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('DEEP WEB') - da verificare",
    "descrizione": "AVVISO PER LA RACCOLTA DI PREVENTIVI FINALIZZATI ALL’AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1) LETT. B) DEL D.LGS. N. 36/2023 PER IL RINNOVO DEL SERVIZIO DI MONITORAGGIO DARK/DEEP WEB, COMPRENSIVO DELLA COMPONENTE DI THREAT INTELLIGENCE, PER",
    "primo_rilevamento": "2026-11-12",
-   "ultimo_rilevamento": "2026-11-18"
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "ted:670003-2026",

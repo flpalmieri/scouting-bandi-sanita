@@ -3,7 +3,7 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 308
+  "righe_lette": 302
  },
  "lombardia_ambito_4": {
   "righe_prima_pagina": 94,
@@ -18,10 +18,10 @@
   "righe_lette": 35
  },
  "lombardia_ambito_7": {
-  "righe_prima_pagina": 83,
+  "righe_prima_pagina": 81,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 83
+  "righe_lette": 81
  },
  "lombardia_ambito_8": {
   "righe_prima_pagina": 19,
@@ -42,7 +42,7 @@
   "righe_lette": 11
  },
  "lombardia": {
-  "righe_lette": 574,
+  "righe_lette": 566,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 16,
    "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 15,
@@ -82,22 +82,21 @@
    "ASST DI MONZA": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 363,
+  "procedure_altri_enti": 355,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
-   "COMUNE DI MILANO": 14,
+   "COMUNE DI MILANO": 12,
    "ERSAF - ENTE REGIONALE PER I SERVIZI ALL'AGRICOLTURA E ALLE FORESTE": 8,
    "POLITECNICO DI MILANO": 7,
    "UNIVERSITA' DEGLI STUDI DI BRESCIA": 7,
    "PROVINCIA DI BERGAMO": 6,
    "PROVINCIA DI LECCO": 6,
-   "PROVINCIA DI PAVIA": 6,
    "COMUNE DI LIVIGNO": 5,
+   "PROVINCIA DI PAVIA": 5,
    "AGESP S.P.A.": 4,
    "COMUNE DI BUCCINASCO": 4,
    "COMUNE DI BUSTO ARSIZIO": 4,
    "COMUNE DI CARUGATE": 4,
-   "COMUNE DI CASTEGNATO": 4,
    "COMUNE DI LEGNANO": 4,
    "COMUNE DI LOMAZZO": 4,
    "COMUNE DI PADERNO DUGNANO": 4,
@@ -109,6 +108,7 @@
    "AZIENDA SPECIALE SERVIZI DI AGRATE BRIANZA": 3,
    "COMUNE DI BRONI": 3,
    "COMUNE DI CASSANO MAGNAGO": 3,
+   "COMUNE DI CASTEGNATO": 3,
    "COMUNE DI CASTRO": 3,
    "COMUNE DI CREMONA": 3,
    "COMUNE DI MANTOVA": 3,
@@ -116,7 +116,6 @@
    "COMUNE DI PAVIA": 3,
    "COMUNE DI ROSATE": 3,
    "COMUNE DI SAN DONATO MILANESE": 3,
-   "COMUNE DI VIADANA": 3,
    "COMUNITÀ MONTANA DEL PIAMBELLO": 3,
    "COMUNITÀ MONTANA VALLE SABBIA": 3,
    "CONSORZIO DEI COMUNI DEL BACINO IMBRIFERO MONTANO DELL'ADDA": 3,
@@ -138,10 +137,10 @@
    "COMUNE DI SAMARATE": 2,
    "COMUNE DI SETTALA": 2,
    "COMUNE DI VALDIDENTRO": 2,
+   "COMUNE DI VIADANA": 2,
    "CONSORZIO DI BONIFICA MUZZA E BASSA LODIGIANA": 2,
    "GIUNTA REGIONALE - REGIONE LOMBARDIA": 2,
    "PROVINCIA DI SONDRIO": 2,
-   "UNIONE DEI COMUNI LOMBARDA DELLA VALMALENCO": 2,
    "A.SE.R SPA": 1,
    "AGENZIA PER IL TRASPORTO PUBBLICO LOCALE DEL BACINO DELLA CITTÀ METROPOLITANA DI MILANO, MONZA E BRIANZA, LODI E PAVIA": 1,
    "ALER VARESE - COMO - MONZA BRIANZA - BUSTO ARSIZIO": 1,
@@ -285,8 +284,7 @@
    "UNIONE COMUNI DELL'OLTREPÒ CENTRALE": 1,
    "UNIONE DEI COMUNI I FONTANILI": 1,
    "UNIONE DEI COMUNI LOMBARDA MAGHERNO TORRE D'ARESE": 1,
-   "VALLE CAMONICA SERVIZI SRL": 1,
-   "YGEA SRL": 1
+   "VALLE CAMONICA SERVIZI SRL": 1
   },
   "pertinenti": 11,
   "titoli_pertinenti": [
@@ -304,16 +302,16 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 169,
+  "righe_prima_pagina": 171,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 169,
+  "righe_lette": 171,
   "enti_sanitari": {
    "AZIENDA ULSS N. 8 BERICA": 31,
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA": 28,
+   "AZIENDA ULSS N. 7 PEDEMONTANA": 16,
    "AZIENDA ULSS N. 3 SERENISSIMA": 14,
    "AZIENDA OSPEDALIERA UNIVERSITARIA INTEGRATA DI VERONA": 13,
-   "AZIENDA ULSS N. 7 PEDEMONTANA": 13,
    "AZIENDA ZERO": 8,
    "AZIENDA ULSS N. 5 POLESANA": 5,
    "AZIENDA ULSS N. 4 VENETO ORIENTALE": 4,
@@ -323,24 +321,23 @@
    "AZIENDA ULSS N. 2 MARCA TREVIGIANA": 2,
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLE VENEZIE": 2
   },
-  "procedure_altri_enti": 40,
+  "procedure_altri_enti": 39,
   "altri_enti": {
-   "COMUNE DI VERONA": 11,
    "COMUNE DI PADOVA": 10,
+   "COMUNE DI VERONA": 10,
    "AGEC": 4,
    "COMUNE DI VILLAFRANCA DI VERONA": 2,
+   "UNIONE MONTANA DEL BALDO-GARDA": 2,
    "CASA DI RIPOSO DI NOVENTA PADOVANA": 1,
    "CENTRO SERVIZI PER ANZIANI": 1,
    "CITTÀ DI OPPEANO": 1,
    "COMUNE DI CHIOGGIA": 1,
    "COMUNE DI COLOGNOLA AI COLLI": 1,
-   "COMUNE DI ISOLA DELLA SCALA": 1,
    "COMUNE DI JESOLO": 1,
    "COMUNE DI ROVIGO": 1,
    "COMUNE DI TORRI DI QUARTESOLO": 1,
    "COMUNE DI TREVISO": 1,
    "PROVINCIA DI TREVISO": 1,
-   "UNIONE MONTANA DEL BALDO-GARDA": 1,
    "VILLAVERLA": 1
   },
   "pertinenti": 8,
@@ -356,13 +353,13 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 156,
+  "righe_prima_pagina": 157,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 156,
+  "righe_lette": 157,
   "enti_sanitari": {
    "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 38,
-   "A.O. ORDINE MAURIZIANO TORINO": 10,
+   "A.O. ORDINE MAURIZIANO TORINO": 11,
    "ASL TO 4": 8,
    "AZIENDA SANITARIA LOCALE ASTI - ASL AT": 7,
    "AZIENDA OSPEDALIERA S. CROCE E CARLE": 6,
@@ -407,18 +404,19 @@
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
   "righe_lette": 42,
-  "enti_sanitari": {},
-  "procedure_altri_enti": 42,
-  "altri_enti": {
+  "enti_sanitari": {
    "AZIENDA TUTELA DELLA SALUTE LIGURIA": 19,
+   "ISTITUTO GIANNINA GASLINI": 1
+  },
+  "procedure_altri_enti": 22,
+  "altri_enti": {
    "LIGURIA DIGITALE S.P.A.": 7,
    "REGIONE LIGURIA (SUAR)": 5,
    "COMUNE DI ARENZANO": 3,
    "PROVINCIA DI SAVONA": 3,
    "INFRASTRUTTURE RECUPERO ENERGIA AGENZIA REGIONALE LIGURE - I.R.E. S.P.A.": 2,
    "ARTE SAVONA": 1,
-   "COMUNE DI SESTRI LEVANTE": 1,
-   "ISTITUTO GIANNINA GASLINI": 1
+   "COMUNE DI SESTRI LEVANTE": 1
   }
  },
  "emilia_romagna": {
