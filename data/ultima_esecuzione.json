@@ -1,9 +1,9 @@
 {
-  "eseguito_il": "2026-11-19T22:23:29+00:00",
+  "eseguito_il": "2026-11-19T22:53:09+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
-      "pertinenti": 23
+      "pertinenti": 5
     },
     "portali_rss": {
       "esito": "ok",
@@ -23,12 +23,13 @@
     },
     "plone": {
       "esito": "ok",
-      "pertinenti": 0
+      "pertinenti": 11
     }
   },
   "errori": [
-    "portali_html: ASL TO5: timed out"
+    "portali_html: ASL TO5: timed out",
+    "plone: Intercent-ER: /bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara: le voci non arrivano ordinate per scadenza, lette solo le prime 600"
   ],
-  "nuove_opportunita": 7,
-  "totale": 96
+  "nuove_opportunita": 10,
+  "totale": 106
 }
