@@ -190,6 +190,10 @@ class Filtro:
         self.prefissi = [normalizza_cpv(c) for c in cfg.get("cpv_prefissi", [])]
         self.sempre = {normalizza_cpv(c) for c in cfg.get("cpv_sempre_inclusi", [])}
         self.re_ente = self._compila(cfg.get("enti_sanitari_regex"))
+        # Eccezioni: nomi che le regole degli enti sanitari prenderebbero per errore (es. le ASP
+        # emiliane, "Aziende di servizi alla persona", che non sono aziende sanitarie provinciali).
+        # Valgono solo per il riconoscimento dell'ente: l'oggetto sanitario resta valido.
+        self.re_non_sanitari = self._compila(cfg.get("enti_non_sanitari_regex"))
         self.re_sanita = self._compila(cfg.get("parole_chiave_sanita_regex"))
         self.re_escl = self._compila(cfg.get("esclusioni_regex"))
         self.re_aggr = self._compila(cfg.get("aggregatori_misti_regex"))
@@ -204,6 +208,25 @@ class Filtro:
             return None
         return re.compile("|".join(f"(?:{p})" for p in lista), re.IGNORECASE)
 
+    def ente_sanitario(self, ente: str) -> bool:
+        ente = ente or ""
+        if self.re_non_sanitari and self.re_non_sanitari.search(ente):
+            return False
+        return bool(self.re_ente and self.re_ente.search(ente))
+
+    def parola_it(self, titolo: str, descrizione: str = "") -> str | None:
+        """Prima parola IT dell'oggetto (titolo + descrizione), dopo aver tolto il rumore
+        procedurale; None se il titolo e' escluso o l'oggetto non parla di informatica.
+        E' la parte del filtro testuale che non dipende dall'ente: serve anche da prefiltro
+        per le fonti che leggono l'ente con una richiesta in piu' (Intercent-ER)."""
+        titolo = titolo or ""
+        if self.re_escl and self.re_escl.search(titolo):
+            return None
+        testo_completo = f"{titolo} {descrizione or ''}"
+        testo_it = self.re_rumore.sub(" ", testo_completo) if self.re_rumore else testo_completo
+        m_it = self.re_it.search(testo_it) if self.re_it else None
+        return m_it.group(0).strip() if m_it else None
+
     def valuta(self, titolo: str, ente: str, cpv: list[str]) -> str | None:
         """Restituisce il motivo dell'inclusione, oppure None se l'avviso va scartato."""
         titolo, ente = titolo or "", ente or ""
@@ -216,7 +239,7 @@ class Filtro:
         it = [c for c in codici if any(c.startswith(p) for p in self.prefissi)]
         if not it:
             return None
-        if self.re_ente and self.re_ente.search(ente):
+        if self.ente_sanitario(ente):
             return f"Ente sanitario + CPV IT ({it[0]})"
         if self.re_sanita:
             m = self.re_sanita.search(titolo)
@@ -231,14 +254,10 @@ class Filtro:
         l'oggetto deve parlare di informatica e il contesto deve essere sanitario."""
         titolo, ente = titolo or "", ente or ""
         testo_completo = f"{titolo} {descrizione or ''}"
-        if self.re_escl and self.re_escl.search(titolo):
+        parola = self.parola_it(titolo, descrizione)
+        if not parola:
             return None
-        testo_it = self.re_rumore.sub(" ", testo_completo) if self.re_rumore else testo_completo
-        m_it = self.re_it.search(testo_it) if self.re_it else None
-        if not m_it:
-            return None
-        parola = m_it.group(0).strip()
-        if self.re_ente and self.re_ente.search(ente):
+        if self.ente_sanitario(ente):
             return f"Ente sanitario + oggetto IT ('{parola}')"
         if self.re_sanita:
             m = self.re_sanita.search(testo_completo)

@@ -187,6 +187,12 @@ def main() -> int:
     prima = set(storico)
     # Regole dei feed che lo storico non conosce (procedure a invito, revoche, link corretti).
     storico = portali_rss.correggi_storico(storico, cfg)
+    # Voci Plone scartate da una regola esplicita (es. bando revocato su Intercent-ER).
+    tolte = sorted(k for k in storico if k in plone.ESCLUSI)
+    for k in tolte:
+        del storico[k]
+    if tolte:
+        log.info("Plone: tolte dallo storico %d voci ora escluse: %s", len(tolte), ", ".join(tolte))
     tutte = pota(rivaluta(deduplica(unisci(storico, nuove, oggi)), filtro), cfg)
     riepilogo["nuove_opportunita"] = len(set(tutte) - prima)
     riepilogo["totale"] = len(tutte)

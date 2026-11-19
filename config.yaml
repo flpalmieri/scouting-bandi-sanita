@@ -39,6 +39,9 @@ enti_sanitari_regex:
   - '\bmonasterio\b'                           # Fondazione Toscana Gabriele Monasterio
   - '\bISPRO\b|rete\s+oncologica'               # Istituto per lo studio, la prevenzione e la rete oncologica
   - '\bsoc(iet[aà]|\.)\s*della\s+salute'         # Societa' della Salute (es. "COESO-SOC.DELLA SALUTE")
+  # Emilia-Romagna (20/11/2026): su Intercent-ER l'IRCCS Rizzoli si chiama solo "ISTITUTO
+  # ORTOPEDICO RIZZOLI" (15 voci aperte al 19/11/2026).
+  - '\brizzoli\b|istituto\s+ortopedico'
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -57,6 +60,17 @@ enti_sanitari_regex:
   - 'so\.?re\.?sa'
   - 'servizio\s+sanitario'
   - 'agenzia\s+regionale.*salute'
+
+# Eccezioni alle regole qui sopra: enti che quelle regole prenderebbero per sanitari ma che
+# non lo sono. Valgono solo per il nome dell'ente: una gara IT con un oggetto sanitario entra
+# comunque. In Emilia-Romagna "ASP" e' l'Azienda di Servizi alla Persona (comunale, socio-
+# assistenziale), non l'Azienda Sanitaria Provinciale siciliana o calabrese. Nomi verificati su
+# Intercent-ER il 19/11/2026; altre ASP emiliane vanno aggiunte qui quando compaiono.
+enti_non_sanitari_regex:
+  - 'servizi\s+alla\s+persona'                     # "AZIENDA SERVIZI ALLA PERSONA DEL FORLIVESE"
+  - 'citt[aà]\W?\s+delle\s+persone'                # "ASP REGGIO EMILIA - CITTA DELLE PERSONE"
+  - '\bASP\W+(citt[aà]\W?\s+di\s+bologna|delia\s+repetto|del\s+delta\s+ferrarese)'
+  - 'centrale\s+unica\s+di\s+committenza\s+dei\s+comuni'   # CUC comunali (una contiene "ASP DEL DELTA")
 
 # Frasi che descrivono il CANALE della gara, non il suo oggetto: vengono ignorate
 # prima di cercare le parole IT (altrimenti "affidamento su piattaforma telematica
@@ -91,6 +105,11 @@ aggregatori_misti_regex:
   # Decisione di Flavio (19/11/2026): Regione Toscana (anche come soggetto aggregatore) compra
   # IT per tutte le PA toscane, sanita' compresa. Le sue gare IT entrano "da verificare".
   - '\bregione\s+toscana\b|giunta\s+regionale\s+(della\s+)?toscana'
+  # Emilia-Romagna: Intercent-ER e' gia' coperta da 'intercent' (prima riga). DA DECIDERE (Flavio):
+  # Lepida (societa' informatica della Regione, come CSI Piemonte e Liguria Digitale) e ART-ER.
+  # Per includerle togliere il # all'inizio della riga.
+  # - '\blepida\b'
+  # - '\bART-ER\b'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -641,6 +660,35 @@ plone:
       escludi_descrizioni_regex:
         - '\bsintel\b'
       timeout_connessione: 20        # sito nuovo: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+
+    - nome: Intercent-ER
+      # Emilia-Romagna. Sito Plone/Volto dell'agenzia regionale: contiene le gare di Intercent-ER
+      # e quelle che tutti gli enti emiliani (aziende sanitarie comprese) svolgono su SATER, che
+      # non ha elenchi pubblici. Circa 41.000 voci storiche, 356 aperte al 19/11/2026.
+      # L'ente sta solo nel dettaglio di ogni voce (@intercenter-data): lo si chiede solo per le
+      # voci con parole IT nel titolo o nella descrizione (qualche decina), mai per le altre.
+      nome_fonte: Intercent-ER
+      sigla: intercenter
+      regione: Emilia-Romagna
+      host: "https://intercenter.regione.emilia-romagna.it"
+      percorsi:
+        - percorso: "/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara"
+        - percorso: "/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara"
+        - percorso: "/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato"
+          tipo: avviso esplorativo
+        - percorso: "/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari"
+          tipo: consultazione di mercato
+      tipi_contenuto: [BandoIntercenter]
+      solo_aperte: true            # solo scadenza futura, dalla piu' lontana; ci si ferma alle scadute
+      max_risultati: 600           # per sezione (316 gare aperte degli altri enti al 19/11/2026)
+      dettaglio: intercenter-data
+      # 21 voci aperte su 356 non hanno ente_appaltante: con questo nome contengono "Intercent-ER"
+      # e le IT entrano "da verificare" (come le gare dell'agenzia). Per scartarle: ente_se_vuoto: ""
+      ente_se_vuoto: "Ente non indicato (Intercent-ER)"
+      escludi_stati: [Revocato, Annullato]   # stato_procedura del dettaglio (7 revocate al 19/11/2026)
+      pausa_secondi: 0.5
+      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
       tentativi: 1
 
 # --- Conservazione -----------------------------------------------------
