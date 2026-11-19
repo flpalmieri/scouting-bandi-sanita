@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-19T21:42:32+00:00",
- "totale": 89,
+ "aggiornato_il": "2026-11-19T22:23:29+00:00",
+ "totale": 96,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -340,6 +340,28 @@
    "ultimo_rilevamento": "2026-11-11"
   },
   {
+   "id": "ted:752628-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Sanità digitale - cartella clinica elettronica e Sistemi Informativi di Laboratorio (ID 2988)",
+   "ente": "CONSIP SPA",
+   "scadenza": "2026-11-13",
+   "pubblicazione": "2026-10-29",
+   "importo": 478800000.0,
+   "cpv": [
+    "72000000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/752628-2026",
+   "regione": null,
+   "motivo_match": "Oggetto sanitario ('cartella clinica') + CPV IT (72000000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
    "id": "startsan-cons:612930",
    "fonti": [
     "START Sanità Toscana"
@@ -593,6 +615,29 @@
    "ultimo_rilevamento": "2026-11-19"
   },
   {
+   "id": "ted:745555-2026",
+   "fonti": [
+    "Sintel",
+    "TED"
+   ],
+   "titolo": "Gara europea a procedura aperta indetta ai sensi del D.Lgs. 36/2023 per l’affidamento dei servizi di conduzione applicativa ed evolutiva del sistema Port Community System (PCS) e servizi correlati dell’Autorità di Sistema Portuale del Mar Ligure Occidentale",
+   "ente": "Liguria Digitale S.p.A.",
+   "scadenza": "2026-11-19",
+   "pubblicazione": "2026-10-28",
+   "importo": 12537000.0,
+   "cpv": [
+    "72500000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/745555-2026",
+   "regione": "Liguria",
+   "motivo_match": "Soggetto aggregatore + CPV IT (72500000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
    "id": "sintel:226139605",
    "fonti": [
     "Sintel"
@@ -692,7 +737,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72200000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-10-28",
-   "ultimo_rilevamento": "2026-11-07"
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "empulia:2929231",
@@ -716,6 +761,28 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72200000) - da verificare",
    "descrizione": "Procedura aperta per l'acquisizione del SIA",
    "primo_rilevamento": "2026-11-10",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
+   "id": "ted:738356-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "[2026_SIA_39] MANUTENZIONE ORDINARIA E STRAORDINARIA DEL SISTEMA ERP CONTABILE MICROSOFT DYNAMICS 365 BUSINESS CENTRAL",
+   "ente": "OSPEDALE DI SASSUOLO - S.P.A.",
+   "scadenza": "2026-11-20",
+   "pubblicazione": "2026-10-26",
+   "importo": 1349000.0,
+   "cpv": [
+    "72250000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/738356-2026",
+   "regione": null,
+   "motivo_match": "Ente sanitario + CPV IT (72250000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-19",
    "ultimo_rilevamento": "2026-11-19"
   },
   {
@@ -803,6 +870,29 @@
    "ultimo_rilevamento": "2026-11-19"
   },
   {
+   "id": "ted:742393-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Sistema ORMS integrato a dispositivi medici",
+   "ente": "A.O. San Camillo Forlanini",
+   "scadenza": "2026-11-24",
+   "pubblicazione": "2026-10-27",
+   "importo": 1845000.0,
+   "cpv": [
+    "48180000",
+    "48814300"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/742393-2026",
+   "regione": null,
+   "motivo_match": "CPV software sanitario (48180000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
    "id": "ted:768403-2026",
    "fonti": [
     "TED"
@@ -823,7 +913,7 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-15"
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "empulia:2971458",
@@ -1037,7 +1127,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48300000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
-   "ultimo_rilevamento": "2026-11-06"
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "sintel:226822857",
@@ -1072,7 +1162,7 @@
    "cpv": [],
    "cig": [],
    "tipo": "consultazione di mercato",
-   "link": "https://www.sanita.start.toscana.it/portalegare/index.php/?getdettaglio=yes&bando=622045&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T13:00:00",
+   "link": "https://www.sanita.start.toscana.it/portalegare/index.php/?getdettaglio=yes&bando=622045&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T13:00:00",
    "regione": "Toscana",
    "motivo_match": "Ente sanitario + oggetto IT ('HW/SW')",
    "descrizione": "CONSULTAZIONE PRELIMINARE DI MERCATO PER LA FORNITURA IN NOLEGGIO DI SISTEMI HW/SW PER CONVALIDA DEL CONGELAMENTO PLASMA, DEL TRASPOSTO E CONSERVAZIONE DEL SANGUE E DELLA CENTRIFUGAZIONE SACCHE DI SANGUE.",
@@ -1100,6 +1190,29 @@
    "ultimo_rilevamento": "2026-11-19"
   },
   {
+   "id": "ted:755747-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Cybersecurity - soluzioni e servizi per la protezione e resilienza di reti e sistemi informativi (ID 2733)",
+   "ente": "CONSIP SPA",
+   "scadenza": "2026-11-27",
+   "pubblicazione": "2026-10-30",
+   "importo": 456379200.0,
+   "cpv": [
+    "30200000",
+    "48730000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/755747-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (48730000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
    "id": "ted:745164-2026",
    "fonti": [
     "IZSAM",
@@ -1122,7 +1235,30 @@
    "motivo_match": "Ente sanitario + CPV IT (72500000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
-   "ultimo_rilevamento": "2026-11-06"
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
+   "id": "ted:751690-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Servizio per la realizzazione di Tesserini venatori e di portali faunistici della Regione Toscana - due Lotti",
+   "ente": "REGIONE TOSCANA - Settore Attività Faunistico Venatoria, Pesca in Mare e Rapporti con i Gruppi Locali di Azione della Pesca (FLAGS).",
+   "scadenza": "2026-11-27",
+   "pubblicazione": "2026-10-29",
+   "importo": 1373972.76,
+   "cpv": [
+    "72212000",
+    "79824000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/751690-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (72212000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "ted:789687-2026",
@@ -1167,7 +1303,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48000000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-30",
-   "ultimo_rilevamento": "2026-11-09"
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "sintel:226017968",
@@ -1333,7 +1469,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48000000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-30",
-   "ultimo_rilevamento": "2026-11-09"
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "sintel:226226331",
@@ -1397,7 +1533,39 @@
    "motivo_match": "Oggetto sanitario ('Clinic') + CPV IT (72260000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-14"
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
+   "id": "ted:763852-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "FORNITURA DI BENI E SERVIZI PER LA GESTIONE INTEGRATA DELLE POSTAZIONI DI LAVORO (PDL) SUDDIVISA IN 5 LOTTI",
+   "ente": "SOGGETTO AGGREGATORE REGIONE TOSCANA - SERVIZI IT E INFRASTRUTTURE DIGITALI INTERNE",
+   "scadenza": "2026-12-02",
+   "pubblicazione": "2026-11-04",
+   "importo": 76456587.07,
+   "cpv": [
+    "30213000",
+    "30213100",
+    "30237200",
+    "48100000",
+    "48300000",
+    "48331000",
+    "48730000",
+    "48900000",
+    "72100000",
+    "72610000",
+    "72611000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/763852-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (48100000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "ted:749235-2026",
@@ -1419,7 +1587,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (48517000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-10-29",
-   "ultimo_rilevamento": "2026-11-08"
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "ted:760365-2026",
@@ -1441,7 +1609,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (48000000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-02",
-   "ultimo_rilevamento": "2026-11-12"
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "ted:790518-2026",
@@ -1506,7 +1674,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-05",
-   "ultimo_rilevamento": "2026-11-15"
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "ted:783479-2026",
@@ -1570,7 +1738,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72310000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-04",
-   "ultimo_rilevamento": "2026-11-14"
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "ted:784397-2026",
