@@ -687,6 +687,13 @@ plone:
       # e le IT entrano "da verificare" (come le gare dell'agenzia). Per scartarle: ente_se_vuoto: ""
       ente_se_vuoto: "Ente non indicato (Intercent-ER)"
       escludi_stati: [Revocato, Annullato]   # stato_procedura del dettaglio (7 revocate al 19/11/2026)
+      # Procedure a invito rivolte a un fornitore gia' scelto, come gli affidamenti diretti di Sintel
+      # e di START Sanita' (decisione del 20/11/2026). Nei 18 dettagli del primo lancio: 9
+      # "Affidamento Diretto" (tutti "Invito", comprese le "Richiesta di offerta art. 50 c.1 lett. b"),
+      # 5 "Negoziata" (Invito), 2 "Aperta" (Bando), 2 consultazioni. Le Negoziata restano: sono
+      # spesso ex art. 76 (unico fornitore), cioe' segnali di infungibilita'.
+      escludi_campi:
+        procedura_gara: [Affidamento Diretto]
       pausa_secondi: 0.5
       timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
       tentativi: 1

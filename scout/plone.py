@@ -30,10 +30,13 @@ Opzioni per i portali grandi (aggiunte per Intercent-ER, 20/11/2026):
                     elenco di indirizzi oppure di {percorso, tipo}; tipo (es. "consultazione")
                     aiuta a riconoscere il tipo di avviso. max_risultati vale per ogni sezione.
   solo_aperte     - true: si leggono solo le voci con scadenza futura. Le voci arrivano
-                    ordinate per scadenza decrescente, quindi la lettura si ferma alla prima
-                    pagina che contiene voci scadute (Intercent-ER ha 38.000 voci storiche).
-                    Se il sito non rispetta l'ordinamento, lo si segnala tra gli errori e si
-                    legge fino a max_risultati.
+                    ordinate per scadenza decrescente (Intercent-ER ha 38.000 voci storiche) e la
+                    lettura si ferma alla prima pagina fatta SOLO di voci scadute: su Intercent-ER
+                    l'ordine non e' perfetto (al primo lancio, 20/11/2026, alcune voci aperte
+                    comparivano dopo voci gia' scadute), quindi la prima voce scaduta non basta.
+                    Le inversioni si contano e si scrivono nel log, con la piu' ampia; tra gli
+                    errori finisce solo il caso con possibile perdita di dati (max_risultati
+                    raggiunto senza una pagina di sole scadute).
   dettaglio       - nome di un servizio di dettaglio da chiamare per ogni voce candidata
                     (es. intercenter-data: GET <host>/++api++<percorso della voce>/@intercenter-data).
                     Si chiama solo per le voci che passano la parte del filtro che non dipende
@@ -41,10 +44,15 @@ Opzioni per i portali grandi (aggiunte per Intercent-ER, 20/11/2026):
                     richieste invece di centinaia. Dal dettaglio si leggono SOLO ente_appaltante,
                     stato_procedura, cig, importo_appalto, type, procedura_gara e tipo_bando_gara:
                     niente referenti, RUP, contatti o allegati. Le voci si leggono una alla volta,
-                    con pausa_secondi tra una richiesta e l'altra (default 0.5).
+                    con pausa_secondi tra una richiesta e l'altra (default 0.5). I campi
+                    "Evidenza Pubblica" e CPV dell'XML di SATER non si leggono: al primo lancio
+                    valevano "si" e vuoto per tutte le 18 voci lette.
   ente_se_vuoto   - nome dell'ente da usare quando il dettaglio non lo indica o non si legge.
-  escludi_stati   - valori di stato_procedura da scartare (es. Revocato). Le voci scartate
-                    vengono tolte anche dallo storico (ESCLUSI, vedi main.py).
+  escludi_stati   - valori di stato_procedura da scartare (es. Revocato).
+  escludi_campi   - {campo del dettaglio: [valori]} da scartare, es. {procedura_gara:
+                    [Affidamento Diretto]} (procedure a invito rivolte a un fornitore scelto).
+                    Le voci scartate da escludi_stati ed escludi_campi vengono tolte anche dallo
+                    storico (ESCLUSI, vedi main.py).
 """
 from __future__ import annotations
 
@@ -193,7 +201,9 @@ def converti(voce: dict, sito: dict, filtro: Filtro, dettaglio: dict | None = No
         d = _testo_campo(c.get("descrizione"))
         if d and d.lower() not in titolo.lower() and d not in lotti:
             lotti.append(d)
-    procedura = _testo_campo(dettaglio.get("procedura_gara")) or _testo_campo(dettaglio.get("tipo_bando_gara"))
+    procedura = " ".join(x for x in (_testo_campo(dettaglio.get("procedura_gara")),
+                                     f"({_testo_campo(dettaglio.get('tipo_bando_gara'))})"
+                                     if _testo_campo(dettaglio.get("tipo_bando_gara")) else "") if x)
     tipologia = voce.get("tipologia_bando") or ""
     testo = "; ".join(x for x in (
         descrizione,
@@ -250,9 +260,12 @@ def _leggi_sezione(sito: dict, sezione: dict, campione: str, sess, avvisi: list[
     voci: list[dict] = []
     lette = 0
     totale = None
-    ordine_ok = True
+    inversioni = 0           # voci con scadenza piu' lontana della precedente
+    salto_max = None         # inversione piu' ampia (timedelta)
     ultima = None            # ultima scadenza vista, per controllare l'ordinamento
-    finite = False           # trovata almeno una voce scaduta (con solo_aperte)
+    finite = False           # letta una pagina fatta solo di voci scadute (con solo_aperte)
+    aperte_dopo = 0          # voci aperte trovate dopo la prima scaduta: misura il disordine utile
+    vista_scaduta = False
     while lette < massimo:
         r = sess.post(url, headers=HEADERS, timeout=attesa,
                       data=json.dumps(corpo_ricerca(sito, lette, min(B_SIZE, massimo - lette), percorso)))
@@ -272,29 +285,37 @@ def _leggi_sezione(sito: dict, sezione: dict, campione: str, sess, avvisi: list[
         if not solo_aperte:
             voci.extend(pagina)
         else:
+            aperte_pagina = 0
             for v in pagina:
                 scad = _istante(v.get("scadenza_bando"))
                 if scad and ultima and scad > ultima:
-                    ordine_ok = False
+                    inversioni += 1
+                    salto_max = max(salto_max or (scad - ultima), scad - ultima)
                 if scad:
                     ultima = scad
                 if scad and scad < adesso:
-                    finite = True
+                    vista_scaduta = True
                 else:
                     voci.append(v)
-            if finite and ordine_ok:
+                    aperte_pagina += 1
+                    if vista_scaduta:
+                        aperte_dopo += 1
+            if pagina and aperte_pagina == 0:
+                finite = True
                 break
         if not pagina or lette >= totale:
             break
     if lette == 0:
         # La ricerca comprende anche le voci scadute: zero voci vuol dire percorso o tipo sbagliati.
         raise RuntimeError(f"{percorso}: nessuna voce trovata (percorso o tipo di contenuto cambiati?)")
-    if solo_aperte and not ordine_ok:
-        avvisi.append(f"{percorso}: le voci non arrivano ordinate per scadenza, lette solo le prime {lette}")
-    elif solo_aperte and not finite and lette >= massimo and lette < (totale or 0):
-        avvisi.append(f"{percorso}: lette {lette} voci tutte aperte, possibile troncamento "
-                      f"(dati parziali: alzare max_risultati)")
+    if solo_aperte and not finite and lette >= massimo and lette < (totale or 0):
+        avvisi.append(f"{percorso}: lette {lette} voci senza arrivare a una pagina di sole scadute, "
+                      f"possibile troncamento (dati parziali: alzare max_risultati)")
     log.info("Plone %s %s: %d voci lette (su %s), %d tenute", sito["nome"], percorso, lette, totale, len(voci))
+    if solo_aperte and inversioni:
+        log.info("Plone %s %s: ordinamento per scadenza imperfetto: %d inversioni (la piu' ampia %s), "
+                 "%d voci aperte trovate dopo la prima scaduta", sito["nome"], percorso, inversioni,
+                 salto_max, aperte_dopo)
     return voci, totale
 
 
@@ -324,13 +345,6 @@ def _leggi_dettaglio(sito: dict, voce: dict, sess, campioni: list) -> dict:
     ridotto = {k: dati.get(k) for k in CAMPI_DETTAGLIO if k in dati}
     ridotto["cig"] = [{"codice": c.get("codice"), "lotto": c.get("lotto"), "descrizione": c.get("descrizione")}
                       for c in dati.get("cig") or [] if isinstance(c, dict)]
-    # Due dati dell'XML di SATER, per decidere in seguito su filtri e CPV (non usati ora):
-    # "Evidenza Pubblica" si/no e il contenuto grezzo del campo CPV.
-    xml = dati.get("xml") if isinstance(dati.get("xml"), str) else ""
-    m = re.search(r"<EVIDENZAPUBBLICA_VALUE[^>]*>([^<]*)<", xml)
-    ridotto["xml_evidenza_pubblica"] = m.group(1).strip() if m else None
-    m = re.search(r"<ARTCLASMERCEOLOGICA\b[^>]*?(?:/>|>(.*?)</ARTCLASMERCEOLOGICA>)", xml, re.DOTALL)
-    ridotto["xml_cpv"] = (m.group(1) or "").strip()[:500] if m else None
     campioni.append({"@id": voce.get("@id"), **ridotto})
     return ridotto
 
@@ -361,6 +375,9 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
     campioni_dettaglio: list = []
     pausa = float(sito.get("pausa_secondi", 0.5))
     stati_esclusi = {s.lower() for s in sito.get("escludi_stati") or []}
+    campi_esclusi = {k: {str(v).strip().lower() for v in (vals or [])}
+                     for k, vals in (sito.get("escludi_campi") or {}).items()}
+    scartate = 0
     for voce, tipo_sezione in candidate:
         if _scartata(voce, sito):
             continue
@@ -378,8 +395,11 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
             except Exception as e:
                 dettagli_falliti += 1
                 log.warning("Plone %s: dettaglio non letto per %s: %s", sito["nome"], voce.get("@id"), e)
-            if dettaglio and str(dettaglio.get("stato_procedura") or "").strip().lower() in stati_esclusi:
+            if dettaglio and (
+                    str(dettaglio.get("stato_procedura") or "").strip().lower() in stati_esclusi
+                    or any(_testo_campo(dettaglio.get(k)).lower() in vals for k, vals in campi_esclusi.items())):
                 ESCLUSI.add(_id_voce(voce, sito))
+                scartate += 1
                 continue
         o = converti(voce, sito, filtro, dettaglio, tipo_sezione)
         if o:
@@ -392,8 +412,9 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
             avvisi.append(f"{dettagli_falliti} dettagli su {dettagli_letti + dettagli_falliti} non letti: "
                           f"quelle voci usano l'ente \"{sito.get('ente_se_vuoto') or sito.get('ente', '')}\" "
                           f"(vedi state/campioni/{sito['sigla']}_dettagli.json)")
-    log.info("Plone %s: %d voci tenute, %d dettagli letti (%d falliti), %d pertinenti",
-             sito["nome"], lette_tot, dettagli_letti, dettagli_falliti, len(trovate))
+    log.info("Plone %s: %d voci tenute, %d dettagli letti (%d falliti), %d scartate per stato o "
+             "tipo di procedura, %d pertinenti", sito["nome"], lette_tot, dettagli_letti,
+             dettagli_falliti, scartate, len(trovate))
     ERRORI.extend(f"{sito['nome']}: {a}" for a in avvisi)
     return list(trovate.values())
 
