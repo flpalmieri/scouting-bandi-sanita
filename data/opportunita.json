@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-19T21:11:24+00:00",
- "totale": 92,
+ "aggiornato_il": "2026-11-19T21:28:36+00:00",
+ "totale": 91,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -345,14 +345,14 @@
     "START Sanità Toscana"
    ],
    "titolo": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO PROPEDEUTICA ALL’INDIZIONE DI UNA GARA PER L’AFFIDAMENTO DI UNA FORNITURA, IN ACQUISTO E/O LOCAZIONE, DI PRODOTTI E SOLUZIONI DI RETE E SICUREZZA, HARDWARE E SOFTWARE E DELLA RELATIVA MANUTENZIONE, NECESSARI ALL’UPGRADE DEGLI APPARATI INFRASTRUTTURALI E NETWORKING DA DESTINARE A REGIONE TOSCANA, ENTI REGIONALI, ESTAR, AZIENDE SANITARIE ED OSPEDALIERE ED AGLI ALTRI ENTI DEL SERVIZIO SANITARIO REGIONALE TOSCANO",
-   "ente": "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale",
+   "ente": "ESTAR",
    "scadenza": "2026-11-13",
    "pubblicazione": "2026-10-29",
    "importo": null,
    "cpv": [],
    "cig": [],
    "tipo": "consultazione di mercato",
-   "link": "https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=612930&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-13T13:00:00",
+   "link": "https://www.sanita.start.toscana.it/portalegare/index.php/?getdettaglio=yes&bando=612930&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-13T13:00:00",
    "regione": "Toscana",
    "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
    "descrizione": "CPM NETWORKING E APPARATI INFRASTRUTTURALI",
@@ -427,14 +427,14 @@
     "START Sanità Toscana"
    ],
    "titolo": "Servizi di assistenza, manutenzione hardware e software di core e servizi sistemistici per le infrastrutture ICT delle Aziende Sanitarie ed Enti del servizio sanitario regionale della Regione Toscana e dell’Agenzia Regionale Sanitaria della Regione Marche",
-   "ente": "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale",
+   "ente": "ESTAR",
    "scadenza": "2026-11-16",
    "pubblicazione": "2026-10-30",
    "importo": null,
    "cpv": [],
    "cig": [],
    "tipo": "consultazione di mercato",
-   "link": "https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=613788&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-16T13:00:00",
+   "link": "https://www.sanita.start.toscana.it/portalegare/index.php/?getdettaglio=yes&bando=613788&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-16T13:00:00",
    "regione": "Toscana",
    "motivo_match": "Ente sanitario + oggetto IT ('software')",
    "descrizione": "CPM MANUTENZIONI HW E SW",
@@ -915,14 +915,14 @@
     "START Sanità Toscana"
    ],
    "titolo": "Valvole cardiache biologiche per impianto trans-catetere, sistemi per il trattamento percutaneo dell’insufficienza mitralica e dell’insufficienza tricuspidalica, palloni per valvuloplastica, sistemi di protezione embolica e sistemi per telemonitoraggio dell'elettrocardiogramma",
-   "ente": "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale",
+   "ente": "ESTAR",
    "scadenza": "2026-11-24",
    "pubblicazione": "2026-11-04",
    "importo": null,
    "cpv": [],
    "cig": [],
    "tipo": "consultazione di mercato",
-   "link": "https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=615433&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-24T18:00:00",
+   "link": "https://www.sanita.start.toscana.it/portalegare/index.php/?getdettaglio=yes&bando=615433&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-24T18:00:00",
    "regione": "Toscana",
    "motivo_match": "Ente sanitario + oggetto IT ('telemonitor')",
    "descrizione": "cpm valvole percutanee",
@@ -999,7 +999,7 @@
     "START Sanità Toscana"
    ],
    "titolo": "PROCEDURA NEGOZIATA AI SENSI DELL’ART. 76 COMMA 2 LETT. B) DEL D. LGS. 36/2023 E SMI, PER LA STIPULA DI UNA CONVENZIONE TRIENNALE, PER LA FORNITURA IN NOLEGGIO DI HW E SW INTEGRATIVI DEL SISTEMA PET-TC DESTINATO ALLA UOC MEDICINA NUCLEARE DEL PRESIDIO OSPEDALIERO DI LIVORNO DELL’AZIENDA USL TOSCANA NORD OVEST",
-   "ente": "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale",
+   "ente": "ESTAR",
    "scadenza": "2026-11-25",
    "pubblicazione": "2026-11-18",
    "importo": 512500.0,
@@ -1010,7 +1010,7 @@
     "BDDE905AD9"
    ],
    "tipo": "bando",
-   "link": "https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=625247&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T17:00:00",
+   "link": "https://www.sanita.start.toscana.it/portalegare/index.php/bandi?getdettaglio=yes&bando=625247&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T17:00:00",
    "regione": "Toscana",
    "motivo_match": "Ente sanitario + CPV IT (48000000)",
    "descrizione": "FORNITURA IN NOLEGGIO DI HW E SW INTEGRATIVI DEL SISTEMA PET-TC",
@@ -1065,14 +1065,14 @@
     "START Sanità Toscana"
    ],
    "titolo": "AVVISO CONSULTAZIONE PRELIMINARE DI MERCATO PER LA FORNITURA IN NOLEGGIO DI SISTEMI HW/SW PER CONVALIDA DEL CONGELAMENTO PLASMA, DEL TRASPOSTO E CONSERVAZIONE DEL SANGUE E DELLA CENTRIFUGAZIONE SACCHE DI SANGUE.",
-   "ente": "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale",
+   "ente": "ESTAR",
    "scadenza": "2026-11-26",
    "pubblicazione": "2026-11-11",
    "importo": null,
    "cpv": [],
    "cig": [],
    "tipo": "consultazione di mercato",
-   "link": "https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=622045&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T13:00:00",
+   "link": "https://www.sanita.start.toscana.it/portalegare/index.php/?getdettaglio=yes&bando=622045&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T13:00:00",
    "regione": "Toscana",
    "motivo_match": "Ente sanitario + oggetto IT ('HW/SW')",
    "descrizione": "CONSULTAZIONE PRELIMINARE DI MERCATO PER LA FORNITURA IN NOLEGGIO DI SISTEMI HW/SW PER CONVALIDA DEL CONGELAMENTO PLASMA, DEL TRASPOSTO E CONSERVAZIONE DEL SANGUE E DELLA CENTRIFUGAZIONE SACCHE DI SANGUE.",
@@ -1297,7 +1297,7 @@
     "START Sanità Toscana"
    ],
    "titolo": "Affidamento diretto per la fornitura di un “Progetto pilota per un sistema di Intelligenza Artificiale integrato nel flusso RIS-PACS per potenziare la diagnostica senologica clinica e di screening” con previsione di prima adesione per ISPRO. Stipula convenzione per la durata di 12 mesi.",
-   "ente": "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale",
+   "ente": "ESTAR",
    "scadenza": "2026-11-30",
    "pubblicazione": "2026-11-19",
    "importo": 139000.0,
@@ -1308,7 +1308,7 @@
     "BDE31BEE14"
    ],
    "tipo": "bando",
-   "link": "https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=623837&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T13:00:00",
+   "link": "https://www.sanita.start.toscana.it/portalegare/index.php/bandi?getdettaglio=yes&bando=623837&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T13:00:00",
    "regione": "Toscana",
    "motivo_match": "Ente sanitario + CPV IT (48982000)",
    "descrizione": "REV1.- Progetto pilota per un sistema di Intelligenza Artificiale integrato nel flusso RIS-PACS per ISPRO",
@@ -1321,7 +1321,7 @@
     "START Sanità Toscana"
    ],
    "titolo": "AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D. LGS- 36/2023 E SS.MM.II. PER LA FORNITURA DEVICE SERVER PER STRUMENTI LIS MOXA COMPATIBILE DA DESTINARE ALLE AZIENDE SANITARIE DELLA REGIONE TOSCANA, PER LA DURA TA DI 24 MESI",
-   "ente": "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale",
+   "ente": "ESTAR",
    "scadenza": "2026-11-30",
    "pubblicazione": "2026-11-18",
    "importo": 70000.0,
@@ -1332,7 +1332,7 @@
     "BDDA7566AD"
    ],
    "tipo": "bando",
-   "link": "https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=624444&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T13:00:00",
+   "link": "https://www.sanita.start.toscana.it/portalegare/index.php/bandi?getdettaglio=yes&bando=624444&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T13:00:00",
    "regione": "Toscana",
    "motivo_match": "Ente sanitario + oggetto IT ('LIS')",
    "descrizione": "FORNITURA DEVICE SERVER PER STRUMENTI LIS MOXA COMPATIBILI",
@@ -1357,28 +1357,6 @@
    "motivo_match": "Ente sanitario + oggetto IT ('PIATTAFORMA DIGITALE')",
    "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-19"
-  },
-  {
-   "id": "startsan:624018",
-   "fonti": [
-    "START Sanità Toscana"
-   ],
-   "titolo": "AFFIDAMENTO DIRETTO, DELLA DURATA DI 20 MESI, TRAMITE STIPULA DI CONVENZIONE, DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE DEI MODULI SOFTWARE REALIZZATI PER IL SERVIZIO DI RECUPERO CREDITI PREGRESSO DELL’AZIENDA USL TOSCANA CENTRO.",
-   "ente": "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale",
-   "scadenza": "2026-12-01",
-   "pubblicazione": "2026-11-16",
-   "importo": 99500.0,
-   "cpv": [
-    "72250000"
-   ],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=624018&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-01T13:00:00",
-   "regione": "Toscana",
-   "motivo_match": "Ente sanitario + CPV IT (72250000)",
-   "descrizione": "AFFIDAMENTO DIRETTO, DELLA DURATA DI 20 MESI, TRAMITE STIPULA DI CONVENZIONE, DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE DEI MODULI SOFTWARE REALIZZATI PER IL SERVIZIO DI RECUPERO CREDITI PREGRESSO DELL’AZIENDA USL TOSCANA CENTRO.",
-   "primo_rilevamento": "2026-11-19",
    "ultimo_rilevamento": "2026-11-19"
   },
   {
