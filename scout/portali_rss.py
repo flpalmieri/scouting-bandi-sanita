@@ -5,6 +5,12 @@ I feed non riportano i CPV, quindi il filtro lavora sul testo (titolo e
 descrizione). Ente, scadenza, CIG e importo vengono cercati sia nei campi
 dedicati dell'elemento RSS sia nel testo della descrizione.
 
+Opzioni per feed oltre a "campi": "ente" (ente fisso, per i feed di un solo ente),
+"escludi_titoli_regex" (titoli da scartare, es. aggiudicazioni), "escludi_stati",
+"timeout_connessione" e "tentativi" (come per i portali HTML).
+Con "campi: descrizione: []" la descrizione non viene letta (utile se contiene
+dati personali, es. il nome del RUP).
+
 A ogni esecuzione viene salvato in state/campioni/ un estratto grezzo della
 prima pagina di ogni feed, utile per verificare la struttura dei dati.
 """
@@ -110,6 +116,20 @@ def _cerca_campo(campi: dict[str, str], parole: tuple[str, ...]) -> str:
     return ""
 
 
+def _data_rss(valore: str | None) -> str | None:
+    """Date italiane/ISO (parse_data) e formato RSS "Wed, 18 Nov 2026 14:07:25 +0000"."""
+    if not valore:
+        return None
+    d = parse_data(valore)
+    if d:
+        return d
+    try:
+        from email.utils import parsedate_to_datetime
+        return parsedate_to_datetime(valore.strip()).date().isoformat()
+    except (TypeError, ValueError, IndexError):
+        return None
+
+
 RE_CODICE_CPV = re.compile(r"\b(\d{8})(?:-\d)?\b")
 
 
@@ -121,12 +141,17 @@ def _converti(campi: dict[str, str], feed: dict, filtro: Filtro) -> Opportunita 
         return None
 
     titolo = _valore(campi, mappa.get("titolo", ["title"])).replace("\n", " ")
+    escl = feed.get("escludi_titoli_regex")
+    if escl and re.search("|".join(f"(?:{e})" for e in escl), titolo, re.IGNORECASE):
+        return None
     descrizione = _valore(campi, mappa.get("descrizione", ["description", "summary", "content"]))
     if not titolo:
         return None
     tutto = f"{titolo}\n{descrizione}"
 
-    ente = (_valore(campi, mappa.get("ente"))
+    # "ente" fisso in config.yaml: per i feed di un solo ente, dove l'autore (dc:creator)
+    # e' una persona e non va ne' usato come ente ne' mostrato (es. ASL CN2, WordPress).
+    ente = feed.get("ente") or (_valore(campi, mappa.get("ente"))
             or _cerca_campo(campi, ("ente", "amministrazione", "stazione", "author", "creator")))
     if not ente:
         m = RE_ENTE.search(descrizione)
@@ -168,8 +193,8 @@ def _converti(campi: dict[str, str], feed: dict, filtro: Filtro) -> Opportunita 
         titolo=titolo,
         ente=ente,
         scadenza=scadenza,
-        pubblicazione=parse_data(_valore(campi, mappa.get("pubblicazione"))
-                                 or campi.get("pubdate") or campi.get("published")),
+        pubblicazione=_data_rss(_valore(campi, mappa.get("pubblicazione"))
+                                or campi.get("pubdate") or campi.get("published")),
         importo=importo,
         cpv=cpv,
         cig=sorted(cig),
@@ -201,6 +226,11 @@ def _pagine_previste(contenuto: bytes, url_modello: str) -> int | None:
 
 
 def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
+    # Attesa e tentativi per feed (come per i portali HTML): utili per i siti nuovi,
+    # che potrebbero non rispondere ai server di GitHub.
+    from .portali_html import _sessione_sito
+    sess = _sessione_sito(feed, sess)
+    attesa = (float(feed.get("timeout_connessione", 90)), 90)
     url_modello = feed["url"]
     paginato = "{pagina}" in url_modello
     max_pagine = int(feed.get("max_pagine", 30)) if paginato else 1
@@ -213,7 +243,7 @@ def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
         pagina += 1
         url = url_modello.replace("{pagina}", str(pagina))
         try:
-            r = sess.get(url, headers=HEADERS, timeout=90)
+            r = sess.get(url, headers=HEADERS, timeout=attesa)
             r.raise_for_status()
         except Exception as e:
             if pagina == 1:

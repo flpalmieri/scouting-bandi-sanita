@@ -12,6 +12,9 @@ Lettori disponibili:
                    CIG/data pubblicazione (USL Umbria 2, portali PAT di ISWEB come l'IZSUM,
                    AreaCom Abruzzo su Drupal).
   box_etichette  - riquadri C2I MediaCenter con etichette (AO Perugia).
+  teaser_drupal  - schede Drupal <article class="node-teaser"> con stato (field-workflow),
+                   "Pubblicato:" e "Scade:" (portale bandi ASL TO5). Il referente (nome,
+                   telefono, email) non viene letto.
   it_card        - schede Bootstrap Italia <article class="it-card"> con titolo nell'h3,
                    "Codice", "Inizio", "Scadenza" ed etichette di stato e tipo (ULSS 6 Euganea).
 
@@ -24,6 +27,10 @@ Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url
                           (es. 403 dai server di GitHub); stesso formato di url.
   timeout_connessione   - secondi di attesa per la connessione (default 60). Utile per i siti
                           che scartano in silenzio le connessioni dai server di GitHub.
+  escludi_stati         - stati da scartare (per i lettori che leggono lo stato: teaser_drupal,
+                          it_card), es. [Scaduto, Aggiudicato, Archiviato].
+  completa_catena_tls   - true per i siti che non inviano il certificato intermedio (errore
+                          "unable to get local issuer certificate"): vedi scout/tls.py.
   tentativi             - nuovi tentativi in caso di errore (default: quelli della sessione
                           comune, 5). Con un sito bloccato, pochi tentativi = poco tempo perso.
   scadenza_max_giorni   - se la "scadenza" e' piu' lontana di cosi' dalla pubblicazione
@@ -197,8 +204,39 @@ def lettore_it_card(pagina: str, url_base: str) -> list[dict]:
     return voci
 
 
+def lettore_teaser_drupal(pagina: str, url_base: str) -> list[dict]:
+    """Schede <article class="... node-teaser ..."> di Drupal (es. bandi.aslto5.piemonte.it):
+    titolo e link nell'h2, stato nel blocco "field-workflow", date nel blocco "field-pubblicazione"
+    ("Pubblicato: 16/11/2026" / "Scade: 11/12/2026 - 18:00"). Il blocco "field-referente"
+    contiene dati personali e viene ignorato."""
+    voci = []
+    for b in re.split(r'<article\b(?=[^>]*\bnode-teaser\b)', pagina)[1:]:
+        b = b.split("</article>", 1)[0]
+        m = re.search(r'<h2\b.*?<a([^>]*)>(.*?)</a>', b, re.DOTALL | re.IGNORECASE)
+        if not m:
+            continue
+        href = re.search(r'href="([^"]+)"', m.group(1))
+        stato = re.search(r'field-workflow[^"]*"[^>]*>(.*?)(?:<span|</div>)', b, re.DOTALL)
+        date_ = re.search(r'field-pubblicazione[^"]*"[^>]*>(.*?)</div>', b, re.DOTALL)
+        stato_t = _testo(stato.group(1)) if stato else ""
+        date_t = _testo(date_.group(1)) if date_ else ""
+        pubbl = re.search(r"Pubblicato\s*:?\s*" + RE_DATA_TESTO, date_t, re.IGNORECASE)
+        scade = re.search(r"Scade\w*\s*:?\s*" + RE_DATA_TESTO, date_t, re.IGNORECASE)
+        voci.append({
+            "titolo": RE_SPAZI.sub(" ", _testo(m.group(2))).strip(),
+            "link": urljoin(url_base, html.unescape(href.group(1))) if href else None,
+            "testo": f"Stato: {stato_t}. {date_t}".strip(),     # niente referente
+            "pubblicazione_grezza": pubbl.group(1) if pubbl else None,
+            "scadenza_grezza": scade.group(1) if scade else None,
+            "tipo_grezzo": "",
+            "stato_grezzo": stato_t,
+        })
+    return voci
+
+
 LETTORI = {"scheda_sito": lettore_scheda_sito, "tabella": lettore_tabella,
-           "box_etichette": lettore_box_etichette, "it_card": lettore_it_card}
+           "box_etichette": lettore_box_etichette, "it_card": lettore_it_card,
+           "teaser_drupal": lettore_teaser_drupal}
 RE_PROGRAMMAZIONE = re.compile(r"programmazione\s+(triennale|biennale)|programma\s+(triennale|biennale)", re.IGNORECASE)
 
 
@@ -232,6 +270,9 @@ def _esclusioni_sito(sito: dict) -> re.Pattern | None:
 def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     titolo, testo = voce["titolo"], voce["testo"]
     if not titolo:
+        return None
+    stato = (voce.get("stato_grezzo") or "").strip().lower()
+    if stato and stato in {x.lower() for x in sito.get("escludi_stati", [])}:
         return None
     escl = _esclusioni_sito(sito)
     if escl and escl.search(titolo):
@@ -307,6 +348,12 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
     lettore = LETTORI[sito["lettore"]]
     sess = _sessione_sito(sito, sess)
     attesa = (float(sito.get("timeout_connessione", 60)), 60)   # (connessione, lettura)
+    # Siti che non inviano il certificato intermedio: lo si scarica e si verifica la catena
+    # (vedi scout/tls.py). La verifica TLS resta sempre attiva.
+    verifica = True
+    if sito.get("completa_catena_tls"):
+        from .tls import completa_catena
+        verifica = completa_catena(sito["url"].replace("{pagina}", str(sito.get("pagina_iniziale", 1))))
     url_modello = sito["url"]
     alternativo = sito.get("url_alternativo")
     paginato = "{pagina}" in url_modello
@@ -319,7 +366,7 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
     for pagina in range(prima, prima + max_pagine):
         url = url_modello.replace("{pagina}", str(pagina))
         try:
-            r = sess.get(url, headers=HEADERS, timeout=attesa)
+            r = sess.get(url, headers=HEADERS, timeout=attesa, verify=verifica)
             r.raise_for_status()
         except requests.RequestException as e:
             # Alcuni portali bloccano i server cloud (es. 403 da GitHub Actions):
@@ -330,7 +377,7 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
             url_modello = alternativo
             url = url_modello.replace("{pagina}", str(pagina))
             try:
-                r = sess.get(url, headers=HEADERS, timeout=attesa)
+                r = sess.get(url, headers=HEADERS, timeout=attesa, verify=verifica)
                 r.raise_for_status()
             except requests.RequestException as e2:
                 raise RuntimeError(f"{sito['nome']}: indirizzo principale ({e}) e alternativo ({e2}) "

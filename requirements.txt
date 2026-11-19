@@ -1,2 +1,3 @@
 requests>=2.31
 PyYAML>=6.0
+cryptography>=42      # verifica delle catene di certificati (scout/tls.py)

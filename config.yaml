@@ -191,6 +191,27 @@ anac:
 portali_rss:
   abilitato: true
   feed:
+    - nome: ASL CN2
+      # Piemonte. Feed WordPress della pagina "Bandi di gara e contratti": 10 voci, circa tre
+      # settimane di pubblicazioni. Le procedure su Sintel non sono visibili pubblicamente.
+      nome_fonte: ASL CN2
+      sigla: aslcn2
+      ente: ASL CN2 Alba-Bra         # fisso: dc:creator e' il nome di chi pubblica, non l'ente
+      regione: Piemonte
+      campi:
+        titolo: [title]
+        descrizione: []              # la descrizione contiene solo il nome del RUP
+        pubblicazione: [pubdate]
+      # L'elenco mescola gare, esiti e adesioni a gare SCR Piemonte o di altre aziende.
+      escludi_titoli_regex:
+        - '\baggiudicazion'
+        - 'presa\s+d.atto'
+        - '\badesione\b'
+        - '\besito\b'
+        - '^\s*affidamento\s+diretto'
+      url: "https://www.aslcn2.it/bandi-gara-contratti/feed/"
+      timeout_connessione: 20        # sito nuovo: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
     - nome: EmPULIA bandi
       nome_fonte: EmPULIA
       sigla: empulia
@@ -342,6 +363,23 @@ portali_html:
         - '\badesione\b'
       # La "Scadenza" del sito e' la fine della pubblicazione (31/12/2031, 01/01/2032).
       scadenza_max_giorni: 365
+    - nome: ASL TO5
+      # Piemonte. Le procedure su Sintel sono quasi tutte non visibili pubblicamente (inviti);
+      # richieste di preventivo e avvisi aperti stanno sul portale bandi dell'ASL (Drupal).
+      nome_fonte: ASL TO5
+      sigla: aslto5
+      ente: ASL TO5
+      regione: Piemonte
+      lettore: teaser_drupal
+      # Ultime 3 pagine da 10 (ordine per pubblicazione); le pagine contano da 0.
+      url: "https://bandi.aslto5.piemonte.it/bandi-appalti?page={pagina}"
+      pagina_iniziale: 0
+      max_pagine: 3
+      escludi_stati: [Scaduto, Aggiudicato, Archiviato]
+      # Il server non invia il certificato intermedio (Sectigo): vedi scout/tls.py.
+      completa_catena_tls: true
+      timeout_connessione: 20        # sito nuovo: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
     - nome: IZS Umbria e Marche
       # DISATTIVATO (13/11/2026): i portali PAT di ISWEB rispondono 403 ai server di
       # GitHub, anche sull'indirizzo internetsoluzioni.it. Scelta: non aggirare il blocco.
