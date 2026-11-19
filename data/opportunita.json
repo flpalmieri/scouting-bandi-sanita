@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-19T22:53:09+00:00",
- "totale": 106,
+ "aggiornato_il": "2026-11-19T23:11:38+00:00",
+ "totale": 101,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -738,7 +738,7 @@
    "link": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18222552",
    "regione": "Emilia-Romagna",
    "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
-   "descrizione": "PROCEDURA NEGOZIATA AI SENSI DELL’ART. 76, COMMA 2, LETT. B) DEL D.LGS. 36/2023 PER LA FORNITURA DI UN SERVIZIO TRIENNALE DI MANUTENZIONE FULL RISK (FRI) E ASSISTENZA TECNICA A CHIAMATA E RICAMBI IN ACCORDO QUADRO ((RIC)AQ) SU APPARECCHIATURE DI PRODUZIONE GETEMED / EUMACO / MEDICALGORITHMICS E RELATIVE LICENZE IN DOTAZIONE ALL’IRCCS AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOLOGNA.; Lotti: Servizi di manutenzione su apparecchiature GETEMED / EUMACO / MEDICALGORITHMICS; Procedura: Negoziata",
+   "descrizione": "PROCEDURA NEGOZIATA AI SENSI DELL’ART. 76, COMMA 2, LETT. B) DEL D.LGS. 36/2023 PER LA FORNITURA DI UN SERVIZIO TRIENNALE DI MANUTENZIONE FULL RISK (FRI) E ASSISTENZA TECNICA A CHIAMATA E RICAMBI IN ACCORDO QUADRO ((RIC)AQ) SU APPARECCHIATURE DI PRODUZIONE GETEMED / EUMACO / MEDICALGORITHMICS E RELATIVE LICENZE IN DOTAZIONE ALL’IRCCS AZIENDA OSPEDALIERO-UNIVERSITARIA DI BOLOGNA.; Lotti: Servizi di manutenzione su apparecchiature GETEMED / EUMACO / MEDICALGORITHMICS; Procedura: Negoziata (Invito)",
    "primo_rilevamento": "2026-11-19",
    "ultimo_rilevamento": "2026-11-19"
   },
@@ -892,46 +892,6 @@
    "motivo_match": "Ente sanitario + oggetto IT ('applicativ')",
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-19"
-  },
-  {
-   "id": "intercenter:952cc5a11035",
-   "fonti": [
-    "Intercent-ER"
-   ],
-   "titolo": "PNRR TELEMEDICINA PER UN MIGLIOR SUPPORTO AI PAZIENTI CRONICI - Monitoraggio telefonico",
-   "ente": "AZIENDA USL DI FERRARA",
-   "scadenza": "2026-11-23",
-   "pubblicazione": "2026-11-17",
-   "importo": 130000.0,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18662517",
-   "regione": "Emilia-Romagna",
-   "motivo_match": "Ente sanitario + oggetto IT ('TELEMEDICIN')",
-   "descrizione": "PNRR M6C2: Innovazione, ricerca e digitalizzazione del servizio sanitario - I2.1:Rafforzamento e potenziamento della ricerca biomedica del SSN - Monitoraggio telefonico. Affidamento diretto ex art 50. c.1 let. b) Dlgs. 36/2023.; Procedura: Affidamento Diretto",
-   "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-19"
-  },
-  {
-   "id": "intercenter:5b2813970d56",
-   "fonti": [
-    "Intercent-ER"
-   ],
-   "titolo": "Richiesta di offerta ai sensi dell’art. 50 comma 1 lett. b) del D. Lgs. n. 36/2023 per l'acquisizione delle piattaforme software \"BASESPACE SEQUENCE HUB PROFESSIONAL\" ed “EMEDGENE”",
-   "ente": "ISTITUTO ORTOPEDICO RIZZOLI",
-   "scadenza": "2026-11-23",
-   "pubblicazione": "2026-11-10",
-   "importo": 10474.7,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18465271",
-   "regione": "Emilia-Romagna",
-   "motivo_match": "Ente sanitario + oggetto IT ('software')",
-   "descrizione": "Richiesta di offerta ai sensi dell’art. 50 comma 1 lett. b) del D. Lgs. n. 36/2023 per l'acquisizione delle piattaforme software \"BASESPACE SEQUENCE HUB PROFESSIONAL\" ed “EMEDGENE”, per l’elaborazione e l’archiviazione dei dati genetici per l’attività diagnostica della SC Malattie Rare Scheletriche dell’Istituto Ortopedico Rizzoli di Bologna - Anno 2026; Procedura: Affidamento Diretto",
-   "primo_rilevamento": "2026-11-19",
    "ultimo_rilevamento": "2026-11-19"
   },
   {
@@ -1235,26 +1195,6 @@
    "ultimo_rilevamento": "2026-11-19"
   },
   {
-   "id": "intercenter:9e5b0cd13a86",
-   "fonti": [
-    "Intercent-ER"
-   ],
-   "titolo": "APPLICATIVO AGRINET",
-   "ente": "AZIENDA USL DI MODENA",
-   "scadenza": "2026-11-26",
-   "pubblicazione": "2026-11-19",
-   "importo": 139999.99,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18465864",
-   "regione": "Emilia-Romagna",
-   "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
-   "descrizione": "Affidamento diretto ai sensi dell’art. 50, comma 1 lettera b), del D.lgs. 36/2023 per il servizio di realizzazione, implementazione, manutenzione dell'Applicativo AGRINET Durata dell’affidamento dal 01/01/2027 al 31/12/2028 Importo complessivo base d’asta non superabile € 118.000,00 IVA al 22% esclusa con opzione di ampliamento e/o proroga fino alla soglia di € 139.999,99 IVA esclusa.; Procedura: Affidamento Diretto",
-   "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-19"
-  },
-  {
    "id": "startsan-cons:622045",
    "fonti": [
     "START Sanità Toscana"
@@ -1491,26 +1431,6 @@
    "ultimo_rilevamento": "2026-11-19"
   },
   {
-   "id": "intercenter:517514f55ad1",
-   "fonti": [
-    "Intercent-ER"
-   ],
-   "titolo": "HUMASON",
-   "ente": "AZIENDA OSPEDALIERA-UNIVERSITARIA DI MODENA",
-   "scadenza": "2026-11-30",
-   "pubblicazione": "2026-11-17",
-   "importo": 139999.99,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18276075",
-   "regione": "Emilia-Romagna",
-   "motivo_match": "Ente sanitario + oggetto IT ('Software')",
-   "descrizione": "Affidamento diretto ai sensi dell’art. 50, comma 1 lettera b), del D.lgs. 36/2023 per la fornitura del Software HUMASON per l’automazione della protocollazione documentale di AOU Modena. Importo complessivo base d’asta non superabile € 87.520,00 IVA al 22% esclusa pari ad € 106.774,40 IVA al 22% compresa. Durata dell’affidamento dal 01/01/2027 al 31/12/2029 con opzione di ampliamento e/o proroga fino alla soglia di € 139.999,00 IVA esclusa.; Procedura: Affidamento Diretto",
-   "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-19"
-  },
-  {
    "id": "sintel:225580182",
    "fonti": [
     "Sintel"
@@ -1590,27 +1510,7 @@
    "link": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18700730",
    "regione": "Emilia-Romagna",
    "motivo_match": "Soggetto aggregatore + oggetto IT ('software') - da verificare",
-   "descrizione": "Affidamento diretto in regime di infungibilità tecnica dei servizi di sviluppo software su procedure software fornite da Zen Sistemi Srl (Questionario RENAM) della durata di 12 mesi in ambito PNC. CUP E39I23001530001 - pos.5/498-2026; Procedura: Negoziata",
-   "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-19"
-  },
-  {
-   "id": "intercenter:761178e0dbab",
-   "fonti": [
-    "Intercent-ER"
-   ],
-   "titolo": "Affidamento di un servizio di manutenzione e assistenza tecnica su impianti/caroselli CYBER",
-   "ente": "ISTITUTO ORTOPEDICO RIZZOLI",
-   "scadenza": "2026-11-30",
-   "pubblicazione": "2026-11-17",
-   "importo": 12310.0,
-   "cpv": [],
-   "cig": [],
-   "tipo": "bando",
-   "link": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18700880",
-   "regione": "Emilia-Romagna",
-   "motivo_match": "Ente sanitario + oggetto IT ('CYBER')",
-   "descrizione": "Affidamento di un servizio di manutenzione e assistenza tecnica su n. 2 caroselli orizzontali Pharma-Carousel e n. 1 impianto compattabile a movimentazione manuale di produzione CYBER in dotazione all'Istituto Ortopedico Rizzoli.; Procedura: Affidamento Diretto",
+   "descrizione": "Affidamento diretto in regime di infungibilità tecnica dei servizi di sviluppo software su procedure software fornite da Zen Sistemi Srl (Questionario RENAM) della durata di 12 mesi in ambito PNC. CUP E39I23001530001 - pos.5/498-2026; Procedura: Negoziata (Invito)",
    "primo_rilevamento": "2026-11-19",
    "ultimo_rilevamento": "2026-11-19"
   },
