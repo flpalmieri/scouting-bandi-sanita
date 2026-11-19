@@ -88,6 +88,9 @@ aggregatori_misti_regex:
   # SUAR Liguria: solo con la sigla o con "Liguria" vicino, per non includere le stazioni
   # uniche appaltanti di altre regioni (es. SUA-RB Basilicata).
   - '\bS\.?U\.?A\.?R\b|stazione\s+unica\s+appaltante\s+regional\w*.{0,60}liguri|liguri\w*.{0,60}stazione\s+unica\s+appaltante'
+  # Decisione di Flavio (19/11/2026): Regione Toscana (anche come soggetto aggregatore) compra
+  # IT per tutte le PA toscane, sanita' compresa. Le sue gare IT entrano "da verificare".
+  - '\bregione\s+toscana\b|giunta\s+regionale\s+(della\s+)?toscana'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
