@@ -17,7 +17,8 @@ Lettori disponibili:
                    telefono, email) non viene letto.
   publiccompetitions - elenchi del componente Joomla com_publiccompetitions (siti sanitari
                    liguri: ATS Liguria, ASL 3, IRCCS AOM, Gaslini): voci div.pc_latest_item
-                   con link "bando_link", "Data pubblicazione" e "Data chiusura". Si legge solo
+                   con link "bando_link", "Data pubblicazione" e "Data chiusura"; l'area che
+                   pubblica (ATS Liguria) si usa con l'opzione enti_per_area. Si legge solo
                    la prima pagina (la paginazione del sito funziona solo in POST): gli elenchi
                    sono ordinati dal piu' recente e bastano per un'esecuzione al giorno.
   it_card        - schede Bootstrap Italia <article class="it-card"> con titolo nell'h3,
@@ -38,6 +39,11 @@ Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url
                           "unable to get local issuer certificate"): vedi scout/tls.py.
   tentativi             - nuovi tentativi in caso di errore (default: quelli della sessione
                           comune, 5). Con un sito bloccato, pochi tentativi = poco tempo perso.
+  enti_per_area         - (lettore publiccompetitions) per gli elenchi con voci di piu' enti
+                          o aree (ATS Liguria): tabella "area come scritta sul sito" -> nome
+                          dell'ente. Usare per un'area lo stesso nome dell'ente di un altro
+                          sito che pubblica gli stessi avvisi, cosi' la deduplica li fonde.
+                          Un'area assente dalla tabella diventa "<ente> - <area>".
   scadenza_max_giorni   - se la "scadenza" e' piu' lontana di cosi' dalla pubblicazione
                           (default 365) non e' un termine di gara ma la fine della
                           pubblicazione sul sito: viene ignorata.
@@ -252,6 +258,15 @@ def lettore_publiccompetitions(pagina: str, url_base: str) -> list[dict]:
         ap = re.search(r"pc_latest_item_apertura[^>]*title=['\"]([^'\"]*)['\"]", b)
         ch = re.search(r"pc_latest_item_chiusura[^>]*title=['\"]([^'\"]*)['\"]", b)
         apertura, chiusura = (ap.group(1) if ap else ""), (ch.group(1) if ch else "")
+        # Negli elenchi multi-ente (ATS Liguria) un secondo blocco pc_latest_item_bando_titolo,
+        # senza h3, riporta l'area che pubblica ("Area sociosanitaria locale 3"). Lo si usa
+        # solo se il sito ha enti_per_area in config (altrove quel blocco contiene altro).
+        area = ""
+        for blocco in re.findall(r"<div\s+class=['\"][^'\"]*\bpc_latest_item_bando_titolo\b[^'\"]*['\"][^>]*>"
+                                 r"((?:(?!</div>).)*)</div>", b, re.DOTALL | re.IGNORECASE):
+            if "<h3" not in blocco.lower() and "bando_link" not in blocco:
+                area = RE_SPAZI.sub(" ", _testo(blocco)).strip()
+                break
         voci.append({
             "titolo": RE_SPAZI.sub(" ", _testo(m.group(2))).strip(),
             "link": urljoin(url_base, html.unescape(href.group(1))) if href else None,
@@ -260,6 +275,7 @@ def lettore_publiccompetitions(pagina: str, url_base: str) -> list[dict]:
             "scadenza_grezza": chiusura.split(":", 1)[-1].strip() or None,
             "tipo_grezzo": "",
             "stato_grezzo": "",
+            "area": area,
         })
     return voci
 
@@ -297,6 +313,20 @@ def _esclusioni_sito(sito: dict) -> re.Pattern | None:
     return _CACHE_ESCLUSIONI[nome]
 
 
+def _ente_voce(voce: dict, sito: dict) -> str:
+    """Ente della voce. Con enti_per_area (elenchi che mescolano piu' enti o aree, es. ATS
+    Liguria) l'area letta nella voce si traduce nel nome scritto in config: se coincide con
+    l'ente di un altro sito che pubblica lo stesso avviso, main.py fonde i due record.
+    Un'area non prevista diventa "<ente> - <area>"."""
+    ente = sito.get("ente", "")
+    mappa = sito.get("enti_per_area")
+    area = RE_SPAZI.sub(" ", voce.get("area") or "").strip()
+    if not mappa or not area:
+        return ente
+    norm = {RE_SPAZI.sub(" ", k).strip().lower(): v for k, v in mappa.items()}
+    return norm.get(area.lower()) or f"{ente} - {area}"
+
+
 def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     titolo, testo = voce["titolo"], voce["testo"]
     if not titolo:
@@ -307,7 +337,9 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     escl = _esclusioni_sito(sito)
     if escl and escl.search(titolo):
         return None
-    ente = sito.get("ente", "")
+    ente = _ente_voce(voce, sito)
+    if sito.get("enti_per_area") and voce.get("area"):
+        testo = f"Area: {voce['area']}. {testo}".strip()
     motivo = filtro.valuta_testo(titolo, ente, "")
     if not motivo and RE_PROGRAMMAZIONE.search(titolo) and filtro.re_ente and filtro.re_ente.search(ente):
         motivo = "Programmazione acquisti di un ente sanitario: consultala per le gare IT in arrivo"

@@ -76,6 +76,13 @@ aggregatori_misti_regex:
   - 'punto\s*zero'                     # Umbria: compra per la sanità ma anche per la Regione
   - 'areacom|agenzia\s+regionale\s+dell.abruzzo\s+per\s+la\s+committenza'   # Abruzzo: sanità, Regione e comuni
   - '\bSCR\s+piemonte\b|societ.\s+di\s+committenza\s+regione\s+piemonte'   # Piemonte: soggetto aggregatore (sanità e Regione)
+  # Decisione di Flavio (19/11/2026): societa' informatiche e centrali regionali che comprano
+  # anche per la sanita'. Le loro gare IT (TED, Sintel) entrano "da verificare".
+  - '\bCSI[\s-]*piemonte\b|consorzio\s+per\s+il\s+sistema\s+informativo'   # Piemonte: consorzio informatico regionale
+  - 'liguria\s+digitale'                                                    # Liguria: societa' informatica della Regione
+  # SUAR Liguria: solo con la sigla o con "Liguria" vicino, per non includere le stazioni
+  # uniche appaltanti di altre regioni (es. SUA-RB Basilicata).
+  - '\bS\.?U\.?A\.?R\b|stazione\s+unica\s+appaltante\s+regional\w*.{0,60}liguri|liguri\w*.{0,60}stazione\s+unica\s+appaltante'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -396,6 +403,26 @@ portali_html:
       regione: Liguria
       lettore: publiccompetitions
       url: "https://www.asl3.liguria.it/amministrazione-trasparente/bandi-di-gara-e-contratti/consultazioni-preliminari-mercato/publiccompetitions"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: ATS Liguria consultazioni
+      # Consultazioni preliminari di mercato centrali di ATS Liguria: un solo elenco per Liguria
+      # Salute e per le aree sociosanitarie (ex ASL 1-5). Circa 8 voci attive in una pagina.
+      # Le voci dell'area 3 compaiono anche nel blocco "ASL 3 consultazioni": stesso nome
+      # dell'ente in enti_per_area, cosi' main.py le fonde (stesso ente + stesso titolo).
+      nome_fonte: ATS Liguria
+      sigla: atscpm
+      ente: ATS Liguria
+      regione: Liguria
+      lettore: publiccompetitions
+      url: "https://www.atsliguria.it/amministrazione-trasparente-ats/amministrazione-trasparente/bandi-di-gara-e-contratti/consultazioni-preliminari-mercato/publiccompetitions/"
+      enti_per_area:
+        "Area Liguria Salute": "ATS Liguria - Area Liguria Salute"
+        "Area sociosanitaria locale 1": "ATS Liguria - Area sociosanitaria 1 Imperiese"
+        "Area sociosanitaria locale 2": "ATS Liguria - Area sociosanitaria 2 Savonese"
+        "Area sociosanitaria locale 3": "ATS Liguria - Area sociosanitaria 3 Genovese"   # = ente di "ASL 3 consultazioni"
+        "Area sociosanitaria locale 4": "ATS Liguria - Area sociosanitaria 4 Chiavarese"
+        "Area sociosanitaria locale 5": "ATS Liguria - Area sociosanitaria 5 Spezzino"
       timeout_connessione: 20
       tentativi: 1
     - nome: IRCCS AOM San Martino
