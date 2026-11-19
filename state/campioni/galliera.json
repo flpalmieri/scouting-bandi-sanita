@@ -1,0 +1,121 @@
+{
+  "@id": "https://www.galliera.it/++api++/amministrazione-trasparente/bandi-di-gara-e-contratti/@querystring-search", 
+  "items": [
+    {
+      "@id": "https://www.galliera.it/amministrazione-trasparente/bandi-di-gara-e-contratti/manifestazioni-di-interesse/affidamento-servizio-sorveglianza-sanitaria-e-radioprotezione-medica", 
+      "@type": "Bando", 
+      "Description": "Avviso di manifestazione di interesse", 
+      "Title": "Affidamento del servizio di sorveglianza sanitaria e di radioprotezione medica dell'E.O. Ospedali Galliera, della durata di 12 mesi, mediante professionisti in possesso dei requisiti di medico competente coordinatore, medico competente e medico autorizzato", 
+      "apertura_bando": "2026-10-30T09:00:00", 
+      "bando_state": [
+        "inProgress", 
+        "In corso"
+      ], 
+      "description": "Avviso di manifestazione di interesse", 
+      "design_italia_meta_type": "Bando", 
+      "effective": "2026-10-30T14:00:00+00:00", 
+      "exclude_from_nav": false, 
+      "id": "affidamento-servizio-sorveglianza-sanitaria-e-radioprotezione-medica", 
+      "image_field": "", 
+      "image_scales": null, 
+      "review_state": "published", 
+      "scadenza_bando": "2026-11-16T08:00:00+00:00", 
+      "tipologia_bando": "Bando di gara", 
+      "title": "Affidamento del servizio di sorveglianza sanitaria e di radioprotezione medica dell'E.O. Ospedali Galliera, della durata di 12 mesi, mediante professionisti in possesso dei requisiti di medico competente coordinatore, medico competente e medico autorizzato", 
+      "type_title": "Bando"
+    }, 
+    {
+      "@id": "https://www.galliera.it/amministrazione-trasparente/bandi-di-gara-e-contratti/manifestazioni-di-interesse/affidamento-del-servizio-di-assistenza-tecnica-e-manutenzione-full-risk-su-spettrometro-di-massa-tof-1", 
+      "@type": "Bando", 
+      "Description": "Avviso di manifestazione di interesse", 
+      "Title": "Affidamento del servizio di assistenza tecnica e manutenzione full risk su spettrometro di massa TOF", 
+      "apertura_bando": "2026-06-23T11:23:29", 
+      "bando_state": [
+        "inProgress", 
+        "In corso"
+      ], 
+      "description": "Avviso di manifestazione di interesse", 
+      "design_italia_meta_type": "Bando", 
+      "effective": "2026-06-23T11:30:15+00:00", 
+      "exclude_from_nav": false, 
+      "id": "affidamento-del-servizio-di-assistenza-tecnica-e-manutenzione-full-risk-su-spettrometro-di-massa-tof-1", 
+      "image_field": "", 
+      "image_scales": null, 
+      "review_state": "published", 
+      "scadenza_bando": "2026-07-08T11:23:46+00:00", 
+      "tipologia_bando": "Bando di gara", 
+      "title": "Affidamento del servizio di assistenza tecnica e manutenzione full risk su spettrometro di massa TOF", 
+      "type_title": "Bando"
+    }, 
+    {
+      "@id": "https://www.galliera.it/amministrazione-trasparente/bandi-di-gara-e-contratti/manifestazioni-di-interesse/avviso-di-manifestazione-interesse", 
+      "@type": "Bando", 
+      "Description": "Avviso di manifestazione di interesse", 
+      "Title": "Affidamento del servizio di assistenza tecnica e manutenzione full risk di due apparecchi radiologici diretti fissi di Pronto Soccorso in dotazione alla S.C. Radiodiagnostica", 
+      "apertura_bando": "2026-06-15T12:39:27", 
+      "bando_state": [
+        "inProgress", 
+        "In corso"
+      ], 
+      "description": "Avviso di manifestazione di interesse", 
+      "design_italia_meta_type": "Bando", 
+      "effective": "2026-06-15T13:00:19+00:00", 
+      "exclude_from_nav": false, 
+      "id": "avviso-di-manifestazione-interesse", 
+      "image_field": "", 
+      "image_scales": null, 
+      "review_state": "published", 
+      "scadenza_bando": "2026-06-30T10:30:00+00:00", 
+      "tipologia_bando": "Bando di gara", 
+      "title": "Affidamento del servizio di assistenza tecnica e manutenzione full risk di due apparecchi radiologici diretti fissi di Pronto Soccorso in dotazione alla S.C. Radiodiagnostica", 
+      "type_title": "Bando"
+    }, 
+    {
+      "@id": "https://www.galliera.it/amministrazione-trasparente/bandi-di-gara-e-contratti/fasi/fase-di-pubblicazione/documenti-di-gara/gare-1/dipartimento-giuridico-economico/bandi-ed-esiti-di-gara/affidamento-in-concessione-della-gestione-del-servizio-asilo-nido-aziendale-dell2019e-o-ospedali-galliera-denominato-201cil-coniglio-blu201d-per-anni-5-cinque-indizione-cig-ba80d1e7ca", 
+      "@type": "Bando", 
+      "Description": "Procedura aperta ai sensi del combinato disposto di cui agli artt. 71 e 128 del D.Lgs 36/2023, da espletarsi tramite piattaforma telematica SinTel", 
+      "Title": "Affidamento in concessione della gestione del servizio Asilo nido aziendale dell\u2019E.O. Ospedali Galliera denominato \u201cIl Coniglio Blu\u201d per anni 5 (cinque). Indizione - CIG BA80D1E7CA", 
+      "apertura_bando": "1100-01-01T00:00:00", 
+      "bando_state": [
+        "closed", 
+        "Chiuso"
+      ], 
+      "description": "Procedura aperta ai sensi del combinato disposto di cui agli artt. 71 e 128 del D.Lgs 36/2023, da espletarsi tramite piattaforma telematica SinTel", 
+      "design_italia_meta_type": "Bando", 
+      "effective": "2026-03-17T08:50:01+00:00", 
+      "exclude_from_nav": false, 
+      "id": "affidamento-in-concessione-della-gestione-del-servizio-asilo-nido-aziendale-dell2019e-o-ospedali-galliera-denominato-201cil-coniglio-blu201d-per-anni-5-cinque-indizione-cig-ba80d1e7ca", 
+      "image_field": "", 
+      "image_scales": null, 
+      "review_state": "published", 
+      "scadenza_bando": "2026-04-21T10:00:00+00:00", 
+      "tipologia_bando": "Bando di gara", 
+      "title": "Affidamento in concessione della gestione del servizio Asilo nido aziendale dell\u2019E.O. Ospedali Galliera denominato \u201cIl Coniglio Blu\u201d per anni 5 (cinque). Indizione - CIG BA80D1E7CA", 
+      "type_title": "Bando"
+    }, 
+    {
+      "@id": "https://www.galliera.it/amministrazione-trasparente/bandi-di-gara-e-contratti/fasi/fase-di-pubblicazione/documenti-di-gara/gare-1/dipartimento-giuridico-economico/bandi-ed-esiti-di-gara/aggiornamento-tecnologico-della-risonanza-magnetica", 
+      "@type": "Bando", 
+      "Description": "Avviso di consultazione preliminare di mercato ai sensi dell'art. 77 del D.Lgs n.36/2023", 
+      "Title": "Aggiornamento tecnologico della risonanza magnetica", 
+      "apertura_bando": "1100-01-01T00:00:00", 
+      "bando_state": [
+        "closed", 
+        "Chiuso"
+      ], 
+      "description": "Avviso di consultazione preliminare di mercato ai sensi dell'art. 77 del D.Lgs n.36/2023", 
+      "design_italia_meta_type": "Bando", 
+      "effective": "2025-01-14T12:37:00+00:00", 
+      "exclude_from_nav": false, 
+      "id": "aggiornamento-tecnologico-della-risonanza-magnetica", 
+      "image_field": "", 
+      "image_scales": null, 
+      "review_state": "published", 
+      "scadenza_bando": "2025-01-31T11:00:00+00:00", 
+      "tipologia_bando": "gara", 
+      "title": "Aggiornamento tecnologico della risonanza magnetica", 
+      "type_title": "Bando"
+    }
+  ], 
+  "items_total": 5
+}

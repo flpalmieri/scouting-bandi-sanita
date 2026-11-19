@@ -3,7 +3,7 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 299
+  "righe_lette": 298
  },
  "lombardia_ambito_4": {
   "righe_prima_pagina": 95,
@@ -42,12 +42,12 @@
   "righe_lette": 12
  },
  "lombardia": {
-  "righe_lette": 569,
+  "righe_lette": 568,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 17,
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 16,
    "ASST DELLA VALLE OLONA": 13,
-   "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 13,
+   "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 12,
    "ASST DI BERGAMO OVEST": 11,
    "ASST DI MANTOVA": 10,
    "ASST LARIANA": 10,
