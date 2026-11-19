@@ -339,10 +339,12 @@ portali_rss:
       # gara vista su TED e su START Sanita' (se anche i titoli coincidono).
       enti_rinomina:
         "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale": "ESTAR"
-      # "Affidamento Diretto": procedure riservate agli operatori invitati ("Invito", verificato
-      # sulle pagine di 623837 e 624018 il 19/11/2026), come gli affidamenti diretti di Sintel.
+      # Procedure riservate agli operatori invitati, come gli affidamenti diretti di Sintel:
+      # "Affidamento Diretto" (pagina di 624018: "Invito") e "Richiesta Preventivo" (pagina di
+      # 623837: "Invito"; 624444 dichiara "affidamento diretto art. 50 c.1 lett. b"). Verificato il
+      # 20/11/2026. Restano le "Negoziata" (art. 76 c.2 lett. b = unico fornitore: infungibilita').
       escludi_campi:
-        TipoProcedura: [Affidamento Diretto]
+        TipoProcedura: [Affidamento Diretto, Richiesta Preventivo]
       url: "https://www.sanita.start.toscana.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=20&nPag={pagina}"
       timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
       tentativi: 1
