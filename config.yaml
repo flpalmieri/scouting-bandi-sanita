@@ -34,6 +34,11 @@ enti_sanitari_regex:
   - 'tutela\s+della\s+salute'
   - 'giannina\s+gaslini'
   - 'liguria\s+salute|\bA\.\s?Li\.\s?Sa\b'
+  # Toscana (19/11/2026): nomi usati su START, sanita.start e TED.
+  - 'unit[aà]?\W{0,2}\s*sanitari\w*\s+local'   # "AZIENDA UNITA' SANITARIA LOCALE TOSCANA CENTRO / SUD-EST"
+  - '\bmonasterio\b'                           # Fondazione Toscana Gabriele Monasterio
+  - '\bISPRO\b|rete\s+oncologica'               # Istituto per lo studio, la prevenzione e la rete oncologica
+  - '\bsoc(iet[aà]|\.)\s*della\s+salute'         # Societa' della Salute (es. "COESO-SOC.DELLA SALUTE")
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -133,6 +138,7 @@ parole_chiave_it_regex:
   - 'full\s+managed|managed\s+(service|security)'
   - 'middleware|api\s+(gateway|management)'
   - '\bLIMS\b|laboratory\s+information|information\s+management\s+system'   # sistemi informativi di laboratorio (IZS)
+  - '\bHW\s*/\s*SW\b'                  # "sistemi HW/SW" (consultazioni ESTAR)
   - 'digitalizzazion'
   - 'dematerializzazion'
   - 'interoperabilit'
@@ -302,6 +308,55 @@ portali_rss:
         stato: [statoFunzionale]
         id: [IdMsg]
       url: "https://aura.puntozeroscarl.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
+
+    # --- Toscana: portale gare SSR sanita.start.toscana.it (ESTAR) ---
+    # Stesso software di EmPULIA e A.U.R.A. (campi afs:): stessa mappa dei campi.
+    # Enti: ESTAR (centrale d'acquisto di tutte le aziende sanitarie toscane), USL Centro e
+    # Nord Ovest, Careggi, Meyer, Regione Toscana. Circa 60 bandi in corso (19/11/2026).
+    - nome: START Sanita bandi
+      nome_fonte: START Sanità Toscana
+      sigla: startsan
+      regione: Toscana
+      tipo: bando
+      max_pagine: 10               # 20 per pagina; il feed dichiara il totale (totRecord)
+      escludi_stati: [Revocato, Annullato]
+      campi:                      # nomi dei campi afs: del feed (senza prefisso)
+        titolo: [Oggetto, TitoloDocumento]
+        descrizione: [TitoloDocumento]
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cig: [CIG]
+        cpv: [CPV]
+        stato: [statoFunzionale]
+        id: [IdMsg]
+      url: "https://www.sanita.start.toscana.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=20&nPag={pagina}"
+      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+    - nome: START Sanita consultazioni
+      # Consultazioni preliminari e avvisi esplorativi (quasi tutti ESTAR). Il feed ha circa
+      # 950 voci comprese le vecchie, ordinate per scadenza decrescente: 3 pagine bastano.
+      nome_fonte: START Sanità Toscana
+      sigla: startsan-cons
+      regione: Toscana
+      tipo: consultazione di mercato
+      max_pagine: 3
+      escludi_stati: [Revocato, Annullato]
+      campi:                      # stesso schema afs: dei bandi (verificato il 19/11/2026)
+        titolo: [Oggetto, TitoloDocumento]
+        descrizione: [TitoloDocumento]
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cig: [CIG]
+        cpv: [CPV]
+        stato: [statoFunzionale]
+        id: [IdMsg]
+      url: "https://www.sanita.start.toscana.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
+      timeout_connessione: 20
+      tentativi: 1
 
 # --- Siti che pubblicano i bandi solo come pagine HTML ---------------------
 # lettore: il modello di pagina (vedi scout/portali_html.py).
