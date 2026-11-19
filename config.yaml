@@ -534,6 +534,35 @@ sintel:
   # Esclusi 3 farmaci, 6 forniture/servizi ferroviari, 10 concorsi di progettazione.
   ambiti: [2, 4, 5, 7, 8, 9, 11]
 
+# --- Siti Plone + Volto (design-italia, RedTurtle) ------------------------------
+# L'elenco dei bandi arriva dalla REST API standard di Plone (@querystring-search),
+# senza login: si leggono titolo, descrizione, scadenza, apertura e link. Per un altro
+# ente con lo stesso software basta un blocco con host e percorso della sezione bandi.
+# Vedi scout/plone.py.
+plone:
+  abilitato: true
+  siti:
+    - nome: Galliera
+      # Liguria. E.O. Ospedali Galliera: manifestazioni di interesse, consultazioni e avvisi
+      # (circa 5 voci in tutto al 19/11/2026, comprese le scadute).
+      nome_fonte: Galliera
+      sigla: galliera
+      ente: E.O. Ospedali Galliera
+      regione: Liguria
+      host: "https://www.galliera.it"
+      percorso: "/amministrazione-trasparente/bandi-di-gara-e-contratti"
+      tipi_contenuto: [Bando]
+      max_risultati: 100
+      escludi_titoli_regex:
+        - '\baggiudicazion'
+        - '\besito\b'
+      # Le gare svolte su Sintel ("tramite piattaforma telematica SinTel") le legge gia' il
+      # modulo sintel: si scartano qui per non averle due volte con nomi di ente diversi.
+      escludi_descrizioni_regex:
+        - '\bsintel\b'
+      timeout_connessione: 20        # sito nuovo: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+
 # --- Conservazione -----------------------------------------------------
 giorni_conservazione_scadute: 30      # dopo la scadenza, per quanto tenere un avviso
 giorni_conservazione_senza_scadenza: 120

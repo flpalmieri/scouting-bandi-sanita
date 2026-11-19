@@ -19,14 +19,14 @@ from pathlib import Path
 
 import yaml
 
-from . import acquistitelematici, anac, portali_html, portali_rss, sintel, ted
+from . import acquistitelematici, anac, plone, portali_html, portali_rss, sintel, ted
 from .common import (Filtro, Opportunita, chiave_testo, log, pulisci_titolo,
                      sessione_http)
 
 DATA = Path("data")
 FONTI = {"ted": ted.raccogli, "anac": anac.raccogli, "portali_rss": portali_rss.raccogli,
          "portali_html": portali_html.raccogli, "acquistitelematici": acquistitelematici.raccogli,
-         "sintel": sintel.raccogli}
+         "sintel": sintel.raccogli, "plone": plone.raccogli}
 NOMI_CAMPI = {f.name for f in fields(Opportunita)}
 
 
@@ -181,6 +181,7 @@ def main() -> int:
     riepilogo["errori"].extend(f"portali_html: {e}" for e in portali_html.ERRORI)
     riepilogo["errori"].extend(f"acquistitelematici: {e}" for e in acquistitelematici.ERRORI)
     riepilogo["errori"].extend(f"sintel: {e}" for e in sintel.ERRORI)
+    riepilogo["errori"].extend(f"plone: {e}" for e in plone.ERRORI)
 
     storico = carica_storico()
     prima = set(storico)
