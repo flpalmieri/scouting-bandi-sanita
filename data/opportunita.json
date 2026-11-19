@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-19T08:39:25+00:00",
- "totale": 75,
+ "aggiornato_il": "2026-11-19T14:09:15+00:00",
+ "totale": 78,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -850,6 +850,26 @@
    "ultimo_rilevamento": "2026-11-19"
   },
   {
+   "id": "sintel:226820354",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSE PER L’AFFIDAMENTO DELLA FORNITURA DI N. 500 LICENZE CITRIX HMC PER UN PERIODO DI 36 MESI",
+   "ente": "ASST DI MANTOVA",
+   "scadenza": "2026-11-24",
+   "pubblicazione": "2026-11-19",
+   "importo": 0.01,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226820354",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
+   "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
    "id": "empulia:2939614",
    "fonti": [
     "EmPULIA"
@@ -934,6 +954,26 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
    "ultimo_rilevamento": "2026-11-06"
+  },
+  {
+   "id": "sintel:226822857",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSE PER L’AFFIDAMENTO DEL SERVIZIO DI CONTROLLO DOSIMETRICO E RELATIVA FORNITURA IN USO DEI DOSIMETRI, COMPRENSIVO DI APPLICATIVO SOFTWARE DI MONITORAGGIO, PER IL PERSONALE DELL'A.S.S.T. DI MANTOVA ESPOSTO A RADIAZIONI IONIZZANTI, PER UN PERIODO DI 72 MESI.",
+   "ente": "ASST DI MANTOVA",
+   "scadenza": "2026-11-26",
+   "pubblicazione": "2026-11-19",
+   "importo": 0.01,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226822857",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
+   "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "sintel:224328619",
@@ -1063,6 +1103,26 @@
    "motivo_match": "Ente sanitario + oggetto IT ('MANUTENZIONE EVOLUTIVA')",
    "descrizione": "Tipo Sintel: Procedura Aperta; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
+   "id": "sintel:226818503",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS. 36/2023, DEL SERVIZIO DI ASSISTENZA TECNICA E MANUTENZIONE ORDINARIA E STRAORDINARIA SUL SISTEMA CENTRALE INFORMATICO DELL’ATS DELL’INSUBRIA OCCORRENTE PER IL PERIODO DI 12 MESI",
+   "ente": "ATS DELL'INSUBRIA",
+   "scadenza": "2026-11-30",
+   "pubblicazione": "2026-11-19",
+   "importo": 35000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226818503",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
+   "descrizione": "Tipo Sintel: Affidamento diretto previa richiesta di preventivi; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-19",
    "ultimo_rilevamento": "2026-11-19"
   },
   {
