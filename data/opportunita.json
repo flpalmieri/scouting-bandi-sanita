@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-19T21:28:36+00:00",
- "totale": 91,
+ "aggiornato_il": "2026-11-19T21:36:48+00:00",
+ "totale": 89,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -1290,54 +1290,6 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
    "ultimo_rilevamento": "2026-10-29"
-  },
-  {
-   "id": "startsan:623837",
-   "fonti": [
-    "START Sanità Toscana"
-   ],
-   "titolo": "Affidamento diretto per la fornitura di un “Progetto pilota per un sistema di Intelligenza Artificiale integrato nel flusso RIS-PACS per potenziare la diagnostica senologica clinica e di screening” con previsione di prima adesione per ISPRO. Stipula convenzione per la durata di 12 mesi.",
-   "ente": "ESTAR",
-   "scadenza": "2026-11-30",
-   "pubblicazione": "2026-11-19",
-   "importo": 139000.0,
-   "cpv": [
-    "48982000"
-   ],
-   "cig": [
-    "BDE31BEE14"
-   ],
-   "tipo": "bando",
-   "link": "https://www.sanita.start.toscana.it/portalegare/index.php/bandi?getdettaglio=yes&bando=623837&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T13:00:00",
-   "regione": "Toscana",
-   "motivo_match": "Ente sanitario + CPV IT (48982000)",
-   "descrizione": "REV1.- Progetto pilota per un sistema di Intelligenza Artificiale integrato nel flusso RIS-PACS per ISPRO",
-   "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-19"
-  },
-  {
-   "id": "startsan:624444",
-   "fonti": [
-    "START Sanità Toscana"
-   ],
-   "titolo": "AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D. LGS- 36/2023 E SS.MM.II. PER LA FORNITURA DEVICE SERVER PER STRUMENTI LIS MOXA COMPATIBILE DA DESTINARE ALLE AZIENDE SANITARIE DELLA REGIONE TOSCANA, PER LA DURA TA DI 24 MESI",
-   "ente": "ESTAR",
-   "scadenza": "2026-11-30",
-   "pubblicazione": "2026-11-18",
-   "importo": 70000.0,
-   "cpv": [
-    "30236000"
-   ],
-   "cig": [
-    "BDDA7566AD"
-   ],
-   "tipo": "bando",
-   "link": "https://www.sanita.start.toscana.it/portalegare/index.php/bandi?getdettaglio=yes&bando=624444&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T13:00:00",
-   "regione": "Toscana",
-   "motivo_match": "Ente sanitario + oggetto IT ('LIS')",
-   "descrizione": "FORNITURA DEVICE SERVER PER STRUMENTI LIS MOXA COMPATIBILI",
-   "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "sintel:226429225",
