@@ -15,6 +15,11 @@ Lettori disponibili:
   teaser_drupal  - schede Drupal <article class="node-teaser"> con stato (field-workflow),
                    "Pubblicato:" e "Scade:" (portale bandi ASL TO5). Il referente (nome,
                    telefono, email) non viene letto.
+  publiccompetitions - elenchi del componente Joomla com_publiccompetitions (siti sanitari
+                   liguri: ATS Liguria, ASL 3, IRCCS AOM, Gaslini): voci div.pc_latest_item
+                   con link "bando_link", "Data pubblicazione" e "Data chiusura". Si legge solo
+                   la prima pagina (la paginazione del sito funziona solo in POST): gli elenchi
+                   sono ordinati dal piu' recente e bastano per un'esecuzione al giorno.
   it_card        - schede Bootstrap Italia <article class="it-card"> con titolo nell'h3,
                    "Codice", "Inizio", "Scadenza" ed etichette di stato e tipo (ULSS 6 Euganea).
 
@@ -234,9 +239,34 @@ def lettore_teaser_drupal(pagina: str, url_base: str) -> list[dict]:
     return voci
 
 
+def lettore_publiccompetitions(pagina: str, url_base: str) -> list[dict]:
+    """Voci <div class='row pc_latest_item ...'> di com_publiccompetitions: titolo nel link
+    a.bando_link dentro l'h3, date negli attributi title dei blocchi pc_latest_item_apertura
+    ("Data pubblicazione: 26 Ottobre 2026") e pc_latest_item_chiusura ("Data chiusura: ...")."""
+    voci = []
+    for b in re.split(r"<div\s+class=['\"](?=[^'\"]*\bpc_latest_item\b(?![_-]))[^'\"]*['\"]", pagina)[1:]:
+        m = re.search(r"<a\b(?=[^>]*\bbando_link\b)([^>]*)>(.*?)</a>", b, re.DOTALL | re.IGNORECASE)
+        if not m:
+            continue
+        href = re.search(r'href=["\']([^"\']+)["\']', m.group(1))
+        ap = re.search(r"pc_latest_item_apertura[^>]*title=['\"]([^'\"]*)['\"]", b)
+        ch = re.search(r"pc_latest_item_chiusura[^>]*title=['\"]([^'\"]*)['\"]", b)
+        apertura, chiusura = (ap.group(1) if ap else ""), (ch.group(1) if ch else "")
+        voci.append({
+            "titolo": RE_SPAZI.sub(" ", _testo(m.group(2))).strip(),
+            "link": urljoin(url_base, html.unescape(href.group(1))) if href else None,
+            "testo": " ".join(x for x in (apertura, chiusura) if x),
+            "pubblicazione_grezza": apertura.split(":", 1)[-1].strip() or None,
+            "scadenza_grezza": chiusura.split(":", 1)[-1].strip() or None,
+            "tipo_grezzo": "",
+            "stato_grezzo": "",
+        })
+    return voci
+
+
 LETTORI = {"scheda_sito": lettore_scheda_sito, "tabella": lettore_tabella,
            "box_etichette": lettore_box_etichette, "it_card": lettore_it_card,
-           "teaser_drupal": lettore_teaser_drupal}
+           "teaser_drupal": lettore_teaser_drupal, "publiccompetitions": lettore_publiccompetitions}
 RE_PROGRAMMAZIONE = re.compile(r"programmazione\s+(triennale|biennale)|programma\s+(triennale|biennale)", re.IGNORECASE)
 
 

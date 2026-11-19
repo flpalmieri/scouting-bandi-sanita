@@ -28,6 +28,12 @@ enti_sanitari_regex:
   - '\bA\.?O\.?U\.?I?\b'                  # Azienda Ospedaliero-Universitaria (AOU, A.O.U., AOUI)
   - 'istituto\s+oncologic|\bIOV\b'     # Istituto Oncologico Veneto (IRCCS) anche senza la parola IRCCS
   - '\bA\.\s?O\.(?=\s)'                 # "A.O. ORDINE MAURIZIANO TORINO" (Azienda Ospedaliera)
+  # Liguria (riforma dal 1/1/2026): ATS Liguria - Azienda Tutela della Salute (ex ASL 1-5 e
+  # Liguria Salute / A.Li.Sa.), su Sintel come "AZIENDA TUTELA DELLA SALUTE LIGURIA"; Gaslini
+  # su Sintel come "ISTITUTO GIANNINA GASLINI" (senza IRCCS).
+  - 'tutela\s+della\s+salute'
+  - 'giannina\s+gaslini'
+  - 'liguria\s+salute|\bA\.\s?Li\.\s?Sa\b'
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -379,6 +385,51 @@ portali_html:
       # Il server non invia il certificato intermedio (Sectigo): vedi scout/tls.py.
       completa_catena_tls: true
       timeout_connessione: 20        # sito nuovo: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+    # --- Liguria: componente Joomla com_publiccompetitions (lettore publiccompetitions) ---
+    # Le gare di ATS Liguria (CRAS), IRCCS AOM e Gaslini sono su Sintel; dai siti si leggono
+    # gli avvisi che su Sintel non ci sono (consultazioni preliminari, procedure dei singoli enti).
+    - nome: ASL 3 consultazioni
+      nome_fonte: ATS Liguria
+      sigla: asl3cpm
+      ente: ATS Liguria - Area sociosanitaria 3 Genovese
+      regione: Liguria
+      lettore: publiccompetitions
+      url: "https://www.asl3.liguria.it/amministrazione-trasparente/bandi-di-gara-e-contratti/consultazioni-preliminari-mercato/publiccompetitions"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: IRCCS AOM San Martino
+      nome_fonte: IRCCS AOM
+      sigla: aom
+      ente: IRCCS AOM - Azienda Ospedaliera Metropolitana (San Martino)
+      regione: Liguria
+      lettore: publiccompetitions
+      url: "https://www.ospedalesanmartino.it/it/bandi/publiccompetitions"
+      # Elenco misto: oltre alle gare e alle consultazioni (CPM_...) contiene concorsi,
+      # borse di studio, incarichi e affidamenti gia' assegnati.
+      escludi_titoli_regex:
+        - '\bconcors'
+        - 'borsa\s+di\s+studio'
+        - '\bselezion'
+        - 'procedura\s+comparativa'
+        - '\bincaric'
+        - '\bratifica\b'
+        - '\baggiudicazion'
+        - '[-–]\s*affidamento\b'
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: IRCCS Gaslini
+      nome_fonte: IRCCS Gaslini
+      sigla: gaslini
+      ente: IRCCS Istituto Giannina Gaslini
+      regione: Liguria
+      lettore: publiccompetitions
+      url: "https://amministrazione-trasparente.gaslini.org/amministrazione-trasparente/bandi-di-gara-e-contratti/atti-amministrazioni-aggiudicatrici/avvisi-e-bandi/publiccompetitions"
+      escludi_titoli_regex:
+        - '\baggiudicazion'
+      # Per gli esiti la "Data chiusura" e' la fine del contratto (anche 2030): ignorata.
+      scadenza_max_giorni: 365
+      timeout_connessione: 20
       tentativi: 1
     - nome: IZS Umbria e Marche
       # DISATTIVATO (13/11/2026): i portali PAT di ISWEB rispondono 403 ai server di
