@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-19T14:09:15+00:00",
- "totale": 78,
+ "aggiornato_il": "2026-11-19T18:51:50+00:00",
+ "totale": 84,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -1340,6 +1340,49 @@
    "ultimo_rilevamento": "2026-11-12"
   },
   {
+   "id": "ted:790518-2026",
+   "fonti": [
+    "Sintel",
+    "TED"
+   ],
+   "titolo": "Gara europea a procedura aperta indetta ai sensi del D.Lgs. 36/2023 per l’affidamento dei servizi di conduzione applicativa ed evolutiva del sistema Port Community System (PCS) e servizi correlati dell’Autorità di Sistema Portuale del Mar Ligure Occidentale",
+   "ente": "Liguria Digitale S.p.A.",
+   "scadenza": "2026-12-03",
+   "pubblicazione": "2026-11-13",
+   "importo": 12537000.0,
+   "cpv": [
+    "72500000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/790518-2026",
+   "regione": "Liguria",
+   "motivo_match": "Soggetto aggregatore + CPV IT (72500000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
+   "id": "sintel:226853504",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "AVVISO PUBBLICO DI CONSULTAZIONE PRELIMINARE DEL MERCATO, AI SENSI DELL’ART. 77 DEL D.LGS. 36/2023, PER L’ACQUISIZIONE DI INFORMAZIONI SU SOLUZIONI INNOVATIVE BASATE SU TECNOLOGIE DI INTELLIGENZA ARTIFICIALE A SUPPORTO DELLA DOCUMENTAZIONE CLINICA, DELLA VERIFICA DEI PREREQUISITI, DELLA PIANIFICAZIONE DELLE ATTIVITÀ E DELLA SIMULAZIONE DELLA CAPACITÀ OPERATIVA DELLA DAY SURGERY ONCOLOGICA",
+   "ente": "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI",
+   "scadenza": "2026-12-04",
+   "pubblicazione": "2026-11-19",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226853504",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('INTELLIGENZA ARTIFICIALE')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
    "id": "ted:768150-2026",
    "fonti": [
     "TED"
@@ -1467,6 +1510,86 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72000000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-18",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
+   "id": "sintel:207615667",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Bando per l’istituzione del Sistema Dinamico di Acquisizione ai sensi dell’art. 32 del d.lgs. n. 36/2023 per l’affidamento delle forniture di apparecchiatura informatica per Liguria Digitale ed Enti Soci",
+   "ente": "LIGURIA DIGITALE S.P.A.",
+   "scadenza": "2029-09-25",
+   "pubblicazione": "2025-09-26",
+   "importo": 4000000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=207615667",
+   "regione": "Liguria",
+   "motivo_match": "Soggetto aggregatore + oggetto IT ('informatic') - da verificare",
+   "descrizione": "Tipo Sintel: Sistema Dinamico di Acquisizione - Bando istitutivo; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
+   "id": "sintel:217957222",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Bando per l’istituzione del Sistema Dinamico di Acquisizione ai sensi dell’art. 32 del D.Lgs. n. 36/2023 per l’affidamento delle forniture di licenze software per Liguria Digitale ed Enti Soci",
+   "ente": "LIGURIA DIGITALE S.P.A.",
+   "scadenza": "2030-04-16",
+   "pubblicazione": "2026-04-17",
+   "importo": 4000000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=217957222",
+   "regione": "Liguria",
+   "motivo_match": "Soggetto aggregatore + oggetto IT ('licenze software') - da verificare",
+   "descrizione": "Tipo Sintel: Sistema Dinamico di Acquisizione - Bando istitutivo; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
+   "id": "sintel:222659368",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Bando per l’istituzione del Sistema Dinamico di Acquisizione ai sensi dell’art. 32 del D.lgs. n. 36/2023 per l’affidamento delle forniture di apparecchiatura informatica per Liguria Digitale ed Enti Soci – Edizione 2",
+   "ente": "LIGURIA DIGITALE S.P.A.",
+   "scadenza": "2031-08-02",
+   "pubblicazione": "2026-08-03",
+   "importo": 20000000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=222659368",
+   "regione": "Liguria",
+   "motivo_match": "Soggetto aggregatore + oggetto IT ('informatic') - da verificare",
+   "descrizione": "Tipo Sintel: Sistema Dinamico di Acquisizione - Bando istitutivo; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-19"
+  },
+  {
+   "id": "sintel:225416241",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Bando per l’istituzione del Sistema Dinamico di Acquisizione ai sensi dell’art. 32 del D.lgs. n. 36/2023 per l’affidamento delle forniture di licenze software per Liguria Digitale ed Enti Soci – edizione 2",
+   "ente": "LIGURIA DIGITALE S.P.A.",
+   "scadenza": "2031-10-14",
+   "pubblicazione": "2026-10-15",
+   "importo": 20000000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225416241",
+   "regione": "Liguria",
+   "motivo_match": "Soggetto aggregatore + oggetto IT ('licenze software') - da verificare",
+   "descrizione": "Tipo Sintel: Sistema Dinamico di Acquisizione - Bando istitutivo; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-19",
    "ultimo_rilevamento": "2026-11-19"
   },
   {
