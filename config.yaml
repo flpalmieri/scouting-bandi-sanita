@@ -842,7 +842,7 @@ acquistitelematici:
       regione: Abruzzo
       tipi: [procedure-gara, manifestazioni-interesse]
       max_risultati: 50            # le più recenti per data di pubblicazione (circa 100 l'anno per tipo)
-      escludi_stati: [annullata]
+      escludi_stati: [annullata, tender_canceled]   # DigitalPA usa entrambi per le gare annullate (IZSM, 20/11/2026)
     - nome: IZSM
       # Campania (20/11/2026): l'IZS del Mezzogiorno (Portici) e' l'unico ente sanitario campano
       # che non usa SIAPS; ha la sua piattaforma DigitalPA (izsmportici.acquistitelematici.it/gare,
@@ -854,4 +854,4 @@ acquistitelematici:
       regione: Campania
       tipi: [procedure-gara, manifestazioni-interesse]
       max_risultati: 50
-      escludi_stati: [annullata]
+      escludi_stati: [annullata, tender_canceled]   # DigitalPA usa entrambi per le gare annullate (IZSM, 20/11/2026)

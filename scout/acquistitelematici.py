@@ -9,6 +9,10 @@ Per aggiungere un ente che usa la stessa piattaforma basta un blocco in config.y
 (sezione acquistitelematici.siti) con il suo indirizzo.
 
 Dati personali: i campi rup, contatti_per_info e simili non vengono letti.
+Dal 20/11/2026 nemmeno salvati: il campione in state/campioni/ (pubblico nel repository)
+contiene solo i campi elencati in CAMPI_CAMPIONE. Prima era la risposta grezza, con il nome
+del RUP e del responsabile dell'esecuzione (visto sul campione dell'IZSM). Se la risposta non
+e' JSON (pagina di errore), si salva grezza come prima, per capire cosa e' successo.
 """
 from __future__ import annotations
 
@@ -102,9 +106,32 @@ def converti(gara: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     )
 
 
+# Campi usati da converti() e _tipo(): sono gli unici scritti nel campione.
+CAMPI_CAMPIONE = ("id", "uuid", "tipologia", "tipologia_rec", "title", "oggetto", "description",
+                  "stato", "is_public", "publish_date", "data_pubblicazione", "expiring_date",
+                  "data_scadenza", "cat_prevalente", "cat_secondaria", "cig_number", "cig",
+                  "importo_complessivo_gara", "importo_gara", "nome_ente", "url_tender")
+
+
+def _campione_ridotto(contenuto: bytes) -> bytes | None:
+    """Solo i campi letti, senza RUP, referenti e identificativi di persone. None se non e' JSON."""
+    try:
+        dati = json.loads(contenuto.decode("utf-8"))
+    except ValueError:
+        return None
+    if not isinstance(dati, dict) or not isinstance(dati.get("data"), list):
+        return None
+    ridotto = {"data": [{k: g[k] for k in CAMPI_CAMPIONE if k in g}
+                        for g in dati["data"] if isinstance(g, dict)],
+               "meta": dati.get("meta")}
+    return json.dumps(ridotto, ensure_ascii=False, indent=1).encode("utf-8")
+
+
 def _salva_campione(sito: dict, tipo: str, contenuto: bytes) -> None:
     CAMPIONI.mkdir(parents=True, exist_ok=True)
-    (CAMPIONI / f"{sito['sigla']}_{tipo}.json").write_bytes(contenuto[:60000])
+    ridotto = _campione_ridotto(contenuto)
+    (CAMPIONI / f"{sito['sigla']}_{tipo}.json").write_bytes(ridotto if ridotto is not None
+                                                            else contenuto[:60000])
 
 
 def _leggi_tipo(sito: dict, tipo: str, filtro: Filtro, sess) -> list[Opportunita]:
