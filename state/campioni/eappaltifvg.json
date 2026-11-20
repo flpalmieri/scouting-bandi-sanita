@@ -1,5 +1,5 @@
 {
- "totale_dichiarato": 76,
+ "totale_dichiarato": 77,
  "righe": [
   {
    "procedura": "Affidamento diretto",
@@ -308,6 +308,15 @@
    "id": "26347"
   },
   {
+   "procedura": "Manifestazione di Interesse",
+   "ente": "COMUNE DI SOCCHIEVE",
+   "protocollo": "",
+   "titolo": "SERVIZIO DI MANUTENZIONE, GESTIONE E CONTROLLO DELLA CENTRALE IDROELETTRICA DI PROPRIETÀ DEL COMUNE DI SOCCHIEVE DENOMINATA “RIO GRASIA” IN LOCALITÀ CAPRIZZI IN COMUNE DI SOCCHIEVE",
+   "tipologia": "Servizi",
+   "scadenza": "07/12/2026 12:00",
+   "id": "26351"
+  },
+  {
    "procedura": "UE - Procedura Aperta",
    "ente": "AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE DI UDINE",
    "protocollo": "",
@@ -354,12 +363,39 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "26ECO003 FORNITURA DI ETICHETTE ADESIVE",
+   "tipologia": "Forniture",
+   "scadenza": "10/12/2026 12:00",
+   "id": "26254"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
+   "protocollo": "",
+   "titolo": "SERVIZIO DI ACCOMPAGNAMENTO E DI TRASPORTO CON AUTOMEZZI ATTREZZATI ED OMOLOGATI PER IL TRASPORTO DEI PAZIENTI NEFROPATICI SOTTOPOSTI A TRATTAMENTO DIALITICO PER ASUGI",
+   "tipologia": "Servizi",
+   "scadenza": "10/12/2026 12:00",
+   "id": "25989"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
    "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
    "protocollo": "",
    "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
    "tipologia": "Servizi",
    "scadenza": "10/12/2026 12:00",
    "id": "26237"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "protocollo": "",
+   "titolo": "PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA (PFTE), PROGETTAZIONE ESECUTIVA (PE), COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, DIREZIONE LAVORI, PER LA RIQUALIFICAZIONE E L’ADEGUAMENTO NORMATIVO DEI PADIGLIONI N. 1 e 8",
+   "tipologia": "Servizi",
+   "scadenza": "10/12/2026 12:00",
+   "id": "26260"
   },
   {
    "procedura": "Procedura non europea",
@@ -372,30 +408,12 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "ente": "COMUNE DI UDINE",
    "protocollo": "",
-   "titolo": "26ECO003 FORNITURA DI ETICHETTE ADESIVE",
-   "tipologia": "Forniture",
-   "scadenza": "10/12/2026 12:00",
-   "id": "26254"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
-   "protocollo": "",
-   "titolo": "PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA (PFTE), PROGETTAZIONE ESECUTIVA (PE), COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, DIREZIONE LAVORI, PER LA RIQUALIFICAZIONE E L’ADEGUAMENTO NORMATIVO DEI PADIGLIONI N. 1 e 8",
+   "titolo": "Servizio di assistenza e manutenzione dell'impianto di videosorveglianza urbana e impianto di lettura targhe del Comune di Udine per gli anni 2027-2030.",
    "tipologia": "Servizi",
-   "scadenza": "10/12/2026 12:00",
-   "id": "26260"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
-   "protocollo": "",
-   "titolo": "SERVIZIO DI ACCOMPAGNAMENTO E DI TRASPORTO CON AUTOMEZZI ATTREZZATI ED OMOLOGATI PER IL TRASPORTO DEI PAZIENTI NEFROPATICI SOTTOPOSTI A TRATTAMENTO DIALITICO PER ASUGI",
-   "tipologia": "Servizi",
-   "scadenza": "10/12/2026 12:00",
-   "id": "25989"
+   "scadenza": "14/12/2026 12:00",
+   "id": "26257"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -423,15 +441,6 @@
    "tipologia": "Forniture",
    "scadenza": "14/12/2026 12:00",
    "id": "26281"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "COMUNE DI UDINE",
-   "protocollo": "",
-   "titolo": "Servizio di assistenza e manutenzione dell'impianto di videosorveglianza urbana e impianto di lettura targhe del Comune di Udine per gli anni 2027-2030.",
-   "tipologia": "Servizi",
-   "scadenza": "14/12/2026 12:00",
-   "id": "26257"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -498,15 +507,6 @@
   },
   {
    "procedura": "Avviso di preinformazione",
-   "ente": "REGIONE AUTONOMA FRIULI VENEZIA GIULIA",
-   "protocollo": "",
-   "titolo": "AVVISO DI PREINFORMAZIONE per acquisti della Direzione centrale patrimonio, demanio, servizi generali e sistemi informativi, sotto la soglia di rilevanza europea mediante l'Albo Operatori Economici della Regione FVG",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2026 12:00",
-   "id": "20343"
-  },
-  {
-   "procedura": "Avviso di preinformazione",
    "ente": "ITS per le Tecnologie dell’Informazione e della Comunicazione Alto Adriatico",
    "protocollo": "",
    "titolo": "AVVISO PUBBLICO PER LA MODALITA DI SCELTA DEGLI OPERATORI ECONOMICI SOTTO LA SOGLIA DI RILEVANZA EUROPEA",
@@ -515,22 +515,13 @@
    "id": "23508"
   },
   {
-   "procedura": "Procedura non europea",
-   "ente": "COMUNE DI ARTA TERME",
+   "procedura": "Avviso di preinformazione",
+   "ente": "REGIONE AUTONOMA FRIULI VENEZIA GIULIA",
    "protocollo": "",
-   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
+   "titolo": "AVVISO DI PREINFORMAZIONE per acquisti della Direzione centrale patrimonio, demanio, servizi generali e sistemi informativi, sotto la soglia di rilevanza europea mediante l'Albo Operatori Economici della Regione FVG",
    "tipologia": "Altro",
-   "scadenza": "31/12/2026 23:59",
-   "id": "24226"
-  },
-  {
-   "procedura": "Procedura non europea",
-   "ente": "Comune di Treppo Ligosullo",
-   "protocollo": "",
-   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2026 23:59",
-   "id": "24227"
+   "scadenza": "31/12/2026 12:00",
+   "id": "20343"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -549,6 +540,24 @@
    "tipologia": "Lavori",
    "scadenza": "31/12/2026 23:59",
    "id": "25341"
+  },
+  {
+   "procedura": "Procedura non europea",
+   "ente": "COMUNE DI ARTA TERME",
+   "protocollo": "",
+   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2026 23:59",
+   "id": "24226"
+  },
+  {
+   "procedura": "Procedura non europea",
+   "ente": "Comune di Treppo Ligosullo",
+   "protocollo": "",
+   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2026 23:59",
+   "id": "24227"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -588,21 +597,21 @@
   },
   {
    "procedura": "Altro",
-   "ente": "Comune di Muggia",
-   "protocollo": "",
-   "titolo": "AVVISO ALBO OPERATORI ECONOMICI",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2030 00:00",
-   "id": "23067"
-  },
-  {
-   "procedura": "Altro",
    "ente": "COMUNE DI REANA DEL ROJALE",
    "protocollo": "",
    "titolo": "AVVISO AGLI OPERATORI ECONOMICI - COMUNE DI REANA DEL ROJALE",
    "tipologia": "Lavori",
    "scadenza": "31/12/2030 00:00",
    "id": "23895"
+  },
+  {
+   "procedura": "Altro",
+   "ente": "Comune di Muggia",
+   "protocollo": "",
+   "titolo": "AVVISO ALBO OPERATORI ECONOMICI",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2030 00:00",
+   "id": "23067"
   },
   {
    "procedura": "Procedura non europea",

@@ -1,9 +1,9 @@
 {
-  "eseguito_il": "2026-11-20T12:53:58+00:00",
+  "eseguito_il": "2026-11-20T13:51:49+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
-      "pertinenti": 6
+      "pertinenti": 5
     },
     "portali_rss": {
       "esito": "ok",
@@ -34,9 +34,7 @@
       "pertinenti": 0
     }
   },
-  "errori": [
-    "portali_html: ATS Liguria consultazioni: HTTPSConnectionPool(host='www.atsliguria.it', port=443): Max retries exceeded with url: /amministrazione-trasparente-ats/amministrazione-trasparente/bandi-di-gara-e-contratti/consultazioni-preliminari-mercato/publiccompetitions/ (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)')))"
-  ],
+  "errori": [],
   "nuove_opportunita": 0,
   "totale": 109
 }
