@@ -23,6 +23,12 @@ Lettori disponibili:
                    sono ordinati dal piu' recente e bastano per un'esecuzione al giorno.
   it_card        - schede Bootstrap Italia <article class="it-card"> con titolo nell'h3,
                    "Codice", "Inizio", "Scadenza" ed etichette di stato e tipo (ULSS 6 Euganea).
+  albo_ap        - albo pretorio WordPress + Bootstrap Italia delle aziende sanitarie sarde
+                   (ARES, ASL 1-8, AOU Sassari, AREUS: stesso tema, tipo di contenuto "ap"),
+                   sezione /albo-pretorio/bandi-e-gare/: schede con titolo e link nell'h5
+                   "card-title" e coppie <strong>Etichetta</strong> valore (Stato, Data di
+                   Pubblicazione, Data e ora di scadenza, Esito pubblicato). Si legge la prima pagina
+                   (6-9 schede, dalla piu' recente): basta per un'esecuzione al giorno.
 
 Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url:
   escludi_titoli_regex  - elenco di espressioni: le schede il cui titolo corrisponde
@@ -47,6 +53,8 @@ Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url
   scadenza_max_giorni   - se la "scadenza" e' piu' lontana di cosi' dalla pubblicazione
                           (default 365) non e' un termine di gara ma la fine della
                           pubblicazione sul sito: viene ignorata.
+  Una "scadenza" anteriore alla pubblicazione e' un errore di battitura del sito (ARES,
+  20/11/2026: pubblicato 11.11.2026, scadenza 11.01.2026) e viene ignorata.
 """
 from __future__ import annotations
 
@@ -280,9 +288,46 @@ def lettore_publiccompetitions(pagina: str, url_base: str) -> list[dict]:
     return voci
 
 
+def lettore_albo_ap(pagina: str, url_base: str) -> list[dict]:
+    """Albo pretorio WordPress + Bootstrap Italia (aziende sanitarie sarde, tipo di contenuto "ap"):
+    ogni scheda ha il titolo nel link dell'h5 "card-title" e righe "<strong>Etichetta </strong> valore"
+    (Stato, Sezione, Data di Pubblicazione, Data e ora di scadenza, Data ultimo aggiornamento,
+    Esito pubblicato). Si leggono solo stato e date: nessun dato personale nella scheda."""
+    voci = []
+    blocchi = re.split(r'<h\d[^>]*class="[^"]*\bcard-title\b[^"]*"[^>]*>', pagina)[1:]
+    for b in blocchi:
+        m = re.search(r"<a([^>]*)>(.*?)</a>", b, re.DOTALL | re.IGNORECASE)
+        if not m:
+            continue
+        href = re.search(r'href="([^"]+)"', m.group(1))
+        # la scheda finisce dove inizia la successiva (split) o dove finisce il contenitore
+        corpo = b[m.end():]
+        coppie = re.findall(r"<strong>\s*([^<]+?)\s*</strong>(.*?)</span>", corpo, re.DOTALL | re.IGNORECASE)
+        campi = {k.strip().lower(): RE_SPAZI.sub(" ", _testo(v).replace("\n", " ")).strip() for k, v in coppie}
+        stato = campi.get("stato", "")
+        pubb = campi.get("data di pubblicazione", "")
+        scad = next((v for k, v in campi.items() if "scadenz" in k), "")
+        # NB: la riga "Esito pubblicato <data>" non dice che l'avviso e' chiuso: sull'albo dell'ASL 1
+        # Sassari compare con la data di pubblicazione anche su avvisi aperti (20/11/2026). Conta
+        # solo il campo "Stato" (su ARES "Esito pubblicato" per le procedure concluse).
+        voci.append({
+            "titolo": RE_SPAZI.sub(" ", _testo(m.group(2)).replace("\n", " ")).strip(),
+            "link": urljoin(url_base, html.unescape(href.group(1))) if href else None,
+            "testo": "; ".join(x for x in (f"Stato: {stato}" if stato else "",
+                                         f"Pubblicazione: {pubb}" if pubb else "",
+                                         f"Scadenza: {scad}" if scad else "") if x),
+            "pubblicazione_grezza": pubb or None,
+            "scadenza_grezza": scad or None,
+            "tipo_grezzo": "",
+            "stato_grezzo": stato,
+        })
+    return voci
+
+
 LETTORI = {"scheda_sito": lettore_scheda_sito, "tabella": lettore_tabella,
            "box_etichette": lettore_box_etichette, "it_card": lettore_it_card,
-           "teaser_drupal": lettore_teaser_drupal, "publiccompetitions": lettore_publiccompetitions}
+           "teaser_drupal": lettore_teaser_drupal, "publiccompetitions": lettore_publiccompetitions,
+           "albo_ap": lettore_albo_ap}
 RE_PROGRAMMAZIONE = re.compile(r"programmazione\s+(triennale|biennale)|programma\s+(triennale|biennale)", re.IGNORECASE)
 
 
@@ -362,7 +407,14 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     # non e' un termine per partecipare, quindi si ignora.
     if scadenza and pubblicazione:
         limite = int(sito.get("scadenza_max_giorni", 365))
-        if (date.fromisoformat(scadenza) - date.fromisoformat(pubblicazione)).days > limite:
+        giorni = (date.fromisoformat(scadenza) - date.fromisoformat(pubblicazione)).days
+        if giorni > limite:
+            scadenza = None
+        elif giorni < 0:
+            # Scadenza anteriore alla pubblicazione: errore di battitura del sito (ARES, 20/11/2026:
+            # pubblicato 11.11.2026, scadenza 11.01.2026). Meglio "non indicata" che "scaduta".
+            log.warning("HTML %s: scadenza %s anteriore alla pubblicazione %s, ignorata (%s)",
+                        sito["nome"], scadenza, pubblicazione, titolo[:80])
             scadenza = None
 
     chiave = voce.get("link") or titolo

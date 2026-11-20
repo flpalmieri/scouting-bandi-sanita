@@ -58,6 +58,16 @@ enti_sanitari_regex:
   - '\bASFO\b'
   - 'centro\s+di\s+riferimento\s+oncologico'
   - '\bburlo\b'
+  # Sardegna (20/11/2026): nomi visti su TED e su SardegnaCAT. ARES (Azienda Regionale della Salute,
+  # centrale di committenza della sanita' sarda dal 2022) su TED si scrive "azienda regionale della
+  # salute (ARES)", "ARES SARDEGNA", "ARES Sardegna": nessuno era riconosciuto. "ARES" da sola non
+  # basta (sarebbe un nome troppo comune): serve "Sardegna" accanto o il nome per esteso. Anche AREUS
+  # (emergenza-urgenza, 118), la sigla ARNAS (Brotzu) e la sigla IZS. Non prendono AREA ("Azienda
+  # Regionale Edilizia Abitativa"), ARPAS, ARST ne' l'"Azienda Regionale per lo Sviluppo del Territorio".
+  - 'azienda\s+regionale\s+della\s+salute|\bARES\W{0,3}sardegna\b'
+  - '\bA\.?R\.?E\.?U\.?S\b|azienda\s+regionale\s+dell\W?\s*emergenza'
+  - '\bA\.?R\.?N\.?A\.?S\b|\bbrotzu\b'
+  - '\bI\.?Z\.?S\b'
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -150,9 +160,9 @@ parole_chiave_sanita_regex:
   - 'sanitari'
   - 'ospedal'
   - 'clinic'
-  - 'telemedicin'
-  - 'telemonitor'
-  - 'teleconsult'
+  - 'tele\W?medicin'
+  - 'tele\W?monitor'
+  - 'tele\W?consult'
   - 'fascicolo\s+sanitario'
   - '\bFSE\b'
   - 'cartella\s+clinica'
@@ -173,6 +183,8 @@ parole_chiave_sanita_regex:
 
 # Parole chiave informatiche: servono per le fonti senza CPV (feed RSS dei
 # portali regionali), dove l'oggetto IT si riconosce solo dal testo.
+# Dal 20/11/2026 "tele\W?medicin", "tele\W?consult", "tele\W?monitor" prendono anche le grafie con
+# trattino o spazio ("Tele-monitoraggio" nell'albo dell'ASL 3 Nuoro), qui e tra le parole sanitarie.
 parole_chiave_it_regex:
   - 'software'
   - 'informatic'
@@ -197,9 +209,9 @@ parole_chiave_it_regex:
   - 'digitalizzazion'
   - 'dematerializzazion'
   - 'interoperabilit'
-  - 'telemedicin'
-  - 'teleconsult'
-  - 'telemonitor'
+  - 'tele\W?medicin'
+  - 'tele\W?consult'
+  - 'tele\W?monitor'
   - 'fascicolo\s+sanitario'
   - 'cartella\s+clinica'
   - '\bPACS\b'
@@ -539,6 +551,100 @@ portali_rss:
       url: "https://eappalti-sat.regione.fvg.it/portale/rss_bandi_consultazione.asp?FilterHide=bScaduto=0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
       timeout_connessione: 20
       tentativi: 1
+    # Sardegna (20/11/2026): Portale gare di SardegnaCAT, la piattaforma regionale (Centrale regionale
+    # di committenza). www.sardegnacat.it e' JAGGAER, ma la sua area pubblica ha una sola voce: le
+    # gare stanno su sardegnacat.regione.sardegna.it/portalegare, software AFSoluzioni come SIAPS e
+    # eAppalti SAT FVG (stesso rss_bandi.asp con bScaduto=0, stessa mappa afs:, CPV in tutte le voci).
+    # Al 20/11/2026: 296 voci in corso (284 Bando + 12 Avviso) di 282 enti, quasi tutti comuni.
+    # Sanita': ARNAS Brotzu, AOU Sassari, AOU Cagliari, ASL 1, 3, 5, 7; ARES, ASL 2, 4, 6, 8, AREUS e
+    # IZS non ci pubblicano (vedi i loro albi in portali_html). Nessuna gara IT sanitaria in corso.
+    - nome: SardegnaCAT bandi
+      nome_fonte: SardegnaCAT
+      sigla: sardegnacat
+      regione: Sardegna
+      max_pagine: 5                # 100 per pagina; il feed dichiara il totale (totRecord)
+      escludi_stati: [Revocato, Annullato, Chiuso]
+      campi:
+        titolo: [Oggetto]
+        descrizione: []
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cpv: [CPV]
+        cig: [CIG]
+        stato: [statoFunzionale]
+        tipo: [Tipo]               # Bando, Avviso
+        id: [IdMsg]
+      # Procedure a invito o rivolte a un fornitore gia' scelto: "riservata ai soli operatori
+      # invitati" nel dettaglio (verificato il 20/11/2026 su 5 affidamenti diretti e negoziate di
+      # Brotzu, ASL 1, AOU Sassari, AOU Cagliari e ARPAS). Si escludono gli affidamenti diretti, come su
+      # START, SAT FVG, Intercent-ER, STELLA e Sintel; le Negoziata restano (art. 76: infungibilita'),
+      # come su tutte le altre piattaforme. Per toglierle: aggiungere Negoziata alla lista.
+      escludi_campi:
+        TipoProcedura: [Affidamento Diretto, Richiesta Preventivo]
+      # Su SardegnaCAT anche affidamenti diretti art. 50 c.1 lett. b sono classificati "Negoziata"
+      # (feed completo del 20/11/2026: 9 voci, 6 di Brotzu; 1083816 "Affidamento diretto ... art. 50"
+      # e' un Invito nel dettaglio). Si scartano dall'inizio del titolo, con la regola di SIAPS
+      # (piu' "ex art.", "art. n. 50" e "Bando in Rettifica -"). Restano le negoziate art. 76 e
+      # art. 50 lett. c, d, e ("Procedura negoziata...") e le voci che citano l'art. 76.
+      escludi_titoli_regex:
+        - '^\W*(?:(?:bando\s+(?:rettificato|revocato|in\s+rettifica)|procedura\s+(?:ripristinata|sospesa)|riapertura\s+termini|ADP?)\s*[-\u2013]\s*)*(?:affidamento\s+diretto|affidamento(?:\s+(?:della\s+)?fornitura)?\W*\s*(?:ai\s+sensi\s+dell|di\s+cui\s+all|ex)\W*\s*art\W*\s*(?:n\W*\s*)?50\W*\s*(?:c(?:o|omma)\W*\s*)?1\W*\s*(?:lett\w*\W*\s*)?[ab]\b|richiesta\s+(?:di\s+)?preventivo)'
+      # Il feed da' i link su /portale/ (404): la scheda vera e' su /portalegare/ con gli stessi
+      # parametri (verificato dall'utente il 20/11/2026: la scheda contiene il bando).
+      link_sostituisci:
+        "/portale/index.php/bandi?": "/portalegare/index.php/bandi?"
+      # Nomi brevi per le aziende sanitarie, uguali a quelli degli albi in portali_html: la deduplica
+      # di main.py fonde la stessa procedura vista nei due posti (se anche il titolo coincide).
+      enti_rinomina:
+        "AZIENDA OSPEDALIERA G BROTZU": "ARNAS G. Brotzu"
+        "AZIENDA OSPEDALIERO UNIVERSITARIA DI SASSARI": "AOU Sassari"
+        "AZIENDA OSPEDALIERO-UNIVERSITARIA DI CAGLIARI": "AOU Cagliari"
+        "AZIENDA SOCIO SANITARIA LOCALE N.1 DI SASSARI": "ASL 1 Sassari"
+        "AZIENDA SOCIO SANITARIA LOCALE N. 3 DI NUORO": "ASL 3 Nuoro"
+        "AZIENDA SOCIO SANITARIA LOCALE N. 5 DI ORISTANO": "ASL 5 Oristano"
+        "AZIENDA SOCIO SANITARIA LOCALE N. 7 DEL SULCIS": "ASL 7 Sulcis"
+      url: "https://sardegnacat.regione.sardegna.it/portale/rss_bandi.asp?FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
+      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+    - nome: SardegnaCAT consultazioni
+      # Consultazioni preliminari, indagini di mercato e avvisi esplorativi: feed separato (il feed
+      # delle gare non le contiene). 19 voci al 20/11/2026, le stesse della pagina pubblica; CPV vuoto
+      # (filtro testuale). Le indagini "finalizzate all'affidamento diretto" restano: sono aperte a
+      # tutti, come su STELLA.
+      nome_fonte: SardegnaCAT
+      sigla: sardegnacat-cons
+      regione: Sardegna
+      tipo: consultazione di mercato
+      max_pagine: 2
+      vuoto_ammesso: true          # nessuna consultazione in corso = nessun errore
+      escludi_stati: [Revocato, Annullato, Chiuso]
+      campi:
+        titolo: [Oggetto]
+        descrizione: []
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cpv: [CPV]
+        cig: [CIG]
+        stato: [statoFunzionale]
+        id: [IdMsg]
+      # Il feed da' "/portale/index.php/?getdettaglio=..." (404); la pagina pubblica usa
+      # "/portalegare/index.php/consultazioni-preliminari-di-mercato?getdettaglio=...".
+      link_sostituisci:
+        "/portale/index.php/?getdettaglio": "/portalegare/index.php/consultazioni-preliminari-di-mercato?getdettaglio"
+      enti_rinomina:
+        "AZIENDA OSPEDALIERA G BROTZU": "ARNAS G. Brotzu"
+        "AZIENDA OSPEDALIERO UNIVERSITARIA DI SASSARI": "AOU Sassari"
+        "AZIENDA OSPEDALIERO-UNIVERSITARIA DI CAGLIARI": "AOU Cagliari"
+        "AZIENDA SOCIO SANITARIA LOCALE N.1 DI SASSARI": "ASL 1 Sassari"
+        "AZIENDA SOCIO SANITARIA LOCALE N. 3 DI NUORO": "ASL 3 Nuoro"
+        "AZIENDA SOCIO SANITARIA LOCALE N. 5 DI ORISTANO": "ASL 5 Oristano"
+        "AZIENDA SOCIO SANITARIA LOCALE N. 7 DEL SULCIS": "ASL 7 Sulcis"
+      url: "https://sardegnacat.regione.sardegna.it/portale/rss_bandi_consultazione.asp?FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
+      timeout_connessione: 20
+      tentativi: 1
     # Lazio (STELLA): le gare NON si leggono dal feed rss_new.asp, anche se ha lo schema afs: di
     # EmPULIA, perche' la scadenza del feed resta quella originale dopo rettifiche e proroghe
     # (verificato il 20/11/2026) e il filtro bScaduto='0' da' 1.460 voci, comprese molte chiuse.
@@ -744,6 +850,158 @@ portali_html:
         - '\baggiudicazion'
         - 'differimento\s+fornitur'
       url: "https://trasparenza.asl1abruzzo.it/page/10/bandi-di-gara-e-contratti.html?p={pagina}"
+
+    # --- Sardegna (20/11/2026): albi "Bandi e gare" delle aziende sanitarie ---
+    # ARES, le 8 ASL, AOU Sassari e AREUS usano lo stesso tema WordPress + Bootstrap Italia (albo
+    # pretorio, tipo di contenuto "ap"): lettore albo_ap, un blocco per ente. ARES (centrale di
+    # committenza della sanita' sarda), ASL 2, 4, 6, 8 e AREUS non pubblicano su SardegnaCAT: per loro
+    # l'albo e' l'unica fonte oltre a TED. Si legge la prima pagina (dalla piu' recente); per ARES due.
+    # Non letti: ARNAS Brotzu (l'albo ripete solo gli avvisi di seduta delle gare gia' su
+    # SardegnaCAT), AOU Cagliari (albo e trasparenza in 403 a curl: da verificare dal browser),
+    # IZS Sardegna (sito ColdFusion con titoli tagliati e link in JavaScript: controllo mensile).
+    # Gli albi mescolano avvisi e atti: le regole qui sotto (comuni a tutti i blocchi) scartano
+    # aggiudicazioni, esiti, sedute, decisioni di acquisto e affidamenti gia' decisi, proroghe,
+    # adesioni, cessioni di beni e nomine.
+    - nome: ARES Sardegna
+      # Azienda Regionale della Salute: gare centralizzate per tutte le aziende (344 atti al 20/11/2026).
+      nome_fonte: ARES Sardegna
+      sigla: ares_sardegna
+      ente: ARES Sardegna
+      regione: Sardegna
+      lettore: albo_ap
+      escludi_stati: [Esito pubblicato]
+      escludi_titoli_regex: &escludi_albo_sardegna
+        - '\baggiudicazion|\baggiudicat[oa]\b|\besito\b|seduta\s+pubblica'
+        - '^\W*(decisione\s+(di\s+acquisto|a\s+contrarre|di\s+contrarre)|autorizzazione\s+a\s+contrarre|determin\w*|delibera\w*)\b|contestuale\s+affidamento'
+        - '^\W*affidamento\s+(diretto|(alla|alle|al)\s+(ditta|societ|operator))'
+        - '^\W*(proroga|adesione|presa\s+d.atto|rettifica\s+aggiudicazion)\b'
+        - 'cessione\s+a\s+terzi|alienazion|nomina\s+(del\s+)?(rup|commission)|cronoprogramma'
+      # Ordine delle schede: dalla piu' recente per data di inserimento (non per data di pubblicazione):
+      # si leggono due pagine da 9. /page/1/ e' la prima pagina (WordPress).
+      max_pagine: 2
+      url: "https://www.aressardegna.it/albo-pretorio/bandi-e-gare/page/{pagina}/"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: ASL 1 Sassari
+      # Indagini conoscitive di mercato (75 atti); su SardegnaCAT solo affidamenti diretti.
+      nome_fonte: ASL 1 Sassari
+      sigla: asl1sassari
+      ente: ASL 1 Sassari
+      regione: Sardegna
+      lettore: albo_ap
+      escludi_stati: [Esito pubblicato]
+      escludi_titoli_regex: *escludi_albo_sardegna
+      url: "https://www.asl1sassari.it/albo-pretorio/bandi-e-gare/"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: ASL 2 Gallura
+      # 4 atti, ultimo del 09/03/2026: poco attivo, letto per non perdere un avviso.
+      nome_fonte: ASL 2 Gallura
+      sigla: aslgallura
+      ente: ASL 2 Gallura
+      regione: Sardegna
+      lettore: albo_ap
+      escludi_stati: [Esito pubblicato]
+      escludi_titoli_regex: *escludi_albo_sardegna
+      url: "https://www.aslgallura.it/albo-pretorio/bandi-e-gare/"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: ASL 3 Nuoro
+      # Manifestazioni di interesse e consultazioni (8 atti, ultimo 26/10/2026).
+      nome_fonte: ASL 3 Nuoro
+      sigla: asl3nuoro
+      ente: ASL 3 Nuoro
+      regione: Sardegna
+      lettore: albo_ap
+      escludi_stati: [Esito pubblicato]
+      escludi_titoli_regex: *escludi_albo_sardegna
+      url: "https://www.asl3nuoro.it/albo-pretorio/bandi-e-gare/"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: ASL 4 Ogliastra
+      # 23 atti, ultimi del 15/09/2026 (cessioni di beni, escluse).
+      nome_fonte: ASL 4 Ogliastra
+      sigla: aslogliastra
+      ente: ASL 4 Ogliastra
+      regione: Sardegna
+      lettore: albo_ap
+      escludi_stati: [Esito pubblicato]
+      escludi_titoli_regex: *escludi_albo_sardegna
+      url: "https://www.aslogliastra.it/albo-pretorio/bandi-e-gare/"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: ASL 5 Oristano
+      # Consultazioni preliminari (17 atti, ultimo 12/08/2026).
+      nome_fonte: ASL 5 Oristano
+      sigla: asl5oristano
+      ente: ASL 5 Oristano
+      regione: Sardegna
+      lettore: albo_ap
+      escludi_stati: [Esito pubblicato]
+      escludi_titoli_regex: *escludi_albo_sardegna
+      url: "https://www.asl5oristano.it/albo-pretorio/bandi-e-gare/"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: ASL 6 Medio Campidano
+      # 2 atti, ultimo del 03/07/2025: fermo, letto per non perdere un avviso.
+      nome_fonte: ASL 6 Medio Campidano
+      sigla: aslmediocampidano
+      ente: ASL 6 Medio Campidano
+      regione: Sardegna
+      lettore: albo_ap
+      escludi_stati: [Esito pubblicato]
+      escludi_titoli_regex: *escludi_albo_sardegna
+      url: "https://www.aslmediocampidano.it/albo-pretorio/bandi-e-gare/"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: ASL 7 Sulcis
+      # 2 atti, ultimo del 20/07/2026 (consultazione preliminare).
+      nome_fonte: ASL 7 Sulcis
+      sigla: aslsulcis
+      ente: ASL 7 Sulcis
+      regione: Sardegna
+      lettore: albo_ap
+      escludi_stati: [Esito pubblicato]
+      escludi_titoli_regex: *escludi_albo_sardegna
+      url: "https://www.aslsulcis.it/albo-pretorio/bandi-e-gare/"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: ASL 8 Cagliari
+      # 4 atti, ultimo del 09/04/2025 (indagini di mercato con dichiarazione di infungibilita').
+      nome_fonte: ASL 8 Cagliari
+      sigla: asl8cagliari
+      ente: ASL 8 Cagliari
+      regione: Sardegna
+      lettore: albo_ap
+      escludi_stati: [Esito pubblicato]
+      escludi_titoli_regex: *escludi_albo_sardegna
+      url: "https://www.asl8cagliari.it/albo-pretorio/bandi-e-gare/"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: AOU Sassari
+      # Avvisi di raccolta preventivi e procedure aperte (21 atti, ultimo 19/11/2026); gare anche su SardegnaCAT.
+      nome_fonte: AOU Sassari
+      sigla: aousassari
+      ente: AOU Sassari
+      regione: Sardegna
+      lettore: albo_ap
+      escludi_stati: [Esito pubblicato]
+      escludi_titoli_regex: *escludi_albo_sardegna
+      url: "https://www.aousassari.it/albo-pretorio/bandi-e-gare/"
+      timeout_connessione: 20
+      tentativi: 1
+    - nome: AREUS
+      # Emergenza-urgenza (118): 107 atti, quasi tutti affidamenti e adesioni gia' decisi.
+      nome_fonte: AREUS
+      sigla: areus
+      ente: AREUS Sardegna
+      regione: Sardegna
+      lettore: albo_ap
+      escludi_stati: [Esito pubblicato]
+      escludi_titoli_regex: *escludi_albo_sardegna
+      url: "https://www.areus.sardegna.it/albo-pretorio/bandi-e-gare/"
+      timeout_connessione: 20
+      tentativi: 1
 
 # --- Sintel (ARIA, Lombardia) ------------------------------------------------
 # Piattaforma di gara di tutte le aziende sanitarie lombarde (ASST, ATS, IRCCS,
