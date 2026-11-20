@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-20T12:43:23+00:00",
- "totale": 110,
+ "aggiornato_il": "2026-11-20T12:53:58+00:00",
+ "totale": 109,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -2147,26 +2147,6 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-10-13"
-  },
-  {
-   "id": "asl3nuoro:fc26247a7d16",
-   "fonti": [
-    "ASL 3 Nuoro"
-   ],
-   "titolo": "Avviso pubblico per l’acquisizione di manifestazioni di interesse per l’affidamento del servizio di tele-monitoraggio di pazienti affetti da BPCO",
-   "ente": "ASL 3 Nuoro",
-   "scadenza": null,
-   "pubblicazione": "2025-08-08",
-   "importo": null,
-   "cpv": [],
-   "cig": [],
-   "tipo": "avviso esplorativo",
-   "link": "https://www.asl3nuoro.it/ap/avviso-pubblico-per-lacquisizione-di-manifestazioni-di-inte-resse-per-laffidamento-del-servizio-di-telemonitoraggio-di-pazienti-affetti-da-bpco/",
-   "regione": "Sardegna",
-   "motivo_match": "Ente sanitario + oggetto IT ('tele-monitor')",
-   "descrizione": "Pubblicazione: 08.08.2025",
-   "primo_rilevamento": "2026-11-20",
-   "ultimo_rilevamento": "2026-11-20"
   },
   {
    "id": "aslcn2:9b2cec571f04",
