@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-20T10:07:07+00:00",
- "totale": 114,
+ "aggiornato_il": "2026-11-20T10:20:44+00:00",
+ "totale": 105,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -69,31 +69,6 @@
    "descrizione": "Senza Titolo",
    "primo_rilevamento": "2026-10-16",
    "ultimo_rilevamento": "2026-10-26"
-  },
-  {
-   "id": "ted:654909-2026",
-   "fonti": [
-    "Intercent-ER",
-    "TED"
-   ],
-   "titolo": "[2026_SIA_39] MANUTENZIONE ORDINARIA E STRAORDINARIA DEL SISTEMA ERP CONTABILE MICROSOFT DYNAMICS 365 BUSINESS CENTRAL",
-   "ente": "OSPEDALE DI SASSUOLO - S.P.A.",
-   "scadenza": "2026-10-30",
-   "pubblicazione": "2026-09-23",
-   "importo": 1349000.0,
-   "cpv": [
-    "72250000"
-   ],
-   "cig": [
-    "BD11112DA7"
-   ],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/654909-2026",
-   "regione": "Emilia-Romagna",
-   "motivo_match": "Ente sanitario + CPV IT (72250000)",
-   "descrizione": null,
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-13"
   },
   {
    "id": "ted:660706-2026",
@@ -166,29 +141,6 @@
    "ultimo_rilevamento": "2026-10-27"
   },
   {
-   "id": "ted:674254-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "Cybersecurity - soluzioni e servizi per la protezione e resilienza di reti e sistemi informativi (ID 2733)",
-   "ente": "CONSIP SPA",
-   "scadenza": "2026-11-04",
-   "pubblicazione": "2026-10-01",
-   "importo": 456379200.0,
-   "cpv": [
-    "30200000",
-    "48730000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/674254-2026",
-   "regione": null,
-   "motivo_match": "Soggetto aggregatore + CPV IT (48730000) - da verificare",
-   "descrizione": null,
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-13"
-  },
-  {
    "id": "aura-cons:118091",
    "fonti": [
     "A.U.R.A."
@@ -207,28 +159,6 @@
    "descrizione": "AVVISO PER LA RACCOLTA DI PREVENTIVI FINALIZZATI ALL’AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1) LETT. B) DEL D.LGS. N. 36/2023 PER IL RINNOVO DEL SERVIZIO DI MONITORAGGIO DARK/DEEP WEB, COMPRENSIVO DELLA COMPONENTE DI THREAT INTELLIGENCE, PER",
    "primo_rilevamento": "2026-11-12",
    "ultimo_rilevamento": "2026-11-20"
-  },
-  {
-   "id": "ted:670003-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "Sanità digitale - Cartella Clinica Elettronica e Sistemi Informativi di Laboratorio (ID 2988)",
-   "ente": "CONSIP SPA",
-   "scadenza": "2026-11-05",
-   "pubblicazione": "2026-09-29",
-   "importo": 478800000.0,
-   "cpv": [
-    "72000000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/670003-2026",
-   "regione": null,
-   "motivo_match": "Oggetto sanitario ('Cartella Clinica') + CPV IT (72000000)",
-   "descrizione": null,
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-13"
   },
   {
    "id": "empulia:2931485",
@@ -343,14 +273,14 @@
    "ultimo_rilevamento": "2026-11-11"
   },
   {
-   "id": "ted:752628-2026",
+   "id": "ted:670003-2026",
    "fonti": [
     "TED"
    ],
-   "titolo": "Sanità digitale - cartella clinica elettronica e Sistemi Informativi di Laboratorio (ID 2988)",
+   "titolo": "Sanità digitale - Cartella Clinica Elettronica e Sistemi Informativi di Laboratorio (ID 2988)",
    "ente": "CONSIP SPA",
    "scadenza": "2026-11-13",
-   "pubblicazione": "2026-10-29",
+   "pubblicazione": "2026-09-29",
    "importo": 478800000.0,
    "cpv": [
     "72000000"
@@ -359,9 +289,9 @@
    "tipo": "cn-standard",
    "link": "https://ted.europa.eu/it/notice/-/detail/752628-2026",
    "regione": null,
-   "motivo_match": "Oggetto sanitario ('cartella clinica') + CPV IT (72000000)",
+   "motivo_match": "Oggetto sanitario ('Cartella Clinica') + CPV IT (72000000)",
    "descrizione": null,
-   "primo_rilevamento": "2026-11-19",
+   "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-11-19"
   },
   {
@@ -467,32 +397,6 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
-   "id": "ted:722510-2026",
-   "fonti": [
-    "STELLA Lazio",
-    "TED"
-   ],
-   "titolo": "Sistema ORMS integrato a dispositivi medici",
-   "ente": "A.O. San Camillo Forlanini",
-   "scadenza": "2026-11-17",
-   "pubblicazione": "2026-10-19",
-   "importo": 1845000.0,
-   "cpv": [
-    "48180000",
-    "48814300"
-   ],
-   "cig": [
-    "BD6419A45D"
-   ],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/722510-2026",
-   "regione": "Lazio",
-   "motivo_match": "CPV software sanitario (48180000)",
-   "descrizione": null,
-   "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-10-29"
-  },
-  {
    "id": "sintel:226408591",
    "fonti": [
     "Sintel"
@@ -511,29 +415,6 @@
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-16"
-  },
-  {
-   "id": "ted:711490-2026",
-   "fonti": [
-    "Sintel",
-    "TED"
-   ],
-   "titolo": "PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA, AI SENSI DELL’ART. 71 DEL D.LGS 36/2023, FINALIZZATA ALL’AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DEL SOFTWARE UPDATE LICENSE & SUPPORT LICENZE ORACLE APPLICATION, GIA’ IN USO PRESSO L’ASST DELLA VALLE OLONA, PER UN PERIODO DI MESI 36, CON EVENTUALE OPZIONE DI RINNOVO PER ULTERIORI 12 MESI",
-   "ente": "ASST DELLA VALLE OLONA",
-   "scadenza": "2026-11-18",
-   "pubblicazione": "2026-10-15",
-   "importo": 395000.0,
-   "cpv": [
-    "72267000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/711490-2026",
-   "regione": "Lombardia",
-   "motivo_match": "Ente sanitario + CPV IT (72267000)",
-   "descrizione": null,
-   "primo_rilevamento": "2026-10-15",
-   "ultimo_rilevamento": "2026-10-25"
   },
   {
    "id": "ted:718813-2026",
@@ -618,29 +499,6 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": "LICENZA SOFTWARE ANNUALE GOLD ICON3D PER LA UOC DI CHIRURGIA GENERALE DEL P.O. V. FAZZI DI LECCE",
    "primo_rilevamento": "2026-11-10",
-   "ultimo_rilevamento": "2026-11-19"
-  },
-  {
-   "id": "ted:745555-2026",
-   "fonti": [
-    "Sintel",
-    "TED"
-   ],
-   "titolo": "Gara europea a procedura aperta indetta ai sensi del D.Lgs. 36/2023 per l’affidamento dei servizi di conduzione applicativa ed evolutiva del sistema Port Community System (PCS) e servizi correlati dell’Autorità di Sistema Portuale del Mar Ligure Occidentale",
-   "ente": "Liguria Digitale S.p.A.",
-   "scadenza": "2026-11-19",
-   "pubblicazione": "2026-10-28",
-   "importo": 12537000.0,
-   "cpv": [
-    "72500000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/745555-2026",
-   "regione": "Liguria",
-   "motivo_match": "Soggetto aggregatore + CPV IT (72500000) - da verificare",
-   "descrizione": null,
-   "primo_rilevamento": "2026-11-19",
    "ultimo_rilevamento": "2026-11-19"
   },
   {
@@ -852,10 +710,10 @@
     "BDAEF05858"
    ],
    "tipo": "bando",
-   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=24365393&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-20T12:00:00",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=24365393",
    "regione": "Lazio",
    "motivo_match": "Oggetto sanitario ('Sanitari') + oggetto IT ('Sistema Informativ')",
-   "descrizione": "Bando Rettificato - Procedura negoziata senza previa pubblicazione di un bando, ai sensi dell’art. 76, comma 2, lett. b), nn. 2) e 3), del D.Lgs. 31 marzo 2023, n. 36, per l’affidamento dei servizi di adeguamento dei sistemi ADT in uso presso le Aziende Sanitarie della Regione Lazio, per la produzione e la trasmissione del nuovo flusso informativo SIOC al Sistema Informativo Ospedaliero regionale (SIO).",
+   "descrizione": "Procedura negoziata senza previa pubblicazione di un bando, ai sensi dell’art. 76, comma 2, lett. b), nn. 2) e 3), del D.Lgs. 31 marzo 2023, n. 36, per l’affidamento dei servizi di adeguamento dei sistemi ADT in uso presso le Aziende Sanitarie della Regione Lazio, per la produzione e la trasmissione del nuovo flusso informativo SIOC al Sistema Informativo Ospedaliero regionale (SIO).\nProcedura: Negoziata (Invito)",
    "primo_rilevamento": "2026-11-20",
    "ultimo_rilevamento": "2026-11-20"
   },
@@ -876,34 +734,37 @@
     "BDAEF60372"
    ],
    "tipo": "bando",
-   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=24366466&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-20T12:00:00",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=24366466",
    "regione": "Lazio",
    "motivo_match": "Oggetto sanitario ('Ospedal') + CPV IT (72220000)",
-   "descrizione": "Bando Rettificato - servizi di adeguamento dei sistemi ADT in uso presso le Aziende Sanitarie della Regione Lazio, per la produzione e la trasmissione del nuovo flusso informativo SIOC",
+   "descrizione": "servizi di adeguamento dei sistemi ADT in uso presso le Aziende Sanitarie della Regione Lazio, per la produzione e la trasmissione del nuovo flusso informativo SIOC\nProcedura: Negoziata (Invito)",
    "primo_rilevamento": "2026-11-20",
    "ultimo_rilevamento": "2026-11-20"
   },
   {
-   "id": "ted:738356-2026",
+   "id": "ted:654909-2026",
    "fonti": [
+    "Intercent-ER",
     "TED"
    ],
    "titolo": "[2026_SIA_39] MANUTENZIONE ORDINARIA E STRAORDINARIA DEL SISTEMA ERP CONTABILE MICROSOFT DYNAMICS 365 BUSINESS CENTRAL",
    "ente": "OSPEDALE DI SASSUOLO - S.P.A.",
    "scadenza": "2026-11-20",
-   "pubblicazione": "2026-10-26",
+   "pubblicazione": "2026-09-23",
    "importo": 1349000.0,
    "cpv": [
     "72250000"
    ],
-   "cig": [],
+   "cig": [
+    "BD11112DA7"
+   ],
    "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/738356-2026",
-   "regione": null,
+   "link": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@17089880",
+   "regione": "Emilia-Romagna",
    "motivo_match": "Ente sanitario + CPV IT (72250000)",
    "descrizione": null,
-   "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-19"
+   "primo_rilevamento": "2026-10-13",
+   "ultimo_rilevamento": "2026-11-20"
   },
   {
    "id": "empulia:2967722",
@@ -948,25 +809,26 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
-   "id": "stella:24381034",
+   "id": "ted:711490-2026",
    "fonti": [
-    "STELLA Lazio"
+    "Sintel",
+    "TED"
    ],
-   "titolo": "Procedura negozia, ai sensi dell’art. 50, comma 1, let. e), del D.Lgs. n. 36/2023, per l’affidamento della del servizio per le Migrazioni linee ISDN in VOIP (decommissioning) dell’ASL Roma 6",
-   "ente": "ASL Roma 6",
+   "titolo": "PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA, AI SENSI DELL’ART. 71 DEL D.LGS 36/2023, FINALIZZATA ALL’AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DEL SOFTWARE UPDATE LICENSE & SUPPORT LICENZE ORACLE APPLICATION, GIA’ IN USO PRESSO L’ASST DELLA VALLE OLONA, PER UN PERIODO DI MESI 36, CON EVENTUALE OPZIONE DI RINNOVO PER ULTERIORI 12 MESI",
+   "ente": "ASST DELLA VALLE OLONA",
    "scadenza": "2026-11-23",
-   "pubblicazione": "2026-11-16",
-   "importo": 255000.0,
+   "pubblicazione": "2026-10-15",
+   "importo": 395000.0,
    "cpv": [
-    "72000000"
+    "72267000"
    ],
    "cig": [],
-   "tipo": "bando",
-   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=24381034&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T12:00:00",
-   "regione": "Lazio",
-   "motivo_match": "Ente sanitario + CPV IT (72000000)",
-   "descrizione": "Bando Rettificato - Procedura negozia, ai sensi dell’art. 50, comma 1, let. e), del D.Lgs. n. 36/2023, per l’affidamento della del servizio per le Migrazioni linee ISDN in VOIP (decommissioning) dell’ASL Roma 6",
-   "primo_rilevamento": "2026-11-20",
+   "tipo": "cn-standard",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=225580562",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + CPV IT (72267000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-10-15",
    "ultimo_rilevamento": "2026-11-20"
   },
   {
@@ -1030,52 +892,6 @@
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-20"
-  },
-  {
-   "id": "ted:742393-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "Sistema ORMS integrato a dispositivi medici",
-   "ente": "A.O. San Camillo Forlanini",
-   "scadenza": "2026-11-24",
-   "pubblicazione": "2026-10-27",
-   "importo": 1845000.0,
-   "cpv": [
-    "48180000",
-    "48814300"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/742393-2026",
-   "regione": null,
-   "motivo_match": "CPV software sanitario (48180000)",
-   "descrizione": null,
-   "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-19"
-  },
-  {
-   "id": "ted:768403-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "Sistema ORMS integrato a dispositivi medici",
-   "ente": "A.O. San Camillo Forlanini",
-   "scadenza": "2026-11-24",
-   "pubblicazione": "2026-11-05",
-   "importo": 1845000.0,
-   "cpv": [
-    "48180000",
-    "48814300"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/768403-2026",
-   "regione": null,
-   "motivo_match": "CPV software sanitario (48180000)",
-   "descrizione": null,
-   "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-19"
   },
   {
    "id": "empulia:2971458",
@@ -1266,6 +1082,28 @@
    "regione": "Lazio",
    "motivo_match": "Ente sanitario + oggetto IT ('licenze')",
    "descrizione": "FORNITURA DI LICENZE IN MODALITA’ PERPETUA DEL PRODOTTO SOFTWARE ARCSIGHT LOGGER, MANUTENZIONE DELLE LICENZE GIA’ IN POSSESSO DELLA ASL ROMA 2 E GIORNATE DI SUPPORTO SPECIALISTICO",
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
+   "id": "stella:24381034",
+   "fonti": [
+    "STELLA Lazio"
+   ],
+   "titolo": "Procedura negozia, ai sensi dell’art. 50, comma 1, let. e), del D.Lgs. n. 36/2023, per l’affidamento della del servizio per le Migrazioni linee ISDN in VOIP (decommissioning) dell’ASL Roma 6",
+   "ente": "ASL Roma 6",
+   "scadenza": "2026-11-25",
+   "pubblicazione": "2026-11-16",
+   "importo": 255000.0,
+   "cpv": [
+    "72000000"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=24381034",
+   "regione": "Lazio",
+   "motivo_match": "Ente sanitario + CPV IT (72000000)",
+   "descrizione": "Procedura negozia, ai sensi dell’art. 50, comma 1, let. e), del D.Lgs. n. 36/2023, per l’affidamento della del servizio per le Migrazioni linee ISDN in VOIP (decommissioning) dell’ASL Roma 6\nProcedura: Negoziata (Invito)",
    "primo_rilevamento": "2026-11-20",
    "ultimo_rilevamento": "2026-11-20"
   },
@@ -1476,14 +1314,14 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
-   "id": "ted:755747-2026",
+   "id": "ted:674254-2026",
    "fonti": [
     "TED"
    ],
    "titolo": "Cybersecurity - soluzioni e servizi per la protezione e resilienza di reti e sistemi informativi (ID 2733)",
    "ente": "CONSIP SPA",
    "scadenza": "2026-11-27",
-   "pubblicazione": "2026-10-30",
+   "pubblicazione": "2026-10-01",
    "importo": 456379200.0,
    "cpv": [
     "30200000",
@@ -1495,7 +1333,7 @@
    "regione": null,
    "motivo_match": "Soggetto aggregatore + CPV IT (48730000) - da verificare",
    "descrizione": null,
-   "primo_rilevamento": "2026-11-19",
+   "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-11-19"
   },
   {
@@ -1516,12 +1354,12 @@
     "BD81AE24C2"
    ],
    "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/745164-2026",
+   "link": "https://izs.acquistitelematici.it/tender/10079",
    "regione": "Abruzzo",
    "motivo_match": "Ente sanitario + CPV IT (72500000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
-   "ultimo_rilevamento": "2026-11-19"
+   "ultimo_rilevamento": "2026-11-20"
   },
   {
    "id": "ted:751690-2026",
@@ -1547,26 +1385,29 @@
    "ultimo_rilevamento": "2026-11-19"
   },
   {
-   "id": "ted:789687-2026",
+   "id": "ted:722510-2026",
    "fonti": [
+    "STELLA Lazio",
     "TED"
    ],
    "titolo": "Sistema ORMS integrato a dispositivi medici",
    "ente": "A.O. San Camillo Forlanini",
    "scadenza": "2026-11-30",
-   "pubblicazione": "2026-11-13",
+   "pubblicazione": "2026-10-19",
    "importo": 1845000.0,
    "cpv": [
     "48180000",
     "48814300"
    ],
-   "cig": [],
+   "cig": [
+    "BD6419A45D"
+   ],
    "tipo": "cn-standard",
    "link": "https://ted.europa.eu/it/notice/-/detail/789687-2026",
-   "regione": null,
+   "regione": "Lazio",
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": null,
-   "primo_rilevamento": "2026-11-13",
+   "primo_rilevamento": "2026-10-19",
    "ultimo_rilevamento": "2026-11-20"
   },
   {
@@ -1772,12 +1613,12 @@
    ],
    "cig": [],
    "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/755116-2026",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226030968",
    "regione": "Lombardia",
    "motivo_match": "Ente sanitario + CPV IT (48000000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-30",
-   "ultimo_rilevamento": "2026-11-19"
+   "ultimo_rilevamento": "2026-11-20"
   },
   {
    "id": "sintel:226226331",
@@ -1814,33 +1655,11 @@
    ],
    "cig": [],
    "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/683594-2026",
-   "regione": null,
-   "motivo_match": "Oggetto sanitario ('Clinic') + CPV IT (72260000)",
-   "descrizione": null,
-   "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-10-15"
-  },
-  {
-   "id": "ted:765795-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "ARIA_2026_478_F - Procedura aperta, ai sensi dell’art. 71 del D.lgs. 36/2023, per l’impl. del Clinical Decision Support System (CDSS)",
-   "ente": "Azienda Regionale per l'Innovazione e gli Acquisti S.p.A.",
-   "scadenza": "2026-12-02",
-   "pubblicazione": "2026-11-04",
-   "importo": 5973478.8,
-   "cpv": [
-    "72260000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
    "link": "https://ted.europa.eu/it/notice/-/detail/765795-2026",
    "regione": null,
    "motivo_match": "Oggetto sanitario ('Clinic') + CPV IT (72260000)",
    "descrizione": null,
-   "primo_rilevamento": "2026-11-13",
+   "primo_rilevamento": "2026-10-13",
    "ultimo_rilevamento": "2026-11-19"
   },
   {
@@ -1874,30 +1693,6 @@
    "descrizione": null,
    "primo_rilevamento": "2026-11-19",
    "ultimo_rilevamento": "2026-11-19"
-  },
-  {
-   "id": "stella:22779305",
-   "fonti": [
-    "STELLA Lazio"
-   ],
-   "titolo": "Procedura aperta RIS-PACS",
-   "ente": "ASL Roma 6",
-   "scadenza": "2026-12-03",
-   "pubblicazione": "2026-10-21",
-   "importo": 9102510.0,
-   "cpv": [
-    "33111800"
-   ],
-   "cig": [
-    "BD7131D95C"
-   ],
-   "tipo": "bando",
-   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=22779305&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-03T12:00:00",
-   "regione": "Lazio",
-   "motivo_match": "Ente sanitario + oggetto IT ('RIS')",
-   "descrizione": "Procedura aperta ai sensi dell’articolo 71 del D. Lgs. n. 36/2023 per la fornitura di un nuovo sistema informatico RIS-PACS, comprensivo di servizi, presidio tecnico on-site, noleggio delle componenti hardware - software e delle postazioni di refertazione, per la durata di 60 mesi",
-   "primo_rilevamento": "2026-11-20",
-   "ultimo_rilevamento": "2026-11-20"
   },
   {
    "id": "ted:749235-2026",
@@ -1944,7 +1739,7 @@
    "ultimo_rilevamento": "2026-11-19"
   },
   {
-   "id": "ted:790518-2026",
+   "id": "ted:745555-2026",
    "fonti": [
     "Sintel",
     "TED"
@@ -1952,7 +1747,7 @@
    "titolo": "Gara europea a procedura aperta indetta ai sensi del D.Lgs. 36/2023 per l’affidamento dei servizi di conduzione applicativa ed evolutiva del sistema Port Community System (PCS) e servizi correlati dell’Autorità di Sistema Portuale del Mar Ligure Occidentale",
    "ente": "Liguria Digitale S.p.A.",
    "scadenza": "2026-12-03",
-   "pubblicazione": "2026-11-13",
+   "pubblicazione": "2026-10-28",
    "importo": 12537000.0,
    "cpv": [
     "72500000"
@@ -2071,28 +1866,6 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
-   "id": "ted:765436-2026",
-   "fonti": [
-    "TED"
-   ],
-   "titolo": "Procedura sopra soglia comunitaria per l'affidamento del servizio di ricezione ed elaborazione delle ricette con l'acquisizione ottica delle immagini, registrazione, gestione contabile, obliterazione, archiviazione e smaltimento delle ricette farmaceutiche, comprendente un sistema informatico web integrato e servizi specialistici.",
-   "ente": "AZIENDA SANITARIA PROVINCIALE DI AGRIGENTO",
-   "scadenza": "2026-12-10",
-   "pubblicazione": "2026-11-04",
-   "importo": 1261125.0,
-   "cpv": [
-    "72310000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/765436-2026",
-   "regione": null,
-   "motivo_match": "Ente sanitario + CPV IT (72310000)",
-   "descrizione": null,
-   "primo_rilevamento": "2026-11-04",
-   "ultimo_rilevamento": "2026-11-19"
-  },
-  {
    "id": "intercenter:f2bb97abb3ed",
    "fonti": [
     "Intercent-ER"
@@ -2115,14 +1888,14 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
-   "id": "ted:784397-2026",
+   "id": "ted:765436-2026",
    "fonti": [
     "TED"
    ],
    "titolo": "Procedura sopra soglia comunitaria per l'affidamento del servizio di ricezione ed elaborazione delle ricette con l'acquisizione ottica delle immagini, registrazione, gestione contabile, obliterazione, archiviazione e smaltimento delle ricette farmaceutiche, comprendente un sistema informatico web integrato e servizi specialistici.",
-   "ente": "Azienda Sanitaria Provinciale di Agrigento",
+   "ente": "AZIENDA SANITARIA PROVINCIALE DI AGRIGENTO",
    "scadenza": "2026-12-15",
-   "pubblicazione": "2026-11-11",
+   "pubblicazione": "2026-11-04",
    "importo": 1261125.0,
    "cpv": [
     "72310000"
@@ -2133,7 +1906,31 @@
    "regione": null,
    "motivo_match": "Ente sanitario + CPV IT (72310000)",
    "descrizione": null,
-   "primo_rilevamento": "2026-11-13",
+   "primo_rilevamento": "2026-11-04",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
+   "id": "stella:22779305",
+   "fonti": [
+    "STELLA Lazio"
+   ],
+   "titolo": "Procedura aperta RIS-PACS",
+   "ente": "ASL Roma 6",
+   "scadenza": "2026-12-18",
+   "pubblicazione": "2026-10-21",
+   "importo": 9102510.0,
+   "cpv": [
+    "33111800"
+   ],
+   "cig": [
+    "BD7131D95C"
+   ],
+   "tipo": "bando",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=22779305",
+   "regione": "Lazio",
+   "motivo_match": "Ente sanitario + oggetto IT ('RIS')",
+   "descrizione": "Procedura aperta ai sensi dell’articolo 71 del D. Lgs. n. 36/2023 per la fornitura di un nuovo sistema informatico RIS-PACS, comprensivo di servizi, presidio tecnico on-site, noleggio delle componenti hardware - software e delle postazioni di refertazione, per la durata di 60 mesi\nProcedura: Aperta (Bando)",
+   "primo_rilevamento": "2026-11-20",
    "ultimo_rilevamento": "2026-11-20"
   },
   {

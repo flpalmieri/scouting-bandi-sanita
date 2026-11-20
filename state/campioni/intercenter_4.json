@@ -675,18 +675,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18336313", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_PORTALE@18336313", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-06T00:00:00+01:00", 
       "Description": "Noleggio apparecchiature occorrenti all\u2019U.O. di Endoscopia dell\u2019ospedale di Carpi, videocolonscopi, videogastroscopi e strumenti", 
       "Subject": [], 
       "Title": "Noleggio apparecchiature occorrenti all\u2019U.O. di Endoscopia dell\u2019ospedale di Carpi, videocolonscopi, videogastroscopi e strumenti", 
-      "UID": "3ca0161fdb89435fa1785df061fc9424", 
+      "UID": "9f501b397dd049639c8eed8c809115c3", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "Noleggio apparecchiature occorrenti all\u2019U.O. di Endoscopia dell\u2019ospedale di Carpi, videocolonscopi, videogastroscopi e strumenti", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -962,4 +962,4 @@
       "scadenza_bando": "2026-11-16T11:00:00+00:00", 
       "tipologia_bando": null, 
       "title": "Servizio di consulenza e di supporto tecnico per la realizzazione di percorsi di co-progettazione con Budget di Salute", 
-      "type_title": "Bando In
+      "type_title": "Bando 
