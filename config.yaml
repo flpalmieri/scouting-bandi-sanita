@@ -477,6 +477,8 @@ portali_html:
       # La "Scadenza" del sito e' la fine della pubblicazione (31/12/2031, 01/01/2032).
       scadenza_max_giorni: 365
     - nome: ASL TO5
+      # Disattivata il 20/11/2026: il sito va in timeout dalle macchine di GitHub. Controllo manuale mensile.
+      abilitato: false
       # Piemonte. Le procedure su Sintel sono quasi tutte non visibili pubblicamente (inviti);
       # richieste di preventivo e avvisi aperti stanno sul portale bandi dell'ASL (Drupal).
       nome_fonte: ASL TO5
