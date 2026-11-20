@@ -3,7 +3,7 @@
   "batching": {
     "@id": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search", 
     "first": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=0", 
-    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=38400", 
+    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=38450", 
     "next": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=50"
   }, 
   "items": [
@@ -92,6 +92,35 @@
       "scadenza_bando": "2026-12-30T17:30:00+00:00", 
       "tipologia_bando": null, 
       "title": "Affidamento del servizio a somministrazione di ritiro, trasporto e smaltimento rifiuti radioattivi e sorgenti radioattive sigillate e intervento per svuotamento e lavaggio fossa Imhoff - Pos.5/122-2026", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18698241", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-20T00:00:00+01:00", 
+      "Description": "PROCEDURA APERTA PER L\u2019APPALTO DEL SERVIZIO DI GESTIONE DEI SERVIZI TURISTICI PRESSO LA LOCALITA' DI TABIANO TERME", 
+      "Subject": [], 
+      "Title": "SERVIZIO DI  GESTIONE DEI SERVIZI TURISTICI PRESSO LA LOCALITA' DI TABIANO TERME", 
+      "UID": "cfac39d78fbc4b16bf7d5cd49e2765df", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "PROCEDURA APERTA PER L\u2019APPALTO DEL SERVIZIO DI GESTIONE DEI SERVIZI TURISTICI PRESSO LA LOCALITA' DI TABIANO TERME", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-19T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_GARA_PORTALE@18698241", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-23T07:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "SERVIZIO DI  GESTIONE DEI SERVIZI TURISTICI PRESSO LA LOCALITA' DI TABIANO TERME", 
       "type_title": "Bando Intercenter"
     }, 
     {
@@ -295,6 +324,35 @@
       "scadenza_bando": "2026-12-21T11:00:00+00:00", 
       "tipologia_bando": null, 
       "title": "PROCEDURA TELEMATICA APERTA PER CONCESSIONE DEI SERVIZI DI RIPRISTINO DELLE CONDIZIONI DI SICUREZZA STRADALE ED EVENTUALE REINTEGRO DELLE MATRICI AMBIENTALI DELLE STRADE PROVINCIALI COMPROMESSE DAL VERIFICARSI DI INCIDENTI STRADALI", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@13429925", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-20T00:00:00+01:00", 
+      "Description": "PROCEDURA APERTA PER L\u2018AFFIDAMENTO DEI LAVORI DI CUI AL PROGETTO DENOMINATO \u201cSTRADA PROVINCIALE N. 33 DI CANTONE. PONTE SUL RIO LISONE, PROGRESSIVA KM 7+120. LAVORI DI MANUTENZIONE STRAORDINARIA E INSTALLAZIONE DELLE BARRIERE DI SICUREZZA. CUP D95F21000600001. [COD. INTERVENTO 737 - COD. MIMS DM 225/2021: 00102.V1.PC]\u201d. IMPORTO COMPLESSIVO: EURO 530.000,00", 
+      "Subject": [], 
+      "Title": "STRADA PROVINCIALE N. 33 DI CANTONE. PONTE SUL RIO LISONE, PROGRESSIVA KM 7+120. LAVORI DI MANUTENZIONE STRAORDINARIA E INSTALLAZIONE DELLE BARRIERE DI SICUREZZA. CUP D95F21000600001. [COD. INTERVENTO 737 - COD. MIMS DM 225/2021: 00102.V1.PC]", 
+      "UID": "fbbdc9c872074518a792aa566a3f0625", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "PROCEDURA APERTA PER L\u2018AFFIDAMENTO DEI LAVORI DI CUI AL PROGETTO DENOMINATO \u201cSTRADA PROVINCIALE N. 33 DI CANTONE. PONTE SUL RIO LISONE, PROGRESSIVA KM 7+120. LAVORI DI MANUTENZIONE STRAORDINARIA E INSTALLAZIONE DELLE BARRIERE DI SICUREZZA. CUP D95F21000600001. [COD. INTERVENTO 737 - COD. MIMS DM 225/2021: 00102.V1.PC]\u201d. IMPORTO COMPLESSIVO: EURO 530.000,00", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-19T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_GARA_PORTALE@13429925", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-21T10:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "STRADA PROVINCIALE N. 33 DI CANTONE. PONTE SUL RIO LISONE, PROGRESSIVA KM 7+120. LAVORI DI MANUTENZIONE STRAORDINARIA E INSTALLAZIONE DELLE BARRIERE DI SICUREZZA. CUP D95F21000600001. [COD. INTERVENTO 737 - COD. MIMS DM 225/2021: 00102.V1.PC]", 
       "type_title": "Bando Intercenter"
     }, 
     {
@@ -862,62 +920,4 @@
         "open", 
         "Attivo"
       ], 
-      "description": "Procedura aperta per l'affidamento in appalto del servizio di noleggio di strumenti elettronici per il rilevamento a distanza delle violazioni di cui all'art. 142 del codice della strada, in postazione fissa e permanente.", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-11-11T23:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_GARA_PORTALE@18369056", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-      "scadenza_bando": "2026-12-14T11:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "Procedura aperta per l'affidamento in appalto del servizio di noleggio di strumenti elettronici per il rilevamento a distanza delle violazioni di cui all'art. 142 del codice della strada, in postazione fissa e permanente.", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18254128", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-11-11T00:00:00+01:00", 
-      "Description": "PROCEDURA AGGREGATA APERTA TELEMATICA SVOLTA DALLA S.U.A.Q. PROVINCIA DI VICENZA PER CONTO DELLA PROVINCIA DI VICENZA E DEL CONSIGLIO DI BACINO VICENZA PER L\u2019AFFIDAMENTO DEL SERVIZIO DI TESORERIA", 
-      "Subject": [], 
-      "Title": "AFFIDAMENTO SERVIZIO DI TESORERIA PER CONTO DELLA PROVINCIA DI VICENZA E DEL CONSIGLIO DI BACINO VICENZA", 
-      "UID": "56ecc8b54d1f4649ad77471443ee70f5", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "open", 
-        "Attivo"
-      ], 
-      "description": "PROCEDURA AGGREGATA APERTA TELEMATICA SVOLTA DALLA S.U.A.Q. PROVINCIA DI VICENZA PER CONTO DELLA PROVINCIA DI VICENZA E DEL CONSIGLIO DI BACINO VICENZA PER L\u2019AFFIDAMENTO DEL SERVIZIO DI TESORERIA", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-11-10T23:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_GARA_PORTALE@18254128", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-      "scadenza_bando": "2026-12-14T11:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "AFFIDAMENTO SERVIZIO DI TESORERIA PER CONTO DELLA PROVINCIA DI VICENZA E DEL CONSIGLIO DI BACINO VICENZA", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18538128", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-11-13T00:00:00+01:00", 
-      "Description": "PROCEDURA APERTA EX ART.71 DEL D.LGS 36/2023 PER L\u2019AFFIDAMENTO DEL SERVIZIO DI TESORERIA PER IL COMUNE DI QUATTRO CASTELLA E UNIONE COLLINE MATILDICHE PER IL PERIODO 2027/2031 EVENTUALMENTE RINNOVABILE PER ULTERIORI ANNI 4", 
-      "Subject": [], 
-      "Title": "PROCEDURA APERTA EX ART.71 DEL D.LGS 36/2023 PER L\u2019AFFIDAMENTO DEL SERVIZIO DI TESORERIA PER IL COMUNE DI QUATTRO CASTELLA E UNIONE COLLINE MATILDICHE                          O 2027/2031 EVENTUALMENTE RINNOVABILE PER ULTERIORI ANNI 4", 
-      "UID": "b9a3b5a6a16a4368bcd88bb2de144696", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "open", 
-        "Attivo"
-      ], 
-      "description": "PROCEDURA APERTA EX ART.71 DEL D.LGS 36/2023 PER L\u2019AFFIDAMENTO DEL SERVIZIO DI TESORERIA PER IL COMUNE DI QUA
+      "description": "Pr

@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-20T07:01:11+00:00",
- "totale": 104,
+ "aggiornato_il": "2026-11-20T10:07:07+00:00",
+ "totale": 114,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -469,6 +469,7 @@
   {
    "id": "ted:722510-2026",
    "fonti": [
+    "STELLA Lazio",
     "TED"
    ],
    "titolo": "Sistema ORMS integrato a dispositivi medici",
@@ -480,10 +481,12 @@
     "48180000",
     "48814300"
    ],
-   "cig": [],
+   "cig": [
+    "BD6419A45D"
+   ],
    "tipo": "cn-standard",
    "link": "https://ted.europa.eu/it/notice/-/detail/722510-2026",
-   "regione": null,
+   "regione": "Lazio",
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
@@ -641,6 +644,26 @@
    "ultimo_rilevamento": "2026-11-19"
   },
   {
+   "id": "stella-cons:24378897",
+   "fonti": [
+    "STELLA Lazio"
+   ],
+   "titolo": "Fornitura in service di n. 1 sistema analitico completamente automatico di backup per l'esecuzione in routine ed in urgenza dei test di immunoematologia trasfusionale",
+   "ente": "ASL Roma 5",
+   "scadenza": "2026-11-20",
+   "pubblicazione": null,
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_CONSULTAZIONE_PORTALE&id_doc=24378897",
+   "regione": "Lazio",
+   "motivo_match": "Ente sanitario + oggetto IT ('gestional')",
+   "descrizione": "Fornitura in service di n. 1 sistema analitico completamente automatico di backup per l'esecuzione in routine ed in urgenza dei test di immunoematologia trasfusionale mediante tecnologia ad agglutinazione su colonna, comprensivo di reagenti, controlli, materiali di consumo, assistenza tecnica full risk, manutenzione preventiva e correttiva, formazione del personale e interfacciamento bidirezionale con il sistema gestionale trasfusionale attualmente in uso presso la UOSD SIMT della ASL Roma 5.",
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
    "id": "sintel:226139605",
    "fonti": [
     "Sintel"
@@ -743,6 +766,30 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
+   "id": "stella:24385790",
+   "fonti": [
+    "STELLA Lazio"
+   ],
+   "titolo": "SERVIZIO DI ASSISTEZA E MANUTENZIONE DELLE PIATTAFORME SOFTWARE_DEDALUS",
+   "ente": "Azienda Ospedaliera Universitaria Policlinico Tor Vergata",
+   "scadenza": "2026-11-20",
+   "pubblicazione": "2026-11-18",
+   "importo": 328810.26,
+   "cpv": [
+    "50532000"
+   ],
+   "cig": [
+    "BDDE04C81F"
+   ],
+   "tipo": "bando",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=24385790&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-20T10:00:00",
+   "regione": "Lazio",
+   "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
+   "descrizione": "SERVIZIO DI ASSISTEZA E MANUTENZIONE DELLE PIATTAFORME SOFTWARE_DEDALUS",
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
    "id": "ted:746031-2026",
    "fonti": [
     "TED"
@@ -789,6 +836,54 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
+   "id": "stella:24365393",
+   "fonti": [
+    "STELLA Lazio"
+   ],
+   "titolo": "Servizi di adeguamento dei sistemi ADT _3",
+   "ente": "LAZIOcrea S.p.A.",
+   "scadenza": "2026-11-20",
+   "pubblicazione": "2026-11-05",
+   "importo": 232000.0,
+   "cpv": [
+    "72220000"
+   ],
+   "cig": [
+    "BDAEF05858"
+   ],
+   "tipo": "bando",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=24365393&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-20T12:00:00",
+   "regione": "Lazio",
+   "motivo_match": "Oggetto sanitario ('Sanitari') + oggetto IT ('Sistema Informativ')",
+   "descrizione": "Bando Rettificato - Procedura negoziata senza previa pubblicazione di un bando, ai sensi dell’art. 76, comma 2, lett. b), nn. 2) e 3), del D.Lgs. 31 marzo 2023, n. 36, per l’affidamento dei servizi di adeguamento dei sistemi ADT in uso presso le Aziende Sanitarie della Regione Lazio, per la produzione e la trasmissione del nuovo flusso informativo SIOC al Sistema Informativo Ospedaliero regionale (SIO).",
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
+   "id": "stella:24366466",
+   "fonti": [
+    "STELLA Lazio"
+   ],
+   "titolo": "Sistema Informativo Ospedaliero regionale AH",
+   "ente": "LAZIOcrea S.p.A.",
+   "scadenza": "2026-11-20",
+   "pubblicazione": "2026-11-05",
+   "importo": 348000.0,
+   "cpv": [
+    "72220000"
+   ],
+   "cig": [
+    "BDAEF60372"
+   ],
+   "tipo": "bando",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=24366466&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-20T12:00:00",
+   "regione": "Lazio",
+   "motivo_match": "Oggetto sanitario ('Ospedal') + CPV IT (72220000)",
+   "descrizione": "Bando Rettificato - servizi di adeguamento dei sistemi ADT in uso presso le Aziende Sanitarie della Regione Lazio, per la produzione e la trasmissione del nuovo flusso informativo SIOC",
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
    "id": "ted:738356-2026",
    "fonti": [
     "TED"
@@ -825,11 +920,53 @@
    ],
    "cig": [],
    "tipo": "bando",
-   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2967722&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T10:00:00",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2967722&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T10:00:00",
    "regione": "Puglia",
    "motivo_match": "Ente sanitario + oggetto IT ('Informatic')",
    "descrizione": "Conferma offerta - PC",
    "primo_rilevamento": "2026-11-16",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
+   "id": "stella-cons:24381771",
+   "fonti": [
+    "STELLA Lazio"
+   ],
+   "titolo": "FORNITURA ATTREZZATURE INFORMATICHE",
+   "ente": "ASL Roma 2",
+   "scadenza": "2026-11-23",
+   "pubblicazione": null,
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_CONSULTAZIONE_PORTALE&id_doc=24381771",
+   "regione": "Lazio",
+   "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
+   "descrizione": "AFFIDAMENTO DELLA FORNITURA DI ATTREZZATURE INFORMATICHE PER LE ESIGENZE DELLA ASL ROMA 2",
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
+   "id": "stella:24381034",
+   "fonti": [
+    "STELLA Lazio"
+   ],
+   "titolo": "Procedura negozia, ai sensi dell’art. 50, comma 1, let. e), del D.Lgs. n. 36/2023, per l’affidamento della del servizio per le Migrazioni linee ISDN in VOIP (decommissioning) dell’ASL Roma 6",
+   "ente": "ASL Roma 6",
+   "scadenza": "2026-11-23",
+   "pubblicazione": "2026-11-16",
+   "importo": 255000.0,
+   "cpv": [
+    "72000000"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=24381034&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T12:00:00",
+   "regione": "Lazio",
+   "motivo_match": "Ente sanitario + CPV IT (72000000)",
+   "descrizione": "Bando Rettificato - Procedura negozia, ai sensi dell’art. 50, comma 1, let. e), del D.Lgs. n. 36/2023, per l’affidamento della del servizio per le Migrazioni linee ISDN in VOIP (decommissioning) dell’ASL Roma 6",
+   "primo_rilevamento": "2026-11-20",
    "ultimo_rilevamento": "2026-11-20"
   },
   {
@@ -955,7 +1092,7 @@
    ],
    "cig": [],
    "tipo": "bando",
-   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2971458&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T11:00:00",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2971458&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T11:00:00",
    "regione": "Puglia",
    "motivo_match": "Ente sanitario + CPV IT (48218000)",
    "descrizione": "Licenze d'uso del software \"Expert Variant Interpreter",
@@ -1113,6 +1250,26 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
+   "id": "stella-cons:24387872",
+   "fonti": [
+    "STELLA Lazio"
+   ],
+   "titolo": "Fornitura licenze ArcSight",
+   "ente": "ASL Roma 2",
+   "scadenza": "2026-11-25",
+   "pubblicazione": null,
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_CONSULTAZIONE_PORTALE&id_doc=24387872",
+   "regione": "Lazio",
+   "motivo_match": "Ente sanitario + oggetto IT ('licenze')",
+   "descrizione": "FORNITURA DI LICENZE IN MODALITA’ PERPETUA DEL PRODOTTO SOFTWARE ARCSIGHT LOGGER, MANUTENZIONE DELLE LICENZE GIA’ IN POSSESSO DELLA ASL ROMA 2 E GIORNATE DI SUPPORTO SPECIALISTICO",
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
    "id": "sintel:226465183",
    "fonti": [
     "Sintel"
@@ -1197,6 +1354,26 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
    "ultimo_rilevamento": "2026-11-19"
+  },
+  {
+   "id": "sintel:226877383",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "RICHIESTA DI OFFERTA PER EVENTUALE AFFIDAMENTO AI SENSI DELL'ART. 50, COMMA 1, LETT. B) DEL D. LGS N. 36/2023 DEL RINNOVO DI N. 2 LICENZE FIREWALL FORTINET FORTIGATE PER UN PERIODO DI 12 MESI.",
+   "ente": "ASST DELLA FRANCIACORTA",
+   "scadenza": "2026-11-26",
+   "pubblicazione": "2026-11-20",
+   "importo": 68500.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226877383",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
   },
   {
    "id": "sintel:226822857",
@@ -1699,6 +1876,30 @@
    "ultimo_rilevamento": "2026-11-19"
   },
   {
+   "id": "stella:22779305",
+   "fonti": [
+    "STELLA Lazio"
+   ],
+   "titolo": "Procedura aperta RIS-PACS",
+   "ente": "ASL Roma 6",
+   "scadenza": "2026-12-03",
+   "pubblicazione": "2026-10-21",
+   "importo": 9102510.0,
+   "cpv": [
+    "33111800"
+   ],
+   "cig": [
+    "BD7131D95C"
+   ],
+   "tipo": "bando",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=22779305&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-03T12:00:00",
+   "regione": "Lazio",
+   "motivo_match": "Ente sanitario + oggetto IT ('RIS')",
+   "descrizione": "Procedura aperta ai sensi dell’articolo 71 del D. Lgs. n. 36/2023 per la fornitura di un nuovo sistema informatico RIS-PACS, comprensivo di servizi, presidio tecnico on-site, noleggio delle componenti hardware - software e delle postazioni di refertazione, per la durata di 60 mesi",
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
    "id": "ted:749235-2026",
    "fonti": [
     "TED"
@@ -1763,6 +1964,26 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72500000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
+   "id": "stella-cons:24388435",
+   "fonti": [
+    "STELLA Lazio"
+   ],
+   "titolo": "AGGIORNAMENTO DEL SOFTWARE PER GLI ECOTOMOGRAFI PHILIPS EPIQ",
+   "ente": "ASL Roma 4",
+   "scadenza": "2026-12-04",
+   "pubblicazione": null,
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_CONSULTAZIONE_PORTALE&id_doc=24388435",
+   "regione": "Lazio",
+   "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
+   "descrizione": "CONSULTAZIONE PRELIMINARE DI MERCATO PER L’AFFIDAMENTO DELLA FORNITURA DELL’AGGIORNAMENTO DEL SOFTWARE PER GLI ECOTOMOGRAFI PHILIPS EPIQ IN DOTAZIONE PRESSO LA U.O.C. CARDIOLOGIA",
+   "primo_rilevamento": "2026-11-20",
    "ultimo_rilevamento": "2026-11-20"
   },
   {

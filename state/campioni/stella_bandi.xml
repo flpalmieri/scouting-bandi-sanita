@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:afs="http://www.aflink.it/XMLBANDI">
+<channel>
+<title>Elenco dei bandi di gara In Corso</title>
+<ttl>15</ttl>
+<description>Bandi pubblici portale</description>
+<language>IT-it</language>
+<afs:totRecord>1460</afs:totRecord>
+<item>
+	<title><![CDATA[Avviso ]]></title>
+	<link><![CDATA[https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=2862427&tipobando=Avviso&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=5024-05-16T10:00:00]]></link>
+	<category>Avviso</category>
+	<pubDate>23/04/2024</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Revocato - &lt;/strong&gt; noleggio per 24 mesi di n.1 dispositivo movibile per la rilevazione intraoperatoria e postoperatoria di immagini tramite fluorescenza del coloratore vitale ICG&lt;strong&gt;Scadenza : 16/05/5024&lt;/strong&gt;
+	</description>
+	
+	
+	<afs:RegistroSistema><![CDATA[PI068121-24]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE030348]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Avviso]]></afs:Tipo>
+	<afs:CIG><![CDATA[B1641AF239]]></afs:CIG>
+	<afs:Oggetto><![CDATA[<strong>Bando Revocato - </strong> noleggio per 24 mesi di n.1 dispositivo movibile per la rilevazione intraoperatoria e postoperatoria di immagini tramite fluorescenza del coloratore vitale ICG]]></afs:Oggetto>
+	<afs:EnteProponente><![CDATA[A.O. San Camillo Forlanini]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[A.O. San Camillo Forlanini]]></afs:DenominazioneEnte>
+	<afs:a_base_asta><![CDATA[140.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[5024-05-16T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[Revocato]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2862427]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[noleggio per 24 mesi di n.1 dispositivo movibile per la rilevazione intraoperatoria e postoperatoria di immagini tramite fluorescenza del coloratore vitale ICG]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2024-06-06T11:25:03]]></afs:dataUltimaModifica>
+	<afs:Merceologia><![CDATA[14]]></afs:Merceologia>
+	<afs:CPV><![CDATA[]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2024-04-23T13:15:11]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=24349133&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2027-01-19T16:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>29/10/2026</pubDate>
+	
+	<description>
+Gara a procedura aperta per la fornitura di divise e calzature per le necessit&#224; del personale guardiaparco &lt;strong&gt;Scadenza : 19/01/2027&lt;/strong&gt;
+	</description>
+	
+	
+	<afs:RegistroSistema><![CDATA[PI216950-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE083350]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[Gara a procedura aperta per la fornitura di divise e calzature per le necessità del personale guardiaparco ]]></afs:Oggetto>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Giunta Regionale]]></afs:DenominazioneEnte>
+	<afs:a_base_asta><![CDATA[1.802.634,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2027-01-19T16:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[24349133]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Gara a procedura aperta per la fornitura di divise e calzature per le necessità del personale guardiaparco ]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-17T14:40:30]]></afs:dataUltimaModifica>
+	<afs:Merceologia><![CDATA[27]]></afs:Merceologia>
+	<afs:CPV><![CDATA[18100000-0 - Indumenti ad uso professionale, indumenti speciali da lavoro e accessori]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-29T10:40:12]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=24371735&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-30T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>18/11/2026</pubDate>
+	
+	<description>
+Procedura aperta, ai sensi dell’art. 71 del d.lgs. 36/2023, suddivisa in 20 lotti, finalizzata alla stipula di accordi quadro per la fornitura di materiale protesico e dispositivi medici specialistici necessari alla UOC Neurochirurgia della ASL Frosinone.&lt;strong&gt;Scadenza : 30/12/2026&lt;/strong&gt;
+	</description>
+	
+	
+	<afs:RegistroSistema><![CDATA[PI232543-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE085103]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[Procedura aperta, ai sensi dell’art. 71 del d.lgs. 36/2023, suddivisa in 20 lotti, finalizzata alla stipula di accordi quadro per la fornitura di materiale protesico e dispositivi medici specialistici necessari alla UOC Neurochirurgia della ASL Frosinone.]]></afs:Oggetto>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL Frosinone]]></afs:DenominazioneEnte>
+	<afs:a_base_asta><![CDATA[1.624.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-30T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[24371735]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[ACCORDO QUADRO, SUDDIVISO IN 20 LOTTI, PER LA FORNITURA DI MATERIALE PROTESICO E DISPOSITIVI MEDICI NECESSARI ALLA UOC NEUROCHIRURGIA  ]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-18T11:44:54]]></afs:dataUltimaModifica>
+	<afs:Merceologia><![CDATA[13]]></afs:Merceologia>
+	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T11:44:54]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=24373044&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-22T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>17/11/2026</pubDate>
+	
+	<description>
+Gara telematica a procedura aperta per la fornitura di Sistema macchina reattivi per la ricerca in biologia molecolare di patogeni da rilevare in urgenza con tecnologia in PCR multiplex, per le esigenze triennali della U.O.C. Microbiologia e Virologia dell’Azienda Ospedaliera San Camillo Forlanini&lt;strong&gt;Scadenza : 22/12/2026&lt;/strong&gt;
+	</description>
+	
+	
+	<afs:RegistroSistema><![CDATA[PI228275-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE084532]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[Gara telematica a procedura aperta per la fornitura di Sistema macchina reattivi per la ricerca in biologia molecolare di patogeni da rilevare in urgenza con tecnologia in PCR multiplex, per le esigenze triennali della U.O.C. Microbiologia e Virologia dell’Azienda Ospedaliera San Camillo Forlanini]]></afs:Oggetto>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[A.O. San Camillo Forlanini]]></afs:DenominazioneEnte>
+	<afs:a_base_asta><![CDATA[656.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-22T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[24373044]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Gara telematica a procedura aperta per la fornitura di Sistema macchina reattivi per la ricerca in biologia molecolare di patogeni da rilevare in urgenza con tecnologia in PCR multiplex]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-17T10:01:19]]></afs:dataUltimaModifica>
+	<afs:Merceologia><![CDATA[]]></afs:Merceologia>
+	<afs:CPV><![CDATA[33124110-9 - Sistemi diagnostici]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T10:01:19]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=24375849&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-22T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>13/11/2026</pubDate>
+	
+	<description>
+Procedura ai sensi dell&#39;art. 71 del D.lgs. 36/2023 per l&#39;affidamento del servizio di logistica e trasporto farmaci per gli enti accreditati convenzionati ex DCA n. 00070/2017&lt;strong&gt;Scadenza : 22/12/2026&lt;/strong&gt;
+	</description>
+	
+	
+	<afs:RegistroSistema><![CDATA[PI229189-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE084641]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[Procedura ai sensi dell'art. 71 del D.lgs. 36/2023 per l'affidamento del servizio di logistica e trasporto farmaci per gli enti accreditati convenzionati ex DCA n. 00070/2017]]></afs:Oggetto>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL Roma 2]]></afs:DenominazioneEnte>
+	<afs:a_base_asta><![CDATA[1.503.050,67]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-22T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[24375849]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Servizio di Logistica e Trasporto farmaci per enti accreditati ex DCA 70/2017]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-13T09:45:01]]></afs:dataUltimaModifica>
+	<afs:Merceologia><![CDATA[15]]></afs:Merceologia>
+	<afs:CPV><![CDATA[60100000-9 - Servizi di trasporto terrestre]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T09:42:20]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=24380574&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-22T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>18/11/2026</pubDate>
+	
+	<description>
+Procedura aperta volta all&#39;affidamento della fornitura di DISPOSITIVI MEDICI, ACCESSORI ED AFFINI PER APPARECCHIATURE ELETTROMEDICALI PER ECG, EEG, EMG, ERG per le esigenze dell’Azienda Ospedaliera suddivisa in 29 lotti. Durata biennale con eventuale proroga contrattuale per ulteriori 12 mesi. Importo a base d’asta (24 mesi) pari ad € 324.716,64 IVA esclusa.&lt;strong&gt;Scadenza : 22/12/2026&lt;/strong&gt;
+	</description>
+	
+	
+	<afs:RegistroSistema><![CDATA[PI232182-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE085025]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[Procedura aperta volta all'affidamento della fornitura di DISPOSITIVI MEDICI, ACCESSORI ED AFFINI PER APPARECCHIATURE ELETTROMEDICALI PER ECG, EEG, EMG, ERG per le esigenze dell’Azienda Ospedaliera suddivisa in 29 lotti. Durata biennale con eventuale proroga contrattuale per ulteriori 12 mesi. Importo a base d’asta (24 mesi) pari ad € 324.716,64 IVA esclusa.]]></afs:Oggetto>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[A.O. San Giovanni Addolorata]]></afs:DenominazioneEnte>
+	<afs:a_base_asta><![CDATA[584.489,95]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-22T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[24380574]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[FORNITURA ELETTRODI, ACCESSORI e PASTE CONDUTTIVE]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-18T08:10:29]]></afs:dataUltimaModifica>
+	<afs:Merceologia><![CDATA[]]></afs:Merceologia>
+	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T08:10:29]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=24369181&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-21T16:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>13/11/2026</pubDate>
+	
+	<description>
+Procedura aperta telematica, ai sensi dell’art. 71 del D.lgs. n. 36/2023 e ss.mm.ii., per l’affidamento della fornitura di deflussori e relativi sistemi di pompe infusionali in service per le necessit&#224; dell’Azienda Ospedaliero-Universitaria Policlinico Umberto I&lt;strong&gt;Scadenza : 21/12/2026&lt;/strong&gt;
+	</description>
+	
+	
+	<afs:RegistroSistema><![CDATA[PI229363-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE084665]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[Procedura aperta telematica, ai sensi dell’art. 71 del D.lgs. n. 36/2023 e ss.mm.ii., per l’affidamento della fornitura di deflussori e relativi sistemi di pompe infusionali in service per le necessità dell’Azienda Ospedaliero-Universitaria Policlinico Umberto I]]></afs:Oggetto>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Policlinico Umberto I]]></afs:DenominazioneEnte>
+	<afs:a_base_asta><![CDATA[3.367.500,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-21T16:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[24369181]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Procedura aperta telematica, ai sensi dell’art. 71 del D.lgs. n. 36/2023 e ss.mm.ii., per la fornitura di deflussori e relativi sistemi di pompe infusionali in service]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-13T11:16:32]]></afs:dataUltimaModifica>
+	<afs:Merceologia><![CDATA[13]]></afs:Merceologia>
+	<afs:CPV><![CDATA[33194120-3 - Forniture per infusione]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T11:16:32]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=22765766&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-21T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>15/10/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Procedura aperta n.  26/2026, per l’affidamento di un appalto di lavori, per la realizzazione del nuovo impianto di Castel Madama, nei settori ordinari, di importo superiore alle soglie europee, con il criterio dell’offerta economicamente pi&#249; vantaggiosa sulla base del miglior rapporto qualit&#224;/prezzo. CPV 45213000-3. RUP Andrea Pulcini&lt;strong&gt;Scadenza : 21/12/2026&lt;/strong&gt;
+	</description>
+	
+	
+	<afs:RegistroSistema><![CDATA[PI203655-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE082008]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:CIG><![CDATA[BD5409BFE6]]></afs:CIG>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Procedura aperta n.  26/2026, per l’affidamento di un appalto di lavori, per la realizzazione del nuovo impianto di Castel Madama, nei settori ordinari, di importo superiore alle soglie europee, con il criterio dell’offerta economicamente più vantaggiosa sulla base del miglior rapporto qualità/prezzo. CPV 45213000-3. RUP Andrea Pulcini]]></afs:Oggetto>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Cotral Spa – Compagnia dei Trasporti Laziali]]></afs:DenominazioneEnte>
+	<afs:a_base_asta><![CDATA[12.939.390,57]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-21T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[22765766]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Realizzazione nuovo impianto di Castel Madama]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-18T19:58:06]]></afs:dataUltimaModifica>
+	<afs:Merceologia><![CDATA[30]]></afs:Merceologia>
+	<afs:CPV><![CDATA[45213000-3 - Lavori di costruzione di edifici commerciali, magazzini ed edifici industriali, edifici per i trasporti]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-15T13:57:29]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=24356006&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-21T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>05/11/2026</pubDate>
+	
+	<description>
+Fornitura biennale di prodotti nutrizionali&lt;strong&gt;Scadenza : 21/12/2026&lt;/strong&gt;
+	</description>
+	
+	
+	<afs:RegistroSistema><![CDATA[PI222669-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE083861]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[Fornitura biennale di prodotti nutrizionali]]></afs:Oggetto>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL Roma 1]]></afs:DenominazioneEnte>
+	<afs:a_base_asta><![CDATA[3.882.801,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-21T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[24356006]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Fornitura biennale di prodotti nutrizionali]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-09T11:32:06]]></afs:dataUltimaModifica>
+	<afs:Merceologia><![CDATA[14]]></afs:Merceologia>
+	<afs:CPV><![CDATA[15882000-4 - Prodotti dietetici]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-05T11:08:38]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=24379183&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-21T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>16/11/2026</pubDate>
+	
+	<description>
+PROCEDURA APERTA, AI SENSI DELL’ART. 71 DEL D.LGS. 36/2023 E S.M.I., FINALIZZATA ALLA
+CONCLUSIONE DI UN ACCORDO QUADRO EX ART. 59, COMMA 3, DEL D.LGS. 36/2023 E S.M.I.
+CON UNICO OPERATORE ECONOMICO PER LOTTO PER LA FORNITURA DI DISPOSITIVI DI
+PROTEZIONE INDIVIDUALE ANTI-X (DPI CAT. III) PER LA PROTEZIONE DEL CORPO, DELLA
+TIROIDE E DEL CRISTALLINO, SUPPORTI DI STOCCAGGIO DPI, SERVIZIO DI VERIFICA
+PERIODICA DI INTEGRIT&#192; E DISPOSITIVI DI PROTEZIONE COLLETTIVA ANTI-X (PARATIE
+MOBILI), N. 4 LOTTI, PER LA DURATA 48 MESI.
+INDIZIONE E APPROVAZIONE DEGLI ATTI DI GARA.&lt;strong&gt;Scadenza : 21/12/2026&lt;/strong&gt;
+	</description>
+	
+	
+	<afs:RegistroSistema><![CDATA[PI230590-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE084826]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[PROCEDURA APERTA, AI SENSI DELL’ART. 71 DEL D.LGS. 36/2023 E S.M.I., FINALIZZATA ALLA
+CONCLUSIONE DI UN ACCORDO QUADRO EX ART. 59, COMMA 3, DEL D.LGS. 36/2023 E S.M.I.
+CON UNICO OPERATORE ECONOMICO PER LOTTO PER LA FORNITURA DI DISPOSITIVI DI
+PROTEZIONE INDIVIDUALE ANTI-X (DPI CAT. III) PER LA PROTEZIONE DEL CORPO, DELLA
+TIROIDE E DEL CRISTALLINO, SUPPORTI DI STOCCAGGIO DPI, SERVIZIO DI VERIFICA
+PERIODICA DI INTEGRITÀ E DISPOSITIVI DI PROTEZIONE COLLETTIVA ANTI-X (PARATIE
+MOBILI), N. 4 LOTTI, PER LA DURATA 48 MESI.
+INDIZIONE E APPROVAZIONE DEGLI ATTI DI GARA.]]></afs:Oggetto>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[A.O. San Giovanni Addolorata]]></afs:DenominazioneEnte>
+	<afs:a_base_asta><![CDATA[380.160,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-21T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[24379183]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[DISPOSITIVI DI PROTEZIONE INDIVIDUALE ANTI-X (DPI CAT. III)]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDetta
