@@ -16,6 +16,10 @@ Altre opzioni (19/11/2026, START Sanita' Toscana):
       che sul portale non esiste piu');
   "enti_rinomina": {"nome nel feed": "nome da usare"}, es. per usare lo stesso nome di TED
       e permettere a main.py di fondere la stessa gara vista sulle due fonti.
+Opzione aggiunta il 20/11/2026 (STELLA, Lazio):
+  "escludi_descrizioni_regex": come escludi_titoli_regex, ma sulla descrizione. Serve quando il
+      titolo e' il nome breve della procedura e la formula che la esclude (es. "AFFIDAMENTO
+      DIRETTO, AI SENSI DELL'ART. 50...") sta solo nell'oggetto completo.
 Le voci scartate da una regola esplicita (stato, campo, titolo) finiscono in ESCLUSI: main.py
 le toglie anche dallo storico (es. un bando revocato dopo essere stato salvato).
 correggi_storico() applica link_sostituisci ed enti_rinomina anche alle voci gia' salvate.
@@ -170,8 +174,8 @@ def _rinomina_ente(ente: str, feed: dict) -> str:
     return mappa.get((ente or "").strip().lower(), ente)
 
 
-def _esclusa(campi: dict[str, str], feed: dict, titolo: str) -> bool:
-    """Regole esplicite di esclusione del feed: stato, valori di campo, titolo."""
+def _esclusa(campi: dict[str, str], feed: dict, titolo: str, descrizione: str = "") -> bool:
+    """Regole esplicite di esclusione del feed: stato, valori di campo, titolo, descrizione."""
     mappa = feed.get("campi") or {}
     stato = _valore(campi, mappa.get("stato"))
     if stato and stato.lower() in {s.lower() for s in feed.get("escludi_stati", [])}:
@@ -183,6 +187,9 @@ def _esclusa(campi: dict[str, str], feed: dict, titolo: str) -> bool:
     escl = feed.get("escludi_titoli_regex")
     if escl and re.search("|".join(f"(?:{e})" for e in escl), titolo, re.IGNORECASE):
         return True
+    escl = feed.get("escludi_descrizioni_regex")
+    if escl and re.search("|".join(f"(?:{e})" for e in escl), descrizione, re.IGNORECASE):
+        return True
     return False
 
 
@@ -190,10 +197,10 @@ def _converti(campi: dict[str, str], feed: dict, filtro: Filtro) -> Opportunita 
     mappa = feed.get("campi") or {}
 
     titolo = _valore(campi, mappa.get("titolo", ["title"])).replace("\n", " ")
-    if _esclusa(campi, feed, titolo):
+    descrizione = _valore(campi, mappa.get("descrizione", ["description", "summary", "content"]))
+    if _esclusa(campi, feed, titolo, descrizione):
         ESCLUSI.add(_id_voce(campi, feed, titolo))
         return None
-    descrizione = _valore(campi, mappa.get("descrizione", ["description", "summary", "content"]))
     if not titolo:
         return None
     tutto = f"{titolo}\n{descrizione}"

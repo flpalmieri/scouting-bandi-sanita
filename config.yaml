@@ -42,6 +42,10 @@ enti_sanitari_regex:
   # Emilia-Romagna (20/11/2026): su Intercent-ER l'IRCCS Rizzoli si chiama solo "ISTITUTO
   # ORTOPEDICO RIZZOLI" (15 voci aperte al 19/11/2026).
   - '\brizzoli\b|istituto\s+ortopedico'
+  # Lazio (20/11/2026): nomi usati su STELLA (piattaforma regionale), senza la sigla IRCCS.
+  - '\bI\.?F\.?O\b|istituti\s+fisioterapici'        # "I.F.O." (Regina Elena e San Gallicano)
+  - '\bI\.?N\.?M\.?I\b|(istituto|malattie\s+infettive).{0,60}spallanzani'   # "I.N.M.I. Lazzaro Spallanzani" (non i licei omonimi)
+  - '\bA\.?R\.?E\.?S\.?\s*118\b'                    # "A.R.E.S. 118" (emergenza sanitaria)
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -403,6 +407,60 @@ portali_rss:
       timeout_connessione: 20
       tentativi: 1
 
+    # --- Lazio: piattaforma regionale STELLA (S.TEL.LA., Centrale Acquisti) ---
+    # Stesso software di EmPULIA (campi afs:). Tutte le aziende sanitarie pubbliche laziali
+    # (ASL, AO, Policlinici, IFO, INMI, ARES 118), la Regione e LAZIOcrea. Non c'e' l'IZS Lazio e
+    # Toscana. Il filtro bScaduto='0' (verificato dall'utente il 20/11/2026) da' le sole voci
+    # aperte: circa 116 al 20/11/2026. Le consultazioni non sono nel feed: si leggono dalla
+    # sezione centrale_acquisti (API REST del portale della Centrale Acquisti).
+    - nome: STELLA bandi
+      nome_fonte: STELLA Lazio
+      sigla: stella
+      regione: Lazio
+      tipo: bando
+      max_pagine: 10               # 50 per pagina; il feed dichiara il totale (totRecord)
+      escludi_stati: [Revocato, Annullato]
+      campi:
+        # Titolo = nome breve della procedura (TitoloDocumento): e' lo stesso titolo che l'ente
+        # usa su TED (es. "Sistema ORMS integrato a dispositivi medici"), cosi' main.py fonde
+        # la stessa gara vista sulle due fonti. L'oggetto completo va nella descrizione.
+        titolo: [TitoloDocumento, Oggetto]
+        descrizione: [Oggetto]
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cig: [CIG]
+        cpv: [CPV]
+        stato: [statoFunzionale]
+        id: [IdMsg]
+      # "Invito" = TipoDocOriginal AFFIDAMENTO_SENZA_NEGOZIAZIONE: affidamenti diretti pubblicati
+      # a posteriori (scadenza = data di pubblicazione, 3.867 nello storico). Esiti esclusi.
+      escludi_campi:
+        TipoDocOriginal: [AFFIDAMENTO_SENZA_NEGOZIAZIONE]
+        Tipo: [Esito]
+      # Affidamenti diretti art. 50 c.1 lett. b con termine futuro (richieste di offerta a un
+      # operatore): esclusi come su Sintel, START e Intercent-ER. La formula sta all'inizio del
+      # titolo o dell'oggetto. Le "indagini di mercato finalizzate all'affidamento diretto"
+      # (aperte a tutti) NON iniziano cosi' e restano.
+      escludi_titoli_regex:
+        - '^\W*(bando\s+\w+\s*-\s*)?(procedura\s+(di|per)\s+(l\W?\s*)?)?affidamento\s+diretto\b'
+      escludi_descrizioni_regex:
+        - '^\W*(bando\s+\w+\s*-\s*)?(procedura\s+(di|per)\s+(l\W?\s*)?)?affidamento\s+diretto\b'
+      # Su STELLA la Regione compare come "Giunta Regionale" e "Consiglio Regionale", senza
+      # "Lazio": si aggiunge, perche' in dashboard si capisca di chi e' la gara.
+      enti_rinomina:
+        "Giunta Regionale": "Regione Lazio - Giunta Regionale"
+        "Consiglio Regionale": "Regione Lazio - Consiglio Regionale"
+      # I link del feed puntano a stella.regione.lazio.it/portale/..., che ora rimanda al portale
+      # della Centrale Acquisti: si usa direttamente la pagina di dettaglio di quel portale
+      # (formato visto nei dettagli reali: dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=<id>).
+      link_sostituisci:
+        "https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc="
+      url: "https://stella.regione.lazio.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=50&nPag={pagina}&Filter=bScaduto%3D%270%27"
+      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+
 # --- Siti che pubblicano i bandi solo come pagine HTML ---------------------
 # lettore: il modello di pagina (vedi scout/portali_html.py).
 # ente: nome dell'ente, usato quando la pagina non lo riporta per ogni bando.
@@ -700,6 +758,34 @@ plone:
       escludi_campi:
         procedura_gara: [Affidamento Diretto]
       pausa_secondi: 0.5
+      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+
+# --- Centrale Acquisti Regione Lazio (STELLA): API REST del portale ----------
+# La pagina "Bandi di gara in scadenza" di centraleacquisti.regione.lazio.it legge l'elenco da
+# un servizio JSON pubblico (vedi scout/centrale_acquisti.py). Si usa per le consultazioni
+# preliminari di mercato, che il feed RSS di STELLA non contiene (41 in corso al 20/11/2026).
+# Gli SDA (4, tutti di farmaci) non si leggono.
+centrale_acquisti:
+  abilitato: true
+  siti:
+    - nome: STELLA consultazioni
+      nome_fonte: STELLA Lazio
+      sigla: stella-cons
+      regione: Lazio
+      tipo: consultazione di mercato
+      url: "https://centraleacquisti.regione.lazio.it/o/centrale-acquisti-service-rest/feed/getBandiAvvisi"
+      tipologia: BANDO_CONSULTAZIONE
+      per_pagina: 50
+      max_pagine: 10
+      # Formato della pagina di dettaglio delle gare, con il tipo documento delle consultazioni
+      # (lo stesso usato dal servizio di dettaglio): da verificare al primo lancio.
+      link: "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_CONSULTAZIONE_PORTALE&id_doc={id}"
+      escludi_oggetti_regex:
+        - '^\s*bando\s+(revocato|annullato)\b'
+      enti_rinomina:
+        "Giunta Regionale": "Regione Lazio - Giunta Regionale"
+        "Consiglio Regionale": "Regione Lazio - Consiglio Regionale"
       timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
       tentativi: 1
 
