@@ -222,22 +222,6 @@
   "cig": []
  },
  {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18537581",
-  "title": "Fornitura di ledwall e accessori collegati per la biblioteca e di strumentazione informatica per l’Assemblea legislativa. CUP E39I26002310002",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "ASSEMBLEA LEGISLATIVA DELLA REGIONE EMILIA-ROMAGNA",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "32.469,00 €",
-  "procedura_gara": "Affidamento Diretto",
-  "tipo_bando_gara": "Invito",
-  "criterio": "Prezzo più basso",
-  "scadenza": "2026-11-20T12:00:00+00:00",
-  "pubdate": "2026-11-17T10:44:49+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": []
- },
- {
   "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18567607",
   "title": "Consultazione software gestione stupefacenti",
   "type": "BANDO_CONSULTAZIONE_PORTALE",

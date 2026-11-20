@@ -3,7 +3,7 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 290
+  "righe_lette": 289
  },
  "lombardia_ambito_4": {
   "righe_prima_pagina": 93,
@@ -42,7 +42,7 @@
   "righe_lette": 15
  },
  "lombardia": {
-  "righe_lette": 552,
+  "righe_lette": 551,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 17,
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 16,
@@ -83,7 +83,7 @@
    "ATS DELL'INSUBRIA": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 349,
+  "procedure_altri_enti": 348,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "ERSAF - ENTE REGIONALE PER I SERVIZI ALL'AGRICOLTURA E ALLE FORESTE": 11,
@@ -177,7 +177,6 @@
    "COMUNE DI CARPIANO": 1,
    "COMUNE DI CASALMAIOCCO": 1,
    "COMUNE DI CASALOLDO": 1,
-   "COMUNE DI CASALPUSTERLENGO": 1,
    "COMUNE DI CASSANO D'ADDA": 1,
    "COMUNE DI CASSINA RIZZARDI": 1,
    "COMUNE DI CASTEGGIO": 1,

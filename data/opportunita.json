@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-20T11:49:37+00:00",
- "totale": 110,
+ "aggiornato_il": "2026-11-20T12:03:20+00:00",
+ "totale": 109,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -1892,35 +1892,13 @@
   {
    "id": "ted:768150-2026",
    "fonti": [
-    "TED"
+    "TED",
+    "eAppalti SAT FVG"
    ],
    "titolo": "PR26INF073 | Procedura aperta sopra soglia comunitaria per l’affidamento della fornitura di Licenze Firewall, sottoscrizioni e servizi di supporto FORTINET destinati all’infrastruttura di sicurezza in",
    "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
    "scadenza": "2026-12-09",
    "pubblicazione": "2026-11-05",
-   "importo": 1841021.57,
-   "cpv": [
-    "48730000"
-   ],
-   "cig": [],
-   "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/768150-2026",
-   "regione": null,
-   "motivo_match": "Ente sanitario + CPV IT (48730000)",
-   "descrizione": null,
-   "primo_rilevamento": "2026-11-05",
-   "ultimo_rilevamento": "2026-11-19"
-  },
-  {
-   "id": "ted:783479-2026",
-   "fonti": [
-    "TED",
-    "eAppalti SAT FVG"
-   ],
-   "titolo": "PR26INF073 | Lotto 1 Procedura aperta sopra soglia comunitaria indetta su piattaforma telematica eAppalti SAT FVG, ai sensi dell’art. 71 D.lgs. n. 36/2023, per l’affidamento della fornitura di Licenze Firewall, sottoscrizioni e servizi di supporto FORTINET destinati all’infrastruttura di sicurezza informatica installata presso l’Azienda Sanitaria Universitaria Friuli Centrale per un periodo di 48",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
-   "scadenza": "2026-12-09",
-   "pubblicazione": "2026-11-11",
    "importo": 1841021.57,
    "cpv": [
     "48730000"
@@ -1933,7 +1911,7 @@
    "regione": "Friuli Venezia Giulia",
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
-   "primo_rilevamento": "2026-11-11",
+   "primo_rilevamento": "2026-11-05",
    "ultimo_rilevamento": "2026-11-20"
   },
   {
