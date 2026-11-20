@@ -3,7 +3,7 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 298
+  "righe_lette": 296
  },
  "lombardia_ambito_4": {
   "righe_prima_pagina": 95,
@@ -18,10 +18,10 @@
   "righe_lette": 35
  },
  "lombardia_ambito_7": {
-  "righe_prima_pagina": 82,
+  "righe_prima_pagina": 81,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 82
+  "righe_lette": 81
  },
  "lombardia_ambito_8": {
   "righe_prima_pagina": 22,
@@ -42,7 +42,7 @@
   "righe_lette": 12
  },
  "lombardia": {
-  "righe_lette": 568,
+  "righe_lette": 565,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 17,
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 16,
@@ -82,12 +82,12 @@
    "ATS DELL'INSUBRIA": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 354,
+  "procedure_altri_enti": 351,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 21,
    "COMUNE DI MILANO": 9,
    "ERSAF - ENTE REGIONALE PER I SERVIZI ALL'AGRICOLTURA E ALLE FORESTE": 9,
-   "POLITECNICO DI MILANO": 7,
+   "POLITECNICO DI MILANO": 6,
    "PROVINCIA DI LECCO": 6,
    "UNIVERSITA' DEGLI STUDI DI BRESCIA": 6,
    "COMUNE DI LIVIGNO": 5,
@@ -142,7 +142,6 @@
    "COMUNITÀ MONTANA VALTELLINA DI TIRANO": 2,
    "CONSORZIO IMPEGNO SOCIALE": 2,
    "GIUNTA REGIONALE - REGIONE LOMBARDIA": 2,
-   "PROVINCIA DI LODI": 2,
    "PROVINCIA DI SONDRIO": 2,
    "UNIONE COLLI MANTOVANI": 2,
    "A.SE.R SPA": 1,
@@ -243,7 +242,6 @@
    "COMUNE DI PUMENENGO": 1,
    "COMUNE DI REZZATO": 1,
    "COMUNE DI ROBBIO": 1,
-   "COMUNE DI ROBECCHETTO CON INDUNO": 1,
    "COMUNE DI SAN FERMO DELLA BATTAGLIA": 1,
    "COMUNE DI SAN GENESIO ED UNITI": 1,
    "COMUNE DI SAN PELLEGRINO TERME": 1,
@@ -284,6 +282,7 @@
    "GESTIONE SERVIZI INTEGRATI SRL": 1,
    "ISTITUTO REGIONALE PER IL SUPPORTO ALLE POLITICHE DELLA LOMBARDIA (POLIS-LOMBARDIA)": 1,
    "PRINCIPIA S.P.A.": 1,
+   "PROVINCIA DI LODI": 1,
    "PROVINCIA DI MANTOVA": 1,
    "UNIONE COMUNI DELL'OLTREPÒ CENTRALE": 1,
    "UNIONE DEI COMUNI I FONTANILI": 1,
@@ -362,10 +361,10 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 154,
+  "righe_prima_pagina": 150,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 154,
+  "righe_lette": 150,
   "enti_sanitari": {
    "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 39,
    "A.O. ORDINE MAURIZIANO TORINO": 11,
@@ -387,11 +386,11 @@
    "ASL BI": 1,
    "CSI PIEMONTE": 1
   },
-  "procedure_altri_enti": 42,
+  "procedure_altri_enti": 38,
   "altri_enti": {
-   "COMUNE DI ALESSANDRIA": 10,
    "GIUNTA REGIONALE DEL PIEMONTE": 8,
    "COMUNE DI BIELLA": 7,
+   "COMUNE DI ALESSANDRIA": 6,
    "CITTÀ METROPOLITANA DI TORINO": 3,
    "PROVINCIA DEL VERBANO CUSIO OSSOLA": 3,
    "PROVINCIA DI BIELLA": 3,
