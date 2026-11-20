@@ -283,10 +283,11 @@ def main() -> int:
     prima = set(storico)
     # Regole dei feed che lo storico non conosce (procedure a invito, revoche, link corretti).
     storico = portali_rss.correggi_storico(storico, cfg)
-    # Voci Plone, Centrale Acquisti e Jaggaer scartate da una regola esplicita (es. bando revocato
-    # su Intercent-ER, consultazione revocata su STELLA, asta di vendita su eAppaltiFVG).
+    # Voci Plone, Centrale Acquisti, Jaggaer e HTML scartate da una regola esplicita (es. bando revocato
+    # su Intercent-ER, consultazione revocata su STELLA, asta di vendita su eAppaltiFVG, voce
+    # dell'albo dell'ASL 3 Nuoro del 2025 senza scadenza).
     for nome, esclusi in (("Plone", plone.ESCLUSI), ("Centrale Acquisti", centrale_acquisti.ESCLUSI),
-                          ("Jaggaer", jaggaer.ESCLUSI)):
+                          ("Jaggaer", jaggaer.ESCLUSI), ("HTML", portali_html.ESCLUSI)):
         tolte = sorted(k for k in storico if k in esclusi)
         for k in tolte:
             del storico[k]

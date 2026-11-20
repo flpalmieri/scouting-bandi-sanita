@@ -53,6 +53,11 @@ Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url
   scadenza_max_giorni   - se la "scadenza" e' piu' lontana di cosi' dalla pubblicazione
                           (default 365) non e' un termine di gara ma la fine della
                           pubblicazione sul sito: viene ignorata.
+  pubblicazione_max_giorni - le voci SENZA scadenza pubblicate da piu' di cosi' si ignorano
+                          (default 120 per il lettore albo_ap, nessun limite per gli altri). Senza
+                          scadenza una voce resta in dashboard 120 giorni dal primo rilevamento: un
+                          avviso dell'agosto 2025 trovato oggi sarebbe rimasto fino a marzo 2027
+                          (ASL 3 Nuoro, telemonitoraggio BPCO, run 44738107918).
   Una "scadenza" anteriore alla pubblicazione e' un errore di battitura del sito (ARES,
   20/11/2026: pubblicato 11.11.2026, scadenza 11.01.2026) e viene ignorata.
 """
@@ -72,6 +77,9 @@ from .common import Filtro, Opportunita, estrai_importo, log, parse_data
 
 CAMPIONI = Path("state/campioni")
 ERRORI: list[str] = []
+# Id delle voci ignorate da una regola che lo storico da solo non conosce (voci vecchie senza
+# scadenza): main.py le toglie anche dallo storico.
+ESCLUSI: set[str] = set()
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
@@ -372,6 +380,11 @@ def _ente_voce(voce: dict, sito: dict) -> str:
     return norm.get(area.lower()) or f"{ente} - {area}"
 
 
+def _id_voce(voce: dict, sito: dict) -> str:
+    chiave = voce.get("link") or voce["titolo"]
+    return f"{sito['sigla']}:{hashlib.sha1(chiave.encode('utf-8')).hexdigest()[:12]}"
+
+
 def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     titolo, testo = voce["titolo"], voce["testo"]
     if not titolo:
@@ -417,9 +430,17 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
                         sito["nome"], scadenza, pubblicazione, titolo[:80])
             scadenza = None
 
-    chiave = voce.get("link") or titolo
+    if not scadenza and pubblicazione:
+        default = 120 if sito.get("lettore") == "albo_ap" else None
+        limite_pub = sito.get("pubblicazione_max_giorni", default)
+        if limite_pub is not None and (date.today() - date.fromisoformat(pubblicazione)).days > int(limite_pub):
+            log.info("HTML %s: voce senza scadenza pubblicata il %s, ignorata (%s)",
+                     sito["nome"], pubblicazione, titolo[:80])
+            ESCLUSI.add(_id_voce(voce, sito))
+            return None
+
     return Opportunita(
-        id=f"{sito['sigla']}:{hashlib.sha1(chiave.encode('utf-8')).hexdigest()[:12]}",
+        id=_id_voce(voce, sito),
         fonti=[sito.get("nome_fonte", sito["nome"])],
         titolo=titolo,
         ente=ente,
@@ -441,6 +462,12 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
 def _salva_campione(sito: dict, contenuto: bytes) -> None:
     CAMPIONI.mkdir(parents=True, exist_ok=True)
     nome = re.sub(r"[^a-z0-9]+", "_", sito["nome"].lower()).strip("_")
+    if sito.get("lettore") == "albo_ap":
+        # Negli albi WordPress i primi 60 kB sono solo stili e menu (run 44738107918): il campione
+        # parte dalla prima scheda, cosi' contiene le voci lette.
+        i = contenuto.find(b"card-title")
+        if i > 0:
+            contenuto = contenuto[max(0, i - 500):]
     (CAMPIONI / f"{nome}.html").write_bytes(contenuto[:60000])
 
 

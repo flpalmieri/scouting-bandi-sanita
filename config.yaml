@@ -119,6 +119,9 @@ rumore_procedurale_regex:
   # Sanità”" faceva entrare come IT forniture di dispositivi (protesi discali, aspiratori).
   - 'sistema\s+informatico\s+per\s+le\s+procedure\s+telematiche\s+di\s+acquist\w*'
   - '(SIAPS\W{0,3})?sistema\s+informativo\s+appalti\s+pubblici(\s+(in\s+)?sanit\w*)?'
+  # Strumenti di laboratorio "su due postazioni di lavoro" (ASL 7 Sulcis, diagnostica molecolare PCR,
+  # 20/11/2026): il numero di postazioni di uno strumento non e' una fornitura di PC.
+  - '\bsu\s+(una|due|tre|quattro|cinque|sei|\d+)\s+(sol[ae]\s+)?postazion\w*\s+di\s+lavoro'
 
 # Soggetti aggregatori che comprano sia per la sanità sia per altri settori:
 # le loro gare IT vengono incluse ma marcate "da verificare".
