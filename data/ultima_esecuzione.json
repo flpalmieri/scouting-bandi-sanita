@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-20T11:12:01+00:00",
+  "eseguito_il": "2026-11-20T11:21:52+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -31,6 +31,6 @@
     }
   },
   "errori": [],
-  "nuove_opportunita": 4,
+  "nuove_opportunita": 0,
   "totale": 109
 }
