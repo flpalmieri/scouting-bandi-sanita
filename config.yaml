@@ -105,11 +105,12 @@ aggregatori_misti_regex:
   # Decisione di Flavio (19/11/2026): Regione Toscana (anche come soggetto aggregatore) compra
   # IT per tutte le PA toscane, sanita' compresa. Le sue gare IT entrano "da verificare".
   - '\bregione\s+toscana\b|giunta\s+regionale\s+(della\s+)?toscana'
-  # Emilia-Romagna: Intercent-ER e' gia' coperta da 'intercent' (prima riga). DA DECIDERE (Flavio):
-  # Lepida (societa' informatica della Regione, come CSI Piemonte e Liguria Digitale) e ART-ER.
-  # Per includerle togliere il # all'inizio della riga.
-  # - '\blepida\b'
-  # - '\bART-ER\b'
+  # Emilia-Romagna: Intercent-ER e' gia' coperta da 'intercent' (prima riga). Decisione di Flavio
+  # (20/11/2026): anche Lepida (societa' informatica della Regione, come CSI Piemonte e Liguria
+  # Digitale) e ART-ER (societa' consortile regionale per ricerca e innovazione). Le loro gare IT
+  # entrano "da verificare", anche quelle non sanitarie.
+  - '\blepida\b'
+  - '\bART-ER\b'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -684,14 +685,16 @@ plone:
       max_risultati: 600           # per sezione (316 gare aperte degli altri enti al 19/11/2026)
       dettaglio: intercenter-data
       # 21 voci aperte su 356 non hanno ente_appaltante: con questo nome contengono "Intercent-ER"
-      # e le IT entrano "da verificare" (come le gare dell'agenzia). Per scartarle: ente_se_vuoto: ""
+      # e le IT entrano "da verificare" (come le gare dell'agenzia). Decisione di Flavio (20/11/2026):
+      # tenerle cosi'. Per scartarle: ente_se_vuoto: ""
       ente_se_vuoto: "Ente non indicato (Intercent-ER)"
       escludi_stati: [Revocato, Annullato]   # stato_procedura del dettaglio (7 revocate al 19/11/2026)
       # Procedure a invito rivolte a un fornitore gia' scelto, come gli affidamenti diretti di Sintel
       # e di START Sanita' (decisione del 20/11/2026). Nei 18 dettagli del primo lancio: 9
       # "Affidamento Diretto" (tutti "Invito", comprese le "Richiesta di offerta art. 50 c.1 lett. b"),
       # 5 "Negoziata" (Invito), 2 "Aperta" (Bando), 2 consultazioni. Le Negoziata restano: sono
-      # spesso ex art. 76 (unico fornitore), cioe' segnali di infungibilita'.
+      # spesso ex art. 76 (unico fornitore), cioe' segnali di infungibilita'. Esclusione confermata
+      # da Flavio il 20/11/2026.
       escludi_campi:
         procedura_gara: [Affidamento Diretto]
       pausa_secondi: 0.5
