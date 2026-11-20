@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-20T10:20:44+00:00",
+  "eseguito_il": "2026-11-20T11:12:01+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -7,7 +7,7 @@
     },
     "portali_rss": {
       "esito": "ok",
-      "pertinenti": 17
+      "pertinenti": 19
     },
     "portali_html": {
       "esito": "ok",
@@ -23,14 +23,14 @@
     },
     "plone": {
       "esito": "ok",
-      "pertinenti": 8
+      "pertinenti": 6
     },
     "centrale_acquisti": {
       "esito": "ok",
-      "pertinenti": 9
+      "pertinenti": 7
     }
   },
   "errori": [],
-  "nuove_opportunita": 0,
-  "totale": 105
+  "nuove_opportunita": 4,
+  "totale": 109
 }

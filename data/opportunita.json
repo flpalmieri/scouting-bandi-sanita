@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-20T10:20:44+00:00",
- "totale": 105,
+ "aggiornato_il": "2026-11-20T11:12:01+00:00",
+ "totale": 109,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -894,6 +894,26 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
+   "id": "siaps:4833472",
+   "fonti": [
+    "SIAPS So.Re.Sa."
+   ],
+   "titolo": "Avviso di Indagine di Mercato ex art. 50, comma 2 del Dlgs 36/2023 per la fornitura dei dispositivi per il controllo accessi ai locali destinati alla custodia di medicinali stupefacenti o psicotropi comprensivo del software di gestione e servizio di manutenzione “full risk” per l’A.O.R.N. “A. Cardarelli”",
+   "ente": "A.O. CARDARELLI",
+   "scadenza": "2026-11-24",
+   "pubblicazione": "2026-11-10",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "Consultazione Preliminare di Mercato",
+   "link": "https://siaps.soresa.it/portalegare/index.php/bandi?getdettaglio=yes&bando=4833472&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00",
+   "regione": "Campania",
+   "motivo_match": "Ente sanitario + oggetto IT ('software')",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
    "id": "empulia:2971458",
    "fonti": [
     "EmPULIA"
@@ -1577,6 +1597,28 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
+   "id": "siaps:4838823",
+   "fonti": [
+    "SIAPS So.Re.Sa."
+   ],
+   "titolo": "Procedura Negoziata indetta ai sensi dell’art. art. 50, co. 1, lett. e), del d.lgs. 36/2023, per l’affidamento dei servizi tecnologici avanzati per la gestione di “Big Data” per le esigenze del progetto “UBUNTU”",
+   "ente": "A.O.U. POLICLINICO FEDERICO II",
+   "scadenza": "2026-12-01",
+   "pubblicazione": "2026-11-17",
+   "importo": 215000.0,
+   "cpv": [
+    "72300000"
+   ],
+   "cig": [],
+   "tipo": "Bando",
+   "link": "https://siaps.soresa.it/portalegare/index.php/bandi?getdettaglio=yes&bando=4838823&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-01T12:00:00",
+   "regione": "Campania",
+   "motivo_match": "Ente sanitario + CPV IT (72300000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
    "id": "sintel:226429225",
    "fonti": [
     "Sintel"
@@ -1762,6 +1804,28 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
+   "id": "siaps:4847535",
+   "fonti": [
+    "SIAPS So.Re.Sa."
+   ],
+   "titolo": "Procedura negoziata senza pubblicazione di un bando, ai sensi dell’art 76, comma 2, lettera b), punto 2, del D. Lgs 36/2023, tramite il sistema informatico per le procedure telematiche di acquisto di So.Re.Sa. “SIAPS Sistema Informativo Appalti Pubblici Sanità”, per la fornitura biennale di licenze software a servizio della piattaforma di telemedicina della rete stroke dell’Asl Salerno.",
+   "ente": "A.S.L. SALERNO",
+   "scadenza": "2026-12-04",
+   "pubblicazione": "2026-11-19",
+   "importo": 197160.0,
+   "cpv": [
+    "72000000"
+   ],
+   "cig": [],
+   "tipo": "Bando",
+   "link": "https://siaps.soresa.it/portalegare/index.php/bandi?getdettaglio=yes&bando=4847535&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-04T12:00:00",
+   "regione": "Campania",
+   "motivo_match": "Ente sanitario + CPV IT (72000000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
    "id": "stella-cons:24388435",
    "fonti": [
     "STELLA Lazio"
@@ -1863,6 +1927,28 @@
    "motivo_match": "Ente sanitario + oggetto IT ('informatizzat')",
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
+   "id": "izsam:10293",
+   "fonti": [
+    "IZSAM"
+   ],
+   "titolo": "Avviso volontario di consultazione preliminare di mercato, ai sensi dell'art. 77 del D.Lgs. 36/2023, per l'acquisizione di informazioni sul mercato relative alla fornitura di kit diagnostici ELISA IDvet e di eventuali soluzioni tecnicamente equivalenti",
+   "ente": "IZSAM - Istituto Zooprofilattico Sperimentale dell'Abruzzo e del Molise G. Caporale",
+   "scadenza": "2026-12-10",
+   "pubblicazione": "2026-11-20",
+   "importo": null,
+   "cpv": [
+    "33696000"
+   ],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://izs.acquistitelematici.it/tender/10293",
+   "regione": "Abruzzo",
+   "motivo_match": "Ente sanitario + oggetto IT ('informatic')",
+   "descrizione": "La presente pubblicazione è finalizzata esclusivamente alla raccolta di contributi e informazioni nell'ambito di una consultazione preliminare di mercato ai sensi dell'art. 77 del D.Lgs. 36/2023. La funzione «Manifestazione di interesse» è utilizzata esclusivamente quale strumento informatico per consentire agli operatori economici interessati di trasmettere la documentazione richiesta nell'Avviso. La presente iniziativa non costituisce una procedura di affidamento, una selezione di operatori economici da invitare, né comporta la formazione di elenchi o graduatorie. La partecipazione alla cons",
+   "primo_rilevamento": "2026-11-20",
    "ultimo_rilevamento": "2026-11-20"
   },
   {

@@ -238,66 +238,6 @@
   "cig": []
  },
  {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18222552",
-  "title": "PROCEDURA NEGOZIATA EX ART. 76, C. 2, LETT. B) D.LGS. 36/2023 PER LA FORNITURA DI UN SERVIZIO TRIENNALE DI MANUTENZIONE (FRI) E ((RIC)AQ) SU APPARECCHIATURE GETEMED / EUMACO / MEDICALGORITHMICS E RELATIVE LICENZE - AOUBO",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "AZIENDA USL DI BOLOGNA",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "1.149.330,00 €",
-  "procedura_gara": "Negoziata",
-  "tipo_bando_gara": "Invito",
-  "criterio": "Prezzo più basso",
-  "scadenza": "2026-11-20T11:00:00+00:00",
-  "pubdate": "2026-11-03T14:48:21+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": [
-   {
-    "codice": "BDA253D478",
-    "lotto": "1",
-    "descrizione": "Servizi di manutenzione su apparecchiature GETEMED / EUMACO / MEDICALGORITHMICS"
-   }
-  ]
- },
- {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18498742",
-  "title": "Accordo Quadro Tecnoufficio 2026-2030 - servizi e forniture informatiche",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "FONDAZIONE R.E.I.  RICERCA INDUSTRIALE E  TRASFERIMENTO TECNOLOGICO ",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "135.000,00 €",
-  "procedura_gara": "Affidamento Diretto",
-  "tipo_bando_gara": "Invito",
-  "criterio": "Prezzo più basso",
-  "scadenza": "2026-11-20T11:00:00+00:00",
-  "pubdate": "2026-11-16T07:52:36+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": []
- },
- {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@17089880",
-  "title": "[2026_SIA_39] MANUTENZIONE ORDINARIA E STRAORDINARIA DEL SISTEMA ERP CONTABILE MICROSOFT DYNAMICS 365 BUSINESS CENTRAL",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "OSPEDALE DI SASSUOLO - S.P.A.",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "1.349.000,00 €",
-  "procedura_gara": "Aperta",
-  "tipo_bando_gara": "Bando",
-  "criterio": "Offerta economicamente più vantaggiosa",
-  "scadenza": "2026-11-20T11:00:00+00:00",
-  "pubdate": "2026-09-22T11:54:40+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": [
-   {
-    "codice": "BD11112DA7",
-    "lotto": "1",
-    "descrizione": "Sistema ERP Contabile Microsoft Dynamics 365"
-   }
-  ]
- },
- {
   "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18567607",
   "title": "Consultazione software gestione stupefacenti",
   "type": "BANDO_CONSULTAZIONE_PORTALE",

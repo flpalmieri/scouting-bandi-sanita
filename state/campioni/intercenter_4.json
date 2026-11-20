@@ -646,18 +646,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@17609894", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_PORTALE@17609894", 
       "@type": "BandoIntercenter", 
       "Date": "2026-10-19T23:00:00+01:00", 
       "Description": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO PER L\u2019ACQUISIZIONE, A TITOLO DI NOLEGGIO PER 24 MESI, DI UN SEQUENZIATORE  OCCORRENTE  ALLA S.S.D. ANATOMIA E ISTOLOGIA PATOLOGICA DELL\u2019IRCCS ISTITUTO ORTOPEDICO RIZZOLI", 
       "Subject": [], 
       "Title": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO PER L\u2019ACQUISIZIONE, A TITOLO DI NOLEGGIO PER 24 MESI, DI UN SEQUENZIATORE  OCCORRENTE  ALLA S.S.D. ANATOMIA E ISTOLOGIA PATOLOGICA DELL\u2019IRCSS ISTITUTO ORTOPEDICO RIZZOLI", 
-      "UID": "b4fde766fc634afb8b7be2a974cc645f", 
+      "UID": "d11ffccfa7074f1992fa5c125c7bf0a6", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO PER L\u2019ACQUISIZIONE, A TITOLO DI NOLEGGIO PER 24 MESI, DI UN SEQUENZIATORE  OCCORRENTE  ALLA S.S.D. ANATOMIA E ISTOLOGIA PATOLOGICA DELL\u2019IRCCS ISTITUTO ORTOPEDICO RIZZOLI", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -962,4 +962,4 @@
       "scadenza_bando": "2026-11-16T11:00:00+00:00", 
       "tipologia_bando": null, 
       "title": "Servizio di consulenza e di supporto tecnico per la realizzazione di percorsi di co-progettazione con Budget di Salute", 
-      "type_title": "Bando 
+      "type_title": "Band

@@ -3,13 +3,13 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 300
+  "righe_lette": 303
  },
  "lombardia_ambito_4": {
-  "righe_prima_pagina": 99,
+  "righe_prima_pagina": 100,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 99
+  "righe_lette": 100
  },
  "lombardia_ambito_5": {
   "righe_prima_pagina": 34,
@@ -42,7 +42,7 @@
   "righe_lette": 14
  },
  "lombardia": {
-  "righe_lette": 572,
+  "righe_lette": 576,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 17,
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 17,
@@ -50,11 +50,11 @@
    "ASST DI BERGAMO OVEST": 12,
    "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 12,
    "ASST LARIANA": 10,
+   "ASST DI MANTOVA": 9,
    "FONDAZIONE IRCCS SAN GERARDO DEI TINTORI DI MONZA": 9,
    "ASST DEI SETTE LAGHI": 8,
    "ASST DELLA VALTELLINA E DELL'ALTO LARIO": 8,
    "ASST DI CREMA": 8,
-   "ASST DI MANTOVA": 8,
    "ASST PAPA GIOVANNI XXIII": 8,
    "AGENZIA REGIONALE EMERGENZA URGENZA (AREU 118)": 7,
    "ASST DI BERGAMO EST": 7,
@@ -66,10 +66,10 @@
    "ASST DELLA FRANCIACORTA": 4,
    "ASST DELLA VALCAMONICA": 4,
    "ASST DI LECCO": 4,
+   "ASST NORD MILANO": 4,
    "ASST OVEST MILANESE": 4,
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO": 3,
    "ASST DEGLI SPEDALI CIVILI DI BRESCIA": 3,
-   "ASST NORD MILANO": 3,
    "ASST SANTI PAOLO E CARLO": 3,
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLA LOMBARDIA E DELL'EMILIA ROMAGNA \"BRUNO UBERTINI\"": 3,
    "ASST DEL GARDA": 2,
@@ -83,18 +83,18 @@
    "ATS DELL'INSUBRIA": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 353,
+  "procedure_altri_enti": 355,
   "altri_enti": {
-   "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 19,
+   "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "ERSAF - ENTE REGIONALE PER I SERVIZI ALL'AGRICOLTURA E ALLE FORESTE": 11,
    "COMUNE DI MILANO": 9,
    "POLITECNICO DI MILANO": 6,
    "PROVINCIA DI LECCO": 6,
+   "SOCIETÀ PER L'ECOLOGIA E L'AMBIENTE SPA": 6,
    "UNIVERSITA' DEGLI STUDI DI BRESCIA": 6,
    "COMUNE DI LIVIGNO": 5,
    "PROVINCIA DI BERGAMO": 5,
    "PROVINCIA DI PAVIA": 5,
-   "SOCIETÀ PER L'ECOLOGIA E L'AMBIENTE SPA": 5,
    "AGESP S.P.A.": 4,
    "COMUNE DI BUCCINASCO": 4,
    "COMUNE DI BUSTO ARSIZIO": 4,
@@ -310,17 +310,17 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 180,
+  "righe_prima_pagina": 181,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 180,
+  "righe_lette": 181,
   "enti_sanitari": {
    "AZIENDA ULSS N. 8 BERICA": 33,
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA": 31,
    "AZIENDA ULSS N. 7 PEDEMONTANA": 16,
    "AZIENDA ULSS N. 3 SERENISSIMA": 14,
    "AZIENDA OSPEDALIERA UNIVERSITARIA INTEGRATA DI VERONA": 13,
-   "AZIENDA ULSS N. 5 POLESANA": 9,
+   "AZIENDA ULSS N. 5 POLESANA": 10,
    "AZIENDA ZERO": 8,
    "ISTITUTO ONCOLOGICO VENETO I.R.C.C.S.": 5,
    "AZIENDA ULSS N. 4 VENETO ORIENTALE": 3,
