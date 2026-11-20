@@ -313,6 +313,12 @@ def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
             if paginato:
                 previste = _pagine_previste(r.content, url_modello)
                 if previste is not None:   # il feed dice quante pagine ha: non chiedere oltre
+                    if previste > max_pagine:
+                        # Per alcuni feed e' voluto (consultazioni ordinate dalla piu' recente),
+                        # ma va detto: il 20/11/2026 STELLA si e' fermato a 500 voci su 1.460
+                        # senza che nulla lo segnalasse.
+                        log.warning("RSS %s: il feed dichiara %d pagine, se ne leggono %d (max_pagine)",
+                                    feed["nome"], previste, max_pagine)
                     max_pagine = min(max_pagine, previste)
         voci = _elementi(r.content)
         firme = {(v.get("guid") or v.get("link") or v.get("title") or "") for v in voci}

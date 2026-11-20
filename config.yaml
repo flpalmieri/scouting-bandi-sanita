@@ -406,60 +406,10 @@ portali_rss:
       url: "https://www.sanita.start.toscana.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
       timeout_connessione: 20
       tentativi: 1
-
-    # --- Lazio: piattaforma regionale STELLA (S.TEL.LA., Centrale Acquisti) ---
-    # Stesso software di EmPULIA (campi afs:). Tutte le aziende sanitarie pubbliche laziali
-    # (ASL, AO, Policlinici, IFO, INMI, ARES 118), la Regione e LAZIOcrea. Non c'e' l'IZS Lazio e
-    # Toscana. Il filtro bScaduto='0' (verificato dall'utente il 20/11/2026) da' le sole voci
-    # aperte: circa 116 al 20/11/2026. Le consultazioni non sono nel feed: si leggono dalla
-    # sezione centrale_acquisti (API REST del portale della Centrale Acquisti).
-    - nome: STELLA bandi
-      nome_fonte: STELLA Lazio
-      sigla: stella
-      regione: Lazio
-      tipo: bando
-      max_pagine: 10               # 50 per pagina; il feed dichiara il totale (totRecord)
-      escludi_stati: [Revocato, Annullato]
-      campi:
-        # Titolo = nome breve della procedura (TitoloDocumento): e' lo stesso titolo che l'ente
-        # usa su TED (es. "Sistema ORMS integrato a dispositivi medici"), cosi' main.py fonde
-        # la stessa gara vista sulle due fonti. L'oggetto completo va nella descrizione.
-        titolo: [TitoloDocumento, Oggetto]
-        descrizione: [Oggetto]
-        ente: [DenominazioneEnte, EnteProponente]
-        scadenza: [DtScadenzaBandoTecnical]
-        pubblicazione: [DtPubblicazioneTecnical]
-        importo: [a_base_asta]
-        cig: [CIG]
-        cpv: [CPV]
-        stato: [statoFunzionale]
-        id: [IdMsg]
-      # "Invito" = TipoDocOriginal AFFIDAMENTO_SENZA_NEGOZIAZIONE: affidamenti diretti pubblicati
-      # a posteriori (scadenza = data di pubblicazione, 3.867 nello storico). Esiti esclusi.
-      escludi_campi:
-        TipoDocOriginal: [AFFIDAMENTO_SENZA_NEGOZIAZIONE]
-        Tipo: [Esito]
-      # Affidamenti diretti art. 50 c.1 lett. b con termine futuro (richieste di offerta a un
-      # operatore): esclusi come su Sintel, START e Intercent-ER. La formula sta all'inizio del
-      # titolo o dell'oggetto. Le "indagini di mercato finalizzate all'affidamento diretto"
-      # (aperte a tutti) NON iniziano cosi' e restano.
-      escludi_titoli_regex:
-        - '^\W*(bando\s+\w+\s*-\s*)?(procedura\s+(di|per)\s+(l\W?\s*)?)?affidamento\s+diretto\b'
-      escludi_descrizioni_regex:
-        - '^\W*(bando\s+\w+\s*-\s*)?(procedura\s+(di|per)\s+(l\W?\s*)?)?affidamento\s+diretto\b'
-      # Su STELLA la Regione compare come "Giunta Regionale" e "Consiglio Regionale", senza
-      # "Lazio": si aggiunge, perche' in dashboard si capisca di chi e' la gara.
-      enti_rinomina:
-        "Giunta Regionale": "Regione Lazio - Giunta Regionale"
-        "Consiglio Regionale": "Regione Lazio - Consiglio Regionale"
-      # I link del feed puntano a stella.regione.lazio.it/portale/..., che ora rimanda al portale
-      # della Centrale Acquisti: si usa direttamente la pagina di dettaglio di quel portale
-      # (formato visto nei dettagli reali: dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc=<id>).
-      link_sostituisci:
-        "https://stella.regione.lazio.it/portale/index.php/bandi?getdettaglio=yes&bando=": "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc="
-      url: "https://stella.regione.lazio.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=50&nPag={pagina}&Filter=bScaduto%3D%270%27"
-      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
-      tentativi: 1
+    # Lazio (STELLA): le gare NON si leggono dal feed rss_new.asp, anche se ha lo schema afs: di
+    # EmPULIA, perche' la scadenza del feed resta quella originale dopo rettifiche e proroghe
+    # (verificato il 20/11/2026) e il filtro bScaduto='0' da' 1.460 voci, comprese molte chiuse.
+    # Si leggono dall'API REST della Centrale Acquisti: vedi la sezione centrale_acquisti.
 
 # --- Siti che pubblicano i bandi solo come pagine HTML ---------------------
 # lettore: il modello di pagina (vedi scout/portali_html.py).
@@ -535,8 +485,7 @@ portali_html:
       # La "Scadenza" del sito e' la fine della pubblicazione (31/12/2031, 01/01/2032).
       scadenza_max_giorni: 365
     - nome: ASL TO5
-      # Disattivata il 20/11/2026: il sito va in timeout dalle macchine di GitHub. Controllo manuale mensile.
-      abilitato: false
+      abilitato: false               # 20/11/2026 (commit c2e18e1): timeout da GitHub il 19 e il 20/11; controllo manuale mensile
       # Piemonte. Le procedure su Sintel sono quasi tutte non visibili pubblicamente (inviti);
       # richieste di preventivo e avvisi aperti stanno sul portale bandi dell'ASL (Drupal).
       nome_fonte: ASL TO5
@@ -763,12 +712,44 @@ plone:
 
 # --- Centrale Acquisti Regione Lazio (STELLA): API REST del portale ----------
 # La pagina "Bandi di gara in scadenza" di centraleacquisti.regione.lazio.it legge l'elenco da
-# un servizio JSON pubblico (vedi scout/centrale_acquisti.py). Si usa per le consultazioni
-# preliminari di mercato, che il feed RSS di STELLA non contiene (41 in corso al 20/11/2026).
-# Gli SDA (4, tutti di farmaci) non si leggono.
+# un servizio JSON pubblico (vedi scout/centrale_acquisti.py), con le scadenze aggiornate dopo
+# rettifiche e proroghe. Tutte le aziende sanitarie pubbliche laziali (ASL, AO, Policlinici,
+# IFO, INMI, ARES 118), la Regione e LAZIOcrea; non l'IZS Lazio e Toscana. Al 20/11/2026: 129
+# gare e 41 consultazioni in corso. Gli SDA (4, tutti di farmaci) non si leggono.
 centrale_acquisti:
   abilitato: true
   siti:
+    - nome: STELLA gare
+      nome_fonte: STELLA Lazio
+      sigla: stella                  # stesse id del feed letto il 20/11/2026: lo storico continua
+      regione: Lazio
+      tipo: bando
+      url: "https://centraleacquisti.regione.lazio.it/o/centrale-acquisti-service-rest/feed/getBandiAvvisi"
+      tipologia: BANDO_GARA
+      per_pagina: 50
+      max_pagine: 10
+      link: "https://centraleacquisti.regione.lazio.it/bandi-e-strumenti-di-acquisto/dettaglio-bando?tipo_doc=BANDO_GARA_PORTALE&id_doc={id}"
+      # CPV, tipo di procedura e data di pubblicazione dalla scheda di dettaglio, solo per le
+      # voci candidate e una volta sola per voce (cache in state/stella_dettagli.json). Il primo
+      # lancio ne chiede circa 100; poi qualche unita' al giorno. RUP e contatti non si leggono.
+      dettaglio: true
+      url_dettaglio: "https://centraleacquisti.regione.lazio.it/o/centrale-acquisti-service-rest/feed/getXmlDocument"
+      tipo_documento: BANDO_GARA_PORTALE
+      pausa_secondi: 0.5
+      max_dettagli: 200
+      # Affidamenti diretti (PROCEDURAGARA "Affidamento Diretto", Invito: verificato sulla scheda
+      # di 24373872, ASL Viterbo): esclusi come su Sintel, START e Intercent-ER. Le negoziate
+      # (anche a invito) restano. Se il dettaglio non si legge, vale la formula iniziale del titolo
+      # o dell'oggetto; le "indagini di mercato finalizzate all'affidamento diretto" restano.
+      escludi_procedure: [Affidamento Diretto]
+      escludi_oggetti_regex:
+        - '^\s*bando\s+(revocato|annullato)\b'
+        - '^\W*(bando\s+\w+\s*-\s*)?(procedura\s+(di|per)\s+(l\W?\s*)?)?affidamento\s+diretto\b'
+      enti_rinomina:
+        "Giunta Regionale": "Regione Lazio - Giunta Regionale"
+        "Consiglio Regionale": "Regione Lazio - Consiglio Regionale"
+      timeout_connessione: 20
+      tentativi: 1
     - nome: STELLA consultazioni
       nome_fonte: STELLA Lazio
       sigla: stella-cons

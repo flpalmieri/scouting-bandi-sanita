@@ -64,18 +64,39 @@ def _fondibili(a: Opportunita, b: Opportunita) -> bool:
     """Due record con stessa chiave sono la stessa gara solo se vengono da fonti diverse
     e non hanno CIG diversi. La chiave guarda i primi 90 caratteri del titolo, che nei
     titoli lunghi (es. Sintel: "RICHIESTA DI OFFERTA (RDO) AI SENSI DELL'ART. 50...")
-    sono solo formule fisse: due procedure diverse dello stesso ente si confonderebbero."""
-    if a.id.split(":", 1)[0] == b.id.split(":", 1)[0]:
-        return False
+    sono solo formule fisse: due procedure diverse dello stesso ente si confonderebbero.
+    Eccezione (20/11/2026): due avvisi TED dello stesso ente con titolo identico per intero
+    sono l'avviso originale e la sua modifica (es. proroga del termine: ORMS del San Camillo,
+    722510-2026 e 789687-2026) e si fondono."""
     if a.cig and b.cig and not set(a.cig) & set(b.cig):
         return False
+    if a.id.split(":", 1)[0] == b.id.split(":", 1)[0]:
+        return (a.id.startswith("ted:") and b.id.startswith("ted:")
+                and _titolo_intero(a.titolo) == _titolo_intero(b.titolo))
     return True
 
 
+def _titolo_intero(titolo: str) -> str:
+    """Titolo normalizzato senza il taglio a 90 caratteri della chiave di deduplica."""
+    import re
+    import unicodedata
+    t = unicodedata.normalize("NFKD", titolo or "").encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]", "", t.lower())
+
+
+def _freschezza(o: Opportunita) -> tuple[str, str]:
+    """Quanto e' recente l'informazione di un record: ultimo rilevamento, poi pubblicazione."""
+    return (o.ultimo_rilevamento or "", o.pubblicazione or "")
+
+
 def deduplica(tutte: dict[str, Opportunita]) -> dict[str, Opportunita]:
-    """Fonde la stessa gara vista su fonti diverse (stesso ente + stesso oggetto)."""
+    """Fonde la stessa gara vista su fonti diverse (stesso ente + stesso oggetto).
+    Scadenza e link vengono dal record rilevato piu' di recente (20/11/2026): la piattaforma
+    di gara, letta ogni giorno, riporta proroghe e rettifiche, mentre un avviso TED uscito
+    dalla finestra di lettura resta fermo alla data originale. A parita' resta il record TED."""
     per_chiave: dict[str, list[Opportunita]] = {}
     tenute: dict[str, Opportunita] = {}
+    fonte_dati: dict[str, tuple[str, str]] = {}   # freschezza dei dati di scadenza e link
     ordine = sorted(tutte.values(), key=lambda o: (0 if "TED" in o.fonti else 1, o.id))
     for o in ordine:
         k = chiave_testo(o.ente)[:40] + "|" + chiave_testo(o.titolo)
@@ -83,8 +104,14 @@ def deduplica(tutte: dict[str, Opportunita]) -> dict[str, Opportunita]:
         if principale is None or principale.id == o.id:
             per_chiave.setdefault(k, []).append(o)
             tenute[o.id] = o
+            fonte_dati[o.id] = _freschezza(o)
             continue
-        # fusione: si tiene il record TED (ha il link) e si aggiungono i dati ANAC
+        # fusione: si tiene il record TED e si aggiungono i dati dell'altra fonte; scadenza e
+        # link passano all'altro record se e' stato rilevato piu' di recente
+        if _freschezza(o) > fonte_dati[principale.id] and (o.scadenza or o.link):
+            principale.scadenza = o.scadenza or principale.scadenza
+            principale.link = o.link or principale.link
+            fonte_dati[principale.id] = _freschezza(o)
         principale.fonti = sorted(set(principale.fonti) | set(o.fonti))
         principale.cig = sorted(set(principale.cig) | set(o.cig))
         principale.cpv = sorted(set(principale.cpv) | set(o.cpv))
@@ -95,6 +122,8 @@ def deduplica(tutte: dict[str, Opportunita]) -> dict[str, Opportunita]:
         if o.primo_rilevamento and (not principale.primo_rilevamento
                                     or o.primo_rilevamento < principale.primo_rilevamento):
             principale.primo_rilevamento = o.primo_rilevamento
+        if (o.ultimo_rilevamento or "") > (principale.ultimo_rilevamento or ""):
+            principale.ultimo_rilevamento = o.ultimo_rilevamento
     return tenute
 
 
