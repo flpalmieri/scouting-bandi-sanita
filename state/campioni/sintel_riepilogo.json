@@ -12,10 +12,10 @@
   "righe_lette": 93
  },
  "lombardia_ambito_5": {
-  "righe_prima_pagina": 30,
+  "righe_prima_pagina": 31,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 30
+  "righe_lette": 31
  },
  "lombardia_ambito_7": {
   "righe_prima_pagina": 79,
@@ -42,7 +42,7 @@
   "righe_lette": 15
  },
  "lombardia": {
-  "righe_lette": 551,
+  "righe_lette": 552,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 17,
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 16,
@@ -65,10 +65,10 @@
    "ASST DELLA FRANCIACORTA": 4,
    "ASST DELLA VALCAMONICA": 4,
    "ASST DI LECCO": 4,
+   "ASST NORD MILANO": 4,
    "ASST RHODENSE": 4,
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO": 3,
    "ASST DEGLI SPEDALI CIVILI DI BRESCIA": 3,
-   "ASST NORD MILANO": 3,
    "ASST OVEST MILANESE": 3,
    "ASST SANTI PAOLO E CARLO": 3,
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLA LOMBARDIA E DELL'EMILIA ROMAGNA \"BRUNO UBERTINI\"": 3,
@@ -87,7 +87,7 @@
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "ERSAF - ENTE REGIONALE PER I SERVIZI ALL'AGRICOLTURA E ALLE FORESTE": 11,
-   "COMUNE DI MILANO": 9,
+   "COMUNE DI MILANO": 8,
    "SOCIETÀ PER L'ECOLOGIA E L'AMBIENTE SPA": 7,
    "POLITECNICO DI MILANO": 6,
    "PROVINCIA DI LECCO": 6,
@@ -164,6 +164,7 @@
    "COMUNE DI BAGNOLO CREMASCO": 1,
    "COMUNE DI BAREGGIO": 1,
    "COMUNE DI BARZANA": 1,
+   "COMUNE DI BERBENNO DI VALTELLINA": 1,
    "COMUNE DI BESANA IN BRIANZA": 1,
    "COMUNE DI BINASCO": 1,
    "COMUNE DI BOVISIO MASCIAGO": 1,
@@ -304,16 +305,16 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 179,
+  "righe_prima_pagina": 178,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 179,
+  "righe_lette": 178,
   "enti_sanitari": {
    "AZIENDA ULSS N. 8 BERICA": 34,
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA": 28,
    "AZIENDA ULSS N. 7 PEDEMONTANA": 16,
-   "AZIENDA ULSS N. 3 SERENISSIMA": 14,
    "AZIENDA OSPEDALIERA UNIVERSITARIA INTEGRATA DI VERONA": 13,
+   "AZIENDA ULSS N. 3 SERENISSIMA": 13,
    "AZIENDA ULSS N. 5 POLESANA": 10,
    "AZIENDA ZERO": 8,
    "ISTITUTO ONCOLOGICO VENETO I.R.C.C.S.": 5,
@@ -356,12 +357,12 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 143,
+  "righe_prima_pagina": 142,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 143,
+  "righe_lette": 142,
   "enti_sanitari": {
-   "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 35,
+   "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 34,
    "A.O. ORDINE MAURIZIANO TORINO": 11,
    "AZIENDA OSPEDALIERA S. CROCE E CARLE": 7,
    "AZIENDA SANITARIA LOCALE ASTI - ASL AT": 7,

@@ -240,18 +240,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-aperti/BANDO_GARA_PORTALE@18240078", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-chiusi/BANDO_GARA_PORTALE@18240078", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-05T00:00:00+01:00", 
       "Description": "Realizzazione refettorio presso la Scuola primaria Rosa Agazzi in Via Aldo Moro ad Isola Vicentina, stralcio II.", 
       "Subject": [], 
       "Title": "Realizzazione refettorio presso la Scuola primaria Rosa Agazzi in Via Aldo Moro ad Isola Vicentina, stralcio II. Procedura negoziata per appalto lavori previo avviso manifestazione interesse", 
-      "UID": "76341cd65dbd413c85ee476a9d4c6c78", 
+      "UID": "762eed9c4d834f54aac09244784db17e", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "Realizzazione refettorio presso la Scuola primaria Rosa Agazzi in Via Aldo Moro ad Isola Vicentina, stralcio II.", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -813,4 +813,3 @@
       "image_field": "", 
       "image_scales": null, 
       "mime_type": "text/plain", 
- 

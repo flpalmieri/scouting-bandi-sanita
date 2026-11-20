@@ -617,18 +617,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18274269", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_PORTALE@18274269", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-06T00:00:00+01:00", 
       "Description": "Consultazione preliminare di mercato per la fornitura di sensori, cavi ed accessori dedicati ai monitor multi-parametrici modello BIS", 
       "Subject": [], 
       "Title": "Accessori per monitor BIS", 
-      "UID": "c27c6a941de049bda9da41dc04259853", 
+      "UID": "90912fc5a8ad456f8c4e296109cb52f1", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "Consultazione preliminare di mercato per la fornitura di sensori, cavi ed accessori dedicati ai monitor multi-parametrici modello BIS", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -962,4 +962,4 @@
       "scadenza_bando": "2026-11-16T11:00:00+00:00", 
       "tipologia_bando": null, 
       "title": "Servizio di consulenza e di supporto tecnico per la realizzazione di percorsi di co-progettazione con Budget di Salute", 
-      "type_title": "Band
+      "type_title": "Ba

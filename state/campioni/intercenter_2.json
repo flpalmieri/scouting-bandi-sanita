@@ -3,7 +3,7 @@
   "batching": {
     "@id": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search", 
     "first": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=0", 
-    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=38550", 
+    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=38600", 
     "next": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=50"
   }, 
   "items": [
@@ -353,6 +353,35 @@
       "scadenza_bando": "2026-12-21T11:00:00+00:00", 
       "tipologia_bando": null, 
       "title": "PROCEDURA TELEMATICA APERTA PER CONCESSIONE DEI SERVIZI DI RIPRISTINO DELLE CONDIZIONI DI SICUREZZA STRADALE ED EVENTUALE REINTEGRO DELLE MATRICI AMBIENTALI DELLE STRADE PROVINCIALI COMPROMESSE DAL VERIFICARSI DI INCIDENTI STRADALI", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18746988", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-20T00:00:00+01:00", 
+      "Description": "PROCEDURA APERTA PER L\u2019AFFIDAMENTO DEI LAVORI DI RIFUNZIONALIZZAZIONE DELL\u2019EX SCUOLA ELEMENTARE DI TORNOLO A SEDE DI PROTEZIONE CIVILE E DELL\u2019ASSOCIAZIONISMO LOCALE", 
+      "Subject": [], 
+      "Title": "RIFUNZIONALIZZAZIONE EX SCUOLA ELEMENTARE DI TORNOLO", 
+      "UID": "cd041dda00e54f8f8fba7b874f75a846", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "PROCEDURA APERTA PER L\u2019AFFIDAMENTO DEI LAVORI DI RIFUNZIONALIZZAZIONE DELL\u2019EX SCUOLA ELEMENTARE DI TORNOLO A SEDE DI PROTEZIONE CIVILE E DELL\u2019ASSOCIAZIONISMO LOCALE", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-19T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_GARA_PORTALE@18746988", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-21T11:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "RIFUNZIONALIZZAZIONE EX SCUOLA ELEMENTARE DI TORNOLO", 
       "type_title": "Bando Intercenter"
     }, 
     {
@@ -910,24 +939,4 @@
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18335341", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-11T00:00:00+01:00", 
-      "Description": "AFFIDAMENTO DEI SERVIZI ATTINENTI ALL'ARCHITETTURA E ALL'INGEGNERIA RELATIVI ALLA PROGETTAZIONE DI FATTIBILITA' TECNICO ECONOMICA, PROGETTAZIONE ESE-CUTIVA, COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED EVEN-TUALE DIREZIONE LAVORI E COORDINAMENTO DI SICUREZZA IN FASE DI ESECUZIONE, INERENTI I LAVORI DI ADEGUAMENTO SISMICO, RIQUALIFICAZIONE MENSA SCOLASTI-CA E SERVIZI IGIENICI ED EFFICIENTAMENTO ENERGETICO PRESSO SCUOLA PRIMARIA DI GUASTALLA E. DE AMICIS VIA AFF\u00d2 2 CODICE ARES EDIFICIO: 0350240136 CUP F85E25000190005", 
-      "Subject": [], 
-      "Title": "AFFIDAMENTO DEI SERVIZI ATTINENTI ALL'ARCHITETTURA E ALL'INGEGNERIA RELATIVI AI LAVORI DI ADEGUAMENTO SISMICO, RIQUALIFICAZIONE MENSA SCOLASTI-CA E SERVIZI IGIENICI ED EFFICIENTAMENTO ENERGETICO PRESSO SCUOLA PRIMARIA DI GUASTALLA CUP F85E25000190005", 
-      "UID": "04d7e00b097a4d9688195f2eadb2c48a", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "open", 
-        "Attivo"
-      ], 
-      "description": "AFFIDAMENTO DEI SERVIZI ATTINENTI ALL'ARCHITETTURA E ALL'INGEGNERIA RELATIVI ALLA PROGETTAZIONE DI FATTIBILITA' TECNICO ECONOMICA, PROGETTAZIONE ESE-CUTIVA, COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED EVEN-TUALE DIREZIONE LAVORI E COORDINAMENTO DI SICUREZZA IN FASE DI ESECUZIONE, INERENTI I LAVORI DI ADEGUAMENTO SISMICO, RIQUALIFICAZIONE MENSA SCOLASTI-CA E SERVIZI IGIENICI ED EFFICIENTAMENTO ENERGETICO PRESSO SCUOLA PRIMARIA DI GUASTALLA E. DE AMICIS VIA AFF\u00d2 2 CODICE ARES EDIFICIO: 0350240136 CUP F85E25000190005", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-11-10T23:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_GARA_PORTALE@18335341", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-      "scadenza_bando": "2026-12-14T11:00:0
+      "Description": "AFFIDAMENTO DEI SERVIZI ATTINENTI ALL'ARCHITETTURA E ALL'INGEGNERIA RELATIVI ALLA PROGETTAZIONE DI FATTIBILITA' TECNICO ECONOMICA, PROGETTAZIONE ESE-CUTIVA, COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED EVEN-TUALE DIREZIONE LAVORI E COORDINAMENTO DI SICUREZZA IN FASE DI ESECUZIONE, INERENTI I LAVORI DI ADEGUAMENTO SISMICO, RIQUALIFICAZIONE MENSA SCOLASTI-CA E SERVIZI IGIENICI ED EFFICIENTAMENTO ENERGETICO PRESSO SCUOLA PRIMARIA DI

@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>120</afs:totRecord>
+<afs:totRecord>121</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2969441&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-20T17:00:00]]></link>
@@ -354,7 +354,7 @@ Affidamento fornitura di prodotti monouso ( carta igienica, asciugamani di carta
 	<afs:Bando_Verde_Sociale><![CDATA[]]></afs:Bando_Verde_Sociale>
 	<afs:Oggetto><![CDATA[Affidamento fornitura di prodotti monouso ( carta igienica, asciugamani di carta, detergenti , ecc) . ]]></afs:Oggetto>
     <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:EnteProponente><![CDATA[ISPE - Istituto per i Servizi alla Persona per l’Europa]]></afs:EnteProponente>
 	<afs:DenominazioneEnte><![CDATA[ISPE - Istituto per i Servizi alla Persona per l’Europa]]></afs:DenominazioneEnte>
     <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
 	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
@@ -379,7 +379,7 @@ Affidamento fornitura di prodotti monouso ( carta igienica, asciugamani di carta
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-20T12:57:12]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-20T13:01:44]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[33700000-7 - Prodotti per la cura personale]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T13:01:44]]></afs:DtPubblicazioneTecnical>
@@ -391,4 +391,4 @@ Affidamento fornitura di prodotti monouso ( carta igienica, asciugamani di carta
 	<pubDate>12/11/2026</pubDate>
 	
 	<description>
-PROCEDURA NEGOZIATA DA AVVIARE AI SENSI DELL’ART.50 D.lgs 36/2023 E s.m.i., PER
+PROCEDURA NEGOZIATA DA A
