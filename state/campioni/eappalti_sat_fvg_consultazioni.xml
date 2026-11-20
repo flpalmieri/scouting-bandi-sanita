@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:afs="http://www.aflink.it/XMLBANDI">
+<channel>
+<title>Elenco dei bandi di gara In Corso</title>
+<ttl>15</ttl>
+<description>Bandi pubblici portalegare</description>
+<language>IT-it</language>
+<afs:totRecord>0</afs:totRecord>
+</channel>
+</rss>

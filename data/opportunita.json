@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-20T11:21:52+00:00",
- "totale": 109,
+ "aggiornato_il": "2026-11-20T11:49:37+00:00",
+ "totale": 110,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -1062,6 +1062,30 @@
    "ultimo_rilevamento": "2026-11-20"
   },
   {
+   "id": "empulia:2973576",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Procedura negoziata, ai sensi dell’art. 76 comma 4 lettera b) del D.lgs. 36/2023, per la centralizzazione dei sistemi di monitoraggio del D.E.U. e della Medicina d’Urgenza del Policlinico di Foggia attraverso l’accorpamento delle centrali di monitoraggio esistenti, con aggiornamenti hardware e software ed implementazione di nuove forniture di centrali ed apparecchiature biomediche d’avanguardia, a valere sul finanziamento PR PUGLIA FESR – FSE 2021–2027 - Azione 8.5 “Rafforzamento della rete territoriale dei servizi sanitari, della rete dell’emergenza urgenza e riduzione delle diseguaglianze nell’accesso ai servizi” CUP G74E25002120006 - RICHIESTA PREVENTIVO DI SPESA.",
+   "ente": "A.O.U. Ospedali Riuniti FOGGIA",
+   "scadenza": "2026-11-25",
+   "pubblicazione": "2026-11-20",
+   "importo": 250000.0,
+   "cpv": [
+    "33195000"
+   ],
+   "cig": [
+    "BDE82B0A6B"
+   ],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2973576&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T12:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('software')",
+   "descrizione": "Centralizzazione sistemi di monitoraggio Medicina d'Urgenza D.E.U.",
+   "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-20"
+  },
+  {
    "id": "empulia:2939614",
    "fonti": [
     "EmPULIA"
@@ -1890,7 +1914,8 @@
   {
    "id": "ted:783479-2026",
    "fonti": [
-    "TED"
+    "TED",
+    "eAppalti SAT FVG"
    ],
    "titolo": "PR26INF073 | Lotto 1 Procedura aperta sopra soglia comunitaria indetta su piattaforma telematica eAppalti SAT FVG, ai sensi dell’art. 71 D.lgs. n. 36/2023, per l’affidamento della fornitura di Licenze Firewall, sottoscrizioni e servizi di supporto FORTINET destinati all’infrastruttura di sicurezza informatica installata presso l’Azienda Sanitaria Universitaria Friuli Centrale per un periodo di 48",
    "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
@@ -1900,10 +1925,12 @@
    "cpv": [
     "48730000"
    ],
-   "cig": [],
+   "cig": [
+    "BDA5D09001"
+   ],
    "tipo": "cn-standard",
    "link": "https://ted.europa.eu/it/notice/-/detail/783479-2026",
-   "regione": null,
+   "regione": "Friuli Venezia Giulia",
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-11",
