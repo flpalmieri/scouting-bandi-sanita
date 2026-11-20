@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-20T05:47:28+00:00",
+  "eseguito_il": "2026-11-20T07:01:11+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -26,9 +26,7 @@
       "pertinenti": 8
     }
   },
-  "errori": [
-    "portali_html: ASL TO5: timed out"
-  ],
-  "nuove_opportunita": 3,
+  "errori": [],
+  "nuove_opportunita": 0,
   "totale": 104
 }
