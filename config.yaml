@@ -46,6 +46,10 @@ enti_sanitari_regex:
   - '\bI\.?F\.?O\b|istituti\s+fisioterapici'        # "I.F.O." (Regina Elena e San Gallicano)
   - '\bI\.?N\.?M\.?I\b|(istituto|malattie\s+infettive).{0,60}spallanzani'   # "I.N.M.I. Lazzaro Spallanzani" (non i licei omonimi)
   - '\bA\.?R\.?E\.?S\.?\s*118\b'                    # "A.R.E.S. 118" (emergenza sanitaria)
+  # Campania (20/11/2026): su SIAPS (So.Re.Sa.) le aziende ospedaliere sono "A.O. CARDARELLI",
+  # "A.O. DEI COLLI" ecc., gia' riconosciute; nei titoli compare pero' anche la sigla "A.O.R.N."
+  # (Azienda Ospedaliera di Rilievo Nazionale), che senza questa regola non passava (es. su TED).
+  - '\bA\.?O\.?R\.?N\b'
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -87,6 +91,11 @@ rumore_procedurale_regex:
   # informatica regionale Sintel". Parole intermedie solo da questo elenco chiuso, cosi'
   # "sistema informativo ospedaliero tramite Sintel" resta IT.
   - '\b(piattaforma|sistema)\s+((informatic[oa]|telematic[oa]|elettronic[oa]|digitale|regionale|di|del|della|negoziazione|e-?procurement|acquisti|denominat[oa]|aria|lombard[oa])\s+){0,5}["“«]?sintel\b'
+  # SIAPS di So.Re.Sa. (Campania) come canale di gara: "tramite il sistema informatico per le
+  # procedure telematiche di acquisto di So.Re.Sa. “SIAPS Sistema Informativo Appalti Pubblici
+  # Sanità”" faceva entrare come IT forniture di dispositivi (protesi discali, aspiratori).
+  - 'sistema\s+informatico\s+per\s+le\s+procedure\s+telematiche\s+di\s+acquist\w*'
+  - '(SIAPS\W{0,3})?sistema\s+informativo\s+appalti\s+pubblici(\s+(in\s+)?sanit\w*)?'
 
 # Soggetti aggregatori che comprano sia per la sanità sia per altri settori:
 # le loro gare IT vengono incluse ma marcate "da verificare".
@@ -405,6 +414,50 @@ portali_rss:
         "ESTAR - Ente di Supporto Tecnico Amministrativo Regionale": "ESTAR"
       url: "https://www.sanita.start.toscana.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=desc&numRowForPag=20&nPag={pagina}"
       timeout_connessione: 20
+      tentativi: 1
+    # Campania (20/11/2026): SIAPS di So.Re.Sa., piattaforma unica di tutte le aziende sanitarie
+    # campane (7 ASL, AORN, AOU, IRCCS Pascale) e di So.Re.Sa.; manca solo l'IZS del Mezzogiorno
+    # (DigitalPA, vedi acquistitelematici). Stesso software di EmPULIA e STELLA (campi afs:).
+    # Si usa rss_bandi.asp con bScaduto=0: 73 voci al 20/11/2026, le stesse dell'elenco pubblico
+    # della piattaforma (bandi, avvisi e consultazioni insieme: il tipo si legge dal campo Tipo).
+    # Diversamente da STELLA la scadenza e' aggiornata dopo le proroghe (verificato sul Ruggi,
+    # 4739978: feed 20/11/2026 = "Data Prorogata" della scheda). Niente CIG nel feed.
+    - nome: SIAPS So.Re.Sa.
+      nome_fonte: SIAPS So.Re.Sa.
+      sigla: siaps
+      regione: Campania
+      max_pagine: 3                # 100 per pagina; il feed dichiara il totale (totRecord)
+      # "Chiuso": voci vecchie rimaste con bScaduto=0 (es. 3646297, avviso del 2023 con
+      # scadenza scritta "2302").
+      escludi_stati: [Revocato, Annullato, Chiuso]
+      campi:                      # nomi dei campi afs: del feed (senza prefisso)
+        titolo: [Oggetto]
+        descrizione: []
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cpv: [CPV]
+        stato: [statoFunzionale]
+        tipo: [Tipo]               # Bando, Avviso, Consultazione Preliminare di Mercato
+        id: [IdMsg]
+      # Affidamenti diretti (art. 50 c.1 lett. a/b) e richieste di preventivo: rivolti a un
+      # fornitore gia' scelto o a invito, esclusi come su Sintel, START, Intercent-ER e STELLA.
+      # Il tipo di procedura non e' un campo del feed: si legge dall'inizio del titolo, dopo
+      # i prefissi del portale ("Bando Rettificato - ", "ADP - ", "AD - "). Restano le
+      # indagini di mercato "per l'individuazione dell'O.E. a cui affidare" e le negoziate.
+      escludi_titoli_regex:
+        - '^\W*(?:(?:bando\s+(?:rettificato|revocato)|procedura\s+(?:ripristinata|sospesa)|riapertura\s+termini|ADP?)\s*[-\u2013]\s*)*(?:affidamento\s+diretto|affidamento\W*\s*(?:ai\s+sensi\s+dell|di\s+cui\s+all)\W*\s*art\W*\s*50\W*\s*(?:c(?:o|omma)\W*\s*)?1\W*\s*lett\W*\s*[ab]\b|richiesta\s+(?:di\s+)?preventivo)'
+      # Il feed da' link su /portale/ con tipoDoc=BANDO_GARA (non provati); la pagina pubblica
+      # verificata dall'utente e' su /portalegare/ con BANDO_GARA_PORTALE.
+      link_sostituisci:
+        "http://siaps.soresa.it/portale/index.php/": "https://siaps.soresa.it/portalegare/index.php/"
+        "tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&": "tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&"
+      # Su SIAPS l'AOU di Salerno si chiama "A.O. SAN GIOVANNI DI DIO": nome completo, piu' chiaro.
+      enti_rinomina:
+        "A.O. SAN GIOVANNI DI DIO": "AOU San Giovanni di Dio e Ruggi d'Aragona (Salerno)"
+      url: "https://siaps.soresa.it/portale/rss_bandi.asp?FilterHide=bScaduto=0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
+      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
       tentativi: 1
     # Lazio (STELLA): le gare NON si leggono dal feed rss_new.asp, anche se ha lo schema afs: di
     # EmPULIA, perche' la scadenza del feed resta quella originale dopo rettifiche e proroghe
@@ -789,4 +842,16 @@ acquistitelematici:
       regione: Abruzzo
       tipi: [procedure-gara, manifestazioni-interesse]
       max_risultati: 50            # le più recenti per data di pubblicazione (circa 100 l'anno per tipo)
+      escludi_stati: [annullata]
+    - nome: IZSM
+      # Campania (20/11/2026): l'IZS del Mezzogiorno (Portici) e' l'unico ente sanitario campano
+      # che non usa SIAPS; ha la sua piattaforma DigitalPA (izsmportici.acquistitelematici.it/gare,
+      # risponde senza login). Stesso servizio JSON dell'IZSAM: da verificare al primo lancio.
+      nome_fonte: IZSM
+      sigla: izsm
+      host: "https://izsmportici.acquistitelematici.it"
+      ente: "IZSM - Istituto Zooprofilattico Sperimentale del Mezzogiorno"
+      regione: Campania
+      tipi: [procedure-gara, manifestazioni-interesse]
+      max_risultati: 50
       escludi_stati: [annullata]
