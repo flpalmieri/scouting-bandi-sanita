@@ -20,9 +20,12 @@ Opzione aggiunta il 20/11/2026 (STELLA, Lazio):
   "escludi_descrizioni_regex": come escludi_titoli_regex, ma sulla descrizione. Serve quando il
       titolo e' il nome breve della procedura e la formula che la esclude (es. "AFFIDAMENTO
       DIRETTO, AI SENSI DELL'ART. 50...") sta solo nell'oggetto completo.
-Opzione aggiunta il 20/11/2026 (eAppalti SAT, Friuli Venezia Giulia):
+Opzioni aggiunte il 20/11/2026 (eAppalti SAT, Friuli Venezia Giulia):
   "vuoto_ammesso": true: un feed ben formato senza voci (per i feed afs: totRecord 0, es. nessuna
       consultazione in corso) non e' un errore. Una risposta non RSS resta un errore.
+  "link_fisso": "url": stesso link per tutte le voci del feed (es. l'elenco pubblico), al posto
+      di quello del feed; vale anche per le voci gia' salvate (correggi_storico). Ha la
+      precedenza su link_sostituisci.
 Le voci scartate da una regola esplicita (stato, campo, titolo) finiscono in ESCLUSI: main.py
 le toglie anche dallo storico (es. un bando revocato dopo essere stato salvato).
 correggi_storico() applica link_sostituisci ed enti_rinomina anche alle voci gia' salvate.
@@ -166,6 +169,10 @@ def _id_voce(campi: dict[str, str], feed: dict, titolo: str) -> str:
 
 
 def _correggi_link(link: str | None, feed: dict) -> str | None:
+    if feed.get("link_fisso"):
+        # Stesso link per tutte le voci (es. l'elenco pubblico) quando la scheda di dettaglio non
+        # e' utilizzabile: su eAppalti SAT FVG si apre in circa 40 secondi e senza il bando.
+        return feed["link_fisso"]
     for vecchio, nuovo in (feed.get("link_sostituisci") or {}).items():
         if link:
             link = link.replace(vecchio, nuovo)

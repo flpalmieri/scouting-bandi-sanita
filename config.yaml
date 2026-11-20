@@ -137,6 +137,12 @@ aggregatori_misti_regex:
   # entrano "da verificare", anche quelle non sanitarie.
   - '\blepida\b'
   - '\bART-ER\b'
+  # Friuli Venezia Giulia: decisione di Flavio (20/11/2026). La Centrale unica di committenza della
+  # Regione (su eAppaltiFVG "Centrale unica di committenza FVG") compra per il SSR (farmaci, aghi e
+  # siringhe) e per gli enti locali: le sue gare IT entrano "da verificare". Solo per nome: non
+  # prende la "CENTRALE COMMITTENZA RETE DELLE STAZIONI APPALTANTI DEL FRIULI VENEZIA GIULIA" ne'
+  # le CUC dei comuni ("CUC SACILE, BRUGNERA E CANEVA"). Insiel resta fuori (decisione di Flavio).
+  - 'centrale\s+unica\s+di\s+committenza\s+(della\s+)?(FVG|regione\s+(autonoma\s+)?friuli)|friuli\s+venezia\s+giulia.{0,80}centrale\s+unica\s+di\s+committenza'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -500,10 +506,11 @@ portali_rss:
       # campo TipoProcedura dello stesso software; su SAT oggi ci sono solo "Aperta".
       escludi_campi:
         TipoProcedura: [Affidamento Diretto, Richiesta Preventivo]
-      # Il feed da' link su /portale/; la pagina pubblica dell'elenco usa /portalegare/ con gli
-      # stessi parametri (verificato su sat_bandi.html del 20/11/2026). Da aprire dalla dashboard.
-      link_sostituisci:
-        "https://eappalti-sat.regione.fvg.it/portale/index.php/": "https://eappalti-sat.regione.fvg.it/portalegare/index.php/"
+      # Link: l'elenco pubblico delle gare in corso. La scheda di dettaglio (/portalegare/...
+      # getdettaglio=yes&bando=<IdMsg>..., lo stesso indirizzo del clic sulla lente) dal browser
+      # dell'utente si apre in circa 40 secondi e mostra solo il testo introduttivo, senza il bando
+      # (verificato il 20/11/2026 sulla Fortinet 351734): non e' utilizzabile come link.
+      link_fisso: "https://eappalti-sat.regione.fvg.it/portalegare/index.php/bandi?scaduti=no&tipobando="
       url: "https://eappalti-sat.regione.fvg.it/portale/rss_bandi.asp?FilterHide=bScaduto=0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
       timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
       tentativi: 1
@@ -528,8 +535,7 @@ portali_rss:
         cig: [CIG]
         stato: [statoFunzionale]
         id: [IdMsg]
-      link_sostituisci:
-        "https://eappalti-sat.regione.fvg.it/portale/index.php/": "https://eappalti-sat.regione.fvg.it/portalegare/index.php/"
+      link_fisso: "https://eappalti-sat.regione.fvg.it/portalegare/index.php/consultazioni-preliminari-di-mercato?scaduti=no&tipobando="
       url: "https://eappalti-sat.regione.fvg.it/portale/rss_bandi_consultazione.asp?FilterHide=bScaduto=0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
       timeout_connessione: 20
       tentativi: 1
@@ -947,7 +953,7 @@ jaggaer:
       url: "https://eappalti.regione.fvg.it/esop/guest/go/public/opportunity/current"
       link: "https://eappalti.regione.fvg.it/esop/toolkit/opportunity/current/{id}/detail.si"
       # Valori di "Processi di Procurement" da scartare. Le aste di vendita non sono acquisti.
-      # "Affidamento diretto" NON e' escluso: nell'area pubblica di Jaggaer compaiono solo le
+      # "Affidamento diretto" NON e' escluso (decisione di Flavio, 20/11/2026): nell'area pubblica di Jaggaer compaiono solo le
       # richieste di informazioni aperte a tutti ("RdI aperta a tutti volta all'affidamento
       # diretto", ASFO 26161), cioe' indagini di mercato a cui chiunque puo' rispondere, come le
       # indagini "finalizzate all'affidamento diretto" che si tengono su STELLA. Per escluderle

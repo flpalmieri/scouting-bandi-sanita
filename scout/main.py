@@ -93,7 +93,9 @@ def deduplica(tutte: dict[str, Opportunita]) -> dict[str, Opportunita]:
     """Fonde la stessa gara vista su fonti diverse (stesso ente + stesso oggetto).
     Scadenza e link vengono dal record rilevato piu' di recente (20/11/2026): la piattaforma
     di gara, letta ogni giorno, riporta proroghe e rettifiche, mentre un avviso TED uscito
-    dalla finestra di lettura resta fermo alla data originale. A parita' resta il record TED."""
+    dalla finestra di lettura resta fermo alla data originale. A parita' resta il record TED.
+    Poi una seconda passata (_stessa_procedura) fonde i record dello stesso ente con titoli
+    diversi ma dati di procedura identici (rettifiche TED con il titolo riscritto)."""
     per_chiave: dict[str, list[Opportunita]] = {}
     tenute: dict[str, Opportunita] = {}
     fonte_dati: dict[str, tuple[str, str]] = {}   # freschezza dei dati di scadenza e link
@@ -106,24 +108,85 @@ def deduplica(tutte: dict[str, Opportunita]) -> dict[str, Opportunita]:
             tenute[o.id] = o
             fonte_dati[o.id] = _freschezza(o)
             continue
-        # fusione: si tiene il record TED e si aggiungono i dati dell'altra fonte; scadenza e
-        # link passano all'altro record se e' stato rilevato piu' di recente
-        if _freschezza(o) > fonte_dati[principale.id] and (o.scadenza or o.link):
-            principale.scadenza = o.scadenza or principale.scadenza
-            principale.link = o.link or principale.link
-            fonte_dati[principale.id] = _freschezza(o)
-        principale.fonti = sorted(set(principale.fonti) | set(o.fonti))
-        principale.cig = sorted(set(principale.cig) | set(o.cig))
-        principale.cpv = sorted(set(principale.cpv) | set(o.cpv))
-        principale.scadenza = principale.scadenza or o.scadenza
-        principale.importo = principale.importo or o.importo
-        principale.regione = principale.regione or o.regione
-        principale.link = principale.link or o.link
-        if o.primo_rilevamento and (not principale.primo_rilevamento
-                                    or o.primo_rilevamento < principale.primo_rilevamento):
-            principale.primo_rilevamento = o.primo_rilevamento
-        if (o.ultimo_rilevamento or "") > (principale.ultimo_rilevamento or ""):
-            principale.ultimo_rilevamento = o.ultimo_rilevamento
+        _fondi(principale, o, fonte_dati, _freschezza(o))
+    return _stessa_procedura(tenute, fonte_dati)
+
+
+def _fondi(principale: Opportunita, o: Opportunita, fonte_dati: dict, freschezza_o: tuple) -> None:
+    """Aggiunge a principale i dati di o. Scadenza e link passano a o se i suoi dati sono
+    stati rilevati piu' di recente."""
+    if freschezza_o > fonte_dati[principale.id] and (o.scadenza or o.link):
+        principale.scadenza = o.scadenza or principale.scadenza
+        principale.link = o.link or principale.link
+        fonte_dati[principale.id] = freschezza_o
+    principale.fonti = sorted(set(principale.fonti) | set(o.fonti))
+    principale.cig = sorted(set(principale.cig) | set(o.cig))
+    principale.cpv = sorted(set(principale.cpv) | set(o.cpv))
+    principale.scadenza = principale.scadenza or o.scadenza
+    principale.importo = principale.importo or o.importo
+    principale.regione = principale.regione or o.regione
+    principale.link = principale.link or o.link
+    if o.primo_rilevamento and (not principale.primo_rilevamento
+                                or o.primo_rilevamento < principale.primo_rilevamento):
+        principale.primo_rilevamento = o.primo_rilevamento
+    if (o.ultimo_rilevamento or "") > (principale.ultimo_rilevamento or ""):
+        principale.ultimo_rilevamento = o.ultimo_rilevamento
+
+
+def _parole(titolo: str) -> set[str]:
+    import re
+    import unicodedata
+    t = unicodedata.normalize("NFKD", titolo or "").encode("ascii", "ignore").decode().lower()
+    return set(re.findall(r"[a-z0-9]{4,}", t))
+
+
+def _lotti(titolo: str) -> set[str]:
+    import re
+    return set(re.findall(r"\blott[oi]\W*(?:n\W*)?(\d+)", (titolo or "").lower()))
+
+
+def _stessi_dati(a: Opportunita, b: Opportunita) -> bool:
+    """Stessa procedura con un titolo riscritto (20/11/2026). Caso reale: Fortinet di ASUFC,
+    TED 768150-2026 ("PR26INF073 | Procedura aperta...") e 783479-2026 ("PR26INF073 | Lotto 1
+    Procedura aperta ... indetta su piattaforma telematica eAppalti SAT FVG..."), il secondo
+    fuso con eAppalti SAT: chiavi diverse, quindi due righe in dashboard. Si fondono due record
+    dello stesso ente solo se TUTTO coincide: scadenza, importo (al centesimo), almeno un CPV,
+    nessun CIG in conflitto, nessun numero di lotto diverso nei titoli, e almeno l'80% delle
+    parole del titolo piu' corto presenti nell'altro."""
+    if not (a.scadenza and a.scadenza == b.scadenza):
+        return False
+    if not (a.importo and b.importo and abs(a.importo - b.importo) < 0.005):
+        return False
+    if not (set(a.cpv) & set(b.cpv)):
+        return False
+    if a.cig and b.cig and not set(a.cig) & set(b.cig):
+        return False
+    la, lb = _lotti(a.titolo), _lotti(b.titolo)
+    if la and lb and la != lb:
+        return False
+    pa, pb = _parole(a.titolo), _parole(b.titolo)
+    if not pa or not pb:
+        return False
+    return len(pa & pb) / min(len(pa), len(pb)) >= 0.8
+
+
+def _stessa_procedura(tenute: dict[str, Opportunita], fonte_dati: dict) -> dict[str, Opportunita]:
+    """Seconda passata: fonde i record dello stesso ente rimasti separati perche' il titolo e'
+    stato riscritto (rettifiche TED), se i dati della procedura coincidono (_stessi_dati).
+    Resta il record rilevato per primo (stesso id in dashboard); scadenza e link vengono dal
+    piu' recente, come nella prima passata. Ogni fusione finisce nel log."""
+    per_ente: dict[str, list[Opportunita]] = {}
+    ordine = sorted(tenute.values(), key=lambda o: (o.primo_rilevamento or "9999", o.id))
+    for o in ordine:
+        gruppo = per_ente.setdefault(chiave_testo(o.ente)[:40], [])
+        principale = next((p for p in gruppo if _stessi_dati(p, o)), None)
+        if principale is None:
+            gruppo.append(o)
+            continue
+        log.info("Deduplica: %s fuso in %s (stesso ente, scadenza, importo e CPV; titoli simili)",
+                 o.id, principale.id)
+        _fondi(principale, o, fonte_dati, fonte_dati.get(o.id, _freschezza(o)))
+        del tenute[o.id]
     return tenute
 
 
