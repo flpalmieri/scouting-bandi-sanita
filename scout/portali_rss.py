@@ -20,6 +20,9 @@ Opzione aggiunta il 20/11/2026 (STELLA, Lazio):
   "escludi_descrizioni_regex": come escludi_titoli_regex, ma sulla descrizione. Serve quando il
       titolo e' il nome breve della procedura e la formula che la esclude (es. "AFFIDAMENTO
       DIRETTO, AI SENSI DELL'ART. 50...") sta solo nell'oggetto completo.
+Opzione aggiunta il 20/11/2026 (eAppalti SAT, Friuli Venezia Giulia):
+  "vuoto_ammesso": true: un feed ben formato senza voci (per i feed afs: totRecord 0, es. nessuna
+      consultazione in corso) non e' un errore. Una risposta non RSS resta un errore.
 Le voci scartate da una regola esplicita (stato, campo, titolo) finiscono in ESCLUSI: main.py
 le toglie anche dallo storico (es. un bando revocato dopo essere stato salvato).
 correggi_storico() applica link_sostituisci ed enti_rinomina anche alle voci gia' salvate.
@@ -279,6 +282,20 @@ def _pagine_previste(contenuto: bytes, url_modello: str) -> int | None:
     return max(1, -(-int(m_tot.group(1)) // int(m_righe.group(1))))   # arrotonda per eccesso
 
 
+def _feed_vuoto_valido(contenuto: bytes) -> bool:
+    """True se la risposta e' un RSS ben formato con un <channel> e nessun <item>
+    (per i feed afs: anche totRecord 0). Una pagina HTML di errore non lo e'."""
+    try:
+        radice = ET.fromstring(contenuto)
+    except ET.ParseError:
+        return False
+    canale = next((e for e in radice.iter() if _nome_locale(e.tag) == "channel"), None)
+    if canale is None or any(_nome_locale(e.tag) in ("item", "entry") for e in radice.iter()):
+        return False
+    tot = next((e.text for e in radice.iter() if _nome_locale(e.tag) == "totrecord"), None)
+    return tot is None or tot.strip() in ("", "0")
+
+
 def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
     # Attesa e tentativi per feed (come per i portali HTML): utili per i siti nuovi,
     # che potrebbero non rispondere ai server di GitHub.
@@ -291,6 +308,7 @@ def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
     risultati: dict[str, Opportunita] = {}
     visti: set[str] = set()
     letti = 0
+    prima_pagina = b""
 
     pagina = 0
     while pagina < max_pagine:
@@ -310,6 +328,7 @@ def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
             break
         if pagina == 1:
             _salva_campione(feed, r.content)
+            prima_pagina = r.content
             if paginato:
                 previste = _pagine_previste(r.content, url_modello)
                 if previste is not None:   # il feed dice quante pagine ha: non chiedere oltre
@@ -334,6 +353,11 @@ def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
             time.sleep(1)
 
     log.info("RSS %s: %d elementi letti, %d pertinenti", feed["nome"], letti, len(risultati))
+    if letti == 0 and feed.get("vuoto_ammesso") and _feed_vuoto_valido(prima_pagina):
+        # Feed valido senza voci (es. nessuna consultazione in corso su eAppalti SAT FVG):
+        # non e' un errore, ma resta nel log.
+        log.info("RSS %s: feed valido senza voci in corso", feed["nome"])
+        return []
     if letti == 0:
         raise RuntimeError(f"feed {feed['nome']} vuoto o non leggibile (vedi state/campioni)")
     return list(risultati.values())

@@ -50,6 +50,14 @@ enti_sanitari_regex:
   # "A.O. DEI COLLI" ecc., gia' riconosciute; nei titoli compare pero' anche la sigla "A.O.R.N."
   # (Azienda Ospedaliera di Rilievo Nazionale), che senza questa regola non passava (es. su TED).
   - '\bA\.?O\.?R\.?N\b'
+  # Friuli Venezia Giulia (20/11/2026): nomi usati su eAppaltiFVG (Jaggaer), scritti per esteso e
+  # senza IRCCS. ASUGI e ASUFC erano gia' riconosciute (sigla e "azienda sanitaria"), come ASFO per
+  # esteso; ARCS solo con la sigla. Si aggiungono il nome di ARCS senza sigla, la sigla ASFO (TED),
+  # il CRO di Aviano ("CENTRO DI RIFERIMENTO ONCOLOGICO") e il Burlo Garofolo.
+  - 'azienda\s+regionale\s+di\s+coordinamento\s+per\s+la\s+salute'
+  - '\bASFO\b'
+  - 'centro\s+di\s+riferimento\s+oncologico'
+  - '\bburlo\b'
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -79,6 +87,11 @@ enti_non_sanitari_regex:
   - 'citt[aà]\W?\s+delle\s+persone'                # "ASP REGGIO EMILIA - CITTA DELLE PERSONE"
   - '\bASP\W+(citt[aà]\W?\s+di\s+bologna|delia\s+repetto|del\s+delta\s+ferrarese)'
   - 'centrale\s+unica\s+di\s+committenza\s+dei\s+comuni'   # CUC comunali (una contiene "ASP DEL DELTA")
+  # Friuli Venezia Giulia (20/11/2026): anche qui "ASP" e' l'Azienda Pubblica di Servizi alla Persona
+  # (ex IPAB, case di riposo). Su eAppaltiFVG: "Azienda Pubblica di Servizi alla Persona - ASP ITIS"
+  # (gia' esclusa dalla prima riga) e "ASP \"Daniele Moro\"" (Codroipo), che senza questa riga
+  # passerebbe per azienda sanitaria. Le altre ASP friulane vanno aggiunte qui quando compaiono.
+  - '\bASP\W+(daniele\s+moro|ITIS)\b'
 
 # Frasi che descrivono il CANALE della gara, non il suo oggetto: vengono ignorate
 # prima di cercare le parole IT (altrimenti "affidamento su piattaforma telematica
@@ -458,6 +471,67 @@ portali_rss:
         "A.O. SAN GIOVANNI DI DIO": "AOU San Giovanni di Dio e Ruggi d'Aragona (Salerno)"
       url: "https://siaps.soresa.it/portale/rss_bandi.asp?FilterHide=bScaduto=0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
       timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+    # Friuli Venezia Giulia (20/11/2026): eAppalti SAT (Stazione Appaltante Regionale), seconda
+    # piattaforma regionale accanto a eAppaltiFVG (Jaggaer, vedi la sezione jaggaer). Software
+    # AFSoluzioni come EmPULIA, STELLA e SIAPS: stesso feed rss_bandi.asp con bScaduto=0, stessa
+    # mappa dei campi afs:. Le sue gare non sono su Jaggaer (es. licenze Fortinet di ASUFC).
+    # Al 20/11/2026: 4 gare in corso, le stesse dell'elenco pubblico /portalegare/index.php/bandi.
+    # Da verificare su una gara rettificata se la scadenza del feed e' aggiornata (lezione 50).
+    - nome: eAppalti SAT FVG - bandi
+      nome_fonte: eAppalti SAT FVG
+      sigla: sat_fvg
+      regione: Friuli Venezia Giulia
+      max_pagine: 3                # 100 per pagina; il feed dichiara il totale (totRecord)
+      escludi_stati: [Revocato, Annullato, Chiuso]
+      campi:
+        titolo: [Oggetto]
+        descrizione: []
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cpv: [CPV]
+        cig: [CIG]
+        stato: [statoFunzionale]
+        tipo: [Tipo]
+        id: [IdMsg]
+      # Procedure a invito o rivolte a un fornitore gia' scelto, come su START Sanita'. Valori del
+      # campo TipoProcedura dello stesso software; su SAT oggi ci sono solo "Aperta".
+      escludi_campi:
+        TipoProcedura: [Affidamento Diretto, Richiesta Preventivo]
+      # Il feed da' link su /portale/; la pagina pubblica dell'elenco usa /portalegare/ con gli
+      # stessi parametri (verificato su sat_bandi.html del 20/11/2026). Da aprire dalla dashboard.
+      link_sostituisci:
+        "https://eappalti-sat.regione.fvg.it/portale/index.php/": "https://eappalti-sat.regione.fvg.it/portalegare/index.php/"
+      url: "https://eappalti-sat.regione.fvg.it/portale/rss_bandi.asp?FilterHide=bScaduto=0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
+      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+    - nome: eAppalti SAT FVG - consultazioni
+      nome_fonte: eAppalti SAT FVG
+      sigla: sat_fvg_cons
+      regione: Friuli Venezia Giulia
+      tipo: consultazione di mercato
+      max_pagine: 2
+      # Al 20/11/2026 nessuna consultazione in corso (totRecord 0): un feed valido ma vuoto non e'
+      # un errore. La struttura delle voci si verifica alla prima consultazione pubblicata.
+      vuoto_ammesso: true
+      escludi_stati: [Revocato, Annullato, Chiuso]
+      campi:
+        titolo: [Oggetto]
+        descrizione: []
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cpv: [CPV]
+        cig: [CIG]
+        stato: [statoFunzionale]
+        id: [IdMsg]
+      link_sostituisci:
+        "https://eappalti-sat.regione.fvg.it/portale/index.php/": "https://eappalti-sat.regione.fvg.it/portalegare/index.php/"
+      url: "https://eappalti-sat.regione.fvg.it/portale/rss_bandi_consultazione.asp?FilterHide=bScaduto=0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
+      timeout_connessione: 20
       tentativi: 1
     # Lazio (STELLA): le gare NON si leggono dal feed rss_new.asp, anche se ha lo schema afs: di
     # EmPULIA, perche' la scadenza del feed resta quella originale dopo rettifiche e proroghe
@@ -855,3 +929,37 @@ acquistitelematici:
       tipi: [procedure-gara, manifestazioni-interesse]
       max_risultati: 50
       escludi_stati: [annullata, tender_canceled]   # DigitalPA usa entrambi per le gare annullate (IZSM, 20/11/2026)
+
+# --- Piattaforme JAGGAER (ex BravoSolution, indirizzi /esop/...) --------------------
+# L'elenco pubblico "Avvisi in Area Pubblica" e' nell'HTML della pagina (vedi scout/jaggaer.py):
+# procedura, stazione appaltante, titolo, tipologia, scadenza. Niente CPV: filtro testuale.
+# Per un altro portale Jaggaer basta un blocco con url e link.
+jaggaer:
+  abilitato: true
+  siti:
+    # Friuli Venezia Giulia (20/11/2026): eAppaltiFVG, piattaforma regionale di ARCS, ASUGI, ASUFC,
+    # ASFO, CRO, Burlo, Insiel, Regione, CUC FVG e comuni. 76 voci in corso in una sola pagina
+    # (gare, manifestazioni di interesse, avvisi e preinformazioni insieme).
+    - nome: eAppaltiFVG
+      nome_fonte: eAppaltiFVG
+      sigla: eappaltifvg
+      regione: Friuli Venezia Giulia
+      url: "https://eappalti.regione.fvg.it/esop/guest/go/public/opportunity/current"
+      link: "https://eappalti.regione.fvg.it/esop/toolkit/opportunity/current/{id}/detail.si"
+      # Valori di "Processi di Procurement" da scartare. Le aste di vendita non sono acquisti.
+      # "Affidamento diretto" NON e' escluso: nell'area pubblica di Jaggaer compaiono solo le
+      # richieste di informazioni aperte a tutti ("RdI aperta a tutti volta all'affidamento
+      # diretto", ASFO 26161), cioe' indagini di mercato a cui chiunque puo' rispondere, come le
+      # indagini "finalizzate all'affidamento diretto" che si tengono su STELLA. Per escluderle
+      # basta aggiungere "Affidamento diretto" all'elenco.
+      escludi_procedure: [Asta di Vendita]
+      # Avvisi generici per l'albo o l'elenco dei fornitori (senza oggetto di gara, scadenze fino
+      # al 2099): non sono opportunita'.
+      escludi_titoli_regex:
+        - 'modalit\w*\s+(di|per\s+la)\s+scelta\s+degli\s+operatori\s+economici'
+        - '\balbo\s+(degli\s+)?(operatori|fornitori)'
+        - '(formazione|selezione|aggiornamento)\s+(dell.\s*|di\s+un\s+)?elenc\w*\s+(degli\s+)?operatori\s+economici'
+        - '\bselezione\s+operatori\s+economici\b'
+        - 'avviso\s+agli\s+operatori\s+economici'
+      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1

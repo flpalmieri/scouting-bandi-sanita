@@ -19,7 +19,7 @@ from pathlib import Path
 
 import yaml
 
-from . import (acquistitelematici, anac, centrale_acquisti, plone, portali_html, portali_rss,
+from . import (acquistitelematici, anac, centrale_acquisti, jaggaer, plone, portali_html, portali_rss,
                sintel, ted)
 from .common import (Filtro, Opportunita, chiave_testo, log, pulisci_titolo,
                      sessione_http)
@@ -28,7 +28,7 @@ DATA = Path("data")
 FONTI = {"ted": ted.raccogli, "anac": anac.raccogli, "portali_rss": portali_rss.raccogli,
          "portali_html": portali_html.raccogli, "acquistitelematici": acquistitelematici.raccogli,
          "sintel": sintel.raccogli, "plone": plone.raccogli,
-         "centrale_acquisti": centrale_acquisti.raccogli}
+         "centrale_acquisti": centrale_acquisti.raccogli, "jaggaer": jaggaer.raccogli}
 NOMI_CAMPI = {f.name for f in fields(Opportunita)}
 
 
@@ -214,14 +214,16 @@ def main() -> int:
     riepilogo["errori"].extend(f"sintel: {e}" for e in sintel.ERRORI)
     riepilogo["errori"].extend(f"plone: {e}" for e in plone.ERRORI)
     riepilogo["errori"].extend(f"centrale_acquisti: {e}" for e in centrale_acquisti.ERRORI)
+    riepilogo["errori"].extend(f"jaggaer: {e}" for e in jaggaer.ERRORI)
 
     storico = carica_storico()
     prima = set(storico)
     # Regole dei feed che lo storico non conosce (procedure a invito, revoche, link corretti).
     storico = portali_rss.correggi_storico(storico, cfg)
-    # Voci Plone e Centrale Acquisti scartate da una regola esplicita (es. bando revocato su
-    # Intercent-ER, consultazione revocata su STELLA).
-    for nome, esclusi in (("Plone", plone.ESCLUSI), ("Centrale Acquisti", centrale_acquisti.ESCLUSI)):
+    # Voci Plone, Centrale Acquisti e Jaggaer scartate da una regola esplicita (es. bando revocato
+    # su Intercent-ER, consultazione revocata su STELLA, asta di vendita su eAppaltiFVG).
+    for nome, esclusi in (("Plone", plone.ESCLUSI), ("Centrale Acquisti", centrale_acquisti.ESCLUSI),
+                          ("Jaggaer", jaggaer.ESCLUSI)):
         tolte = sorted(k for k in storico if k in esclusi)
         for k in tolte:
             del storico[k]
