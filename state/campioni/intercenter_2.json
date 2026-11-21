@@ -3,7 +3,7 @@
   "batching": {
     "@id": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search", 
     "first": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=0", 
-    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=38600", 
+    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=38750", 
     "next": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=50"
   }, 
   "items": [
@@ -617,6 +617,35 @@
       "type_title": "Bando Intercenter"
     }, 
     {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18661250", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-20T00:00:00+01:00", 
+      "Description": "GARA A PROCEDURA TELEMATICA APERTA PER L'APPALTO DEI LAVORI RELATIVI ALL\u2019INTERVENTO DENOMINATO: SISTEMA DELLE CONNESSIONI SOSTENIBILI: CITT\u00c0, STAZIONI, POLI SCOLASTICI - SASSUOLO (MO), ESPLETATATA PER CONTO DELLA SASSUOLO PATRIMONIALI SRL Scarica Allegati", 
+      "Subject": [], 
+      "Title": "GARA A PROCEDURA TELEMATICA APERTA PER L'APPALTO DEI LAVORI RELATIVI ALL\u2019INTERVENTO DENOMINATO: SISTEMA DELLE CONNESSIONI SOSTENIBILI: CITT\u00c0, STAZIONI, POLI SCOLASTICI - SASSUOLO (MO)", 
+      "UID": "b03d81a3d6804441ae1884ac67817f3f", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "GARA A PROCEDURA TELEMATICA APERTA PER L'APPALTO DEI LAVORI RELATIVI ALL\u2019INTERVENTO DENOMINATO: SISTEMA DELLE CONNESSIONI SOSTENIBILI: CITT\u00c0, STAZIONI, POLI SCOLASTICI - SASSUOLO (MO), ESPLETATATA PER CONTO DELLA SASSUOLO PATRIMONIALI SRL Scarica Allegati", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-19T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_GARA_PORTALE@18661250", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-17T11:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "GARA A PROCEDURA TELEMATICA APERTA PER L'APPALTO DEI LAVORI RELATIVI ALL\u2019INTERVENTO DENOMINATO: SISTEMA DELLE CONNESSIONI SOSTENIBILI: CITT\u00c0, STAZIONI, POLI SCOLASTICI - SASSUOLO (MO)", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18499852", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-16T00:00:00+01:00", 
@@ -903,37 +932,4 @@
       "review_state": "published", 
       "scadenza_bando": "2026-12-14T15:00:00+00:00", 
       "tipologia_bando": null, 
-      "title": "PA per la fornitura in acquisto di stampanti per bio-cassette da destinare all\u2019UU.OO di Anatomia Patologica per l\u2019Azienda USL di Imola e Bologna e per l\u2019Azienda Ospedaliera di Ferrara", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18565546", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-11-13T00:00:00+01:00", 
-      "Description": "PROCEDURA APERTA EX ART.71 DEL D.LGS 36/2023 PER L\u2019AFFIDAMENTO DEL SERVIZIO DI TESORERIA PER IL COMUNE DVEZZANO SUL CROSTOLO PER IL PERIODO 2027/2031 EVENTUALMENTE RINNOVABILE PER ULTERIORI ANNI 4 Scarica Allegati", 
-      "Subject": [], 
-      "Title": "PROCEDURA APERTA EX ART.71 DEL D.LGS 36/2023 PER L\u2019AFFIDAMENTO DEL SERVIZIO DI TESORERIA PER IL COMUNE DI VEZZANO SUL CROSTOLO PERIODO 01.012027-31.12.2031", 
-      "UID": "0507dc56da2f4b299eddf468fe8eea6b", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "open", 
-        "Attivo"
-      ], 
-      "description": "PROCEDURA APERTA EX ART.71 DEL D.LGS 36/2023 PER L\u2019AFFIDAMENTO DEL SERVIZIO DI TESORERIA PER IL COMUNE DVEZZANO SUL CROSTOLO PER IL PERIODO 2027/2031 EVENTUALMENTE RINNOVABILE PER ULTERIORI ANNI 4 Scarica Allegati", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-11-12T23:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_GARA_PORTALE@18565546", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-      "scadenza_bando": "2026-12-14T13:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "PROCEDURA APERTA EX ART.71 DEL D.LGS 36/2023 PER L\u2019AFFIDAMENTO DEL SERVIZIO DI TESORERIA PER IL COMUNE DI VEZZANO SUL CROSTOLO PERIODO 01.012027-31.12.2031", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.
+      "title": "PA per la fornitura in acquisto di stampanti per bio-cassette da destinare all\u2019UU.OO di Anatomia Patologica per l\u2019Azienda USL di Imola e Bologn

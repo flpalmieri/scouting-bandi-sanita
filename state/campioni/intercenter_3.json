@@ -211,18 +211,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-aperti/BANDO_GARA_PORTALE@18256497", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-chiusi/BANDO_GARA_PORTALE@18256497", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-04T00:00:00+01:00", 
       "Description": "Acquisizione di servizi di organizzazione integrata di eventi e/o singoli servizi per le strutture dell'Assemblea legislativa. Lotto 1 - Direzione generale Lotto 2 - Settore Diritti dei cittadini Scarica Allegati", 
       "Subject": [], 
       "Title": "Avviso di manifestazione di interesse per acquisizione servizi di organizzazione eventi o singoli servizi per l'Assemblea legislativa.", 
-      "UID": "d2be87802c024bb3a2e7a6b0c9f00ffd", 
+      "UID": "79dba8a0da044083898af6fbc162330c", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "Acquisizione di servizi di organizzazione integrata di eventi e/o singoli servizi per le strutture dell'Assemblea legislativa. Lotto 1 - Direzione generale Lotto 2 - Settore Diritti dei cittadini Scarica Allegati", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -800,4 +800,4 @@
       "UID": "40b6e8aa9e76418fa3c2fa84ec4aa31c", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
-      "ba
+      "
