@@ -3,7 +3,7 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 289
+  "righe_lette": 290
  },
  "lombardia_ambito_4": {
   "righe_prima_pagina": 94,
@@ -42,7 +42,7 @@
   "righe_lette": 15
  },
  "lombardia": {
-  "righe_lette": 550,
+  "righe_lette": 551,
   "enti_sanitari": {
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 17,
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 16,
@@ -82,7 +82,7 @@
    "ATS DELL'INSUBRIA": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 347,
+  "procedure_altri_enti": 348,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "ERSAF - ENTE REGIONALE PER I SERVIZI ALL'AGRICOLTURA E ALLE FORESTE": 11,
@@ -132,6 +132,7 @@
    "COMUNE DI CASTRO": 2,
    "COMUNE DI CERNUSCO SUL NAVIGLIO": 2,
    "COMUNE DI GANDINO": 2,
+   "COMUNE DI LONATO DEL GARDA": 2,
    "COMUNE DI MONZA": 2,
    "COMUNE DI ORZINUOVI": 2,
    "COMUNE DI PAVIA": 2,
@@ -208,7 +209,6 @@
    "COMUNE DI LISSONE": 1,
    "COMUNE DI LOCATE DI TRIULZI": 1,
    "COMUNE DI LODI": 1,
-   "COMUNE DI LONATO DEL GARDA": 1,
    "COMUNE DI LOSINE": 1,
    "COMUNE DI MACHERIO": 1,
    "COMUNE DI MAGENTA": 1,

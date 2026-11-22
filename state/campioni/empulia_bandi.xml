@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>122</afs:totRecord>
+<afs:totRecord>123</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2945255&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T09:00:00]]></link>
@@ -169,7 +169,7 @@ Affidamento fornitura di prodotti monouso ( carta igienica, asciugamani di carta
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-20T13:01:44]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-21T21:22:39]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[33700000-7 - Prodotti per la cura personale]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T13:01:44]]></afs:DtPubblicazioneTecnical>
