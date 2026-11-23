@@ -19,8 +19,8 @@ from pathlib import Path
 
 import yaml
 
-from . import (acquistitelematici, anac, centrale_acquisti, jaggaer, plone, portali_html, portali_rss,
-               sintel, ted)
+from . import (acquistitelematici, anac, centrale_acquisti, jaggaer, maggioli, plone, portali_html,
+               portali_rss, sintel, ted)
 from .common import (Filtro, Opportunita, chiave_testo, log, pulisci_titolo,
                      sessione_http)
 
@@ -28,7 +28,8 @@ DATA = Path("data")
 FONTI = {"ted": ted.raccogli, "anac": anac.raccogli, "portali_rss": portali_rss.raccogli,
          "portali_html": portali_html.raccogli, "acquistitelematici": acquistitelematici.raccogli,
          "sintel": sintel.raccogli, "plone": plone.raccogli,
-         "centrale_acquisti": centrale_acquisti.raccogli, "jaggaer": jaggaer.raccogli}
+         "centrale_acquisti": centrale_acquisti.raccogli, "jaggaer": jaggaer.raccogli,
+         "maggioli": maggioli.raccogli}
 NOMI_CAMPI = {f.name for f in fields(Opportunita)}
 
 
@@ -73,7 +74,38 @@ def _fondibili(a: Opportunita, b: Opportunita) -> bool:
     if a.id.split(":", 1)[0] == b.id.split(":", 1)[0]:
         return (a.id.startswith("ted:") and b.id.startswith("ted:")
                 and _titolo_intero(a.titolo) == _titolo_intero(b.titolo))
+    if not _titoli_compatibili(a.titolo, b.titolo):
+        log.info("Deduplica: %s e %s non fusi (stesso inizio, titoli diversi dopo i primi %d caratteri)",
+                 a.id, b.id, LUNGHEZZA_CHIAVE)
+        return False
     return True
+
+
+LUNGHEZZA_CHIAVE = 90   # caratteri del titolo normalizzato nella chiave (common.chiave_testo)
+
+
+def _prefisso_comune(a: str, b: str) -> int:
+    n = 0
+    for x, y in zip(a, b):
+        if x != y:
+            break
+        n += 1
+    return n
+
+
+def _titoli_compatibili(a: str, b: str) -> bool:
+    """Due titoli con la stessa chiave (primi 90 caratteri) descrivono la stessa procedura? (23/11/2026)
+    Se il piu' corto non supera la chiave, si': e' il caso dei titoli brevi di TED e ANAC. Se entrambi
+    sono piu' lunghi, il piu' corto deve coincidere con l'inizio dell'altro almeno per il 90% della sua
+    lunghezza (un titolo TED puo' essere troncato o avere una coda diversa). Caso reale: le consultazioni
+    di infungibilita' della Regione Marche (screening prenatale, GT-SUAM A00251 e TED 795909; NuCDR,
+    A00253 e TED 807322) hanno 160 caratteri identici di formula prima dell'oggetto: con la sola chiave
+    la NuCDR di GT-SUAM finiva fusa nello screening di TED."""
+    ta, tb = _titolo_intero(a), _titolo_intero(b)
+    corto = min(len(ta), len(tb))
+    if corto <= LUNGHEZZA_CHIAVE:
+        return True
+    return _prefisso_comune(ta, tb) >= 0.9 * corto
 
 
 def _titolo_intero(titolo: str) -> str:
@@ -102,7 +134,10 @@ def deduplica(tutte: dict[str, Opportunita]) -> dict[str, Opportunita]:
     ordine = sorted(tutte.values(), key=lambda o: (0 if "TED" in o.fonti else 1, o.id))
     for o in ordine:
         k = chiave_testo(o.ente)[:40] + "|" + chiave_testo(o.titolo)
-        principale = next((p for p in per_chiave.get(k, []) if p.id == o.id or _fondibili(p, o)), None)
+        candidati = [p for p in per_chiave.get(k, []) if p.id == o.id or _fondibili(p, o)]
+        # Con piu' candidati si sceglie quello col titolo piu' simile (prefisso comune piu' lungo).
+        principale = max(candidati, key=lambda p: (p.id == o.id, _prefisso_comune(
+            _titolo_intero(p.titolo), _titolo_intero(o.titolo))), default=None)
         if principale is None or principale.id == o.id:
             per_chiave.setdefault(k, []).append(o)
             tenute[o.id] = o
@@ -293,6 +328,7 @@ def main() -> int:
     riepilogo["errori"].extend(f"plone: {e}" for e in plone.ERRORI)
     riepilogo["errori"].extend(f"centrale_acquisti: {e}" for e in centrale_acquisti.ERRORI)
     riepilogo["errori"].extend(f"jaggaer: {e}" for e in jaggaer.ERRORI)
+    riepilogo["errori"].extend(f"maggioli: {e}" for e in maggioli.ERRORI)
 
     storico = carica_storico()
     prima = set(storico)
@@ -302,7 +338,8 @@ def main() -> int:
     # su Intercent-ER, consultazione revocata su STELLA, asta di vendita su eAppaltiFVG, voce
     # dell'albo dell'ASL 3 Nuoro del 2025 senza scadenza).
     for nome, esclusi in (("Plone", plone.ESCLUSI), ("Centrale Acquisti", centrale_acquisti.ESCLUSI),
-                          ("Jaggaer", jaggaer.ESCLUSI), ("HTML", portali_html.ESCLUSI)):
+                          ("Jaggaer", jaggaer.ESCLUSI), ("HTML", portali_html.ESCLUSI),
+                          ("Maggioli", maggioli.ESCLUSI)):
         tolte = sorted(k for k in storico if k in esclusi)
         for k in tolte:
             del storico[k]

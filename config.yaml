@@ -68,6 +68,20 @@ enti_sanitari_regex:
   - '\bA\.?R\.?E\.?U\.?S\b|azienda\s+regionale\s+dell\W?\s*emergenza'
   - '\bA\.?R\.?N\.?A\.?S\b|\bbrotzu\b'
   - '\bI\.?Z\.?S\b'
+  # Marche (23/11/2026): l'INRCA su TED e su GTMULTIE si chiama "INRCA Istituto di Ricovero e Cura a
+  # Carattere Scientifico": IRCCS scritto per esteso, che la regola \bIRCCS\b non prende (7 avvisi TED
+  # dal 01/06/2026, 103 procedure su GTMULTIE). La forma estesa vale per ogni IRCCS.
+  - 'istituto\s+di\s+ricovero\s+e\s+cura|\bI\.?N\.?R\.?C\.?A\b'
+  # AST Pesaro Urbino pubblica su TED (22 avvisi dal 01/06/2026) e sulla sua piattaforma GTAOMN come
+  # "UOC Acquisti e Logistica", senza il nome dell'azienda. UOC (Unita' Operativa Complessa) e' una
+  # struttura delle aziende del SSN: un ente il cui nome INIZIA con UOC e' sanitario. Nei 532 avvisi
+  # TED marchigiani e nei campioni delle altre fonti l'unico nome cosi' e' quello dell'AST PU.
+  - '^\W*U\.?\s?O\.?\s?C\b'
+  # Decisione di Flavio in attesa (23/11/2026): ARS Marche ("AGENZIA REGIONALE SANITARIA MARCHE" su
+  # GTMULTIE, "AGENZIA REGIONALE SANITARIA" su GT-SUAM; mai acquirente su TED) come ente sanitario,
+  # come ARES e AREUS in Sardegna. Al 23/11/2026 nessun suo avviso aperto e' IT (interpretariato
+  # CUR 112, rete radio 118, campagna screening). Per attivarla: togliere il # dalla riga seguente.
+  # - 'agenzia\s+regionale\s+sanitaria'
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -175,6 +189,18 @@ aggregatori_misti_regex:
   # e CSI Piemonte.
   - '^\W*regione\s+(autonoma\s+)?(della\s+)?sardegna\b|centrale\s+regionale\s+di\s+committenza\W+(della\s+)?(regione\s+)?(autonoma\s+)?(della\s+)?sardegna'
   - '\bsardegna\s*IT\b'
+  # Marche: decisione di Flavio in attesa (23/11/2026). La SUAM (Stazione Unica Appaltante, soggetto
+  # aggregatore) non ha un nome suo: su GT-SUAM e quasi sempre su TED e' "Regione Marche", lo stesso
+  # nome delle gare della Giunta (RUNTS, rete meteo, protezione dati); su TED a volte "settore SUAM -
+  # Soggetto Aggregatore". La riga prende la Regione solo se il nome dell'ente INIZIA cosi' (non
+  # "Consiglio regionale - Assemblea legislativa delle Marche"), piu' la sigla SUAM. Le gare sanitarie
+  # della SUAM le svolge l'AST Ancona ("... - Soggetto Aggregatore in avvalimento per Regione
+  # Marche"), gia' ente sanitario. Effetto sui dati dal 01/06/2026: entrano "da verificare" 3 gare
+  # TED (SF 28/26 controlli sviluppo rurale, SF 20/2026 sistema informativo, SF37/2026 abbonamenti e
+  # software, quest'ultima anche su GT-SUAM) e l'avviso GT-SUAM A00252 (MISU degli sportelli unici),
+  # nessuna sanitaria. Le due consultazioni sanitarie della Regione (screening prenatale, NuCDR)
+  # entrano gia' per l'oggetto. Per attivarla: togliere il # dalla riga seguente.
+  # - '^\W*regione\s+marche\b|\bSUAM\b'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -202,6 +228,11 @@ parole_chiave_sanita_regex:
   - 'medicina\s+(generale|territoriale)'
   - 'case\s+della\s+comunit'
   - 'centrali\s+operative\s+territoriali|\bCOT\b'
+  # Marche (23/11/2026): "sistema informativo a supporto della rete dello screening prenatale ... Enti
+  # del SSR" (Regione Marche, GT-SUAM A00251 e TED 795909) non aveva parole sanitarie. Nei campioni
+  # delle altre fonti "screening" compare solo in oggetti di enti gia' sanitari, "SSR" mai.
+  - '\bscreening\b'
+  - '\bS\.?S\.?R\b'
 
 # Parole chiave informatiche: servono per le fonti senza CPV (feed RSS dei
 # portali regionali), dove l'oggetto IT si riconosce solo dal testo.
@@ -978,11 +1009,10 @@ portali_html:
       timeout_connessione: 20
       tentativi: 1
     - nome: IZS Umbria e Marche
-      # DISATTIVATO (13/11/2026): i portali PAT di ISWEB rispondono 403 ai server di
-      # GitHub, anche sull'indirizzo internetsoluzioni.it. Scelta: non aggirare il blocco.
-      # 23/11/2026: il 403 dipende dallo User-Agent di browser, non dai server di GitHub (vedi ASL 1
-      # Abruzzo avvisi). Con user_agent: progetto risponde 200 dal computer dell'utente. Resta
-      # disattivato fino alla decisione di Flavio; per attivarlo basta togliere abilitato: false.
+      # ATTIVO dal 23/11/2026 (decisione di Flavio; commit db52956, run 45182582775: 18 schede lette,
+      # ha risposto l'indirizzo principale). Dal 13/11 al 23/11/2026 era disattivato per un 403 che
+      # dipendeva dallo User-Agent di browser, non dai server di GitHub (vedi ASL 1 Abruzzo avvisi).
+      # Copre anche le Marche (un solo istituto): regione Umbria = sede legale.
       user_agent: progetto
       nome_fonte: IZSUM
       sigla: izsum
@@ -1018,12 +1048,11 @@ portali_html:
         - '\(\s*ED\.?\s*\d+\s+PAL\s*\)|accordo\s+quadro\s+consip|convenzione\s+consip'
       url: "https://areacom.eu/bandi-gara-aperti?page={pagina}"
     - nome: ASL 1 Abruzzo avvisi
-      # DISATTIVATO, in attesa della decisione di Flavio (23/11/2026). Portale PAT di ISWEB. Il 403 del
-      # 13/11/2026 non era un blocco dei server di GitHub ma dello User-Agent: il PAT risponde 403 a
-      # ogni User-Agent che inizia con "Mozilla/5.0" (quello di browser che mandava il programma) e 200
-      # a quello dichiarato del progetto, a curl e a python-requests (ricognizione del 23/11/2026, dal
-      # computer dell'utente; da GitHub non ancora provato). Con user_agent: progetto il programma si
-      # presenta per quello che e'. Per attivarlo: togliere la riga abilitato: false.
+      # ATTIVO dal 23/11/2026 (decisione di Flavio; commit 05159af, run 45180967473: 20 schede lette).
+      # Portale PAT di ISWEB. Il 403 del 13/11/2026 non era un blocco dei server di GitHub ma dello
+      # User-Agent: il PAT risponde 403 a ogni User-Agent che inizia con "Mozilla/5.0" (quello di
+      # browser che mandava il programma) e 200 a quello dichiarato del progetto, anche da GitHub.
+      # Con user_agent: progetto il programma si presenta per quello che e'.
       # Si legge la pagina "Avvisi" (indagini di mercato, avvisi esplorativi, consultazioni), non
       # "Bandi di gara e contratti" (/page/10/, elenco BDNCP misto con affidamenti e aggiudicazioni):
       # le gare dell'ASL 1 sono tutte su GIADA, letta dal blocco GIADA. Nessuna scadenza nell'elenco.
@@ -1426,3 +1455,99 @@ jaggaer:
         - 'avviso\s+agli\s+operatori\s+economici'
       timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
       tentativi: 1
+
+# --- Piattaforme Maggioli PortaleAppalti ("Appalti & Contratti") ------------------------
+# Marche (23/11/2026). Ogni azienda sanitaria ha la sua istanza, con gli stessi percorsi: due elenchi
+# pubblici (gare in corso e avvisi pubblici in corso) letti con un GET, 100 voci per pagina, senza
+# login (vedi scout/maggioli.py). Niente CPV ne' CIG nell'elenco: filtro testuale. Le schede delle
+# gare hanno un captcha (Friendly Captcha): non si leggono, il link e' per la persona che apre la
+# dashboard. Le schede degli avvisi si aprono normalmente.
+# Opzioni per sito: host, liste (bandi, avvisi), stazioni (codici del menu "Stazione appaltante",
+# solo per le istanze multi-ente: una lettura per codice), escludi_titoli_regex, escludi_tipologie,
+# escludi_stazioni_regex, enti_rinomina, ente_se_vuoto, pubblicazione_max_giorni (default 120: gli
+# avvisi senza scadenza piu' vecchi si ignorano e si tolgono dallo storico), timeout_connessione,
+# tentativi. I nomi degli enti restano quelli delle stazioni appaltanti, identici a quelli di TED
+# (ricognizione del 23/11/2026), cosi' la deduplica fonde la stessa procedura vista nei due posti.
+maggioli:
+  abilitato: true
+  siti:
+    # GT-SUAM, piattaforma della Regione (Maggioli, sorgenti acquisiti dalla Regione) e di altri 197
+    # enti marchigiani. Si legge tutta, senza filtro per stazione: in corso al 23/11/2026 5 gare e 10
+    # avvisi, tutti della "Regione Marche" (che e' anche il nome della SUAM). Gli enti non sanitari
+    # passano il filtro solo con un oggetto sanitario, come su SardegnaCAT.
+    - &maggioli_marche
+      nome: GT-SUAM
+      nome_fonte: GT-SUAM
+      sigla: gtsuam
+      regione: Marche
+      host: "https://appaltisuam.regione.marche.it"
+      liste: [bandi, avvisi]
+      # Gli elenchi di operatori economici (albi dei fornitori) non sono opportunita'.
+      escludi_tipologie: [Elenco operatori economici]
+      escludi_stazioni_regex:
+        - '\btest\b'                  # "UFF. TEST", "UFFICIO TEST", "Ufficio intestatario di TEST"
+      escludi_titoli_regex: &escludi_maggioli
+        # Affidamenti diretti e richieste di preventivo (l'elenco non ha il tipo di procedura): regola
+        # di GIADA e SardegnaCAT sull'inizio del titolo. Le indagini "finalizzate all'affidamento
+        # diretto" e "per individuare gli operatori da invitare" restano: sono aperte a tutti.
+        - '^\W*(?:(?:bando\s+(?:rettificato|revocato|in\s+rettifica)|procedura\s+(?:ripristinata|sospesa|in\s+sospensione)|riapertura\s+termini|ADP?)\s*[-\u2013]\s*)*(?:affidamento\s+diretto|affidamento(?:\s+(?:della\s+)?fornitura)?\W*\s*(?:ai\s+sensi\s+dell|di\s+cui\s+all|ex)\W*\s*art\W*\s*(?:n\W*\s*)?50\W*\s*(?:c(?:o|omma)\W*\s*)?1\W*\s*(?:lett\w*\W*\s*)?[ab]\b|richiesta\s+(?:di\s+)?preventivo)'
+        # AST Ascoli pubblica negli avvisi anche gli affidamenti gia' fatti ("ACQ - Scheda di
+        # aggiudicazione - ...", tra cui licenze software Lexroom e Sapient) e le aste dei veicoli;
+        # l'AOU la vendita di un autocaravan.
+        - 'scheda\s+di\s+aggiudicazion|\baggiudicazione\s+definitiv|\besito\s+(di\s+|della\s+)?(gara|procedura)'
+        - '\basta\s+pubblica|\bvendita\b|\balienazion'
+      timeout_connessione: 20        # fonti nuove: se bloccassero GitHub, si perde poco tempo
+      tentativi: 1
+    # AST Ancona: due stazioni, l'AST e "Azienda Sanitaria Territoriale di Ancona - Soggetto Aggregatore
+    # in avvalimento per Regione Marche" (le gare SSR del soggetto aggregatore SUAM: su TED dosimetria
+    # per le AST, manutenzione software). Al 23/11/2026 nessuna gara in corso.
+    - <<: *maggioli_marche
+      nome: AST Ancona
+      nome_fonte: Appalti AST Ancona
+      sigla: astan
+      host: "https://appalti-ast2an.sanita.marche.it"
+    # AST Pesaro Urbino: usa GTAOMN, la piattaforma dell'ex AO Marche Nord. Le stazioni hanno nomi di
+    # uffici: "UOC Acquisti e Logistica" resta cosi' (e' il nome su TED, riconosciuto come sanitario dalla
+    # regola sulle UOC), gli altri prendono il nome dell'azienda.
+    - <<: *maggioli_marche
+      nome: AST Pesaro Urbino (GTAOMN)
+      nome_fonte: GTAOMN AST Pesaro Urbino
+      sigla: astpu
+      host: "https://gtaomn.regione.marche.it"
+      enti_rinomina:
+        "Farmacia": "AST Pesaro Urbino - Farmacia"
+        "Servizio Tecnico": "AST Pesaro Urbino - Servizio Tecnico"
+      ente_se_vuoto: AST Pesaro Urbino
+    - <<: *maggioli_marche
+      nome: AST Macerata
+      nome_fonte: Appalti AST Macerata
+      sigla: astmc
+      host: "https://appalti-ast3mc.sanita.marche.it"
+    - <<: *maggioli_marche
+      nome: AST Fermo
+      nome_fonte: Appalti AST Fermo
+      sigla: astfm
+      host: "https://appalti-ast4fm.sanita.marche.it"
+    # AST Ascoli Piceno: negli avvisi "in corso" (46 al 23/11/2026) soprattutto schede di
+    # aggiudicazione e aste di veicoli, escluse dalle regole comuni.
+    - <<: *maggioli_marche
+      nome: AST Ascoli Piceno
+      nome_fonte: Appalti AST Ascoli Piceno
+      sigla: astap
+      host: "https://appalti-ast5ap.sanita.marche.it"
+    # AOU delle Marche (GTAOAN): gare e avvisi (indagini, consultazioni preliminari, infungibilita'),
+    # come dice la pagina "Bandi di gara e contratti" del suo PAT, che quindi non si legge.
+    - <<: *maggioli_marche
+      nome: AOU delle Marche (GTAOAN)
+      nome_fonte: GTAOAN AOU delle Marche
+      sigla: aoumarche
+      host: "https://gtaoan.regione.marche.it"
+    # GTMULTIE: piattaforma di 113 enti, quasi tutti comuni. Si leggono solo INRCA (000033, tutte le sue
+    # gare, anche dei presidi di Casatenovo e Cosenza) e ARS Marche (000005). Se il server ignorasse il
+    # filtro per stazione, la lista viene scartata con un errore: in quel caso togliere "stazioni".
+    - <<: *maggioli_marche
+      nome: GTMULTIE (INRCA e ARS)
+      nome_fonte: GTMULTIE
+      sigla: gtmultie
+      host: "https://gtmultie.regione.marche.it"
+      stazioni: ["000033", "000005"]
