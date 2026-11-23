@@ -3,7 +3,7 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 282
+  "righe_lette": 283
  },
  "lombardia_ambito_4": {
   "righe_prima_pagina": 86,
@@ -42,7 +42,7 @@
   "righe_lette": 16
  },
  "lombardia": {
-  "righe_lette": 534,
+  "righe_lette": 535,
   "enti_sanitari": {
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 17,
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 16,
@@ -83,7 +83,7 @@
    "ASST SANTI PAOLO E CARLO": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 343,
+  "procedure_altri_enti": 344,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "COMUNE DI MILANO": 12,
@@ -96,6 +96,7 @@
    "COMUNE DI RHO": 5,
    "PROVINCIA DI PAVIA": 5,
    "AGESP S.P.A.": 4,
+   "COMUNE DI BERGAMO": 4,
    "COMUNE DI BUCCINASCO": 4,
    "COMUNE DI BUSTO ARSIZIO": 4,
    "COMUNE DI CARUGATE": 4,
@@ -107,7 +108,6 @@
    "UNIVERSITA' DEGLI STUDI DI BRESCIA": 4,
    "ALER BRESCIA - CREMONA - MANTOVA": 3,
    "CMP SVILUPPOIMPRESA - AZIENDA SPECIALE DELLA CAMERA DI COMMERCIO DI CREMONA-MANTOVA-PAVIA": 3,
-   "COMUNE DI BERGAMO": 3,
    "COMUNE DI BRONI": 3,
    "COMUNE DI BUSSERO": 3,
    "COMUNE DI CASSANO MAGNAGO": 3,
@@ -334,10 +334,10 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 139,
+  "righe_prima_pagina": 141,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 139,
+  "righe_lette": 141,
   "enti_sanitari": {
    "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 33,
    "A.O. ORDINE MAURIZIANO TORINO": 11,
@@ -360,15 +360,15 @@
    "CSI PIEMONTE": 1,
    "SCR PIEMONTE SPA": 1
   },
-  "procedure_altri_enti": 39,
+  "procedure_altri_enti": 41,
   "altri_enti": {
+   "COMUNE DI ALESSANDRIA": 8,
    "GIUNTA REGIONALE DEL PIEMONTE": 8,
-   "COMUNE DI ALESSANDRIA": 7,
    "COMUNE DI BIELLA": 7,
    "PROVINCIA DI BIELLA": 4,
    "CITTÀ METROPOLITANA DI TORINO": 3,
+   "PROVINCIA DEL VERBANO CUSIO OSSOLA": 3,
    "CORDAR S.P.A. BIELLA SERVIZI": 2,
-   "PROVINCIA DEL VERBANO CUSIO OSSOLA": 2,
    "UNIONE MONTANA DEI COMUNI DELLA VALSESIA": 2,
    "COMUNE DI BRUINO": 1,
    "COMUNE DI CANNOBIO": 1,

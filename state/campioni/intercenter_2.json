@@ -3,7 +3,7 @@
   "batching": {
     "@id": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search", 
     "first": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=0", 
-    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=38900", 
+    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=39000", 
     "next": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=50"
   }, 
   "items": [
@@ -504,7 +504,7 @@
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18274096", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-18T00:00:00+01:00", 
-      "Description": "PROCEDURA TELEMATICA APERTA PER CONCESSIONE DEI SERVIZI DI RIPRISTINO DELLE CONDIZIONI DI SICUREZZA STRADALE ED EVENTUALE REINTEGRO DELLE MATRICI AMBIENTALI DELLE STRADE PROVINCIALI COMPROMESSE DAL VERIFICARSI DI INCIDENTI STRADALI Scarica Allegati", 
+      "Description": "Bando Rettificato -  PROCEDURA TELEMATICA APERTA PER CONCESSIONE DEI SERVIZI DI RIPRISTINO DELLE CONDIZIONI DI SICUREZZA STRADALE ED EVENTUALE REINTEGRO DELLE MATRICI AMBIENTALI DELLE STRADE PROVINCIALI COMPROMESSE DAL VERIFICARSI DI INCIDENTI STRADALI RETTIFICA PER ERRORE MATERIALE NEL PUNTO 6.5 DEL DISCIPLINARE DI GARA E CONSEGUENTEMENTE DEGLI ALLEGATI A1 \u201cDOMANDA DI PARTECIPAZIONE\u201d A1.1 \u201cDICHI.CONSORZIATE ESECUTRICI\u201d E A5 \u201cAVVALIMENTO\u201d RIPORTANTI RICHIAMI ALLO STESSO ERRORE MATERIALE Scarica Allegati", 
       "Subject": [], 
       "Title": "PROCEDURA TELEMATICA APERTA PER CONCESSIONE DEI SERVIZI DI RIPRISTINO DELLE CONDIZIONI DI SICUREZZA STRADALE ED EVENTUALE REINTEGRO DELLE MATRICI AMBIENTALI DELLE STRADE PROVINCIALI COMPROMESSE DAL VERIFICARSI DI INCIDENTI STRADALI", 
       "UID": "cd7f1848516c486b8c83a3cd595cdde9", 
@@ -514,7 +514,7 @@
         "open", 
         "Attivo"
       ], 
-      "description": "PROCEDURA TELEMATICA APERTA PER CONCESSIONE DEI SERVIZI DI RIPRISTINO DELLE CONDIZIONI DI SICUREZZA STRADALE ED EVENTUALE REINTEGRO DELLE MATRICI AMBIENTALI DELLE STRADE PROVINCIALI COMPROMESSE DAL VERIFICARSI DI INCIDENTI STRADALI Scarica Allegati", 
+      "description": "Bando Rettificato -  PROCEDURA TELEMATICA APERTA PER CONCESSIONE DEI SERVIZI DI RIPRISTINO DELLE CONDIZIONI DI SICUREZZA STRADALE ED EVENTUALE REINTEGRO DELLE MATRICI AMBIENTALI DELLE STRADE PROVINCIALI COMPROMESSE DAL VERIFICARSI DI INCIDENTI STRADALI RETTIFICA PER ERRORE MATERIALE NEL PUNTO 6.5 DEL DISCIPLINARE DI GARA E CONSEGUENTEMENTE DEGLI ALLEGATI A1 \u201cDOMANDA DI PARTECIPAZIONE\u201d A1.1 \u201cDICHI.CONSORZIATE ESECUTRICI\u201d E A5 \u201cAVVALIMENTO\u201d RIPORTANTI RICHIAMI ALLO STESSO ERRORE MATERIALE Scarica Allegati", 
       "design_italia_meta_type": "Bando Intercenter", 
       "effective": "2026-11-17T23:00:00+00:00", 
       "enhanced_links_enabled": null, 
@@ -916,17 +916,4 @@
       "UID": "62aeca11902a4158a0b3fdaa0ec61e5e", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "open", 
-        "Attivo"
-      ], 
-      "description": "PA FORNITURA DI N.1 ECOTOMOGRAFO INTRAOPERATORIO PER LA NEUROCHIRURGIA PEDIATRICA DELL\u2019IRCCS ISTITUTO DELLE SCIENZE NEUROLOGICHE DELL\u2019AZIENDA USL DI BOLOGNA Scarica Allegati", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-11-08T23:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_GARA_PORTALE@18125532", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state
+      "bando_state":
