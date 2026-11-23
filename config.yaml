@@ -983,7 +983,6 @@ portali_html:
       # 23/11/2026: il 403 dipende dallo User-Agent di browser, non dai server di GitHub (vedi ASL 1
       # Abruzzo avvisi). Con user_agent: progetto risponde 200 dal computer dell'utente. Resta
       # disattivato fino alla decisione di Flavio; per attivarlo basta togliere abilitato: false.
-      abilitato: false
       user_agent: progetto
       nome_fonte: IZSUM
       sigla: izsum
