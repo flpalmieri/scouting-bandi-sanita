@@ -82,6 +82,23 @@ enti_sanitari_regex:
   # come ARES e AREUS in Sardegna. Al 23/11/2026 nessun suo avviso aperto e' IT (interpretariato
   # CUR 112, rete radio 118, campagna screening). Per attivarla: togliere il # dalla riga seguente.
   - 'agenzia\s+regionale\s+sanitaria'
+  # Sicilia (23/11/2026): nomi visti su TED (937 avvisi siciliani dal 01/06/2026) e sulle piattaforme.
+  # ASP, ARNAS, AO, AOU, Policlinici, IZS e "U.O.C. Provveditorato" (ARNAS Civico su TED) erano gia'
+  # riconosciuti. Restavano fuori: la Fondazione Giglio di Cefalu' (104 avvisi TED, il buyer sanitario
+  # siciliano piu' attivo), l'ISMETT scritto per esteso (IRCCS di diritto privato del SSR, come Gemelli e
+  # Bambino Gesu' nel Lazio), l'IRCCS Bonino Pulejo scritto "I.R.C.C.S" con i punti (la sigla con i
+  # punti vale per ogni IRCCS) e la SEUS 118 (Sicilia Emergenza-Urgenza Sanitaria, societa' consortile
+  # del SSR). Non prendono la Fondazione Ri.MED (ricerca), ARPA Sicilia ne' i comuni (provato sui nomi).
+  - 'istituto\s+g\W{0,2}\s*giglio|giglio\W+(di\s+)?cefal'
+  - '\bI\.?S\.?M\.?E\.?T\.?T\b|istituto\s+mediterraneo\s+per\s+i\s+trapianti'
+  - '\bI\.\s?R\.\s?C\.\s?C\.\s?S\b'
+  - '\bS\.?E\.?U\.?S\b|emergenza\W+urgenza\s+sanitaria'
+  # Decisione di Flavio in attesa (23/11/2026): il Dipartimento per la pianificazione strategica
+  # dell'Assessorato regionale della Salute (su TED e su SITAS "Regione siciliana - Dipartimento per la
+  # pianificazione strategica") compra per il SSR (elisoccorso SUES 118, sistema informativo, Connected
+  # Care), come ARES in Sardegna. Al 23/11/2026 nessun effetto su TED (4 esiti dell'elisoccorso). Per
+  # attivarla: togliere il # dalla riga seguente.
+  # - 'pianificazione\s+strategica|\bDASOE\b|attivit[aà]\s+sanitarie\s+e\s+osservatorio\s+epidemiologico'
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -121,7 +138,10 @@ enti_non_sanitari_regex:
 # prima di cercare le parole IT (altrimenti "affidamento su piattaforma telematica
 # GIADA" di un farmaco sembrerebbe una gara informatica).
 rumore_procedurale_regex:
-  - '(su|sulla|tramite|mediante|attraverso|nella|con)\s+(ricorso\s+a(lla)?\s+|(l[\x27\u2019]\s*)?utilizzo\s+(della\s+)?)?(la\s+|l[\x27\u2019]\s*)?(propria\s+)?piattaforma\s+((web|telematica|informatica|digitale|elettronica|regionale|aziendale|e-?procurement|di\s+e-?procurement|di\s+negoziazione)\s+)*([A-Z][\w\.\-]*)?'
+  # Dal 23/11/2026 (Sicilia) anche "lutilizzo" senza apostrofo: TED e le piattaforme Maggioli siciliane
+  # perdono gli apostrofi ("laffidamento", "dellart."), e "Procedura di gara mediante lutilizzo della
+  # piattaforma telematica di e-procurement" (AO Papardo, TED 767590 e Maggioli G05980) entrava come IT.
+  - '(su|sulla|tramite|mediante|attraverso|nella|con)\s+(ricorso\s+a(lla)?\s+|(l[\x27\u2019]?\s*)?utilizzo\s+(della\s+)?)?(la\s+|l[\x27\u2019]\s*)?(propria\s+)?piattaforma\s+((web|telematica|informatica|digitale|elettronica|regionale|aziendale|e-?procurement|di\s+e-?procurement|di\s+negoziazione)\s+)*([A-Z][\w\.\-]*)?'
   - '\b(RDO|trattativa\s+diretta|ODA)\s+(su\s+)?(il\s+)?MePA\b'
   - 'procedura\s+(aperta\s+|negoziata\s+|ristretta\s+)?(telematica|informatizzata)'
   # Sintel come canale di gara: "sistema informatico di negoziazione Sintel", "piattaforma
@@ -201,6 +221,14 @@ aggregatori_misti_regex:
   # nessuna sanitaria. Le due consultazioni sanitarie della Regione (screening prenatale, NuCDR)
   # entrano gia' per l'oggetto. Per attivarla: togliere il # dalla riga seguente.
   - '^\W*regione\s+marche\b|\bSUAM\b'
+  # Sicilia: decisioni di Flavio in attesa (23/11/2026). (1) Sicilia Digitale, societa' informatica
+  # della Regione, come Lepida e CSI Piemonte (su TED 2 avvisi dal 01/06/2026, rilevamento incendi,
+  # nessuno IT sanitario). (2) L'Ufficio Speciale Centrale Unica di Committenza per l'acquisizione di
+  # beni e servizi (compra per il SSR: farmaci, vaccini, elisoccorso), solo con il suo nome: su TED
+  # non compare dal 01/06/2026, le sue gare si svolgono su Consip. Oggi nessun effetto sui dati.
+  # Per attivarle: togliere il # dalla riga.
+  # - '\bsicilia\s+digitale\b'
+  # - 'centrale\s+unica\s+di\s+committenza\s+per\s+l\W?\s*acquisizione\s+di\s+beni\s+e\s+servizi|centrale\s+unica\s+di\s+committenza\s+(della\s+)?regione\s+siciliana'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -284,6 +312,11 @@ parole_chiave_it_regex:
   - '\bSaaS\b'
   - 'portale\s+web'
   - '\bapp\b'
+  # Sicilia (23/11/2026): "Fornitura di una piattaforma integrata per la gestione dell'informazione
+  # clinica, la codifica semi-automatica delle dimissioni..." (Villa Sofia-Cervello, Maggioli G08820,
+  # TED 744682 con CPV 48300000) non aveva parole IT: sulla piattaforma, senza CPV, si perdeva. Non si
+  # usa "piattaforma integrata", che su TED siciliano compare anche per il trattamento dei rifiuti.
+  - 'informazion[ei]\s+clinic|codifica\s+(semi\W?)?automatic'
 
 # Esclusioni: se il titolo contiene una di queste, l'avviso viene scartato.
 esclusioni_regex:
@@ -1231,6 +1264,27 @@ portali_html:
       timeout_connessione: 20
       tentativi: 1
 
+    # Sicilia (23/11/2026). ASP Catania: le gare si svolgono su Net4market (app.albofornitori.it, solo
+    # JavaScript), ma il sito dell'ASP ha l'elenco in una tabella HTML generata dal server, con termine
+    # delle offerte (ora compresa), procedura, oggetto, importo e CIG; ordinato per termine decrescente,
+    # 10 voci per pagina, 263 pagine di archivio. Si leggono le prime 3 pagine: al 23/11/2026 le voci
+    # con termine futuro erano 10 (consultazioni preliminari, indagini, gare aperte); quelle scadute le
+    # toglie main.py. Nessun dato personale nell'elenco. Risponde 200 allo User-Agent del progetto.
+    - nome: ASP Catania
+      nome_fonte: Sito ASP Catania
+      sigla: aspcatania
+      ente: AZIENDA SANITARIA PROVINCIALE DI CATANIA      # come su TED (16 avvisi), per la deduplica
+      regione: Sicilia
+      lettore: tabella
+      max_pagine: 3
+      user_agent: progetto
+      escludi_titoli_regex:
+        - '\bvendita\b|\balienazion|\basta\s+pubblica'          # es. vendita al rialzo della PET/TC di Caltagirone
+        - '^\W*affidamento\s+diretto|\bin\s+adesione\b'
+      url: "https://www.aspct.it/fornitore/bandi-di-gara/default.aspx?page={pagina}"
+      timeout_connessione: 20
+      tentativi: 1
+
 # --- Sintel (ARIA, Lombardia) ------------------------------------------------
 # Piattaforma di gara di tutte le aziende sanitarie lombarde (ASST, ATS, IRCCS,
 # AREU) e di ARIA; la usano anche enti di altre regioni (es. ULSS e aziende
@@ -1421,6 +1475,30 @@ acquistitelematici:
       tipi: [procedure-gara, manifestazioni-interesse]
       max_risultati: 50
       escludi_stati: [annullata, tender_canceled]   # DigitalPA usa entrambi per le gare annullate (IZSM, 20/11/2026)
+    # Sicilia (23/11/2026). Fondazione Istituto G. Giglio di Cefalu': il buyer sanitario siciliano piu'
+    # attivo su TED (104 avvisi dal 01/06/2026); sulla sua piattaforma DigitalPA 9 gare con scadenza
+    # futura al 23/11/2026. Nome dell'ente come su TED, per la deduplica. I codici "L-0000..." delle
+    # gare a lotti sono interni e si ignorano come gli "M-..." (RE_CIG_VERO).
+    - nome: Fondazione Giglio Cefalu
+      nome_fonte: Giglio Cefalu (DigitalPA)
+      sigla: giglio
+      host: "https://ospedalegiglio.acquistitelematici.it"
+      ente: "Fondazione Istituto G. Giglio di Cefalù"
+      regione: Sicilia
+      tipi: [procedure-gara, manifestazioni-interesse]
+      max_risultati: 50
+      escludi_stati: [annullata, tender_canceled]
+    # SEUS 118 (Sicilia Emergenza-Urgenza Sanitaria): 7 gare in tutto, ultima del 02/03/2026; due
+    # richieste al giorno, per non perdere la prossima (centrale operativa, sistemi del 118).
+    - nome: SEUS 118
+      nome_fonte: SEUS 118 (DigitalPA)
+      sigla: seus118
+      host: "https://118sicilia.acquistitelematici.it"
+      ente: "SEUS 118 - Sicilia Emergenza-Urgenza Sanitaria"
+      regione: Sicilia
+      tipi: [procedure-gara, manifestazioni-interesse]
+      max_risultati: 50
+      escludi_stati: [annullata, tender_canceled]
 
 # --- Piattaforme JAGGAER (ex BravoSolution, indirizzi /esop/...) --------------------
 # L'elenco pubblico "Avvisi in Area Pubblica" e' nell'HTML della pagina (vedi scout/jaggaer.py):
@@ -1501,8 +1579,9 @@ maggioli:
       # (20 s e un nuovo tentativo per lista: 8 minuti in piu'), mentre dal computer dell'utente
       # rispondono. Seconda prova all'esecuzione automatica del giorno dopo (lezione 41) con attesa
       # breve, nessun nuovo tentativo e, dopo il primo timeout, nessuna altra lista dello stesso sito:
-      # circa 10 secondi per sito. Se fallisce di nuovo: abilitato: false nella sezione maggioli (sopra)
-      # e controllo manuale.
+      # circa 10 secondi per sito. Se fallisce di nuovo: abilitato: false in QUESTO blocco (lo ereditano
+      # le altre sette piattaforme marchigiane) e controllo manuale. Non nella sezione maggioli: dal
+      # 23/11/2026 comprende anche le istanze siciliane, che hanno un blocco modello proprio.
       timeout_connessione: 10
       tentativi: 0
     # AST Ancona: due stazioni, l'AST e "Azienda Sanitaria Territoriale di Ancona - Soggetto Aggregatore
@@ -1558,3 +1637,73 @@ maggioli:
       sigla: gtmultie
       host: "https://gtmultie.regione.marche.it"
       stazioni: ["000033", "000005"]
+    # ------------------------------------------------------------------------------------------
+    # Sicilia (23/11/2026). Non c'e' una piattaforma regionale per la sanita': 11 aziende usano
+    # ciascuna una propria istanza Maggioli PortaleAppalti (ricognizione dell'utente: liste in corso,
+    # totali, ultima procedura, stazioni appaltanti). Qui le 9 che rispondono con la catena TLS
+    # completa; ARNAS Civico (manca l'intermedio Sectigo, scout/tls.py da correggere) e AO Papardo
+    # (intermedio Actalis non scaricabile) restano fuori per ora. I nomi degli enti sono quelli delle
+    # stazioni appaltanti, identici a TED (per la deduplica). Blocco modello proprio, NON quello delle
+    # Marche: se le Marche vanno disattivate (abilitato: false nel loro primo blocco, che le altre
+    # Marche ereditano), la Sicilia resta attiva. Stesse attese brevi delle Marche (10 s, nessun nuovo
+    # tentativo): se un host non risponde ai server di GitHub costa una riga e 10 secondi (lezione 83).
+    - &maggioli_sicilia
+      nome: ASP Palermo
+      nome_fonte: Appalti ASP Palermo
+      sigla: asppalermo
+      regione: Sicilia
+      host: "https://portaleappalti-asppalermo.maggiolicloud.it"
+      liste: [bandi, avvisi]
+      escludi_tipologie: [Elenco operatori economici]
+      escludi_stazioni_regex:
+        - '\btest\b'
+      escludi_titoli_regex: *escludi_maggioli
+      timeout_connessione: 10
+      tentativi: 0
+    # ASP Caltanissetta: il vecchio indirizzo alice-web.omniars.it (ancora nei link TED) reindirizza qui.
+    # Nella stessa istanza anche "Amministrazione Consorziata - Azienda Sanitaria Provinciale di Palermo"
+    # e il Conservatorio di Caltanissetta (non sanitario: entra solo con un oggetto sanitario).
+    - <<: *maggioli_sicilia
+      nome: ASP Caltanissetta
+      nome_fonte: Appalti ASP Caltanissetta
+      sigla: aspcaltanissetta
+      host: "https://portaleappalti-aspcaltanissetta.maggiolicloud.it"
+    - <<: *maggioli_sicilia
+      nome: ASP Messina
+      nome_fonte: Appalti ASP Messina
+      sigla: aspmessina
+      host: "https://aspmessina-appalti.maggiolicloud.it"
+    # ASP Trapani: 740 avvisi "in corso" (tipologia Altro) al 23/11/2026, oltre i 100 di una pagina:
+    # si leggono solo le gare finche' non si vede che cosa sono quegli avvisi.
+    - <<: *maggioli_sicilia
+      nome: ASP Trapani
+      nome_fonte: Appalti ASP Trapani
+      sigla: asptrapani
+      host: "https://appalti-asptrapani.maggiolicloud.it"
+      liste: [bandi]
+    # ARNAS Garibaldi: piattaforma poco usata (22 procedure in tutto, ultima 17/09/2026).
+    - <<: *maggioli_sicilia
+      nome: ARNAS Garibaldi
+      nome_fonte: Appalti ARNAS Garibaldi
+      sigla: arnasgaribaldi
+      host: "https://arnasgaribaldict-appalti.maggiolicloud.it"
+    - <<: *maggioli_sicilia
+      nome: AOOR Villa Sofia-Cervello
+      nome_fonte: Appalti Villa Sofia-Cervello
+      sigla: villasofia
+      host: "https://appalti-villasofia-cervello.maggiolicloud.it"
+    - <<: *maggioli_sicilia
+      nome: AOU Policlinico Catania
+      nome_fonte: Appalti AOU Policlinico Catania
+      sigla: aoupct
+      host: "https://appalti.policlinicorodolicosanmarco.it"
+    - <<: *maggioli_sicilia
+      nome: AOU Policlinico Messina
+      nome_fonte: Appalti AOU Policlinico Messina
+      sigla: aoupme
+      host: "https://policlinicomessina-appalti.maggiolicloud.it"
+    - <<: *maggioli_sicilia
+      nome: IRCCS Bonino Pulejo
+      nome_fonte: Appalti IRCCS Bonino Pulejo
+      sigla: irccsme
+      host: "https://appalti.irccsme.it"

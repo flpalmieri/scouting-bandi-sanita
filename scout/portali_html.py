@@ -10,7 +10,8 @@ Lettori disponibili:
                    blocco "data" (DATA PUBBLICAZIONE, DATA SCADENZA o SCADENZA).
   tabella        - tabelle con intestazioni oggetto (o "bando")/scadenza/tipologia/importo/
                    CIG/data pubblicazione (USL Umbria 2, portali PAT di ISWEB come l'IZSUM,
-                   AreaCom Abruzzo su Drupal).
+                   AreaCom Abruzzo su Drupal). Se mancano "scadenza" e "tipologia" valgono
+                   "termine" e "procedura" (ASP Catania, "Termine per la consegna delle offerte").
   box_etichette  - riquadri C2I MediaCenter con etichette (AO Perugia).
   teaser_drupal  - schede Drupal <article class="node-teaser"> con stato (field-workflow),
                    "Pubblicato:" e "Scade:" (portale bandi ASL TO5). Il referente (nome,
@@ -161,8 +162,15 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
         c_ogg, c_scad = colonna("oggetto"), colonna("scadenza")
         if c_ogg is None:
             c_ogg = next(i for i, h in enumerate(intestazioni) if h in ("bando", "titolo"))
+        # ASP Catania (23/11/2026): "Termine per la consegna delle offerte" e "Procedura" al posto di
+        # "Scadenza" e "Tipologia". Solo se manca la colonna con il nome solito: le tabelle gia'
+        # lette non cambiano.
+        if c_scad is None:
+            c_scad = colonna("termine")
         c_cig = colonna("cig")
         c_tipo, c_imp = colonna("tipolog", "tipo"), colonna("importo")
+        if c_tipo is None:
+            c_tipo = colonna("procedura")
         c_pubb = colonna("pubblicazion", "data avviso")   # es. portali PAT/ISWEB
         for riga in righe[1:]:
             celle = re.findall(r"<td[^>]*>(.*?)</td>", riga, re.DOTALL | re.IGNORECASE)
