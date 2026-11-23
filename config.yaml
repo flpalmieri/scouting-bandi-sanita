@@ -156,6 +156,16 @@ aggregatori_misti_regex:
   # prende la "CENTRALE COMMITTENZA RETE DELLE STAZIONI APPALTANTI DEL FRIULI VENEZIA GIULIA" ne'
   # le CUC dei comuni ("CUC SACILE, BRUGNERA E CANEVA"). Insiel resta fuori (decisione di Flavio).
   - 'centrale\s+unica\s+di\s+committenza\s+(della\s+)?(FVG|regione\s+(autonoma\s+)?friuli)|friuli\s+venezia\s+giulia.{0,80}centrale\s+unica\s+di\s+committenza'
+  # Sardegna: decisioni di Flavio (20/11/2026). (1) La Centrale regionale di committenza (soggetto
+  # aggregatore, compra anche per la sanita': es. "Farmaci" DPCM 2026) non pubblica con un nome suo:
+  # su TED e su SardegnaCAT e' sempre "Regione Autonoma della Sardegna", come le altre direzioni
+  # regionali. Si prende quindi la Regione, solo quando il nome dell'ente INIZIA cosi' (non le
+  # agenzie "... della Regione Autonoma della Sardegna"), piu' il nome della Centrale se un giorno
+  # comparisse. Le gare IT della Regione entrano "da verificare" anche se non sanitarie (TED 2026:
+  # 7 avvisi IT, nessuno sanitario). (2) Sardegna IT, societa' informatica della Regione, come Lepida
+  # e CSI Piemonte.
+  - '^\W*regione\s+(autonoma\s+)?(della\s+)?sardegna\b|centrale\s+regionale\s+di\s+committenza\W+(della\s+)?(regione\s+)?(autonoma\s+)?(della\s+)?sardegna'
+  - '\bsardegna\s*IT\b'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
