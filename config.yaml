@@ -93,12 +93,15 @@ enti_sanitari_regex:
   - '\bI\.?S\.?M\.?E\.?T\.?T\b|istituto\s+mediterraneo\s+per\s+i\s+trapianti'
   - '\bI\.\s?R\.\s?C\.\s?C\.\s?S\b'
   - '\bS\.?E\.?U\.?S\b|emergenza\W+urgenza\s+sanitaria'
-  # Decisione di Flavio in attesa (23/11/2026): il Dipartimento per la pianificazione strategica
-  # dell'Assessorato regionale della Salute (su TED e su SITAS "Regione siciliana - Dipartimento per la
-  # pianificazione strategica") compra per il SSR (elisoccorso SUES 118, sistema informativo, Connected
-  # Care), come ARES in Sardegna. Al 23/11/2026 nessun effetto su TED (4 esiti dell'elisoccorso). Per
-  # attivarla: togliere il # dalla riga seguente.
-  # - 'pianificazione\s+strategica|\bDASOE\b|attivit[aà]\s+sanitarie\s+e\s+osservatorio\s+epidemiologico'
+  # Decisione di Flavio (23/11/2026): l'Assessorato regionale della Salute, Dipartimento per la
+  # pianificazione strategica e DASOE (Attivita' sanitarie e Osservatorio epidemiologico), e' ente
+  # sanitario, come ARES in Sardegna: compra per il SSR (elisoccorso SUES 118, sistema informativo,
+  # Connected Care). "Pianificazione strategica" solo con la Regione Siciliana o l'Assessorato della
+  # Salute vicino: da sola e' anche il nome di uffici di comuni e universita'. Nomi visti: "Regione
+  # siciliana - Dipartimento per la pianificazione strategica" (TED, SITAS), "ASSESSORATO DELLA SALUTE -
+  # Dipartimento Regionale della Pianificazione Strategica" (vecchio portale CUC). Su TED dal 01/06/2026
+  # 4 esiti dell'elisoccorso, nessuno IT: oggi nessun effetto sui dati.
+  - '(regione\s+sicilian\w*|assessorato\s+(regionale\s+)?(della\s+)?salute)\W.{0,80}pianificazione\s+strategica|\bDASOE\b|attivit[aà]\s+sanitarie\s+e\s+osservatorio\s+epidemiologico'
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -221,14 +224,14 @@ aggregatori_misti_regex:
   # nessuna sanitaria. Le due consultazioni sanitarie della Regione (screening prenatale, NuCDR)
   # entrano gia' per l'oggetto. Per attivarla: togliere il # dalla riga seguente.
   - '^\W*regione\s+marche\b|\bSUAM\b'
-  # Sicilia: decisioni di Flavio in attesa (23/11/2026). (1) Sicilia Digitale, societa' informatica
+  # Sicilia: decisioni di Flavio (23/11/2026). (1) Sicilia Digitale, societa' informatica
   # della Regione, come Lepida e CSI Piemonte (su TED 2 avvisi dal 01/06/2026, rilevamento incendi,
   # nessuno IT sanitario). (2) L'Ufficio Speciale Centrale Unica di Committenza per l'acquisizione di
   # beni e servizi (compra per il SSR: farmaci, vaccini, elisoccorso), solo con il suo nome: su TED
   # non compare dal 01/06/2026, le sue gare si svolgono su Consip. Oggi nessun effetto sui dati.
-  # Per attivarle: togliere il # dalla riga.
-  # - '\bsicilia\s+digitale\b'
-  # - 'centrale\s+unica\s+di\s+committenza\s+per\s+l\W?\s*acquisizione\s+di\s+beni\s+e\s+servizi|centrale\s+unica\s+di\s+committenza\s+(della\s+)?regione\s+siciliana'
+  # Non prendono la CUC lavori del Dipartimento Regionale Tecnico ne' le CUC dei comuni.
+  - '\bsicilia\s+digitale\b'
+  - 'centrale\s+unica\s+di\s+committenza\s+per\s+l\W?\s*acquisizione\s+di\s+beni\s+e\s+servizi|centrale\s+unica\s+di\s+committenza\s+(della\s+)?regione\s+siciliana'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -1278,12 +1281,19 @@ portali_html:
       lettore: tabella
       max_pagine: 3
       user_agent: progetto
+      # Caso limite tenuto (decisione di Flavio, 23/11/2026): la consultazione di esclusivita' dei
+      # consumabili per l'archiviazione digitale di blocchetti e vetrini (anatomia patologica, bando=46480)
+      # entra per "archiviazione digitale": va bene cosi', nessuna esclusione.
       escludi_titoli_regex:
         - '\bvendita\b|\balienazion|\basta\s+pubblica'          # es. vendita al rialzo della PET/TC di Caltagirone
         - '^\W*affidamento\s+diretto|\bin\s+adesione\b'
       url: "https://www.aspct.it/fornitore/bandi-di-gara/default.aspx?page={pagina}"
-      timeout_connessione: 20
-      tentativi: 1
+      # Primo lancio (23/11/2026, run 45217531931): ConnectTimeout da GitHub (20 s + 1 nuovo tentativo,
+      # circa 40 s), mentre dal computer dell'utente risponde 200 (30 schede, link ?bando= corretto).
+      # Seconda prova all'esecuzione automatica del 24/11 con attesa breve e nessun nuovo tentativo
+      # (lezioni 41 e 83). Se fallisce di nuovo: abilitato: false e controllo manuale.
+      timeout_connessione: 10
+      tentativi: 0
 
 # --- Sintel (ARIA, Lombardia) ------------------------------------------------
 # Piattaforma di gara di tutte le aziende sanitarie lombarde (ASST, ATS, IRCCS,
@@ -1673,8 +1683,11 @@ maggioli:
       nome_fonte: Appalti ASP Messina
       sigla: aspmessina
       host: "https://aspmessina-appalti.maggiolicloud.it"
-    # ASP Trapani: 740 avvisi "in corso" (tipologia Altro) al 23/11/2026, oltre i 100 di una pagina:
-    # si leggono solo le gare finche' non si vede che cosa sono quegli avvisi.
+    # ASP Trapani: solo le gare. I 740 avvisi "in corso" (verificati dall'utente il 23/11/2026, 8 pagine)
+    # sono un archivio di pubblicazioni di trasparenza su acquisti gia' decisi dal 2017 (trattative
+    # dirette e RdO MePA, acquisti urgenti, ausili e farmaci per singoli pazienti), con lo stato mai
+    # chiuso: 0 pertinenti con le regole attuali, 6 voci con scadenza futura, nessuna IT. Leggerli
+    # darebbe 100 voci di rumore e ogni giorno l'avviso "lette 100 su 740: dati parziali".
     - <<: *maggioli_sicilia
       nome: ASP Trapani
       nome_fonte: Appalti ASP Trapani
