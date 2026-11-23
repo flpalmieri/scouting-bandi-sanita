@@ -470,13 +470,27 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
 
 # ------------------------------------------------------------------ raccolta
 
+# Dove iniziano i dati per ogni lettore: il campione parte da qui (500 byte prima), cosi' contiene
+# le voci lette e non solo stili e menu. Negli albi WordPress (run 44738107918) e nei portali PAT di
+# ISWEB (run 45180967473 e 45182582775: 60 kB di CSS, nessuna riga della tabella) i primi 60 kB
+# della pagina non contengono nessuna voce. Se il marcatore manca si salva l'inizio della pagina.
+MARCATORI_CAMPIONE = {
+    "albo_ap": b"card-title",
+    "tabella": b"<table",
+    "scheda_sito": b"scheda-sito",
+    "box_etichette": b"box-content",
+    "it_card": b"it-card",
+    "teaser_drupal": b"node-teaser",
+    "publiccompetitions": b"pc_latest_item",
+}
+
+
 def _salva_campione(sito: dict, contenuto: bytes) -> None:
     CAMPIONI.mkdir(parents=True, exist_ok=True)
     nome = re.sub(r"[^a-z0-9]+", "_", sito["nome"].lower()).strip("_")
-    if sito.get("lettore") == "albo_ap":
-        # Negli albi WordPress i primi 60 kB sono solo stili e menu (run 44738107918): il campione
-        # parte dalla prima scheda, cosi' contiene le voci lette.
-        i = contenuto.find(b"card-title")
+    marcatore = MARCATORI_CAMPIONE.get(sito.get("lettore"))
+    if marcatore:
+        i = contenuto.lower().find(marcatore.lower())
         if i > 0:
             contenuto = contenuto[max(0, i - 500):]
     (CAMPIONI / f"{nome}.html").write_bytes(contenuto[:60000])

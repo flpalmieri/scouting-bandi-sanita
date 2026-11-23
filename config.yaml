@@ -1469,6 +1469,7 @@ jaggaer:
 # tentativi. I nomi degli enti restano quelli delle stazioni appaltanti, identici a quelli di TED
 # (ricognizione del 23/11/2026), cosi' la deduplica fonde la stessa procedura vista nei due posti.
 maggioli:
+  # Per disattivare tutte le piattaforme Maggioli: false (i blocchi restano pronti).
   abilitato: true
   siti:
     # GT-SUAM, piattaforma della Regione (Maggioli, sorgenti acquisiti dalla Regione) e di altri 197
@@ -1496,8 +1497,14 @@ maggioli:
         # l'AOU la vendita di un autocaravan.
         - 'scheda\s+di\s+aggiudicazion|\baggiudicazione\s+definitiv|\besito\s+(di\s+|della\s+)?(gara|procedura)'
         - '\basta\s+pubblica|\bvendita\b|\balienazion'
-      timeout_connessione: 20        # fonti nuove: se bloccassero GitHub, si perde poco tempo
-      tentativi: 1
+      # Primo lancio (23/11/2026, run 45189892369): ConnectTimeout da GitHub su tutte le 8 piattaforme
+      # (20 s e un nuovo tentativo per lista: 8 minuti in piu'), mentre dal computer dell'utente
+      # rispondono. Seconda prova all'esecuzione automatica del giorno dopo (lezione 41) con attesa
+      # breve, nessun nuovo tentativo e, dopo il primo timeout, nessuna altra lista dello stesso sito:
+      # circa 10 secondi per sito. Se fallisce di nuovo: abilitato: false nella sezione maggioli (sopra)
+      # e controllo manuale.
+      timeout_connessione: 10
+      tentativi: 0
     # AST Ancona: due stazioni, l'AST e "Azienda Sanitaria Territoriale di Ancona - Soggetto Aggregatore
     # in avvalimento per Regione Marche" (le gare SSR del soggetto aggregatore SUAM: su TED dosimetria
     # per le AST, manutenzione software). Al 23/11/2026 nessuna gara in corso.

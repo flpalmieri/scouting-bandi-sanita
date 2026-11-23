@@ -377,7 +377,13 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
     stati_esclusi = {s.lower() for s in sito.get("escludi_stati") or []}
     campi_esclusi = {k: {str(v).strip().lower() for v in (vals or [])}
                      for k, vals in (sito.get("escludi_campi") or {}).items()}
-    scartate = 0
+    scartate = rimandate = 0
+    # Se il sito ha regole che dipendono dal dettaglio (stato, tipo di procedura), una voce il cui
+    # dettaglio non si legge non entra: si rimanda all'esecuzione successiva (23/11/2026). Prima entrava
+    # con ente_se_vuoto e senza quelle regole: con i 503 di Intercent-ER del 23/11 due affidamenti
+    # diretti gia' esclusi (AGRINET, caroselli CYBER) sono tornati in dashboard "da verificare" per un
+    # giro. Una voce gia' nello storico resta comunque (main.py non toglie le voci non rilette).
+    regole_dettaglio = bool(stati_esclusi or campi_esclusi)
     for voce, tipo_sezione in candidate:
         if _scartata(voce, sito):
             continue
@@ -395,6 +401,9 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
             except Exception as e:
                 dettagli_falliti += 1
                 log.warning("Plone %s: dettaglio non letto per %s: %s", sito["nome"], voce.get("@id"), e)
+                if regole_dettaglio:
+                    rimandate += 1
+                    continue
             if dettaglio and (
                     str(dettaglio.get("stato_procedura") or "").strip().lower() in stati_esclusi
                     or any(_testo_campo(dettaglio.get(k)).lower() in vals for k, vals in campi_esclusi.items())):
@@ -408,13 +417,16 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
         CAMPIONI.mkdir(parents=True, exist_ok=True)
         (CAMPIONI / f"{sito['sigla']}_dettagli.json").write_text(
             json.dumps(campioni_dettaglio, indent=1, ensure_ascii=False)[:200000], encoding="utf-8")
-        if dettagli_falliti:
+        if dettagli_falliti and regole_dettaglio:
+            avvisi.append(f"{dettagli_falliti} dettagli su {dettagli_letti + dettagli_falliti} non letti: "
+                          f"{rimandate} voci rimandate all'esecuzione successiva (quelle gia' nello storico restano)")
+        elif dettagli_falliti:
             avvisi.append(f"{dettagli_falliti} dettagli su {dettagli_letti + dettagli_falliti} non letti: "
                           f"quelle voci usano l'ente \"{sito.get('ente_se_vuoto') or sito.get('ente', '')}\" "
                           f"(vedi state/campioni/{sito['sigla']}_dettagli.json)")
-    log.info("Plone %s: %d voci tenute, %d dettagli letti (%d falliti), %d scartate per stato o "
-             "tipo di procedura, %d pertinenti", sito["nome"], lette_tot, dettagli_letti,
-             dettagli_falliti, scartate, len(trovate))
+    log.info("Plone %s: %d voci tenute, %d dettagli letti (%d falliti, %d voci rimandate), %d scartate per "
+             "stato o tipo di procedura, %d pertinenti", sito["nome"], lette_tot, dettagli_letti,
+             dettagli_falliti, rimandate, scartate, len(trovate))
     ERRORI.extend(f"{sito['nome']}: {a}" for a in avvisi)
     return list(trovate.values())
 

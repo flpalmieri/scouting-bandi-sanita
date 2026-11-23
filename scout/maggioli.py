@@ -70,6 +70,10 @@ RE_RIGA = re.compile(r'<div\s+class="list-item-row"\s*>\s*<label>(.*?)</label>(.
 RE_LINK = re.compile(r"""href\s*=\s*(['"])([^'"]*view\.action[^'"]*)\1""", re.I)
 RE_CODICE = re.compile(r"[?&]codice=([A-Za-z0-9]+)")
 RE_TOTALE = re.compile(r'class="list-summary"\s*>\s*La\s+ricerca\s+ha\s+restituito\s+([\d.]+)\s+risultat', re.I)
+class SitoIrraggiungibile(RuntimeError):
+    """Connessione al sito non riuscita (timeout o rifiuto): niente traceback nel log."""
+
+
 RE_CAPTCHA = re.compile(r"frc-captcha|allowCaptcha|friendlycaptcha", re.I)
 
 # Etichette dell'elenco (minuscole, senza ":") -> nome interno.
@@ -282,6 +286,15 @@ def _leggi_sito(sito: dict, filtro: Filtro) -> list[Opportunita]:
     for lista, staz in richieste:
         try:
             risultati.extend(_leggi_lista(sito, lista, staz, sess, filtro))
+        except requests.ConnectionError as e:
+            # Connessione non riuscita (primo lancio del 23/11/2026, run 45189892369: ConnectTimeout su
+            # tutte le 8 piattaforme da GitHub, mentre dal computer dell'utente rispondono). Inutile
+            # provare le altre liste dello stesso host: si perde solo tempo. Un timeout di connessione
+            # avviene prima che il server veda lo User-Agent: non dipende da come ci si presenta.
+            log.warning("Maggioli %s: connessione non riuscita (%s): altre liste del sito non provate",
+                        sito["nome"], type(e).__name__)
+            raise SitoIrraggiungibile(f"{sito['nome']}: connessione non riuscita ({type(e).__name__}), il sito non "
+                               "risponde ai server di GitHub; altre liste del sito non provate") from e
         except Exception as e:
             # Una lista in errore non fa perdere le altre dello stesso sito.
             log.exception("Maggioli %s %s: errore", sito["nome"], lista)
@@ -300,6 +313,8 @@ def raccogli(cfg: dict, filtro: Filtro, sess=None) -> list[Opportunita]:
     for sito in siti:
         try:
             risultati.extend(_leggi_sito(sito, filtro))
+        except SitoIrraggiungibile as e:
+            errori.append(str(e))
         except Exception as e:
             log.exception("Maggioli %s: errore", sito["nome"])
             errori.append(f"{sito['nome']}: {e}")
