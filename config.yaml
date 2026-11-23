@@ -81,7 +81,7 @@ enti_sanitari_regex:
   # GTMULTIE, "AGENZIA REGIONALE SANITARIA" su GT-SUAM; mai acquirente su TED) come ente sanitario,
   # come ARES e AREUS in Sardegna. Al 23/11/2026 nessun suo avviso aperto e' IT (interpretariato
   # CUR 112, rete radio 118, campagna screening). Per attivarla: togliere il # dalla riga seguente.
-  # - 'agenzia\s+regionale\s+sanitaria'
+  - 'agenzia\s+regionale\s+sanitaria'
   - '\bU\.?S\.?L\b'
   - '\bASU\s?(FC|GI)\b'
   - '\bAST\b'
@@ -200,7 +200,7 @@ aggregatori_misti_regex:
   # software, quest'ultima anche su GT-SUAM) e l'avviso GT-SUAM A00252 (MISU degli sportelli unici),
   # nessuna sanitaria. Le due consultazioni sanitarie della Regione (screening prenatale, NuCDR)
   # entrano gia' per l'oggetto. Per attivarla: togliere il # dalla riga seguente.
-  # - '^\W*regione\s+marche\b|\bSUAM\b'
+  - '^\W*regione\s+marche\b|\bSUAM\b'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
