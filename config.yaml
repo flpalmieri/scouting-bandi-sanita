@@ -122,6 +122,11 @@ rumore_procedurale_regex:
   # Strumenti di laboratorio "su due postazioni di lavoro" (ASL 7 Sulcis, diagnostica molecolare PCR,
   # 20/11/2026): il numero di postazioni di uno strumento non e' una fornitura di PC.
   - '\bsu\s+(una|due|tre|quattro|cinque|sei|\d+)\s+(sol[ae]\s+)?postazion\w*\s+di\s+lavoro'
+  # Nome del reparto che compra, non oggetto (Abruzzo, 23/11/2026): "stampanti termiche per etichette
+  # Zebra ... U.O.S.D. Servizio Sistemi Informativi" (GIADA 346096, ASL 1) entrava come IT per
+  # "sistemi informativi". Solo dopo la sigla dell'unita' operativa: "licenze software per la UOC
+  # Sistemi Informativi" resta IT per "software", "sistema informativo ospedaliero" resta IT.
+  - '\bU\.?\s?O\.?\s?(S\.?\s?D\.?|C\.?|S\.?)?\s+(servizio\s+)?sistemi\s+informativ\w*'
 
 # Soggetti aggregatori che comprano sia per la sanità sia per altri settori:
 # le loro gare IT vengono incluse ma marcate "da verificare".
@@ -220,6 +225,10 @@ parole_chiave_it_regex:
   - '\bLIMS\b|laboratory\s+information|information\s+management\s+system'   # sistemi informativi di laboratorio (IZS)
   - '\bHW\s*/\s*SW\b'                  # "sistemi HW/SW" (consultazioni ESTAR)
   - 'digitalizzazion'
+  # Abruzzo (23/11/2026): "piattaforma di archivio digitale delle cartelle sanitarie" (ASL 3 Pescara,
+  # GIADA 361686) non conteneva nessuna parola IT. Anche la conservazione digitale/sostitutiva dei documenti.
+  - 'archivi\w*\s+(digital|elettronic|informatic)'
+  - 'conservazione\s+(digitale|sostitutiva|a\s+norma)'
   - 'dematerializzazion'
   - 'interoperabilit'
   - 'tele\W?medicin'
@@ -658,6 +667,151 @@ portali_rss:
       url: "https://sardegnacat.regione.sardegna.it/portale/rss_bandi_consultazione.asp?FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
       timeout_connessione: 20
       tentativi: 1
+    # Abruzzo (23/11/2026): GIADA, la piattaforma di e-procurement di AreaCom (giada.areacom.eu), su cui
+    # dal 14/07/2023 svolgono le gare AreaCom, la Regione e tutte e quattro le ASL abruzzesi. Software
+    # AFSoluzioni come SardegnaCAT e SIAPS: stesso rss_bandi.asp con bScaduto=0, stessa mappa afs:.
+    # Al 23/11/2026: 28 gare in corso (ASL 1 13, AreaCom 6, Regione 4, ASL 4 3, ASL 3 2) e 11
+    # consultazioni (feed separato). L'IZSAM non c'e' (e' su DigitalPA, sezione acquistitelematici).
+    # La scadenza del feed e' quella prorogata (verificato su 350866, ASL 1: "Data Prorogata 30/11/2026"
+    # nella scheda, 2026-11-30 nel feed; lezione 50).
+    - nome: GIADA bandi
+      nome_fonte: GIADA
+      sigla: giada
+      regione: Abruzzo
+      max_pagine: 2                # 100 per pagina; il feed dichiara il totale (totRecord)
+      escludi_stati: [Revocato, Annullato, Chiuso]
+      campi:
+        titolo: [Oggetto]
+        descrizione: []
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cpv: [CPV]
+        cig: [CIG]
+        stato: [statoFunzionale]
+        tipo: [Tipo]               # Bando, Avviso
+        id: [IdMsg]
+      # Affidamenti diretti e negoziate sono a invito: "La presente procedura e' riservata ai soli
+      # operatori invitati" nelle schede di 357566, 362032, 360225 e 362060 (ricognizione del
+      # 23/11/2026). Come in Sardegna (decisione di Flavio): affidamenti diretti e richieste di
+      # preventivo esclusi, negoziate vere tenute (art. 76: infungibilita'; art. 50 lett. c, d, e).
+      escludi_campi:
+        TipoProcedura: [Affidamento Diretto, Richiesta Preventivo]
+      # Anche qui affidamenti diretti classificati "Negoziata" (362060: "Affidamento diretto indetto
+      # ai sensi del combinato disposto dell'art. 50..."): regola di SardegnaCAT sull'inizio del titolo,
+      # con in piu' il prefisso "Procedura in Sospensione - " di GIADA.
+      escludi_titoli_regex:
+        - '^\W*(?:(?:bando\s+(?:rettificato|revocato|in\s+rettifica)|procedura\s+(?:ripristinata|sospesa|in\s+sospensione)|riapertura\s+termini|ADP?)\s*[-\u2013]\s*)*(?:affidamento\s+diretto|affidamento(?:\s+(?:della\s+)?fornitura)?\W*\s*(?:ai\s+sensi\s+dell|di\s+cui\s+all|ex)\W*\s*art\W*\s*(?:n\W*\s*)?50\W*\s*(?:c(?:o|omma)\W*\s*)?1\W*\s*(?:lett\w*\W*\s*)?[ab]\b|richiesta\s+(?:di\s+)?preventivo)'
+      # Il feed da' /portale/ con tipoDoc=BANDO_GARAPORTALE: la pagina si apre ma e' vuota. La scheda
+      # vera e' su /portalegare/ con BANDO_GARA_PORTALE (verificato con curl il 23/11/2026, come SIAPS).
+      link_sostituisci:
+        "/portale/index.php/bandi?": "/portalegare/index.php/bandi?"
+        "tipoDoc=BANDO_GARAPORTALE&xslt=XSLTBANDO_GARA_PORTALE": "tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE"
+      # Nomi delle ASL piu' leggibili ("ASL 1 -  AVEZZANO..." ha due spazi). Per la deduplica contano
+      # solo lettere e cifre: "ASL 1 Avezzano-Sulmona-L'Aquila" resta uguale a "ASL 1 - AVEZZANO-SULMONA-
+      # L'AQUILA" di TED e al blocco del PAT dell'ASL 1, "ASL 3 Pescara" al feed del sito dell'ASL 3.
+      # AreaCom resta col nome del feed, identico a quello di TED e del blocco areacom.eu.
+      enti_rinomina: &enti_giada
+        "ASL 1 -  AVEZZANO-SULMONA-L'AQUILA": "ASL 1 Avezzano-Sulmona-L'Aquila"
+        "ASL 1 - AVEZZANO-SULMONA-L'AQUILA": "ASL 1 Avezzano-Sulmona-L'Aquila"
+        "ASL 2 - LANCIANO VASTO CHIETI": "ASL 2 Lanciano-Vasto-Chieti"
+        "ASL 3 - PESCARA": "ASL 3 Pescara"
+        "ASL 4 - TERAMO": "ASL 4 Teramo"
+      url: "https://giada.areacom.eu/portale/rss_bandi.asp?FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
+      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+    - nome: GIADA consultazioni
+      # Consultazioni preliminari, indagini di mercato e avvisi esplorativi (11 al 23/11/2026): feed
+      # separato, CPV vuoto (filtro testuale). Le indagini "per individuare gli operatori da invitare"
+      # restano: sono aperte a tutti.
+      nome_fonte: GIADA
+      sigla: giada-cons
+      regione: Abruzzo
+      tipo: consultazione di mercato
+      max_pagine: 2
+      vuoto_ammesso: true
+      escludi_stati: [Revocato, Annullato, Chiuso]
+      campi:
+        titolo: [Oggetto]
+        descrizione: []
+        ente: [DenominazioneEnte, EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cpv: [CPV]
+        cig: [CIG]
+        stato: [statoFunzionale]
+        id: [IdMsg]
+      # Il feed da' "/portale/index.php/?getdettaglio=..." (404); funziona la pagina pubblica, come
+      # su SardegnaCAT (verificato con curl il 23/11/2026).
+      link_sostituisci:
+        "/portale/index.php/?getdettaglio": "/portalegare/index.php/consultazioni-preliminari-di-mercato?getdettaglio"
+      enti_rinomina: *enti_giada
+      url: "https://giada.areacom.eu/portale/rss_bandi_consultazione.asp?FilterHide=bScaduto%3D0+and+tipo%3C%3E%27Esito%27+&numRowForPag=100&nPag={pagina}"
+      timeout_connessione: 20
+      tentativi: 1
+    # Abruzzo (23/11/2026): sito dell'ASL 3 Pescara (Netribe JWebManager). Oltre alle gare su GIADA
+    # pubblica procedure che su GIADA non ci sono, come le RdO aperte del MePA (es. 5014, "RDO 6730817",
+    # procedura aperta sotto soglia, art. 50 c.1 lett. e). Un feed RSS per sezione, solo le voci in
+    # corso (map=1): titolo, link e CIG, senza date. Per le sole voci pertinenti si legge la scheda
+    # (opzione dettaglio): scadenza, data di pubblicazione e tipo di procedura. Le voci la cui scheda
+    # rimanda a GIADA si scartano (le legge gia' il blocco GIADA, con scadenza e CPV). Stessa sigla per
+    # tutte le sezioni: e' un solo sito. Sezioni lette: forniture (3), servizi (2 e 794), beni
+    # infungibili (5), indagini di mercato (338), consultazioni preliminari (339). Non lette: lavori,
+    # concessioni, somma urgenza. Al 23/11/2026: 5 forniture, 1 indagine, il resto vuoto.
+    - &asl3_rss
+      nome: ASL 3 Pescara forniture
+      nome_fonte: ASL 3 Pescara
+      sigla: aslpescara
+      ente: ASL 3 Pescara
+      regione: Abruzzo
+      tipo: bando
+      vuoto_ammesso: true            # molte sezioni sono spesso vuote
+      campi:
+        titolo: [title]
+        descrizione: []
+        cig: [cig]
+      escludi_titoli_regex:
+        - '^\W*(affidamento|trattativa)\s+dirett'
+        - '\baggiudicazion'
+      # I link del feed (http://www.asl.pe.it/aslpescara/BandiGaraDetail.jsp...) danno 500.
+      link_sostituisci:
+        "http://www.asl.pe.it/aslpescara/BandiGaraDetail.jsp": "https://www.asl.pe.it/BandiGaraDetail.jsp"
+      dettaglio:
+        scadenza_regex: 'Data\s+Scadenza\s*:\s*(\d{1,2}/\d{1,2}/\d{4})'
+        pubblicazione_regex: 'Data\s+pubblicazione\s+sul\s+sito\s*:\s*(\d{1,2}/\d{1,2}/\d{4})'
+        # Solo questi due campi finiscono nella descrizione; il responsabile del procedimento, che
+        # sta nella stessa scheda, non si legge.
+        descrizione_regex:
+          - 'Procedura\s+di\s+gara\s*:\s*([^\n]{3,150})'
+          - 'Descrizione\s+procedura\s*:\s*([^\n]{3,300})'
+        escludi_regex:
+          - '\bG\.?\s?I\.?\s?A\.?\s?D\.?\s?A\.?\b'
+      url: "https://www.asl.pe.it/RSSBandi.jsp?idBgContrattoBando=3&map=1"
+      timeout_connessione: 20        # il sito a volte tarda a rispondere (un timeout nella ricognizione)
+      tentativi: 1
+    - <<: *asl3_rss
+      nome: ASL 3 Pescara servizi
+      url: "https://www.asl.pe.it/RSSBandi.jsp?idBgContrattoBando=2&map=1"
+    - <<: *asl3_rss
+      nome: ASL 3 Pescara servizi (2)
+      url: "https://www.asl.pe.it/RSSBandi.jsp?idBgContrattoBando=794&map=1"
+    - <<: *asl3_rss
+      nome: ASL 3 Pescara beni infungibili
+      tipo: avviso esplorativo
+      # La sezione "Bandi Esplorativi Beni Infungibili" (356 voci scadute) e' fatta di avvisi di
+      # infungibilita': la frase entra nella descrizione e fa scattare l'etichetta della dashboard.
+      descrizione_aggiunta: "Sezione del sito: Bandi esplorativi beni infungibili"
+      url: "https://www.asl.pe.it/RSSBandi.jsp?idBgContrattoBando=5&map=1"
+    - <<: *asl3_rss
+      nome: ASL 3 Pescara indagini di mercato
+      tipo: avviso esplorativo
+      url: "https://www.asl.pe.it/RSSBandi.jsp?idBgContrattoBando=338&map=1"
+    - <<: *asl3_rss
+      nome: ASL 3 Pescara consultazioni
+      tipo: consultazione di mercato
+      url: "https://www.asl.pe.it/RSSBandi.jsp?idBgContrattoBando=339&map=1"
     # Lazio (STELLA): le gare NON si leggono dal feed rss_new.asp, anche se ha lo schema afs: di
     # EmPULIA, perche' la scadenza del feed resta quella originale dopo rettifiche e proroghe
     # (verificato il 20/11/2026) e il filtro bScaduto='0' da' 1.460 voci, comprese molte chiuse.
@@ -822,7 +976,11 @@ portali_html:
     - nome: IZS Umbria e Marche
       # DISATTIVATO (13/11/2026): i portali PAT di ISWEB rispondono 403 ai server di
       # GitHub, anche sull'indirizzo internetsoluzioni.it. Scelta: non aggirare il blocco.
+      # 23/11/2026: il 403 dipende dallo User-Agent di browser, non dai server di GitHub (vedi ASL 1
+      # Abruzzo avvisi). Con user_agent: progetto risponde 200 dal computer dell'utente. Resta
+      # disattivato fino alla decisione di Flavio; per attivarlo basta togliere abilitato: false.
       abilitato: false
+      user_agent: progetto
       nome_fonte: IZSUM
       sigla: izsum
       ente: Istituto Zooprofilattico Sperimentale dell'Umbria e delle Marche
@@ -843,26 +1001,47 @@ portali_html:
       pagina_iniziale: 0              # le pagine partono da ?page=0
       max_pagine: 3                   # 15 bandi per pagina, circa 5 settimane per pagina
       # Elenco misto: gare per ASL e ASR, ma anche lavori per i comuni e avvisi di ricorsi.
+      # Dal 23/11/2026 anche le adesioni a convenzioni Consip ("Servizi di telefonia mobile ... in
+      # adesione alla Convenzione Consip"): il contratto e' gia' del fornitore della convenzione.
+      # Le gare di AreaCom sono anche su GIADA (blocco GIADA bandi), con scadenza e CPV: main.py fonde
+      # le due voci quando hanno lo stesso CIG (il titolo e' scritto in modo diverso nei due posti).
       escludi_titoli_regex:
         - '^\s*ricors'
+        - '\bin\s+adesione\b'
       url: "https://areacom.eu/bandi-gara-aperti?page={pagina}"
-    - nome: ASL 1 Abruzzo
-      # DISATTIVATO (13/11/2026): portale PAT di ISWEB, 403 dai server di GitHub come l'IZSUM.
-      # Le sue gare si svolgono sulla piattaforma regionale GIADA: coprirla da lì.
+    - nome: ASL 1 Abruzzo avvisi
+      # DISATTIVATO, in attesa della decisione di Flavio (23/11/2026). Portale PAT di ISWEB. Il 403 del
+      # 13/11/2026 non era un blocco dei server di GitHub ma dello User-Agent: il PAT risponde 403 a
+      # ogni User-Agent che inizia con "Mozilla/5.0" (quello di browser che mandava il programma) e 200
+      # a quello dichiarato del progetto, a curl e a python-requests (ricognizione del 23/11/2026, dal
+      # computer dell'utente; da GitHub non ancora provato). Con user_agent: progetto il programma si
+      # presenta per quello che e'. Per attivarlo: togliere la riga abilitato: false.
+      # Si legge la pagina "Avvisi" (indagini di mercato, avvisi esplorativi, consultazioni), non
+      # "Bandi di gara e contratti" (/page/10/, elenco BDNCP misto con affidamenti e aggiudicazioni):
+      # le gare dell'ASL 1 sono tutte su GIADA, letta dal blocco GIADA. Nessuna scadenza nell'elenco.
       abilitato: false
       nome_fonte: ASL 1 Abruzzo
-      sigla: asl1abruzzo
-      ente: "ASL 1 Avezzano-Sulmona-L'Aquila"
+      sigla: asl1abruzzo_avvisi
+      ente: "ASL 1 Avezzano-Sulmona-L'Aquila"   # stesso nome del blocco GIADA (deduplica)
       regione: Abruzzo
-      lettore: tabella                # portale PAT di ISWEB: CIG / Oggetto / Link BDNCP / Data di pubblicazione
-      max_pagine: 3                   # 20 righe per pagina, circa 3-4 settimane per pagina
-      # Elenco misto: oltre a indizioni e delibere a contrarre contiene affidamenti diretti
-      # e aggiudicazioni già concluse (con il nome del fornitore), che non sono opportunità.
+      lettore: tabella                # PAT di ISWEB: colonne Oggetto / Data avviso
+      user_agent: progetto
+      max_pagine: 1                   # 20 avvisi per pagina, circa 4 mesi
+      pubblicazione_max_giorni: 90    # senza scadenza: gli avvisi piu' vecchi non entrano
+      # Atti di procedure gia' in corso o concluse (proroghe, revoche, ammissioni, sedute), e gli avvisi
+      # di indizione delle gare, che sono gia' su GIADA con scadenza e CPV.
       escludi_titoli_regex:
-        - '^\W*(affidamento|trattativa)\s+dirett'
+        - '\bprorog'
+        - '\brevoca'
+        - '\bprovvediment'
+        - 'seduta\s+pubblica'
+        - 'ripresa\s+procedura'
         - '\baggiudicazion'
-        - 'differimento\s+fornitur'
-      url: "https://trasparenza.asl1abruzzo.it/page/10/bandi-di-gara-e-contratti.html?p={pagina}"
+        - '\besit[oi]\b'
+        - 'avviso\s+di\s+indizione'
+      url: "https://trasparenza.asl1abruzzo.it/page/588/avvisi.html"
+      timeout_connessione: 20
+      tentativi: 1
 
     # --- Sardegna (20/11/2026): albi "Bandi e gare" delle aziende sanitarie ---
     # ARES, le 8 ASL, AOU Sassari e AREUS usano lo stesso tema WordPress + Bootstrap Italia (albo

@@ -170,9 +170,21 @@ def _stessi_dati(a: Opportunita, b: Opportunita) -> bool:
     return len(pa & pb) / min(len(pa), len(pb)) >= 0.8
 
 
+def _stesso_cig(a: Opportunita, b: Opportunita) -> bool:
+    """Stessa procedura vista su due fonti con titoli diversi (23/11/2026, Abruzzo): l'elenco di
+    areacom.eu ("Intervento di bonifica ... ex Conceria") e GIADA ("PROCEDURA APERTA AI SENSI
+    DELL'ART. 71 ... BONIFICA ...") hanno lo stesso CIG (BDAB08FCF9). Il CIG identifica un lotto
+    di una sola procedura: due record dello stesso ente (lo controlla il chiamante) da fonti
+    diverse con almeno un CIG in comune sono la stessa gara. Dalla stessa fonte non si fondono."""
+    if a.id.split(":", 1)[0] == b.id.split(":", 1)[0]:
+        return False
+    return bool(a.cig and b.cig and set(a.cig) & set(b.cig))
+
+
 def _stessa_procedura(tenute: dict[str, Opportunita], fonte_dati: dict) -> dict[str, Opportunita]:
     """Seconda passata: fonde i record dello stesso ente rimasti separati perche' il titolo e'
-    stato riscritto (rettifiche TED), se i dati della procedura coincidono (_stessi_dati).
+    stato riscritto (rettifiche TED), se i dati della procedura coincidono (_stessi_dati), o
+    perche' due fonti scrivono il titolo in modo diverso ma riportano lo stesso CIG (_stesso_cig).
     Resta il record rilevato per primo (stesso id in dashboard); scadenza e link vengono dal
     piu' recente, come nella prima passata. Ogni fusione finisce nel log."""
     per_ente: dict[str, list[Opportunita]] = {}
@@ -180,11 +192,14 @@ def _stessa_procedura(tenute: dict[str, Opportunita], fonte_dati: dict) -> dict[
     for o in ordine:
         gruppo = per_ente.setdefault(chiave_testo(o.ente)[:40], [])
         principale = next((p for p in gruppo if _stessi_dati(p, o)), None)
+        motivo = "stesso ente, scadenza, importo e CPV; titoli simili"
+        if principale is None:
+            principale = next((p for p in gruppo if _stesso_cig(p, o)), None)
+            motivo = "stesso ente e CIG, fonti diverse"
         if principale is None:
             gruppo.append(o)
             continue
-        log.info("Deduplica: %s fuso in %s (stesso ente, scadenza, importo e CPV; titoli simili)",
-                 o.id, principale.id)
+        log.info("Deduplica: %s fuso in %s (%s)", o.id, principale.id, motivo)
         _fondi(principale, o, fonte_dati, fonte_dati.get(o.id, _freschezza(o)))
         del tenute[o.id]
     return tenute

@@ -58,6 +58,12 @@ Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url
                           scadenza una voce resta in dashboard 120 giorni dal primo rilevamento: un
                           avviso dell'agosto 2025 trovato oggi sarebbe rimasto fino a marzo 2027
                           (ASL 3 Nuoro, telemonitoraggio BPCO, run 44738107918).
+  user_agent            - (23/11/2026) "progetto": il sito riceve lo User-Agent dichiarato del
+                          progetto (scouting-bandi-sanita/1.0, quello di common.sessione_http) invece
+                          di quello di un browser. I portali PAT di ISWEB rispondono 403 a ogni
+                          User-Agent che inizia con "Mozilla/5.0" e 200 a quello del progetto
+                          (ricognizione del 23/11/2026, ASL 1 Abruzzo e IZSUM). Non si accettano altri
+                          valori: ci si presenta per quello che si e', senza fingersi un altro programma.
   Una "scadenza" anteriore alla pubblicazione e' un errore di battitura del sito (ARES,
   20/11/2026: pubblicato 11.11.2026, scadenza 11.01.2026) e viene ignorata.
 """
@@ -485,8 +491,23 @@ def _sessione_sito(sito: dict, sess):
     return propria
 
 
+def _intestazioni(sito: dict) -> dict:
+    """Intestazioni HTTP del sito: quelle di un browser, oppure (user_agent: progetto) con lo
+    User-Agent dichiarato del progetto."""
+    scelta = sito.get("user_agent")
+    if not scelta:
+        return HEADERS
+    if scelta != "progetto":
+        raise ValueError(f"{sito['nome']}: user_agent ammette solo il valore 'progetto' (trovato {scelta!r})")
+    from .common import sessione_http
+    intestazioni = dict(HEADERS)
+    intestazioni["User-Agent"] = sessione_http().headers["User-Agent"]
+    return intestazioni
+
+
 def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
     lettore = LETTORI[sito["lettore"]]
+    intestazioni = _intestazioni(sito)
     sess = _sessione_sito(sito, sess)
     attesa = (float(sito.get("timeout_connessione", 60)), 60)   # (connessione, lettura)
     # Siti che non inviano il certificato intermedio: lo si scarica e si verifica la catena
@@ -507,7 +528,7 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
     for pagina in range(prima, prima + max_pagine):
         url = url_modello.replace("{pagina}", str(pagina))
         try:
-            r = sess.get(url, headers=HEADERS, timeout=attesa, verify=verifica)
+            r = sess.get(url, headers=intestazioni, timeout=attesa, verify=verifica)
             r.raise_for_status()
         except requests.RequestException as e:
             # Alcuni portali bloccano i server cloud (es. 403 da GitHub Actions):
@@ -518,7 +539,7 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
             url_modello = alternativo
             url = url_modello.replace("{pagina}", str(pagina))
             try:
-                r = sess.get(url, headers=HEADERS, timeout=attesa, verify=verifica)
+                r = sess.get(url, headers=intestazioni, timeout=attesa, verify=verifica)
                 r.raise_for_status()
             except requests.RequestException as e2:
                 raise RuntimeError(f"{sito['nome']}: indirizzo principale ({e}) e alternativo ({e2}) "

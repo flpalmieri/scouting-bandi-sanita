@@ -26,6 +26,19 @@ Opzioni aggiunte il 20/11/2026 (eAppalti SAT, Friuli Venezia Giulia):
   "link_fisso": "url": stesso link per tutte le voci del feed (es. l'elenco pubblico), al posto
       di quello del feed; vale anche per le voci gia' salvate (correggi_storico). Ha la
       precedenza su link_sostituisci.
+Opzioni aggiunte il 23/11/2026 (sito dell'ASL 3 Pescara, feed senza date):
+  "dettaglio": per le sole voci pertinenti si apre la scheda (il link della voce, gia' corretto) e
+      se ne leggono pochi campi con espressioni regolari sul testo della pagina:
+        scadenza_regex / pubblicazione_regex  - un gruppo con la data (usata se il feed non la da');
+        descrizione_regex   - elenco di espressioni con un gruppo: i valori trovati diventano la
+                              descrizione (es. il tipo di procedura). Nient'altro della scheda si
+                              legge o si salva (le schede contengono il responsabile del procedimento);
+        escludi_regex       - se il testo della scheda corrisponde, la voce si scarta e finisce in
+                              ESCLUSI (es. le procedure che la scheda rimanda a GIADA, gia' lette da li');
+        pausa_secondi       - attesa tra due schede (default 1).
+      Se la scheda non si apre la voce resta, senza i dati della scheda, con un avviso nel log.
+  "descrizione_aggiunta": testo fisso aggiunto alla descrizione di ogni voce del feed (es. la sezione
+      del sito \"Bandi esplorativi beni infungibili\", che fa scattare l'etichetta della dashboard).
 Le voci scartate da una regola esplicita (stato, campo, titolo) finiscono in ESCLUSI: main.py
 le toglie anche dallo storico (es. un bando revocato dopo essere stato salvato).
 correggi_storico() applica link_sostituisci ed enti_rinomina anche alle voci gia' salvate.
@@ -266,8 +279,50 @@ def _converti(campi: dict[str, str], feed: dict, filtro: Filtro) -> Opportunita 
         link=link,
         regione=feed.get("regione"),
         motivo_match=motivo,
-        descrizione=descrizione[:600] or None,
+        descrizione=_unisci_descrizione(descrizione, feed.get("descrizione_aggiunta"))[:600] or None,
     )
+
+
+def _unisci_descrizione(*parti) -> str:
+    return "\n".join(p.strip() for p in parti if p and p.strip())
+
+
+def _completa_da_dettaglio(o: Opportunita, feed: dict, sess, attesa) -> Opportunita | None:
+    """Legge dalla scheda della voce (solo per le voci pertinenti) scadenza, pubblicazione e i
+    campi indicati in dettaglio.descrizione_regex. None se la scheda corrisponde a escludi_regex.
+    Della pagina non si salva nulla: contiene il nome del responsabile del procedimento."""
+    det = feed["dettaglio"]
+    if not o.link:
+        return o
+    try:
+        r = sess.get(o.link, headers=HEADERS, timeout=attesa)
+        r.raise_for_status()
+        testo = _pulisci(r.content.decode(r.encoding or "utf-8", errors="replace"))
+    except Exception as e:
+        log.warning("RSS %s: scheda non letta per %s (%s), la voce resta senza i suoi dati",
+                    feed["nome"], o.id, e)
+        return o
+    escl = det.get("escludi_regex")
+    if escl:
+        m = re.search("|".join(f"(?:{x})" for x in escl), testo, re.IGNORECASE)
+        if m:
+            log.info("RSS %s: %s scartata dalla scheda (\"%s\"): %s", feed["nome"], o.id,
+                     m.group(0), o.titolo[:80])
+            ESCLUSI.add(o.id)
+            return None
+
+    def cerca(espressione):
+        m = re.search(espressione, testo, re.IGNORECASE) if espressione else None
+        return m.group(1).strip() if m else ""
+
+    o.scadenza = o.scadenza or parse_data(cerca(det.get("scadenza_regex")))
+    o.pubblicazione = o.pubblicazione or parse_data(cerca(det.get("pubblicazione_regex")))
+    valori = [v for v in (cerca(x) for x in det.get("descrizione_regex") or []) if v]
+    if valori:
+        o.descrizione = _unisci_descrizione("; ".join(valori), o.descrizione)[:600]
+    if not o.scadenza:
+        log.info("RSS %s: nessuna scadenza nella scheda di %s", feed["nome"], o.id)
+    return o
 
 
 def _salva_campione(feed: dict, contenuto: bytes) -> None:
@@ -354,6 +409,9 @@ def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
         letti += len(voci)
         for v in voci:
             o = _converti(v, feed, filtro)
+            if o and feed.get("dettaglio"):
+                time.sleep(float(feed["dettaglio"].get("pausa_secondi", 1)))
+                o = _completa_da_dettaglio(o, feed, sess, attesa)
             if o:
                 risultati[o.id] = o
         if paginato and pagina < max_pagine:
