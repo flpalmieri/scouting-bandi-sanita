@@ -3,7 +3,7 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 287
+  "righe_lette": 288
  },
  "lombardia_ambito_4": {
   "righe_prima_pagina": 86,
@@ -18,31 +18,31 @@
   "righe_lette": 28
  },
  "lombardia_ambito_7": {
-  "righe_prima_pagina": 79,
+  "righe_prima_pagina": 80,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 79
+  "righe_lette": 80
  },
  "lombardia_ambito_8": {
-  "righe_prima_pagina": 19,
-  "elementi_per_pagina": "200",
-  "pagine_lette": 1,
-  "righe_lette": 19
- },
- "lombardia_ambito_9": {
   "righe_prima_pagina": 22,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
   "righe_lette": 22
  },
- "lombardia_ambito_11": {
-  "righe_prima_pagina": 17,
+ "lombardia_ambito_9": {
+  "righe_prima_pagina": 23,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 17
+  "righe_lette": 23
+ },
+ "lombardia_ambito_11": {
+  "righe_prima_pagina": 16,
+  "elementi_per_pagina": "200",
+  "pagine_lette": 1,
+  "righe_lette": 16
  },
  "lombardia": {
-  "righe_lette": 538,
+  "righe_lette": 543,
   "enti_sanitari": {
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 16,
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 15,
@@ -69,10 +69,10 @@
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO": 3,
    "ASST DEGLI SPEDALI CIVILI DI BRESCIA": 3,
    "ASST DELLA VALCAMONICA": 3,
+   "ASST DI PAVIA": 3,
    "ASST NORD MILANO": 3,
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLA LOMBARDIA E DELL'EMILIA ROMAGNA \"BRUNO UBERTINI\"": 3,
    "ASST DEL GARDA": 2,
-   "ASST DI PAVIA": 2,
    "ASST MELEGNANO E DELLA MARTESANA": 2,
    "ATS DELL'INSUBRIA": 2,
    "ATS DELLA CITTA METROPOLITANA DI MILANO": 2,
@@ -83,7 +83,7 @@
    "ASST SANTI PAOLO E CARLO": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 348,
+  "procedure_altri_enti": 352,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "COMUNE DI MILANO": 12,
@@ -92,20 +92,22 @@
    "POLITECNICO DI MILANO": 7,
    "COMUNE DI PONTE DI LEGNO": 6,
    "PROVINCIA DI LECCO": 6,
+   "COMUNE DI BERGAMO": 5,
    "COMUNE DI LIVIGNO": 5,
    "COMUNE DI RHO": 5,
    "PROVINCIA DI BERGAMO": 5,
    "PROVINCIA DI PAVIA": 5,
    "AGESP S.P.A.": 4,
-   "COMUNE DI BERGAMO": 4,
    "COMUNE DI BUCCINASCO": 4,
    "COMUNE DI BUSTO ARSIZIO": 4,
    "COMUNE DI CARUGATE": 4,
    "COMUNE DI LEGNANO": 4,
    "COMUNE DI LOMAZZO": 4,
    "COMUNE DI VERTEMATE CON MINOPRIO": 4,
+   "COMUNITÀ MONTANA VALLE SABBIA": 4,
    "UNIVERSITA' DEGLI STUDI DI BRESCIA": 4,
    "ALER BRESCIA - CREMONA - MANTOVA": 3,
+   "BRIANZACQUE S.R.L.": 3,
    "CMP SVILUPPOIMPRESA - AZIENDA SPECIALE DELLA CAMERA DI COMMERCIO DI CREMONA-MANTOVA-PAVIA": 3,
    "COMUNE DI BRONI": 3,
    "COMUNE DI CASSANO MAGNAGO": 3,
@@ -114,12 +116,10 @@
    "COMUNE DI PADERNO DUGNANO": 3,
    "COMUNE DI SARONNO": 3,
    "COMUNITÀ MONTANA DEL PIAMBELLO": 3,
-   "COMUNITÀ MONTANA VALLE SABBIA": 3,
    "CONSORZIO INFORMATICA TERRITORIO SPA": 3,
    "ISTITUTO REGIONALE PER IL SUPPORTO ALLE POLITICHE DELLA LOMBARDIA (POLIS-LOMBARDIA)": 3,
    "PROVINCIA DI SONDRIO": 3,
    "AZIENDA SPECIALE SERVIZI DI AGRATE BRIANZA": 2,
-   "BRIANZACQUE S.R.L.": 2,
    "CITTÀ DI SESTO SAN GIOVANNI": 2,
    "CITTÀ METROPOLITANA DI MILANO": 2,
    "CLUB ALPINO ITALIANO": 2,
@@ -132,6 +132,7 @@
    "COMUNE DI GANDINO": 2,
    "COMUNE DI LONATO DEL GARDA": 2,
    "COMUNE DI MONZA": 2,
+   "COMUNE DI ORZINUOVI": 2,
    "COMUNE DI PAVIA": 2,
    "COMUNE DI SAMARATE": 2,
    "COMUNE DI SAN DONATO MILANESE": 2,
@@ -148,7 +149,6 @@
    "UNIONE COLLI MANTOVANI": 2,
    "A.SE.R SPA": 1,
    "AGENZIA PER IL TRASPORTO PUBBLICO LOCALE DEL BACINO DELLA CITTÀ METROPOLITANA DI MILANO, MONZA E BRIANZA, LODI E PAVIA": 1,
-   "ASCI - AZIENDA SOCIALE COMUNI INSIEME": 1,
    "ATC UNICO": 1,
    "AUTORITÀ DI REGOLAZIONE PER ENERGIA RETI E AMBIENTE - ARERA": 1,
    "AZIENDA SPECIALE CONSORTILE PER I SERVIZI ALLA PERSONA AMBITO 3 BS EST": 1,
@@ -192,6 +192,7 @@
    "COMUNE DI DOSSENA": 1,
    "COMUNE DI FENEGRO'": 1,
    "COMUNE DI FERNO": 1,
+   "COMUNE DI FINO MORNASCO": 1,
    "COMUNE DI FONTANELLA": 1,
    "COMUNE DI GALBIATE": 1,
    "COMUNE DI GHISALBA": 1,
@@ -221,7 +222,6 @@
    "COMUNE DI NOVATE MILANESE": 1,
    "COMUNE DI OFFLAGA": 1,
    "COMUNE DI ORINO": 1,
-   "COMUNE DI ORZINUOVI": 1,
    "COMUNE DI PALAZZOLO SULL'OGLIO": 1,
    "COMUNE DI PESCHIERA BORROMEO": 1,
    "COMUNE DI PIEVE DEL CAIRO": 1,
@@ -338,10 +338,10 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 142,
+  "righe_prima_pagina": 143,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 142,
+  "righe_lette": 143,
   "enti_sanitari": {
    "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 34,
    "A.O. ORDINE MAURIZIANO TORINO": 10,
@@ -364,10 +364,10 @@
    "CSI PIEMONTE": 1,
    "SCR PIEMONTE SPA": 1
   },
-  "procedure_altri_enti": 41,
+  "procedure_altri_enti": 42,
   "altri_enti": {
+   "GIUNTA REGIONALE DEL PIEMONTE": 9,
    "COMUNE DI ALESSANDRIA": 8,
-   "GIUNTA REGIONALE DEL PIEMONTE": 8,
    "COMUNE DI BIELLA": 7,
    "PROVINCIA DI BIELLA": 4,
    "CITTÀ METROPOLITANA DI TORINO": 3,

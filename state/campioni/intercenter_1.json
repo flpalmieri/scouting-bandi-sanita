@@ -182,18 +182,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/bandi-aperti/BANDO_GARA_PORTALE@16300745", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/bandi-in-corso/BANDO_GARA_PORTALE@16300745", 
       "@type": "BandoIntercenter", 
       "Date": "2026-10-13T23:00:00+01:00", 
       "Description": "Bando Rettificato -  Procedura aperta per la conclusione di accordi quadro per l\u2019esecuzione di servizi di ingegneria e architettura riguardanti interventi da attuarsi sul patrimonio immobiliare della Regione Emilia-Romagna suddivisa in quattro lotti: Lotto 1: Servizi di progettazione, direzione lavori, coordinamento per la sicurezza, per interventi sugli archivi regionali; Lotto 2: Servizi di progettazione, direzione lavori, coordinamento per la sicurezza, per interventi su immobili regionali; Lotto 3: Servizi di verifica della progettazione, per interventi su immobili regionali; Lotto 4: Servizi di collaudo, per interventi su immobili regionali. Scarica Allegati", 
       "Subject": [], 
       "Title": "Procedura aperta per la conclusione di accordi quadro per l\u2019esecuzione di servizi di ingegneria e architettura riguardanti interventi da attuarsi sul patrimonio immobiliare della Regione Emilia-Romagna suddivisa in quattro lotti", 
-      "UID": "4e3b19e4a5ec4967b302e0aa552b516e", 
+      "UID": "3f083c202fed4722ae127cc08f65bcb3", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "inProgress", 
+        "In corso"
       ], 
       "description": "Bando Rettificato -  Procedura aperta per la conclusione di accordi quadro per l\u2019esecuzione di servizi di ingegneria e architettura riguardanti interventi da attuarsi sul patrimonio immobiliare della Regione Emilia-Romagna suddivisa in quattro lotti: Lotto 1: Servizi di progettazione, direzione lavori, coordinamento per la sicurezza, per interventi sugli archivi regionali; Lotto 2: Servizi di progettazione, direzione lavori, coordinamento per la sicurezza, per interventi su immobili regionali; Lotto 3: Servizi di verifica della progettazione, per interventi su immobili regionali; Lotto 4: Servizi di collaudo, per interventi su immobili regionali. Scarica Allegati", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -1113,4 +1113,4 @@
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/bandi-chiusi/BANDO_GARA_PORTALE@14165803", 
       "@type": "BandoIntercenter", 
       "Date": "2026-06-10T00:00:00+02:00", 
-      "Description"
+      "De

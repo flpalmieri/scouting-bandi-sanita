@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-23T15:42:44+00:00",
+  "eseguito_il": "2026-11-23T16:31:57+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -15,7 +15,7 @@
     },
     "acquistitelematici": {
       "esito": "ok",
-      "pertinenti": 8
+      "pertinenti": 12
     },
     "sintel": {
       "esito": "ok",
@@ -34,13 +34,21 @@
       "pertinenti": 0
     },
     "maggioli": {
-      "esito": "errore",
-      "pertinenti": 0
+      "esito": "ok",
+      "pertinenti": 1
     }
   },
   "errori": [
-    "maggioli: GT-SUAM: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate; AST Ancona: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate; AST Pesaro Urbino (GTAOMN): connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate; AST Macerata: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate; AST Fermo: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate; AST Ascoli Piceno: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate; AOU delle Marche (GTAOAN): connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate; GTMULTIE (INRCA e ARS): connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate"
+    "portali_html: ASP Catania: HTTPSConnectionPool(host='www.aspct.it', port=443): Max retries exceeded with url: /fornitore/bandi-di-gara/default.aspx?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.aspct.it', port=443) at 0x714bb7bf1670>, 'Connection to www.aspct.it timed out. (connect timeout=20.0)'))",
+    "maggioli: GT-SUAM: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
+    "maggioli: AST Ancona: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
+    "maggioli: AST Pesaro Urbino (GTAOMN): connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
+    "maggioli: AST Macerata: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
+    "maggioli: AST Fermo: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
+    "maggioli: AST Ascoli Piceno: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
+    "maggioli: AOU delle Marche (GTAOAN): connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
+    "maggioli: GTMULTIE (INRCA e ARS): connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate"
   ],
-  "nuove_opportunita": 1,
+  "nuove_opportunita": 0,
   "totale": 114
 }

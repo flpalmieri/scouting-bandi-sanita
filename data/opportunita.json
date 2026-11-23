@@ -1,5 +1,5 @@
 {
- "aggiornato_il": "2026-11-23T15:42:44+00:00",
+ "aggiornato_il": "2026-11-23T16:31:57+00:00",
  "totale": 114,
  "opportunita": [
   {
@@ -1238,6 +1238,7 @@
   {
    "id": "ted:744682-2026",
    "fonti": [
+    "Appalti Villa Sofia-Cervello",
     "TED"
    ],
    "titolo": "Fornitura di una piattaforma integrata per la gestione dell'informazione clinica, la codifica semi-automatica delle doimissioni e l'analisi analitica della casistica ospedaliera",
@@ -1250,12 +1251,12 @@
    ],
    "cig": [],
    "tipo": "cn-standard",
-   "link": "https://ted.europa.eu/it/notice/-/detail/744682-2026",
-   "regione": null,
+   "link": "https://appalti-villasofia-cervello.maggiolicloud.it/PortaleAppalti/it/ppgare_bandi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Bandi/view.action&currentFrame=7&codice=G08820",
+   "regione": "Sicilia",
    "motivo_match": "Ente sanitario + CPV IT (48300000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
-   "ultimo_rilevamento": "2026-11-19"
+   "ultimo_rilevamento": "2026-11-23"
   },
   {
    "id": "sintel:226877383",

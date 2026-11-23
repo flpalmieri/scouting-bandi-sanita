@@ -1,0 +1,57 @@
+{
+ "data": [
+  {
+   "id": "2491",
+   "uuid": "b8a598e7-e20e-11ef-8431-089204b6af40",
+   "tipologia": "Manifestazione di interesse",
+   "tipologia_rec": "manifestazione_interesse",
+   "title": "prova",
+   "oggetto": "prova",
+   "description": "prova",
+   "stato": "tender_canceled",
+   "is_public": true,
+   "publish_date": "2025-02-07 17:18:00",
+   "data_pubblicazione": "07-02-2025",
+   "expiring_date": "2025-02-12 16:18:00",
+   "data_scadenza": "12-02-2025",
+   "cat_prevalente": "[category]beni:33190000-8[/category]",
+   "cat_secondaria": "",
+   "cig_number": "M-00000003",
+   "cig": "M-00000003",
+   "importo_complessivo_gara": null,
+   "importo_gara": "",
+   "nome_ente": "Fondazione Istituto G. Giglio di Cefalù",
+   "url_tender": "/tender/2491"
+  },
+  {
+   "id": "52",
+   "uuid": "4f44ca0c-63b9-11ef-99e0-089204b6af40",
+   "tipologia": "Manifestazione di interesse",
+   "tipologia_rec": "manifestazione_interesse",
+   "title": "ACQUISIZIONE DI MANIFESTAZIONE DI INTERESSE A PARTECIPARE ALLA PROCEDURA NEGOZIATA AI SENSI DELL’ART. 36, COMMA 2, LETTERA b), DEL D.LGS. N.50/2016, PER L'AFFIDAMENTO DEL SERVIZIO SOSTITUTIVO DI MENSA MEDIANTE BUONI PASTO CARTACEI, NELLE MORE DI ADERIRE ALLA RELATIVA CONVENZIONE CONSIP DAL NOME “ BUONI PASTO 8”",
+   "oggetto": "ACQUISIZIONE DI MANIFESTAZIONE DI INTERESSE A PARTECIPARE ALLA PROCEDURA NEGOZIATA AI SENSI DELL’ART. 36, COMMA 2, LETTERA b), DEL D.LGS. N.50/2016, PER L'AFFIDAMENTO DEL SERVIZIO SOSTITUTIVO DI MENSA MEDIANTE BUONI PASTO CARTACEI, NELLE MORE DI ADERIRE ALLA RELATIVA CONVENZIONE CONSIP DAL NOME “ BUONI PASTO 8”",
+   "description": null,
+   "stato": "scaduta",
+   "is_public": true,
+   "publish_date": "2018-11-22 12:00:00",
+   "data_pubblicazione": "22-11-2018",
+   "expiring_date": "2018-12-06 13:00:00",
+   "data_scadenza": "06-12-2018",
+   "cat_prevalente": null,
+   "cat_secondaria": null,
+   "cig_number": "M-00000001",
+   "cig": "M-00000001",
+   "importo_complessivo_gara": null,
+   "importo_gara": "",
+   "nome_ente": "Fondazione Istituto G. Giglio di Cefalù",
+   "url_tender": "/tender/52"
+  }
+ ],
+ "meta": {
+  "nb_total": 2,
+  "nb_filtered": 2,
+  "limit": "50",
+  "offset": "0",
+  "sort": "t.publish_date DESC"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "totale_dichiarato": 4,
+ "voci": [
+  {
+   "ente": "A.S.P. PALERMO - U.O.C. APPROVVIGIONAMENTI",
+   "titolo": "Procedura aperta per l'affidamento della fornitura quinquennale in somministrazione di materiale vario per la rete laboratoristica dell'Asp di Palermo suddivisa in 9 lotti.",
+   "tipologia": "Forniture",
+   "importo": "628.500,00 €",
+   "pubblicazione": "20/10/2026",
+   "scadenza": "02/12/2026 entro le 18:00",
+   "codice": "G03005",
+   "stato": "In corso",
+   "link": "https://portaleappalti-asppalermo.maggiolicloud.it/PortaleAppalti/it/ppgare_bandi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Bandi/view.action&currentFrame=7&codice=G03005"
+  },
+  {
+   "ente": "A.S.P. PALERMO - U.O.C. APPROVVIGIONAMENTI",
+   "titolo": "procedura aperta, ai sensi degli artt. 25 e 71 del D.lgs. 36/2023, tramite piattaforma telematica aziendale, per laffidamento della fornitura in somministrazione triennale di carte per apparecchiature elettromedicali, strutturata in un unico lotto, articolata in n. 48 voci, della durata di 36 mesi con opzione proroga tecnica, giusto art. 120, co. 11 del d.lgs 36/2023, di 6 mesi;",
+   "tipologia": "Forniture",
+   "importo": "720.000,00 €",
+   "pubblicazione": "12/11/2026",
+   "scadenza": "16/12/2026 entro le 09:00",
+   "codice": "G03009",
+   "stato": "In corso",
+   "link": "https://portaleappalti-asppalermo.maggiolicloud.it/PortaleAppalti/it/ppgare_bandi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Bandi/view.action&currentFrame=7&codice=G03009"
+  },
+  {
+   "ente": "A.S.P. PALERMO - U.O.C. APPROVVIGIONAMENTI",
+   "titolo": "Procedura aperta per la fornitura quinquennale in somministrazione di dispositivi medici specialistici per odontoiatria occorrenti alle strutture sanitarie dell'A.S.P. di Palermo distinta in 18 lotti oltre la proroga tecnica semestrale ed estensione del quinto.",
+   "tipologia": "Forniture",
+   "importo": "1.980.355,64 €",
+   "pubblicazione": "03/11/2026",
+   "scadenza": "26/01/2027 entro le 09:00",
+   "codice": "G03010",
+   "stato": "In corso",
+   "link": "https://portaleappalti-asppalermo.maggiolicloud.it/PortaleAppalti/it/ppgare_bandi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Bandi/view.action&currentFrame=7&codice=G03010"
+  },
+  {
+   "ente": "A.S.P. PALERMO - U.O.C. APPROVVIGIONAMENTI",
+   "titolo": "Procedura aperta in somministrazione di dietetici per nutrizione enterale ed integratori necessari ai pazienti territoriali afferenti allASP di Palermo, affetti da errori metabolici congeniti suddivisa in 58 lotti per la durata di 24 mesi (2 anni) con proroga tecnica.",
+   "tipologia": "Forniture",
+   "importo": "3.607.000,04 €",
+   "pubblicazione": "17/11/2026",
+   "scadenza": "02/02/2027 entro le 09:00",
+   "codice": "G03026",
+   "stato": "In corso",
+   "link": "https://portaleappalti-asppalermo.maggiolicloud.it/PortaleAppalti/it/ppgare_bandi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Bandi/view.action&currentFrame=7&codice=G03026"
+  }
+ ]
+}
