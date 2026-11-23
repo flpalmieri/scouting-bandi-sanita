@@ -1028,7 +1028,6 @@ portali_html:
       # Si legge la pagina "Avvisi" (indagini di mercato, avvisi esplorativi, consultazioni), non
       # "Bandi di gara e contratti" (/page/10/, elenco BDNCP misto con affidamenti e aggiudicazioni):
       # le gare dell'ASL 1 sono tutte su GIADA, letta dal blocco GIADA. Nessuna scadenza nell'elenco.
-      abilitato: false
       nome_fonte: ASL 1 Abruzzo
       sigla: asl1abruzzo_avvisi
       ente: "ASL 1 Avezzano-Sulmona-L'Aquila"   # stesso nome del blocco GIADA (deduplica)
