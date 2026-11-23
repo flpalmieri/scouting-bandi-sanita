@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-23T11:31:52+00:00",
- "totale": 112,
+ "aggiornato_il": "2026-11-23T12:26:43+00:00",
+ "totale": 116,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -998,6 +998,26 @@
    "ultimo_rilevamento": "2026-11-23"
   },
   {
+   "id": "sintel:226680240",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Servizio di rinnovo servizi InfoCert di firma digitale remota tramite ProxySign e conservazione a norma LegalCare",
+   "ente": "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA",
+   "scadenza": "2026-11-24",
+   "pubblicazione": "2026-11-16",
+   "importo": 38000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226680240",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('conservazione a norma')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-23",
+   "ultimo_rilevamento": "2026-11-23"
+  },
+  {
    "id": "startsan-cons:615433",
    "fonti": [
     "START Sanità Toscana"
@@ -1318,6 +1338,26 @@
    "ultimo_rilevamento": "2026-11-23"
   },
   {
+   "id": "intercenter:9e5b0cd13a86",
+   "fonti": [
+    "Intercent-ER"
+   ],
+   "titolo": "APPLICATIVO AGRINET",
+   "ente": "Ente non indicato (Intercent-ER)",
+   "scadenza": "2026-11-26",
+   "pubblicazione": "2026-11-19",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18465864",
+   "regione": "Emilia-Romagna",
+   "motivo_match": "Soggetto aggregatore + oggetto IT ('APPLICATIV') - da verificare",
+   "descrizione": "Affidamento diretto ai sensi dell’art. 50, comma 1 lettera b), del D.lgs. 36/2023 per il servizio di realizzazione, implementazione, manutenzione dell'Applicativo AGRINET Durata dell’affidamento dal 01/01/2027 al 31/12/2028 Importo complessivo base d’asta non superabile € 118.000,00 IVA al 22% esclusa con opzione di ampliamento e/o proroga fino alla soglia di € 139.999,99 IVA esclusa.",
+   "primo_rilevamento": "2026-11-23",
+   "ultimo_rilevamento": "2026-11-23"
+  },
+  {
    "id": "intercenter:885228cd3389",
    "fonti": [
     "Intercent-ER"
@@ -1599,6 +1639,26 @@
    "ultimo_rilevamento": "2026-10-29"
   },
   {
+   "id": "intercenter:761178e0dbab",
+   "fonti": [
+    "Intercent-ER"
+   ],
+   "titolo": "Affidamento di un servizio di manutenzione e assistenza tecnica su impianti/caroselli CYBER",
+   "ente": "Ente non indicato (Intercent-ER)",
+   "scadenza": "2026-11-30",
+   "pubblicazione": "2026-11-17",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18700880",
+   "regione": "Emilia-Romagna",
+   "motivo_match": "Soggetto aggregatore + oggetto IT ('CYBER') - da verificare",
+   "descrizione": "Affidamento di un servizio di manutenzione e assistenza tecnica su n. 2 caroselli orizzontali Pharma-Carousel e n. 1 impianto compattabile a movimentazione manuale di produzione CYBER in dotazione all'Istituto Ortopedico Rizzoli.",
+   "primo_rilevamento": "2026-11-23",
+   "ultimo_rilevamento": "2026-11-23"
+  },
+  {
    "id": "intercenter:e522934bf02f",
    "fonti": [
     "Intercent-ER"
@@ -1867,6 +1927,26 @@
    "motivo_match": "Ente sanitario + CPV IT (72000000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-23"
+  },
+  {
+   "id": "giada-cons:361686",
+   "fonti": [
+    "GIADA"
+   ],
+   "titolo": "MANIFESTAZIONE DI INTERESSE A PARTECIPARE ALLA PROCEDURA PER L’AFFIDAMENTO, AI SENSI DELL’ART. 50 COMMA 1 LETTERA B) DEL D. LGS. N. 36/2023 E S.M.I., PER L’AFFIDAMENTO DELLA “FORNITURA DI UNA PIATTAFORMA DI ARCHIVIO DIGITALE DELLE CARTELLE SANITARIE PER LE ESIGENZE DELLA UOSD MEDICINA DELLO SPORT ASL PESCARA.",
+   "ente": "ASL 3 Pescara",
+   "scadenza": "2026-12-04",
+   "pubblicazione": "2026-11-18",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://giada.areacom.eu/portalegare/index.php/consultazioni-preliminari-di-mercato?getdettaglio=yes&bando=361686&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-04T10:00:00",
+   "regione": "Abruzzo",
+   "motivo_match": "Ente sanitario + oggetto IT ('ARCHIVIO DIGITAL')",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-23",
    "ultimo_rilevamento": "2026-11-23"
   },
   {

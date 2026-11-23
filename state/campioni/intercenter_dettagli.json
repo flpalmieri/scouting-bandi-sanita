@@ -98,38 +98,6 @@
   "cig": []
  },
  {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18700880",
-  "title": "Affidamento di un servizio di manutenzione e assistenza tecnica su impianti/caroselli CYBER",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "ISTITUTO ORTOPEDICO RIZZOLI ",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "12.310,00 €",
-  "procedura_gara": "Affidamento Diretto",
-  "tipo_bando_gara": "Invito",
-  "criterio": "Prezzo più basso",
-  "scadenza": "2026-11-30T17:00:00+00:00",
-  "pubdate": "2026-11-17T12:40:58+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": []
- },
- {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18465864",
-  "title": "APPLICATIVO AGRINET",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "AZIENDA USL DI MODENA",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "139.999,99 €",
-  "procedura_gara": "Affidamento Diretto",
-  "tipo_bando_gara": "Invito",
-  "criterio": "Prezzo più basso",
-  "scadenza": "2026-11-26T17:00:00+00:00",
-  "pubdate": "2026-11-19T08:47:40+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": []
- },
- {
   "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18766264",
   "title": "Licenze software Aspose, HDClone e AnyDesk.",
   "type": "BANDO_GARA_PORTALE",

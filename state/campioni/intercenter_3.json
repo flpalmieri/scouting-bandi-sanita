@@ -182,18 +182,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-aperti/BANDO_GARA_PORTALE@18126375", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-chiusi/BANDO_GARA_PORTALE@18126375", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-06T00:00:00+01:00", 
       "Description": "SERVIZIO DI EDUCATIVA DI STRADA E DI PROSSIMIT\u00c0 RIVOLTO A PREADOLESCENTI E ADOLESCENTI NEL TERRITORIO DEL COMUNE DI PIANORO \u2013 AVVISO MANIFESTAZIONE DI INTERESSE Scarica Allegati", 
       "Subject": [], 
       "Title": "SERVIZIO DI EDUCATIVA DI STRADA E DI PROSSIMIT\u00c0 RIVOLTO A PREADOLESCENTI E ADOLESCENTI NEL TERRITORIO DEL COMUNE DI PIANORO \u2013 AVVISO MANIFESTAZIONE DI INTERESSE", 
-      "UID": "0853658631534e4096d20ac547a17059", 
+      "UID": "532430cd1d8f4de6bce262d8a4b414c5", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "SERVIZIO DI EDUCATIVA DI STRADA E DI PROSSIMIT\u00c0 RIVOLTO A PREADOLESCENTI E ADOLESCENTI NEL TERRITORIO DEL COMUNE DI PIANORO \u2013 AVVISO MANIFESTAZIONE DI INTERESSE Scarica Allegati", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -800,4 +800,4 @@
       "UID": "40b6e8aa9e76418fa3c2fa84ec4aa31c", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
-      "
+     

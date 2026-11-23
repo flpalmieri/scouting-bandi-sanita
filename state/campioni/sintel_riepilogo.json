@@ -3,13 +3,13 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 284
+  "righe_lette": 282
  },
  "lombardia_ambito_4": {
-  "righe_prima_pagina": 87,
+  "righe_prima_pagina": 86,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 87
+  "righe_lette": 86
  },
  "lombardia_ambito_5": {
   "righe_prima_pagina": 28,
@@ -24,10 +24,10 @@
   "righe_lette": 79
  },
  "lombardia_ambito_8": {
-  "righe_prima_pagina": 20,
+  "righe_prima_pagina": 21,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 20
+  "righe_lette": 21
  },
  "lombardia_ambito_9": {
   "righe_prima_pagina": 22,
@@ -42,7 +42,7 @@
   "righe_lette": 16
  },
  "lombardia": {
-  "righe_lette": 536,
+  "righe_lette": 534,
   "enti_sanitari": {
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 17,
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 16,
@@ -57,42 +57,43 @@
    "ASST DI MANTOVA": 7,
    "ASST PAPA GIOVANNI XXIII": 7,
    "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 7,
-   "FONDAZIONE IRCCS SAN GERARDO DEI TINTORI DI MONZA": 7,
-   "FONDAZIONE IRCCS CA' GRANDA - OSPEDALE MAGGIORE POLICLINICO": 6,
+   "FONDAZIONE IRCCS SAN GERARDO DEI TINTORI DI MONZA": 6,
    "ASST DELLA FRANCIACORTA": 5,
    "ASST DI LECCO": 5,
    "ASST DI LODI": 5,
+   "FONDAZIONE IRCCS CA' GRANDA - OSPEDALE MAGGIORE POLICLINICO": 5,
    "ASST DI CREMONA": 4,
    "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA": 4,
+   "ASST OVEST MILANESE": 4,
    "ASST RHODENSE": 4,
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO": 3,
    "ASST DEGLI SPEDALI CIVILI DI BRESCIA": 3,
    "ASST DELLA VALCAMONICA": 3,
    "ASST NORD MILANO": 3,
-   "ASST OVEST MILANESE": 3,
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLA LOMBARDIA E DELL'EMILIA ROMAGNA \"BRUNO UBERTINI\"": 3,
    "ASST DEL GARDA": 2,
+   "ASST DI PAVIA": 2,
    "ASST MELEGNANO E DELLA MARTESANA": 2,
    "ATS DELLA CITTA METROPOLITANA DI MILANO": 2,
    "A.S.P. - ISTITUTI MILANESI MARTINITT E STELLINE E PIO ALBERGO TRIVULZIO": 1,
    "ASP BASSO LODIGIANO": 1,
    "ASST DI MONZA": 1,
-   "ASST DI PAVIA": 1,
    "ASST FATEBENEFRATELLI SACCO": 1,
    "ASST SANTI PAOLO E CARLO": 1,
    "ATS DELL'INSUBRIA": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 346,
+  "procedure_altri_enti": 344,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
-   "COMUNE DI MILANO": 13,
+   "COMUNE DI MILANO": 12,
    "ERSAF - ENTE REGIONALE PER I SERVIZI ALL'AGRICOLTURA E ALLE FORESTE": 11,
    "POLITECNICO DI MILANO": 8,
    "SOCIETÀ PER L'ECOLOGIA E L'AMBIENTE SPA": 8,
    "COMUNE DI PONTE DI LEGNO": 6,
    "PROVINCIA DI LECCO": 6,
    "COMUNE DI LIVIGNO": 5,
+   "COMUNE DI RHO": 5,
    "PROVINCIA DI PAVIA": 5,
    "AGESP S.P.A.": 4,
    "COMUNE DI BUCCINASCO": 4,
@@ -100,7 +101,6 @@
    "COMUNE DI CARUGATE": 4,
    "COMUNE DI LEGNANO": 4,
    "COMUNE DI LOMAZZO": 4,
-   "COMUNE DI RHO": 4,
    "COMUNE DI SARONNO": 4,
    "COMUNE DI VERTEMATE CON MINOPRIO": 4,
    "PROVINCIA DI BERGAMO": 4,
@@ -175,7 +175,6 @@
    "COMUNE DI CASALOLDO": 1,
    "COMUNE DI CASSANO D'ADDA": 1,
    "COMUNE DI CASSINA RIZZARDI": 1,
-   "COMUNE DI CASTEGNATO": 1,
    "COMUNE DI CASTEL GOFFREDO": 1,
    "COMUNE DI CASTELCOVATI": 1,
    "COMUNE DI CAVENAGO DI BRIANZA": 1,
@@ -234,7 +233,6 @@
    "COMUNE DI SAN ZENONE AL PO": 1,
    "COMUNE DI SAREZZO": 1,
    "COMUNE DI SCALDASOLE": 1,
-   "COMUNE DI SENAGO": 1,
    "COMUNE DI SEREGNO": 1,
    "COMUNE DI SIZIANO": 1,
    "COMUNE DI STEZZANO": 1,
@@ -287,17 +285,17 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 169,
+  "righe_prima_pagina": 163,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 169,
+  "righe_lette": 163,
   "enti_sanitari": {
    "AZIENDA ULSS N. 8 BERICA": 33,
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA": 26,
-   "AZIENDA ULSS N. 7 PEDEMONTANA": 15,
    "AZIENDA OSPEDALIERA UNIVERSITARIA INTEGRATA DI VERONA": 13,
    "AZIENDA ULSS N. 3 SERENISSIMA": 13,
-   "AZIENDA ULSS N. 5 POLESANA": 11,
+   "AZIENDA ULSS N. 5 POLESANA": 10,
+   "AZIENDA ULSS N. 7 PEDEMONTANA": 10,
    "AZIENDA ZERO": 8,
    "ISTITUTO ONCOLOGICO VENETO I.R.C.C.S.": 5,
    "AZIENDA ULSS N. 4 VENETO ORIENTALE": 3,
@@ -308,9 +306,10 @@
   "procedure_altri_enti": 35,
   "altri_enti": {
    "COMUNE DI PADOVA": 10,
-   "COMUNE DI VERONA": 6,
+   "COMUNE DI VERONA": 5,
    "AGEC": 4,
    "COMUNE DI TREVISO": 2,
+   "PROVINCIA DI TREVISO": 2,
    "UNIONE MONTANA DEL BALDO-GARDA": 2,
    "CENTRO SERVIZI PER ANZIANI": 1,
    "CITTÀ DI OPPEANO": 1,
@@ -320,12 +319,12 @@
    "COMUNE DI TORRI DI QUARTESOLO": 1,
    "COMUNE DI VILLAFRANCA DI VERONA": 1,
    "FONDAZIONE DON MOZZATTI D'APRILI": 1,
-   "PROVINCIA DI TREVISO": 1,
    "UNIONE DI COMUNI VERONA EST": 1,
    "VILLAVERLA": 1
   },
-  "pertinenti": 6,
+  "pertinenti": 7,
   "titoli_pertinenti": [
+   "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA - Servizio di rinnovo servizi InfoCert di firma digitale remota tramite ProxySign e conserva",
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA - Soluzione informatizzata per la gestione salme",
    "AZIENDA ULSS N. 9 SCALIGERA - CONSULTAZIONE PRELIMINARE DI MERCATO AI FINI DELLA VERIFICA DEI PRESUPPOSTI PER L’ESPLETAM",
    "AZIENDA ULSS N. 4 VENETO ORIENTALE - INDAGINE DI MERCATO PER LA FORNITURA IN AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA ",
@@ -335,19 +334,19 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 132,
+  "righe_prima_pagina": 139,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 132,
+  "righe_lette": 139,
   "enti_sanitari": {
-   "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 31,
+   "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 33,
    "A.O. ORDINE MAURIZIANO TORINO": 11,
+   "AZIENDA OSPEDALIERA NOVARA": 7,
    "AZIENDA OSPEDALIERA S. CROCE E CARLE": 7,
    "AZIENDA SANITARIA LOCALE ASTI - ASL AT": 6,
    "AZIENDA OSPEDALIERA SS. ANTONIO E BIAGIO E C ARRIGO": 5,
    "AZIENDA SANITARIA LOCALE CITTÀ DI TORINO": 5,
    "ASL TO 4": 4,
-   "AZIENDA OSPEDALIERA NOVARA": 4,
    "ASL NO DI NOVARA": 3,
    "AZIENDA SANITARIA LOCALE DI VERCELLI": 3,
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DEL PIEMONTE, LIGURIA E VALLE D'AOSTA": 3,
@@ -361,13 +360,13 @@
    "CSI PIEMONTE": 1,
    "SCR PIEMONTE SPA": 1
   },
-  "procedure_altri_enti": 37,
+  "procedure_altri_enti": 39,
   "altri_enti": {
    "GIUNTA REGIONALE DEL PIEMONTE": 8,
+   "COMUNE DI ALESSANDRIA": 7,
    "COMUNE DI BIELLA": 7,
-   "COMUNE DI ALESSANDRIA": 6,
+   "PROVINCIA DI BIELLA": 4,
    "CITTÀ METROPOLITANA DI TORINO": 3,
-   "PROVINCIA DI BIELLA": 3,
    "CORDAR S.P.A. BIELLA SERVIZI": 2,
    "PROVINCIA DEL VERBANO CUSIO OSSOLA": 2,
    "UNIONE MONTANA DEI COMUNI DELLA VALSESIA": 2,
@@ -378,12 +377,12 @@
   }
  },
  "liguria": {
-  "righe_prima_pagina": 43,
+  "righe_prima_pagina": 44,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 43,
+  "righe_lette": 44,
   "enti_sanitari": {
-   "AZIENDA TUTELA DELLA SALUTE LIGURIA": 20,
+   "AZIENDA TUTELA DELLA SALUTE LIGURIA": 21,
    "LIGURIA DIGITALE S.P.A.": 7,
    "REGIONE LIGURIA (SUAR)": 4,
    "ISTITUTO GIANNINA GASLINI": 1

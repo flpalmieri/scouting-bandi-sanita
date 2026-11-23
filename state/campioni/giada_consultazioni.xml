@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:afs="http://www.aflink.it/XMLBANDI">
+<channel>
+<title>Elenco dei bandi di gara In Corso</title>
+<ttl>15</ttl>
+<description>Bandi pubblici portalegare</description>
+<language>IT-it</language>
+<afs:totRecord>11</afs:totRecord>
+<item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=359382&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-23T18:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>13/11/2026</pubDate>
+	
+	<description>
+Avviso di indagine di mercato per la fornitura, in accordo quadro, di rotoli fettuccia verde liscia – Indanthreen - destinata alle UU.OO.CC. di Anestesia e Rianimazione, Cardiologia, UTIC e Emodinamica.&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:RegistroSistema><![CDATA[PI053686-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE012285]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[Avviso di indagine di mercato per la fornitura, in accordo quadro, di rotoli fettuccia verde liscia – Indanthreen - destinata alle UU.OO.CC. di Anestesia e Rianimazione, Cardiologia, UTIC e Emodinamica.]]></afs:Oggetto>
+	<afs:DenominazioneEnte><![CDATA[ASL 4 - TERAMO]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T18:00:00]]></afs:DtScadenzaBandoTecnical>
+	
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[359382]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Fettuccia Verde liscia Indanthreen]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-13T14:27:30.667]]></afs:dataUltimaModifica>
+<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T14:27:30]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=359330&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>13/11/2026</pubDate>
+	
+	<description>
+AVVISO PUBBLICO DI CONSULTAZIONE PRELIMINARE DI MERCATO FINALIZZATO ALLA VERIFICA DELL’EVENTUALE INFUNGIBILIT&#192; DEL DISPOSITIVO “STIMULAN RAPID CURE” E DELL’ESISTENZA DI PRODOTTI EQUIVALENTI &lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:RegistroSistema><![CDATA[PI053608-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE012279]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[AVVISO PUBBLICO DI CONSULTAZIONE PRELIMINARE DI MERCATO FINALIZZATO ALLA VERIFICA DELL’EVENTUALE INFUNGIBILITÀ DEL DISPOSITIVO “STIMULAN RAPID CURE” E DELL’ESISTENZA DI PRODOTTI EQUIVALENTI ]]></afs:Oggetto>
+	<afs:DenominazioneEnte><![CDATA[ASL 2 - LANCIANO VASTO CHIETI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[359330]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[AVVISO CONSULTAZIONE MERCATO]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-20T09:59:53.490]]></afs:dataUltimaModifica>
+<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T11:31:18]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=359332&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>13/11/2026</pubDate>
+	
+	<description>
+AVVISO PUBBLICO DI INDAGINE DI MERCATO PER LA FORNITURA DI SISTEMI COMPLETI DI PLACCHE E CHIODI IN FIBRA DI CARBONIO (MINIMO 60%) RADIOTRASPARENTI PER LE ESIGENZE DELLA U.O.C. DI ORTOPEDIA E TRAUMATOLOGIA DELLA ASL 2 ABRUZZO&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:RegistroSistema><![CDATA[PI053612-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE012280]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[AVVISO PUBBLICO DI INDAGINE DI MERCATO PER LA FORNITURA DI SISTEMI COMPLETI DI PLACCHE E CHIODI IN FIBRA DI CARBONIO (MINIMO 60%) RADIOTRASPARENTI PER LE ESIGENZE DELLA U.O.C. DI ORTOPEDIA E TRAUMATOLOGIA DELLA ASL 2 ABRUZZO]]></afs:Oggetto>
+	<afs:DenominazioneEnte><![CDATA[ASL 2 - LANCIANO VASTO CHIETI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[359332]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[AVVISO PUBBLICO DI INDAGINE DI MERCATO]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-13T11:37:33.027]]></afs:dataUltimaModifica>
+<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T11:37:33]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=354176&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-30T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>01/11/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Consultazione preliminare di mercato finalizzata all’acquisizione di medicazioni speciali occorrenti alle Aziende Sanitarie della Regione Abruzzo&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:RegistroSistema><![CDATA[PI050598-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE011984]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Consultazione preliminare di mercato finalizzata all’acquisizione di medicazioni speciali occorrenti alle Aziende Sanitarie della Regione Abruzzo]]></afs:Oggetto>
+	<afs:DenominazioneEnte><![CDATA[AreaCom - Agenzia regionale dell'Abruzzo per la Committenza]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[354176]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[consultazione di mercato medicazioni speciali]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T12:14:59.767]]></afs:dataUltimaModifica>
+<afs:DtPubblicazioneTecnical><![CDATA[2026-11-01T09:24:35]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=359324&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-30T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>13/11/2026</pubDate>
+	
+	<description>
+Consultazione preliminare di mercato per l&#39;eventuale affidamento di matrice emostatica sigillante &quot;Medicipio&quot;.&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:RegistroSistema><![CDATA[PI053613-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE012281]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[Consultazione preliminare di mercato per l'eventuale affidamento di matrice emostatica sigillante "Medicipio".]]></afs:Oggetto>
+	<afs:DenominazioneEnte><![CDATA[ASL 4 - TERAMO]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[359324]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Matrice emostatica sigillante]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-13T11:45:21.860]]></afs:dataUltimaModifica>
+<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T11:45:21]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=360414&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-30T14:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>17/11/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Individuazione degli operatori economici da invitare alla procedura negoziata senza bando, ai sensi dell’art. 50, comma 1, lett. d), del D.Lgs. n. 36/2023, per l’affidamento congiunto della progettazione esecutiva e dell’esecuzione dei lavori (Appalto Integrato ex art. 44 D.Lgs. n. 36/2023) relativi all’intervento di “Riqualificazione Energetica del Presidio Territoriale Assistenziale (PTA) ‘Serafini Rinaldi’ di Pescina (AQ)”&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:RegistroSistema><![CDATA[PI054124-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE012327]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Individuazione degli operatori economici da invitare alla procedura negoziata senza bando, ai sensi dell’art. 50, comma 1, lett. d), del D.Lgs. n. 36/2023, per l’affidamento congiunto della progettazione esecutiva e dell’esecuzione dei lavori (Appalto Integrato ex art. 44 D.Lgs. n. 36/2023) relativi all’intervento di “Riqualificazione Energetica del Presidio Territoriale Assistenziale (PTA) ‘Serafini Rinaldi’ di Pescina (AQ)”]]></afs:Oggetto>
+	<afs:DenominazioneEnte><![CDATA[ASL 1 -  AVEZZANO-SULMONA-L'AQUILA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T14:00:00]]></afs:DtScadenzaBandoTecnical>
+	
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[360414]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[AVVISO ESPLORATIVO PESCINA]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T13:16:32.080]]></afs:dataUltimaModifica>
+<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T10:36:42]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=360692&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-03T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>18/11/2026</pubDate>
+	
+	<description>
+Indagine di mercato finalizzata all’individuazione di operatori economici da invitare alla successiva procedura negoziata senza bando per l’affidamento del servizio di manutenzione di sedie portantine Evac-Chair come da elenco di seguito riportato), in accordo quadro, all’interno di ambulanze in dotazione dell’ASL di Teramo.&lt;strong&gt;Scadenza : 03/12/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:RegistroSistema><![CDATA[PI054418-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE012351]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[Indagine di mercato finalizzata all’individuazione di operatori economici da invitare alla successiva procedura negoziata senza bando per l’affidamento del servizio di manutenzione di sedie portantine Evac-Chair come da elenco di seguito riportato), in accordo quadro, all’interno di ambulanze in dotazione dell’ASL di Teramo.]]></afs:Oggetto>
+	<afs:DenominazioneEnte><![CDATA[ASL 4 - TERAMO]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-03T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[360692]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Manutenzione sedie portantine Evac-Chair]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-18T09:57:46.480]]></afs:dataUltimaModifica>
+<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T09:57:46]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=361686&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-04T10:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>18/11/2026</pubDate>
+	
+	<description>
+MANIFESTAZIONE DI INTERESSE A PARTECIPARE ALLA PROCEDURA PER L’AFFIDAMENTO, AI SENSI DELL’ART. 50 COMMA 1 LETTERA B) DEL D. LGS. N. 36/2023 E S.M.I., PER L’AFFIDAMENTO DELLA “FORNITURA DI UNA PIATTAFORMA DI ARCHIVIO DIGITALE DELLE CARTELLE SANITARIE PER LE ESIGENZE DELLA UOSD MEDICINA DELLO SPORT ASL PESCARA.&lt;strong&gt;Scadenza : 04/12/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:RegistroSistema><![CDATA[PI055099-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE012363]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[MANIFESTAZIONE DI INTERESSE A PARTECIPARE ALLA PROCEDURA PER L’AFFIDAMENTO, AI SENSI DELL’ART. 50 COMMA 1 LETTERA B) DEL D. LGS. N. 36/2023 E S.M.I., PER L’AFFIDAMENTO DELLA “FORNITURA DI UNA PIATTAFORMA DI ARCHIVIO DIGITALE DELLE CARTELLE SANITARIE PER LE ESIGENZE DELLA UOSD MEDICINA DELLO SPORT ASL PESCARA.]]></afs:Oggetto>
+	<afs:DenominazioneEnte><![CDATA[ASL 3 - PESCARA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-04T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[361686]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-18T14:10:40.570]]></afs:dataUltimaModifica>
+<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T14:10:40]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=360697&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-04T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>17/11/2026</pubDate>
+	
+	<description>
+La presente indagine &#232; necessaria per la pianificazione e l’eventuale successivo svolgimento della procedura pi&#249; opportuna per garantire alla ASL di Teramo la fornitura del servizio triennale di lavaggio degli automezzi insistenti nell’area territoriale di Teramo mediante la formula dell’accordo quadro con unico operatore economico. &lt;strong&gt;Scadenza : 04/12/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:RegistroSistema><![CDATA[PI054309-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE012345]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[La presente indagine è necessaria per la pianificazione e l’eventuale successivo svolgimento della procedura più opportuna per garantire alla ASL di Teramo la fornitura del servizio triennale di lavaggio degli automezzi insistenti nell’area territoriale di Teramo mediante la formula dell’accordo quadro con unico operatore economico. ]]></afs:Oggetto>
+	<afs:DenominazioneEnte><![CDATA[ASL 4 - TERAMO]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-04T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[360697]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Indagine di mercato finalizzata all'affidamento fornitura del servizio triennale di lavaggio degli automezzi]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-17T16:40:14.713]]></afs:dataUltimaModifica>
+<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T16:40:14]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=362895&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-07T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>20/11/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Indagine di mercato finalizzata all’individuazione di operatori economici da invitare alla successiva procedura negoziata senza bando per l’affidamento del servizio di smaltimento dei rifiuti radioattivi.&lt;strong&gt;Scadenza : 07/12/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:RegistroSistema><![CDATA[PI055580-26]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE012422]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Indagine di mercato finalizzata all’individuazione di operatori economici da invitare alla successiva procedura negoziata senza bando per l’affidamento del servizio di smaltimento dei rifiuti radioattivi.]]></afs:Oggetto>
+	<afs:DenominazioneEnte><![CDATA[ASL 4 - TERAMO]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-07T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[362895]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[servizio di smaltimento dei rifiuti radioattivi]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-20T12:20:55.073]]></afs:dataUltimaModifica>
+<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T11:10:30]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=104964&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2027-04-02T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>03/04/2024</pubDate>
+	
+	<description>
+AVVISO PUBBLICO DI MANIFESTAZIONE DI INTERESSE PER LA FORMAZIONE DELL’ELENCO DI SOGGETTI IN POSSESSO DEI REQUISITI PER ESSERE NOMINATI COMPONENTI DI COLLEGI CONSULTIVI TECNICI AI SENSI DEGLI ARTT. 215 SS. DEL D. LGS. 36/2023&lt;strong&gt;Scadenza : 02/04/2027&lt;/strong&gt;
+	</description>
+	
+	<afs:RegistroSistema><![CDATA[PI004538-24]]></afs:RegistroSistema>
+	<afs:Fascicolo><![CDATA[FE002963]]></afs:Fascicolo>
+	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:Oggetto><![CDATA[AVVISO PUBBLICO DI MANIFESTAZIONE DI INTERESSE PER LA FORMAZIONE DELL’ELENCO DI SOGGETTI IN POSSESSO DEI REQUISITI PER ESSERE NOMINATI COMPONENTI DI COLLEGI CONSULTIVI TECNICI AI SENSI DEGLI ARTT. 215 SS. DEL D. LGS. 36/2023]]></afs:Oggetto>
+	<afs:DenominazioneEnte><![CDATA[AreaCom - Agenzia regionale dell'Abruzzo per la Committenza]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2027-04-02T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[104964]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[avviso manifestazione interesse collegio consultivo tecnico]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-17T18:20:28.317]]></afs:dataUltimaModifica>
+<afs:DtPubblicazioneTecnical><![CDATA[2024-04-03T10:58:36]]></afs:DtPubblicazioneTecnical>
+</item></channel>
+</rss>

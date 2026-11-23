@@ -279,6 +279,15 @@
   "pubblicazione": "2026-11-04",
   "tipo_bando": "Bando"
  },
+ "24359192": {
+  "cpv": [
+   "55330000"
+  ],
+  "letto_il": "2026-11-23",
+  "procedura": "Negoziata",
+  "pubblicazione": "2026-11-11",
+  "tipo_bando": "Invito"
+ },
  "24361232": {
   "cpv": [
    "33168000"
@@ -734,6 +743,24 @@
  "24392004": {
   "cpv": [
    "33949000"
+  ],
+  "letto_il": "2026-11-23",
+  "procedura": "Affidamento Diretto",
+  "pubblicazione": "2026-11-23",
+  "tipo_bando": "Invito"
+ },
+ "24392246": {
+  "cpv": [
+   "33190000"
+  ],
+  "letto_il": "2026-11-23",
+  "procedura": "Negoziata",
+  "pubblicazione": "2026-11-23",
+  "tipo_bando": "Invito"
+ },
+ "24392390": {
+  "cpv": [
+   "79340000"
   ],
   "letto_il": "2026-11-23",
   "procedura": "Affidamento Diretto",
