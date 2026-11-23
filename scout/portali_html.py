@@ -84,7 +84,8 @@ from .common import Filtro, Opportunita, estrai_importo, log, parse_data
 CAMPIONI = Path("state/campioni")
 ERRORI: list[str] = []
 # Id delle voci ignorate da una regola che lo storico da solo non conosce (voci vecchie senza
-# scadenza): main.py le toglie anche dallo storico.
+# scadenza; dal 23/11/2026 anche i titoli esclusi da escludi_titoli_regex): main.py le toglie
+# anche dallo storico.
 ESCLUSI: set[str] = set()
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -400,6 +401,10 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
         return None
     escl = _esclusioni_sito(sito)
     if escl and escl.search(titolo):
+        # Dal 23/11/2026 la voce esce anche dallo storico (main.py): una regola di esclusione
+        # aggiunta dopo il primo rilevamento (es. adesione Consip ED.3 PAL sul sito AreaCom)
+        # altrimenti lascerebbe la voce senza scadenza in dashboard per 120 giorni.
+        ESCLUSI.add(_id_voce(voce, sito))
         return None
     ente = _ente_voce(voce, sito)
     if sito.get("enti_per_area") and voce.get("area"):

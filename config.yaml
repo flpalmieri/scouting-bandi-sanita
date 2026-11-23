@@ -127,6 +127,10 @@ rumore_procedurale_regex:
   # "sistemi informativi". Solo dopo la sigla dell'unita' operativa: "licenze software per la UOC
   # Sistemi Informativi" resta IT per "software", "sistema informativo ospedaliero" resta IT.
   - '\bU\.?\s?O\.?\s?(S\.?\s?D\.?|C\.?|S\.?)?\s+(servizio\s+)?sistemi\s+informativ\w*'
+  # Formula fissa delle consultazioni DigitalPA dell'IZSAM (23/11/2026): "La funzione «Manifestazione
+  # di interesse» e' utilizzata esclusivamente quale strumento informatico per consentire agli operatori
+  # ..." faceva entrare come IT una consultazione su kit diagnostici ELISA (izsam:10293).
+  - '(quale|come)\s+strument\w*\s+informatic\w*'
 
 # Soggetti aggregatori che comprano sia per la sanità sia per altri settori:
 # le loro gare IT vengono incluse ma marcate "da verificare".
@@ -1008,6 +1012,11 @@ portali_html:
       escludi_titoli_regex:
         - '^\s*ricors'
         - '\bin\s+adesione\b'
+        # Contratti esecutivi di accordi quadro Consip, che il sito elenca con il nome dell'iniziativa
+        # Consip e senza la parola "adesione": "Servizi applicativi in ottica cloud e servizi di Demand
+        # e PMO per le Pubbliche Amministrazioni Locali - (ED.3 PAL)" (CIG A0259125A9, verificato
+        # dall'utente il 23/11/2026: adesione all'AQ Consip ED.3 PAL, lotto 2, RTI gia' aggiudicatario).
+        - '\(\s*ED\.?\s*\d+\s+PAL\s*\)|accordo\s+quadro\s+consip|convenzione\s+consip'
       url: "https://areacom.eu/bandi-gara-aperti?page={pagina}"
     - nome: ASL 1 Abruzzo avvisi
       # DISATTIVATO, in attesa della decisione di Flavio (23/11/2026). Portale PAT di ISWEB. Il 403 del
