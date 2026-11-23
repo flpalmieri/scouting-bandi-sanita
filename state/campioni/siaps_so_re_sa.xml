@@ -5,112 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>70</afs:totRecord>
+<afs:totRecord>72</afs:totRecord>
 <item>
-	<title><![CDATA[Avviso ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4830324&tipobando=Avviso&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-23T12:00:00]]></link>
-	<category>Avviso</category>
-	<pubDate>06/11/2026</pubDate>
-	
-	<description>
-IdM - INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DEGLI O.E. DA INVITARE ALLA SUCCESSIVA PROCEDURA NEGOZIATA DI CUI ALL’ART. 50, CO. 1, LETT. E), DEL D.LGS. 36/2023 AI FINI DELL’AFFIDAMENTO DELLA FORNITURA DI BANCHI DI ASPIRAZIONE PER DISSEZIONE E RIDUZIONE PER LE ESIGENZE DELL’ U.O.C. ANATOMIA PATOLOGICA DELL’A.O.U. FEDERICO II&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[IdM - INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DEGLI O.E. DA INVITARE ALLA SUCCESSIVA PROCEDURA NEGOZIATA DI CUI ALL’ART. 50, CO. 1, LETT. E), DEL D.LGS. 36/2023 AI FINI DELL’AFFIDAMENTO DELLA FORNITURA DI BANCHI DI ASPIRAZIONE PER DISSEZIONE E RIDUZIONE PER LE ESIGENZE DELL’ U.O.C. ANATOMIA PATOLOGICA DELL’A.O.U. FEDERICO II]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Avviso]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[A.O.U. POLICLINICO FEDERICO II]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[215.590,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4830324]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[Altri Beni]]></afs:ambito>
-	<afs:CPV><![CDATA[33910000-2 - Strumenti e forniture per dissezione patologica]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-06T13:36:35]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4837069&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-23T12:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>12/11/2026</pubDate>
-	
-	<description>
-MANIFESTAZIONE DI INTERESSE FINALIZZATA ALL’INDIVIDUAZIONE DI OPERATORI ECONOMICI CUI EVENTUALMENTE AFFIDARE LA FORNITURA DI N. 03 DISPOSITIVI PER LA GESTIONE ED IL MONITORAGGIO DELLA TEMPERATURA DELLE SACCHE DA INFUSIONE, E N. 01 DISPOSITIVO PER IL RISCALDAMENTO DI SANGUE E FLUIDI INFUSIONALI OCCORRENTI ALLE UU.OO.CC. DELLA ASL CASERTA. &lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[MANIFESTAZIONE DI INTERESSE FINALIZZATA ALL’INDIVIDUAZIONE DI OPERATORI ECONOMICI CUI EVENTUALMENTE AFFIDARE LA FORNITURA DI N. 03 DISPOSITIVI PER LA GESTIONE ED IL MONITORAGGIO DELLA TEMPERATURA DELLE SACCHE DA INFUSIONE, E N. 01 DISPOSITIVO PER IL RISCALDAMENTO DI SANGUE E FLUIDI INFUSIONALI OCCORRENTI ALLE UU.OO.CC. DELLA ASL CASERTA. ]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[A.S.L. CASERTA]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[A.S.L. CASERTA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4837069]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[]]></afs:ambito>
-	<afs:CPV><![CDATA[]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-12T16:13:03]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4838210&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-23T12:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>13/11/2026</pubDate>
-	
-	<description>
-INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DELL’O.E. A CUI AFFIDARE, AI SENSI DELL’ART. 50, CO. 1, LETT. B), DEL D.LGS. 36/2023 LA FORNITURA DI POSIZIONATORI FLUIDI ANTIDECUBITO
-&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DELL’O.E. A CUI AFFIDARE, AI SENSI DELL’ART. 50, CO. 1, LETT. B), DEL D.LGS. 36/2023 LA FORNITURA DI POSIZIONATORI FLUIDI ANTIDECUBITO
-]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[A.S.L. NAPOLI 3 SUD]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[A.S.L. NAPOLI 3 SUD]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4838210]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[]]></afs:ambito>
-	<afs:CPV><![CDATA[]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T15:11:07]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4833472&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T10:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
@@ -148,7 +44,7 @@ Avviso di Indagine di Mercato ex art. 50, comma 2 del Dlgs 36/2023 per la fornit
 
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4827723&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T12:00:00]]></link>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4827723&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T12:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>04/11/2026</pubDate>
 	
@@ -173,7 +69,7 @@ Avviso di Indagine di Mercato ex art. 50, comma 2 del Dlgs 36/2023 per la fornit
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -184,7 +80,7 @@ Avviso di Indagine di Mercato ex art. 50, comma 2 del Dlgs 36/2023 per la fornit
 
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4848446&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T12:00:00]]></link>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4848446&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T12:00:00]]></link>
 	<category>Bando</category>
 	<pubDate>19/11/2026</pubDate>
 	
@@ -207,7 +103,7 @@ Affidamento ai sensi dell’art. 50, co. 1, lett. b) del D.Lgs. n. 36/2023 la fo
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -431,4 +327,110 @@ Affidamento, ai sensi dell’art. 50, co. 1, lett. b), del D.Lgs. 36/2023 la for
 	<pubDate>13/11/2026</pubDate>
 	
 	<description>
-INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DELL’O.E. A CUI AFFIDARE, AI SENSI DELL’ART. 50, CO. 1, LETT. B), DEL D.LGS. 36/2023 LA FORNITURA ANNUA
+INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DELL’O.E. A CUI AFFIDARE, AI SENSI DELL’ART. 50, CO. 1, LETT. B), DEL D.LGS. 36/2023 LA FORNITURA ANNUALE DI
+SOLUZIONE CUTANEA A BASE DI CLORO ATTIVO AL 0,057 G (CLORO ATTIVO 0,055G) NEI FORMATI DA 250 ML A 1.000 ML
+&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DELL’O.E. A CUI AFFIDARE, AI SENSI DELL’ART. 50, CO. 1, LETT. B), DEL D.LGS. 36/2023 LA FORNITURA ANNUALE DI
+SOLUZIONE CUTANEA A BASE DI CLORO ATTIVO AL 0,057 G (CLORO ATTIVO 0,055G) NEI FORMATI DA 250 ML A 1.000 ML
+]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[A.O.U. POLICLINICO FEDERICO II]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.O.U. POLICLINICO FEDERICO II]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4838241]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[]]></afs:ambito>
+	<afs:CPV><![CDATA[]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T15:25:04]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Avviso ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4848312&tipobando=Avviso&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-26T12:00:00]]></link>
+	<category>Avviso</category>
+	<pubDate>19/11/2026</pubDate>
+	
+	<description>
+Indizione procedura negoziata con Avviso Esplorativo e Manifestazione di interesse su piattaforma SIAPS/So.Re.Sa., ai sensi dell’art. 76 comma 2 per la fornitura semestrale, eventualmente prorogabile per ulteriori 6 mesi, di ANTISETTICI E DISINFETTANTI – Lotti deserti, occorrente agli aventi diritto dell’Asl Napoli 1 centro, con aggiudicazione ai sensi dell’art. 108 comma 3 del D.lgs 36/2023&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[Indizione procedura negoziata con Avviso Esplorativo e Manifestazione di interesse su piattaforma SIAPS/So.Re.Sa., ai sensi dell’art. 76 comma 2 per la fornitura semestrale, eventualmente prorogabile per ulteriori 6 mesi, di ANTISETTICI E DISINFETTANTI – Lotti deserti, occorrente agli aventi diritto dell’Asl Napoli 1 centro, con aggiudicazione ai sensi dell’art. 108 comma 3 del D.lgs 36/2023]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Avviso]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.S.L. NAPOLI 1 CENTRO]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[16.500,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4848312]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[Farmaci e Disp. Medici]]></afs:ambito>
+	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T11:11:03]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4832625&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-26T15:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>10/11/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Procedura negoziata per la fornitura triennale di sensori monouso compatibili per monitoraggio con tecnologia Masimo &quot;Invito dall&#39; Avviso PI132983-26&quot;&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Procedura negoziata per la fornitura triennale di sensori monouso compatibili per monitoraggio con tecnologia Masimo "Invito dall' Avviso PI132983-26"]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[A.O.U. "LUIGI VANVITELLI"]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.O.U. "LUIGI VANVITELLI"]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[357.110,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T15:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4832625]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[Altri Beni]]></afs:ambito>
+	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-10T11:46:33]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4838284&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T10:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>13/11/2026</pubDate>
+	
+	<description>
+AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO (ART. 77, DEL D. LGS. 36/2023) PROPEDEUTICA ALL’ESPLETAMENTO DI UNA PROCEDURA ATTRAVERSO LA PIATTAFORMA ELETTRONICA PER ACQUIS

@@ -1,9 +1,9 @@
 {
-  "eseguito_il": "2026-11-22T13:06:02+00:00",
+  "eseguito_il": "2026-11-23T11:31:52+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
-      "pertinenti": 4
+      "pertinenti": 6
     },
     "portali_rss": {
       "esito": "ok",
@@ -19,7 +19,7 @@
     },
     "sintel": {
       "esito": "ok",
-      "pertinenti": 25
+      "pertinenti": 22
     },
     "plone": {
       "esito": "ok",
@@ -27,7 +27,7 @@
     },
     "centrale_acquisti": {
       "esito": "ok",
-      "pertinenti": 6
+      "pertinenti": 5
     },
     "jaggaer": {
       "esito": "ok",
@@ -35,6 +35,6 @@
     }
   },
   "errori": [],
-  "nuove_opportunita": 0,
-  "totale": 110
+  "nuove_opportunita": 2,
+  "totale": 112
 }

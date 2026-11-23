@@ -1,42 +1,6 @@
 {
- "totale_dichiarato": 77,
+ "totale_dichiarato": 74,
  "righe": [
-  {
-   "procedura": "Affidamento diretto",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
-   "protocollo": "",
-   "titolo": "RdI aperta a tutti volta all'affidamento diretto di “Dispositivo impiantabile riassorbibile per lo spazio subacromiale (distanziatore tissutale)” per 24 mesi.",
-   "tipologia": "Forniture",
-   "scadenza": "22/11/2026 23:59",
-   "id": "26161"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "CUC SACILE, BRUGNERA E CANEVA",
-   "protocollo": "",
-   "titolo": "SACILE - POLIZZA ALL RISK 2027 - 2028",
-   "tipologia": "Servizi",
-   "scadenza": "23/11/2026 12:00",
-   "id": "26183"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
-   "protocollo": "",
-   "titolo": "Procedura aperta per l’affidamento dei lavori di manutenzione straordinaria con ribitumature lungo la rete viaria di competenza dell’EDR di Udine interventi UD_25_09-1, UD_25_09-2, UD_25_09-3, UD_25_09-4, UD_25_09-5, UD_25_09-6",
-   "tipologia": "Lavori",
-   "scadenza": "23/11/2026 12:00",
-   "id": "26103"
-  },
-  {
-   "procedura": "Asta di Vendita",
-   "ente": "COMUNE DI PASIAN DI PRATO",
-   "protocollo": "",
-   "titolo": "ASTA VENDITA MEZZI AGRICOLI",
-   "tipologia": "Vendita/Locazione",
-   "scadenza": "23/11/2026 12:00",
-   "id": "26089"
-  },
   {
    "procedura": "Procedura non europea",
    "ente": "Comune di San Vito al Tagliamento",
@@ -74,15 +38,6 @@
    "id": "26271"
   },
   {
-   "procedura": "Altro",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
-   "protocollo": "",
-   "titolo": "Fornitura del materiale di consumo originale e/o compatibile con il dosimetro per metacolina APS Vyaire Jaeger, per 48 mesi",
-   "tipologia": "Forniture",
-   "scadenza": "26/11/2026 12:00",
-   "id": "26299"
-  },
-  {
    "procedura": "UE - Procedura Negoziata",
    "ente": "Centrale unica di committenza FVG",
    "protocollo": "",
@@ -90,6 +45,15 @@
    "tipologia": "Forniture",
    "scadenza": "26/11/2026 12:00",
    "id": "26320"
+  },
+  {
+   "procedura": "Altro",
+   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
+   "protocollo": "",
+   "titolo": "Fornitura del materiale di consumo originale e/o compatibile con il dosimetro per metacolina APS Vyaire Jaeger, per 48 mesi",
+   "tipologia": "Forniture",
+   "scadenza": "26/11/2026 12:00",
+   "id": "26299"
   },
   {
    "procedura": "Affidamento diretto",
@@ -110,15 +74,6 @@
    "id": "26286"
   },
   {
-   "procedura": "Affidamento diretto",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
-   "protocollo": "",
-   "titolo": "Materassi 8 maniglie per barella ambulanza",
-   "tipologia": "Forniture",
-   "scadenza": "27/11/2026 12:00",
-   "id": "26285"
-  },
-  {
    "procedura": "UE - Procedura Aperta",
    "ente": "Insiel",
    "protocollo": "",
@@ -126,6 +81,15 @@
    "tipologia": "Forniture",
    "scadenza": "27/11/2026 12:00",
    "id": "26136"
+  },
+  {
+   "procedura": "Affidamento diretto",
+   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
+   "protocollo": "",
+   "titolo": "Materassi 8 maniglie per barella ambulanza",
+   "tipologia": "Forniture",
+   "scadenza": "27/11/2026 12:00",
+   "id": "26285"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -155,15 +119,6 @@
    "id": "26022"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "Centrale unica di committenza FVG",
-   "protocollo": "",
-   "titolo": "Servizio somministrazione lavoro EE.LL. - 6^ ed. [Codice iniziativa: 26PGR275]",
-   "tipologia": "Servizi",
-   "scadenza": "30/11/2026 12:00",
-   "id": "26121"
-  },
-  {
    "procedura": "Affidamento diretto",
    "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
    "protocollo": "",
@@ -171,6 +126,15 @@
    "tipologia": "Forniture",
    "scadenza": "30/11/2026 12:00",
    "id": "26330"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "Centrale unica di committenza FVG",
+   "protocollo": "",
+   "titolo": "Servizio somministrazione lavoro EE.LL. - 6^ ed. [Codice iniziativa: 26PGR275]",
+   "tipologia": "Servizi",
+   "scadenza": "30/11/2026 12:00",
+   "id": "26121"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -371,13 +335,13 @@
    "id": "26254"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
+   "procedura": "Procedura non europea",
+   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
    "protocollo": "",
-   "titolo": "SERVIZIO DI ACCOMPAGNAMENTO E DI TRASPORTO CON AUTOMEZZI ATTREZZATI ED OMOLOGATI PER IL TRASPORTO DEI PAZIENTI NEFROPATICI SOTTOPOSTI A TRATTAMENTO DIALITICO PER ASUGI",
+   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
    "tipologia": "Servizi",
    "scadenza": "10/12/2026 12:00",
-   "id": "25989"
+   "id": "26269"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -398,13 +362,13 @@
    "id": "26260"
   },
   {
-   "procedura": "Procedura non europea",
-   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
+   "procedura": "UE - Procedura Aperta",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
    "protocollo": "",
-   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
+   "titolo": "SERVIZIO DI ACCOMPAGNAMENTO E DI TRASPORTO CON AUTOMEZZI ATTREZZATI ED OMOLOGATI PER IL TRASPORTO DEI PAZIENTI NEFROPATICI SOTTOPOSTI A TRATTAMENTO DIALITICO PER ASUGI",
    "tipologia": "Servizi",
    "scadenza": "10/12/2026 12:00",
-   "id": "26269"
+   "id": "25989"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -506,6 +470,15 @@
    "id": "26334"
   },
   {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "Centrale unica di committenza FVG",
+   "protocollo": "",
+   "titolo": "25FAR003.2 CUC - VACCINI – LOTTI DESERTI",
+   "tipologia": "Forniture",
+   "scadenza": "23/12/2026 12:00",
+   "id": "26338"
+  },
+  {
    "procedura": "Avviso di preinformazione",
    "ente": "ITS per le Tecnologie dell’Informazione e della Comunicazione Alto Adriatico",
    "protocollo": "",
@@ -524,6 +497,24 @@
    "id": "20343"
   },
   {
+   "procedura": "Procedura non europea",
+   "ente": "Comune di Treppo Ligosullo",
+   "protocollo": "",
+   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2026 23:59",
+   "id": "24227"
+  },
+  {
+   "procedura": "Procedura non europea",
+   "ente": "COMUNE DI ARTA TERME",
+   "protocollo": "",
+   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2026 23:59",
+   "id": "24226"
+  },
+  {
    "procedura": "Manifestazione di Interesse",
    "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
    "protocollo": "",
@@ -540,24 +531,6 @@
    "tipologia": "Lavori",
    "scadenza": "31/12/2026 23:59",
    "id": "25341"
-  },
-  {
-   "procedura": "Procedura non europea",
-   "ente": "COMUNE DI ARTA TERME",
-   "protocollo": "",
-   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2026 23:59",
-   "id": "24226"
-  },
-  {
-   "procedura": "Procedura non europea",
-   "ente": "Comune di Treppo Ligosullo",
-   "protocollo": "",
-   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2026 23:59",
-   "id": "24227"
   },
   {
    "procedura": "UE - Procedura Aperta",
