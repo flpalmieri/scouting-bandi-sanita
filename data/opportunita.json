@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-23T12:26:43+00:00",
- "totale": 116,
+ "aggiornato_il": "2026-11-23T12:38:11+00:00",
+ "totale": 114,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -2055,28 +2055,6 @@
    "ultimo_rilevamento": "2026-11-23"
   },
   {
-   "id": "izsam:10293",
-   "fonti": [
-    "IZSAM"
-   ],
-   "titolo": "Avviso volontario di consultazione preliminare di mercato, ai sensi dell'art. 77 del D.Lgs. 36/2023, per l'acquisizione di informazioni sul mercato relative alla fornitura di kit diagnostici ELISA IDvet e di eventuali soluzioni tecnicamente equivalenti",
-   "ente": "IZSAM - Istituto Zooprofilattico Sperimentale dell'Abruzzo e del Molise G. Caporale",
-   "scadenza": "2026-12-10",
-   "pubblicazione": "2026-11-20",
-   "importo": null,
-   "cpv": [
-    "33696000"
-   ],
-   "cig": [],
-   "tipo": "consultazione di mercato",
-   "link": "https://izs.acquistitelematici.it/tender/10293",
-   "regione": "Abruzzo",
-   "motivo_match": "Ente sanitario + oggetto IT ('informatic')",
-   "descrizione": "La presente pubblicazione è finalizzata esclusivamente alla raccolta di contributi e informazioni nell'ambito di una consultazione preliminare di mercato ai sensi dell'art. 77 del D.Lgs. 36/2023. La funzione «Manifestazione di interesse» è utilizzata esclusivamente quale strumento informatico per consentire agli operatori economici interessati di trasmettere la documentazione richiesta nell'Avviso. La presente iniziativa non costituisce una procedura di affidamento, una selezione di operatori economici da invitare, né comporta la formazione di elenchi o graduatorie. La partecipazione alla cons",
-   "primo_rilevamento": "2026-11-20",
-   "ultimo_rilevamento": "2026-11-23"
-  },
-  {
    "id": "intercenter:f2bb97abb3ed",
    "fonti": [
     "Intercent-ER"
@@ -2330,28 +2308,6 @@
    "motivo_match": "Ente sanitario + oggetto IT ('RIS')",
    "descrizione": null,
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-23"
-  },
-  {
-   "id": "areacom:de08cb15e95e",
-   "fonti": [
-    "AreaCom"
-   ],
-   "titolo": "Servizi applicativi in ottica cloud e servizi di Demand e PMO per le Pubbliche Amministrazioni Locali - (ED.3 PAL)",
-   "ente": "AreaCom - Agenzia regionale dell'Abruzzo per la Committenza",
-   "scadenza": null,
-   "pubblicazione": "2026-07-23",
-   "importo": null,
-   "cpv": [],
-   "cig": [
-    "A0259125A9"
-   ],
-   "tipo": "bando",
-   "link": "https://areacom.eu/bandi-gara-contratti/cloud-demand-pmo-ed3-pal",
-   "regione": "Abruzzo",
-   "motivo_match": "Soggetto aggregatore + oggetto IT ('applicativ') - da verificare",
-   "descrizione": "DATA PUBBLICAZIONE: 23/07/2026\nDATA SCADENZA: \nTIPOLOGIA: Servizi\nIMPORTO: \nCIG: A0259125A9",
-   "primo_rilevamento": "2026-11-13",
    "ultimo_rilevamento": "2026-11-23"
   },
   {
