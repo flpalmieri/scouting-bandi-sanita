@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-23T13:18:32+00:00",
- "totale": 112,
+ "aggiornato_il": "2026-11-23T14:02:22+00:00",
+ "totale": 113,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -2291,6 +2291,28 @@
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
    "ultimo_rilevamento": "2026-10-29"
+  },
+  {
+   "id": "ted:795909-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "Consultazione preliminare di mercato indetta ai sensi degli artt. 77 e ss. del D. Lgs. n. 36/2023 e ss.mm.ii., finalizzata alla verifica delle condizioni di infungibilità per l'affidamento di servizi di manutenzione e assistenza tecnica del sistema informativo a supporto della rete dello screening prenatale in utilizzo presso le strutture degli Enti del SSR della Regione Marche, propedeutica all'i",
+   "ente": "Regione Marche",
+   "scadenza": null,
+   "pubblicazione": "2026-11-16",
+   "importo": null,
+   "cpv": [
+    "72250000"
+   ],
+   "cig": [],
+   "tipo": "pin-only",
+   "link": "https://ted.europa.eu/it/notice/-/detail/795909-2026",
+   "regione": null,
+   "motivo_match": "Oggetto sanitario ('screening') + CPV IT (72250000)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-23",
+   "ultimo_rilevamento": "2026-11-23"
   },
   {
    "id": "ted:807322-2026",

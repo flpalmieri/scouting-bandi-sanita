@@ -3,13 +3,13 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 283
+  "righe_lette": 284
  },
  "lombardia_ambito_4": {
-  "righe_prima_pagina": 86,
+  "righe_prima_pagina": 87,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 86
+  "righe_lette": 87
  },
  "lombardia_ambito_5": {
   "righe_prima_pagina": 28,
@@ -24,10 +24,10 @@
   "righe_lette": 79
  },
  "lombardia_ambito_8": {
-  "righe_prima_pagina": 21,
+  "righe_prima_pagina": 20,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 21
+  "righe_lette": 20
  },
  "lombardia_ambito_9": {
   "righe_prima_pagina": 22,
@@ -42,21 +42,21 @@
   "righe_lette": 16
  },
  "lombardia": {
-  "righe_lette": 535,
+  "righe_lette": 536,
   "enti_sanitari": {
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 17,
-   "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 16,
+   "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 15,
    "ASST DELLA VALLE OLONA": 10,
    "ASST DI BERGAMO OVEST": 9,
    "ASST DEI SETTE LAGHI": 8,
    "ASST DI BERGAMO EST": 8,
    "ASST LARIANA": 8,
+   "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 8,
    "AGENZIA REGIONALE EMERGENZA URGENZA (AREU 118)": 7,
    "ASST DELLA VALTELLINA E DELL'ALTO LARIO": 7,
    "ASST DI CREMA": 7,
    "ASST DI MANTOVA": 7,
    "ASST PAPA GIOVANNI XXIII": 7,
-   "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 7,
    "FONDAZIONE IRCCS SAN GERARDO DEI TINTORI DI MONZA": 6,
    "ASST DELLA FRANCIACORTA": 5,
    "ASST DI LECCO": 5,
@@ -83,7 +83,7 @@
    "ASST SANTI PAOLO E CARLO": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 344,
+  "procedure_altri_enti": 345,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "COMUNE DI MILANO": 12,
@@ -94,6 +94,7 @@
    "PROVINCIA DI LECCO": 6,
    "COMUNE DI LIVIGNO": 5,
    "COMUNE DI RHO": 5,
+   "PROVINCIA DI BERGAMO": 5,
    "PROVINCIA DI PAVIA": 5,
    "AGESP S.P.A.": 4,
    "COMUNE DI BERGAMO": 4,
@@ -104,12 +105,10 @@
    "COMUNE DI LOMAZZO": 4,
    "COMUNE DI SARONNO": 4,
    "COMUNE DI VERTEMATE CON MINOPRIO": 4,
-   "PROVINCIA DI BERGAMO": 4,
    "UNIVERSITA' DEGLI STUDI DI BRESCIA": 4,
    "ALER BRESCIA - CREMONA - MANTOVA": 3,
    "CMP SVILUPPOIMPRESA - AZIENDA SPECIALE DELLA CAMERA DI COMMERCIO DI CREMONA-MANTOVA-PAVIA": 3,
    "COMUNE DI BRONI": 3,
-   "COMUNE DI BUSSERO": 3,
    "COMUNE DI CASSANO MAGNAGO": 3,
    "COMUNE DI CREMONA": 3,
    "COMUNE DI PADERNO DUGNANO": 3,
@@ -125,6 +124,7 @@
    "CLUB ALPINO ITALIANO": 2,
    "COMUNE DI BARANZATE": 2,
    "COMUNE DI BORGO VIRGILIO": 2,
+   "COMUNE DI BUSSERO": 2,
    "COMUNE DI CANT¿": 2,
    "COMUNE DI CASNATE CON BERNATE": 2,
    "COMUNE DI CASTELLO DI BRIANZA": 2,
@@ -184,6 +184,7 @@
    "COMUNE DI CESANO MADERNO": 1,
    "COMUNE DI CHIUDUNO": 1,
    "COMUNE DI CONCOREZZO": 1,
+   "COMUNE DI CORNAREDO": 1,
    "COMUNE DI COSTA DI MEZZATE": 1,
    "COMUNE DI COSTA SERINA": 1,
    "COMUNE DI DARFO BOARIO TERME": 1,
@@ -253,7 +254,7 @@
    "COMUNE DI VISANO": 1,
    "COMUNE DI ZIBIDO SAN GIACOMO": 1,
    "COMUNE DI ZOGNO": 1,
-   "COMUNITA' DELLA PIANURA BRESCIANA - FONDAZIONE DI PARTECIPAZIONE": 1,
+   "COMUNITÀ MONTANA ALTA VALTELLINA": 1,
    "COMUNITÀ MONTANA SEBINO BRESCIANO": 1,
    "COMUNITÀ MONTANA TRIANGOLO LARIANO": 1,
    "COMUNITÀ MONTANA VALTELLINA DI TIRANO": 1,
@@ -285,17 +286,17 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 163,
+  "righe_prima_pagina": 162,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 163,
+  "righe_lette": 162,
   "enti_sanitari": {
    "AZIENDA ULSS N. 8 BERICA": 33,
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA": 26,
    "AZIENDA OSPEDALIERA UNIVERSITARIA INTEGRATA DI VERONA": 13,
    "AZIENDA ULSS N. 3 SERENISSIMA": 13,
    "AZIENDA ULSS N. 5 POLESANA": 10,
-   "AZIENDA ULSS N. 7 PEDEMONTANA": 10,
+   "AZIENDA ULSS N. 7 PEDEMONTANA": 9,
    "AZIENDA ZERO": 8,
    "ISTITUTO ONCOLOGICO VENETO I.R.C.C.S.": 5,
    "AZIENDA ULSS N. 4 VENETO ORIENTALE": 3,
@@ -334,10 +335,10 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 141,
+  "righe_prima_pagina": 142,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 141,
+  "righe_lette": 142,
   "enti_sanitari": {
    "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 33,
    "A.O. ORDINE MAURIZIANO TORINO": 11,
@@ -352,10 +353,10 @@
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DEL PIEMONTE, LIGURIA E VALLE D'AOSTA": 3,
    "ASL CN1": 2,
    "ASL TO3": 2,
+   "ASL VERBANO CUSIO OSSOLA": 2,
    "AZIENDA SANITARIA LOCALE AL": 2,
    "AZIENDA SANITARIA ZERO": 2,
    "ASL BI": 1,
-   "ASL VERBANO CUSIO OSSOLA": 1,
    "AZIENDA OSPEDALIERO-UNIVERSITARIA SAN LUIGI GONZAGA": 1,
    "CSI PIEMONTE": 1,
    "SCR PIEMONTE SPA": 1
