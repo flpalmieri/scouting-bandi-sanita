@@ -414,18 +414,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18043228", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_PORTALE@18043228", 
       "@type": "BandoIntercenter", 
       "Date": "2026-10-22T23:00:00+01:00", 
       "Description": "CONSULTAZIONE PRELIMINARE DI MERCATO RELATIVA AL MATERIALE DI CONSUMO DEDICATO ALLA STRUMENTAZIONE PER LA QUANTIFICAZIONE, CLASSIFICAZIONE E FENOTIPIZZAZIONE DELLE VESCICOLE EXTRACELLULARI, OCCORRENTE ALL\u2019IRCCS - ISTITUTO DELLE SCIENZE NEUROLOGICHE DELL\u2019AZIENDA USL DI BOLOGNA", 
       "Subject": [], 
       "Title": "CONSULTAZIONE PRELIMINARE DI MERCATO RELATIVA AL MATERIALE DI CONSUMO DEDICATO ALLA STRUMENTAZIONE PER LA QUANTIFICAZIONE, CLASSIFICAZIONE E FENOTIPIZZAZIONE DELLE VESCICOLE EXTRACELLULARI", 
-      "UID": "5acfa63ab32c4e4099ae2dc3f0f581c2", 
+      "UID": "bd2357020f094161acc844b5fb9f06ee", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "CONSULTAZIONE PRELIMINARE DI MERCATO RELATIVA AL MATERIALE DI CONSUMO DEDICATO ALLA STRUMENTAZIONE PER LA QUANTIFICAZIONE, CLASSIFICAZIONE E FENOTIPIZZAZIONE DELLE VESCICOLE EXTRACELLULARI, OCCORRENTE ALL\u2019IRCCS - ISTITUTO DELLE SCIENZE NEUROLOGICHE DELL\u2019AZIENDA USL DI BOLOGNA", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -962,4 +962,4 @@
       "scadenza_bando": "2026-11-16T11:00:00+00:00", 
       "tipologia_bando": null, 
       "title": "Servizio di consulenza e di supporto tecnico per la realizzazione di percorsi di co-progettazione con Budget di Salute", 
-      "type
+      "ty

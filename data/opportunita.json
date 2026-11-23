@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-23T14:02:22+00:00",
- "totale": 113,
+ "aggiornato_il": "2026-11-23T15:42:44+00:00",
+ "totale": 114,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -1992,6 +1992,26 @@
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-05",
+   "ultimo_rilevamento": "2026-11-23"
+  },
+  {
+   "id": "sintel:226965660",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "CONSULTAZIONE PRELIMINARE DI MERCATO (ai sensi dell'art. 77 del D.Lgs. n. 36/2023)PER L’ACQUISIZIONE DELLA FORNITURA DEI SERVIZI DI ASSISTENZA ORDINARIA APPLICATIVA, SISTEMISTICA, SISS, COMPONENTI AGGIUNTIVI E MANUTENZIONE EVOLUTIVA PER I SISTEMI INFORMATIVI DI ACCETTAZIONE, CUP, AMBULATORI, LIBERA PROFESSIONE E PRONTO SOCCORSO DELLA FONDAZIONE IRCCS CA’ GRANDA",
+   "ente": "FONDAZIONE IRCCS CA' GRANDA - OSPEDALE MAGGIORE POLICLINICO",
+   "scadenza": "2026-12-09",
+   "pubblicazione": "2026-11-23",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=226965660",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-23",
    "ultimo_rilevamento": "2026-11-23"
   },
   {

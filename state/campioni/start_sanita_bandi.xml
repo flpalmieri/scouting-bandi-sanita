@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>42</afs:totRecord>
+<afs:totRecord>46</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=625465&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00]]></link>
@@ -386,13 +386,13 @@ ELSE-MC, inv. P023899, seriale C0157-20-01 ]]>  </afs:Oggetto>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-19T12:23:18]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T16:28:34]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[33171000-9 - Strumenti per anestesia e rianimazione]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T12:23:18]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=627465&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T13:00:00]]></link>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=627465&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T13:00:00]]></link>
 	<category>Bando</category>
 	<pubDate>23/11/2026</pubDate>
 	<description>RECUGEL -GEL OCULARE 10 G.  - COD. 03001CH/IT-IC – 
@@ -420,7 +420,7 @@ pz 120
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -428,4 +428,4 @@ pz 120
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T12:57:30]
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T12:57:30]]>
