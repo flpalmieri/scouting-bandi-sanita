@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-24T09:01:55+00:00",
+  "eseguito_il": "2026-11-24T09:13:40+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -47,7 +47,8 @@
     }
   },
   "errori": [
-    "portali_html: ISMETT: 403 Client Error: Forbidden for url: https://ismett.traspare.com/announcements?status=2&page=1"
+    "portali_html: ASP Siracusa: timed out",
+    "net4market: AO Cannizzaro: gara 7: oggetto o date non riconosciuti"
   ],
   "nuove_opportunita": 0,
   "totale": 114

@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>24</afs:totRecord>
+<afs:totRecord>25</afs:totRecord>
 <item>
     <title><![CDATA[Gara Bonifica ex conceria CAP_Chieti - AreaCom - Agenzia regionale dell'Abruzzo per la Committenza]]></title>
     <link><![CDATA[https://giada.areacom.eu/portale/index.php/bandi?getdettaglio=yes&bando=354779&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARAPORTALE&xslt=XSLTBANDO_GARA_PORTALE&scadenzaBando=2026-11-24T12:00:00]]></link>
@@ -38,7 +38,7 @@
     <afs:bScaduto><![CDATA[0]]></afs:bScaduto>
     <afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
     <afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-    <afs:dataUltimaModifica><![CDATA[2026-11-24T10:01:04]]></afs:dataUltimaModifica>
+    <afs:dataUltimaModifica><![CDATA[2026-11-24T10:11:29]]></afs:dataUltimaModifica>
     <afs:CPV><![CDATA[45112300-8 - Lavori di riporto e bonifica del terreno]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 <afs:DtPubblicazioneTecnical><![CDATA[2026-11-05T10:33:12]]></afs:DtPubblicazioneTecnical>
