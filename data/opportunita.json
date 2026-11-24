@@ -1,5 +1,5 @@
 {
- "aggiornato_il": "2026-11-24T08:51:35+00:00",
+ "aggiornato_il": "2026-11-24T09:01:55+00:00",
  "totale": 114,
  "opportunita": [
   {
@@ -1854,7 +1854,7 @@
    "cpv": [],
    "cig": [],
    "tipo": "consultazione di mercato",
-   "link": "https://giada.areacom.eu/portalegare/index.php/consultazioni-preliminari-di-mercato?getdettaglio=yes&bando=361686&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-04T10:00:00",
+   "link": "https://giada.areacom.eu/portalegare/index.php/consultazioni-preliminari-di-mercato?getdettaglio=yes&bando=361686&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-04T10:00:00",
    "regione": "Abruzzo",
    "motivo_match": "Ente sanitario + oggetto IT ('ARCHIVIO DIGITAL')",
    "descrizione": null,

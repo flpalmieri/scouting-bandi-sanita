@@ -5,44 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>72</afs:totRecord>
+<afs:totRecord>71</afs:totRecord>
 <item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4833472&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T10:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>10/11/2026</pubDate>
-	
-	<description>
-Avviso di Indagine di Mercato ex art. 50, comma 2 del Dlgs 36/2023 per la fornitura dei dispositivi per il controllo accessi ai locali destinati alla custodia di medicinali stupefacenti o psicotropi comprensivo del software di gestione e servizio di manutenzione “full risk” per l’A.O.R.N. “A. Cardarelli”
-&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[Avviso di Indagine di Mercato ex art. 50, comma 2 del Dlgs 36/2023 per la fornitura dei dispositivi per il controllo accessi ai locali destinati alla custodia di medicinali stupefacenti o psicotropi comprensivo del software di gestione e servizio di manutenzione “full risk” per l’A.O.R.N. “A. Cardarelli”
-]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[A.O. CARDARELLI]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[A.O. CARDARELLI]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4833472]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[]]></afs:ambito>
-	<afs:CPV><![CDATA[]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-10T15:42:30]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4827723&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T12:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
@@ -433,4 +397,44 @@ Indizione procedura negoziata con Avviso Esplorativo e Manifestazione di interes
 	<pubDate>13/11/2026</pubDate>
 	
 	<description>
-AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO (ART. 77, DEL D. LGS. 36/2023) PROPEDEUTICA ALL’ESPLETAMENTO DI UNA PROCEDURA ATTRAVERSO LA PIATTAFORMA ELETTRONICA PER ACQUIS
+AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO (ART. 77, DEL D. LGS. 36/2023) PROPEDEUTICA ALL’ESPLETAMENTO DI UNA PROCEDURA ATTRAVERSO LA PIATTAFORMA ELETTRONICA PER ACQUISTI PER LA FORNITURA IN NOLEGGIO DI NOLEGGIO DI N. 6 GENERATORI AD ARGON PER I PP.OO. DELL’ASL NAPOLI 3 SUD
+&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO (ART. 77, DEL D. LGS. 36/2023) PROPEDEUTICA ALL’ESPLETAMENTO DI UNA PROCEDURA ATTRAVERSO LA PIATTAFORMA ELETTRONICA PER ACQUISTI PER LA FORNITURA IN NOLEGGIO DI NOLEGGIO DI N. 6 GENERATORI AD ARGON PER I PP.OO. DELL’ASL NAPOLI 3 SUD
+]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[A.S.L. NAPOLI 3 SUD]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.S.L. NAPOLI 3 SUD]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4838284]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[]]></afs:ambito>
+	<afs:CPV><![CDATA[]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T15:47:19]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4848732&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>19/11/2026</pubDate>
+	
+	<description>
+ACQUISTO AGHI IPODERMICI PER UOC OCULISTICA&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[ACQUISTO AGHI IPODERMICI PER UOC OCULISTICA]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consult

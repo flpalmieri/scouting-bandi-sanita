@@ -6,10 +6,10 @@
   "righe_lette": 287
  },
  "lombardia_ambito_4": {
-  "righe_prima_pagina": 85,
+  "righe_prima_pagina": 86,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 85
+  "righe_lette": 86
  },
  "lombardia_ambito_5": {
   "righe_prima_pagina": 28,
@@ -18,10 +18,10 @@
   "righe_lette": 28
  },
  "lombardia_ambito_7": {
-  "righe_prima_pagina": 78,
+  "righe_prima_pagina": 79,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 78
+  "righe_lette": 79
  },
  "lombardia_ambito_8": {
   "righe_prima_pagina": 21,
@@ -42,7 +42,7 @@
   "righe_lette": 17
  },
  "lombardia": {
-  "righe_lette": 539,
+  "righe_lette": 541,
   "enti_sanitari": {
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 16,
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 15,
@@ -60,12 +60,12 @@
    "ASST DELLA FRANCIACORTA": 5,
    "ASST DELLA VALTELLINA E DELL'ALTO LARIO": 5,
    "ASST DI LODI": 5,
+   "ASST OVEST MILANESE": 5,
    "ASST RHODENSE": 5,
    "FONDAZIONE IRCCS CA' GRANDA - OSPEDALE MAGGIORE POLICLINICO": 5,
    "ASST DI CREMONA": 4,
    "ASST DI LECCO": 4,
    "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA": 4,
-   "ASST OVEST MILANESE": 4,
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO": 3,
    "ASST DEGLI SPEDALI CIVILI DI BRESCIA": 3,
    "ASST DELLA VALCAMONICA": 3,
@@ -83,7 +83,7 @@
    "ASST SANTI PAOLO E CARLO": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 348,
+  "procedure_altri_enti": 349,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 18,
    "COMUNE DI MILANO": 13,
@@ -97,6 +97,7 @@
    "COMUNE DI RHO": 5,
    "PROVINCIA DI BERGAMO": 5,
    "AGESP S.P.A.": 4,
+   "COMUNE DI BRONI": 4,
    "COMUNE DI BUCCINASCO": 4,
    "COMUNE DI BUSTO ARSIZIO": 4,
    "COMUNE DI CARUGATE": 4,
@@ -110,7 +111,6 @@
    "ALER BRESCIA - CREMONA - MANTOVA": 3,
    "BRIANZACQUE S.R.L.": 3,
    "CMP SVILUPPOIMPRESA - AZIENDA SPECIALE DELLA CAMERA DI COMMERCIO DI CREMONA-MANTOVA-PAVIA": 3,
-   "COMUNE DI BRONI": 3,
    "COMUNE DI CASSANO MAGNAGO": 3,
    "COMUNE DI CASTELLO DI BRIANZA": 3,
    "COMUNE DI CREMONA": 3,
@@ -286,10 +286,10 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 160,
+  "righe_prima_pagina": 161,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 160,
+  "righe_lette": 161,
   "enti_sanitari": {
    "AZIENDA ULSS N. 8 BERICA": 32,
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA": 26,
@@ -304,9 +304,9 @@
    "AZIENDA ULSS N. 1 DOLOMITI": 2,
    "AZIENDA ULSS N. 2 MARCA TREVIGIANA": 2
   },
-  "procedure_altri_enti": 35,
+  "procedure_altri_enti": 36,
   "altri_enti": {
-   "COMUNE DI PADOVA": 10,
+   "COMUNE DI PADOVA": 11,
    "COMUNE DI VERONA": 5,
    "AGEC": 4,
    "COMUNE DI TREVISO": 2,

@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-24T08:51:35+00:00",
+  "eseguito_il": "2026-11-24T09:01:55+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -7,7 +7,7 @@
     },
     "portali_rss": {
       "esito": "ok",
-      "pertinenti": 22
+      "pertinenti": 21
     },
     "portali_html": {
       "esito": "ok",
@@ -38,7 +38,7 @@
       "pertinenti": 1
     },
     "net4market": {
-      "esito": "errore",
+      "esito": "ok",
       "pertinenti": 0
     },
     "tuttogare": {
@@ -47,17 +47,7 @@
     }
   },
   "errori": [
-    "net4market: ASP Ragusa: HTTPSConnectionPool(host='app.albofornitori.it', port=443): Max retries exceeded with url: /alboeproc/alboeproc/servizioGarePubblico (Caused by ResponseError('too many 500 error responses'))",
-    "portali_html: ASP Catania: HTTPSConnectionPool(host='www.aspct.it', port=443): Max retries exceeded with url: /fornitore/bandi-di-gara/default.aspx?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.aspct.it', port=443) at 0x7db60541c320>, 'Connection to www.aspct.it timed out. (connect timeout=10.0)'))",
-    "portali_html: ISMETT: 403 Client Error: Forbidden for url: https://ismett.traspare.com/announcements?status=2&page=1",
-    "maggioli: GT-SUAM: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
-    "maggioli: AST Ancona: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
-    "maggioli: AST Pesaro Urbino (GTAOMN): connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
-    "maggioli: AST Macerata: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
-    "maggioli: AST Fermo: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
-    "maggioli: AST Ascoli Piceno: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
-    "maggioli: AOU delle Marche (GTAOAN): connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
-    "maggioli: GTMULTIE (INRCA e ARS): connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate"
+    "portali_html: ISMETT: 403 Client Error: Forbidden for url: https://ismett.traspare.com/announcements?status=2&page=1"
   ],
   "nuove_opportunita": 0,
   "totale": 114

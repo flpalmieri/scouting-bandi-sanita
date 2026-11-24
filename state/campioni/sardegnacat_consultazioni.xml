@@ -8,7 +8,7 @@
 <afs:totRecord>15</afs:totRecord>
 <item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/?getdettaglio=yes&bando=1078223&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/?getdettaglio=yes&bando=1078223&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>19/11/2026</pubDate>
 	
@@ -30,7 +30,7 @@ Servizio di gestione dell&#39;attivit&#224; formativa, organizzativa e amministr
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -219,7 +219,7 @@ CUP: F23G24001030006.
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T18:51:37.460]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T10:00:26.087]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-09T10:11:45]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -401,4 +401,4 @@ Servizio di gestione del Cantiere Comunale relativo al “Programma Integrato Pl
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/?getdettaglio=yes&bando=1079894&tipobando=Con
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/?getdettaglio=yes&bando=1079894&tipobando=Consu

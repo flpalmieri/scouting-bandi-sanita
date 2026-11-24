@@ -189,7 +189,7 @@ Consultazione preliminare di mercato per l&#39;eventuale affidamento di matrice 
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T13:16:32.080]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T09:55:37.347]]></afs:dataUltimaModifica>
 <afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T10:36:42]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
@@ -230,7 +230,7 @@ Indagine di mercato finalizzata all’individuazione di operatori economici da i
 <afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T09:57:46]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=361686&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-04T10:00:00]]></link>
+	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=361686&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-04T10:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>18/11/2026</pubDate>
 	
@@ -255,7 +255,7 @@ MANIFESTAZIONE DI INTERESSE A PARTECIPARE ALLA PROCEDURA PER L’AFFIDAMENTO, AI
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>

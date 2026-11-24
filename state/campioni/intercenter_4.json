@@ -182,6 +182,35 @@
       "type_title": "Bando Intercenter"
     }, 
     {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18839244", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-24T00:00:00+01:00", 
+      "Description": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO PER LA VERIFICA DI BENI INFUNGIBILI (ART. 77 D.LGS. 36/2023) per la fornitura di SISTEMI PROTESICI PER LA CHIRURGIA DI REVISIONE PROTESICA DEL GINOCCHIO", 
+      "Subject": [], 
+      "Title": "SISTEMI PROTESICI PER LA CHIRURGIA DI REVISIONE PROTESICA DEL GINOCCHIO", 
+      "UID": "67bc82455a0a4c70a4223219037e6f2f", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO PER LA VERIFICA DI BENI INFUNGIBILI (ART. 77 D.LGS. 36/2023) per la fornitura di SISTEMI PROTESICI PER LA CHIRURGIA DI REVISIONE PROTESICA DEL GINOCCHIO", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-23T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_CONSULTAZIONE_PORTALE@18839244", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-09T11:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "SISTEMI PROTESICI PER LA CHIRURGIA DI REVISIONE PROTESICA DEL GINOCCHIO", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18766000", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-23T00:00:00+01:00", 
@@ -936,27 +965,4 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_PORTALE@17517699", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-10-14T23:00:00+01:00", 
-      "Description": "Avviso di indagine di mercato per l\u2019individuazione di operatori economici,  a cui affidare Il Servizio di Interventi educativi di gruppo in orario pomeridiano post-scolastico rivolto a minori affetti da disturbo autistico nella fascia di et\u00e0 14-17  anni con pacchetti di ore e, in caso di necessit\u00e0, servizio di accompagnamento e pasto per il Distretto Citt\u00e0 di Bologna", 
-      "Subject": [], 
-      "Title": "Servizio di Interventi educativi di gruppo in orario pomeridiano post-scolastico rivolto a minori affetti da disturbo autistico", 
-      "UID": "98db59d11d2042938e38162a1f494bdf", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "closed", 
-        "Chiuso"
-      ], 
-      "description": "Avviso di indagine di mercato per l\u2019individuazione di operatori economici,  a cui affidare Il Servizio di Interventi educativi di gruppo in orario pomeridiano post-scolastico rivolto a minori affetti da disturbo autistico nella fascia di et\u00e0 14-17  anni con pacchetti di ore e, in caso di necessit\u00e0, servizio di accompagnamento e pasto per il Distretto Citt\u00e0 di Bologna", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-10-14T22:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_CONSULTAZIONE_PORTALE@17517699", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-    
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_POR
