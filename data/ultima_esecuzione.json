@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-24T14:46:31+00:00",
+  "eseguito_il": "2026-11-24T15:34:21+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -35,7 +35,7 @@
     },
     "maggioli": {
       "esito": "ok",
-      "pertinenti": 1
+      "pertinenti": 0
     },
     "net4market": {
       "esito": "ok",
@@ -47,6 +47,6 @@
     }
   },
   "errori": [],
-  "nuove_opportunita": 3,
+  "nuove_opportunita": 0,
   "totale": 121
 }

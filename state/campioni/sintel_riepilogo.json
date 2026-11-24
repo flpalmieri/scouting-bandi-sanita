@@ -3,19 +3,19 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 292
+  "righe_lette": 299
  },
  "lombardia_ambito_4": {
-  "righe_prima_pagina": 85,
+  "righe_prima_pagina": 82,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 85
+  "righe_lette": 82
  },
  "lombardia_ambito_5": {
-  "righe_prima_pagina": 27,
+  "righe_prima_pagina": 28,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 27
+  "righe_lette": 28
  },
  "lombardia_ambito_7": {
   "righe_prima_pagina": 81,
@@ -24,10 +24,10 @@
   "righe_lette": 81
  },
  "lombardia_ambito_8": {
-  "righe_prima_pagina": 21,
+  "righe_prima_pagina": 22,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 21
+  "righe_lette": 22
  },
  "lombardia_ambito_9": {
   "righe_prima_pagina": 24,
@@ -42,28 +42,28 @@
   "righe_lette": 20
  },
  "lombardia": {
-  "righe_lette": 550,
+  "righe_lette": 556,
   "enti_sanitari": {
-   "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 15,
-   "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 13,
+   "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 17,
+   "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 12,
    "ASST DELLA VALLE OLONA": 11,
-   "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 10,
    "ASST DI BERGAMO EST": 9,
+   "ASST LARIANA": 9,
    "ASST DEI SETTE LAGHI": 8,
    "ASST DI BERGAMO OVEST": 8,
-   "ASST LARIANA": 8,
+   "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 8,
    "AGENZIA REGIONALE EMERGENZA URGENZA (AREU 118)": 7,
+   "ASST DI CREMA": 7,
    "ASST PAPA GIOVANNI XXIII": 7,
-   "ASST DI CREMA": 6,
    "ASST RHODENSE": 6,
    "FONDAZIONE IRCCS SAN GERARDO DEI TINTORI DI MONZA": 6,
    "ASST DELLA FRANCIACORTA": 5,
    "ASST DELLA VALTELLINA E DELL'ALTO LARIO": 5,
    "ASST DI CREMONA": 5,
+   "ASST DI LECCO": 5,
    "ASST DI LODI": 5,
    "ASST DI MANTOVA": 5,
    "ASST OVEST MILANESE": 5,
-   "ASST DI LECCO": 4,
    "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA": 4,
    "FONDAZIONE IRCCS CA' GRANDA - OSPEDALE MAGGIORE POLICLINICO": 4,
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO": 3,
@@ -83,17 +83,17 @@
    "ATS DELLA CITTA METROPOLITANA DI MILANO": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 364,
+  "procedure_altri_enti": 368,
   "altri_enti": {
-   "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 18,
-   "COMUNE DI MILANO": 15,
-   "ERSAF - ENTE REGIONALE PER I SERVIZI ALL'AGRICOLTURA E ALLE FORESTE": 12,
+   "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 19,
+   "COMUNE DI MILANO": 16,
+   "ERSAF - ENTE REGIONALE PER I SERVIZI ALL'AGRICOLTURA E ALLE FORESTE": 11,
    "SOCIETÀ PER L'ECOLOGIA E L'AMBIENTE SPA": 10,
    "COMUNE DI BERGAMO": 9,
    "POLITECNICO DI MILANO": 8,
+   "PROVINCIA DI BERGAMO": 7,
    "PROVINCIA DI LECCO": 7,
    "COMUNE DI PONTE DI LEGNO": 6,
-   "PROVINCIA DI BERGAMO": 6,
    "COMUNE DI BUSTO ARSIZIO": 5,
    "COMUNE DI LIVIGNO": 5,
    "COMUNE DI RHO": 5,
@@ -123,6 +123,7 @@
    "AZIENDA SPECIALE SERVIZI DI AGRATE BRIANZA": 2,
    "CITTÀ DI SESTO SAN GIOVANNI": 2,
    "CITTÀ METROPOLITANA DI MILANO": 2,
+   "COMUNE DI BARANZATE": 2,
    "COMUNE DI BORGO VIRGILIO": 2,
    "COMUNE DI BUSSERO": 2,
    "COMUNE DI CANT¿": 2,
@@ -159,13 +160,13 @@
    "COMUNE DI ARCENE": 1,
    "COMUNE DI ARESE": 1,
    "COMUNE DI BAGNOLO CREMASCO": 1,
-   "COMUNE DI BARANZATE": 1,
    "COMUNE DI BARASSO": 1,
    "COMUNE DI BAREGGIO": 1,
    "COMUNE DI BARZANA": 1,
    "COMUNE DI BERBENNO DI VALTELLINA": 1,
    "COMUNE DI BESANA IN BRIANZA": 1,
    "COMUNE DI BINASCO": 1,
+   "COMUNE DI BORMIO": 1,
    "COMUNE DI CANONICA D'ADDA": 1,
    "COMUNE DI CARAVAGGIO": 1,
    "COMUNE DI CARONNO VARESINO": 1,
@@ -291,10 +292,10 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 145,
+  "righe_prima_pagina": 147,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 145,
+  "righe_lette": 147,
   "enti_sanitari": {
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA": 26,
    "AZIENDA ULSS N. 3 SERENISSIMA": 16,
@@ -303,23 +304,23 @@
    "AZIENDA ULSS N. 5 POLESANA": 10,
    "AZIENDA ULSS N. 7 PEDEMONTANA": 9,
    "AZIENDA ZERO": 7,
-   "AZIENDA ULSS N. 9 SCALIGERA": 4,
+   "AZIENDA ULSS N. 9 SCALIGERA": 5,
    "ISTITUTO ONCOLOGICO VENETO I.R.C.C.S.": 4,
    "AZIENDA ULSS N. 4 VENETO ORIENTALE": 3,
    "AZIENDA ULSS N. 1 DOLOMITI": 2,
    "AZIENDA ULSS N. 2 MARCA TREVIGIANA": 2
   },
-  "procedure_altri_enti": 37,
+  "procedure_altri_enti": 38,
   "altri_enti": {
    "COMUNE DI PADOVA": 11,
    "COMUNE DI VERONA": 5,
    "AGEC": 4,
+   "COMUNE DI CHIOGGIA": 2,
    "COMUNE DI TREVISO": 2,
    "PROVINCIA DI TREVISO": 2,
    "UNIONE MONTANA DEL BALDO-GARDA": 2,
    "CENTRO SERVIZI PER ANZIANI": 1,
    "CITTÀ DI OPPEANO": 1,
-   "COMUNE DI CHIOGGIA": 1,
    "COMUNE DI COLOGNOLA AI COLLI": 1,
    "COMUNE DI JESOLO": 1,
    "COMUNE DI ROVIGO": 1,
@@ -340,14 +341,14 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 146,
+  "righe_prima_pagina": 149,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 146,
+  "righe_lette": 149,
   "enti_sanitari": {
-   "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 35,
+   "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 36,
    "A.O. ORDINE MAURIZIANO TORINO": 9,
-   "AZIENDA OSPEDALIERA NOVARA": 8,
+   "AZIENDA OSPEDALIERA NOVARA": 9,
    "AZIENDA OSPEDALIERA S. CROCE E CARLE": 7,
    "AZIENDA SANITARIA LOCALE ASTI - ASL AT": 6,
    "ASL TO 4": 5,
@@ -360,10 +361,10 @@
    "ASL TO3": 2,
    "ASL VERBANO CUSIO OSSOLA": 2,
    "AZIENDA SANITARIA LOCALE AL": 2,
+   "CSI PIEMONTE": 2,
    "ASL BI": 1,
    "AZIENDA OSPEDALIERO-UNIVERSITARIA SAN LUIGI GONZAGA": 1,
    "AZIENDA SANITARIA ZERO": 1,
-   "CSI PIEMONTE": 1,
    "SCR PIEMONTE SPA": 1
   },
   "procedure_altri_enti": 43,

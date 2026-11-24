@@ -309,21 +309,12 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
    "protocollo": "",
-   "titolo": "PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA (PFTE), PROGETTAZIONE ESECUTIVA (PE), COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, DIREZIONE LAVORI, PER LA RIQUALIFICAZIONE E L’ADEGUAMENTO NORMATIVO DEI PADIGLIONI N. 1 e 8",
+   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
    "tipologia": "Servizi",
    "scadenza": "10/12/2026 12:00",
-   "id": "26260"
-  },
-  {
-   "procedura": "Procedura non europea",
-   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
-   "protocollo": "",
-   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
-   "tipologia": "Servizi",
-   "scadenza": "10/12/2026 12:00",
-   "id": "26269"
+   "id": "26237"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -336,15 +327,6 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
-   "protocollo": "",
-   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
-   "tipologia": "Servizi",
-   "scadenza": "10/12/2026 12:00",
-   "id": "26237"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
    "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
    "protocollo": "",
    "titolo": "SERVIZIO DI ACCOMPAGNAMENTO E DI TRASPORTO CON AUTOMEZZI ATTREZZATI ED OMOLOGATI PER IL TRASPORTO DEI PAZIENTI NEFROPATICI SOTTOPOSTI A TRATTAMENTO DIALITICO PER ASUGI",
@@ -353,31 +335,13 @@
    "id": "25989"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "COMUNE DI UDINE",
+   "procedura": "Procedura non europea",
+   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
    "protocollo": "",
-   "titolo": "Servizio di assistenza e manutenzione dell'impianto di videosorveglianza urbana e impianto di lettura targhe del Comune di Udine per gli anni 2027-2030.",
+   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
    "tipologia": "Servizi",
-   "scadenza": "14/12/2026 12:00",
-   "id": "26257"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
-   "protocollo": "",
-   "titolo": "24PRE002.1 - Materiale per neurochirurgia",
-   "tipologia": "Forniture",
-   "scadenza": "14/12/2026 12:00",
-   "id": "26280"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
-   "protocollo": "",
-   "titolo": "26PRE004 - VITRECTOMIA E FACOEMULSIFICAZIONE",
-   "tipologia": "Forniture",
-   "scadenza": "14/12/2026 12:00",
-   "id": "26281"
+   "scadenza": "10/12/2026 12:00",
+   "id": "26269"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -401,6 +365,33 @@
    "procedura": "UE - Procedura Aperta",
    "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
    "protocollo": "",
+   "titolo": "26PRE004 - VITRECTOMIA E FACOEMULSIFICAZIONE",
+   "tipologia": "Forniture",
+   "scadenza": "14/12/2026 12:00",
+   "id": "26281"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "24PRE002.1 - Materiale per neurochirurgia",
+   "tipologia": "Forniture",
+   "scadenza": "14/12/2026 12:00",
+   "id": "26280"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "COMUNE DI UDINE",
+   "protocollo": "",
+   "titolo": "Servizio di assistenza e manutenzione dell'impianto di videosorveglianza urbana e impianto di lettura targhe del Comune di Udine per gli anni 2027-2030.",
+   "tipologia": "Servizi",
+   "scadenza": "14/12/2026 12:00",
+   "id": "26257"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
    "titolo": "25SER001 SERVIZIO DI NUTRIZIONE PARENTERALE DOMICILIARE",
    "tipologia": "Servizi",
    "scadenza": "14/12/2026 13:00",
@@ -417,15 +408,6 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "Comune di San Vito al Tagliamento",
-   "protocollo": "",
-   "titolo": "Gestione asilo nido 2027/2031",
-   "tipologia": "Servizi",
-   "scadenza": "18/12/2026 12:00",
-   "id": "26314"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
    "ente": "Centrale unica di committenza FVG",
    "protocollo": "",
    "titolo": "Servizio di fornitura pasti a domicilio a favore degli Ambiti territoriali per la gestione associata del Servizio Sociale dei Comuni (SSC) [Codice iniziativa: 26PGR309]",
@@ -435,12 +417,30 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
+   "ente": "Comune di San Vito al Tagliamento",
+   "protocollo": "",
+   "titolo": "Gestione asilo nido 2027/2031",
+   "tipologia": "Servizi",
+   "scadenza": "18/12/2026 12:00",
+   "id": "26314"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
    "ente": "FRIULI VENEZIA GIULIA STRADE S.P.A.",
    "protocollo": "",
    "titolo": "Procedura Aperta 07-2026 – FVGS - Servizio triennale di brokeraggio assicurativo.",
    "tipologia": "Servizi",
    "scadenza": "21/12/2026 12:00",
    "id": "26263"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "protocollo": "",
+   "titolo": "PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA (PFTE), PROGETTAZIONE ESECUTIVA (PE), COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, DIREZIONE LAVORI, PER LA RIQUALIFICAZIONE E L’ADEGUAMENTO NORMATIVO DEI PADIGLIONI N. 1 e 8",
+   "tipologia": "Servizi",
+   "scadenza": "21/12/2026 12:00",
+   "id": "26260"
   },
   {
    "procedura": "UE - Procedura Aperta",
