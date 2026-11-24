@@ -136,7 +136,7 @@ enti_sanitari_regex:
   # 2025. Bolzano: "Azienda Sanitaria dell'Alto Adige" e' gia' presa; qui il nome tedesco (Suedtiroler
   # Sanitaetsbetrieb) e i comprensori scritti senza il nome dell'azienda ("Comprensorio sanitario di
   # Merano", "Gesundheitsbezirk Bozen"). Non prendono le APSP trentine (servizi alla persona), la
-  # Claudiana (scuola provinciale superiore di sanita': decisione di Flavio in attesa) ne' l'"Ufficio
+  # Claudiana (scuola provinciale superiore di sanita': fuori per decisione di Flavio del 24/11/2026) ne' l'"Ufficio
   # edilizia sanitaria" della Provincia di Bolzano (lavori). Sui 756 avvisi TED della regione dal
   # 01/06/2026 cambia solo il riconoscimento di nomi che oggi non compaiono: nessun avviso cambia.
   - '\bASUIT\b|\bA\.?P\.?S\.?S\b|azienda\s+provinciale\s+per\s+i\s+servizi\s+sanitari'
@@ -273,6 +273,26 @@ aggregatori_misti_regex:
   # IT, su PlaCe le sue voci IT in corso sono tutte richieste di offerta a invito, gia' escluse.
   - '^\W*IN\.?\s?VA\b'
   - '^\W*regione\s+autonoma\s+(della\s+)?valle\s+d\W?\s*aosta\b'
+  # Trentino-Alto Adige: decisioni di Flavio (24/11/2026), tutti e quattro tra gli aggregatori misti.
+  # (1) APAC, Agenzia provinciale per gli appalti e contratti di Trento (centrale di committenza e
+  # soggetto aggregatore, compra anche per ASUIT): su TED e su Contracta pubblica quasi sempre come
+  # "Provincia Autonoma di Trento" (84 avvisi TED su 86), quindi la regola prende la Provincia quando
+  # il nome dell'ente INIZIA cosi', come per le Regioni, piu' il nome dell'Agenzia e la sigla. Su
+  # Contracta anche "Provincia Autonoma di Trento per conto di <APSP, museo...>": le sue gare IT per
+  # altri enti entrano "da verificare". Le gare per ASUIT entrano gia' come sanitarie ("per conto di").
+  # (2) ACP, Agenzia per i contratti pubblici della Provincia di Bolzano (ex Agenzia per i procedimenti e
+  # la vigilanza), anche in tedesco (Agentur fuer oeffentliche Vertraege - AOV); su TED compare con
+  # l'ente per cui gareggia ("...; Comune di Salorno"), quindi le sue gare IT per comuni ed enti
+  # provinciali entrano "da verificare" (es. la convenzione quadro ACP per servizi ICT, 774857-2026,
+  # un esito). Non la sigla ACP da sola. La Provincia autonoma di Bolzano NON e' tra gli aggregatori.
+  # (3) Trentino Digitale e (4) SIAG, Informatica Alto Adige (Suedtiroler Informatik), societa'
+  # informatiche delle due Province, come Lepida, CSI Piemonte e Sardegna IT: dal 01/06/2026 su
+  # Contracta la manutenzione IBM DB2 di Trentino Digitale e su bandi-altoadige circa 12 consultazioni
+  # IT non sanitarie di SIAG (Autodesk, SAP, Siteimprove...) entrano "da verificare".
+  - '^\W*provincia\s+autonoma\s+di\s+trento\b|agenzia\s+provinciale\s+per\s+gli\s+appalti\s+e\s+contratti|\bAPAC\b'
+  - 'agenzia\s+per\s+i\s+contratti\s+pubblici|agenzia\s+per\s+i\s+procedimenti\s+e\s+la\s+vigilanza\s+in\s+materia\s+di\s+contratti\s+pubblici|agentur\s+f(ü|ue)r\s+(die\s+verfahren|(ö|oe)ffentliche\s+vertr)'
+  - '\btrentino\s+digitale\b'
+  - 'informatica\s+alto\s+adige|s(ü|ue|u)dtiroler\s+informatik|\bSIAG\b'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -2075,3 +2095,52 @@ tuttogare:
       sigla: sitas
       host: "https://appalti.regionesiciliana.lavoripubblici.sicilia.it"
       enti: ["47", "68"]
+
+# --- Bolzano: avvisi speciali del portale bandi-altoadige.it (scout/bandi_altoadige.py) -------
+# Sistema informativo contratti pubblici della Provincia di Bolzano (= ausschreibungen-suedtirol.it),
+# software Pleiade di i-Faber. Gli avvisi speciali (consultazioni di mercato, avvisi esplorativi) si
+# leggono dall'API pubblica della pagina /notice/special-notice/list, con titolo italiano e scadenza.
+# Ci pubblicano l'Azienda Sanitaria dell'Alto Adige (22 avvisi dal 01/06/2026), SIAG (13), la Provincia
+# (14), comuni e scuole. Dal 01/06/2026 entrano 4 consultazioni IT sanitarie (3 ASDAA, 1 SIAG: canone
+# LHA, xValue, Picasso, PEOPLE e modulo FSE) e, con SIAG aggregatore misto, le consultazioni IT di SIAG
+# "da verificare". Le gare del portale (elenco HTML senza scadenza, dettaglio pubblico con il RUP) non
+# si leggono ancora: vedi contesto_progetto.md.
+bandi_altoadige:
+  abilitato: true
+  siti:
+    - nome: bandi-altoadige avvisi speciali
+      nome_fonte: bandi-altoadige
+      sigla: baa
+      host: "https://www.bandi-altoadige.it"
+      regione: Trentino-Alto Adige
+      # Solo "Consultazione di mercato": sull'intero storico (1.623 avvisi dal 12/2021) gli altri tipi
+      # (affidamenti gia' fatti, elenchi di professionisti, vendite e concessioni, altri avvisi) non
+      # portano voci IT sanitarie.
+      tipi: [market-consultation]
+      limite: 3000                # tutti gli avvisi in una richiesta (1.623 al 24/11/2026)
+      pubblicazione_max_giorni: 120
+      timeout_connessione: 20
+      tentativi: 1
+
+# --- Trento: manifestazioni e consultazioni di SICOPAT (scout/sicopat.py) ---------------------
+# Trasparenza dell'Osservatorio contratti pubblici della Provincia di Trento: manifestazioni di
+# interesse, indagini di mercato e "altri avvisi a scadenza" (consultazioni preliminari) di tutte le
+# stazioni appaltanti trentine. ASUIT ne ha pubblicati 43 dal 01/06/2026 (nessuno IT): sono i segnali
+# "a monte" delle sue gare su Contracta. Dettaglio letto solo per le voci pertinenti e solo per la
+# scadenza (mai il RUP).
+sicopat:
+  abilitato: true
+  siti:
+    - nome: SICOPAT manifestazioni
+      nome_fonte: SICOPAT
+      sigla: sicopat
+      regione: Trentino-Alto Adige
+      base: "https://sicopat2.provincia.tn.it/rest/gestione-trasparenza-ms/v1/public"
+      link: "https://sicopat2.provincia.tn.it/trasparenza-fe/#/page/dettaglio-manifestazione-interesse-page?idAtto={id}"
+      # Stesso nome di TED e Contracta, per la deduplica.
+      enti_rinomina:
+        "ASUIT - AZIENDA SANITARIA UNIVERSITARIA INTEGRATA DEL TRENTINO": "Azienda sanitaria universitaria integrata del Trentino"
+      pausa_secondi: 1
+      max_dettagli: 30
+      timeout_connessione: 20
+      tentativi: 1
