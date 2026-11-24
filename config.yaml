@@ -916,7 +916,8 @@ portali_rss:
         id: [IdMsg]
       # "Affidamento Diretto" su PlaCe vale per due cose diverse (feed del 24/11/2026, 204 voci su
       # 233): con Tipo Bando sono richieste di offerta e inviti a operatori scelti ("INVITO DIRETTO",
-      # "Richiesta di presentazione offerta": 173 voci), esclusi come su tutte le piattaforme AFS;
+      # "Richiesta di presentazione offerta": 173 voci), esclusi come su tutte le piattaforme AFS
+      # (verificato dall'utente sulla 1363173: "Invito", "riservata ai soli operatori invitati");
       # con Tipo Avviso sono le indagini di mercato e le consultazioni preliminari dell'AUSL e degli
       # altri enti, aperte a tutti (31 voci): restano, come le indagini "finalizzate all'affidamento
       # diretto" di STELLA e SardegnaCAT. Tipo Invito = affidamento senza negoziazione gia' deciso.
@@ -924,9 +925,13 @@ portali_rss:
         - {Tipo: [Bando], TipoProcedura: [Affidamento Diretto, Richiesta Preventivo]}
       escludi_campi:
         TipoDocOriginal: [AFFIDAMENTO_SENZA_NEGOZIAZIONE]
-      # I link di dettaglio del feed danno 404, anche corretti in /portalegare/ (verificato il
-      # 24/11/2026): tutte le voci portano alla vetrina pubblica dei bandi di PlaCe-VdA.
-      link_fisso: "https://place-vda-bandi-avvisi.invallee.it/bandiavvisi"
+      # Nessun indirizzo porta al dettaglio di una voce (verificato dall'utente il 24/11/2026): i link
+      # del feed danno 404 anche corretti in /portalegare/; DettaglioProcedura.asp?ID=<IdMsg> (la forma
+      # dei link TED) rimanda alla home; nel portale il dettaglio si apre via JavaScript sullo stesso
+      # indirizzo. La vetrina place-vda-bandi-avvisi.invallee.it e' vuota anche dal browser (il suo
+      # /feed/ risponde 502). Tutte le voci portano quindi al portale pubblico: home, pulsante
+      # "Bandi di Gara" (elenco con ricerca), icona "Visualizza dettaglio".
+      link_fisso: "https://place-vda.aflink.it/portale/index.asp"
       url: "https://place-vda.aflink.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0%20and%20tipo%3C%3E%27Esito%27&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=1000&nPag={pagina}"
       timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
       tentativi: 1
@@ -952,7 +957,7 @@ portali_rss:
         cig: [CIG]
         stato: [statoFunzionale]
         id: [IdMsg]
-      link_fisso: "https://place-vda-bandi-avvisi.invallee.it/bandiavvisi"
+      link_fisso: "https://place-vda.aflink.it/portale/index.asp"
       url: "https://place-vda.aflink.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=bScaduto%3D0&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=1000&nPag={pagina}"
       timeout_connessione: 20
       tentativi: 1
