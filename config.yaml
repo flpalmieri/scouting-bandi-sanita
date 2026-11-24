@@ -264,6 +264,10 @@ parole_chiave_sanita_regex:
   # delle altre fonti "screening" compare solo in oggetti di enti gia' sanitari, "SSR" mai.
   - '\bscreening\b'
   - '\bS\.?S\.?R\b'
+  # Valle d'Aosta (24/11/2026): IN.VA, centrale di committenza regionale, svolge su TED le gare
+  # dell'Azienda USL con il proprio nome e il titolo "AUSL - <oggetto>" (21 avvisi su 143 dal
+  # 01/06/2026). L'AUSL nell'oggetto rende sanitaria la gara anche se l'ente non lo e'.
+  - '\bA\.?U\.?S\.?L\b|azienda\s+u\.?s\.?l\b'
 
 # Parole chiave informatiche: servono per le fonti senza CPV (feed RSS dei
 # portali regionali), dove l'oggetto IT si riconosce solo dal testo.
@@ -883,6 +887,75 @@ portali_rss:
       nome: ASL 3 Pescara consultazioni
       tipo: consultazione di mercato
       url: "https://www.asl.pe.it/RSSBandi.jsp?idBgContrattoBando=339&map=1"
+    # Valle d'Aosta (24/11/2026): PlaCe-VdA (place-vda.aflink.it), la piattaforma telematica della
+    # Regione gestita da IN.VA (centrale unica di committenza regionale e soggetto aggregatore).
+    # Software AFSoluzioni/TeamSystem come EmPULIA e START: feed rss_new.asp con la mappa afs:.
+    # Dal 2024 la Regione pubblica solo qui e sulla PVL ANAC; ci pubblicano anche l'Azienda USL
+    # (unica azienda sanitaria della regione: il suo sito ripete un sottoinsieme di queste voci),
+    # IN.VA per conto dell'AUSL e degli altri enti, la Regione e 70 tra comuni, scuole e societa'.
+    # Al 24/11/2026: 233 voci in corso (Bando 198, Avviso 34, Invito 1), AUSL 22, IN.VA 9 (1 per
+    # l'AUSL), Regione 38. Il feed accetta 5000 righe per pagina: una richiesta sola.
+    - nome: PlaCe-VdA bandi
+      nome_fonte: PlaCe-VdA
+      sigla: placevda
+      regione: Valle d'Aosta
+      max_pagine: 2                # 1000 per pagina; il feed dichiara il totale (totRecord)
+      escludi_stati: [Revocato, Annullato, Chiuso]
+      campi:
+        titolo: [Oggetto]
+        descrizione: []
+        ente: [DenominazioneEnte, EnteProponente]
+        proponente: [EnteProponente]   # IN.VA per conto dell'AUSL: ente "IN.VA. S.P.A. per conto di ..."
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cpv: [CPV]
+        cig: [CIG]
+        stato: [statoFunzionale]
+        tipo: [Tipo]               # Bando, Avviso, Invito
+        id: [IdMsg]
+      # "Affidamento Diretto" su PlaCe vale per due cose diverse (feed del 24/11/2026, 204 voci su
+      # 233): con Tipo Bando sono richieste di offerta e inviti a operatori scelti ("INVITO DIRETTO",
+      # "Richiesta di presentazione offerta": 173 voci), esclusi come su tutte le piattaforme AFS;
+      # con Tipo Avviso sono le indagini di mercato e le consultazioni preliminari dell'AUSL e degli
+      # altri enti, aperte a tutti (31 voci): restano, come le indagini "finalizzate all'affidamento
+      # diretto" di STELLA e SardegnaCAT. Tipo Invito = affidamento senza negoziazione gia' deciso.
+      escludi_combinazioni:
+        - {Tipo: [Bando], TipoProcedura: [Affidamento Diretto, Richiesta Preventivo]}
+      escludi_campi:
+        TipoDocOriginal: [AFFIDAMENTO_SENZA_NEGOZIAZIONE]
+      # I link di dettaglio del feed danno 404, anche corretti in /portalegare/ (verificato il
+      # 24/11/2026): tutte le voci portano alla vetrina pubblica dei bandi di PlaCe-VdA.
+      link_fisso: "https://place-vda-bandi-avvisi.invallee.it/bandiavvisi"
+      url: "https://place-vda.aflink.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0%20and%20tipo%3C%3E%27Esito%27&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=1000&nPag={pagina}"
+      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+    - nome: PlaCe-VdA consultazioni
+      # Consultazioni preliminari di mercato: feed separato (154 voci dal 2024, 58 dell'AUSL; 1 in
+      # corso al 24/11/2026, di Finaosta). CPV vuoto: filtro testuale.
+      nome_fonte: PlaCe-VdA
+      sigla: placevda-cons
+      regione: Valle d'Aosta
+      tipo: consultazione di mercato
+      max_pagine: 1
+      vuoto_ammesso: true          # nessuna consultazione in corso = nessun errore
+      escludi_stati: [Revocato, Annullato, Chiuso]
+      campi:
+        titolo: [Oggetto]
+        descrizione: []
+        ente: [DenominazioneEnte, EnteProponente]
+        proponente: [EnteProponente]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cpv: [CPV]
+        cig: [CIG]
+        stato: [statoFunzionale]
+        id: [IdMsg]
+      link_fisso: "https://place-vda-bandi-avvisi.invallee.it/bandiavvisi"
+      url: "https://place-vda.aflink.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=bScaduto%3D0&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=1000&nPag={pagina}"
+      timeout_connessione: 20
+      tentativi: 1
     # Lazio (STELLA): le gare NON si leggono dal feed rss_new.asp, anche se ha lo schema afs: di
     # EmPULIA, perche' la scadenza del feed resta quella originale dopo rettifiche e proroghe
     # (verificato il 20/11/2026) e il filtro bScaduto='0' da' 1.460 voci, comprese molte chiuse.

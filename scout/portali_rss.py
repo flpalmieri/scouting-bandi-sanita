@@ -39,6 +39,18 @@ Opzioni aggiunte il 23/11/2026 (sito dell'ASL 3 Pescara, feed senza date):
       Se la scheda non si apre la voce resta, senza i dati della scheda, con un avviso nel log.
   "descrizione_aggiunta": testo fisso aggiunto alla descrizione di ogni voce del feed (es. la sezione
       del sito \"Bandi esplorativi beni infungibili\", che fa scattare l'etichetta della dashboard).
+Opzioni aggiunte il 24/11/2026 (PlaCe-VdA, Valle d'Aosta):
+  "escludi_combinazioni": elenco di regole {NomeCampo: [valori], AltroCampo: [valori]}; una voce si
+      scarta se TUTTI i campi di una regola hanno uno dei valori indicati (confronto esatto, senza
+      maiuscole/minuscole). Serve quando un valore da solo non basta: su PlaCe-VdA "Affidamento
+      Diretto" vale sia per le richieste di offerta (Tipo Bando, a invito) sia per le indagini di
+      mercato e le consultazioni aperte a tutti (Tipo Avviso), che vanno tenute.
+  "campi: proponente: [EnteProponente]": ente per conto del quale la centrale di committenza svolge
+      la gara (su PlaCe-VdA IN.VA per l'Azienda USL). Se e' diverso dall'ente, l'ente diventa
+      "<ente> per conto di <proponente>" (es. "IN.VA. S.P.A. per conto di AZIENDA USL VALLE D'AOSTA"):
+      il filtro la vede come gara di un ente sanitario, la dashboard mostra per chi si compra e la
+      rivalutazione dello storico in main.py, che conosce solo l'ente salvato, da' lo stesso esito.
+      Le regole sugli aggregatori misti scritte con l'inizio del nome (es. "^IN.VA") valgono ancora.
 Le voci scartate da una regola esplicita (stato, campo, titolo) finiscono in ESCLUSI: main.py
 le toglie anche dallo storico (es. un bando revocato dopo essere stato salvato).
 correggi_storico() applica link_sostituisci ed enti_rinomina anche alle voci gia' salvate.
@@ -197,6 +209,11 @@ def _rinomina_ente(ente: str, feed: dict) -> str:
     return mappa.get((ente or "").strip().lower(), ente)
 
 
+def _chiave_ente(nome: str) -> str:
+    """Solo lettere e cifre, minuscole: \"IN.VA. S.P.A.\" e \"IN.VA S.p.A.\" coincidono."""
+    return re.sub(r"[^0-9a-z]+", "", (nome or "").lower())
+
+
 def _esclusa(campi: dict[str, str], feed: dict, titolo: str, descrizione: str = "") -> bool:
     """Regole esplicite di esclusione del feed: stato, valori di campo, titolo, descrizione."""
     mappa = feed.get("campi") or {}
@@ -206,6 +223,13 @@ def _esclusa(campi: dict[str, str], feed: dict, titolo: str, descrizione: str = 
     for nome, valori in (feed.get("escludi_campi") or {}).items():
         v = _valore(campi, [nome]).strip().lower()
         if v and v in {str(x).strip().lower() for x in valori}:
+            return True
+    for regola in feed.get("escludi_combinazioni") or []:
+        # Tutte le condizioni della regola devono valere (un campo vuoto non corrisponde).
+        if regola and all(
+                _valore(campi, [nome]).strip().lower() in {str(x).strip().lower() for x in valori}
+                and _valore(campi, [nome]).strip()
+                for nome, valori in regola.items()):
             return True
     escl = feed.get("escludi_titoli_regex")
     if escl and re.search("|".join(f"(?:{e})" for e in escl), titolo, re.IGNORECASE):
@@ -236,6 +260,12 @@ def _converti(campi: dict[str, str], feed: dict, filtro: Filtro) -> Opportunita 
         m = RE_ENTE.search(descrizione)
         ente = m.group(1).strip() if m else ""
     ente = _rinomina_ente(ente, feed)
+
+    # Gara svolta da una centrale di committenza per conto di un altro ente (PlaCe-VdA: IN.VA per
+    # l'Azienda USL): l'ente salvato dice anche per chi, cosi' filtro e rivalutazione lo vedono.
+    proponente = _rinomina_ente(_valore(campi, mappa.get("proponente")), feed) if mappa.get("proponente") else ""
+    if proponente and ente and _chiave_ente(proponente) != _chiave_ente(ente):
+        ente = f"{ente} per conto di {proponente}"
 
     scadenza = parse_data(_valore(campi, mappa.get("scadenza"))
                           or _cerca_campo(campi, ("scadenz", "deadline", "termine")))
