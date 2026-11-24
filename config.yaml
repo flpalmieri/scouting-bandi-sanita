@@ -1292,6 +1292,8 @@ portali_html:
       # circa 40 s), mentre dal computer dell'utente risponde 200 (30 schede, link ?bando= corretto).
       # Seconda prova all'esecuzione automatica del 24/11 con attesa breve e nessun nuovo tentativo
       # (lezioni 41 e 83). Se fallisce di nuovo: abilitato: false e controllo manuale.
+      # 24/11/2026 (run 45359765915): di nuovo ConnectTimeout da GitHub: disattivata, controllo manuale.
+      abilitato: false
       timeout_connessione: 10
       tentativi: 0
 
@@ -1627,6 +1629,9 @@ maggioli:
       # circa 10 secondi per sito. Se fallisce di nuovo: abilitato: false in QUESTO blocco (lo ereditano
       # le altre sette piattaforme marchigiane) e controllo manuale. Non nella sezione maggioli: dal
       # 23/11/2026 comprende anche le istanze siciliane, che hanno un blocco modello proprio.
+      # 24/11/2026 (run 45359765915): di nuovo ConnectTimeout da GitHub su tutte e 8: disattivate,
+      # controllo manuale mensile.
+      abilitato: false
       timeout_connessione: 10
       tentativi: 0
     # AST Ancona: due stazioni, l'AST e "Azienda Sanitaria Territoriale di Ancona - Soggetto Aggregatore
