@@ -129,6 +129,18 @@ enti_sanitari_regex:
   - 'so\.?re\.?sa'
   - 'servizio\s+sanitario'
   - 'agenzia\s+regionale.*salute'
+  # Trentino-Alto Adige (24/11/2026). Trento: dal 1/1/2026 l'Azienda provinciale per i servizi sanitari
+  # (APSS) e' l'Azienda sanitaria universitaria integrata del Trentino (ASUIT, L.P. 8/2025, stesso codice
+  # fiscale). Il nome lungo e' gia' preso da 'azienda sanitari'; qui la sigla ASUIT da sola e il nome
+  # vecchio (APSS, "Azienda Provinciale per i Servizi Sanitari"), che resta su avvisi e rettifiche del
+  # 2025. Bolzano: "Azienda Sanitaria dell'Alto Adige" e' gia' presa; qui il nome tedesco (Suedtiroler
+  # Sanitaetsbetrieb) e i comprensori scritti senza il nome dell'azienda ("Comprensorio sanitario di
+  # Merano", "Gesundheitsbezirk Bozen"). Non prendono le APSP trentine (servizi alla persona), la
+  # Claudiana (scuola provinciale superiore di sanita': decisione di Flavio in attesa) ne' l'"Ufficio
+  # edilizia sanitaria" della Provincia di Bolzano (lavori). Sui 756 avvisi TED della regione dal
+  # 01/06/2026 cambia solo il riconoscimento di nomi che oggi non compaiono: nessun avviso cambia.
+  - '\bASUIT\b|\bA\.?P\.?S\.?S\b|azienda\s+provinciale\s+per\s+i\s+servizi\s+sanitari'
+  - 'sanit(ae|ä|a)tsbetrieb|gesundheitsbezirk|comprensorio\s+sanitario'
 
 # Eccezioni alle regole qui sopra: enti che quelle regole prenderebbero per sanitari ma che
 # non lo sono. Valgono solo per il nome dell'ente: una gara IT con un oggetto sanitario entra
@@ -145,6 +157,11 @@ enti_non_sanitari_regex:
   # (gia' esclusa dalla prima riga) e "ASP \"Daniele Moro\"" (Codroipo), che senza questa riga
   # passerebbe per azienda sanitaria. Le altre ASP friulane vanno aggiunte qui quando compaiono.
   - '\bASP\W+(daniele\s+moro|ITIS)\b'
+  # Comuni con "Ospedal" nel nome (24/11/2026, ricognizione del Trentino-Alto Adige): "COMUNE DI
+  # OSPEDALETTO" (Valsugana, su SICOPAT: tesoreria comunale) passava per ente sanitario per la regola
+  # 'ospedal'. Vale anche per Ospedaletto Euganeo, Ospedaletto Lodigiano, Ospedaletto d'Alpinolo e
+  # Ospedaletti (Liguria). Un oggetto sanitario fa entrare comunque la gara.
+  - '\bcomune\s+di\s+ospedalett'
 
 # Frasi che descrivono il CANALE della gara, non il suo oggetto: vengono ignorate
 # prima di cercare le parole IT (altrimenti "affidamento su piattaforma telematica
@@ -983,6 +1000,78 @@ portali_rss:
         id: [IdMsg]
       link_fisso: "https://place-vda.aflink.it/portale/index.asp"
       url: "https://place-vda.aflink.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=bScaduto%3D0&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=1000&nPag={pagina}"
+      timeout_connessione: 20
+      tentativi: 1
+    # Trentino (24/11/2026): Contracta (contracta.provincia.tn.it), la piattaforma telematica unica della
+    # Provincia autonoma di Trento dal 1/1/2024 (prima Mercurio, SAP SRM, oggi solo archivio). Software
+    # AF Soluzioni come PlaCe-VdA: feed rss_new.asp con la mappa afs:. Ci pubblicano ASUIT, APAC (che
+    # compare come "Provincia Autonoma di Trento", anche per conto di APSP e musei: EnteProponente),
+    # Trentino Digitale, comuni, comunita' di valle e APSP. Al 24/11/2026: 73 voci in corso (Bando 66,
+    # Invito 4, Avviso 3; Negoziata 44, Aperta 24, Concorso di progettazione 1), ASUIT 6, Provincia 17,
+    # Trentino Digitale 1; nessuna voce IT sanitaria (l'unica IT e' la manutenzione IBM DB2 di
+    # Trentino Digitale). Il feed risponde con 5000 righe per pagina: una richiesta sola.
+    # Le manifestazioni di interesse e le consultazioni di ASUIT stanno soprattutto su SICOPAT (lettore
+    # da scrivere, fase 2).
+    - nome: Contracta bandi
+      nome_fonte: Contracta
+      sigla: contracta
+      regione: Trentino-Alto Adige
+      max_pagine: 1                # 5000 per pagina; il feed dichiara il totale (totRecord)
+      escludi_stati: [Revocato, Annullato, Chiuso]
+      campi:
+        titolo: [Oggetto]
+        descrizione: []
+        ente: [DenominazioneEnte, EnteProponente]
+        proponente: [EnteProponente]   # APAC per conto di altri: "Provincia Autonoma di Trento per conto di ..."
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cpv: [CPV]
+        cig: [CIG]
+        stato: [statoFunzionale]
+        tipo: [Tipo]               # Bando, Avviso, Invito
+        id: [IdMsg]
+      # Tipo Invito = affidamento senza negoziazione gia' deciso (4 voci, TipoDocOriginal
+      # AFFIDAMENTO_SENZA_NEGOZIAZIONE): escluso come su PlaCe. Oggi nessun "Affidamento Diretto" nel
+      # feed; la regola di PlaCe resta pronta (con Tipo Bando sono inviti). Le Negoziata restano,
+      # come su tutte le piattaforme, anche se il dettaglio e' un "Invito" riservato agli invitati
+      # (verificato dall'utente su PI438810-26, accessori per la RM 3T di ASUIT: negoziata senza bando,
+      # che prende l'etichetta di infungibilita'); le "Avviso" (Negoziata) sono indagini di mercato
+      # aperte a tutti (PI428708-26, Comune di Mezzolombardo).
+      escludi_combinazioni:
+        - {Tipo: [Bando], TipoProcedura: [Affidamento Diretto, Richiesta Preventivo]}
+      escludi_campi:
+        TipoDocOriginal: [AFFIDAMENTO_SENZA_NEGOZIAZIONE]
+      # I link di dettaglio del feed danno 404 (anche su /portalegare/), come su PlaCe-VdA; nel portale
+      # il menu "Bandi di Gara" carica l'elenco (73 voci, con ricerca) nella stessa pagina, senza un
+      # indirizzo proprio (verificato dall'utente il 24/11/2026). Tutte le voci portano alla home.
+      link_fisso: "https://contracta.provincia.tn.it/portale/index.asp"
+      url: "https://contracta.provincia.tn.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI&FilterHide=bScaduto%3D0%20and%20tipo%3C%3E%27Esito%27&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=5000&nPag={pagina}"
+      timeout_connessione: 20        # fonte nuova: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+    - nome: Contracta consultazioni
+      # Consultazioni preliminari di mercato: feed separato, 4 in corso al 24/11/2026 (una di Trentino
+      # Digitale, non sanitaria). Niente CPV ne' EnteProponente: filtro testuale.
+      nome_fonte: Contracta
+      sigla: contracta-cons
+      regione: Trentino-Alto Adige
+      tipo: consultazione di mercato
+      max_pagine: 1
+      vuoto_ammesso: true          # nessuna consultazione in corso = nessun errore
+      escludi_stati: [Revocato, Annullato, Chiuso]
+      campi:
+        titolo: [Oggetto]
+        descrizione: []
+        ente: [DenominazioneEnte]
+        scadenza: [DtScadenzaBandoTecnical]
+        pubblicazione: [DtPubblicazioneTecnical]
+        importo: [a_base_asta]
+        cpv: [CPV]
+        cig: [CIG]
+        stato: [statoFunzionale]
+        id: [IdMsg]
+      link_fisso: "https://contracta.provincia.tn.it/portale/index.asp"
+      url: "https://contracta.provincia.tn.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=bScaduto%3D0&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=5000&nPag={pagina}"
       timeout_connessione: 20
       tentativi: 1
     # Lazio (STELLA): le gare NON si leggono dal feed rss_new.asp, anche se ha lo schema afs: di
