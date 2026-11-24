@@ -5,8 +5,44 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>287</afs:totRecord>
+<afs:totRecord>292</afs:totRecord>
 <item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1033851&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T11:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>19/11/2026</pubDate>
+	<description>&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Riapertura termini - MANUTENZIONE IMPIANTI TERMICI, ELETTRICI E IDRICI DI ALCUNI IMMOBILI COMUNALI&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Riapertura termini - MANUTENZIONE IMPIANTI TERMICI, ELETTRICI E IDRICI DI ALCUNI IMMOBILI COMUNALI]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI SIDDI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[8.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T11:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1033851]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[MANUTENZIONE IMPIANTI TERMICI, ELETTRICI E IDRICI DI ALCUNI IMMOBILI COMUNALI]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T10:17:52]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[50711000-2 - Servizi di riparazione e manutenzione di impianti elettrici di edifici]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T13:18:45]]></afs:DtPubblicazioneTecnical>
+</item><item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1076355&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T11:00:00]]></link>
 	<category>Bando</category>
@@ -184,7 +220,7 @@
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-24T10:08:08]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T10:18:42]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[45233140-2 - Lavori stradali]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-23T10:18:15]]></afs:DtPubblicazioneTecnical>
@@ -337,42 +373,4 @@
 </item><item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1068237&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>16/11/2026</pubDate>
-	<description>Indagini ambientali preliminari di discarica non autorizzata - attivit&#224; propedeutiche&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Indagini ambientali preliminari di discarica non autorizzata - attività propedeutiche]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI PLOAGHE]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[20.000,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1068237]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-16T16:20:12]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[90715000-2 - Servizi di indagine sull'inquinamento]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-16T16:20:12]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1069307&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>17/11/2026</pubDate>
-	<description>Servizio di progettazione, coordinamento della sicurezza e direzione dei lavori di messa in sicurezza di aree verdi comunali.&lt;stro
+	<cat

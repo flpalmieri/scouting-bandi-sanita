@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-24T09:13:40+00:00",
- "totale": 114,
+ "aggiornato_il": "2026-11-24T09:34:07+00:00",
+ "totale": 115,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -1925,6 +1925,26 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
+   "ultimo_rilevamento": "2026-11-24"
+  },
+  {
+   "id": "siaps:4853046",
+   "fonti": [
+    "SIAPS So.Re.Sa."
+   ],
+   "titolo": "Avviso Pubblico per manifestazione di interesse, ai sensi dell’art. 77 del D.Lgs. n. 36/2023, per l’affidamento dei servizi di manutenzione correttiva, conservativa, adeguativa, evolutiva, assistenza tecnica specialistica e conduzione applicativa on-site delle procedure applicative WIRGILIO (Gestione Cartella Clinica Elettronica) in uso presso l’A.S.L. Napoli 1 Centro",
+   "ente": "A.S.L. NAPOLI 1 CENTRO",
+   "scadenza": "2026-12-07",
+   "pubblicazione": "2026-11-24",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "Consultazione Preliminare di Mercato",
+   "link": "https://siaps.soresa.it/portalegare/index.php/bandi?getdettaglio=yes&bando=4853046&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-07T12:00:00",
+   "regione": "Campania",
+   "motivo_match": "Ente sanitario + oggetto IT ('manutenzione correttiva')",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-24",
    "ultimo_rilevamento": "2026-11-24"
   },
   {

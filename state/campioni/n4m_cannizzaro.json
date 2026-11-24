@@ -1,5 +1,86 @@
 {
- "errore": "gara 7: oggetto o date non riconosciuti",
- "lunghezza_risposta": 80020,
- "inizio": "//OK"
+ "totale_dichiarato": 17,
+ "gare": [
+  {
+   "id": 1037,
+   "riferimento": "1509/2026",
+   "titolo": "Procedura negozita ai sensi dell’art. 50, comma 1, lett. e, del D.Lgs n. 36/2023, per l’affidamento del “Servizio in somministrazione di gestione e manutenzione delle aree a verde di pertinenza dell’A.O.E. Cannizzaro”,",
+   "scadenza": "2026-10-26",
+   "pubblicazione": "2026-09-25",
+   "nota": "scadenza presa dalla procedura (l'albo non indica la fine pubblicazione): da verificare"
+  },
+  {
+   "id": 1020,
+   "riferimento": "978",
+   "titolo": "FORNITURA DI LETTI BILANCIA DA DESTINARE ALLA S.OC. DI NEFROLOGIA",
+   "scadenza": "2026-10-02",
+   "pubblicazione": "2026-09-04",
+   "nota": "scadenza presa dalla procedura (l'albo non indica la fine pubblicazione): da verificare"
+  },
+  {
+   "id": 1018,
+   "riferimento": "1468",
+   "titolo": "FORNITURA LETTI ELETTRICI DI DEGENZA MOD. HILL-ROM DA DESTINARE ALLA S.O.C. DI ORTOPEDIA E TRAUMATOLOGIA",
+   "scadenza": "2026-09-11",
+   "pubblicazione": "2026-08-27",
+   "nota": "scadenza presa dalla procedura (l'albo non indica la fine pubblicazione): da verificare"
+  },
+  {
+   "id": 970,
+   "riferimento": "8169",
+   "titolo": "Fornitura di strumenti endoscopici necessari per l’aggiornamento della colonna videobroncoscopica Olympus in dotazione della S.O.C. di Chirurgia Toracica",
+   "scadenza": "2026-07-31",
+   "pubblicazione": "2026-07-14",
+   "nota": "scadenza presa dalla procedura (l'albo non indica la fine pubblicazione): da verificare"
+  },
+  {
+   "id": 839,
+   "riferimento": "242",
+   "titolo": "FORNITURA BIENNALE DEL SERVIZIO DI PULIZIA E BIO-DECONTAMINAZIONE DI LETTI",
+   "scadenza": "2026-05-26",
+   "pubblicazione": "2026-05-19",
+   "nota": "scadenza presa dalla procedura (l'albo non indica la fine pubblicazione): da verificare"
+  },
+  {
+   "id": 859,
+   "riferimento": "890",
+   "titolo": "FORNITURA DI STRUMENTARIO DIAGNOSTICO DA DESTINARE ALLA S.O.C. DI OFTALMOLOGIA",
+   "scadenza": "2026-05-29",
+   "pubblicazione": "2026-05-07",
+   "nota": "scadenza presa dalla procedura (l'albo non indica la fine pubblicazione): da verificare"
+  },
+  {
+   "id": 838,
+   "riferimento": "667",
+   "titolo": "FORNITURA DI UN SISTEMA DI LOCALIZZAZIONE DELLE LESIONI NON PALPABILI DELLA MAMMELLA, DENOMINATO “SCOUT RADAR LOCALIZATION”",
+   "scadenza": "2026-04-30",
+   "pubblicazione": "2026-04-21",
+   "nota": "scadenza presa dalla procedura (l'albo non indica la fine pubblicazione): da verificare"
+  },
+  {
+   "id": 781,
+   "riferimento": "497/2026",
+   "titolo": "Procedura negoziata, ai sensi dell’art. 50 comma 1 lett. e del d.lgs. n. 36/2023, per la conclusione di un accordo quadro per la fornitura, in somministrazione quadriennale di carta diagrammata da destinare all’A.O.E. Cannizzaro",
+   "scadenza": "2026-04-24",
+   "pubblicazione": "2026-04-07",
+   "nota": "scadenza presa dalla procedura (l'albo non indica la fine pubblicazione): da verificare"
+  },
+  {
+   "id": 772,
+   "riferimento": "2339",
+   "titolo": "FORNITURA DI N.1 ECOCARDIOGRAFO PER LA S.O.C. DI UTIC-CARDIOLOGIA",
+   "scadenza": "2026-04-20",
+   "pubblicazione": "2026-03-20",
+   "nota": "scadenza presa dalla procedura (l'albo non indica la fine pubblicazione): da verificare"
+  },
+  {
+   "id": 732,
+   "riferimento": "1799",
+   "titolo": "Fornitura di apparecchiature ad integrazione delle colonne Olympus in dotazione della U.O.S.D. di Gastroenterologia da utilizzare presso il nuovo PS dell’A.O.E. Cannizzaro di Catania",
+   "scadenza": "2026-01-16",
+   "pubblicazione": "2025-12-16",
+   "nota": "scadenza presa dalla procedura (l'albo non indica la fine pubblicazione): da verificare"
+  }
+ ],
+ "non_lette": []
 }
