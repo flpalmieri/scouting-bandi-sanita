@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-24T16:04:30+00:00",
- "totale": 123,
+ "aggiornato_il": "2026-11-24T16:47:26+00:00",
+ "totale": 124,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -1610,6 +1610,30 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('software') - da verificare",
    "descrizione": "Affidamento diretto in regime di infungibilità tecnica dei servizi di sviluppo software su procedure software fornite da Zen Sistemi Srl (Questionario RENAM) della durata di 12 mesi in ambito PNC. CUP E39I23001530001 - pos.5/498-2026; Procedura: Negoziata (Invito)",
    "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-24"
+  },
+  {
+   "id": "contracta:2984958",
+   "fonti": [
+    "Contracta"
+   ],
+   "titolo": "SERVIZI DI MANUTENZIONE PER I PRODOTTI SOFTWARE IBM DB2 PER IL PERIODO GENNAIO 2027 - DICEMBRE 2028",
+   "ente": "Trentino Digitale S.p.a.",
+   "scadenza": "2026-11-30",
+   "pubblicazione": "2026-11-18",
+   "importo": 185000.0,
+   "cpv": [
+    "72000000"
+   ],
+   "cig": [
+    "BDCAA9C832"
+   ],
+   "tipo": "Bando",
+   "link": "https://contracta.provincia.tn.it/portale/index.asp",
+   "regione": "Trentino-Alto Adige",
+   "motivo_match": "Soggetto aggregatore + CPV IT (72000000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-24",
    "ultimo_rilevamento": "2026-11-24"
   },
   {

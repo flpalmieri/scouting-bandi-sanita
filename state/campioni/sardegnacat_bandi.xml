@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>296</afs:totRecord>
+<afs:totRecord>301</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1079029&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T18:00:00]]></link>
@@ -254,7 +254,7 @@
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-24T16:12:13]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T17:29:10]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[45454000-4 - Lavori di ristrutturazione]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-09T11:57:08]]></afs:DtPubblicazioneTecnical>

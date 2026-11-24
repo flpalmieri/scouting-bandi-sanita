@@ -18,10 +18,10 @@
   "righe_lette": 28
  },
  "lombardia_ambito_7": {
-  "righe_prima_pagina": 81,
+  "righe_prima_pagina": 82,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 81
+  "righe_lette": 82
  },
  "lombardia_ambito_8": {
   "righe_prima_pagina": 22,
@@ -30,10 +30,10 @@
   "righe_lette": 22
  },
  "lombardia_ambito_9": {
-  "righe_prima_pagina": 25,
+  "righe_prima_pagina": 26,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 25
+  "righe_lette": 26
  },
  "lombardia_ambito_11": {
   "righe_prima_pagina": 21,
@@ -42,7 +42,7 @@
   "righe_lette": 21
  },
  "lombardia": {
-  "righe_lette": 561,
+  "righe_lette": 563,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 17,
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 12,
@@ -50,9 +50,9 @@
    "ASST DI BERGAMO EST": 9,
    "ASST DI BERGAMO OVEST": 9,
    "ASST LARIANA": 9,
+   "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 9,
    "ASST DEI SETTE LAGHI": 8,
    "ASST PAPA GIOVANNI XXIII": 8,
-   "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 8,
    "AGENZIA REGIONALE EMERGENZA URGENZA (AREU 118)": 7,
    "ASST DI CREMA": 7,
    "ASST RHODENSE": 6,
@@ -83,7 +83,7 @@
    "ATS DELLA CITTA METROPOLITANA DI MILANO": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 371,
+  "procedure_altri_enti": 372,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "COMUNE DI MILANO": 16,
@@ -91,7 +91,7 @@
    "SOCIETÀ PER L'ECOLOGIA E L'AMBIENTE SPA": 10,
    "COMUNE DI BERGAMO": 9,
    "POLITECNICO DI MILANO": 8,
-   "PROVINCIA DI BERGAMO": 8,
+   "PROVINCIA DI BERGAMO": 7,
    "PROVINCIA DI LECCO": 7,
    "COMUNE DI PONTE DI LEGNO": 6,
    "COMUNE DI BUSTO ARSIZIO": 5,
@@ -103,6 +103,7 @@
    "COMUNE DI BRUGHERIO": 4,
    "COMUNE DI BUCCINASCO": 4,
    "COMUNE DI CARUGATE": 4,
+   "COMUNE DI LEGNANO": 4,
    "COMUNE DI LOMAZZO": 4,
    "COMUNE DI VERTEMATE CON MINOPRIO": 4,
    "COMUNITÀ MONTANA VALLE SABBIA": 4,
@@ -113,7 +114,6 @@
    "COMUNE DI CASSANO MAGNAGO": 3,
    "COMUNE DI CASTELLO DI BRIANZA": 3,
    "COMUNE DI CREMONA": 3,
-   "COMUNE DI LEGNANO": 3,
    "COMUNE DI PADERNO DUGNANO": 3,
    "COMUNITÀ MONTANA DEL PIAMBELLO": 3,
    "CONSORZIO INFORMATICA TERRITORIO SPA": 3,
@@ -128,6 +128,7 @@
    "COMUNE DI BUSSERO": 2,
    "COMUNE DI CANT¿": 2,
    "COMUNE DI CASNATE CON BERNATE": 2,
+   "COMUNE DI CAVRIANA": 2,
    "COMUNE DI CERNUSCO SUL NAVIGLIO": 2,
    "COMUNE DI LAINATE": 2,
    "COMUNE DI LONATO DEL GARDA": 2,
@@ -179,7 +180,6 @@
    "COMUNE DI CASTEL GOFFREDO": 1,
    "COMUNE DI CASTELCOVATI": 1,
    "COMUNE DI CAVARIA CON PREMEZZO": 1,
-   "COMUNE DI CAVRIANA": 1,
    "COMUNE DI CERGNAGO": 1,
    "COMUNE DI CERNOBBIO": 1,
    "COMUNE DI CESANO MADERNO": 1,
@@ -388,20 +388,20 @@
   }
  },
  "liguria": {
-  "righe_prima_pagina": 43,
+  "righe_prima_pagina": 45,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 43,
+  "righe_lette": 45,
   "enti_sanitari": {
-   "AZIENDA TUTELA DELLA SALUTE LIGURIA": 19,
+   "AZIENDA TUTELA DELLA SALUTE LIGURIA": 20,
    "LIGURIA DIGITALE S.P.A.": 7,
    "REGIONE LIGURIA (SUAR)": 4,
    "ISTITUTO GIANNINA GASLINI": 1
   },
-  "procedure_altri_enti": 12,
+  "procedure_altri_enti": 13,
   "altri_enti": {
+   "COMUNE DI ARENZANO": 4,
    "PROVINCIA DI SAVONA": 4,
-   "COMUNE DI ARENZANO": 3,
    "INFRASTRUTTURE RECUPERO ENERGIA AGENZIA REGIONALE LIGURE - I.R.E. S.P.A.": 2,
    "COMUNE DI SESTRI LEVANTE": 1,
    "COMUNE SANTA MARGHERITA LIGURE": 1,
