@@ -59,7 +59,7 @@ RE_CPV = re.compile(r"^\d{8}-\d$")
 RE_CLASSE = re.compile(r"^(com|java|javax)\.")
 ANNO_2000 = 946684800000   # millisecondi
 
-# Corpo della richiesta, copiato dal browser (23/11/2026). {base}, {nome_forte}, {albo}, {scadute}.
+# Corpo della richiesta, copiato dal browser (23/11/2026). {base} = BASE + "alboeproc/" (module base GWT; con il solo BASE il server risponde 500), {nome_forte}, {albo}, {scadute}.
 PAYLOAD = ("7|2|14|{base}|{nome_forte}|com.csamed.devlibsgxt.shared.dto.ExtRpcToken/3539413198|{albo}|"
            "com.csamed.alboeproc.client.eproc.interfacciagare.servizi.ServizioGarePubblico|"
            "filtraListaBandiAlboFornitori|com.sencha.gxt.data.shared.loader.PagingLoadConfig|java.util.List|"
@@ -178,7 +178,7 @@ def _leggi_sito(sito: dict, filtro: Filtro) -> list[Opportunita]:
     pagina_albo = BASE + sito["albo"]
     r = sess.get(pagina_albo, timeout=attesa)          # sessione anonima (cookie)
     r.raise_for_status()
-    corpo = PAYLOAD.format(base=BASE, nome_forte=sito["nome_forte"], albo=sito["albo"], scadute=0)
+    corpo = PAYLOAD.format(base=BASE + "alboeproc/", nome_forte=sito["nome_forte"], albo=sito["albo"], scadute=0)
     r = sess.post(SERVIZIO, data=corpo.encode("utf-8"), timeout=attesa, headers={
         "Content-Type": "text/x-gwt-rpc; charset=UTF-8",
         "X-GWT-Permutation": sito["permutazione"],
