@@ -80,6 +80,12 @@ def converti(gara: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     ente = (gara.get("nome_ente") or sito.get("ente") or "").replace("dell ", "dell'")
 
     cpv = sorted(set(RE_CPV.findall(f"{gara.get('cat_prevalente') or ''} {gara.get('cat_secondaria') or ''}")))
+    if sito.get("ignora_cpv"):
+        # SEUS 118 (23/11/2026): le manifestazioni di interesse hanno tutte lo stesso CPV di modello
+        # (72224000 consulenza informatica + 79111000), anche per un supporto all'ufficio acquisti e per
+        # l'elenco dei collegi consultivi tecnici, che entravano come "Ente sanitario + CPV IT".
+        # Con questa opzione vale solo il filtro testuale.
+        cpv = []
     motivo = (filtro.valuta(titolo, ente, cpv) if cpv else None) \
         or filtro.valuta_testo(titolo, ente, descrizione)
     if not motivo:

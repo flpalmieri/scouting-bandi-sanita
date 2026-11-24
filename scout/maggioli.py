@@ -279,6 +279,12 @@ def _leggi_lista(sito: dict, lista: str, stazione: str | None, sess, filtro: Fil
 
 def _leggi_sito(sito: dict, filtro: Filtro) -> list[Opportunita]:
     sess = _sessione(sito)
+    # Siti che non mandano il certificato intermedio (Sicilia, 23/11/2026: ARNAS Civico, AO Papardo):
+    # lo si scarica o lo si prende da un file del repository e si verifica la catena (scout/tls.py).
+    # La verifica TLS resta sempre attiva.
+    if sito.get("completa_catena_tls"):
+        from .tls import completa_catena
+        sess.verify = completa_catena(sito["host"], intermedi_extra=sito.get("intermedi_extra"))
     risultati: list[Opportunita] = []
     errori: list[str] = []
     richieste = [(lista, staz) for lista in sito.get("liste", ["bandi", "avvisi"])

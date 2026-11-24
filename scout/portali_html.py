@@ -12,6 +12,9 @@ Lettori disponibili:
                    CIG/data pubblicazione (USL Umbria 2, portali PAT di ISWEB come l'IZSUM,
                    AreaCom Abruzzo su Drupal). Se mancano "scadenza" e "tipologia" valgono
                    "termine" e "procedura" (ASP Catania, "Termine per la consegna delle offerte").
+  traspare       - elenco \"announcements\" delle piattaforme Traspare (L&G Solution: ASP Siracusa,
+                   ISMETT): schede tender-card con procedura, scadenza, titolo, stato, CIG,
+                   importo; il R.U.P. non si legge e nel campione e' sostituito da \"[non salvato]\".
   box_etichette  - riquadri C2I MediaCenter con etichette (AO Perugia).
   teaser_drupal  - schede Drupal <article class="node-teaser"> con stato (field-workflow),
                    "Pubblicato:" e "Scade:" (portale bandi ASL TO5). Il referente (nome,
@@ -51,6 +54,9 @@ Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url
                           dell'ente. Usare per un'area lo stesso nome dell'ente di un altro
                           sito che pubblica gli stessi avvisi, cosi' la deduplica li fonde.
                           Un'area assente dalla tabella diventa "<ente> - <area>".
+  escludi_tipologie_regex - scarta le voci il cui tipo di procedura (colonna \"Procedura\"/\"Tipologia\"
+                          o etichetta Traspare) corrisponde; anche dallo storico (ESCLUSI).
+  intermedi_extra       - file PEM del repository con intermedi TLS non scaricabili (vedi tls.py).
   scadenza_max_giorni   - se la "scadenza" e' piu' lontana di cosi' dalla pubblicazione
                           (default 365) non e' un termine di gara ma la fine della
                           pubblicazione sul sito: viene ignorata.
@@ -347,10 +353,49 @@ def lettore_albo_ap(pagina: str, url_base: str) -> list[dict]:
     return voci
 
 
+def lettore_traspare(pagina: str, url_base: str) -> list[dict]:
+    """Piattaforme Traspare di L&G Solution (Sicilia, 23/11/2026: ASP Siracusa, ISMETT): elenco
+    \"announcements\" con schede <article class=\"tender-card\">: procedura e scadenza
+    (\"PROCEDURA APERTA - SCADENZA: 06/12/2026 23:59 - Europe/Rome\"), titolo con link
+    /announcements/<n>, stato (\"In corso\", \"Aperta\", \"Termini scaduti\"...), CIG, \"Indetta da\"
+    (l'ufficio), importo. Il riquadro del R.U.P. non si legge."""
+    voci = []
+    for scheda in re.findall(r'<article[^>]+class="[^"]*\btender-card\b[^"]*"[^>]*>(.*?)</article>',
+                             pagina, re.DOTALL | re.IGNORECASE):
+        titolo_m = re.search(r'<h2[^>]*class="[^"]*card__title[^"]*"[^>]*>\s*<a[^>]+href="([^"]+)"[^>]*>(.*?)</a>',
+                             scheda, re.DOTALL | re.IGNORECASE)
+        if not titolo_m:
+            continue
+        etichetta = _testo(next(iter(re.findall(
+            r'<span[^>]+class="[^"]*tender-card__label[^"]*"[^>]*>(.*?)</span>\s*</div>', scheda,
+            re.DOTALL | re.IGNORECASE)), ""))
+        scad = re.search(r"SCADENZA:\s*(\d{1,2}/\d{1,2}/\d{4}(?:\s+\d{1,2}:\d{2})?)", etichetta, re.IGNORECASE)
+        procedura = RE_SPAZI.sub(" ", re.split(r"\s+-\s+SCADENZA", etichetta, flags=re.IGNORECASE)[0]).strip(" -")
+        stato = re.search(r'<span[^>]+class="[^"]*tender-card__pill--status[^"]*"[^>]*>(.*?)</span>', scheda,
+                          re.DOTALL | re.IGNORECASE)
+        campi = {_testo(k).rstrip(":").strip().lower(): _testo(v) for k, v in
+                 re.findall(r"<b>(.*?)</b>(.*?)</div>", scheda, re.DOTALL | re.IGNORECASE)}
+        importo = re.search(r"Importo[^<]*</strong>\s*(?:<br\s*/?>)?\s*([^<]+)", scheda, re.IGNORECASE)
+        cig = campi.get("cig", "")
+        voci.append({
+            "titolo": RE_SPAZI.sub(" ", _testo(titolo_m.group(2))).strip(),
+            "link": urljoin(url_base, html.unescape(titolo_m.group(1))),
+            "testo": (f"DATA SCADENZA: {scad.group(1) if scad else ''}\nPROCEDURA: {procedura}"
+                      + (f"\nUFFICIO: {campi['indetta da']}" if campi.get("indetta da") else "")
+                      + (f"\nCIG: {cig}" if cig else "")),
+            "scadenza_grezza": scad.group(1) if scad else None,
+            # \"(PREVIA INDAGINE DI MERCATO)\" descrive come sono stati scelti gli invitati: non e' un avviso.
+            "tipo_grezzo": re.sub(r"\(.*?\)", "", procedura).strip(),
+            "importo_grezzo": importo.group(1).strip() if importo else "",
+            "stato_grezzo": _testo(stato.group(1)) if stato else "",
+        })
+    return voci
+
+
 LETTORI = {"scheda_sito": lettore_scheda_sito, "tabella": lettore_tabella,
            "box_etichette": lettore_box_etichette, "it_card": lettore_it_card,
            "teaser_drupal": lettore_teaser_drupal, "publiccompetitions": lettore_publiccompetitions,
-           "albo_ap": lettore_albo_ap}
+           "albo_ap": lettore_albo_ap, "traspare": lettore_traspare}
 RE_PROGRAMMAZIONE = re.compile(r"programmazione\s+(triennale|biennale)|programma\s+(triennale|biennale)", re.IGNORECASE)
 
 
@@ -408,6 +453,12 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     if stato and stato in {x.lower() for x in sito.get("escludi_stati", [])}:
         return None
     escl = _esclusioni_sito(sito)
+    tip = sito.get("escludi_tipologie_regex")
+    if tip and re.search("|".join(f"(?:{p})" for p in tip), voce.get("tipo_grezzo") or "", re.IGNORECASE):
+        # Tipo di procedura a invito o gia' deciso (es. \"AFFIDAMENTO DIRETTO\" su Traspare): fuori, anche
+        # dallo storico.
+        ESCLUSI.add(_id_voce(voce, sito))
+        return None
     if escl and escl.search(titolo):
         # Dal 23/11/2026 la voce esce anche dallo storico (main.py): una regola di esclusione
         # aggiunta dopo il primo rilevamento (es. adesione Consip ED.3 PAL sul sito AreaCom)
@@ -490,7 +541,10 @@ MARCATORI_CAMPIONE = {
     "it_card": b"it-card",
     "teaser_drupal": b"node-teaser",
     "publiccompetitions": b"pc_latest_item",
+    "traspare": b"tender-card",
 }
+# Riquadri con il nome del responsabile del procedimento (Traspare): nel campione il nome non si salva.
+RE_RUP_CAMPIONE = re.compile(rb"(<strong>\s*R\.?\s*U\.?\s*P\.?\s*</strong>\s*(?:<br\s*/?>)?)[^<]*", re.IGNORECASE)
 
 
 def _salva_campione(sito: dict, contenuto: bytes) -> None:
@@ -501,6 +555,7 @@ def _salva_campione(sito: dict, contenuto: bytes) -> None:
         i = contenuto.lower().find(marcatore.lower())
         if i > 0:
             contenuto = contenuto[max(0, i - 500):]
+    contenuto = RE_RUP_CAMPIONE.sub(rb"\1 [non salvato]", contenuto)
     (CAMPIONI / f"{nome}.html").write_bytes(contenuto[:60000])
 
 
@@ -542,7 +597,8 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
     verifica = True
     if sito.get("completa_catena_tls"):
         from .tls import completa_catena
-        verifica = completa_catena(sito["url"].replace("{pagina}", str(sito.get("pagina_iniziale", 1))))
+        verifica = completa_catena(sito["url"].replace("{pagina}", str(sito.get("pagina_iniziale", 1))),
+                                   intermedi_extra=sito.get("intermedi_extra"))
     url_modello = sito["url"]
     alternativo = sito.get("url_alternativo")
     paginato = "{pagina}" in url_modello

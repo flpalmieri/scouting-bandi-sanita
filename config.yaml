@@ -1295,6 +1295,37 @@ portali_html:
       timeout_connessione: 10
       tentativi: 0
 
+    # Sicilia, fase 2 (23/11/2026). Piattaforme Traspare di L&G Solution (lettore traspare): elenco
+    # "announcements" filtrato per stato (2 = gare e procedure in corso, 52 sospese, 3 scadute), 5 schede
+    # per pagina con procedura, scadenza, titolo, stato, CIG, ufficio e importo; il R.U.P. non si legge e
+    # nel campione e' sostituito da "[non salvato]". Esclusi gli affidamenti diretti; le negoziate ("con
+    # almeno 5/10 inviti", "senza pubblicazione di un bando") restano, come su tutte le piattaforme.
+    # Primo lancio con un solo ente della famiglia (lezione 13): ISMETT. Se risponde, togliere
+    # abilitato: false dall'ASP Siracusa.
+    - &traspare
+      nome: ISMETT
+      nome_fonte: Traspare ISMETT
+      sigla: ismett
+      ente: ISMETT - Istituto Mediterraneo per i Trapianti Ismett IRCCS     # come su TED
+      regione: Sicilia
+      lettore: traspare
+      user_agent: progetto
+      max_pagine: 3
+      escludi_tipologie_regex: ['affidamento\s+diretto']
+      url: "https://ismett.traspare.com/announcements?status=2&page={pagina}"
+      timeout_connessione: 10
+      tentativi: 0
+    # ASP Siracusa: il server non manda l'intermedio GoDaddy G2; si scarica dall'indirizzo indicato nel
+    # certificato e si verifica la catena (provato sulla catena reale del 23/11/2026).
+    - <<: *traspare
+      abilitato: false
+      nome: ASP Siracusa
+      nome_fonte: Traspare ASP Siracusa
+      sigla: aspsiracusa
+      ente: Azienda Sanitaria Provinciale di Siracusa                     # come su TED
+      url: "https://acquisti.asp.sr.it/announcements?status=2&page={pagina}"
+      completa_catena_tls: true
+
 # --- Sintel (ARIA, Lombardia) ------------------------------------------------
 # Piattaforma di gara di tutte le aziende sanitarie lombarde (ASST, ATS, IRCCS,
 # AREU) e di ARIA; la usano anche enti di altre regioni (es. ULSS e aziende
@@ -1509,6 +1540,10 @@ acquistitelematici:
       tipi: [procedure-gara, manifestazioni-interesse]
       max_risultati: 50
       escludi_stati: [annullata, tender_canceled]
+      # Le manifestazioni di interesse della SEUS hanno tutte lo stesso CPV di modello (72224000 +
+      # 79111000): al primo lancio sono entrate come IT un supporto all'ufficio acquisti (449) e l'elenco
+      # dei collegi consultivi tecnici (370). Solo filtro testuale.
+      ignora_cpv: true
 
 # --- Piattaforme JAGGAER (ex BravoSolution, indirizzi /esop/...) --------------------
 # L'elenco pubblico "Avvisi in Area Pubblica" e' nell'HTML della pagina (vedi scout/jaggaer.py):
@@ -1720,3 +1755,119 @@ maggioli:
       nome_fonte: Appalti IRCCS Bonino Pulejo
       sigla: irccsme
       host: "https://appalti.irccsme.it"
+    # Sicilia, fase 2 (23/11/2026): le due istanze con la catena TLS incompleta. ARNAS Civico: manca
+    # l'intermedio Sectigo OV R36, scaricato dall'indirizzo del certificato (tls.py ora non sale piu'
+    # alla radice R46 in formato .p7c). Le stazioni si chiamano "U.O.C. Provveditorato", "U.O.C.
+    # Gestione tecnica", "U.O.C. Affari Generali", come su TED (20 avvisi): nomi lasciati cosi' per la
+    # deduplica (lezione 80).
+    - <<: *maggioli_sicilia
+      nome: ARNAS Civico
+      nome_fonte: Appalti ARNAS Civico
+      sigla: arnascivico
+      host: "https://eprocurement.arnascivico.it"
+      completa_catena_tls: true
+    # AO Papardo: l'indirizzo dell'intermedio Actalis DV 2025 risponde 500. L'intermedio (da crt.sh,
+    # id 20009242633, stessa chiave dichiarata dal certificato del sito) e la radice Actalis 2025 con la
+    # firma incrociata (mandata dal server) stanno nel file del repository; tls.py li verifica fino alla
+    # radice Actalis di certifi come se fossero scaricati.
+    - <<: *maggioli_sicilia
+      nome: AO Papardo
+      nome_fonte: Appalti AO Papardo
+      sigla: aopapardo
+      host: "https://portaleappalti.aopapardo.it"
+      completa_catena_tls: true
+      intermedi_extra: [certificati/aopapardo_intermedi.pem]
+
+# --- Piattaforme Net4market (app.albofornitori.it) ------------------------------------
+# Sicilia, fase 2 (23/11/2026). Elenco delle gare in corso dalla chiamata GWT-RPC dell'albo (vedi
+# scout/net4market.py): sessione anonima con un GET della pagina dell'albo, poi la POST. Niente CPV,
+# niente link alla singola gara (porta all'albo; il riferimento e' in descrizione). Se Net4market
+# aggiorna l'applicazione, "permutazione" e "nome_forte" vanno ricopiati da F12 (la fonte lo dice
+# nell'errore). Primo lancio con la sola ASP Ragusa (lezione 13).
+net4market:
+  abilitato: true
+  siti:
+    - &net4market
+      nome: ASP Ragusa
+      nome_fonte: Net4market ASP Ragusa
+      sigla: n4m_aspragusa
+      albo: albo_aspragusa
+      ente: ASP RAGUSA                      # come su TED (13 avvisi)
+      regione: Sicilia
+      permutazione: E37993C17AFC31DBE437D517E07BD9B8
+      nome_forte: 7E3AA9FB5E1CA57F661BA8082572FA6D
+      # Affidamenti diretti dall'inizio del titolo, come su Maggioli; le indagini "propedeutiche
+      # all'affidamento ai sensi dell'art. 50" restano (aperte a tutti).
+      escludi_titoli_regex: *escludi_maggioli
+      timeout_connessione: 10
+      tentativi: 0
+    # Da attivare dopo il primo lancio (togliere abilitato: false), un albo alla volta: le risposte di
+    # questi due albi non sono ancora state viste.
+    - <<: *net4market
+      abilitato: false
+      nome: AO Cannizzaro
+      nome_fonte: Net4market AO Cannizzaro
+      sigla: n4m_cannizzaro
+      albo: albo_ospedalecannizzaro
+      ente: AZIENDA OSPEDALIERA PER L'EMERGENZA CANNIZZARO
+    - <<: *net4market
+      abilitato: false
+      nome: AOU Policlinico Palermo
+      nome_fonte: Net4market AOU Policlinico Palermo
+      sigla: n4m_aoupa
+      albo: albo_aoupaologiaccone
+      ente: Azienda Ospedaliera Universitaria Policlinico Paolo Giaccone
+    # ASP Catania non si configura: l'albo albo_aspcatania ha come "in corso" solo 6 gare del
+    # 2023-2024 (ancora "Indetta"); le gare correnti dell'ASP stanno sul suo sito (blocco portali_html).
+
+# --- Piattaforme TuttoGare (Studio Amica) --------------------------------------------
+# Sicilia, fase 2 (23/11/2026). Servizio JSON /gare/table.php (vedi scout/tuttogare.py), solo le voci
+# con stato 20 "Pubblicato". Primo lancio con il solo IZS Sicilia (lezione 13).
+tuttogare:
+  abilitato: true
+  siti:
+    - &tuttogare
+      nome: IZS Sicilia
+      nome_fonte: TuttoGare IZS Sicilia
+      sigla: izssicilia
+      host: "https://izssicilia.tuttogare.it"
+      regione: Sicilia
+      stato: 20
+      # Affidamenti diretti / RDO (a invito, art. 50 c.1 lett. b), adesioni a convenzioni e accordi
+      # quadro, RDO su MePA e SDA, ordini su mercati esterni. Restano aperte, negoziate, ristrette,
+      # "Affidamento con indagine di mercato" (manifestazioni e consultazioni aperte a tutti),
+      # consultazioni preliminari, richieste di preventivo aperte.
+      escludi_procedure:
+        - "Affidamento diretto / RDO"
+        - "RDO / Affidamento nell'ambito di un accordo quadro/convenzione"
+        - "RDO / Affidamento nell'ambito di un accordo quadro/convenzione/strumento esterno"
+        - "RDO / Affidamento nell'ambito del mercato elettronico"
+        - "RDO / Affidamento nell'ambito di un Sistema dinamico di acquisizione"
+        - "ODA / affidamento nell'ambito di un mercato esterno"
+      escludi_titoli_regex: *escludi_maggioli
+      timeout_connessione: 10
+      tentativi: 0
+    # Istanze SITAS delle ASP: quasi solo adesioni (escluse), ma anche gare aperte vere (ASP Enna,
+    # telemedicina domiciliare "Grandi anziani", settembre 2026). Da attivare dopo il primo lancio.
+    - <<: *tuttogare
+      abilitato: false
+      nome: ASP Agrigento (SITAS)
+      nome_fonte: TuttoGare ASP Agrigento
+      sigla: tg_aspagrigento
+      host: "https://appalti.aspagrigento.lavoripubblici.sicilia.it"
+    - <<: *tuttogare
+      abilitato: false
+      nome: ASP Enna (SITAS)
+      nome_fonte: TuttoGare ASP Enna
+      sigla: tg_aspenna
+      host: "https://appalti.aspenna.lavoripubblici.sicilia.it"
+    # SITAS della Regione (89 stazioni): solo l'Ufficio Speciale CUC beni e servizi (47, aggregatore
+    # misto) e il Dipartimento per la pianificazione strategica (68, ente sanitario). Il DASOE (69) non
+    # ha voci. Nomi degli enti come nella risposta.
+    - <<: *tuttogare
+      abilitato: false
+      nome: SITAS Regione Siciliana
+      nome_fonte: SITAS Regione Siciliana
+      sigla: sitas
+      host: "https://appalti.regionesiciliana.lavoripubblici.sicilia.it"
+      enti: ["47", "68"]

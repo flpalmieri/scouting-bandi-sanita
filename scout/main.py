@@ -19,8 +19,8 @@ from pathlib import Path
 
 import yaml
 
-from . import (acquistitelematici, anac, centrale_acquisti, jaggaer, maggioli, plone, portali_html,
-               portali_rss, sintel, ted)
+from . import (acquistitelematici, anac, centrale_acquisti, jaggaer, maggioli, net4market, plone,
+               portali_html, portali_rss, sintel, ted, tuttogare)
 from .common import (Filtro, Opportunita, chiave_testo, log, pulisci_titolo,
                      sessione_http)
 
@@ -29,7 +29,8 @@ FONTI = {"ted": ted.raccogli, "anac": anac.raccogli, "portali_rss": portali_rss.
          "portali_html": portali_html.raccogli, "acquistitelematici": acquistitelematici.raccogli,
          "sintel": sintel.raccogli, "plone": plone.raccogli,
          "centrale_acquisti": centrale_acquisti.raccogli, "jaggaer": jaggaer.raccogli,
-         "maggioli": maggioli.raccogli}
+         "maggioli": maggioli.raccogli, "net4market": net4market.raccogli,
+         "tuttogare": tuttogare.raccogli}
 NOMI_CAMPI = {f.name for f in fields(Opportunita)}
 
 
@@ -329,6 +330,8 @@ def main() -> int:
     riepilogo["errori"].extend(f"centrale_acquisti: {e}" for e in centrale_acquisti.ERRORI)
     riepilogo["errori"].extend(f"jaggaer: {e}" for e in jaggaer.ERRORI)
     riepilogo["errori"].extend(f"maggioli: {e}" for e in maggioli.ERRORI)
+    riepilogo["errori"].extend(f"net4market: {e}" for e in net4market.ERRORI)
+    riepilogo["errori"].extend(f"tuttogare: {e}" for e in tuttogare.ERRORI)
 
     storico = carica_storico()
     prima = set(storico)
@@ -339,7 +342,8 @@ def main() -> int:
     # dell'albo dell'ASL 3 Nuoro del 2025 senza scadenza).
     for nome, esclusi in (("Plone", plone.ESCLUSI), ("Centrale Acquisti", centrale_acquisti.ESCLUSI),
                           ("Jaggaer", jaggaer.ESCLUSI), ("HTML", portali_html.ESCLUSI),
-                          ("Maggioli", maggioli.ESCLUSI)):
+                          ("Maggioli", maggioli.ESCLUSI), ("Net4market", net4market.ESCLUSI),
+                          ("TuttoGare", tuttogare.ESCLUSI)):
         tolte = sorted(k for k in storico if k in esclusi)
         for k in tolte:
             del storico[k]
