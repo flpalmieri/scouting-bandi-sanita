@@ -1824,7 +1824,6 @@ net4market:
       albo: albo_ospedalecannizzaro
       ente: AZIENDA OSPEDALIERA PER L'EMERGENZA CANNIZZARO
     - <<: *net4market
-      abilitato: false
       nome: AOU Policlinico Palermo
       nome_fonte: Net4market AOU Policlinico Palermo
       sigla: n4m_aoupa
