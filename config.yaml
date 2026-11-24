@@ -77,10 +77,10 @@ enti_sanitari_regex:
   # struttura delle aziende del SSN: un ente il cui nome INIZIA con UOC e' sanitario. Nei 532 avvisi
   # TED marchigiani e nei campioni delle altre fonti l'unico nome cosi' e' quello dell'AST PU.
   - '^\W*U\.?\s?O\.?\s?C\b'
-  # Decisione di Flavio in attesa (23/11/2026): ARS Marche ("AGENZIA REGIONALE SANITARIA MARCHE" su
+  # Decisione di Flavio (24/11/2026, applicata con il commit 4d4172e): ARS Marche ("AGENZIA REGIONALE SANITARIA MARCHE" su
   # GTMULTIE, "AGENZIA REGIONALE SANITARIA" su GT-SUAM; mai acquirente su TED) come ente sanitario,
   # come ARES e AREUS in Sardegna. Al 23/11/2026 nessun suo avviso aperto e' IT (interpretariato
-  # CUR 112, rete radio 118, campagna screening). Per attivarla: togliere il # dalla riga seguente.
+  # CUR 112, rete radio 118, campagna screening).
   - 'agenzia\s+regionale\s+sanitaria'
   # Sicilia (23/11/2026): nomi visti su TED (937 avvisi siciliani dal 01/06/2026) e sulle piattaforme.
   # ASP, ARNAS, AO, AOU, Policlinici, IZS e "U.O.C. Provveditorato" (ARNAS Civico su TED) erano gia'
@@ -212,7 +212,7 @@ aggregatori_misti_regex:
   # e CSI Piemonte.
   - '^\W*regione\s+(autonoma\s+)?(della\s+)?sardegna\b|centrale\s+regionale\s+di\s+committenza\W+(della\s+)?(regione\s+)?(autonoma\s+)?(della\s+)?sardegna'
   - '\bsardegna\s*IT\b'
-  # Marche: decisione di Flavio in attesa (23/11/2026). La SUAM (Stazione Unica Appaltante, soggetto
+  # Marche: decisione di Flavio (24/11/2026, applicata con il commit 4d4172e). La SUAM (Stazione Unica Appaltante, soggetto
   # aggregatore) non ha un nome suo: su GT-SUAM e quasi sempre su TED e' "Regione Marche", lo stesso
   # nome delle gare della Giunta (RUNTS, rete meteo, protezione dati); su TED a volte "settore SUAM -
   # Soggetto Aggregatore". La riga prende la Regione solo se il nome dell'ente INIZIA cosi' (non
@@ -222,7 +222,7 @@ aggregatori_misti_regex:
   # TED (SF 28/26 controlli sviluppo rurale, SF 20/2026 sistema informativo, SF37/2026 abbonamenti e
   # software, quest'ultima anche su GT-SUAM) e l'avviso GT-SUAM A00252 (MISU degli sportelli unici),
   # nessuna sanitaria. Le due consultazioni sanitarie della Regione (screening prenatale, NuCDR)
-  # entrano gia' per l'oggetto. Per attivarla: togliere il # dalla riga seguente.
+  # entrano gia' per l'oggetto.
   - '^\W*regione\s+marche\b|\bSUAM\b'
   # Sicilia: decisioni di Flavio (23/11/2026). (1) Sicilia Digitale, societa' informatica
   # della Regione, come Lepida e CSI Piemonte (su TED 2 avvisi dal 01/06/2026, rilevamento incendi,
@@ -1323,10 +1323,12 @@ portali_html:
       tentativi: 0
     # ASP Siracusa: il server non manda l'intermedio GoDaddy G2; si scarica dall'indirizzo indicato nel
     # certificato e si verifica la catena (provato sulla catena reale del 23/11/2026).
-    # Acceso il 24/11/2026: stessa piattaforma ma dominio dell'ASP; dice se il blocco di ISMETT vale per
-    # tutta la famiglia Traspare. Va scritto abilitato: true perche' il blocco modello (ISMETT) e' spento.
+    # Acceso il 24/11/2026 e spento lo stesso giorno: "timed out" gia' nella connessione TLS da GitHub
+    # in due prove (run 45363148021 e 45366402424), mentre dal computer dell'utente risponde. Tutta la
+    # famiglia Traspare e' fuori da GitHub: controllo manuale mensile di
+    # https://acquisti.asp.sr.it/announcements?status=2 insieme a ISMETT. Il blocco resta pronto.
     - <<: *traspare
-      abilitato: true
+      abilitato: false
       nome: ASP Siracusa
       nome_fonte: Traspare ASP Siracusa
       sigla: aspsiracusa

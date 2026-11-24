@@ -96,6 +96,33 @@ def _testo_lungo(s: str) -> bool:
             and not re.match(r"^\d{3} - ", s) and not s.lower().startswith("procedura negoziata (per procedure"))
 
 
+def _array_gwt(corpo: str) -> list:
+    """L'array di una risposta GWT-RPC. Le risposte lunghe (oltre 32.768 elementi, limite degli array
+    letterali di JavaScript) arrivano spezzate e unite con .concat(...), in fila
+    ([a].concat([b]).concat([c])) o una dentro l'altra ([a].concat([b].concat([c]))).
+    AO Cannizzaro, 24/11/2026: la richiesta con 17 gare dava "Extra data" alla colonna 91450.
+    Si legge un pezzo alla volta con il decodificatore JSON, senza toccare il testo."""
+    dec = json.JSONDecoder()
+    corpo = corpo.strip()
+
+    def espressione(i: int) -> tuple[list, int]:
+        dati, i = dec.raw_decode(corpo, i)
+        if not isinstance(dati, list):
+            raise ValueError(f"atteso un array alla posizione {i}")
+        while corpo.startswith(".concat(", i):
+            pezzo, i = espressione(i + len(".concat("))
+            if not corpo.startswith(")", i):
+                raise ValueError(f"manca la parentesi di .concat alla posizione {i}")
+            i += 1
+            dati = dati + pezzo
+        return dati, i
+
+    dati, fine = espressione(0)
+    if fine != len(corpo):
+        raise ValueError(f"testo inatteso alla posizione {fine}")
+    return dati
+
+
 def leggi_risposta(testo: str) -> tuple[list[dict], int | None, list[str]]:
     """Gare lette dalla risposta GWT-RPC, totale dichiarato e gare non riconosciute (\"gara N: motivo\").
     Solleva StrutturaCambiata se non torna il conteggio delle gare o se non se ne riconosce nessuna.
@@ -108,7 +135,7 @@ def leggi_risposta(testo: str) -> tuple[list[dict], int | None, list[str]]:
     if not testo.startswith("//OK"):
         raise StrutturaCambiata("risposta non GWT-RPC (pagina di errore o di verifica?)")
     try:
-        dati = json.loads(testo[4:])
+        dati = _array_gwt(testo[4:])
         tabella, r = dati[-3], list(reversed(dati[:-3]))
     except (ValueError, IndexError, TypeError) as e:
         raise StrutturaCambiata(f"risposta GWT-RPC non leggibile ({e})") from e
