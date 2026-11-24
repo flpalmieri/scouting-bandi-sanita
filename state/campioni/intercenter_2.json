@@ -3,7 +3,7 @@
   "batching": {
     "@id": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search", 
     "first": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=0", 
-    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=39200", 
+    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=39350", 
     "next": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=50"
   }, 
   "items": [
@@ -382,6 +382,35 @@
       "scadenza_bando": "2026-12-21T17:00:00+00:00", 
       "tipologia_bando": null, 
       "title": "PROCEDURA APERTA PER L'AFFIDAMENTO IN CONCESSIONE DEL SERVIZIO DI DISTRIBUZIONE BEVANDE CALDE E FREDDE MEDIANTE DISTRIBUTORI AUTOMATICI PRESSO LE SEDI DELL\u2019ISTITUTO IISS CARLO EMILIO GADDA PERIODO 2025-2026-2027-2028-2029-2030", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18822375", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-24T00:00:00+01:00", 
+      "Description": "Lavori di Manutenzione Straordinaria delle strade Anno 2026", 
+      "Subject": [], 
+      "Title": "Lavori di Manutenzione Straordinaria delle strade Anno 2026", 
+      "UID": "7a894382653743ee9bd42c3ccdb3a71e", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "Lavori di Manutenzione Straordinaria delle strade Anno 2026", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-23T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_GARA_PORTALE@18822375", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-21T17:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "Lavori di Manutenzione Straordinaria delle strade Anno 2026", 
       "type_title": "Bando Intercenter"
     }, 
     {
@@ -895,25 +924,4 @@
       "design_italia_meta_type": "Bando Intercenter", 
       "effective": "2026-11-11T23:00:00+00:00", 
       "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_GARA_PORTALE@18534356", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-      "scadenza_bando": "2026-12-16T11:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "SUA p/c del Liceo M. Fanti di Carpi: concessione del servizio di somministrazione bevande calde mediante distributori automatici", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18125532", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-11-09T00:00:00+01:00", 
-      "Description": "PA FORNITURA DI N.1 ECOTOMOGRAFO INTRAOPERATORIO PER LA NEUROCHIRURGIA PEDIATRICA DELL\u2019IRCCS ISTITUTO DELLE SCIENZE NEUROLOGICHE DELL\u2019AZIENDA USL DI BOLOGNA Scarica Allegati", 
-      "Subject": [], 
-      "Title": "PA FORNITURA DI N.1 ECOTOMOGRAFO INTRAOPERATORIO PER LA NEUROCHIRURGIA PEDIATRICA DELL\u2019IRCCS ISTITUTO DELLE SCIENZE NEUROLOGICHE DELL\u2019AZIENDA USL DI BOLOGNA", 
-      "UID": "62aeca11902a4158a0b3fdaa0ec61e5e", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state":
+      "getObjSize": "0 KB

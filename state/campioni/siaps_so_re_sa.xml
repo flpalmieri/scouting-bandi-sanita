@@ -5,146 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>74</afs:totRecord>
+<afs:totRecord>72</afs:totRecord>
 <item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4827723&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T12:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>04/11/2026</pubDate>
-	
-	<description>
-&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DELL’O.E. A CUI AFFIDARE, AI SENSI DELL’ART.50, CO.1, LETT.B), DEL D.LGS 36/2023 LA FORNITURA DI SCAFFALATURE PER STOCCAGGIO FARMACI E BENI SANITARI PER L’ALLESTIMENTO DELLA FARMACIA DISTRETTUALE DEL DS 48 IN PIAZZA S. GIOVANNI, “BRUSCIANO”
-&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DELL’O.E. A CUI AFFIDARE, AI SENSI DELL’ART.50, CO.1, LETT.B), DEL D.LGS 36/2023 LA FORNITURA DI SCAFFALATURE PER STOCCAGGIO FARMACI E BENI SANITARI PER L’ALLESTIMENTO DELLA FARMACIA DISTRETTUALE DEL DS 48 IN PIAZZA S. GIOVANNI, “BRUSCIANO”
-]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[A.S.L. NAPOLI 3 SUD]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[A.S.L. NAPOLI 3 SUD]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4827723]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[]]></afs:ambito>
-	<afs:CPV><![CDATA[]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-04T16:44:29]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4848446&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>19/11/2026</pubDate>
-	
-	<description>
-Affidamento ai sensi dell’art. 50, co. 1, lett. b) del D.Lgs. n. 36/2023 la fornitura di respiratori a pieno facciale per le esigenze dell’U.O.C. Anatomia Patologica dell’ AOU Federico II - (PRATICA 314/26)&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[Affidamento ai sensi dell’art. 50, co. 1, lett. b) del D.Lgs. n. 36/2023 la fornitura di respiratori a pieno facciale per le esigenze dell’U.O.C. Anatomia Patologica dell’ AOU Federico II - (PRATICA 314/26)]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[A.O.U. POLICLINICO FEDERICO II]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[1.738,40]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4848446]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[Altri Beni]]></afs:ambito>
-	<afs:CPV><![CDATA[18143000-3 - Attrezzi di protezione]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T12:51:28]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
-	<title><![CDATA[Avviso ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4829411&tipobando=Avviso&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T13:00:00]]></link>
-	<category>Avviso</category>
-	<pubDate>09/11/2026</pubDate>
-	
-	<description>
-&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; CONSULTAZIONE PRELIMINARE DI MERCATO E AVVISO VOLONTARIO PER LA TRASPARENZA PREVENTIVA (AI SENSI DELL&#39; ART.77 E DELL&#39; ART.86 DEL D.LGS 36/2023 PER L&#39;AFFIDAMENTO DELLA FORNITURA DI IMPIANTI COCLEARI A 22 ELETTRODI CON SPESSORE RIDOTTO E POSSIBILITA&#39; DI AGGIORNAMENTO DA AGGIORNAMENTO DA DESTINARE ALL&#39; U.O.C OTORINOLARINGOIATRIA DEL P.O. DI NOCERA INFERIORE DELL&#39; ASL DI SALERNO, PROPREDEUTICA ALL&#39;ESPLETAMENTO DI UNA PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DI BANDO DI GARA EX. ART. 76 COMMA 2 LETTERA B) PUNTO 2) DEL D.LGS. 36/2023. (CPV 33185200-2)&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> CONSULTAZIONE PRELIMINARE DI MERCATO E AVVISO VOLONTARIO PER LA TRASPARENZA PREVENTIVA (AI SENSI DELL' ART.77 E DELL' ART.86 DEL D.LGS 36/2023 PER L'AFFIDAMENTO DELLA FORNITURA DI IMPIANTI COCLEARI A 22 ELETTRODI CON SPESSORE RIDOTTO E POSSIBILITA' DI AGGIORNAMENTO DA AGGIORNAMENTO DA DESTINARE ALL' U.O.C OTORINOLARINGOIATRIA DEL P.O. DI NOCERA INFERIORE DELL' ASL DI SALERNO, PROPREDEUTICA ALL'ESPLETAMENTO DI UNA PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DI BANDO DI GARA EX. ART. 76 COMMA 2 LETTERA B) PUNTO 2) DEL D.LGS. 36/2023. (CPV 33185200-2)]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Avviso]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[A.S.L. SALERNO]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[660.000,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T13:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4829411]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[Altri Beni]]></afs:ambito>
-	<afs:CPV><![CDATA[33185200-2 - Impianti cocleari]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-09T08:55:08]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4835493&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T13:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>12/11/2026</pubDate>
-	
-	<description>
-&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; CONSULTAZIONE DI MERCATO ex art.77 del D.Lgs. n&#176;36/2023 - Fornitura annuale di mini sonde endoscopiche polmonari per eco processore Olympus, destinati alla  U.O.C Pneumologia interventistica dell’ A.O.R.N “A. Cardarelli&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> CONSULTAZIONE DI MERCATO ex art.77 del D.Lgs. n°36/2023 - Fornitura annuale di mini sonde endoscopiche polmonari per eco processore Olympus, destinati alla  U.O.C Pneumologia interventistica dell’ A.O.R.N “A. Cardarelli]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[A.O. CARDARELLI]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[A.O. CARDARELLI]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T13:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4835493]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[]]></afs:ambito>
-	<afs:CPV><![CDATA[]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-12T11:34:29]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4727852&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T18:00:00]]></link>
 	<category>Bando</category>
@@ -218,7 +80,7 @@ AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO (ART. 77, DEL D. LGS. 36/2023) PR
 
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4849249&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-25T12:00:00]]></link>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4849249&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-25T12:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>20/11/2026</pubDate>
 	
@@ -241,7 +103,7 @@ FORNITURA DI KIT SOMMINISTRAZIONE E RISCALDAMENTO DEI LIQUIDI AD INFUSIONE CON N
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -252,7 +114,7 @@ FORNITURA DI KIT SOMMINISTRAZIONE E RISCALDAMENTO DEI LIQUIDI AD INFUSIONE CON N
 
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4849255&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-25T12:00:00]]></link>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4849255&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-25T12:00:00]]></link>
 	<category>Bando</category>
 	<pubDate>20/11/2026</pubDate>
 	
@@ -275,7 +137,7 @@ Affidamento, ai sensi dell’art. 50, co. 1, lett. b), del D.Lgs. 36/2023 la for
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -428,7 +290,7 @@ AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO (ART. 77, DEL D. LGS. 36/2023) PR
 
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4848732&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T12:00:00]]></link>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4848732&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T12:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>19/11/2026</pubDate>
 	
@@ -437,4 +299,174 @@ ACQUISTO AGHI IPODERMICI PER UOC OCULISTICA&lt;strong&gt;Scadenza : 27/11/2026&l
 	</description>
 	
 	<afs:Oggetto><![CDATA[ACQUISTO AGHI IPODERMICI PER UOC OCULISTICA]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consult
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[A.O. SAN GIUSEPPE MOSCATI]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.O. SAN GIUSEPPE MOSCATI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4848732]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[]]></afs:ambito>
+	<afs:CPV><![CDATA[]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T14:54:52]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4850846&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>20/11/2026</pubDate>
+	
+	<description>
+ACQUISTO DISPOSITIVI MEDICI IN TNT&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[ACQUISTO DISPOSITIVI MEDICI IN TNT]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[A.O. SAN GIUSEPPE MOSCATI]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.O. SAN GIUSEPPE MOSCATI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4850846]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[]]></afs:ambito>
+	<afs:CPV><![CDATA[]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T16:39:03]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4791861&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T12:30:00]]></link>
+	<category>Bando</category>
+	<pubDate>19/10/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; PROCEDURA APERTA PER L’AFFIDAMENTO DELLA FORNITURA DI DISPOSITIVI PER EMODINAMICA E CARDIOLOGIA INTERVENTISTICA PER UOC CARDIOLOGIA DEL P.O. di  ARIANO Irpino
+&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> PROCEDURA APERTA PER L’AFFIDAMENTO DELLA FORNITURA DI DISPOSITIVI PER EMODINAMICA E CARDIOLOGIA INTERVENTISTICA PER UOC CARDIOLOGIA DEL P.O. di  ARIANO Irpino
+]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.S.L. AVELLINO]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[8.770.224,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:30:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4791861]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[Farmaci e Disp. Medici]]></afs:ambito>
+	<afs:CPV><![CDATA[33140000-3 - Materiali medici]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-19T09:57:10]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4847302&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T14:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>18/11/2026</pubDate>
+	
+	<description>
+INDAGINE ESPLORATIVA DI MERCATO  PER L’INDIVIDUAZIONE DELL’O.E. A CUI  AFFIDARE, AI SENSI DELL’ART. 50, CO. 1, LETT. B), DEL D.LGS. 36/2023 LA FORNITURA DI N.15 CULLE NEONATALI PER  UOC TIN PO C/MARE
+&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[INDAGINE ESPLORATIVA DI MERCATO  PER L’INDIVIDUAZIONE DELL’O.E. A CUI  AFFIDARE, AI SENSI DELL’ART. 50, CO. 1, LETT. B), DEL D.LGS. 36/2023 LA FORNITURA DI N.15 CULLE NEONATALI PER  UOC TIN PO C/MARE
+]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[A.S.L. NAPOLI 3 SUD]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.S.L. NAPOLI 3 SUD]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T14:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4847302]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[]]></afs:ambito>
+	<afs:CPV><![CDATA[]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T13:19:57]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4832842&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T16:30:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>10/11/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; BATTERIE MONOUSO &lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> BATTERIE MONOUSO ]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[A.O. SAN GIUSEPPE MOSCATI]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.O. SAN GIUSEPPE MOSCATI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T16:30:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4832842]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[]]></afs:ambito>
+	<afs:CPV><![CDATA[]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-10T12:14:38]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4841585&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-30T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>16/11/2026</pubDate>
+	
+	<description>
+Indagine di mercato/avviso esplorativo su piattaforma SIAPS/So.Re.Sa., ai sensi dell’art. 76 comma 2 e con aggiudicazione ai sensi dell&#39;art. 10

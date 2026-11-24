@@ -2,24 +2,6 @@
  "totale_dichiarato": 75,
  "righe": [
   {
-   "procedura": "Procedura non europea",
-   "ente": "Comune di San Vito al Tagliamento",
-   "protocollo": "",
-   "titolo": "Stimolazione e riabilitazione centro disturbi cognitivi",
-   "tipologia": "Servizi",
-   "scadenza": "24/11/2026 12:00",
-   "id": "26266"
-  },
-  {
-   "procedura": "Asta di Vendita",
-   "ente": "COMUNE DI TRIESTE",
-   "protocollo": "",
-   "titolo": "asta di vendita appartamento e box auto doppio in via Romagna 98 a Trieste",
-   "tipologia": "Vendita/Locazione",
-   "scadenza": "24/11/2026 13:00",
-   "id": "25960"
-  },
-  {
    "procedura": "Manifestazione di Interesse",
    "ente": "Comune di Gorizia",
    "protocollo": "",
@@ -38,15 +20,6 @@
    "id": "26271"
   },
   {
-   "procedura": "UE - Procedura Negoziata",
-   "ente": "Centrale unica di committenza FVG",
-   "protocollo": "",
-   "titolo": "24FAR001.80.CUC - FARMACI ESCLUSIVI",
-   "tipologia": "Forniture",
-   "scadenza": "26/11/2026 12:00",
-   "id": "26320"
-  },
-  {
    "procedura": "Altro",
    "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
    "protocollo": "",
@@ -54,6 +27,15 @@
    "tipologia": "Forniture",
    "scadenza": "26/11/2026 12:00",
    "id": "26299"
+  },
+  {
+   "procedura": "UE - Procedura Negoziata",
+   "ente": "Centrale unica di committenza FVG",
+   "protocollo": "",
+   "titolo": "24FAR001.80.CUC - FARMACI ESCLUSIVI",
+   "tipologia": "Forniture",
+   "scadenza": "26/11/2026 12:00",
+   "id": "26320"
   },
   {
    "procedura": "Affidamento diretto",
@@ -236,6 +218,15 @@
    "id": "26185"
   },
   {
+   "procedura": "UE - Procedura Negoziata",
+   "ente": "Centrale unica di committenza FVG",
+   "protocollo": "",
+   "titolo": "24FAR001.86.CUC- Farmaci esclusivi VORANIGO",
+   "tipologia": "Forniture",
+   "scadenza": "04/12/2026 12:00",
+   "id": "26348"
+  },
+  {
    "procedura": "UE - Procedura Aperta",
    "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
    "protocollo": "",
@@ -254,15 +245,6 @@
    "id": "26310"
   },
   {
-   "procedura": "UE - Procedura Negoziata",
-   "ente": "Centrale unica di committenza FVG",
-   "protocollo": "",
-   "titolo": "24FAR001.86.CUC- Farmaci esclusivi VORANIGO",
-   "tipologia": "Forniture",
-   "scadenza": "04/12/2026 12:00",
-   "id": "26348"
-  },
-  {
    "procedura": "Manifestazione di Interesse",
    "ente": "CENTRALE COMMITTENZA RETE DELLE STAZIONI APPALTANTI DEL FRIULI VENEZIA GIULIA",
    "protocollo": "",
@@ -279,24 +261,6 @@
    "tipologia": "Servizi",
    "scadenza": "07/12/2026 12:00",
    "id": "26351"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE DI UDINE",
-   "protocollo": "",
-   "titolo": "2026_Servizio call center",
-   "tipologia": "Servizi",
-   "scadenza": "09/12/2026 12:00",
-   "id": "26159"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "COMUNITA' RIVIERA FRIULANA",
-   "protocollo": "",
-   "titolo": "AFFIDAMENTO DEL SERVIZIO EDUICATIVO PER I CENTRI ESTIVI DEL COMUNE DI LIGNANO SABBIADORO TRIENNIO 2027-2028-2029",
-   "tipologia": "Servizi",
-   "scadenza": "09/12/2026 12:00",
-   "id": "26241"
   },
   {
    "procedura": "Altro",
@@ -327,39 +291,21 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "ente": "AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE DI UDINE",
    "protocollo": "",
-   "titolo": "26ECO003 FORNITURA DI ETICHETTE ADESIVE",
-   "tipologia": "Forniture",
-   "scadenza": "10/12/2026 12:00",
-   "id": "26254"
-  },
-  {
-   "procedura": "Procedura non europea",
-   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
-   "protocollo": "",
-   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
+   "titolo": "2026_Servizio call center",
    "tipologia": "Servizi",
-   "scadenza": "10/12/2026 12:00",
-   "id": "26269"
+   "scadenza": "09/12/2026 12:00",
+   "id": "26159"
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
+   "ente": "COMUNITA' RIVIERA FRIULANA",
    "protocollo": "",
-   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
+   "titolo": "AFFIDAMENTO DEL SERVIZIO EDUICATIVO PER I CENTRI ESTIVI DEL COMUNE DI LIGNANO SABBIADORO TRIENNIO 2027-2028-2029",
    "tipologia": "Servizi",
-   "scadenza": "10/12/2026 12:00",
-   "id": "26237"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
-   "protocollo": "",
-   "titolo": "PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA (PFTE), PROGETTAZIONE ESECUTIVA (PE), COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, DIREZIONE LAVORI, PER LA RIQUALIFICAZIONE E L’ADEGUAMENTO NORMATIVO DEI PADIGLIONI N. 1 e 8",
-   "tipologia": "Servizi",
-   "scadenza": "10/12/2026 12:00",
-   "id": "26260"
+   "scadenza": "09/12/2026 12:00",
+   "id": "26241"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -372,12 +318,48 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "COMUNE DI UDINE",
+   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
    "protocollo": "",
-   "titolo": "Servizio di assistenza e manutenzione dell'impianto di videosorveglianza urbana e impianto di lettura targhe del Comune di Udine per gli anni 2027-2030.",
+   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
    "tipologia": "Servizi",
+   "scadenza": "10/12/2026 12:00",
+   "id": "26237"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "26ECO003 FORNITURA DI ETICHETTE ADESIVE",
+   "tipologia": "Forniture",
+   "scadenza": "10/12/2026 12:00",
+   "id": "26254"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "protocollo": "",
+   "titolo": "PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA (PFTE), PROGETTAZIONE ESECUTIVA (PE), COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, DIREZIONE LAVORI, PER LA RIQUALIFICAZIONE E L’ADEGUAMENTO NORMATIVO DEI PADIGLIONI N. 1 e 8",
+   "tipologia": "Servizi",
+   "scadenza": "10/12/2026 12:00",
+   "id": "26260"
+  },
+  {
+   "procedura": "Procedura non europea",
+   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
+   "protocollo": "",
+   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
+   "tipologia": "Servizi",
+   "scadenza": "10/12/2026 12:00",
+   "id": "26269"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "26PRE004 - VITRECTOMIA E FACOEMULSIFICAZIONE",
+   "tipologia": "Forniture",
    "scadenza": "14/12/2026 12:00",
-   "id": "26257"
+   "id": "26281"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -401,19 +383,19 @@
    "procedura": "UE - Procedura Aperta",
    "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
    "protocollo": "",
-   "titolo": "26PRE004 - VITRECTOMIA E FACOEMULSIFICAZIONE",
-   "tipologia": "Forniture",
-   "scadenza": "14/12/2026 12:00",
-   "id": "26281"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
-   "protocollo": "",
    "titolo": "26SER008 RCT/O E ALL RISKS PROPERTY",
    "tipologia": "Servizi",
    "scadenza": "14/12/2026 12:00",
    "id": "26158"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "COMUNE DI UDINE",
+   "protocollo": "",
+   "titolo": "Servizio di assistenza e manutenzione dell'impianto di videosorveglianza urbana e impianto di lettura targhe del Comune di Udine per gli anni 2027-2030.",
+   "tipologia": "Servizi",
+   "scadenza": "14/12/2026 12:00",
+   "id": "26257"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -435,21 +417,21 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "Centrale unica di committenza FVG",
-   "protocollo": "",
-   "titolo": "Servizio di fornitura pasti a domicilio a favore degli Ambiti territoriali per la gestione associata del Servizio Sociale dei Comuni (SSC) [Codice iniziativa: 26PGR309]",
-   "tipologia": "Servizi",
-   "scadenza": "18/12/2026 12:00",
-   "id": "26248"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
    "ente": "Comune di San Vito al Tagliamento",
    "protocollo": "",
    "titolo": "Gestione asilo nido 2027/2031",
    "tipologia": "Servizi",
    "scadenza": "18/12/2026 12:00",
    "id": "26314"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "Centrale unica di committenza FVG",
+   "protocollo": "",
+   "titolo": "Servizio di fornitura pasti a domicilio a favore degli Ambiti territoriali per la gestione associata del Servizio Sociale dei Comuni (SSC) [Codice iniziativa: 26PGR309]",
+   "tipologia": "Servizi",
+   "scadenza": "18/12/2026 12:00",
+   "id": "26248"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -480,15 +462,6 @@
   },
   {
    "procedura": "Avviso di preinformazione",
-   "ente": "ITS per le Tecnologie dell’Informazione e della Comunicazione Alto Adriatico",
-   "protocollo": "",
-   "titolo": "AVVISO PUBBLICO PER LA MODALITA DI SCELTA DEGLI OPERATORI ECONOMICI SOTTO LA SOGLIA DI RILEVANZA EUROPEA",
-   "tipologia": "Lavori",
-   "scadenza": "31/12/2026 12:00",
-   "id": "23508"
-  },
-  {
-   "procedura": "Avviso di preinformazione",
    "ente": "REGIONE AUTONOMA FRIULI VENEZIA GIULIA",
    "protocollo": "",
    "titolo": "AVVISO DI PREINFORMAZIONE per acquisti della Direzione centrale patrimonio, demanio, servizi generali e sistemi informativi, sotto la soglia di rilevanza europea mediante l'Albo Operatori Economici della Regione FVG",
@@ -497,13 +470,13 @@
    "id": "20343"
   },
   {
-   "procedura": "Procedura non europea",
-   "ente": "Comune di Treppo Ligosullo",
+   "procedura": "Avviso di preinformazione",
+   "ente": "ITS per le Tecnologie dell’Informazione e della Comunicazione Alto Adriatico",
    "protocollo": "",
-   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2026 23:59",
-   "id": "24227"
+   "titolo": "AVVISO PUBBLICO PER LA MODALITA DI SCELTA DEGLI OPERATORI ECONOMICI SOTTO LA SOGLIA DI RILEVANZA EUROPEA",
+   "tipologia": "Lavori",
+   "scadenza": "31/12/2026 12:00",
+   "id": "23508"
   },
   {
    "procedura": "Procedura non europea",
@@ -533,6 +506,24 @@
    "id": "25341"
   },
   {
+   "procedura": "Procedura non europea",
+   "ente": "Comune di Treppo Ligosullo",
+   "protocollo": "",
+   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2026 23:59",
+   "id": "24227"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "Comune di San Vito al Tagliamento",
+   "protocollo": "",
+   "titolo": "Affidamento SAI - cat. Ordinari 2027/2029",
+   "tipologia": "Servizi",
+   "scadenza": "07/01/2027 12:00",
+   "id": "26373"
+  },
+  {
    "procedura": "UE - Procedura Aperta",
    "ente": "REGIONE AUTONOMA FRIULI VENEZIA GIULIA",
    "protocollo": "",
@@ -549,6 +540,15 @@
    "tipologia": "Servizi",
    "scadenza": "20/01/2027 12:00",
    "id": "26296"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "Centrale unica di committenza FVG",
+   "protocollo": "",
+   "titolo": "Global service per le Case di Riposo “Casa Mafalda” di Aiello del Friuli (UD), “Angelo Culot” di Gorizia e e “Centro Assistenza Anziani” di Maniago (PN) [Codice iniziativa: 25PGR216]",
+   "tipologia": "Servizi",
+   "scadenza": "22/01/2027 12:00",
+   "id": "26369"
   },
   {
    "procedura": "Asta di Vendita",
@@ -615,6 +615,15 @@
   },
   {
    "procedura": "Altro",
+   "ente": "CENTRO DI RIFERIMENTO ONCOLOGICO",
+   "protocollo": "",
+   "titolo": "Avviso Pubblico - Modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea.",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2030 23:59",
+   "id": "20672"
+  },
+  {
+   "procedura": "Altro",
    "ente": "ASP \"Daniele Moro\"",
    "protocollo": "",
    "titolo": "Avviso pubblico per la modalità di scelta degli operatori economici nelle procedure sotto la soglia di rilevanza europea",
@@ -630,15 +639,6 @@
    "tipologia": "Altro",
    "scadenza": "31/12/2030 23:59",
    "id": "22095"
-  },
-  {
-   "procedura": "Altro",
-   "ente": "CENTRO DI RIFERIMENTO ONCOLOGICO",
-   "protocollo": "",
-   "titolo": "Avviso Pubblico - Modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea.",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2030 23:59",
-   "id": "20672"
   },
   {
    "procedura": "Altro",

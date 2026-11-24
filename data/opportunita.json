@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-24T10:34:09+00:00",
- "totale": 115,
+ "aggiornato_il": "2026-11-24T13:22:06+00:00",
+ "totale": 118,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -1968,6 +1968,46 @@
    "ultimo_rilevamento": "2026-11-24"
   },
   {
+   "id": "sintel:227007510",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "RICHIESTA DI OFFERTA (RDO) APERTA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/2023, FINALIZZATA ALL’AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE E ASSISTENZA TECNICA DEL SOFTWARE ‘SMART HOSPITAL’ ATTIVO SUI TOTEM MULTIFUNZIONE ED ELIMINACODE DELLA ASST VALLE OLONA, PER MESI 36",
+   "ente": "ASST DELLA VALLE OLONA",
+   "scadenza": "2026-12-09",
+   "pubblicazione": "2026-11-24",
+   "importo": 114000.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=227007510",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
+   "descrizione": "Tipo Sintel: Affidamento diretto previa richiesta di preventivi; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-24",
+   "ultimo_rilevamento": "2026-11-24"
+  },
+  {
+   "id": "sintel:227008354",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Avviso esplorativo di mercato per l’affidamento dei servizi di manutenzione ed assistenza dell’applicativo MedWare dell’operatore economico SINED S.r.l. in uso presso l’ASST di Cremona",
+   "ente": "ASST DI CREMONA",
+   "scadenza": "2026-12-09",
+   "pubblicazione": "2026-11-24",
+   "importo": 147800.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=227008354",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('applicativ')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-24",
+   "ultimo_rilevamento": "2026-11-24"
+  },
+  {
    "id": "ted:768150-2026",
    "fonti": [
     "TED",
@@ -2309,6 +2349,28 @@
    "motivo_match": "Ente sanitario + oggetto IT ('RIS')",
    "descrizione": null,
    "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-24"
+  },
+  {
+   "id": "areacom:9b5a3eddcc4f",
+   "fonti": [
+    "AreaCom"
+   ],
+   "titolo": "Licenze Microsoft Office 365 - Upgrade ENTRA ID su Licenze Microsoft",
+   "ente": "AreaCom - Agenzia regionale dell'Abruzzo per la Committenza",
+   "scadenza": null,
+   "pubblicazione": "2026-11-24",
+   "importo": null,
+   "cpv": [],
+   "cig": [
+    "BDF3EBD9A1"
+   ],
+   "tipo": "bando",
+   "link": "https://areacom.eu/bandi-gara-contratti/licenze-microsoft-office-365-upgrade-entra-id-licenze-microsoft",
+   "regione": "Abruzzo",
+   "motivo_match": "Soggetto aggregatore + oggetto IT ('Licenze') - da verificare",
+   "descrizione": "DATA PUBBLICAZIONE: 24/11/2026\nDATA SCADENZA: \nTIPOLOGIA: Forniture\nIMPORTO: \nCIG: BDF3EBD9A1",
+   "primo_rilevamento": "2026-11-24",
    "ultimo_rilevamento": "2026-11-24"
   },
   {

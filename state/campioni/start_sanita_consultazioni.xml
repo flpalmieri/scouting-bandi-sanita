@@ -13,10 +13,10 @@
 	<pubDate>24/11/2026</pubDate>
 	
 	<description>
-CPM per l’affidamento della fornitura di ZAINI- BORSE E TROLLEY per le necessit&#224; delle Aziende Sanitarie della Regione Toscana &lt;strong&gt;Scadenza : 09/12/2026&lt;/strong&gt;
+&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; CPM per l’affidamento della fornitura di ZAINI- BORSE E TROLLEY per le necessit&#224; delle Aziende Sanitarie della Regione Toscana &lt;strong&gt;Scadenza : 09/12/2026&lt;/strong&gt;
 	</description>
 	
-	<afs:Oggetto><![CDATA[CPM per l’affidamento della fornitura di ZAINI- BORSE E TROLLEY per le necessità delle Aziende Sanitarie della Regione Toscana ]]></afs:Oggetto>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> CPM per l’affidamento della fornitura di ZAINI- BORSE E TROLLEY per le necessità delle Aziende Sanitarie della Regione Toscana ]]></afs:Oggetto>
     <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
 	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
     <afs:Contratto><![CDATA[]]></afs:Contratto>
@@ -38,7 +38,7 @@ CPM per l’affidamento della fornitura di ZAINI- BORSE E TROLLEY per le necessi
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-24T11:02:31.010]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T12:30:38.180]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-24T11:02:31]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -423,6 +423,4 @@ Avviso Consultazione Preliminare di Mercato procedura &quot;Aghi e Siringhe - lo
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
 	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[I
+	<afs:bconcluso><![CDATA[0]]></a

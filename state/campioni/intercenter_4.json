@@ -124,6 +124,35 @@
       "type_title": "Bando Intercenter"
     }, 
     {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18840911", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-24T00:00:00+01:00", 
+      "Description": "Consultazione sperimentazione Value-Based Monitoring e Asset Management Ospedaliero", 
+      "Subject": [], 
+      "Title": "Consultazione sperimentazione Value-Based Monitoring e Asset Management Ospedaliero", 
+      "UID": "80f0c396102a404f8255abc3e2f78f9a", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "Consultazione sperimentazione Value-Based Monitoring e Asset Management Ospedaliero", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-23T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_CONSULTAZIONE_PORTALE@18840911", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-11T11:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "Consultazione sperimentazione Value-Based Monitoring e Asset Management Ospedaliero", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18499345", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-11T00:00:00+01:00", 
@@ -938,31 +967,4 @@
     {
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_PORTALE@18435443", 
       "@type": "BandoIntercenter", 
-      "Date": "2026-11-09T00:00:00+01:00", 
-      "Description": "AVVISO PUBBLICO DI INDAGINE DI MERCATO per ACCORDO QUADRO DEI SERVIZI DI PULIZIA E FACCHINAGGIO per eventi", 
-      "Subject": [], 
-      "Title": "AVVISO PUBBLICO DI INDAGINE DI MERCATO per ACCORDO QUADRO DEI SERVIZI DI PULIZIA E FACCHINAGGIO per eventi", 
-      "UID": "f40b874522234c2da5079c02243a59cf", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "closed", 
-        "Chiuso"
-      ], 
-      "description": "AVVISO PUBBLICO DI INDAGINE DI MERCATO per ACCORDO QUADRO DEI SERVIZI DI PULIZIA E FACCHINAGGIO per eventi", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-11-08T23:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_CONSULTAZIONE_PORTALE@18435443", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-      "scadenza_bando": "2026-11-16T13:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "AVVISO PUBBLICO DI INDAGINE DI MERCATO per ACCORDO QUADRO DEI SERVIZI DI PULIZIA E FACCHINAGGIO per eventi", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_POR
+      "Date": "2026-11-09T00:00:00+01:00"
