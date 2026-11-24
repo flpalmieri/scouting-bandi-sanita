@@ -5,8 +5,43 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>950</afs:totRecord>
+<afs:totRecord>951</afs:totRecord>
 <item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=627873&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-09T18:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>24/11/2026</pubDate>
+	
+	<description>
+CPM per l’affidamento della fornitura di ZAINI- BORSE E TROLLEY per le necessit&#224; delle Aziende Sanitarie della Regione Toscana &lt;strong&gt;Scadenza : 09/12/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[CPM per l’affidamento della fornitura di ZAINI- BORSE E TROLLEY per le necessità delle Aziende Sanitarie della Regione Toscana ]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-09T18:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[627873]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T11:02:31.010]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-24T11:02:31]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=626501&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-07T13:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
@@ -73,7 +108,7 @@ AVVISO ESPLORATIVO DI MERCATO per l’affidamento della fornitura di “SACCHI P
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-18T10:26:46.513]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T10:43:22.737]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T10:26:46]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -390,26 +425,4 @@ Avviso Consultazione Preliminare di Mercato procedura &quot;Aghi e Siringhe - lo
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[I° AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO FIBRILLAZIONE ATRIALE]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T12:14:40.290]]></afs:dataUltimaModifica>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-04T14:46:54]]></afs:DtPubblicazioneTecnical>
-	
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=622247&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-25T15:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>11/11/2026</pubDate>
-	
-	<description>
-CONSULTAZIONE PRELIMINARE DI MERCATO (Ai sensi dell’art. 77 del D.Lgs. n. 36/2023,) propedeutica all&#39;indizione della procedura di gara:
-FORNITURA “DI SERVICE DI SISTEMI DI RILEVAZIONE E REGISTRAZIONE  PROCEDURA APERTA PER LA FORNITURA IN SERVICE DI SISTEMI DI RILEVAZIONE E REGISTRAZIONE pH-IMPEDENZIOMETRIA E MANOMETRIA ESOFAGEA E ANO-RETTALE E SISTEMA PER LA MISURAZIONE DEL DIAMETRO E DELLA DISTENSIBILITA&#39; ESOFAGEA E DELLA GIUNZIONE ESOFAGO-GASTRICA E DEL PILORO CON RELATIVO MATERIALE DI CONSUMO” occorrenti alle Aziende Sanitarie ed Ospedaliero-Universitarie della Regione Toscana 
-&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[CONSULTAZIONE PRELIMINARE DI MERCATO (Ai sensi dell’art. 77 del D.Lgs. n. 36/2023,) propedeutica all'indizione della procedura di gara:
-FORNITURA “DI SERVICE DI SISTEMI DI RILEVAZIONE E REGISTRAZIONE  PROCEDURA APERTA PER LA FORNITURA IN SERVICE DI SISTEMI DI RILEVAZIONE E REGISTRAZIONE pH-IMPEDENZIOMETRIA E MANOMETRIA ESOFAGEA E ANO-RETTALE E SISTEMA PER LA MISURAZIONE DEL DIAMETRO E DELLA DISTENSIBILITA' ESOFAGEA E DELLA GIUNZIONE ESOFAGO-GASTRICA E DEL PILORO CON RELATIVO MATERIALE DI CONSUMO” occorrenti alle Aziende Sanitarie ed Ospedaliero-Universitarie della Regione Toscana 
-]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:T
+	<afs:TitoloDocumento><![CDATA[I

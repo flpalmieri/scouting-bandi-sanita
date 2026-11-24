@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-24T09:34:07+00:00",
+  "eseguito_il": "2026-11-24T10:21:29+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -7,7 +7,7 @@
     },
     "portali_rss": {
       "esito": "ok",
-      "pertinenti": 22
+      "pertinenti": 21
     },
     "portali_html": {
       "esito": "ok",
@@ -23,7 +23,7 @@
     },
     "plone": {
       "esito": "ok",
-      "pertinenti": 6
+      "pertinenti": 0
     },
     "centrale_acquisti": {
       "esito": "ok",
@@ -47,9 +47,10 @@
     }
   },
   "errori": [
-    "portali_html: ASP Siracusa: timed out",
-    "net4market: AO Cannizzaro: lette 10 gare su 17 in corso dichiarate (dati parziali)"
+    "plone: Intercent-ER: HTTPSConnectionPool(host='intercenter.regione.emilia-romagna.it', port=443): Max retries exceeded with url: /++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search (Caused by ResponseError('too many 503 error responses')) (dati parziali: le altre sezioni sono state lette)",
+    "plone: Intercent-ER: HTTPSConnectionPool(host='intercenter.regione.emilia-romagna.it', port=443): Max retries exceeded with url: /++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/@querystring-search (Caused by ResponseError('too many 503 error responses')) (dati parziali: le altre sezioni sono state lette)",
+    "plone: Intercent-ER: HTTPSConnectionPool(host='intercenter.regione.emilia-romagna.it', port=443): Max retries exceeded with url: /++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/@querystring-search (Caused by ResponseError('too many 503 error responses')) (dati parziali: le altre sezioni sono state lette)"
   ],
-  "nuove_opportunita": 1,
+  "nuove_opportunita": 0,
   "totale": 115
 }

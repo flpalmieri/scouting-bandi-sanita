@@ -8,7 +8,7 @@
 <afs:totRecord>48</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=625077&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T12:00:00]]></link>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=625077&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T12:00:00]]></link>
 	<category>Bando</category>
 	<pubDate>18/11/2026</pubDate>
 	<description>Uretero - renoscopio semi-rigido slim 7,5 Fr. 5&#176;&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
@@ -30,7 +30,7 @@
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -433,4 +433,4 @@ ARSA QC DBS SET, 3 LEVELS REF. QCEA-6]]>  </afs:Oggetto>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-06T12:17:24]]></afs:DtPubblicazioneTecnical>
 </item><item>
-	<title><![C
+	<title><![CDA
