@@ -1302,9 +1302,13 @@ portali_html:
     # per pagina con procedura, scadenza, titolo, stato, CIG, ufficio e importo; il R.U.P. non si legge e
     # nel campione e' sostituito da "[non salvato]". Esclusi gli affidamenti diretti; le negoziate ("con
     # almeno 5/10 inviti", "senza pubblicazione di un bando") restano, come su tutte le piattaforme.
-    # Primo lancio con un solo ente della famiglia (lezione 13): ISMETT. Se risponde, togliere
-    # abilitato: false dall'ASP Siracusa.
+    # Primo lancio con un solo ente della famiglia (lezione 13): ISMETT.
+    # ISMETT spento (24/11/2026): 403 Forbidden dai server di GitHub (run 45359765915), 200 dal computer
+    # dell'utente con lo User-Agent del progetto e con quello di un browser. Blocco degli indirizzi dei
+    # datacenter, come ULSS 6 (lezioni 57 e 71): non si aggira. Controllo manuale mensile della pagina
+    # https://ismett.traspare.com/announcements?status=2 (1 procedura in corso al 23/11/2026).
     - &traspare
+      abilitato: false
       nome: ISMETT
       nome_fonte: Traspare ISMETT
       sigla: ismett
@@ -1319,8 +1323,10 @@ portali_html:
       tentativi: 0
     # ASP Siracusa: il server non manda l'intermedio GoDaddy G2; si scarica dall'indirizzo indicato nel
     # certificato e si verifica la catena (provato sulla catena reale del 23/11/2026).
+    # Acceso il 24/11/2026: stessa piattaforma ma dominio dell'ASP; dice se il blocco di ISMETT vale per
+    # tutta la famiglia Traspare. Va scritto abilitato: true perche' il blocco modello (ISMETT) e' spento.
     - <<: *traspare
-      abilitato: false
+      abilitato: true
       nome: ASP Siracusa
       nome_fonte: Traspare ASP Siracusa
       sigla: aspsiracusa
@@ -1806,10 +1812,10 @@ net4market:
       escludi_titoli_regex: *escludi_maggioli
       timeout_connessione: 10
       tentativi: 0
-    # Da attivare dopo il primo lancio (togliere abilitato: false), un albo alla volta: le risposte di
-    # questi due albi non sono ancora state viste.
+    # Un albo alla volta: le risposte di questi due albi non sono ancora state viste (il lettore si
+    # ferma con un errore se il numero di gare riconosciute non torna). AO Cannizzaro acceso il
+    # 24/11/2026, dopo il primo lancio riuscito di Ragusa (run 45361295414); poi l'AOU Palermo.
     - <<: *net4market
-      abilitato: false
       nome: AO Cannizzaro
       nome_fonte: Net4market AO Cannizzaro
       sigla: n4m_cannizzaro
@@ -1853,15 +1859,16 @@ tuttogare:
       timeout_connessione: 10
       tentativi: 0
     # Istanze SITAS delle ASP: quasi solo adesioni (escluse), ma anche gare aperte vere (ASP Enna,
-    # telemedicina domiciliare "Grandi anziani", settembre 2026). Da attivare dopo il primo lancio.
+    # telemedicina domiciliare "Grandi anziani", settembre 2026). Accese il 24/11/2026 con SITAS della
+    # Regione, dopo il primo lancio riuscito dell'IZS (run 45359765915). Stanno su un'altra
+    # infrastruttura (lavoripubblici.sicilia.it, della Regione), non su tuttogare.it: se non rispondono
+    # a GitHub, abilitato: false su tutte e tre.
     - <<: *tuttogare
-      abilitato: false
       nome: ASP Agrigento (SITAS)
       nome_fonte: TuttoGare ASP Agrigento
       sigla: tg_aspagrigento
       host: "https://appalti.aspagrigento.lavoripubblici.sicilia.it"
     - <<: *tuttogare
-      abilitato: false
       nome: ASP Enna (SITAS)
       nome_fonte: TuttoGare ASP Enna
       sigla: tg_aspenna
@@ -1870,7 +1877,6 @@ tuttogare:
     # misto) e il Dipartimento per la pianificazione strategica (68, ente sanitario). Il DASOE (69) non
     # ha voci. Nomi degli enti come nella risposta.
     - <<: *tuttogare
-      abilitato: false
       nome: SITAS Regione Siciliana
       nome_fonte: SITAS Regione Siciliana
       sigla: sitas
