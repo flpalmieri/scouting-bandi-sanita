@@ -6,10 +6,10 @@
   "righe_lette": 291
  },
  "lombardia_ambito_4": {
-  "righe_prima_pagina": 87,
+  "righe_prima_pagina": 86,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 87
+  "righe_lette": 86
  },
  "lombardia_ambito_5": {
   "righe_prima_pagina": 28,
@@ -42,7 +42,7 @@
   "righe_lette": 17
  },
  "lombardia": {
-  "righe_lette": 546,
+  "righe_lette": 545,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 16,
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 16,
@@ -68,11 +68,11 @@
    "ASST GRANDE OSPEDALE METROPOLITANO NIGUARDA": 4,
    "ASST CENTRO SPECIALISTICO ORTOPEDICO TRAUMATOLOGICO GAETANO PINI/CTO": 3,
    "ASST DEGLI SPEDALI CIVILI DI BRESCIA": 3,
-   "ASST DELLA VALCAMONICA": 3,
    "ASST DI PAVIA": 3,
    "ASST NORD MILANO": 3,
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLA LOMBARDIA E DELL'EMILIA ROMAGNA \"BRUNO UBERTINI\"": 3,
    "ASST DEL GARDA": 2,
+   "ASST DELLA VALCAMONICA": 2,
    "ASST MELEGNANO E DELLA MARTESANA": 2,
    "ATS DELL'INSUBRIA": 2,
    "A.S.P. - ISTITUTI MILANESI MARTINITT E STELLINE E PIO ALBERGO TRIVULZIO": 1,
@@ -178,7 +178,6 @@
    "COMUNE DI CASSINA RIZZARDI": 1,
    "COMUNE DI CASTEL GOFFREDO": 1,
    "COMUNE DI CASTELCOVATI": 1,
-   "COMUNE DI CAVENAGO DI BRIANZA": 1,
    "COMUNE DI CAVRIANA": 1,
    "COMUNE DI CERGNAGO": 1,
    "COMUNE DI CERNOBBIO": 1,
@@ -227,6 +226,7 @@
    "COMUNE DI PONTOGLIO": 1,
    "COMUNE DI PORTO CERESIO": 1,
    "COMUNE DI PRIMALUNA": 1,
+   "COMUNE DI REA": 1,
    "COMUNE DI REZZATO": 1,
    "COMUNE DI ROBBIO": 1,
    "COMUNE DI RONCOFERRARO": 1,
@@ -286,14 +286,14 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 163,
+  "righe_prima_pagina": 164,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 163,
+  "righe_lette": 164,
   "enti_sanitari": {
    "AZIENDA ULSS N. 8 BERICA": 32,
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA": 26,
-   "AZIENDA ULSS N. 3 SERENISSIMA": 15,
+   "AZIENDA ULSS N. 3 SERENISSIMA": 16,
    "AZIENDA OSPEDALIERA UNIVERSITARIA INTEGRATA DI VERONA": 13,
    "AZIENDA ULSS N. 5 POLESANA": 11,
    "AZIENDA ULSS N. 7 PEDEMONTANA": 8,
@@ -335,10 +335,10 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 145,
+  "righe_prima_pagina": 147,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 145,
+  "righe_lette": 147,
   "enti_sanitari": {
    "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 36,
    "A.O. ORDINE MAURIZIANO TORINO": 10,
@@ -347,16 +347,16 @@
    "AZIENDA SANITARIA LOCALE ASTI - ASL AT": 7,
    "AZIENDA OSPEDALIERA SS. ANTONIO E BIAGIO E C ARRIGO": 5,
    "AZIENDA SANITARIA LOCALE CITTÀ DI TORINO": 5,
+   "ASL NO DI NOVARA": 4,
    "ASL TO 4": 4,
-   "ASL NO DI NOVARA": 3,
    "AZIENDA SANITARIA LOCALE DI VERCELLI": 3,
    "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DEL PIEMONTE, LIGURIA E VALLE D'AOSTA": 3,
    "ASL CN1": 2,
+   "ASL TO3": 2,
    "ASL VERBANO CUSIO OSSOLA": 2,
    "AZIENDA SANITARIA LOCALE AL": 2,
    "AZIENDA SANITARIA ZERO": 2,
    "ASL BI": 1,
-   "ASL TO3": 1,
    "AZIENDA OSPEDALIERO-UNIVERSITARIA SAN LUIGI GONZAGA": 1,
    "CSI PIEMONTE": 1,
    "SCR PIEMONTE SPA": 1
@@ -379,20 +379,20 @@
   }
  },
  "liguria": {
-  "righe_prima_pagina": 43,
+  "righe_prima_pagina": 42,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 43,
+  "righe_lette": 42,
   "enti_sanitari": {
    "AZIENDA TUTELA DELLA SALUTE LIGURIA": 20,
    "LIGURIA DIGITALE S.P.A.": 7,
    "REGIONE LIGURIA (SUAR)": 4,
    "ISTITUTO GIANNINA GASLINI": 1
   },
-  "procedure_altri_enti": 11,
+  "procedure_altri_enti": 10,
   "altri_enti": {
-   "PROVINCIA DI SAVONA": 4,
    "COMUNE DI ARENZANO": 3,
+   "PROVINCIA DI SAVONA": 3,
    "INFRASTRUTTURE RECUPERO ENERGIA AGENZIA REGIONALE LIGURE - I.R.E. S.P.A.": 2,
    "COMUNE DI SESTRI LEVANTE": 1,
    "COMUNE SANTA MARGHERITA LIGURE": 1

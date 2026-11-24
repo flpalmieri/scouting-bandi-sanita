@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-24T10:21:29+00:00",
+  "eseguito_il": "2026-11-24T10:34:09+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -23,7 +23,7 @@
     },
     "plone": {
       "esito": "ok",
-      "pertinenti": 0
+      "pertinenti": 6
     },
     "centrale_acquisti": {
       "esito": "ok",
@@ -46,11 +46,7 @@
       "pertinenti": 0
     }
   },
-  "errori": [
-    "plone: Intercent-ER: HTTPSConnectionPool(host='intercenter.regione.emilia-romagna.it', port=443): Max retries exceeded with url: /++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search (Caused by ResponseError('too many 503 error responses')) (dati parziali: le altre sezioni sono state lette)",
-    "plone: Intercent-ER: HTTPSConnectionPool(host='intercenter.regione.emilia-romagna.it', port=443): Max retries exceeded with url: /++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/@querystring-search (Caused by ResponseError('too many 503 error responses')) (dati parziali: le altre sezioni sono state lette)",
-    "plone: Intercent-ER: HTTPSConnectionPool(host='intercenter.regione.emilia-romagna.it', port=443): Max retries exceeded with url: /++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/@querystring-search (Caused by ResponseError('too many 503 error responses')) (dati parziali: le altre sezioni sono state lette)"
-  ],
+  "errori": [],
   "nuove_opportunita": 0,
   "totale": 115
 }
