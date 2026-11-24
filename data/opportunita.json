@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-24T13:22:06+00:00",
- "totale": 118,
+ "aggiornato_il": "2026-11-24T14:46:31+00:00",
+ "totale": 121,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -2092,6 +2092,76 @@
    "motivo_match": "Ente sanitario + oggetto IT ('RIS')",
    "descrizione": "SERVIZIO TRIENNALE DI MANUTENZIONE ED ASSISTENZA TECNICA FULL RISK PER IL SISTEMA RIS/CIS/PACS ESTENSA in dotazione all’Azienda Ospedaliero Universitaria di Parma e Servizio di Reperibilità 24/h/7gg - come meglio specificato nell’elenco di cui all’Allegato B del presente avviso Durata presunta del servizio: ANNI TRE Precisazioni: decorrenza contratto 01/01/2027-31/12/2029; Lotti: SERVIZIO TRIENNALE DI MANUTENZIONE ED ASSISTENZA TECNICA FULL RISK PER IL SISTEMA RIS/CIS/PACS ESTENSA in dotazione all’Azienda Ospedaliero Universitaria di Parma e Servizio di Reperibilità 24/h/7gg; Procedura: Negozi",
    "primo_rilevamento": "2026-11-19",
+   "ultimo_rilevamento": "2026-11-24"
+  },
+  {
+   "id": "placevda:1368860",
+   "fonti": [
+    "PlaCe-VdA"
+   ],
+   "titolo": "Procedura negoziata per il rinnovo e ampliamento licenze software ESRI in modalità Small Enterprise Agreement triennale e ECW for ArcGIS Server Unlimited e Premium Technical Assistance.",
+   "ente": "IN.VA. S.P.A.",
+   "scadenza": "2026-12-11",
+   "pubblicazione": "2026-11-23",
+   "importo": 345000.0,
+   "cpv": [
+    "72250000"
+   ],
+   "cig": [
+    "BDEE49536B"
+   ],
+   "tipo": "Bando",
+   "link": "https://place-vda.aflink.it/portale/index.asp",
+   "regione": "Valle d'Aosta",
+   "motivo_match": "Soggetto aggregatore + CPV IT (72250000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-24",
+   "ultimo_rilevamento": "2026-11-24"
+  },
+  {
+   "id": "ted:794218-2026",
+   "fonti": [
+    "TED"
+   ],
+   "titolo": "FGPARADIS - RESPONSABILE SI",
+   "ente": "IN.VA. S.P.A.",
+   "scadenza": "2026-12-14",
+   "pubblicazione": "2026-11-16",
+   "importo": 251712.0,
+   "cpv": [
+    "72000000"
+   ],
+   "cig": [],
+   "tipo": "cn-standard",
+   "link": "https://ted.europa.eu/it/notice/-/detail/794218-2026",
+   "regione": null,
+   "motivo_match": "Soggetto aggregatore + CPV IT (72000000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-24",
+   "ultimo_rilevamento": "2026-11-24"
+  },
+  {
+   "id": "placevda:1356012",
+   "fonti": [
+    "PlaCe-VdA"
+   ],
+   "titolo": "PROCEDURA APERTA PER L'AFFIDAMENTO DEL RUOLO DI RESPONSABILE DEI SISTEMI INFORMATIVI E PER IL SERVIZIO DI ASSISTENZA INFORMATICA, TECNICA E MULTIMEDIALE NELL’AMBITO DELLE ATTIVITA’ DI FONDATION GRAND PARADIS",
+   "ente": "IN.VA. S.P.A. per conto di FONDAZIONE GRAN PARADISO – GRAND PARADIS",
+   "scadenza": "2026-12-14",
+   "pubblicazione": "2026-11-16",
+   "importo": 251712.0,
+   "cpv": [
+    "72000000"
+   ],
+   "cig": [
+    "BDC8DB0A38"
+   ],
+   "tipo": "Bando",
+   "link": "https://place-vda.aflink.it/portale/index.asp",
+   "regione": "Valle d'Aosta",
+   "motivo_match": "Soggetto aggregatore + CPV IT (72000000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-24",
    "ultimo_rilevamento": "2026-11-24"
   },
   {

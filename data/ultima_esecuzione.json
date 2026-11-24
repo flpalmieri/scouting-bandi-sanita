@@ -1,13 +1,13 @@
 {
-  "eseguito_il": "2026-11-24T13:22:06+00:00",
+  "eseguito_il": "2026-11-24T14:46:31+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
-      "pertinenti": 7
+      "pertinenti": 8
     },
     "portali_rss": {
       "esito": "ok",
-      "pertinenti": 20
+      "pertinenti": 22
     },
     "portali_html": {
       "esito": "ok",
@@ -48,5 +48,5 @@
   },
   "errori": [],
   "nuove_opportunita": 3,
-  "totale": 118
+  "totale": 121
 }
