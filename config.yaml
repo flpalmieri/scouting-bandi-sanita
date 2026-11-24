@@ -1814,9 +1814,10 @@ net4market:
       escludi_titoli_regex: *escludi_maggioli
       timeout_connessione: 10
       tentativi: 0
-    # Un albo alla volta: le risposte di questi due albi non sono ancora state viste (il lettore si
-    # ferma con un errore se il numero di gare riconosciute non torna). AO Cannizzaro acceso il
-    # 24/11/2026, dopo il primo lancio riuscito di Ragusa (run 45361295414); poi l'AOU Palermo.
+    # Accesi un albo alla volta il 24/11/2026: AO Cannizzaro (run 45363148021; corretti poi le date
+    # del bando senza fine pubblicazione e le risposte lunghe spezzate con .concat: 17 gare su 17 nel
+    # run 45373995826) e AOU Policlinico Palermo (commit 5d6c4f2, run 45375991255: 23 gare su 23).
+    # In entrambi gli albi molte gare "in corso" sono chiuse da mesi: il lettore le ignora.
     - <<: *net4market
       nome: AO Cannizzaro
       nome_fonte: Net4market AO Cannizzaro
