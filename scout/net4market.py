@@ -90,9 +90,12 @@ def _testo_lungo(s: str) -> bool:
             and not re.match(r"^\d{3} - ", s) and not s.lower().startswith("procedura negoziata (per procedure"))
 
 
-def leggi_risposta(testo: str) -> tuple[list[dict], int | None]:
-    """Gare lette dalla risposta GWT-RPC e totale dichiarato. Solleva StrutturaCambiata se i controlli
-    non tornano. Non restituisce altro della risposta."""
+def leggi_risposta(testo: str) -> tuple[list[dict], int | None, list[str]]:
+    """Gare lette dalla risposta GWT-RPC, totale dichiarato e gare non riconosciute (\"gara N: motivo\").
+    Solleva StrutturaCambiata se non torna il conteggio delle gare o se non se ne riconosce nessuna.
+    Dal 24/11/2026 una gara con oggetto o date non riconosciuti non ferma piu' tutto l'albo (AO
+    Cannizzaro, gara 7 al primo lancio): si leggono le altre e si segnala. Non restituisce altro della
+    risposta."""
     testo = testo.strip()
     if testo.startswith("//EX"):
         raise RuntimeError(f"il servizio ha risposto con un'eccezione ({testo[4:200]})")
@@ -125,7 +128,7 @@ def leggi_risposta(testo: str) -> tuple[list[dict], int | None]:
     inizi = [p for p in range(len(r) - 1) if r[p] == ib and r[p + 1] == ia]
     if dimensione is not None and len(inizi) != dimensione:
         raise StrutturaCambiata(f"{len(inizi)} gare riconosciute, {dimensione} dichiarate nella lista")
-    gare = []
+    gare, non_lette = [], []
     for k, s in enumerate(inizi):
         e = inizi[k + 1] if k + 1 < len(inizi) else len(r)
         fine = inizio = id_gara = None
@@ -148,10 +151,15 @@ def leggi_risposta(testo: str) -> tuple[list[dict], int | None]:
                     and not RE_CLASSE.match(t) and len(t.strip()) <= 40:
                 riferimento = t.strip()
         if not titolo or not fine:
-            raise StrutturaCambiata(f"gara {k + 1}: oggetto o date non riconosciuti")
+            mancano = ("oggetto e date non riconosciuti" if not titolo and not fine else
+                       "oggetto non riconosciuto" if not titolo else "date non riconosciute")
+            non_lette.append(f"gara {k + 1} di {len(inizi)}: {mancano}")
+            continue
         gare.append({"id": id_gara, "riferimento": riferimento, "titolo": titolo,
                      "scadenza": fine.isoformat(), "pubblicazione": inizio.isoformat()})
-    return gare, totale
+    if inizi and not gare:
+        raise StrutturaCambiata("nessuna gara riconosciuta (" + "; ".join(non_lette) + ")")
+    return gare, totale, non_lette
 
 
 def _tipo(titolo: str) -> str:
@@ -187,7 +195,7 @@ def _leggi_sito(sito: dict, filtro: Filtro) -> list[Opportunita]:
     r.raise_for_status()
     testo = r.content.decode("utf-8", errors="replace")
     try:
-        gare, totale = leggi_risposta(testo)
+        gare, totale, non_lette = leggi_risposta(testo)
     except Exception as e:
         # Mai la risposta grezza (dati personali): solo cosa non torna.
         _salva_campione(sito, {"errore": str(e), "lunghezza_risposta": len(testo),
@@ -197,8 +205,10 @@ def _leggi_sito(sito: dict, filtro: Filtro) -> list[Opportunita]:
                                "ricopiati da F12 'permutazione' (X-GWT-Permutation) e 'nome_forte' "
                                "(seconda voce del corpo della richiesta)") from e
         raise RuntimeError(f"{sito['nome']}: {e}") from e
-    _salva_campione(sito, {"totale_dichiarato": totale, "gare": gare})
-    if totale is not None and totale > len(gare):
+    _salva_campione(sito, {"totale_dichiarato": totale, "gare": gare, "non_lette": non_lette})
+    if non_lette:
+        ERRORI.append(f"{sito['nome']}: " + "; ".join(non_lette) + f" (lette le altre {len(gare)}: dati parziali)")
+    elif totale is not None and totale > len(gare):
         ERRORI.append(f"{sito['nome']}: lette {len(gare)} gare su {totale} in corso dichiarate (dati parziali)")
 
     escl = re.compile("|".join(f"(?:{p})" for p in sito.get("escludi_titoli_regex") or []) or r"(?!)", re.IGNORECASE)
