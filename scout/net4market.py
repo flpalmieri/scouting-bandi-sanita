@@ -14,9 +14,12 @@ contrario e una tabella di stringhe. Non c'e' uno schema pubblico, quindi si leg
 con controlli:
   * ogni gara inizia con il tipo BandoAlboFornitoriDto seguito da AlboDto; il numero di inizi
     trovati deve essere uguale alla dimensione della lista dichiarata;
-  * dentro ogni gara, la prima coppia di date consecutive (dopo l'anno 2000) e' fine e inizio della
+  * dentro ogni gara, la prima coppia di date consecutive (dopo l'anno 2000) PRIMA delle date della
+    procedura (inserimento e termine, a tre posti di distanza) e' fine e inizio della
     pubblicazione (campi in ordine alfabetico: dataFineBando, dataInizioBando); la fine, alle 00:00
-    ora italiana, e' la scadenza mostrata dall'albo;
+    ora italiana, e' la scadenza mostrata dall'albo. Se l'albo non ha la fine pubblicazione (AO
+    Cannizzaro: solo l'inizio), la scadenza e' la seconda data della procedura, con la nota "da
+    verificare" in descrizione;
   * l'oggetto e' il primo testo lungo negli ultimi campi della gara, il riferimento (es. "SP/337/2026")
     la prima stringa breve dopo l'oggetto; l'identificativo e' il Long che precede le date;
   * i CPV non si usano: nella lista numerica un intero qualsiasi puo' coincidere con l'indice di una
@@ -60,12 +63,15 @@ RE_CLASSE = re.compile(r"^(com|java|javax)\.")
 ANNO_2000 = 946684800000   # millisecondi
 
 # Corpo della richiesta, copiato dal browser (23/11/2026). {base} = BASE + "alboeproc/" (module base GWT; con il solo BASE il server risponde 500), {nome_forte}, {albo}, {scadute}.
+# {limite} = quante gare per pagina (PagingLoadConfigBean: campi in ordine alfabetico limit, offset,
+# sortInfo). Il browser chiede 10: la prima richiesta e' identica alla sua; solo se il totale
+# dichiarato e' maggiore se ne fa una seconda con un limite piu' alto (AO Cannizzaro: 17 in corso).
 PAYLOAD = ("7|2|14|{base}|{nome_forte}|com.csamed.devlibsgxt.shared.dto.ExtRpcToken/3539413198|{albo}|"
            "com.csamed.alboeproc.client.eproc.interfacciagare.servizi.ServizioGarePubblico|"
            "filtraListaBandiAlboFornitori|com.sencha.gxt.data.shared.loader.PagingLoadConfig|java.util.List|"
            "java.lang.Boolean/476441737|com.sencha.gxt.data.shared.loader.PagingLoadConfigBean/38458988|"
            "java.util.ArrayList/4159755760|com.sencha.gxt.data.shared.SortInfoBean/1820471044|"
-           "com.sencha.gxt.data.shared.SortDir/317895740|dataInizioBando|1|2|3|4|5|6|3|7|8|9|10|10|0|11|1|12|"
+           "com.sencha.gxt.data.shared.SortDir/317895740|dataInizioBando|1|2|3|4|5|6|3|7|8|9|10|{limite}|0|11|1|12|"
            "13|1|14|11|0|9|{scadute}|")
 
 
@@ -132,15 +138,34 @@ def leggi_risposta(testo: str) -> tuple[list[dict], int | None, list[str]]:
     for k, s in enumerate(inizi):
         e = inizi[k + 1] if k + 1 < len(inizi) else len(r)
         fine = inizio = id_gara = None
-        for p in range(s, e - 3):
-            if r[p] == idata and isinstance(r[p + 1], str) and r[p + 2] == idata and isinstance(r[p + 3], str):
-                a, b = _long(r[p + 1]), _long(r[p + 3])
-                if a > ANNO_2000 and b > ANNO_2000:
-                    fine, inizio = _data_roma(a), _data_roma(b)
-                    lunghi = [q for q in range(max(s, p - 14), p) if r[q] == ilong and isinstance(r[q + 1], str)]
-                    if lunghi:
-                        id_gara = _long(r[lunghi[-1] + 1])
-                    break
+        nota = None
+        valida = lambda q: isinstance(r[q + 1], str) and _long(r[q + 1]) > ANNO_2000
+
+        def id_prima(q):
+            lunghi = [x for x in range(max(s, q - 14), q) if r[x] == ilong and isinstance(r[x + 1], str)]
+            return _long(r[lunghi[-1] + 1]) if lunghi else None
+        # Date della procedura (GaraDto): inserimento e, tre posti dopo, il termine o l'apertura
+        # (Ragusa 509/512, Cannizzaro 447/450 e 497/500). Le date della pubblicazione del bando vengono
+        # prima; quelle dopo appartengono ad altri oggetti (Cannizzaro, gara 6: la coppia 14/05-08/05
+        # era di un'altra procedura, "colonne Olympus").
+        g = next((q for q in range(s, e - 4) if r[q] == idata and r[q + 3] == idata and valida(q) and valida(q + 3)
+                  and _long(r[q + 4]) >= _long(r[q + 1])), None)
+        limite = g if g is not None else e - 3
+        for p in range(s, limite):
+            if r[p] == idata and r[p + 2] == idata and valida(p) and valida(p + 2):
+                fine, inizio = _data_roma(_long(r[p + 1])), _data_roma(_long(r[p + 3]))
+                id_gara = id_prima(p)
+                break
+        if fine is None and g is not None:
+            # Albo senza fine pubblicazione (AO Cannizzaro, 24/11/2026: dataFineBando vuota, solo l'inizio).
+            # Scadenza dalla procedura; pubblicazione dalla prima data del bando (dopo quella dell'albo,
+            # che sta nei primi token: Cannizzaro 211, Ragusa 226; la data dell'albo e' a 14).
+            fine = _data_roma(_long(r[g + 4]))
+            sole = [q for q in range(s + 30, g) if r[q] == idata and valida(q)]
+            if sole:
+                inizio = _data_roma(_long(r[sole[0] + 1]))
+                id_gara = id_prima(sole[0])
+            nota = "scadenza presa dalla procedura (l'albo non indica la fine pubblicazione): da verificare"
         coda = range(max(s, e - 18), e)
         titolo = riferimento = None
         for p in coda:
@@ -155,8 +180,8 @@ def leggi_risposta(testo: str) -> tuple[list[dict], int | None, list[str]]:
                        "oggetto non riconosciuto" if not titolo else "date non riconosciute")
             non_lette.append(f"gara {k + 1} di {len(inizi)}: {mancano}")
             continue
-        gare.append({"id": id_gara, "riferimento": riferimento, "titolo": titolo,
-                     "scadenza": fine.isoformat(), "pubblicazione": inizio.isoformat()})
+        gare.append({"id": id_gara, "riferimento": riferimento, "titolo": titolo, "scadenza": fine.isoformat(),
+                     "pubblicazione": inizio.isoformat() if inizio else None, "nota": nota})
     if inizi and not gare:
         raise StrutturaCambiata("nessuna gara riconosciuta (" + "; ".join(non_lette) + ")")
     return gare, totale, non_lette
@@ -186,14 +211,18 @@ def _leggi_sito(sito: dict, filtro: Filtro) -> list[Opportunita]:
     pagina_albo = BASE + sito["albo"]
     r = sess.get(pagina_albo, timeout=attesa)          # sessione anonima (cookie)
     r.raise_for_status()
-    corpo = PAYLOAD.format(base=BASE + "alboeproc/", nome_forte=sito["nome_forte"], albo=sito["albo"], scadute=0)
-    r = sess.post(SERVIZIO, data=corpo.encode("utf-8"), timeout=attesa, headers={
-        "Content-Type": "text/x-gwt-rpc; charset=UTF-8",
-        "X-GWT-Permutation": sito["permutazione"],
-        "X-GWT-Module-Base": BASE + "alboeproc/",
-        "Referer": pagina_albo, "Origin": "https://app.albofornitori.it"})
-    r.raise_for_status()
-    testo = r.content.decode("utf-8", errors="replace")
+    def chiedi(limite: int) -> str:
+        corpo = PAYLOAD.format(base=BASE + "alboeproc/", nome_forte=sito["nome_forte"], albo=sito["albo"],
+                               scadute=0, limite=limite)
+        risp = sess.post(SERVIZIO, data=corpo.encode("utf-8"), timeout=attesa, headers={
+            "Content-Type": "text/x-gwt-rpc; charset=UTF-8",
+            "X-GWT-Permutation": sito["permutazione"],
+            "X-GWT-Module-Base": BASE + "alboeproc/",
+            "Referer": pagina_albo, "Origin": "https://app.albofornitori.it"})
+        risp.raise_for_status()
+        return risp.content.decode("utf-8", errors="replace")
+
+    testo = chiedi(10)
     try:
         gare, totale, non_lette = leggi_risposta(testo)
     except Exception as e:
@@ -205,10 +234,19 @@ def _leggi_sito(sito: dict, filtro: Filtro) -> list[Opportunita]:
                                "ricopiati da F12 'permutazione' (X-GWT-Permutation) e 'nome_forte' "
                                "(seconda voce del corpo della richiesta)") from e
         raise RuntimeError(f"{sito['nome']}: {e}") from e
+    if totale is not None and totale > len(gare) + len(non_lette):
+        # Seconda richiesta con piu' gare per pagina; se il server non la accetta si tiene la prima.
+        try:
+            g2, t2, n2 = leggi_risposta(chiedi(min(int(totale), 100)))
+            if len(g2) + len(n2) > len(gare) + len(non_lette):
+                gare, totale, non_lette = g2, t2, n2
+        except Exception as e:
+            log.warning("Net4market %s: richiesta con %s gare per pagina non riuscita (%s), tengo le prime 10",
+                        sito["nome"], min(int(totale), 100), str(e)[:120])
     _salva_campione(sito, {"totale_dichiarato": totale, "gare": gare, "non_lette": non_lette})
     if non_lette:
         ERRORI.append(f"{sito['nome']}: " + "; ".join(non_lette) + f" (lette le altre {len(gare)}: dati parziali)")
-    elif totale is not None and totale > len(gare):
+    elif totale is not None and totale > len(gare) + len(non_lette):
         ERRORI.append(f"{sito['nome']}: lette {len(gare)} gare su {totale} in corso dichiarate (dati parziali)")
 
     escl = re.compile("|".join(f"(?:{p})" for p in sito.get("escludi_titoli_regex") or []) or r"(?!)", re.IGNORECASE)
@@ -235,7 +273,9 @@ def _leggi_sito(sito: dict, filtro: Filtro) -> list[Opportunita]:
             id=ident, fonti=[sito["nome_fonte"]], titolo=g["titolo"], ente=sito["ente"],
             scadenza=g["scadenza"], pubblicazione=g["pubblicazione"], tipo=_tipo(g["titolo"]),
             link=sito.get("link") or pagina_albo, regione=sito.get("regione"), motivo_match=motivo,
-            descrizione=(f"Riferimento sull'albo Net4market: {g['riferimento']}" if g["riferimento"] else None)))
+            descrizione="; ".join(x for x in (
+                f"Riferimento sull'albo Net4market: {g['riferimento']}" if g["riferimento"] else "",
+                g.get("nota") or "") if x) or None))
     log.info("Net4market %s: %d gare lette (su %s dichiarate), %d escluse da regole esplicite, "
              "%d con la pubblicazione chiusa da oltre 30 giorni, %d pertinenti",
              sito["nome"], len(gare), totale, escluse, vecchie, len(risultati))
