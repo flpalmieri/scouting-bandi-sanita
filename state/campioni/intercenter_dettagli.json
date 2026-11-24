@@ -206,38 +206,6 @@
   ]
  },
  {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18465271",
-  "title": "Richiesta di offerta ai sensi dell’art. 50 comma 1 lett. b) del D. Lgs. n. 36/2023 per l'acquisizione delle piattaforme software \"BASESPACE SEQUENCE HUB PROFESSIONAL\" ed “EMEDGENE”",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "ISTITUTO ORTOPEDICO RIZZOLI ",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "10.474,70 €",
-  "procedura_gara": "Affidamento Diretto",
-  "tipo_bando_gara": "Invito",
-  "criterio": "Prezzo più basso",
-  "scadenza": "2026-11-23T17:00:00+00:00",
-  "pubdate": "2026-11-10T10:01:33+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": []
- },
- {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18662517",
-  "title": "PNRR TELEMEDICINA PER UN MIGLIOR SUPPORTO AI PAZIENTI CRONICI - Monitoraggio telefonico",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "AZIENDA USL DI FERRARA",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "130.000,00 €",
-  "procedura_gara": "Affidamento Diretto",
-  "tipo_bando_gara": "Invito",
-  "criterio": "Prezzo più basso",
-  "scadenza": "2026-11-23T17:00:00+00:00",
-  "pubdate": "2026-11-17T15:27:22+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": []
- },
- {
   "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18567607",
   "title": "Consultazione software gestione stupefacenti",
   "type": "BANDO_CONSULTAZIONE_PORTALE",

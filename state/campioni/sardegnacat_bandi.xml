@@ -5,64 +5,100 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>299</afs:totRecord>
+<afs:totRecord>297</afs:totRecord>
 <item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1006502&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T18:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>17/11/2026</pubDate>
-	<description>Servizio di manutenzione ordinaria e straordinaria degli automezzi di tipo leggeri e delle attrezzature meccaniche degli automezzi in dotazione al Servizio Ispettorato Ripartimentale CFVA di Oristano - Anni 2026 - 2027 - 2028&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Servizio di manutenzione ordinaria e straordinaria degli automezzi di tipo leggeri e delle attrezzature meccaniche degli automezzi in dotazione al Servizio Ispettorato Ripartimentale CFVA di Oristano - Anni 2026 - 2027 - 2028]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<title><![CDATA[Invito ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1094430&tipobando=Invito&RicQ=NO&VisQ=NO&tipoDoc=AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&xslt=XSLT_AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&scadenzaBando=2026-11-24T09:51:39.460]]></link>
+	<category>Invito</category>
+	<pubDate>24/11/2026</pubDate>
+	<description>Fornitura di materiale di consumo per la manutenzione ordinaria dei fabbricati del Servizio Territoriale di Iglesias – Appalto attuativo specifico di accordo quadro per la fornitura di materiale di consumo e attrezzature per la manutenzione ordinaria dei fabbricati e delle strutture del STI - CIG padre: B8A5D78A25.&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Fornitura di materiale di consumo per la manutenzione ordinaria dei fabbricati del Servizio Territoriale di Iglesias – Appalto attuativo specifico di accordo quadro per la fornitura di materiale di consumo e attrezzature per la manutenzione ordinaria dei fabbricati e delle strutture del STI - CIG padre: B8A5D78A25.]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Invito]]></afs:Tipo>
 	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Regione Autonoma della Sardegna]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[83.172,13]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T18:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:DenominazioneEnte><![CDATA[AGENZIA REGIONALE PER LO SVILUPPO DEL TERRITORIO E DELL'AMBIENTE DELLA SARDEGNA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[644,57]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T09:51:39.460]]></afs:DtScadenzaBandoTecnical>
 	<afs:CIG><![CDATA[]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+    <afs:TipoProcedura><![CDATA[]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[AFFIDAMENTO_SENZA_NEGOZIAZIONE]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[Pubblicato]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1094430]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[1]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Fornitura materiale di consumo]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T09:51:39]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[44521100-9 - Serrature]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-24T09:51:39]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=916924&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>14/10/2026</pubDate>
+	<description>&lt;strong&gt;Procedura Sospesa - &lt;/strong&gt; Procedura aperta ex artt. 71 e 59, comma 4, del D.Lgs. 36/2023 e s.m., finalizzata alla stipula di un accordo quadro con un unico operatore, per la fornitura biennale, suddivisa in 4 lotti, di materiale di consumo per monitor multiparametrici. CUI F02268260904202600129.&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[<strong>Procedura Sospesa - </strong> Procedura aperta ex artt. 71 e 59, comma 4, del D.Lgs. 36/2023 e s.m., finalizzata alla stipula di un accordo quadro con un unico operatore, per la fornitura biennale, suddivisa in 4 lotti, di materiale di consumo per monitor multiparametrici. CUI F02268260904202600129.]]> <a href="https://sardegnacat.regione.sardegna.it/application/backoffice/loginportale.asp?URL=../CTL_LIBRARY/DOCUMENT/DownloadAttach.asp?HIDECOL=ValoreImportoLotto%26MODEL=MODELLI_LOTTI_Import_MOD_BASE_BeniPrezzoValore_1_916924_MOD_OffertaINPUT%26TMP_DIFF=2026-11-24%26DOCUMENT=BANDO_GARA%26OPERATION=DOWNLOAD%26URL_EXTRA_ATTACH=../../Report/CSV_Lotti.asp,../../Report/avvisi_di_revoca.asp,../../Report/avvisi_di_proroga.asp,../../Report/avvisi_di_rettifica.asp%26IDDOC=916924" title="Scarica Allegati">Scarica Allegati</a> </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[AZIENDA OSPEDALIERO UNIVERSITARIA DI SASSARI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[587.399,04]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Aperta]]></afs:TipoProcedura>
 	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1006502]]></afs:IdMsg>
+	<afs:statoFunzionale><![CDATA[Sospeso]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[916924]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
 	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Manutenzione ordinaria e straordinaria mezzi leggeri dotazione]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[APERTA Materiale per Monitor Multiparametrici]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-20T11:35:40]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[50100000-6 - Servizi di riparazione, manutenzione e affini di veicoli e attrezzature connesse]]></afs:CPV>
+	<afs:dataUltimaModifica><![CDATA[2026-11-17T12:27:43]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T11:34:26]]></afs:DtPubblicazioneTecnical>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-14T11:43:38]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1065016&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T18:00:00]]></link>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1033851&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00]]></link>
 	<category>Bando</category>
-	<pubDate>15/11/2026</pubDate>
-	<description>PT_CRP_16/INT_AA “Percorsi di sostenibilit&#224; nella terra dei Fenici&quot;. PT_CRP_16/INT_AA_9, riguarda la “Realizzazione della Comunit&#224; alloggio per anziani nel Comune di Siamaggiore”, CUP I18H25000410002. Servizi tecnici di progettazione fattibilit&#224; tecnica ed economica, progettazione esecutiva, direzione lavori, coordinamento sicurezza e certificato di regolare esecuzione&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[PT_CRP_16/INT_AA “Percorsi di sostenibilità nella terra dei Fenici". PT_CRP_16/INT_AA_9, riguarda la “Realizzazione della Comunità alloggio per anziani nel Comune di Siamaggiore”, CUP I18H25000410002. Servizi tecnici di progettazione fattibilità tecnica ed economica, progettazione esecutiva, direzione lavori, coordinamento sicurezza e certificato di regolare esecuzione]]>  </afs:Oggetto>
+	<pubDate>19/11/2026</pubDate>
+	<description>&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; MANUTENZIONE IMPIANTI TERMICI, ELETTRICI E IDRICI DI ALCUNI IMMOBILI COMUNALI&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> MANUTENZIONE IMPIANTI TERMICI, ELETTRICI E IDRICI DI ALCUNI IMMOBILI COMUNALI]]>  </afs:Oggetto>
     <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
 	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[UNIONE DEI COMUNI DEI FENICI]]></afs:DenominazioneEnte>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI SIDDI]]></afs:DenominazioneEnte>
     <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
 	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
 	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[151.265,09]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T18:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:a_base_asta><![CDATA[8.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T10:00:00]]></afs:DtScadenzaBandoTecnical>
 	<afs:CIG><![CDATA[]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
     <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
 	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
 	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1065016]]></afs:IdMsg>
+	<afs:IdMsg><![CDATA[1033851]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
@@ -70,181 +106,35 @@
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[ Servizi tecnici di progettazione fattibilità tecnica ed economica, progettazione esecutiva, direzione lavori, coordinamento sicurezza e certificato di regolare esecuzione ]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[MANUTENZIONE IMPIANTI TERMICI, ELETTRICI E IDRICI DI ALCUNI IMMOBILI COMUNALI]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-20T18:45:20]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71335000-5 - Studi di ingegneria]]></afs:CPV>
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T08:39:49]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[50711000-2 - Servizi di riparazione e manutenzione di impianti elettrici di edifici]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-15T13:06:55]]></afs:DtPubblicazioneTecnical>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T13:18:45]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1065039&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T18:00:00]]></link>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1033948&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00]]></link>
 	<category>Bando</category>
-	<pubDate>15/11/2026</pubDate>
-	<description>PT_CRP_16/INT_AA “Percorsi di sostenibilit&#224; nella terra dei Fenici&quot;. PT_CRP_16/INT_AA_13, “Realizzazione parco urbano Sa Terrixedda”, CUP I12J25000020002. Servizi tecnici di progettazione fattibilit&#224; tecnica ed economica, progettazione esecutiva, direzione lavori, coordinamento sicurezza e certificato di regolare esecuzione &lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[PT_CRP_16/INT_AA “Percorsi di sostenibilità nella terra dei Fenici". PT_CRP_16/INT_AA_13, “Realizzazione parco urbano Sa Terrixedda”, CUP I12J25000020002. Servizi tecnici di progettazione fattibilità tecnica ed economica, progettazione esecutiva, direzione lavori, coordinamento sicurezza e certificato di regolare esecuzione ]]>  </afs:Oggetto>
+	<pubDate>04/11/2026</pubDate>
+	<description>&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Intervento di manutenzione straordinaria sulla strada intercomunale “Assolo – Villa Sant’Antonio – Mogorella”, nei tratti di competenza Assolo e Villa Sant’Antonio. CUP_G97H25000580002”. Procedura Negoziata ai sensi dell&#39;art.50 comma 1 lett. c) del D.Lgs. 36/2023 per l&#39;affidamento dei lavori.&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Intervento di manutenzione straordinaria sulla strada intercomunale “Assolo – Villa Sant’Antonio – Mogorella”, nei tratti di competenza Assolo e Villa Sant’Antonio. CUP_G97H25000580002”. Procedura Negoziata ai sensi dell'art.50 comma 1 lett. c) del D.Lgs. 36/2023 per l'affidamento dei lavori.]]>  </afs:Oggetto>
     <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
 	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[UNIONE DEI COMUNI DEI FENICI]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI VILLA SANT'ANTONIO]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
 	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
 	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[102.256,50]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1065039]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Servizi tecnici di progettazione fattibilità tecnica ed economica, progettazione esecutiva, direzione lavori, coordinamento sicurezza e certificato di regolare esecuzione ]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-21T13:00:30]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71335000-5 - Studi di ingegneria]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-15T13:32:55]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1065069&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T18:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>15/11/2026</pubDate>
-	<description>PT_CRP_16/INT_AA “Percorsi di sostenibilit&#224; nella terra dei Fenici&quot;. PT_CRP_16/INT_AA_14, “Realizzazione palestra all&#39;aperto”. CUP I12H25000540002. Servizi tecnici di progettazione fattibilit&#224; tecnica ed economica, progettazione esecutiva, direzione lavori, coordinamento sicurezza &lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[PT_CRP_16/INT_AA “Percorsi di sostenibilità nella terra dei Fenici". PT_CRP_16/INT_AA_14, “Realizzazione palestra all'aperto”. CUP I12H25000540002. Servizi tecnici di progettazione fattibilità tecnica ed economica, progettazione esecutiva, direzione lavori, coordinamento sicurezza ]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[UNIONE DEI COMUNI DEI FENICI]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[59.200,31]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1065069]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Servizi tecnici di progettazione fattibilità tecnica ed economica, progettazione esecutiva, direzione lavori, coordinamento sicurezza e certificato di regolare esecuzione ]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-22T09:01:02]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71335000-5 - Studi di ingegneria]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-15T13:56:36]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1077822&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T18:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>18/11/2026</pubDate>
-	<description>740 “RIPRISTINO FUNZIONALE PORTO DI CANNIGIONE” - Affidamento S.I.A. per INCARICO COLLAUDO STATICO/STRUTTURALE OPERE PORTUALI E TIRO ALLE BITTE
-&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[740 “RIPRISTINO FUNZIONALE PORTO DI CANNIGIONE” - Affidamento S.I.A. per INCARICO COLLAUDO STATICO/STRUTTURALE OPERE PORTUALI E TIRO ALLE BITTE
-]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI ARZACHENA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[9.696,36]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1077822]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[PRAT. 740 - INCARICO SIA - COLLAUDO STATICO/STRUTTURALE OPERE PORTUALI E TIRO ALLE BITTE - “RIPRISTINO FUNZIONALE PORTO DI CANNIGIONE”.]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-20T15:12:49]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71315400-3 - Servizi di collaudo e verifica di edifici]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T18:01:44]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1082188&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T18:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>20/11/2026</pubDate>
-	<description>Servizio professionale per l’incarico dello studio di fattibilit&#224; e del primo stralcio esecutivo dei lavori di completamento delle opere di urbanizzazione primaria nei piani di recupero urbano 1.2 e 1.3&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Servizio professionale per l’incarico dello studio di fattibilità e del primo stralcio esecutivo dei lavori di completamento delle opere di urbanizzazione primaria nei piani di recupero urbano 1.2 e 1.3]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI BUDONI]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[72.654,97]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1082188]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Servizio professionale per l’incarico dello studio di fattibilità e del primo stralcio esecutivo dei lavori di completamento delle opere di urbanizzazione primaria nei piani di recupero urbano 1.2 e 1.3]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-22T09:07:27]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71300000-1 - Servizi di ingegneria]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T09:00:43]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1031229&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T23:59:00]]></link>
-	<category>Bando</category>
-	<pubDate>03/11/2026</pubDate>
-	<description>Affidamento del servizio integrato di assistenza educativa specialistica, supporto sociosanitario e mediazione culturale nell’ambito del progetto PRINC06 “CRESCERE INSIEME”&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Affidamento del servizio integrato di assistenza educativa specialistica, supporto sociosanitario e mediazione culturale nell’ambito del progetto PRINC06 “CRESCERE INSIEME”]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Centrale unica di committenza del Monte Acuto]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[423.140,95]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T23:59:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BDA3F6BF1F]]></afs:CIG>
+	<afs:a_base_asta><![CDATA[421.419,55]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BD5FC3E7A5]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
     <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
 	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
 	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1031229]]></afs:IdMsg>
+	<afs:IdMsg><![CDATA[1033948]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
@@ -252,107 +142,35 @@
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Copia di RdO PRINC06 “CRESCERE INSIEME”]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[Invito dall' Avviso PI355168-26]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T17:06:56]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[85311200-4 - Servizi di assistenza sociale per disabili]]></afs:CPV>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T09:27:05]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[45233141-9 - Lavori di manutenzione stradale]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-03T16:29:12]]></afs:DtPubblicazioneTecnical>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-04T16:28:28]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1073520&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T23:59:00]]></link>
-	<category>Bando</category>
-	<pubDate>18/11/2026</pubDate>
-	<description>servizio di accogliuenza scuola primaria a.s. 2026/2027-2027/2028-2028/2029&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[servizio di accogliuenza scuola primaria a.s. 2026/2027-2027/2028-2028/2029]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI MANDAS]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[109.714.285,70]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T23:59:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1073520]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[accoglienza scuola primaria 26/29]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T16:00:48]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[85000000-9 - Servizi sanitari e di assistenza sociale]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T10:30:58]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1078543&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-23T23:59:00]]></link>
-	<category>Bando</category>
-	<pubDate>19/11/2026</pubDate>
-	<description>Affidamento servizi Tecnici per la progettazione in DL., Misura e contabilit&#224;, Coord. Sicurezza, CRE per Lavori di “Restauro Edificio n. 2 in via Asproni/Via Mazzini – Stralcio funzionale n. 2&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Affidamento servizi Tecnici per la progettazione in DL., Misura e contabilità, Coord. Sicurezza, CRE per Lavori di “Restauro Edificio n. 2 in via Asproni/Via Mazzini – Stralcio funzionale n. 2]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI OSIDDA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[40.539,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T23:59:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1078543]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Affidamento servizi Tecnici per la progettazione in DL., Misura e contabilità, Coord. Sicurezza, CRE per Lavori di “Restauro Edificio n. 2 in via Asproni/Via Mazzini – Stralcio funzionale n. 2]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-22T12:00:50]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71300000-1 - Servizi di ingegneria]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T09:54:30]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1071120&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T08:00:00]]></link>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1042984&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00]]></link>
 	<category>Bando</category>
 	<pubDate>17/11/2026</pubDate>
-	<description>Affidamento dei lavori di manutenzione straordinaria della Banchina H – Intervento di ripristino delle strutture di banchina e dei dispositivi di protezione per l&#39;attracco&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Affidamento dei lavori di manutenzione straordinaria della Banchina H – Intervento di ripristino delle strutture di banchina e dei dispositivi di protezione per l'attracco]]>  </afs:Oggetto>
+	<description>fornitura attrezzatura varia scuola di restauro&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[fornitura attrezzatura varia scuola di restauro]]>  </afs:Oggetto>
     <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
 	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI CALASETTA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI BARUMINI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
 	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[127.386,85]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T08:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[37.620,76]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T10:00:00]]></afs:DtScadenzaBandoTecnical>
 	<afs:CIG><![CDATA[]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
     <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
 	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
 	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1071120]]></afs:IdMsg>
+	<afs:IdMsg><![CDATA[1042984]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
@@ -360,18 +178,197 @@
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Copia di Copia di Senza Titolo]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-17T12:39:54]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[45244000-9 - Lavori di costruzione marina]]></afs:CPV>
+	<afs:dataUltimaModifica><![CDATA[2026-11-17T13:47:46]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[39000000-2 - Mobili (incluso mobili da ufficio), arredamento, apparecchi elettrodomestici (escluso illuminazione) e prodotti per pulizie]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T12:39:54]]></afs:DtPubblicazioneTecnical>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T13:47:46]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=997739&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T08:59:00]]></link>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1069842&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00]]></link>
 	<category>Bando</category>
-	<pubDate>21/10/2026</pubDate>
-	<description>Procedura aperta ai sensi dell’art. 193 del D.Lgs. n. 36/2023 per l’affidamento in concessione del servizio energia degli impianti di illuminazione pubblica, del servizio energia degli impianti di climatizzazione invernale ed estiva e degli impianti elettrici a servizio dei fabbricati di propriet&#224; e competenza del Comune di Bonorva&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Procedura aperta ai sensi dell’art. 193 del D.Lgs. n. 36/2023 per l’affidamento in concessione del servizio energia degli impianti di illuminazione pubblica, del servizio energia degli impianti di climatizzazione invernale ed estiva e degli impianti elettrici a servizio dei fabbricati di proprietà e competenza del Comune di Bonorva]]> <a href="https://sardegnacat.regione.sardegna.it/application/backoffice/loginportale.asp?URL=../CTL_LIBRARY/DOCUMENT/DownloadAttach.asp?TMP_DIFF=2026-11-23%26DOCUMENT=BANDO_GARA%26OPERATION=DOWNLOAD%26URL_EXTRA_ATTACH=../../Report/avvisi_d
+	<pubDate>18/11/2026</pubDate>
+	<description>PROGRAMMA DI INTERVENTI PER L&#39;AUMENTO DEL PATRIMONIO BOSCHIVO NELLE AREE INTERESSATE DA FORME GRAVI DI DEINDUSTRIALIZZAZIONE, MINIERE DISMESSE, DI CAVE STORICHE DISMESSE, DI IMPIANTI DI INCENERIMENTO DI RIFIUTI SOLIDI URBANI O DI PRODUZIONE DI ENERGIA DA FONTE FOSSILE DI CUI ALLA D.G.R. N.39/67 DEL 24.07.2025 – AFFIDAMENTO DEL SERVIZIO PER LA GESTIONE DEL CANTIERE DI GIBA - ANNUALIT&#192; 2025.&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[PROGRAMMA DI INTERVENTI PER L'AUMENTO DEL PATRIMONIO BOSCHIVO NELLE AREE INTERESSATE DA FORME GRAVI DI DEINDUSTRIALIZZAZIONE, MINIERE DISMESSE, DI CAVE STORICHE DISMESSE, DI IMPIANTI DI INCENERIMENTO DI RIFIUTI SOLIDI URBANI O DI PRODUZIONE DI ENERGIA DA FONTE FOSSILE DI CUI ALLA D.G.R. N.39/67 DEL 24.07.2025 – AFFIDAMENTO DEL SERVIZIO PER LA GESTIONE DEL CANTIERE DI GIBA - ANNUALITÀ 2025.]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI GIBA]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI GIBA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[51.097,50]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1069842]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[PROGRAMMA DI INTERVENTI PER L'AUMENTO DEL PATRIMONIO BOSCHIVO NELLE AREE INTERESSATE DA FORME GRAVI DI DEINDUSTRIALIZZAZIONE, MINIERE DISMESSE, DI CAVE STORICHE DISMESSE, DI IMPIANTI DI INCENERIMENTO DI RIFIUTI SOLIDI URBANI O DI PRODUZIONE DI ENERGI]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-20T17:24:58]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[77230000-1 - Servizi connessi alla silvicoltura]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T09:02:03]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1073283&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>18/11/2026</pubDate>
+	<description>&lt;strong&gt;Bando Revocato - &lt;/strong&gt; Contributi agli enti locali per la realizzazione di interventi per la manutenzione ordinaria dei corsi d’acqua di competenza degli enti locali. D.G.R. n. 36/24 del 15 Luglio 2026 – C.U.P. B97G26000450002 – LAVORI DI MANUTENZIONE ORDINARIA DEL RIO SETZU / RIU BARESSA – ANNUALITA’ 2026-2028 - Servizi tecnici di ingegneria e architettura per progettazione, direzione dei lavori, misura e contabilit&#224;, coordinamento sicurezza e redazione C.R.E. - Affidamento diretto (Art. 50, comma 1, lett. b) del D.Lgs n&#176; 36/2023) &lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[<strong>Bando Revocato - </strong> Contributi agli enti locali per la realizzazione di interventi per la manutenzione ordinaria dei corsi d’acqua di competenza degli enti locali. D.G.R. n. 36/24 del 15 Luglio 2026 – C.U.P. B97G26000450002 – LAVORI DI MANUTENZIONE ORDINARIA DEL RIO SETZU / RIU BARESSA – ANNUALITA’ 2026-2028 - Servizi tecnici di ingegneria e architettura per progettazione, direzione dei lavori, misura e contabilità, coordinamento sicurezza e redazione C.R.E. - Affidamento diretto (Art. 50, comma 1, lett. b) del D.Lgs n° 36/2023) ]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI SETZU]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI SETZU]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[4.016,81]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[Revocato]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1073283]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-19T06:21:34]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[71340000-3 - Servizi di ingegneria integrati]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T06:00:04]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1074700&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>18/11/2026</pubDate>
+	<description>Servizio di noleggio e allestimento di un albero di Natale e di una installazione luminosa 3D&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Servizio di noleggio e allestimento di un albero di Natale e di una installazione luminosa 3D]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI PORTO TORRES]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[6.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1074700]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Servizio di noleggio e allestimento di un albero di Natale e di una installazione luminosa 3D]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-18T12:51:59]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[51110000-6 - Servizi di installazione di attrezzature elettriche]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T12:15:09]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1078636&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>19/11/2026</pubDate>
+	<description>servizi tecnici di progettazione di fattibilit&#224; tecnico-economica (PFTE), progettazione esecutiva, coordinamento della sicurezza in fase di progettazione ed esecuzione, direzione lavori, misura e contabilit&#224; per l&#39;opera denominata Manutenzioni strade extraurbane&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[servizi tecnici di progettazione di fattibilità tecnico-economica (PFTE), progettazione esecutiva, coordinamento della sicurezza in fase di progettazione ed esecuzione, direzione lavori, misura e contabilità per l'opera denominata Manutenzioni strade extraurbane]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI BADESI]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI BADESI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[12.220,79]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1078636]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[progettazione e direzione lavori relativi all'intervento d manutenzioni strade]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-19T16:35:47]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[71323200-0 - Servizi di progettazione tecnica di impianti]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T10:57:44]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1082793&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>20/11/2026</pubDate>
+	<description>“FORNITURA MINI PACCHI 3D CON CARPET RELATIVA ALLE LUMINARIE NATALIZIE 2026 &lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[“FORNITURA MINI PACCHI 3D CON CARPET RELATIVA ALLE LUMINARIE NATALIZIE 2026 ]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI MURAVERA]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI MURAVERA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[6.300,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1082793]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[“FORNITURA MINI PACCHI 3D CON CARPET RELATIVA ALLE LUMINARIE NATALIZIE 2026]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T16:16:10]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[31527200-8 - Illuminazione per esterni]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T09:41:07]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1085280&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-24T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>23/11/2026</pubDate>
+	<description>Affidamento diretto della fornitura di  articoli promozionali riportanti il logo

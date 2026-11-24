@@ -182,6 +182,35 @@
       "type_title": "Bando Intercenter"
     }, 
     {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18766000", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-23T00:00:00+01:00", 
+      "Description": "INDAGINE DI MERCATO FINALIZZATA ALL'INDIVIDUAZIONE DI OPERATORI ECONOMICI INTERESSATI A PARTECIPARE A PROCEDURA NEGOZIATA INDETTA AI SENSI DELL\u2019ART. 50 CO. 1 LETT. E) DEL D.LGS. 36/2023 PER L'AFFIDAMENTO IN APPALTO DEI SERVIZI CIMITERIALI DEL COMUNE DI PELLEGRINO PARMENSE", 
+      "Subject": [], 
+      "Title": "INDAGINE DI MERCATO FINALIZZATA ALL'INDIVIDUAZIONE DI OPERATORI ECONOMICI INTERESSATI A PARTECIPARE A PROCEDURA NEGOZIATA INDETTA AI SENSI DELL\u2019ART. 50 CO. 1 LETT. E) DEL D.LGS. 36/2023 PER L'AFFIDAMENTO IN APPALTO DEI SERVIZI CIMITERIALI DEL COMUNE", 
+      "UID": "a89c64274f8f482bb9fbbf8fb56b6054", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "INDAGINE DI MERCATO FINALIZZATA ALL'INDIVIDUAZIONE DI OPERATORI ECONOMICI INTERESSATI A PARTECIPARE A PROCEDURA NEGOZIATA INDETTA AI SENSI DELL\u2019ART. 50 CO. 1 LETT. E) DEL D.LGS. 36/2023 PER L'AFFIDAMENTO IN APPALTO DEI SERVIZI CIMITERIALI DEL COMUNE DI PELLEGRINO PARMENSE", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-22T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_CONSULTAZIONE_PORTALE@18766000", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-04T11:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "INDAGINE DI MERCATO FINALIZZATA ALL'INDIVIDUAZIONE DI OPERATORI ECONOMICI INTERESSATI A PARTECIPARE A PROCEDURA NEGOZIATA INDETTA AI SENSI DELL\u2019ART. 50 CO. 1 LETT. E) DEL D.LGS. 36/2023 PER L'AFFIDAMENTO IN APPALTO DEI SERVIZI CIMITERIALI DEL COMUNE", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18724395", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-19T00:00:00+01:00", 
@@ -930,36 +959,4 @@
       "image_scales": null, 
       "mime_type": "text/plain", 
       "review_state": "published", 
-      "scadenza_bando": "2026-11-16T11:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "Servizio di Interventi educativi di gruppo in orario pomeridiano post-scolastico rivolto a minori affetti da disturbo autistico", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_PORTALE@17517528", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-10-14T23:00:00+01:00", 
-      "Description": "Avviso di indagine di mercato per l\u2019individuazione di operatori economici,  a cui affidare il Servizio di consulenza e di supporto tecnico per la realizzazione di percorsi di co-progettazione con Budget di Salute per le esigenze del Dipartimento di Salute Mentale e Dipendenze Patologiche", 
-      "Subject": [], 
-      "Title": "Servizio di consulenza e di supporto tecnico per la realizzazione di percorsi di co-progettazione con Budget di Salute", 
-      "UID": "5e2ff50437e04ffa9437bfe8b417b5a8", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "closed", 
-        "Chiuso"
-      ], 
-      "description": "Avviso di indagine di mercato per l\u2019individuazione di operatori economici,  a cui affidare il Servizio di consulenza e di supporto tecnico per la realizzazione di percorsi di co-progettazione con Budget di Salute per le esigenze del Dipartimento di Salute Mentale e Dipendenze Patologiche", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-10-14T22:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_CONSULTAZIONE_PORTALE@17517528", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-      "scadenza_bando": "2026-11-16T11:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "Servizio di consulenza e di supporto tecnico per la realizzazione di percorsi di co-progettazione con Budget di Salute", 
-      "ty
+    

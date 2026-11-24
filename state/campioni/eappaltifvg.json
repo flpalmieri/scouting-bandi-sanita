@@ -1,5 +1,5 @@
 {
- "totale_dichiarato": 74,
+ "totale_dichiarato": 75,
  "righe": [
   {
    "procedura": "Procedura non europea",
@@ -551,6 +551,15 @@
    "id": "26296"
   },
   {
+   "procedura": "Asta di Vendita",
+   "ente": "COMUNE DI TRIESTE",
+   "protocollo": "",
+   "titolo": "Asta vendita fabbricato ad uso commerciale ex \"Sacra Hosteria\" e area pertinenziale - Trieste via di Campo Marzio 13",
+   "tipologia": "Vendita/Locazione",
+   "scadenza": "25/01/2027 13:00",
+   "id": "26367"
+  },
+  {
    "procedura": "Altro",
    "ente": "COMUNITÀ DI MONTAGNA DEL GEMONESE",
    "protocollo": "",
@@ -570,21 +579,21 @@
   },
   {
    "procedura": "Altro",
-   "ente": "COMUNE DI REANA DEL ROJALE",
-   "protocollo": "",
-   "titolo": "AVVISO AGLI OPERATORI ECONOMICI - COMUNE DI REANA DEL ROJALE",
-   "tipologia": "Lavori",
-   "scadenza": "31/12/2030 00:00",
-   "id": "23895"
-  },
-  {
-   "procedura": "Altro",
    "ente": "Comune di Muggia",
    "protocollo": "",
    "titolo": "AVVISO ALBO OPERATORI ECONOMICI",
    "tipologia": "Altro",
    "scadenza": "31/12/2030 00:00",
    "id": "23067"
+  },
+  {
+   "procedura": "Altro",
+   "ente": "COMUNE DI REANA DEL ROJALE",
+   "protocollo": "",
+   "titolo": "AVVISO AGLI OPERATORI ECONOMICI - COMUNE DI REANA DEL ROJALE",
+   "tipologia": "Lavori",
+   "scadenza": "31/12/2030 00:00",
+   "id": "23895"
   },
   {
    "procedura": "Procedura non europea",
@@ -615,21 +624,21 @@
   },
   {
    "procedura": "Altro",
-   "ente": "CENTRO DI RIFERIMENTO ONCOLOGICO",
-   "protocollo": "",
-   "titolo": "Avviso Pubblico - Modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea.",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2030 23:59",
-   "id": "20672"
-  },
-  {
-   "procedura": "Altro",
    "ente": "COMUNE DI MERETO DI TOMBA",
    "protocollo": "",
    "titolo": "Avviso pubblico per la modalità di scelta degli operatori economici nelle procedure sotto la soglia di rilevanza europea",
    "tipologia": "Altro",
    "scadenza": "31/12/2030 23:59",
    "id": "22095"
+  },
+  {
+   "procedura": "Altro",
+   "ente": "CENTRO DI RIFERIMENTO ONCOLOGICO",
+   "protocollo": "",
+   "titolo": "Avviso Pubblico - Modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea.",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2030 23:59",
+   "id": "20672"
   },
   {
    "procedura": "Altro",

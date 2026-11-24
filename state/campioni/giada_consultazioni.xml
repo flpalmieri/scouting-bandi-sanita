@@ -5,45 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>11</afs:totRecord>
+<afs:totRecord>10</afs:totRecord>
 <item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=359382&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-23T18:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>13/11/2026</pubDate>
-	
-	<description>
-Avviso di indagine di mercato per la fornitura, in accordo quadro, di rotoli fettuccia verde liscia – Indanthreen - destinata alle UU.OO.CC. di Anestesia e Rianimazione, Cardiologia, UTIC e Emodinamica.&lt;strong&gt;Scadenza : 23/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:RegistroSistema><![CDATA[PI053686-26]]></afs:RegistroSistema>
-	<afs:Fascicolo><![CDATA[FE012285]]></afs:Fascicolo>
-	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:Oggetto><![CDATA[Avviso di indagine di mercato per la fornitura, in accordo quadro, di rotoli fettuccia verde liscia – Indanthreen - destinata alle UU.OO.CC. di Anestesia e Rianimazione, Cardiologia, UTIC e Emodinamica.]]></afs:Oggetto>
-	<afs:DenominazioneEnte><![CDATA[ASL 4 - TERAMO]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-23T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[359382]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Fettuccia Verde liscia Indanthreen]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-13T14:27:30.667]]></afs:dataUltimaModifica>
-<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T14:27:30]]></afs:DtPubblicazioneTecnical>
-</item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=359330&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
@@ -263,7 +226,7 @@ Indagine di mercato finalizzata all’individuazione di operatori economici da i
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-18T09:57:46.480]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T08:52:12.980]]></afs:dataUltimaModifica>
 <afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T09:57:46]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
