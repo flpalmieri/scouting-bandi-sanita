@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-24T15:34:21+00:00",
- "totale": 121,
+ "aggiornato_il": "2026-11-24T16:04:30+00:00",
+ "totale": 123,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -1427,6 +1427,26 @@
    "ultimo_rilevamento": "2026-11-24"
   },
   {
+   "id": "sintel:227037500",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "MANIFESTAZIONE DI INTERESSE PER IL RINNOVO ANNUALE DELLE LICENZE FORTINET OCCORRENTE ALL’ASST BERGAMO OVEST.",
+   "ente": "ASST DI BERGAMO OVEST",
+   "scadenza": "2026-11-30",
+   "pubblicazione": "2026-11-24",
+   "importo": 16390.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=227037500",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
+   "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-24",
+   "ultimo_rilevamento": "2026-11-24"
+  },
+  {
    "id": "ted:754163-2026",
    "fonti": [
     "TED"
@@ -1879,6 +1899,26 @@
    "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
    "descrizione": "CONSULTAZIONE PRELIMINARE DI MERCATO PER L’AFFIDAMENTO DELLA FORNITURA DELL’AGGIORNAMENTO DEL SOFTWARE PER GLI ECOTOMOGRAFI PHILIPS EPIQ IN DOTAZIONE PRESSO LA U.O.C. CARDIOLOGIA",
    "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-24"
+  },
+  {
+   "id": "sintel:227037968",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "CONSULTAZIONI PRELIMINARI DI MERCATO AI SENSI DEL D. LGS. 36 DEL 31.03.2023, ART. 77 PROPEDEUTICHE ALL’INDIZIONE DI UNA PROCEDURA NEGOZIATA SENZA PUBBLICAZIONE DI UN BANDO AI SENSI DELL’ART. 76 COMMA 2 LETT. B) DEL D.LGS. 36/2023, PER L'AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE, ASSISTENZA APPLICATIVA, SUPPORTO SPECIALISTICO, AGGIORNAMENTO TECNOLOGICO ED EVOLUTIVO DEL SISTEMA INFORMATIVO AMMINISTRATIVO CONTABILE AREAS E DEI RELATIVI MODULI APPLICATIVI PRESSO L'ASST PAPA GIOVANNI XXIII DI BERGAMO CON DECORRENZA DAL 01/01/2027 AL 31/12/2031 (60 MESI). COSTO COMPLESSIVO PRESUNTO € 2.000.000,00 OLTRE IVA 22%.",
+   "ente": "ASST PAPA GIOVANNI XXIII",
+   "scadenza": "2026-12-04",
+   "pubblicazione": "2026-11-24",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "consultazione di mercato",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=227037968",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
+   "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-24",
    "ultimo_rilevamento": "2026-11-24"
   },
   {

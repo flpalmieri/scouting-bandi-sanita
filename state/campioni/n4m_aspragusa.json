@@ -1,6 +1,14 @@
 {
- "totale_dichiarato": 2,
+ "totale_dichiarato": 3,
  "gare": [
+  {
+   "id": 5006,
+   "riferimento": "SP/337/2026",
+   "titolo": "Avviso di indagine di mercato, propedeutica all'affidamento ai sensi dell'art. 50, c. 1, lett. b) del d.lgs. 36/2023, per il noleggio di un motorhome da impiegarsi per 4 ore settimanali per 18 mesi, Progetto “FAMI 2021 – 2027 PROG 400 PER.S.O.N.E. Sicilia.",
+   "scadenza": "2026-11-24",
+   "pubblicazione": "2026-11-09",
+   "nota": null
+  },
   {
    "id": 5012,
    "riferimento": "SP/342/2026",

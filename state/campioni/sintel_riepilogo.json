@@ -3,7 +3,7 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 299
+  "righe_lette": 302
  },
  "lombardia_ambito_4": {
   "righe_prima_pagina": 82,
@@ -30,31 +30,31 @@
   "righe_lette": 22
  },
  "lombardia_ambito_9": {
-  "righe_prima_pagina": 24,
+  "righe_prima_pagina": 25,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 24
+  "righe_lette": 25
  },
  "lombardia_ambito_11": {
-  "righe_prima_pagina": 20,
+  "righe_prima_pagina": 21,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 20
+  "righe_lette": 21
  },
  "lombardia": {
-  "righe_lette": 556,
+  "righe_lette": 561,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 17,
    "FONDAZIONE IRCCS ISTITUTO NAZIONALE DEI TUMORI": 12,
    "ASST DELLA VALLE OLONA": 11,
    "ASST DI BERGAMO EST": 9,
+   "ASST DI BERGAMO OVEST": 9,
    "ASST LARIANA": 9,
    "ASST DEI SETTE LAGHI": 8,
-   "ASST DI BERGAMO OVEST": 8,
+   "ASST PAPA GIOVANNI XXIII": 8,
    "FONDAZIONE IRCCS POLICLINICO SAN MATTEO PAVIA": 8,
    "AGENZIA REGIONALE EMERGENZA URGENZA (AREU 118)": 7,
    "ASST DI CREMA": 7,
-   "ASST PAPA GIOVANNI XXIII": 7,
    "ASST RHODENSE": 6,
    "FONDAZIONE IRCCS SAN GERARDO DEI TINTORI DI MONZA": 6,
    "ASST DELLA FRANCIACORTA": 5,
@@ -83,15 +83,15 @@
    "ATS DELLA CITTA METROPOLITANA DI MILANO": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 368,
+  "procedure_altri_enti": 371,
   "altri_enti": {
-   "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 19,
+   "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 20,
    "COMUNE DI MILANO": 16,
    "ERSAF - ENTE REGIONALE PER I SERVIZI ALL'AGRICOLTURA E ALLE FORESTE": 11,
    "SOCIETÀ PER L'ECOLOGIA E L'AMBIENTE SPA": 10,
    "COMUNE DI BERGAMO": 9,
    "POLITECNICO DI MILANO": 8,
-   "PROVINCIA DI BERGAMO": 7,
+   "PROVINCIA DI BERGAMO": 8,
    "PROVINCIA DI LECCO": 7,
    "COMUNE DI PONTE DI LEGNO": 6,
    "COMUNE DI BUSTO ARSIZIO": 5,
@@ -271,12 +271,15 @@
    "GIUNTA REGIONALE - REGIONE LOMBARDIA": 1,
    "PRINCIPIA S.P.A.": 1,
    "PROVINCIA DI MANTOVA": 1,
+   "UNIONE DEI COMUNI DELLE ALPI OROBIE BRESCIANE": 1,
    "UNIONE DEI COMUNI I FONTANILI": 1,
    "UNIONE DEI COMUNI LOMBARDA MAGHERNO TORRE D'ARESE": 1,
    "VALLE CAMONICA SERVIZI SRL": 1
   },
-  "pertinenti": 12,
+  "pertinenti": 14,
   "titoli_pertinenti": [
+   "ASST PAPA GIOVANNI XXIII - CONSULTAZIONI PRELIMINARI DI MERCATO AI SENSI DEL D. LGS. 36 DEL 31.03.2023, ART. 77 PROPE",
+   "ASST DI BERGAMO OVEST - MANIFESTAZIONE DI INTERESSE PER IL RINNOVO ANNUALE DELLE LICENZE FORTINET OCCORRENTE ALL’A",
    "ASST DI CREMONA - Avviso esplorativo di mercato per l’affidamento dei servizi di manutenzione ed assistenza ",
    "ASST DELLA VALLE OLONA - RICHIESTA DI OFFERTA (RDO) APERTA, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D.LGS 36/202",
    "FONDAZIONE IRCCS CA' GRANDA - OSPEDALE MAGGIORE POLICLINICO - CONSULTAZIONE PRELIMINARE DI MERCATO (ai sensi dell'art. 77 del D.Lgs. n. 36/2023)PER L’AC",
@@ -341,10 +344,10 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 149,
+  "righe_prima_pagina": 150,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 149,
+  "righe_lette": 150,
   "enti_sanitari": {
    "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 36,
    "A.O. ORDINE MAURIZIANO TORINO": 9,
@@ -367,10 +370,10 @@
    "AZIENDA SANITARIA ZERO": 1,
    "SCR PIEMONTE SPA": 1
   },
-  "procedure_altri_enti": 43,
+  "procedure_altri_enti": 44,
   "altri_enti": {
    "GIUNTA REGIONALE DEL PIEMONTE": 10,
-   "COMUNE DI ALESSANDRIA": 7,
+   "COMUNE DI ALESSANDRIA": 8,
    "COMUNE DI BIELLA": 7,
    "PROVINCIA DI BIELLA": 4,
    "CITTÀ METROPOLITANA DI TORINO": 3,
@@ -385,23 +388,24 @@
   }
  },
  "liguria": {
-  "righe_prima_pagina": 42,
+  "righe_prima_pagina": 43,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 42,
+  "righe_lette": 43,
   "enti_sanitari": {
    "AZIENDA TUTELA DELLA SALUTE LIGURIA": 19,
    "LIGURIA DIGITALE S.P.A.": 7,
    "REGIONE LIGURIA (SUAR)": 4,
    "ISTITUTO GIANNINA GASLINI": 1
   },
-  "procedure_altri_enti": 11,
+  "procedure_altri_enti": 12,
   "altri_enti": {
    "PROVINCIA DI SAVONA": 4,
    "COMUNE DI ARENZANO": 3,
    "INFRASTRUTTURE RECUPERO ENERGIA AGENZIA REGIONALE LIGURE - I.R.E. S.P.A.": 2,
    "COMUNE DI SESTRI LEVANTE": 1,
-   "COMUNE SANTA MARGHERITA LIGURE": 1
+   "COMUNE SANTA MARGHERITA LIGURE": 1,
+   "UNIVERSITÀ DEGLI STUDI DI GENOVA": 1
   },
   "pertinenti": 5,
   "titoli_pertinenti": [
