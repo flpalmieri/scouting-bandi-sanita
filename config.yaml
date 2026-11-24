@@ -11,6 +11,15 @@ cpv_prefissi:
   # - "302"     # Apparecchiature informatiche (decommenta se ti interessa l'hardware)
   # - "64216"   # Servizi di messaggistica e informazione elettronica
 
+# CPV che contano come informatici SOLO quando l'ente o l'oggetto e' sanitario: non bastano per i
+# soggetti aggregatori. Decisione di Flavio (24/11/2026, opzione B): il sistema informativo
+# cardiologico con cartella clinica elettronica dell'Azienda USL Valle d'Aosta (TED 687339 e
+# 767529-2026, IN.VA, 1,2 milioni) aveva solo il CPV 30211300 "piattaforme informatiche", che e'
+# hardware. Sul TED nazionale dal 01/06/2026 (174 avvisi con CPV 302) entrano solo quei due avvisi
+# (una gara). Il resto del 302 (PC, stampanti, toner, storage) resta fuori, come deciso per l'INMI.
+cpv_prefissi_solo_sanitari:
+  - "30211300"  # Piattaforme informatiche
+
 # CPV che vengono inclusi SEMPRE, anche se l'ente non risulta sanitario.
 cpv_sempre_inclusi:
   - "48180000"  # Pacchetti software medici
@@ -232,6 +241,21 @@ aggregatori_misti_regex:
   # Non prendono la CUC lavori del Dipartimento Regionale Tecnico ne' le CUC dei comuni.
   - '\bsicilia\s+digitale\b'
   - 'centrale\s+unica\s+di\s+committenza\s+per\s+l\W?\s*acquisizione\s+di\s+beni\s+e\s+servizi|centrale\s+unica\s+di\s+committenza\s+(della\s+)?regione\s+siciliana'
+  # Valle d'Aosta: decisioni di Flavio (24/11/2026). (1) IN.VA, societa' informatica della Regione
+  # e centrale unica di committenza regionale (compra anche per l'Azienda USL), come Lepida, CSI
+  # Piemonte e CUC FVG. Le sue gare IT non sanitarie entrano "da verificare": dal 01/06/2026 su TED
+  # data entry e postalizzazione del Comune di Aosta (2 avvisi) e responsabile dei sistemi informativi
+  # della Fondazione Gran Paradiso; su PlaCe-VdA licenze ESRI e lo stesso responsabile SI. Flavio
+  # accetta che quest'ultimo compaia due volte (TED e PlaCe hanno titoli e dati diversi). Le gare di
+  # IN.VA per l'AUSL entrano gia' come sanitarie (PlaCe: "per conto di"; TED: "AUSL - ..."). Su PlaCe
+  # l'ente e' "IN.VA. S.P.A. per conto di ...": la regola guarda l'inizio del nome. Non prende
+  # INVALSI e simili (dopo "VA" serve un confine di parola).
+  # (2) Regione Autonoma Valle d'Aosta (l'Assessorato sanita' pubblica con questo nome), solo quando il
+  # nome dell'ente INIZIA cosi': non la "Stazione unica appaltante per la Regione Valle d'Aosta"
+  # (lavori pubblici) ne' "ARER Valle d'Aosta". Oggi nessun effetto: su TED i suoi 8 avvisi non sono
+  # IT, su PlaCe le sue voci IT in corso sono tutte richieste di offerta a invito, gia' escluse.
+  - '^\W*IN\.?\s?VA\b'
+  - '^\W*regione\s+autonoma\s+(della\s+)?valle\s+d\W?\s*aosta\b'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).

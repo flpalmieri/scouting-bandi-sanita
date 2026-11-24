@@ -189,6 +189,10 @@ class Filtro:
     def __init__(self, cfg: dict):
         self.prefissi = [normalizza_cpv(c) for c in cfg.get("cpv_prefissi", [])]
         self.sempre = {normalizza_cpv(c) for c in cfg.get("cpv_sempre_inclusi", [])}
+        # CPV informatici solo in contesto sanitario (ente od oggetto), mai per i soli aggregatori
+        # (Valle d'Aosta, 24/11/2026: 30211300 "piattaforme informatiche" del sistema informativo
+        # cardiologico dell'AUSL).
+        self.prefissi_sanitari = [normalizza_cpv(c) for c in cfg.get("cpv_prefissi_solo_sanitari") or []]
         self.re_ente = self._compila(cfg.get("enti_sanitari_regex"))
         # Eccezioni: nomi che le regole degli enti sanitari prenderebbero per errore (es. le ASP
         # emiliane, "Aziende di servizi alla persona", che non sono aziende sanitarie provinciali).
@@ -237,14 +241,19 @@ class Filtro:
         if speciali:
             return f"CPV software sanitario ({', '.join(speciali)})"
         it = [c for c in codici if any(c.startswith(p) for p in self.prefissi)]
-        if not it:
+        it_san = [c for c in codici if c not in it
+                  and any(c.startswith(p) for p in self.prefissi_sanitari)]
+        if not it and not it_san:
             return None
+        primo = (it + it_san)[0]
         if self.ente_sanitario(ente):
-            return f"Ente sanitario + CPV IT ({it[0]})"
+            return f"Ente sanitario + CPV IT ({primo})"
         if self.re_sanita:
             m = self.re_sanita.search(titolo)
             if m:
-                return f"Oggetto sanitario ('{m.group(0)}') + CPV IT ({it[0]})"
+                return f"Oggetto sanitario ('{m.group(0)}') + CPV IT ({primo})"
+        if not it:
+            return None   # solo CPV "solo sanitari": non basta per un aggregatore
         if self.re_aggr and self.re_aggr.search(ente):
             return f"Soggetto aggregatore + CPV IT ({it[0]}) - da verificare"
         return None
