@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-25T16:49:49+00:00",
+  "eseguito_il": "2026-11-25T17:08:19+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -50,7 +50,10 @@
       "pertinenti": 0
     }
   },
-  "errori": [],
+  "errori": [
+    "maggioli: ASP Basilicata: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
+    "maggioli: AOR San Carlo: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate"
+  ],
   "nuove_opportunita": 0,
   "totale": 128
 }

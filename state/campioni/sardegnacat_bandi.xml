@@ -5,154 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>312</afs:totRecord>
+<afs:totRecord>308</afs:totRecord>
 <item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1061243&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T18:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>12/11/2026</pubDate>
-	<description>Intervento di riqualificazione del campo di calcetto di via Dante rifacimento del manto in erba sintetica al fine di migliorarne la fruibilit&#224; collettiva
-&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Intervento di riqualificazione del campo di calcetto di via Dante rifacimento del manto in erba sintetica al fine di migliorarne la fruibilità collettiva
-]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[COMUNE DI PABILLONIS]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI PABILLONIS]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[105.000,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1061243]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Intervento di riqualificazione del campo di calcetto di via Dante rifacimento del manto in erba sintetica al fine di migliorarne la fruibilità collettiva]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-24T18:44:27]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[45262522-6 - Lavori edili]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-12T17:07:08]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1072680&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T18:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>18/11/2026</pubDate>
-	<description>PIANO DI CARATTERIZZAZIONE E MISE DELL’EX DISCARICA COMUNALE FUNTANA MURTA&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[PIANO DI CARATTERIZZAZIONE E MISE DELL’EX DISCARICA COMUNALE FUNTANA MURTA]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI GONNOSTRAMATZA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[40.526,25]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1072680]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-24T17:08:16]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[90733200-6 - Servizi di bonifica dell'inquinamento delle acque di superficie]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T09:29:51]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1082131&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T18:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>20/11/2026</pubDate>
-	<description>&lt;strong&gt;Bando Revocato - &lt;/strong&gt; Affidamento diretto ai sensi dell’art. 50, comma 1, lett. b), del D.lgs. n. 36/2023, tramite Trattativa Diretta sul portale “Sardegna CAT” del “Servizio di sostegno educativo familiare e del servizio “Spazio Neutro”.&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[<strong>Bando Revocato - </strong> Affidamento diretto ai sensi dell’art. 50, comma 1, lett. b), del D.lgs. n. 36/2023, tramite Trattativa Diretta sul portale “Sardegna CAT” del “Servizio di sostegno educativo familiare e del servizio “Spazio Neutro”.]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI CARBONIA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[34.424,41]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[Revocato]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1082131]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Servizio di sostegno Educativo Familiare e Spazio Neutro]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-20T14:18:35]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[85310000-5 - Servizi di assistenza sociale]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T09:51:16]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1086302&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T18:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>20/11/2026</pubDate>
-	<description>Affidamento diretto ai sensi dell’art. 50, comma 1, lett. b), del D.lgs. n. 36/2023, tramite Trattativa Diretta sul portale “Sardegna CAT” del “Servizio di sostegno educativo familiare e del servizio “Spazio Neutro”&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Affidamento diretto ai sensi dell’art. 50, comma 1, lett. b), del D.lgs. n. 36/2023, tramite Trattativa Diretta sul portale “Sardegna CAT” del “Servizio di sostegno educativo familiare e del servizio “Spazio Neutro”]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI CARBONIA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[35.824,04]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1086302]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[SERVIZIO EDUCATIVO DI SUPPORTO FAMILIARE E RELAZIONALE E SPAZIO NEUTRO]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T11:40:33]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[85300000-2 - Servizi di assistenza sociale e servizi affini]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T15:29:31]]></afs:DtPubblicazioneTecnical>
-</item><item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1060818&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T22:00:00]]></link>
 	<category>Bando</category>
@@ -373,4 +227,135 @@
 	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1065787&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T09:00:00]]></link>
 	<category>Bando</category>
 	<pubDate>17/11/2026</pubDate>
-	<description>Procedura negoziata, senza pubblicazione del bando, ai sensi dell’art. 76, comma 2, lett. c), del Decreto legislativo 31 marzo 2023, n. 36, per la fornitura annuale di dispositivi arterovenosi e VAD CND C01 destinati a varie strutture dell’Azienda Ospedaliero Universitaria di Sassari. Autorizzazione 
+	<description>Procedura negoziata, senza pubblicazione del bando, ai sensi dell’art. 76, comma 2, lett. c), del Decreto legislativo 31 marzo 2023, n. 36, per la fornitura annuale di dispositivi arterovenosi e VAD CND C01 destinati a varie strutture dell’Azienda Ospedaliero Universitaria di Sassari. Autorizzazione a contrarre. CUI: F02268260904202600177.&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Procedura negoziata, senza pubblicazione del bando, ai sensi dell’art. 76, comma 2, lett. c), del Decreto legislativo 31 marzo 2023, n. 36, per la fornitura annuale di dispositivi arterovenosi e VAD CND C01 destinati a varie strutture dell’Azienda Ospedaliero Universitaria di Sassari. Autorizzazione a contrarre. CUI: F02268260904202600177.]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[AZIENDA OSPEDALIERO UNIVERSITARIA DI SASSARI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[85.104,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDD0072DB5]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1065787]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Dispositivi Arterovenosi - BBRAUN]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T15:43:07]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T09:44:17]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1067010&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T09:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>17/11/2026</pubDate>
+	<description>Procedura negoziata, senza pubblicazione del bando, ai sensi dell’art. 76, comma 2, lett. c), del Decreto legislativo 31 marzo 2023, n. 36, per la fornitura annuale di dispositivi arterovenosi e VAD CND C01 destinati a varie strutture dell’Azienda Ospedaliero Universitaria di Sassari. Autorizzazione a contrarre. CUI: F02268260904202600177.&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Procedura negoziata, senza pubblicazione del bando, ai sensi dell’art. 76, comma 2, lett. c), del Decreto legislativo 31 marzo 2023, n. 36, per la fornitura annuale di dispositivi arterovenosi e VAD CND C01 destinati a varie strutture dell’Azienda Ospedaliero Universitaria di Sassari. Autorizzazione a contrarre. CUI: F02268260904202600177.]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[AZIENDA OSPEDALIERO UNIVERSITARIA DI SASSARI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[33.408,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDD1EFF3D0]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1067010]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Dispositivi Arterovenosi - CLINI LAB]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T12:11:17]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T09:43:57]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1068711&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T09:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>17/11/2026</pubDate>
+	<description>Procedura negoziata, senza pubblicazione del bando, ai sensi dell’art. 76, comma 2, lett. c), del Decreto legislativo 31 marzo 2023, n. 36, per la fornitura annuale di dispositivi arterovenosi e VAD CND C01 destinati a varie strutture dell’Azienda Ospedaliero Universitaria di Sassari. Autorizzazione a contrarre. CUI: F02268260904202600177.&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Procedura negoziata, senza pubblicazione del bando, ai sensi dell’art. 76, comma 2, lett. c), del Decreto legislativo 31 marzo 2023, n. 36, per la fornitura annuale di dispositivi arterovenosi e VAD CND C01 destinati a varie strutture dell’Azienda Ospedaliero Universitaria di Sassari. Autorizzazione a contrarre. CUI: F02268260904202600177.]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[AZIENDA OSPEDALIERO UNIVERSITARIA DI SASSARI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[78.436,32]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDD3CFA16D]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1068711]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Dispositivi Arterovenosi - TELEFLEX]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T15:23:36]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T09:43:18]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1068928&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T09:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>17/11/2026</pubDate>
+	<description>Procedura negoziata, senza pubblicazione del bando, ai sensi dell’art. 76, comma 2, lett. c), del Decreto legislativo 31 marzo 2023, n. 36, per la fornitura annuale di dispositivi arterovenosi e VAD CND C01 destinati a varie strutture dell’Azienda Ospedaliero Universitaria di Sassari. Autorizzazione a contrarre. CUI: F02268260904202600177.&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Procedura negoziata, senza pubblicazione del bando, ai sensi dell’art. 76, comma 2, lett. c), del Decreto legislativo 31 marzo 2023, n. 36, per la fornitura annuale di dispositivi arterovenosi e VAD CND C01 destinati a varie strutture dell’Azienda Ospedaliero Universitaria di Sassari. Autorizzazione a contrarre. CUI: F02268260904202600177.]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[AZIENDA OSPEDALIERO UNIVERSITARIA DI SASSARI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[165.240,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDD403B0D7]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1068928]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Dispositivi Arterovenosi - 

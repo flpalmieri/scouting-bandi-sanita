@@ -472,18 +472,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18724435", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_PORTALE@18724435", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-18T00:00:00+01:00", 
       "Description": "AVVISO DI INDAGINE DI MERCATO (ART. 50 comma 1 lett. e) e art. 2 Allegato II.1 d.lgs. 36/2023) per la fornitura di Camere distanziatrici per inalatore occorrente all\u2019Unione d\u2019Acquisto tra le Aziende Sanitarie associate all\u2019Area Vasta Emilia Nord (AVEN) e l\u2019Ospedale di Sassuolo S.p.A.", 
       "Subject": [], 
       "Title": "Avviso di Indagine Camere distanziatrici per inalatore", 
-      "UID": "9c286a8918ea4a6688f9574a480d772f", 
+      "UID": "e3511e6a9f0542fca5d4d9f23de7dbd1", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "AVVISO DI INDAGINE DI MERCATO (ART. 50 comma 1 lett. e) e art. 2 Allegato II.1 d.lgs. 36/2023) per la fornitura di Camere distanziatrici per inalatore occorrente all\u2019Unione d\u2019Acquisto tra le Aziende Sanitarie associate all\u2019Area Vasta Emilia Nord (AVEN) e l\u2019Ospedale di Sassuolo S.p.A.", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -958,4 +958,4 @@
       "image_field": "", 
       "image_scales": null, 
       "mime_type": "text/plain", 
-      "review_state":
+      "review_state
