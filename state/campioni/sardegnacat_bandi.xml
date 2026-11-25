@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>299</afs:totRecord>
+<afs:totRecord>312</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1061243&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T18:00:00]]></link>
@@ -184,7 +184,7 @@
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-24T18:17:11]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T16:41:33]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[45236119-7 - Lavori di riparazione di campi sportivi]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-12T16:43:14]]></afs:DtPubblicazioneTecnical>
@@ -256,7 +256,7 @@
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-24T14:50:47]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T17:11:04]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[45262522-6 - Lavori edili]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-24T14:50:47]]></afs:DtPubblicazioneTecnical>

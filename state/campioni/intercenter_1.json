@@ -182,18 +182,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/bandi-aperti/BANDO_GARA_PORTALE@17137189", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/bandi-in-corso/BANDO_GARA_PORTALE@17137189", 
       "@type": "BandoIntercenter", 
       "Date": "2026-10-20T23:00:00+01:00", 
       "Description": "Procedura aperta per la conclusione di un Accordo Quadro con pi\u00f9 operatori economici ai sensi dell\u2019art. 59, comma 4, del D.Lgs. 36/2023, relativo all\u2019esecuzione degli interventi di recupero di unit\u00e0 immobiliari da destinare a servizi abitativi presenti nel patrimonio in gestione ad ACER Ferrara", 
       "Subject": [], 
       "Title": "Accordo Quadro lavori per immobili in gestione ad ACER Ferrara", 
-      "UID": "cb933f911155407c8249fb3a4ec04cc1", 
+      "UID": "544cbeb7af28457589641edaa37fbaf9", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "inProgress", 
+        "In corso"
       ], 
       "description": "Procedura aperta per la conclusione di un Accordo Quadro con pi\u00f9 operatori economici ai sensi dell\u2019art. 59, comma 4, del D.Lgs. 36/2023, relativo all\u2019esecuzione degli interventi di recupero di unit\u00e0 immobiliari da destinare a servizi abitativi presenti nel patrimonio in gestione ad ACER Ferrara", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -1116,4 +1116,4 @@
       "Description": "PROCEDURA NEGOZIATA PER LA FORNITURA DEI VACCINI VIMKUNYA E IMVANEX", 
       "Subject": [], 
       "Title": "PROCEDURA NEGOZIATA PER LA FORNITURA DEI VACCINI VIMKUNYA E IMVANEX", 
-      "UID": "e3b9ca8f8dc7409daccef04
+      "UID": "e3b9ca8f8dc74

@@ -3,7 +3,7 @@
   "batching": {
     "@id": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search", 
     "first": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=0", 
-    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=39850", 
+    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=39900", 
     "next": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=50"
   }, 
   "items": [
@@ -646,6 +646,35 @@
       "type_title": "Bando Intercenter"
     }, 
     {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18842447", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-25T00:00:00+01:00", 
+      "Description": "INVITO PROCEDURA NEGOZIATA PER L\u2019AFFIDAMENTO DELL\u2019APPALTO PER LA FORNITURA E LA MANUTENZIONE DI AUSILI PER LA MOVIMENTAZIONE E L\u2019IGIENE DEGLI OSPITI DELLE STRUTTURE RESIDENZIALI E SEMIRESIDENZIALI PER ANZIANI DI ASP CITT\u00c0 DI BOLOGNA.", 
+      "Subject": [], 
+      "Title": "INVITO PROCEDURA NEGOZIATA PER L\u2019AFFIDAMENTO DELL\u2019APPALTO PER LA FORNITURA E LA MANUTENZIONE DI AUSILI", 
+      "UID": "9da1cb1c10ee49209935d9d46b525414", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "INVITO PROCEDURA NEGOZIATA PER L\u2019AFFIDAMENTO DELL\u2019APPALTO PER LA FORNITURA E LA MANUTENZIONE DI AUSILI PER LA MOVIMENTAZIONE E L\u2019IGIENE DEGLI OSPITI DELLE STRUTTURE RESIDENZIALI E SEMIRESIDENZIALI PER ANZIANI DI ASP CITT\u00c0 DI BOLOGNA.", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-24T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_GARA_PORTALE@18842447", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-21T11:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "INVITO PROCEDURA NEGOZIATA PER L\u2019AFFIDAMENTO DELL\u2019APPALTO PER LA FORNITURA E LA MANUTENZIONE DI AUSILI", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@13429925", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-20T00:00:00+01:00", 
@@ -925,28 +954,4 @@
       "effective": "2026-11-15T23:00:00+00:00", 
       "enhanced_links_enabled": null, 
       "getObjSize": "0 KB", 
-      "id": "BANDO_GARA_PORTALE@18498226", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-      "scadenza_bando": "2026-12-16T11:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "COMUNE DI VALDAGNO - Lavori di valorizzazione dei luoghi lungo la ciclabile Agno Gu\u00e0", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18240020", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-11-11T00:00:00+01:00", 
-      "Description": "STAZIONE UNICA APPALTANTE PER CONTO DELL'ISTITUTO ISTRUZIONE SUPERIORE \"A. VOLTA\" PIAZZA FALCONE E BORSELLINO, 5 - SASSUOLO (MO) PER L' AFFIDAMENTO IN CONCESSIONE AI SENSI DEGLI ARTT. 176 E SS. DEL D.LGS. N. 36/2023, DEL SERVIZIO DI DI REFEZIONE - MERENDE, PRODOTTI DA FORNO E SNACK DOLCI, E BEVANDE FREDDE PRESSO LA SEDE DELL'ISTITUTO ISTRUZIONE SUPERIORE \"A. VOLTA\" PIAZZA FALCONE E BORSELLINO, 5 - SASSUOLO (MO).", 
-      "Subject": [], 
-      "Title": "SUA p/c dell'istituto superiore Volta di Sassuolo: concessione del servizio di distribuzione merende, prodotti freschi da forno, snack dolce e bevande fredde", 
-      "UID": "609225bab527456882b1bc115d4fd324", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "open", 
-        "Attivo"
-      ], 
-      "description": "STAZIONE UNICA APPALTANTE PER CONTO DELL'ISTITUTO ISTRUZIONE SUPERIORE \"A. VOLTA\" PIAZZA FALCONE E BORSELLINO, 5 - SASSUOLO (MO) PER L' AFFIDAMENTO IN CONCESSIONE AI SENSI DEGLI ARTT. 176 E SS. DEL D.LGS. N. 36/2023, DEL SERVIZIO DI DI REFEZIONE - MEREN
+      "id": "B

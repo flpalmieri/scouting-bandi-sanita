@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>276</afs:totRecord>
+<afs:totRecord>282</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1363060&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T18:00:00]]></link>
@@ -260,7 +260,7 @@
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-16T11:27:09]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1361608&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T09:00:00]]></link>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1361608&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T09:00:00]]></link>
 	<category>Bando</category>
 	<pubDate>17/11/2026</pubDate>
 	<description>&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Interventi vari in loc. Chignas &lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
@@ -282,7 +282,7 @@
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -401,4 +401,4 @@
 	<afs:dataUltimaModifica><![CDATA[2026-11-19T16:52:40]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[72267100-0 - Manutenzione di software di tecnologia dell'informazione]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnica
+	<afs:DtPubblicazioneTecnical>

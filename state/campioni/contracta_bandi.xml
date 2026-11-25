@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>75</afs:totRecord>
+<afs:totRecord>77</afs:totRecord>
 <item>
 	<title><![CDATA[Invito ]]></title>
 	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=1608646&tipobando=Invito&RicQ=NO&VisQ=NO&tipoDoc=AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&xslt=XSLT_AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&scadenzaBando=]]></link>
@@ -182,7 +182,7 @@
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-25T15:55:02]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T17:37:05]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[90910000-9 - Servizi di pulizia]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-15T10:58:51]]></afs:DtPubblicazioneTecnical>
@@ -254,7 +254,7 @@
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-20T15:17:38]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T17:00:21]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[66600000-6 - Servizi di tesoreria]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-02T11:13:35]]></afs:DtPubblicazioneTecnical>
