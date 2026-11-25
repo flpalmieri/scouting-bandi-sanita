@@ -86,6 +86,10 @@ enti_sanitari_regex:
   # struttura delle aziende del SSN: un ente il cui nome INIZIA con UOC e' sanitario. Nei 532 avvisi
   # TED marchigiani e nei campioni delle altre fonti l'unico nome cosi' e' quello dell'AST PU.
   - '^\W*U\.?\s?O\.?\s?C\b'
+  # Basilicata (25/11/2026): sulla piattaforma dell'AOR San Carlo le stazioni sono "AREA U.O.C. Provveditorato
+  # Economato", "AREA U.O.C. Sistema Informativo Ospedaliero" ecc. Le tre note sono rinominate nel blocco
+  # maggioli; questa riga copre una stazione nuova con lo stesso schema.
+  - '^\W*AREA\s+U\.?\s?O\.?\s?C\b'
   # Decisione di Flavio (24/11/2026, applicata con il commit 4d4172e): ARS Marche ("AGENZIA REGIONALE SANITARIA MARCHE" su
   # GTMULTIE, "AGENZIA REGIONALE SANITARIA" su GT-SUAM; mai acquirente su TED) come ente sanitario,
   # come ARES e AREUS in Sardegna. Al 23/11/2026 nessun suo avviso aperto e' IT (interpretariato
@@ -2042,6 +2046,54 @@ maggioli:
       host: "https://portaleappalti.aopapardo.it"
       completa_catena_tls: true
       intermedi_extra: [certificati/aopapardo_intermedi.pem]
+    # ------------------------------------------------------------------------------------------
+    # Basilicata (25/11/2026). L'ASP (Azienda Sanitaria Locale di Potenza, anche 118) e l'AOR San Carlo
+    # hanno ciascuna un'istanza Maggioli; le gare sopra soglia di tutte le aziende le svolge la SUA-RB (la
+    # sua istanza, www.sua-rb.it, chiama l'ente "Amministrazione committente della SUA-RB": non si legge
+    # finche' Flavio non decide). Prova dal box del 25/11/2026 con maggioli.py: le liste rispondono 200
+    # con lo User-Agent del progetto e il filtro "In corso" risulta selezionato, ma model.iDisplayLength
+    # no (forse la pagina e' piu' corta di 100: se le voci in corso superano quelle lette compare "dati
+    # parziali"). In corso al 25/11: ASP 0 bandi e 3 avvisi (elenchi di operatori), San Carlo 0 e 0.
+    # Blocco modello proprio, come per Marche e Sicilia: per spegnere la regione basta abilitato: false qui.
+    - &maggioli_basilicata
+      nome: ASP Basilicata
+      nome_fonte: Appalti ASP Basilicata
+      sigla: aspbasilicata
+      regione: Basilicata
+      host: "https://gare.aspbasilicata.it"    # in http risponde 500
+      liste: [bandi, avvisi]
+      escludi_tipologie: [Elenco operatori economici]
+      escludi_stazioni_regex:
+        - '\btest\b'
+      escludi_titoli_regex: *escludi_maggioli
+      ente_se_vuoto: Azienda Sanitaria Locale di Potenza
+      timeout_connessione: 10
+      tentativi: 0
+    # AOR San Carlo: 1.603 voci nel 2026, quasi tutte ordini e appalti specifici su convenzioni e SDA
+    # ("SCR PIEMONTE ... LOTTO", "V SDA PIEMONTE", "SDAPA", "GARA MEDICAZIONI SUA", "GARA ANATOMIA
+    # PATOLOGICA G00550 - LOTTO"), pubblicati e chiusi in giornata: adesioni, non opportunita', escluse
+    # per titolo. Restano le procedure vere: consultazioni preliminari (Vectra WB 360, OSNA, art. 77),
+    # servizi e forniture, e quelle della stazione "AREA U.O.C. Sistema Informativo Ospedaliero" (es.
+    # manutenzione del software Control 1st, G02587). Le stazioni hanno nomi di uffici senza l'azienda:
+    # si rinominano con l'azienda (l'AOR non compare mai su TED: la deduplica non ne soffre, lezione 80).
+    - <<: *maggioli_basilicata
+      nome: AOR San Carlo
+      nome_fonte: Appalti AOR San Carlo
+      sigla: aorsancarlo
+      host: "https://gare.ospedalesancarlo.it"
+      escludi_titoli_regex:
+        # Le tre regole comuni di &escludi_maggioli (YAML non unisce le liste: se cambiano la', cambiarle qui)
+        - '^\W*(?:(?:bando\s+(?:rettificato|revocato|in\s+rettifica)|procedura\s+(?:ripristinata|sospesa|in\s+sospensione)|riapertura\s+termini|ADP?)\s*[-\u2013]\s*)*(?:affidamento\s+diretto|affidamento(?:\s+(?:della\s+)?fornitura)?\W*\s*(?:ai\s+sensi\s+dell|di\s+cui\s+all|ex)\W*\s*art\W*\s*(?:n\W*\s*)?50\W*\s*(?:c(?:o|omma)\W*\s*)?1\W*\s*(?:lett\w*\W*\s*)?[ab]\b|richiesta\s+(?:di\s+)?preventivo)'
+        - 'scheda\s+di\s+aggiudicazion|\baggiudicazione\s+definitiv|\besito\s+(di\s+|della\s+)?(gara|procedura)'
+        - '\basta\s+pubblica|\bvendita\b|\balienazion'
+        # piu' gli ordini e gli appalti specifici su convenzioni e SDA:
+        - '^\W*(SCR\W+PIEMONTE|V\W+SDA|SDAPA)\b'
+        - '^\W*GARA\W+MEDICAZIONI\W+SUA\b|^\W*GARA\b.{0,80}\bG\d{5}\W+LOTT'
+      enti_rinomina:
+        "AREA U.O.C. Provveditorato Economato": "AOR San Carlo - UOC Provveditorato Economato"
+        "AREA U.O.C. Gestione Tecnico Patrimoniale": "AOR San Carlo - UOC Gestione Tecnico Patrimoniale"
+        "AREA U.O.C. Sistema Informativo Ospedaliero": "AOR San Carlo - UOC Sistema Informativo Ospedaliero"
+      ente_se_vuoto: AOR San Carlo
 
 # --- Piattaforme Net4market (app.albofornitori.it) ------------------------------------
 # Sicilia, fase 2 (23/11/2026). Elenco delle gare in corso dalla chiamata GWT-RPC dell'albo (vedi
