@@ -2106,7 +2106,9 @@ tuttogare:
 # "da verificare". Le gare del portale (elenco HTML senza scadenza, dettaglio pubblico con il RUP) non
 # si leggono ancora: vedi contesto_progetto.md.
 bandi_altoadige:
-  abilitato: true
+  # Disattivato il 25/11/2026: ConnectTimeout da GitHub Actions in due run (24 e 25/11). Controllo manuale settimanale
+  # su https://www.bandi-altoadige.it/notice/special-notice/list, filtro "Consultazione di mercato".
+  abilitato: false
   siti:
     - nome: bandi-altoadige avvisi speciali
       nome_fonte: bandi-altoadige
