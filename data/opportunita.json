@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-25T08:26:03+00:00",
- "totale": 124,
+ "aggiornato_il": "2026-11-25T15:19:19+00:00",
+ "totale": 128,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -1637,6 +1637,26 @@
    "ultimo_rilevamento": "2026-11-25"
   },
   {
+   "id": "sintel:227060254",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "PROCEDURA NEGOZIATA SENZA PUBBLICAZIONE DI UN BANDO, AI SENSI DELL’ART. 76, COMMA 2, LETTERA B), PUNTI 2) E 3) DEL D. LGS. 31 MARZO 2023, N. 36, PER L’AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE SW DI N. 2 LICENZE DA 50 SPORTELLI PER SISTEMI ELIMINACODE AZIENDALI, PER UN PERIODO DI 36 MESI, IN USO PRESSO L’A.O.U. CITTA’ DELLA SALUTE E DELLA SCIENZA DI TORINO",
+   "ente": "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO",
+   "scadenza": "2026-12-01",
+   "pubblicazione": "2026-11-25",
+   "importo": 5550.0,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=227060254",
+   "regione": "Piemonte",
+   "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
+   "descrizione": "Tipo Sintel: Procedura negoziata senza bando; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-25",
+   "ultimo_rilevamento": "2026-11-25"
+  },
+  {
    "id": "siaps:4838823",
    "fonti": [
     "SIAPS So.Re.Sa."
@@ -1720,6 +1740,30 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenze d’uso')",
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-25"
+  },
+  {
+   "id": "sardegnacat:1060961",
+   "fonti": [
+    "SardegnaCAT"
+   ],
+   "titolo": "SERVIZIO DI EDICOLA DIGITALE PRESSREADER, ATTIVAZIONE DI UN PORTALE MLOL (MEDIALIBRARYONLINE) PERSONALIZZATO PER LA REGIONE SARDEGNA E REALIZZAZIONE DEL PORTALE MLOL SCUOLA (MEDIALIBRARYONLINE) PER LE BIBLIOTECHE DELLE ISTITUZIONI SCOLASTICHE DEL TERRITORIO REGIONALE",
+   "ente": "Regione Autonoma della Sardegna",
+   "scadenza": "2026-12-02",
+   "pubblicazione": "2026-11-25",
+   "importo": 469649.68,
+   "cpv": [
+    "72267000"
+   ],
+   "cig": [
+    "BD84DA7A37"
+   ],
+   "tipo": "Bando",
+   "link": "https://sardegnacat.regione.sardegna.it/portalegare/index.php/bandi?getdettaglio=yes&bando=1060961&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-02T17:00:00",
+   "regione": "Sardegna",
+   "motivo_match": "Soggetto aggregatore + CPV IT (72267000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-25",
    "ultimo_rilevamento": "2026-11-25"
   },
   {
@@ -1901,6 +1945,26 @@
    "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
    "descrizione": "CONSULTAZIONE PRELIMINARE DI MERCATO PER L’AFFIDAMENTO DELLA FORNITURA DELL’AGGIORNAMENTO DEL SOFTWARE PER GLI ECOTOMOGRAFI PHILIPS EPIQ IN DOTAZIONE PRESSO LA U.O.C. CARDIOLOGIA",
    "primo_rilevamento": "2026-11-20",
+   "ultimo_rilevamento": "2026-11-25"
+  },
+  {
+   "id": "sintel:227078217",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "AVVISO ESPLORATIVO FINALIZZATO ALL'ACQUISIZIONE DI MANIFESTAZIONI D'INTERESSE PER LA FORNITURA DI LICENZE ORACLE OCCORRENTI ALL'ASST OVEST MILANESE.",
+   "ente": "ASST OVEST MILANESE",
+   "scadenza": "2026-12-04",
+   "pubblicazione": "2026-11-25",
+   "importo": 0.1,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=227078217",
+   "regione": "Lombardia",
+   "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
+   "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-25",
    "ultimo_rilevamento": "2026-11-25"
   },
   {
@@ -2112,6 +2176,28 @@
    "motivo_match": "Ente sanitario + oggetto IT ('informatizzat')",
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
+   "ultimo_rilevamento": "2026-11-25"
+  },
+  {
+   "id": "empulia:2982122",
+   "fonti": [
+    "EmPULIA"
+   ],
+   "titolo": "Fondi FESR Puglia 2021- 2027 Azione 8.4 \"Rinnovo e potenziamento delle strutture ospedaliere e sviluppo della telemedicina\" Tipologia B – Potenziamento e rinnovamento delle dotazioni strumentali per le Sale Operatorie del P.O. “V. Fazzi” - Richiesta di preventivo svolta in modalità telematica finalizzata all’affidamento diretto ai sensi dell’art. 50 co. 1 lett. B D.Lgs n. 36/2023 per la fornitura del completamento e aggiornamento tecnologico della colonna videolaparoscopica di marca Karl Storz già in uso presso la U.O.C. di Ginecologia del P.O. “V.Fazzi” di Lecce. Importo presunto a basa d’asta € 90.000,00 (euro novantamila/00) oltre Iva.",
+   "ente": "ASL LE",
+   "scadenza": "2026-12-11",
+   "pubblicazione": "2026-11-25",
+   "importo": 90000.0,
+   "cpv": [
+    "33169000"
+   ],
+   "cig": [],
+   "tipo": "bando",
+   "link": "http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio%20Bando%20di%20Gara.aspx?getdettaglio=yes&bando=2982122&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-11T12:00:00",
+   "regione": "Puglia",
+   "motivo_match": "Ente sanitario + oggetto IT ('telemedicin')",
+   "descrizione": "COMPLETAMENTO COLONNA VIDEOLAPAROSCOPICA STORZ PER U.O.C. DI GINECOLOGIA DEL P.O. V. FAZZI",
+   "primo_rilevamento": "2026-11-25",
    "ultimo_rilevamento": "2026-11-25"
   },
   {

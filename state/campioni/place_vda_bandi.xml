@@ -5,28 +5,64 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>255</afs:totRecord>
+<afs:totRecord>276</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1347442&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T09:30:00]]></link>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1363060&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T18:00:00]]></link>
 	<category>Bando</category>
-	<pubDate>03/11/2026</pubDate>
-	<description>Servizio di manutenzione ordinaria (meccanico) su mezzi di propriet&#224; comunale.&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Servizio di manutenzione ordinaria (meccanico) su mezzi di proprietà comunale.]]>  </afs:Oggetto>
+	<pubDate>18/11/2026</pubDate>
+	<description>Servizio di noleggio pullman con conducente A/R per l&#39;evento del Comune di Gressan con destinazione Milano Rho Fiera&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Servizio di noleggio pullman con conducente A/R per l'evento del Comune di Gressan con destinazione Milano Rho Fiera]]>  </afs:Oggetto>
     <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[COMUNE DI GRESSONEY-SAINT-JEAN]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI GRESSONEY-SAINT-JEAN]]></afs:DenominazioneEnte>
+	<afs:EnteProponente><![CDATA[COMUNE DI GRESSAN]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI GRESSAN]]></afs:DenominazioneEnte>
     <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[2.200,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T18:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1363060]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Senza TitoloServizio di noleggio pullman con conducente A/R per l'evento del Comune di Gressan con destinazione Milano Rho Fiera]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-20T09:56:51]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[60000000-8 - Servizi di trasporto (escluso il trasporto di rifiuti)]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T13:49:24]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1366065&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T18:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>19/11/2026</pubDate>
+	<description>FORNITURA DI MATERIALE LIGNEO PER MANUTENZIONI DA ESEGUIRSI IN AMMINISTRAZIONE DIRETTA SUL TERRITORIO COMUNALE&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[FORNITURA DI MATERIALE LIGNEO PER MANUTENZIONI DA ESEGUIRSI IN AMMINISTRAZIONE DIRETTA SUL TERRITORIO COMUNALE]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI ARNAD]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI ARNAD]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
 	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
 	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[4.490,74]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T09:30:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:a_base_asta><![CDATA[1.652,61]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T18:00:00]]></afs:DtScadenzaBandoTecnical>
 	<afs:CIG><![CDATA[]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
     <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
 	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
 	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1347442]]></afs:IdMsg>
+	<afs:IdMsg><![CDATA[1366065]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
@@ -34,35 +70,35 @@
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[SERVIZIO MANUTENZIONE MEZZI]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[FORNITURA DI MATERIALE LIGNEO PER MANUTENZIONI DA ESEGUIRSI IN AMMINISTRAZIONE DIRETTA SUL TERRITORIO COMUNALE]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-22T17:18:45]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[50110000-9 - Servizi di riparazione e manutenzione di veicoli a motore e attrezzature affini]]></afs:CPV>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T09:04:59]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[34928210-3 - Paletti in legno]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-03T15:54:13]]></afs:DtPubblicazioneTecnical>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T16:25:55]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1350967&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1365873&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T23:59:00]]></link>
 	<category>Bando</category>
-	<pubDate>17/11/2026</pubDate>
-	<description>AFFIDAMENTO DIRETTO INCARICO PER CONCERTO DI NATALE DA SVOLGERSI NELL’AMBITO DELLE MANIFESTAZIONI PROMOSSE DALL’AMMINISTRAZIONE COMUNALE&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[AFFIDAMENTO DIRETTO INCARICO PER CONCERTO DI NATALE DA SVOLGERSI NELL’AMBITO DELLE MANIFESTAZIONI PROMOSSE DALL’AMMINISTRAZIONE COMUNALE]]>  </afs:Oggetto>
+	<pubDate>19/11/2026</pubDate>
+	<description>AFFIDAMENTO DEL SERVIZIO DI DIFESA E ASSISTENZA GIUDIZIALE PER LA COSTITUZIONE E RESISTENZA NEL GIUDIZIO PROMOSSO DAL CONSORZIO EDIL.ART. INNANZI AL TRIBUNALE DI AOSTA EX ARTT. 696 E 696-BIS C.P.C.: CONFERMA VOSTRO PREVENTIVO DI SPESA OFFERTA DEL 04/11/2026.&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[AFFIDAMENTO DEL SERVIZIO DI DIFESA E ASSISTENZA GIUDIZIALE PER LA COSTITUZIONE E RESISTENZA NEL GIUDIZIO PROMOSSO DAL CONSORZIO EDIL.ART. INNANZI AL TRIBUNALE DI AOSTA EX ARTT. 696 E 696-BIS C.P.C.: CONFERMA VOSTRO PREVENTIVO DI SPESA OFFERTA DEL 04/11/2026.]]>  </afs:Oggetto>
     <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[COMUNE DI VERRAYES]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI VERRAYES]]></afs:DenominazioneEnte>
+	<afs:EnteProponente><![CDATA[COMUNE DI SAINT-VINCENT]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI SAINT-VINCENT]]></afs:DenominazioneEnte>
     <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
 	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
 	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[400,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:a_base_asta><![CDATA[14.950,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T23:59:00]]></afs:DtScadenzaBandoTecnical>
 	<afs:CIG><![CDATA[]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
     <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
 	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
 	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1350967]]></afs:IdMsg>
+	<afs:IdMsg><![CDATA[1365873]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
@@ -70,323 +106,35 @@
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[AFFIDAMENTO DIRETTO INCARICO PER CONCERTO DI NATALE DA SVOLGERSI NELL’AMBITO DELLE MANIFESTAZIONI PROMOSSE DALL’AMMINISTRAZIONE COMUNALE]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[AFFIDAMENTO DEL SERVIZIO DI DIFESA E ASSISTENZA GIUDIZIALE PER LA COSTITUZIONE E RESISTENZA NEL GIUDIZIO PROMOSSO DAL CONSORZIO EDIL.ART. ]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-21T16:00:38]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[92312100-2 - Servizi artistici di produttori teatrali, cori, bande musicali e orchestre]]></afs:CPV>
+	<afs:dataUltimaModifica><![CDATA[2026-11-19T15:37:18]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[79110000-8 - Servizi di consulenza giuridica e di rappresentanza]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T11:52:26]]></afs:DtPubblicazioneTecnical>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T15:37:18]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1355390&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>18/11/2026</pubDate>
-	<description>Fornitura e posa di portone sezionale presso l&#39;autorimessa della polizia locale e sostituzione di cavi ISD presso l&#39;autorimessa dei Vigili del fuoco volontari e dello sciclub&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Fornitura e posa di portone sezionale presso l'autorimessa della polizia locale e sostituzione di cavi ISD presso l'autorimessa dei Vigili del fuoco volontari e dello sciclub]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[COMUNE DI NUS]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI NUS]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[5.607,88]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1355390]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Portone vigili e manutenzione portone polifunzionale]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-18T09:27:23]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[44221240-9 - Porte di garage]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T09:27:23]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Avviso ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1357326&tipobando=Avviso&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
-	<category>Avviso</category>
-	<pubDate>13/11/2026</pubDate>
-	<description>Il Centro Servizi Courmayeur S.r.l., ai sensi dell’art. 50 del D.Lgs. 36/2023, avvia la presente consultazione di mercato, finalizzata all’eventuale affidamento diretto del servizio di pulizie straordinarie ed extra presso le strutture gestite dalla Societ&#224; sul territorio del Comune di Courmayeur.&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Il Centro Servizi Courmayeur S.r.l., ai sensi dell’art. 50 del D.Lgs. 36/2023, avvia la presente consultazione di mercato, finalizzata all’eventuale affidamento diretto del servizio di pulizie straordinarie ed extra presso le strutture gestite dalla Società sul territorio del Comune di Courmayeur.]]> <a href="https://place-vda.aflink.it//application/backoffice/loginportale.asp?URL=../CTL_LIBRARY/DOCUMENT/DownloadAttach.asp?TMP_DIFF=2026-11-25%26DOCUMENT=BANDO_GARA%26OPERATION=DOWNLOAD%26URL_EXTRA_ATTACH=../../Report/avvisi_di_revoca.asp,../../Report/avvisi_di_proroga.asp,../../Report/avvisi_di_rettifica.asp%26IDDOC=1357326" title="Scarica Allegati">Scarica Allegati</a> </afs:Oggetto>
-    <afs:Tipo><![CDATA[Avviso]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[CENTRO SERVIZI COURMAYEUR SRL]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[CENTRO SERVIZI COURMAYEUR SRL]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1357326]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Indagine di mercato pulizie extra]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T16:21:13]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[90911200-8 - Servizi di pulizia di edifici]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T11:38:23]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1359000&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>17/11/2026</pubDate>
-	<description>AFFIDAMENTO DI SERVIZIO CATERING IN OCCASIONE DELLA FESTA DEGLI ANZIANI 2026&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[AFFIDAMENTO DI SERVIZIO CATERING IN OCCASIONE DELLA FESTA DEGLI ANZIANI 2026]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[COMUNE DI VERRAYES]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI VERRAYES]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[3.500,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1359000]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[AFFIDAMENTO DI SERVIZIO CATERING IN OCCASIONE DELLA FESTA DEGLI ANZIANI 2026]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-17T17:43:27]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[55520000-1 - Servizi di catering]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T11:52:27]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1359085&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>16/11/2026</pubDate>
-	<description>AREA T3- INCARICO PROFESSIONALE DI PROGETTAZIONE ESECUTIVA, D.L., CONTABILIT&#192;, EV. C.S.P. E C.S.E. DEI LAVORI DI RIPRISTINO E RIFACIMENTO DELLE PAVIMENTAZIONI STRADALI DEL COMUNE DI AOSTA ANNI 2027/2030, C.A. 1 - LOTTO 1&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[AREA T3- INCARICO PROFESSIONALE DI PROGETTAZIONE ESECUTIVA, D.L., CONTABILITÀ, EV. C.S.P. E C.S.E. DEI LAVORI DI RIPRISTINO E RIFACIMENTO DELLE PAVIMENTAZIONI STRADALI DEL COMUNE DI AOSTA ANNI 2027/2030, C.A. 1 - LOTTO 1]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[COMUNE DI AOSTA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI AOSTA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[30.258,98]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1359085]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[AREA T3- INCARICO PROFESSIONALE DI PROGETTAZIONE ESECUTIVA, D.L., CONTABILITÀ, EV. C.S.P. E C.S.E. DEI LAVORI DI RIPRISTINO E RIFACIMENTO DELLE PAVIMENTAZIONI STRADALI DEL COMUNE DI AOSTA ANNI 2027/2030, C.A. 1 - LOTTO 1]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-19T18:56:16]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71322500-6 - Servizi di progettazione tecnica di infrastrutture del traffico]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-16T14:28:50]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1359338&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>16/11/2026</pubDate>
-	<description>AREA T3- INCARICO PROFESSIONALE DI PROGETTAZIONE ESECUTIVA, D.L., CONTABILIT&#192;, EV. C.S.P. E C.S.E. DEI LAVORI DI RIPRISTINO E RIFACIMENTO DELLE PAVIMENTAZIONI STRADALI DEL COMUNE DI AOSTA ANNI 2027/2030, C.A. 1 - LOTTO 2&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[AREA T3- INCARICO PROFESSIONALE DI PROGETTAZIONE ESECUTIVA, D.L., CONTABILITÀ, EV. C.S.P. E C.S.E. DEI LAVORI DI RIPRISTINO E RIFACIMENTO DELLE PAVIMENTAZIONI STRADALI DEL COMUNE DI AOSTA ANNI 2027/2030, C.A. 1 - LOTTO 2]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[COMUNE DI AOSTA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI AOSTA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[30.258,98]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1359338]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[AREA T3- INCARICO PROFESSIONALE DI PROGETTAZIONE ESECUTIVA, D.L., CONTABILITÀ, EV. C.S.P. E C.S.E. DEI LAVORI DI RIPRISTINO E RIFACIMENTO DELLE PAVIMENTAZIONI STRADALI DEL COMUNE DI AOSTA ANNI 2027/2030, C.A. 1 - LOTTO 2]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T05:04:11]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71322500-6 - Servizi di progettazione tecnica di infrastrutture del traffico]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-16T14:28:20]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1361750&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>17/11/2026</pubDate>
-	<description>Riapertura termini - SERVIZIO DI TRASPORTO SPETTACOLI E INCONTRI SAISON CULTURELLE ANNO 2027&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Riapertura termini - SERVIZIO DI TRASPORTO SPETTACOLI E INCONTRI SAISON CULTURELLE ANNO 2027]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[4.600,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1361750]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[VITA SERVIZI TRASPORTO SAISON ANNO 2027]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T15:59:06]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[60172000-4 - Noleggio di autobus e pullman con autista]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T12:25:33]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1363217&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>18/11/2026</pubDate>
-	<description>Servizio di manutenzione ordinaria degli impianti elevatori siti presso il Municipio, la scuola Primaria, la sala della Banda Musicale e il Foyer de Fond per il periodo 1&#176;/12/2026 - 30/11/2030&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Servizio di manutenzione ordinaria degli impianti elevatori siti presso il Municipio, la scuola Primaria, la sala della Banda Musicale e il Foyer de Fond per il periodo 1°/12/2026 - 30/11/2030]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[COMUNE DI NUS]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI NUS]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[7.296,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1363217]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[manutenzione ascensori]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-19T13:13:31]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[50750000-7 - Servizi di manutenzione di ascensori]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T10:46:54]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1363914&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>18/11/2026</pubDate>
-	<description>Fornitura di doni per festa degli anziani - n. 50 Ciclamino vaso 10 cm, n. 1 Composizione, n. 1 Stella di Natale grande (come da preventivi del 18/11/2026)&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Fornitura di doni per festa degli anziani - n. 50 Ciclamino vaso 10 cm, n. 1 Composizione, n. 1 Stella di Natale grande (come da preventivi del 18/11/2026)]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[COMUNE DI AYMAVILLES]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI AYMAVILLES]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[359,10]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1363914]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Fornitura di doni per festa degli anziani (06/12/2026).]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T12:26:47]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[18530000-3 - Regali e premi]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T13:44:05]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1367272&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T10:00:00]]></link>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1366541&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-25T23:59:00]]></link>
 	<category>Bando</category>
 	<pubDate>20/11/2026</pubDate>
-	<description>Fornitura di vestiario tecnico per i vari nuclei del Corpo valdostano dei vigili del fuoco&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Fornitura di vestiario tecnico per i vari nuclei del Corpo valdostano dei vigili del fuoco]]>  </afs:Oggetto>
+	<description>INTERVENTI DI DI RIATTIVAZIONE FINALIZZATI AL COLLAUDO DEGLI IMPIANTI DI RISALITA A FUNE DEL COMPRENSORIO DEL COL DE JOUX – SEGGIOVIA BIPOSTO T&#202;TE DE COMAGNE E SCIOVIA MONOPOSTO PIAN DELLE SCHEGGE – RIPARAZIONE SCHEDE E CIRCUITO DI SICUREZZA SCIOVIA &lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[INTERVENTI DI DI RIATTIVAZIONE FINALIZZATI AL COLLAUDO DEGLI IMPIANTI DI RISALITA A FUNE DEL COMPRENSORIO DEL COL DE JOUX – SEGGIOVIA BIPOSTO TÊTE DE COMAGNE E SCIOVIA MONOPOSTO PIAN DELLE SCHEGGE – RIPARAZIONE SCHEDE E CIRCUITO DI SICUREZZA SCIOVIA ]]>  </afs:Oggetto>
     <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:EnteProponente><![CDATA[COMUNE DI SAINT-VINCENT]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI SAINT-VINCENT]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
 	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
 	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[22.023,77]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:a_base_asta><![CDATA[4.750,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T23:59:00]]></afs:DtScadenzaBandoTecnical>
 	<afs:CIG><![CDATA[]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
     <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
 	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
 	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1367272]]></afs:IdMsg>
+	<afs:IdMsg><![CDATA[1366541]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
@@ -394,10 +142,263 @@
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Copia di Montura novembre]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[RIPARAZIONE SCHEDE E CIRCUITO DI SICUREZZA SCIOVIA MONOPOSTO PIAN DELLE SCHEGGE ]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-24T17:00:23]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[18420000-9 - Accessori di vestiario]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:V
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T09:04:23]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[42418290-8 - Attrezzature per sciovie]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T09:00:30]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1366965&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T08:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>20/11/2026</pubDate>
+	<description>Consultazione, ai sensi del d.lgs. 36/2023, finalizzata all&#39;affidamento diretto per un servizio di manutenzione, nella parte attinente alle direttive in materia di rispetto dei requisiti AGID, del sito &quot;themaiaproject.net&quot; CUP B79I24011090007&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Consultazione, ai sensi del d.lgs. 36/2023, finalizzata all'affidamento diretto per un servizio di manutenzione, nella parte attinente alle direttive in materia di rispetto dei requisiti AGID, del sito "themaiaproject.net" CUP B79I24011090007]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[3.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T08:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1366965]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Manutenzione sito Maia]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-21T10:05:00]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[72400000-4 - Servizi di Internet]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T13:55:21]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1369459&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T08:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>23/11/2026</pubDate>
+	<description>ACCORDO QUADRO CON UN UNICO OPERATORE ECONOMICO PER LA FORNITURA DI MATERIALE DI FERRAMENTA, MINUTERIA, UTENSILERIA E MATERIALI VARI PER LE ESIGENZE DI MANUTENZIONE DEL COMUNE DI PONT-SAINT-MARTIN (2027/2028)&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[ACCORDO QUADRO CON UN UNICO OPERATORE ECONOMICO PER LA FORNITURA DI MATERIALE DI FERRAMENTA, MINUTERIA, UTENSILERIA E MATERIALI VARI PER LE ESIGENZE DI MANUTENZIONE DEL COMUNE DI PONT-SAINT-MARTIN (2027/2028)]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI PONT-SAINT-MARTIN]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI PONT-SAINT-MARTIN]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[16.716,30]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T08:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1369459]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[ACCORDO QUADRO CON UN UNICO OPERATORE ECONOMICO PER LA FORNITURA DI MATERIALE DI FERRAMENTA, MINUTERIA, UTENSILERIA E MATERIALI VARI PER LE ESIGENZE DI MANUTENZIONE DEL COMUNE DI PONT-SAINT-MARTIN (2027/2028)]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T14:48:31]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[44316000-8 - Ferramenta]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-23T13:47:09]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1352600&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T09:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>16/11/2026</pubDate>
+	<description>Lavori volti alla posa di una vetrata sagomata con porta interna di accesso a un’anta alla saletta sita al piano secondo dello stabile gi&#224; destinato a biblioteca comunale&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Lavori volti alla posa di una vetrata sagomata con porta interna di accesso a un’anta alla saletta sita al piano secondo dello stabile già destinato a biblioteca comunale]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI SAINT-OYEN]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI SAINT-OYEN]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[6.950,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1352600]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Lavori volti alla posa di una vetrata sagomata con porta interna di accesso a un’anta alla saletta sita al piano secondo dello stabile già destinato a biblioteca comunale]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T10:57:36]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[44221120-2 - Porte-finestre]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-16T11:27:09]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1361608&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T09:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>17/11/2026</pubDate>
+	<description>&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Interventi vari in loc. Chignas &lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Interventi vari in loc. Chignas ]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI DONNAS]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI DONNAS]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[149.820,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1361608]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Interventi Chignas]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T10:04:05]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[45262522-6 - Lavori edili]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T12:10:13]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1355918&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>13/11/2026</pubDate>
+	<description>SERVIZIO DI MANUTENZIONE ORDINARIA DELLA CENTRALINA IDROELETTRICA IN LOC. LISARDEY, DI PROPRIET&#192; DEL COMUNE DI COGNE.&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[SERVIZIO DI MANUTENZIONE ORDINARIA DELLA CENTRALINA IDROELETTRICA IN LOC. LISARDEY, DI PROPRIETÀ DEL COMUNE DI COGNE.]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI COGNE]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI COGNE]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[6.446,28]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1355918]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[2026_091_servizio_manutenzione_centralina_lisardey_CVA]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T08:33:03]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[45259000-7 - Riparazione e manutenzione di impianti]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T10:11:39]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1359713&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>16/11/2026</pubDate>
+	<description>&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; affidamento del servizio di gestione, monitoraggio e manutenzione della struttura ricreativa e sportiva denominata “La Corma di Machaby” sita nel Comune di Arnad&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> affidamento del servizio di gestione, monitoraggio e manutenzione della struttura ricreativa e sportiva denominata “La Corma di Machaby” sita nel Comune di Arnad]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[Unité des Communes valdôtaines Evançon]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Unité des Communes valdôtaines Evançon]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[80.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1359713]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[affidamento del servizio di gestione, monitoraggio e manutenzione della struttura ricreativa e sportiva denominata “La Corma di Machaby” sita nel Comune di Arnad]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T10:59:24]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[92610000-0 - Servizi di gestione di impianti sportivi]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-16T13:52:09]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1359992&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>16/11/2026</pubDate>
+	<description>Servizio di manutenzione terminale presenze - Anno 2027&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Servizio di manutenzione terminale presenze - Anno 2027]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI PRE'-SAINT-DIDIER]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI PRE'-SAINT-DIDIER]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[221,42]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1359992]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Servizio di manutenzione terminale presenze - Anno 2027]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-19T16:52:40]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[72267100-0 - Manutenzione di software di tecnologia dell'informazione]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnica

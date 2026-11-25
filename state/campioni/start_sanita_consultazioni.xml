@@ -5,8 +5,43 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>951</afs:totRecord>
+<afs:totRecord>952</afs:totRecord>
 <item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=628741&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-11T13:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>25/11/2026</pubDate>
+	
+	<description>
+Suture chirurgiche&lt;strong&gt;Scadenza : 11/12/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[Suture chirurgiche]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[Regione Toscana ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-11T13:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[628741]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[studi suture]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T14:34:34.340]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T14:34:34]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=627873&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-09T18:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
@@ -213,12 +248,12 @@ Cannule tracheostomiche  in PVC o altro materiale idoneo, extralong per collo ta
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-24T15:52:05.007]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T12:56:05.540]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T11:25:42]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=615543&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T18:00:00]]></link>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=615543&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T18:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>03/11/2026</pubDate>
 	
@@ -240,7 +275,7 @@ Cannule tracheostomiche  in PVC o altro materiale idoneo, extralong per collo ta
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -288,7 +323,7 @@ Consultazione Preliminare di Mercato per la fornitura di Carta per AL SCAN desti
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=621826&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T13:00:00]]></link>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=621826&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T13:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>16/11/2026</pubDate>
 	
@@ -310,7 +345,7 @@ Consultazione Preliminare di Mercato per la fornitura di Carta per AL SCAN desti
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -358,7 +393,7 @@ AVVISO CONSULTAZIONE PRELIMINARE DI MERCATO PER LA FORNITURA IN NOLEGGIO DI SIST
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=621995&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T12:00:00]]></link>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=621995&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T12:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>11/11/2026</pubDate>
 	
@@ -380,7 +415,7 @@ Avviso Consultazione Preliminare di Mercato procedura &quot;Aghi e Siringhe - lo
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -393,34 +428,4 @@ Avviso Consultazione Preliminare di Mercato procedura &quot;Aghi e Siringhe - lo
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=616386&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-25T18:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>04/11/2026</pubDate>
-	
-	<description>
-&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; I&#176; AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO 
-(ai sensi dell’art. 77 del D.Lgs. n. 36/2023) propedeutica all’indizione della procedura di gara per la FORNITURA DISPOSITIVI MEDICI PER IL TRATTAMENTO DELLA FIBRILLAZIONE ATRIALE CON ATTREZZATURE IN SERVICE PER LE CARDIOCHIRURGIE DELLE AA.SS. DELLA REGIONE TOSCANA
-
-&lt;strong&gt;Scadenza : 25/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> I° AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO 
-(ai sensi dell’art. 77 del D.Lgs. n. 36/2023) propedeutica all’indizione della procedura di gara per la FORNITURA DISPOSITIVI MEDICI PER IL TRATTAMENTO DELLA FIBRILLAZIONE ATRIALE CON ATTREZZATURE IN SERVICE PER LE CARDIOCHIRURGIE DELLE AA.SS. DELLA REGIONE TOSCANA
-
-]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-25T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[616386]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=616386&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIO

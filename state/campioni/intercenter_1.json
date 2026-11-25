@@ -3,7 +3,7 @@
   "batching": {
     "@id": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/@querystring-search", 
     "first": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/@querystring-search?b_start=0", 
-    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/@querystring-search?b_start=500", 
+    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/@querystring-search?b_start=550", 
     "next": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/@querystring-search?b_start=50"
   }, 
   "items": [
@@ -34,6 +34,35 @@
       "scadenza_bando": "2027-02-03T15:00:00+00:00", 
       "tipologia_bando": null, 
       "title": "Servizio integrato di lava-noleggio a ridotto impatto ambientale per l\u2019Azienda USL della Romagna e l\u2019IRCCS/IRST 2", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/bandi-aperti/BANDO_GARA_PORTALE@18535701", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-25T00:00:00+01:00", 
+      "Description": "Procedura aperta per l'affidamento di servizi postali e di stampa e imbustamento 4.", 
+      "Subject": [], 
+      "Title": "Servizi postali e di stampa e imbustamento 4", 
+      "UID": "4fc506051c2845c6bc194cfedb5844a6", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "Procedura aperta per l'affidamento di servizi postali e di stampa e imbustamento 4.", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-24T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_GARA_PORTALE@18535701", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2027-01-19T15:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "Servizi postali e di stampa e imbustamento 4", 
       "type_title": "Bando Intercenter"
     }, 
     {
@@ -1087,32 +1116,4 @@
       "Description": "PROCEDURA NEGOZIATA PER LA FORNITURA DEI VACCINI VIMKUNYA E IMVANEX", 
       "Subject": [], 
       "Title": "PROCEDURA NEGOZIATA PER LA FORNITURA DEI VACCINI VIMKUNYA E IMVANEX", 
-      "UID": "e3b9ca8f8dc7409daccef04d60f6bb29", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "inProgress", 
-        "In corso"
-      ], 
-      "description": "PROCEDURA NEGOZIATA PER LA FORNITURA DEI VACCINI VIMKUNYA E IMVANEX", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-07-01T22:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_GARA_PORTALE@14862172", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-      "scadenza_bando": "2026-07-14T14:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "PROCEDURA NEGOZIATA PER LA FORNITURA DEI VACCINI VIMKUNYA E IMVANEX", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/bandi-chiusi/BANDO_GARA_PORTALE@14165803", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-06-10T00:00:00+02:00", 
-      "Description": "Procedura aperta per l'affidamento del servizio di manutenzione dei sistemi radiologici fissi DR in uso presso le Aziende Sanitarie della Regione Emilia-Romagna.", 
-      "Subject": [], 
-      "T
+      "UID": "e3b9ca8f8dc7409daccef04

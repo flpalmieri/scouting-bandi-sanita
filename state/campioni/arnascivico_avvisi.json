@@ -1,5 +1,5 @@
 {
- "totale_dichiarato": 8,
+ "totale_dichiarato": 9,
  "voci": [
   {
    "ente": "U.O.C. Provveditorato",
@@ -44,6 +44,17 @@
    "codice": "A00512",
    "stato": "In corso",
    "link": "https://eprocurement.arnascivico.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00512"
+  },
+  {
+   "ente": "U.O.C. Provveditorato",
+   "tipologia": "Altro",
+   "titolo": "CONSULTAZIONE PRELIMINARE DI MERCATO PER L'ACQUISTO DI DISPOSITIVI SPECIALISTICI PER LITOTRISSIA INTRAVASCOLARE",
+   "avviso_per": "Forniture",
+   "pubblicazione": "25/11/2026",
+   "scadenza": "04/12/2026",
+   "codice": "A00516",
+   "stato": "In corso",
+   "link": "https://eprocurement.arnascivico.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00516"
   },
   {
    "ente": "U.O.C. Provveditorato",

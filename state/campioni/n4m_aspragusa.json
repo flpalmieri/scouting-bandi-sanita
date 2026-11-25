@@ -1,5 +1,5 @@
 {
- "totale_dichiarato": 3,
+ "totale_dichiarato": 2,
  "gare": [
   {
    "id": 5051,
@@ -7,14 +7,6 @@
    "titolo": "Indagine di mercato per eventuale successivo avvio di procedura negoziata ex art. 50 comma 1 lett. e) per la fornitura a titolo di noleggio quinquennale di n. 38 LETTI BILANCIA",
    "scadenza": "2026-12-11",
    "pubblicazione": "2026-11-24",
-   "nota": null
-  },
-  {
-   "id": 5012,
-   "riferimento": "SP/342/2026",
-   "titolo": "Avviso di indagine di mercato, propedeutica all'affidamento ai sensi dell'art. 50, c. 1, lett. b) del d.lgs. 36/2023, della fornitura di N. 2 BARELLE RADIOTRASPARENTI per procedure endoscopiche ERCP, trattamento fistole, stenting, dilatazioni endoscopiche e altre procedure endoscopiche",
-   "scadenza": "2026-11-25",
-   "pubblicazione": "2026-11-09",
    "nota": null
   },
   {

@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-25T08:26:03+00:00",
+  "eseguito_il": "2026-11-25T15:19:19+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -7,7 +7,7 @@
     },
     "portali_rss": {
       "esito": "ok",
-      "pertinenti": 23
+      "pertinenti": 22
     },
     "portali_html": {
       "esito": "ok",
@@ -27,7 +27,7 @@
     },
     "centrale_acquisti": {
       "esito": "ok",
-      "pertinenti": 5
+      "pertinenti": 3
     },
     "jaggaer": {
       "esito": "ok",
@@ -45,18 +45,12 @@
       "esito": "ok",
       "pertinenti": 0
     },
-    "bandi_altoadige": {
-      "esito": "errore",
-      "pertinenti": 0
-    },
     "sicopat": {
       "esito": "ok",
       "pertinenti": 0
     }
   },
-  "errori": [
-    "bandi_altoadige: bandi-altoadige avvisi speciali: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub"
-  ],
-  "nuove_opportunita": 0,
-  "totale": 124
+  "errori": [],
+  "nuove_opportunita": 4,
+  "totale": 128
 }
