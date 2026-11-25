@@ -355,9 +355,17 @@ def _completa_da_dettaglio(o: Opportunita, feed: dict, sess, attesa) -> Opportun
     return o
 
 
+# Autore del post nei feed WordPress (dc:creator, author): e' il nome di chi pubblica, una persona.
+# Non si legge (ente fisso in config) e dal 25/11/2026 non si salva nemmeno nel campione, che sta nel
+# repository pubblico (lezione 53): prima il campione dell'ASL CN2 lo conteneva; il feed dell'IZS di
+# Puglia e Basilicata ha lo stesso campo.
+RE_AUTORE_CAMPIONE = re.compile(rb"(<(dc:creator|author)\b[^>]*>).*?(</\2>)", re.IGNORECASE | re.DOTALL)
+
+
 def _salva_campione(feed: dict, contenuto: bytes) -> None:
     CAMPIONI.mkdir(parents=True, exist_ok=True)
     nome = re.sub(r"[^a-z0-9]+", "_", feed["nome"].lower()).strip("_")
+    contenuto = RE_AUTORE_CAMPIONE.sub(rb"\1[non salvato]\3", contenuto)
     (CAMPIONI / f"{nome}.xml").write_bytes(contenuto[:30000])
 
 

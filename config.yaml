@@ -141,6 +141,14 @@ enti_sanitari_regex:
   # 01/06/2026 cambia solo il riconoscimento di nomi che oggi non compaiono: nessun avviso cambia.
   - '\bASUIT\b|\bA\.?P\.?S\.?S\b|azienda\s+provinciale\s+per\s+i\s+servizi\s+sanitari'
   - 'sanit(ae|ä|a)tsbetrieb|gesundheitsbezirk|comprensorio\s+sanitario'
+  # Basilicata (25/11/2026). ASP ("Azienda Sanitaria Locale di Potenza"), ASM ("Azienda Sanitaria Locale
+  # di Matera"), "Azienda Ospedaliera Regionale San Carlo", "IRCCS CROB" e l'IZS erano gia' riconosciuti.
+  # Restano fuori le sigle da sole, che compaiono nei nomi delle stazioni sulla piattaforma della SUA-RB
+  # ("IRCSS-CROB", con il refuso) e nei titoli delle gare che la SUA-RB svolge per le aziende ("ASM di
+  # Matera", "AOR San Carlo"). ASM solo con Matera vicino: da sola e' anche la sigla di molte aziende
+  # municipalizzate (ASM Terni, ASM Pavia...). Sui 78 nomi della ricognizione (TED dal 01/06/2026,
+  # stazioni e committenti della SUA-RB) nessun nome non sanitario cambia.
+  - '\bC\.?R\.?O\.?B\b|\bA\.?O\.?R\b\W{0,3}san\s+carlo|\bA\.?S\.?M\b\W{0,3}(di\s+)?matera'
 
 # Eccezioni alle regole qui sopra: enti che quelle regole prenderebbero per sanitari ma che
 # non lo sono. Valgono solo per il nome dell'ente: una gara IT con un oggetto sanitario entra
@@ -329,6 +337,11 @@ parole_chiave_sanita_regex:
   # dell'Azienda USL con il proprio nome e il titolo "AUSL - <oggetto>" (21 avvisi su 143 dal
   # 01/06/2026). L'AUSL nell'oggetto rende sanitaria la gara anche se l'ente non lo e'.
   - '\bA\.?U\.?S\.?L\b|azienda\s+u\.?s\.?l\b'
+  # Basilicata (25/11/2026): la SUA-RB (Stazione Unica Appaltante della Regione) svolge tutte le gare sopra
+  # soglia delle aziende sanitarie con il proprio nome; l'azienda compare solo nel titolo, spesso con la
+  # sigla ("... occorrenti all'ASM di Matera", "... dell'AOR San Carlo di Potenza", "... IRCCS CROB").
+  # Come "AUSL" per la Valle d'Aosta: la sigla nell'oggetto rende sanitaria la gara.
+  - '\bC\.?R\.?O\.?B\b|\bA\.?O\.?R\b\W{0,3}san\s+carlo|\bA\.?S\.?M\b\W{0,3}(di\s+)?matera'
 
 # Parole chiave informatiche: servono per le fonti senza CPV (feed RSS dei
 # portali regionali), dove l'oggetto IT si riconosce solo dal testo.
@@ -1093,6 +1106,34 @@ portali_rss:
       link_fisso: "https://contracta.provincia.tn.it/portale/index.asp"
       url: "https://contracta.provincia.tn.it/portale/rss_new.asp?Table=DASHBOARD_VIEW_DOCUMENTI_PUBBLICI_BANDO_CONSULTAZIONI&FilterHide=bScaduto%3D0&Filter=&ML_KEY=TEMPLATE_RSS_DPCM_BANDO_CONSULTAZIONE_ML&sort=DtScadenzaBandoTecnical&sortorder=asc&numRowForPag=5000&nPag={pagina}"
       timeout_connessione: 20
+      tentativi: 1
+    - nome: IZS Puglia e Basilicata
+      # Basilicata (25/11/2026). L'Istituto Zooprofilattico Sperimentale della Puglia e della Basilicata
+      # (sede a Foggia, sezioni a Potenza e Matera) non pubblica su EmPULIA ne' su TED: le sue procedure
+      # stanno sul sito WordPress portale.izspb.it (plugin "avcp"), le gare si svolgono su MePA (RdO) o con
+      # il sistema ASP di Consip. Il feed degli avvisi ha le 10 voci piu' recenti con la data di
+      # pubblicazione; la scadenza e' scritta nella descrizione ("Termine ultimo presentazione offerte:
+      # 01/12/2026", "Scadenza: 22/09/2026 ore 23:59"). dc:creator e' il nome di chi pubblica: ente fisso,
+      # e dal 25/11/2026 il campo non si salva nel campione. www.izspb.it da' un errore TLS ("dh key too
+      # small"): non si usa. Regione Puglia, la sede legale (come l'IZSUM sotto l'Umbria).
+      nome_fonte: IZS Puglia e Basilicata
+      sigla: izspb
+      ente: Istituto Zooprofilattico Sperimentale della Puglia e della Basilicata
+      regione: Puglia
+      campi:
+        titolo: [title]
+        descrizione: [description]   # oggetto, CIG, termine e nomi degli allegati: nessun dato personale
+        pubblicazione: [pubdate]
+      # Nel feed compaiono anche comunicati di seduta pubblica ed esiti della stessa gara.
+      escludi_titoli_regex:
+        - '^\W*comunicato\b'
+        - 'seduta\s+pubblica'
+        - '\baggiudicazion'
+        - '\besito\b'
+        - '\brevoca'
+        - '^\s*affidamento\s+diretto'
+      url: "https://portale.izspb.it/feed/?post_type=avcp"
+      timeout_connessione: 20        # sito nuovo: se bloccasse GitHub, si perde poco tempo
       tentativi: 1
     # Lazio (STELLA): le gare NON si leggono dal feed rss_new.asp, anche se ha lo schema afs: di
     # EmPULIA, perche' la scadenza del feed resta quella originale dopo rettifiche e proroghe
@@ -2106,8 +2147,9 @@ tuttogare:
 # "da verificare". Le gare del portale (elenco HTML senza scadenza, dettaglio pubblico con il RUP) non
 # si leggono ancora: vedi contesto_progetto.md.
 bandi_altoadige:
-  # Disattivato il 25/11/2026: ConnectTimeout da GitHub Actions in due run (24 e 25/11). Controllo manuale settimanale
-  # su https://www.bandi-altoadige.it/notice/special-notice/list, filtro "Consultazione di mercato".
+  # Disattivata il 25/11/2026 (decisione di Flavio, commit 0ea082d): ConnectTimeout da GitHub al primo lancio
+  # (run 45441142670) e alla seconda prova (run 45576172023). Controllo manuale settimanale di
+  # https://www.bandi-altoadige.it/notice/special-notice/list (filtro "Consultazione di mercato").
   abilitato: false
   siti:
     - nome: bandi-altoadige avvisi speciali

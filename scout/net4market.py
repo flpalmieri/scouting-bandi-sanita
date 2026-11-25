@@ -148,7 +148,10 @@ def leggi_risposta(testo: str) -> tuple[list[dict], int | None, list[str]]:
     classi = {s.split("/")[0].rsplit(".", 1)[-1]: i + 1 for i, s in enumerate(tabella) if RE_CLASSE.match(s)}
     if "BandoAlboFornitoriDto" not in classi:
         if len(r) > 4 and r[2] == 0:
-            return [], 0                      # nessuna gara: la tabella non ha la classe
+            # Nessuna gara: la tabella non ha la classe. Tre valori come nel caso normale: prima del
+            # 25/11/2026 erano due e _leggi_sito andava in ValueError (albo dell'ASM Matera, 0 gare in
+            # corso, ricognizione della Basilicata). Vale per ogni albo che resta senza gare in corso.
+            return [], 0, []
         raise StrutturaCambiata("classe BandoAlboFornitoriDto assente dalla risposta")
     ib, ia = classi["BandoAlboFornitoriDto"], classi.get("AlboDto")
     totale = r[2] if isinstance(r[2], int) else None
