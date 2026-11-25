@@ -1,9 +1,9 @@
 {
-  "eseguito_il": "2026-11-24T16:47:26+00:00",
+  "eseguito_il": "2026-11-25T08:26:03+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
-      "pertinenti": 8
+      "pertinenti": 9
     },
     "portali_rss": {
       "esito": "ok",
@@ -23,11 +23,11 @@
     },
     "plone": {
       "esito": "ok",
-      "pertinenti": 6
+      "pertinenti": 4
     },
     "centrale_acquisti": {
       "esito": "ok",
-      "pertinenti": 4
+      "pertinenti": 5
     },
     "jaggaer": {
       "esito": "ok",
@@ -57,6 +57,6 @@
   "errori": [
     "bandi_altoadige: bandi-altoadige avvisi speciali: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub"
   ],
-  "nuove_opportunita": 1,
+  "nuove_opportunita": 0,
   "totale": 124
 }

@@ -37,6 +37,35 @@
       "type_title": "Bando Intercenter"
     }, 
     {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18842252", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-24T00:00:00+01:00", 
+      "Description": "AVVISO PUBBLICO PER L\u2019INDIVIDUAZIONE DI SOGGETTI INTERESSATI ALLA RIQUALIFICAZIONE E GESTIONE PLURIENNALE DELLA PISCINA COMUNALE SITA IN LOCALITA\u2019 RAMPINI DI VIGOLZONE ART. 5 D. LGS. 38/2021 A PARTIRE DALLA STAGIONE ESTIVA 2026/2027 E PER UN PERIODO NON INFERIORE A CINQUE E NON SUPERIORE A SETTE STAGIONI", 
+      "Subject": [], 
+      "Title": "AVVISO PUBBLICO PER L\u2019INDIVIDUAZIONE DI SOGGETTI INTERESSATI ALLA RIQUALIFICAZIONE E GESTIONE PLURIENNALE DELLA PISCINA COMUNALE SITA IN LOCALITA\u2019 RAMPINI DI VIGOLZONE ART. 5 D. LGS. 38/2021  A PARTIRE DALLA STAGIONE ESTIVA 2026/2027", 
+      "UID": "344dd3a3bfa34330bdd21f26e268d743", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "AVVISO PUBBLICO PER L\u2019INDIVIDUAZIONE DI SOGGETTI INTERESSATI ALLA RIQUALIFICAZIONE E GESTIONE PLURIENNALE DELLA PISCINA COMUNALE SITA IN LOCALITA\u2019 RAMPINI DI VIGOLZONE ART. 5 D. LGS. 38/2021 A PARTIRE DALLA STAGIONE ESTIVA 2026/2027 E PER UN PERIODO NON INFERIORE A CINQUE E NON SUPERIORE A SETTE STAGIONI", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-23T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_CONSULTAZIONE_PORTALE@18842252", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-24T12:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "AVVISO PUBBLICO PER L\u2019INDIVIDUAZIONE DI SOGGETTI INTERESSATI ALLA RIQUALIFICAZIONE E GESTIONE PLURIENNALE DELLA PISCINA COMUNALE SITA IN LOCALITA\u2019 RAMPINI DI VIGOLZONE ART. 5 D. LGS. 38/2021  A PARTIRE DALLA STAGIONE ESTIVA 2026/2027", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18745816", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-19T00:00:00+01:00", 
@@ -63,35 +92,6 @@
       "scadenza_bando": "2026-12-22T11:00:00+00:00", 
       "tipologia_bando": null, 
       "title": "Consultazione preliminare di mercato per la fornitura di un servizio di assistenza tecnica su apparecchiature di produzione CAREFUSION e ALARIS \u2013 AVEC.", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18842252", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-11-24T00:00:00+01:00", 
-      "Description": "AVVISO PUBBLICO PER L\u2019INDIVIDUAZIONE DI SOGGETTI INTERESSATI ALLA RIQUALIFICAZIONE E GESTIONE PLURIENNALE DELLA PISCINA COMUNALE SITA IN LOCALITA\u2019 RAMPINI DI VIGOLZONE ART. 5 D. LGS. 38/2021 A PARTIRE DALLA STAGIONE ESTIVA 2026/2027 E PER UN PERIODO NON INFERIORE A CINQUE E NON SUPERIORE A SETTE STAGIONI", 
-      "Subject": [], 
-      "Title": "AVVISO PUBBLICO PER L\u2019INDIVIDUAZIONE DI SOGGETTI INTERESSATI ALLA RIQUALIFICAZIONE E GESTIONE PLURIENNALE DELLA PISCINA COMUNALE SITA IN LOCALITA\u2019 RAMPINI DI VIGOLZONE ART. 5 D. LGS. 38/2021  A PARTIRE DALLA STAGIONE ESTIVA 2026/2027", 
-      "UID": "344dd3a3bfa34330bdd21f26e268d743", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "open", 
-        "Attivo"
-      ], 
-      "description": "AVVISO PUBBLICO PER L\u2019INDIVIDUAZIONE DI SOGGETTI INTERESSATI ALLA RIQUALIFICAZIONE E GESTIONE PLURIENNALE DELLA PISCINA COMUNALE SITA IN LOCALITA\u2019 RAMPINI DI VIGOLZONE ART. 5 D. LGS. 38/2021 A PARTIRE DALLA STAGIONE ESTIVA 2026/2027 E PER UN PERIODO NON INFERIORE A CINQUE E NON SUPERIORE A SETTE STAGIONI", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-11-23T23:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_CONSULTAZIONE_PORTALE@18842252", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-      "scadenza_bando": "2026-12-17T17:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "AVVISO PUBBLICO PER L\u2019INDIVIDUAZIONE DI SOGGETTI INTERESSATI ALLA RIQUALIFICAZIONE E GESTIONE PLURIENNALE DELLA PISCINA COMUNALE SITA IN LOCALITA\u2019 RAMPINI DI VIGOLZONE ART. 5 D. LGS. 38/2021  A PARTIRE DALLA STAGIONE ESTIVA 2026/2027", 
       "type_title": "Bando Intercenter"
     }, 
     {

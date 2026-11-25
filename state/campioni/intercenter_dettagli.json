@@ -178,50 +178,6 @@
   "cig": []
  },
  {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@17476224",
-  "title": "RDOSA_2026-009 - Servizio gestione magazzino beni informatici e relativa gestione tecnologica",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "LEPIDA S.C.P.A.",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "189.996,00 €",
-  "procedura_gara": "Negoziata",
-  "tipo_bando_gara": "Invito",
-  "criterio": "Prezzo più basso",
-  "scadenza": "2026-11-24T17:00:00+00:00",
-  "pubdate": "2026-11-18T14:45:55+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": [
-   {
-    "codice": "BDDED54913",
-    "lotto": "1",
-    "descrizione": "Servizio gestione magazzino beni informatici e relativa gestione tecnologica"
-   }
-  ]
- },
- {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18187504",
-  "title": "Acquisizione di servizi di analisi strategica, ricerca di mercato e benchmarking nel settore ICT e della cyber sicurezza",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "LEPIDA S.C.P.A.",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "412.200,00 €",
-  "procedura_gara": "Negoziata",
-  "tipo_bando_gara": "Invito",
-  "criterio": "Prezzo più basso",
-  "scadenza": "2026-11-24T17:00:00+00:00",
-  "pubdate": "2026-11-18T11:44:43+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": [
-   {
-    "codice": "BDDD5275C1",
-    "lotto": "1",
-    "descrizione": "Servizi di analisi strategica, ricerca di mercato e benchmarking"
-   }
-  ]
- },
- {
   "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18567607",
   "title": "Consultazione software gestione stupefacenti",
   "type": "BANDO_CONSULTAZIONE_PORTALE",

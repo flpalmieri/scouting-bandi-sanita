@@ -1,5 +1,5 @@
 {
- "totale_dichiarato": 76,
+ "totale_dichiarato": 77,
  "righe": [
   {
    "procedura": "Manifestazione di Interesse",
@@ -236,6 +236,15 @@
    "id": "26310"
   },
   {
+   "procedura": "Altro",
+   "ente": "COMUNE DI VISCO",
+   "protocollo": "",
+   "titolo": "Servizio di project management relativo al progetto sovracomunale di rigenerazione urbana denominato “Museo diffuso della resistenza del Friuli Venezia Giulia” tra i Comuni di Gonars, Palmanova e Visco",
+   "tipologia": "Servizi",
+   "scadenza": "04/12/2026 12:00",
+   "id": "26375"
+  },
+  {
    "procedura": "UE - Procedura Negoziata",
    "ente": "Centrale unica di committenza FVG",
    "protocollo": "",
@@ -308,13 +317,13 @@
    "id": "26060"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
+   "procedura": "Procedura non europea",
+   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
    "protocollo": "",
-   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
+   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
    "tipologia": "Servizi",
    "scadenza": "10/12/2026 12:00",
-   "id": "26237"
+   "id": "26269"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -335,13 +344,13 @@
    "id": "25989"
   },
   {
-   "procedura": "Procedura non europea",
-   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
    "protocollo": "",
-   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
+   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
    "tipologia": "Servizi",
    "scadenza": "10/12/2026 12:00",
-   "id": "26269"
+   "id": "26237"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -351,6 +360,15 @@
    "tipologia": "Forniture",
    "scadenza": "14/12/2026 12:00",
    "id": "26282"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "COMUNE DI UDINE",
+   "protocollo": "",
+   "titolo": "Servizio di assistenza e manutenzione dell'impianto di videosorveglianza urbana e impianto di lettura targhe del Comune di Udine per gli anni 2027-2030.",
+   "tipologia": "Servizi",
+   "scadenza": "14/12/2026 12:00",
+   "id": "26257"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -365,15 +383,6 @@
    "procedura": "UE - Procedura Aperta",
    "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
    "protocollo": "",
-   "titolo": "26PRE004 - VITRECTOMIA E FACOEMULSIFICAZIONE",
-   "tipologia": "Forniture",
-   "scadenza": "14/12/2026 12:00",
-   "id": "26281"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
-   "protocollo": "",
    "titolo": "24PRE002.1 - Materiale per neurochirurgia",
    "tipologia": "Forniture",
    "scadenza": "14/12/2026 12:00",
@@ -381,12 +390,12 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "COMUNE DI UDINE",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
    "protocollo": "",
-   "titolo": "Servizio di assistenza e manutenzione dell'impianto di videosorveglianza urbana e impianto di lettura targhe del Comune di Udine per gli anni 2027-2030.",
-   "tipologia": "Servizi",
+   "titolo": "26PRE004 - VITRECTOMIA E FACOEMULSIFICAZIONE",
+   "tipologia": "Forniture",
    "scadenza": "14/12/2026 12:00",
-   "id": "26257"
+   "id": "26281"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -426,21 +435,21 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "FRIULI VENEZIA GIULIA STRADE S.P.A.",
-   "protocollo": "",
-   "titolo": "Procedura Aperta 07-2026 – FVGS - Servizio triennale di brokeraggio assicurativo.",
-   "tipologia": "Servizi",
-   "scadenza": "21/12/2026 12:00",
-   "id": "26263"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
    "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
    "protocollo": "",
    "titolo": "PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA (PFTE), PROGETTAZIONE ESECUTIVA (PE), COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, DIREZIONE LAVORI, PER LA RIQUALIFICAZIONE E L’ADEGUAMENTO NORMATIVO DEI PADIGLIONI N. 1 e 8",
    "tipologia": "Servizi",
    "scadenza": "21/12/2026 12:00",
    "id": "26260"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "FRIULI VENEZIA GIULIA STRADE S.P.A.",
+   "protocollo": "",
+   "titolo": "Procedura Aperta 07-2026 – FVGS - Servizio triennale di brokeraggio assicurativo.",
+   "tipologia": "Servizi",
+   "scadenza": "21/12/2026 12:00",
+   "id": "26263"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -488,15 +497,6 @@
    "id": "20343"
   },
   {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
-   "protocollo": "",
-   "titolo": "servizi di sterilizzazione e di inserimento di microchip a gatti domestici di soggetti residenti presso uno dei Comuni del territorio di ASUGI con ISEE di valore pari o inferiore a € 30.000,00",
-   "tipologia": "Servizi",
-   "scadenza": "31/12/2026 23:59",
-   "id": "24957"
-  },
-  {
    "procedura": "Procedura non europea",
    "ente": "COMUNE DI ARTA TERME",
    "protocollo": "",
@@ -506,13 +506,13 @@
    "id": "24226"
   },
   {
-   "procedura": "Procedura non europea",
-   "ente": "Comune di Treppo Ligosullo",
+   "procedura": "Manifestazione di Interesse",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
    "protocollo": "",
-   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
-   "tipologia": "Altro",
+   "titolo": "servizi di sterilizzazione e di inserimento di microchip a gatti domestici di soggetti residenti presso uno dei Comuni del territorio di ASUGI con ISEE di valore pari o inferiore a € 30.000,00",
+   "tipologia": "Servizi",
    "scadenza": "31/12/2026 23:59",
-   "id": "24227"
+   "id": "24957"
   },
   {
    "procedura": "UE - Procedura Negoziata senza previa indizione di gara",
@@ -522,6 +522,15 @@
    "tipologia": "Lavori",
    "scadenza": "31/12/2026 23:59",
    "id": "25341"
+  },
+  {
+   "procedura": "Procedura non europea",
+   "ente": "Comune di Treppo Ligosullo",
+   "protocollo": "",
+   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2026 23:59",
+   "id": "24227"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -588,21 +597,21 @@
   },
   {
    "procedura": "Altro",
-   "ente": "COMUNE DI REANA DEL ROJALE",
-   "protocollo": "",
-   "titolo": "AVVISO AGLI OPERATORI ECONOMICI - COMUNE DI REANA DEL ROJALE",
-   "tipologia": "Lavori",
-   "scadenza": "31/12/2030 00:00",
-   "id": "23895"
-  },
-  {
-   "procedura": "Altro",
    "ente": "Comune di Muggia",
    "protocollo": "",
    "titolo": "AVVISO ALBO OPERATORI ECONOMICI",
    "tipologia": "Altro",
    "scadenza": "31/12/2030 00:00",
    "id": "23067"
+  },
+  {
+   "procedura": "Altro",
+   "ente": "COMUNE DI REANA DEL ROJALE",
+   "protocollo": "",
+   "titolo": "AVVISO AGLI OPERATORI ECONOMICI - COMUNE DI REANA DEL ROJALE",
+   "tipologia": "Lavori",
+   "scadenza": "31/12/2030 00:00",
+   "id": "23895"
   },
   {
    "procedura": "Procedura non europea",
@@ -624,21 +633,21 @@
   },
   {
    "procedura": "Altro",
-   "ente": "ASP \"Daniele Moro\"",
-   "protocollo": "",
-   "titolo": "Avviso pubblico per la modalità di scelta degli operatori economici nelle procedure sotto la soglia di rilevanza europea",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2030 23:59",
-   "id": "20166"
-  },
-  {
-   "procedura": "Altro",
    "ente": "CENTRO DI RIFERIMENTO ONCOLOGICO",
    "protocollo": "",
    "titolo": "Avviso Pubblico - Modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea.",
    "tipologia": "Altro",
    "scadenza": "31/12/2030 23:59",
    "id": "20672"
+  },
+  {
+   "procedura": "Altro",
+   "ente": "ASP \"Daniele Moro\"",
+   "protocollo": "",
+   "titolo": "Avviso pubblico per la modalità di scelta degli operatori economici nelle procedure sotto la soglia di rilevanza europea",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2030 23:59",
+   "id": "20166"
   },
   {
    "procedura": "Altro",

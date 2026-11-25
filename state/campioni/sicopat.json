@@ -1,14 +1,14 @@
 {
- "letti": 65,
+ "letti": 64,
  "voci": [
   {
-   "idAtto": 7152,
-   "codein": "SA00000026",
-   "stazioneAppaltante": "COMUNE DI RUMO",
+   "idAtto": 7146,
+   "codein": "SA00000143",
+   "stazioneAppaltante": "ASUIT - AZIENDA SANITARIA UNIVERSITARIA INTEGRATA DEL TRENTINO",
    "tipologia": 101,
    "tipologiaDesc": "Manifestazioni di interesse ",
-   "dataPrimaPubb": "2026-11-14T09:24:41.451+00:00",
-   "descri": "Avviso esplorativo per operatori interessati al Servizio di censimento e ispezione pozzetti rete fognaria (acque bianche) – per n. 350 pozzetti circa con elaborazione e restituzione dati su tavola cartografica e digitale "
+   "dataPrimaPubb": "2026-11-10T14:22:13.806+00:00",
+   "descri": "AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSE - DISPOSITIVI MEDICI PER OSTEOSINTESI -"
   },
   {
    "idAtto": 7145,
@@ -20,15 +20,6 @@
    "descri": "AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSE - sistema di ablazione intraossea del nervo -"
   },
   {
-   "idAtto": 7146,
-   "codein": "SA00000143",
-   "stazioneAppaltante": "ASUIT - AZIENDA SANITARIA UNIVERSITARIA INTEGRATA DEL TRENTINO",
-   "tipologia": 101,
-   "tipologiaDesc": "Manifestazioni di interesse ",
-   "dataPrimaPubb": "2026-11-10T14:22:13.806+00:00",
-   "descri": "AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSE - DISPOSITIVI MEDICI PER OSTEOSINTESI -"
-  },
-  {
    "idAtto": 7114,
    "codein": "SA00000088",
    "stazioneAppaltante": "COMUNITA' DELLA VAL DI NON",
@@ -38,13 +29,13 @@
    "descri": "AVVISO DI ASTA PUBBLICA CONCESSIONE METALLO (C.E.R. 20.01.40) "
   },
   {
-   "idAtto": 7103,
-   "codein": "SA00000789",
-   "stazioneAppaltante": "A.P.S.P. CLEMENTINO VANNETTI DI ROVERETO",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2026-10-21T10:40:31.471+00:00",
-   "descri": "AVVISO PUBBLICO PER MANIFESTAZIONE DI INTERESSE FINALIZZATA ALLA SUB-CONCESSIONE IN USO DELLA CUCINA-LABORATORIO PRESSO LA R.S.A. KOLBE"
+   "idAtto": 7147,
+   "codein": "SA00000845",
+   "stazioneAppaltante": "PROVINCIA AUTONOMA DI TRENTO",
+   "tipologia": 101,
+   "tipologiaDesc": "Manifestazioni di interesse ",
+   "dataPrimaPubb": "2026-11-11T14:48:13.404+00:00",
+   "descri": "SERVIZIO DI MANUTENZIONE E ASSISTENZA TECNICA DELLA STRUMENTAZIONE ANALITICA AGILENT"
   },
   {
    "idAtto": 7148,
@@ -56,13 +47,22 @@
    "descri": "Avviso pubblico esplorativo per manifestazione di interesse propedeutico all'affidamento diretto del servizio di RSPP per comune di Pergine Valsugana e ASIF G.B. Chimelli"
   },
   {
-   "idAtto": 7147,
-   "codein": "SA00000845",
-   "stazioneAppaltante": "PROVINCIA AUTONOMA DI TRENTO",
-   "tipologia": 101,
-   "tipologiaDesc": "Manifestazioni di interesse ",
-   "dataPrimaPubb": "2026-11-11T14:48:13.404+00:00",
-   "descri": "SERVIZIO DI MANUTENZIONE E ASSISTENZA TECNICA DELLA STRUMENTAZIONE ANALITICA AGILENT"
+   "idAtto": 7103,
+   "codein": "SA00000789",
+   "stazioneAppaltante": "A.P.S.P. CLEMENTINO VANNETTI DI ROVERETO",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2026-10-21T10:40:31.471+00:00",
+   "descri": "AVVISO PUBBLICO PER MANIFESTAZIONE DI INTERESSE FINALIZZATA ALLA SUB-CONCESSIONE IN USO DELLA CUCINA-LABORATORIO PRESSO LA R.S.A. KOLBE"
+  },
+  {
+   "idAtto": 7139,
+   "codein": "SA00000143",
+   "stazioneAppaltante": "ASUIT - AZIENDA SANITARIA UNIVERSITARIA INTEGRATA DEL TRENTINO",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2026-11-06T10:45:00.529+00:00",
+   "descri": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO propedeutico all’indizione di una procedura aperta, costituita da un unico lotto, per la fornitura e noleggio di un sistema per la diagnostica sierologica delle principali infezioni virali, delle infezioni del complesso TORC e della sierologia infettivologica varia occorrente all’U.O. Multizonale di Microbiologia e Virologia dell'Azienda Sanitaria Universitaria Integrata del Trentino (ASUIT)."
   },
   {
    "idAtto": 7144,
@@ -83,22 +83,13 @@
    "descri": "AVVISO ESPLORATIVO per la raccolta manifestazione di interesse finalizzata all’affidamento tramite procedura negoziata senza bando, ai sensi dell’art. 50, comma 1 lettera e) del D. Lgs. n. 36/2023 del Servizio di “referenza tecnico organizzativa” del Piano giovani di zona A.M.B.R.A. per il periodo 01 gennaio 2027 – 31 dicembre 2029, con possibilità di proroga per ulteriori 12 mesi"
   },
   {
-   "idAtto": 7139,
-   "codein": "SA00000143",
-   "stazioneAppaltante": "ASUIT - AZIENDA SANITARIA UNIVERSITARIA INTEGRATA DEL TRENTINO",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2026-11-06T10:45:00.529+00:00",
-   "descri": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO propedeutico all’indizione di una procedura aperta, costituita da un unico lotto, per la fornitura e noleggio di un sistema per la diagnostica sierologica delle principali infezioni virali, delle infezioni del complesso TORC e della sierologia infettivologica varia occorrente all’U.O. Multizonale di Microbiologia e Virologia dell'Azienda Sanitaria Universitaria Integrata del Trentino (ASUIT)."
-  },
-  {
-   "idAtto": 7164,
-   "codein": "SA00000915",
-   "stazioneAppaltante": "A.P.S.P. LEVICO CURAE",
-   "tipologia": 101,
-   "tipologiaDesc": "Manifestazioni di interesse ",
-   "dataPrimaPubb": "2026-11-17T10:27:51.507+00:00",
-   "descri": "AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSE ASSISTENTE BAGNANTE"
+   "idAtto": 7149,
+   "codein": "SA00000783",
+   "stazioneAppaltante": "A.P.S.P. DI BRENTONICO",
+   "tipologia": 105,
+   "tipologiaDesc": "Indagine di mercato",
+   "dataPrimaPubb": "2026-11-13T08:46:40.502+00:00",
+   "descri": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO (ai sensi degli artt. 77 e 78 del D.Lgs. 36/2023 e ss.mm.ii.) in vista dell'avvio della procedura per l'affidamento del Servizio di ristorazione a ridotto impatto ambientale"
   },
   {
    "idAtto": 7154,
@@ -110,13 +101,13 @@
    "descri": "Avviso pubblico di indagine di mercato volto all’acquisizione di manifestazioni di interesse da parte degli operatori economici per l’affidamento, mediante procedura negoziata, del servizio “Costruzione e promozione di reti territoriali nell’ambito del Distretto famiglia della Val di Non – Anno 2027”."
   },
   {
-   "idAtto": 7149,
-   "codein": "SA00000783",
-   "stazioneAppaltante": "A.P.S.P. DI BRENTONICO",
-   "tipologia": 105,
-   "tipologiaDesc": "Indagine di mercato",
-   "dataPrimaPubb": "2026-11-13T08:46:40.502+00:00",
-   "descri": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO (ai sensi degli artt. 77 e 78 del D.Lgs. 36/2023 e ss.mm.ii.) in vista dell'avvio della procedura per l'affidamento del Servizio di ristorazione a ridotto impatto ambientale"
+   "idAtto": 7164,
+   "codein": "SA00000915",
+   "stazioneAppaltante": "A.P.S.P. LEVICO CURAE",
+   "tipologia": 101,
+   "tipologiaDesc": "Manifestazioni di interesse ",
+   "dataPrimaPubb": "2026-11-17T10:27:51.507+00:00",
+   "descri": "AVVISO ESPLORATIVO PER MANIFESTAZIONE DI INTERESSE ASSISTENTE BAGNANTE"
   },
   {
    "idAtto": 7116,
@@ -182,13 +173,13 @@
    "descri": "Avviso pubblico esplorativo per manifestazione di interesse propedeutico all'affidamento del servizio di medico competente per il triennio 2027-2029 (con opzione biennale ed eventuale proroga tecnica) suddiviso in due lotti a favore del Comune di Pergine Valsugana e ASIF mediante confronto competitivo al prezzo più basso."
   },
   {
-   "idAtto": 7169,
-   "codein": "SA00000750",
-   "stazioneAppaltante": "TRENTINO DIGITALE S.P.A.",
-   "tipologia": 101,
-   "tipologiaDesc": "Manifestazioni di interesse ",
-   "dataPrimaPubb": "2026-11-19T10:03:29.503+00:00",
-   "descri": "Indagine di mercato per la ricerca di manifestazioni di interesse finalizzate all’affidamento in appalto di servizi specialistici di sviluppo, manutenzione e supporto alla gestione di portali web"
+   "idAtto": 7176,
+   "codein": "SA00000415",
+   "stazioneAppaltante": "TRENTINO TRASPORTI S.P.A.",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2026-11-24T09:58:14.924+00:00",
+   "descri": "BANDO D’ASTA PUBBLICA PER L’AFFIDAMENTO DI SPAZI PUBBLICITARI PER IL TRIENNIO 2027-2029"
   },
   {
    "idAtto": 7108,
@@ -200,13 +191,13 @@
    "descri": "Asta pubblica per la subconcessione dei locali siti presso l’edificio “Casa Patronale” di S. Anna a Sopramonte, identificati catastalmente dal sub. 1 della p.ed. 253 C.C. Sopramonte, da destinare all’attività di somministrazione di alimenti e bevande aperta al pubblico."
   },
   {
-   "idAtto": 7176,
-   "codein": "SA00000415",
-   "stazioneAppaltante": "TRENTINO TRASPORTI S.P.A.",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2026-11-24T09:58:14.924+00:00",
-   "descri": "BANDO D’ASTA PUBBLICA PER L’AFFIDAMENTO DI SPAZI PUBBLICITARI PER IL TRIENNIO 2027-2029"
+   "idAtto": 7169,
+   "codein": "SA00000750",
+   "stazioneAppaltante": "TRENTINO DIGITALE S.P.A.",
+   "tipologia": 101,
+   "tipologiaDesc": "Manifestazioni di interesse ",
+   "dataPrimaPubb": "2026-11-19T10:03:29.503+00:00",
+   "descri": "Indagine di mercato per la ricerca di manifestazioni di interesse finalizzate all’affidamento in appalto di servizi specialistici di sviluppo, manutenzione e supporto alla gestione di portali web"
   },
   {
    "idAtto": 7166,
@@ -308,15 +299,6 @@
    "descri": "de 240/2022 ADESIONE ALLA CONVENZIONE PER LA FORNITURA DI LICENZE GOOGLE WORKSPACE E SERVIZI ACCESSORI, SOTTOSCRITTA DALLA PROVINCIA AUTONOMA DI TRENTO, AGENZIA PROVINCIALE PER GLI APPALTI E CONTRATTI E TELECOM ITALIA S.P.A. - PERIODO 01.12.2022 - 31.03.2027"
   },
   {
-   "idAtto": 663,
-   "codein": "SA00000800",
-   "stazioneAppaltante": "COMUNITA' TERRITORIALE DELLA VAL DI FIEMME",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2024-04-29T06:51:10.030+00:00",
-   "descri": "AVVISO PUBBLICO PER L’ISCRIZIONE AD ELENCHI APERTI DI SOGGETTI PRESTATORI ACCREDITATI CON I QUALI STIPULARE CONVENZIONI PER IL SERVIZIO DI PASTI A DOMICILIO PREVISTI DAL CATALOGO DEI SERVIZI SOCIO ASSISTENZIALI PER ADULTI E ANZIANI RESIDENTI NEL TERRITORIO DELLA COMUNITA’  TERRITORIALE DELLA VAL DI FIEMME.\nai sensi degli art. 19, 20, 21 e art. 22 co. 3, lett. B) della L.P. 27 luglio 2007 n. 13"
-  },
-  {
    "idAtto": 662,
    "codein": "SA00000800",
    "stazioneAppaltante": "COMUNITA' TERRITORIALE DELLA VAL DI FIEMME",
@@ -324,6 +306,15 @@
    "tipologiaDesc": "Altri avvisi a scadenza",
    "dataPrimaPubb": "2024-04-29T06:47:07.376+00:00",
    "descri": "AVVISO PUBBLICO PER L’ISCRIZIONE AD ELENCHI APERTI DI SOGGETTI PRESTATORI ACCREDITATI CON I QUALI STIPULARE CONVENZIONI PER I SERVIZI DI ASSISTENZA DOMICILIARE E DI CONTESTO PREVISTI DAL CATALOGO DEI SERVIZI SOCIO ASSISTENZIALI PER ADULTI E ANZIANI RESIDENTI NEL TERRITORIO DELLA COMUNITA’  TERRITORIALE DELLA VAL DI FIEMME.\nai sensi degli art. 19, 20, 21 e art. 22 co. 3, lett. B) della L.P. 27 luglio 2007 n. 13"
+  },
+  {
+   "idAtto": 663,
+   "codein": "SA00000800",
+   "stazioneAppaltante": "COMUNITA' TERRITORIALE DELLA VAL DI FIEMME",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2024-04-29T06:51:10.030+00:00",
+   "descri": "AVVISO PUBBLICO PER L’ISCRIZIONE AD ELENCHI APERTI DI SOGGETTI PRESTATORI ACCREDITATI CON I QUALI STIPULARE CONVENZIONI PER IL SERVIZIO DI PASTI A DOMICILIO PREVISTI DAL CATALOGO DEI SERVIZI SOCIO ASSISTENZIALI PER ADULTI E ANZIANI RESIDENTI NEL TERRITORIO DELLA COMUNITA’  TERRITORIALE DELLA VAL DI FIEMME.\nai sensi degli art. 19, 20, 21 e art. 22 co. 3, lett. B) della L.P. 27 luglio 2007 n. 13"
   },
   {
    "idAtto": 4335,
@@ -335,6 +326,24 @@
    "descri": "Adesione alla convenzione A.P.A.C. sul portale Mercurio, per la fornitura di servizi di desktop outsourcing e la locazione operativa di apparecchiature hardware, stipulata fra la Provincia Autonoma di Trento tramite A.P.A.C. e la capogruppo Dedagroup S.p.A. e Dexit S.r.l.: affidamento dei servizi tramite il soggetto gestore Trentino Digitale S.p.A. di Trento (Sistema Informativo Elettronico Trentino SINET). CIG convenzione quadro APAC 95643027B0"
   },
   {
+   "idAtto": 1109,
+   "codein": "SA00000800",
+   "stazioneAppaltante": "COMUNITA' TERRITORIALE DELLA VAL DI FIEMME",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2024-12-31T07:54:26.979+00:00",
+   "descri": "L.P. 13/2007, ART. 22, COMMA 3, LETT. B) - ATTO DI INDIRIZZO ED APPROVAZIONE ATTI PROCEDURA DI ACCREDITAMENTO PER L'ISTITUZIONE DI UN ELENCO APERTO DI SOGGETTI PRESTATORI PER LA REALIZZAZIONE DI SERVIZI RESIDENZIALI E SEMI RESIDENZIALI PER PERSONE CON DISABILITÀ RESIDENTI IN UNO DEI COMUNI DELLA COMUNITÀ TERRITORIALE DELLA VAL DI FIEMME."
+  },
+  {
+   "idAtto": 5711,
+   "codein": "SA00000733",
+   "stazioneAppaltante": "COMUNE DI PERGINE VALSUGANA",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2023-01-24T08:20:59.492+00:00",
+   "descri": "Affido all'Azienda speciale ASIF - Chimelli dei servizi all'infanzia, ai giovani e alla famiglia per il periodo 2022-2027; approvazione schema di contratto di servizio."
+  },
+  {
    "idAtto": 4128,
    "codein": "SA00000823",
    "stazioneAppaltante": "COMUNITA' VALSUGANA E TESINO",
@@ -344,6 +353,33 @@
    "descri": "AVVISO PUBBLICO PER L’ISCRIZIONE AD ELENCHI APERTI DI SOGGETTI ACCREDITATI PER L’EROGAZIONE DI INTERVENTI EDUCATIVI DOMICILIARI PER MINORI, ADULTI, PERSONE CON  ISABILITA’ E INTERVENTI DI SPAZIO NEUTRO A FAVORE DI RESIDENTI NELLA COMUNITA’ VALSUGANA E TESINO ai sensi degli art. 19, 20, 21 e art. 22 co. 3, lett. b) della L.P. 27 luglio 2007 n.13"
   },
   {
+   "idAtto": 5484,
+   "codein": "SA00000166",
+   "stazioneAppaltante": "COMUNE DI NAGO-TORBOLE",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2022-11-02T07:32:56.048+00:00",
+   "descri": "Approvazione convenzione di servizio per affidamento alla società in house Gestel srl per la gestione delle entrate comunali (IMIS,TARI Acquedotto e Fognatura)."
+  },
+  {
+   "idAtto": 5586,
+   "codein": "SA00000800",
+   "stazioneAppaltante": "COMUNITA' TERRITORIALE DELLA VAL DI FIEMME",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2022-12-12T09:59:17.310+00:00",
+   "descri": "AVVISO PUBBLICO PER L’ISCRIZIONE AD ELENCHI APERTI DI SOGGETTI PRESTATORI ACCREDITATI PER LA GESTIONE DI INTERVENTI EDUCATIVI DOMICILIARI PER: MINORI, ADULTI, PERSONE CON DISABILITA’ E INTERVENTI DI SPAZIO NEUTRO A FAVORE DI RESIDENTI NEL TERRITORIO DELLA COMUNITA’  TERRITORIALE DELLA VAL DI FIEMME.\nai sensi degli art. 19, 20, 21 e art. 22 co. 3, lett. B) della L.P. 27 luglio 2007 n. 13"
+  },
+  {
+   "idAtto": 5583,
+   "codein": "SA00000070",
+   "stazioneAppaltante": "COMUNITA' DELLA PAGANELLA",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2022-12-09T11:41:01.431+00:00",
+   "descri": "ACCREDITAMENTO DI SECONDO LIVELLO PER SERVIZI SOCIALI\nAVVISO PUBBLICO PER L’ISCRIZIONE AD ELENCHI APERTI DI SOGGETTI\nACCREDITATI PER L’EROGAZIONE DI INTERVENTI EDUCATIVI DOMICILIARI PER\nMINORI, ADULTI, PERSONE CON DISABILITA’ E INTERVENTI DI SPAZIO NEUTRO A\n\nFAVORE DI RESIDENTI NELLA COMUNITA’ DELLA PAGANELLA\nai sensi degli art. 19, 20, 21 e art. 22 co. 3, lett. b) della L.P. 27 luglio 2007 n.13"
+  },
+  {
    "idAtto": 2819,
    "codein": "SA00000196",
    "stazioneAppaltante": "COMUNITA' ALTA VALSUGANA E BERSNTOL",
@@ -351,6 +387,24 @@
    "tipologiaDesc": "Manifestazioni di interesse ",
    "dataPrimaPubb": "2022-11-02T13:28:42.461+00:00",
    "descri": "Istituzione di elenchi aperti di soggetti prestatori in possesso di idoneo accreditamento provinciale con i quali stipulare convenzioni per l'affidamento, mediante l'utilizzo dei buoni di servizio ai sensi dell'art. 22, co. 3, lett. b) della l.p. 13/2007, di interventi educativi domiciliari per minori, adulti e persone con disabilità e di interventi di spazio neutro a favore di residenti nell'ambito territoriale della Comunita' Alta Valsugana e Bersntol"
+  },
+  {
+   "idAtto": 1625,
+   "codein": "SA00000381",
+   "stazioneAppaltante": "CONSORZIO BIM CHIESE",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2025-05-20T10:46:49.617+00:00",
+   "descri": "PROVVEDIMENTO DI NOMINA COMMISSIONE DI GARA E CV DEI COMPONENTI DELLA STESSA "
+  },
+  {
+   "idAtto": 1624,
+   "codein": "SA00000381",
+   "stazioneAppaltante": "CONSORZIO BIM CHIESE",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2025-05-20T10:36:34.262+00:00",
+   "descri": "AVVISO SUI RISULTATI PROCEDURA NEGOZIATA . AGGIUDICAZIONE"
   },
   {
    "idAtto": 4133,
@@ -398,69 +452,6 @@
    "descri": "AVVISO PUBBLICO PER L’ISCRIZIONE AD ELENCHI APERTI DI SOGGETTI PRESTATORI ACCREDITATI CON I QUALI STIPULARE CONVENZIONI PER I SERVIZI DI ACCOMPAGNAMENTO AL LAVORO-PERCORSI DI INCLUSIONE PREVISTI DAL CATALOGO DEI SERVIZI SOCIO ASSISTENZIALI PER GIOVANI E ADULTI FRAGILI RESIDENTI NEL TERRITORIO DELLA COMUNITA’  TERRITORIALE DELLA VAL DI FIEMME ai sensi degli art. 19, 20, 21 e art. 22 co. 3, lett. B) della L.P. 27 luglio 2007 n. 13"
   },
   {
-   "idAtto": 5586,
-   "codein": "SA00000800",
-   "stazioneAppaltante": "COMUNITA' TERRITORIALE DELLA VAL DI FIEMME",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2022-12-12T09:59:17.310+00:00",
-   "descri": "AVVISO PUBBLICO PER L’ISCRIZIONE AD ELENCHI APERTI DI SOGGETTI PRESTATORI ACCREDITATI PER LA GESTIONE DI INTERVENTI EDUCATIVI DOMICILIARI PER: MINORI, ADULTI, PERSONE CON DISABILITA’ E INTERVENTI DI SPAZIO NEUTRO A FAVORE DI RESIDENTI NEL TERRITORIO DELLA COMUNITA’  TERRITORIALE DELLA VAL DI FIEMME.\nai sensi degli art. 19, 20, 21 e art. 22 co. 3, lett. B) della L.P. 27 luglio 2007 n. 13"
-  },
-  {
-   "idAtto": 5583,
-   "codein": "SA00000070",
-   "stazioneAppaltante": "COMUNITA' DELLA PAGANELLA",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2022-12-09T11:41:01.431+00:00",
-   "descri": "ACCREDITAMENTO DI SECONDO LIVELLO PER SERVIZI SOCIALI\nAVVISO PUBBLICO PER L’ISCRIZIONE AD ELENCHI APERTI DI SOGGETTI\nACCREDITATI PER L’EROGAZIONE DI INTERVENTI EDUCATIVI DOMICILIARI PER\nMINORI, ADULTI, PERSONE CON DISABILITA’ E INTERVENTI DI SPAZIO NEUTRO A\n\nFAVORE DI RESIDENTI NELLA COMUNITA’ DELLA PAGANELLA\nai sensi degli art. 19, 20, 21 e art. 22 co. 3, lett. b) della L.P. 27 luglio 2007 n.13"
-  },
-  {
-   "idAtto": 1625,
-   "codein": "SA00000381",
-   "stazioneAppaltante": "CONSORZIO BIM CHIESE",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2025-05-20T10:46:49.617+00:00",
-   "descri": "PROVVEDIMENTO DI NOMINA COMMISSIONE DI GARA E CV DEI COMPONENTI DELLA STESSA "
-  },
-  {
-   "idAtto": 1109,
-   "codein": "SA00000800",
-   "stazioneAppaltante": "COMUNITA' TERRITORIALE DELLA VAL DI FIEMME",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2024-12-31T07:54:26.979+00:00",
-   "descri": "L.P. 13/2007, ART. 22, COMMA 3, LETT. B) - ATTO DI INDIRIZZO ED APPROVAZIONE ATTI PROCEDURA DI ACCREDITAMENTO PER L'ISTITUZIONE DI UN ELENCO APERTO DI SOGGETTI PRESTATORI PER LA REALIZZAZIONE DI SERVIZI RESIDENZIALI E SEMI RESIDENZIALI PER PERSONE CON DISABILITÀ RESIDENTI IN UNO DEI COMUNI DELLA COMUNITÀ TERRITORIALE DELLA VAL DI FIEMME."
-  },
-  {
-   "idAtto": 5484,
-   "codein": "SA00000166",
-   "stazioneAppaltante": "COMUNE DI NAGO-TORBOLE",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2022-11-02T07:32:56.048+00:00",
-   "descri": "Approvazione convenzione di servizio per affidamento alla società in house Gestel srl per la gestione delle entrate comunali (IMIS,TARI Acquedotto e Fognatura)."
-  },
-  {
-   "idAtto": 5711,
-   "codein": "SA00000733",
-   "stazioneAppaltante": "COMUNE DI PERGINE VALSUGANA",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2023-01-24T08:20:59.492+00:00",
-   "descri": "Affido all'Azienda speciale ASIF - Chimelli dei servizi all'infanzia, ai giovani e alla famiglia per il periodo 2022-2027; approvazione schema di contratto di servizio."
-  },
-  {
-   "idAtto": 1624,
-   "codein": "SA00000381",
-   "stazioneAppaltante": "CONSORZIO BIM CHIESE",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2025-05-20T10:36:34.262+00:00",
-   "descri": "AVVISO SUI RISULTATI PROCEDURA NEGOZIATA . AGGIUDICAZIONE"
-  },
-  {
    "idAtto": 5511,
    "codein": "SA00000072",
    "stazioneAppaltante": "COMUNITA' DELLA ROTALIANA-KOENIGSBERG",
@@ -477,15 +468,6 @@
    "tipologiaDesc": "Altri avvisi a scadenza",
    "dataPrimaPubb": "2025-04-16T08:38:03.890+00:00",
    "descri": "Impegno della spesa per  il quinquennio 2024-2028 per i servizi continuativi ICT erogati dalla società in-house Trentino Digitale."
-  },
-  {
-   "idAtto": 6400,
-   "codein": "SA00000619",
-   "stazioneAppaltante": "COMUNITA' DELLA VALLE DI SOLE",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2025-11-26T14:04:41.500+00:00",
-   "descri": "AVVISO PUBBLICO 3/2025 PER L’ISCRIZIONE ALL’ELENCO APERTO DI SOGGETTI PRESTATORI PER LA REALIZZAZIONE DI SERVIZI DI ACCOMPAGNAMENTO AL LAVORO PER PERSONE CON FRAGILITA’, VULNERABILITA’ O PERSONE CON DISABILITA’ RESIDENTI NEI COMUNI DELLA COMUNITÀ DELLA VALLE DI SOLE – TRIENNIO 2026-2028"
   },
   {
    "idAtto": 6398,
@@ -506,13 +488,13 @@
    "descri": "AVVISO PUBBLICO 2/2025 PER L’ISCRIZIONE ALL’ELENCO APERTO DI SOGGETTI PRESTATORI PER LA REALIZZAZIONE DI SERVIZI DOMICILIARI (INTERVENTI DI EDUCATIVA DOMICILIARE) PER PERSONE, MINORI, ADULTI IN SITUAZIONI DI FRAGILITA’ O VULNERABILITA’ PERSONALE, FISICA O SOCIALE E PER PERSONE CON DISABILITÀ RESIDENTI NEI COMUNI DELLA COMUNITÀ DELLA VALLE DI SOLE – TRIENNIO 2026-2028"
   },
   {
-   "idAtto": 1099,
-   "codein": "SA00000390",
-   "stazioneAppaltante": "COMUNITA' DELLA VALLE DEI LAGHI",
+   "idAtto": 6400,
+   "codein": "SA00000619",
+   "stazioneAppaltante": "COMUNITA' DELLA VALLE DI SOLE",
    "tipologia": 106,
    "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2024-12-20T18:02:03.537+00:00",
-   "descri": "ACCREDITAMENTO DI SECONDO LIVELLO PER SERVIZI SOCIALI\nAVVISO PUBBLICO  - avvalimento ELENCHI APERTI del Comune di Trento e del Comune di Rovereto  DI SOGGETTI ACCREDITATI PER LA GESTIONE DI SERVIZI RESIDENZIALI E SEMIRESIDENZIALI PER PERSONE CON DISABILITA' RESIDENTI IN VALLE DEI LAGHI ai sensi degli art. 19, 20, 21 e art. 22 co. 3, lett. B) della L.P. 27 luglio 2007 n. 13"
+   "dataPrimaPubb": "2025-11-26T14:04:41.500+00:00",
+   "descri": "AVVISO PUBBLICO 3/2025 PER L’ISCRIZIONE ALL’ELENCO APERTO DI SOGGETTI PRESTATORI PER LA REALIZZAZIONE DI SERVIZI DI ACCOMPAGNAMENTO AL LAVORO PER PERSONE CON FRAGILITA’, VULNERABILITA’ O PERSONE CON DISABILITA’ RESIDENTI NEI COMUNI DELLA COMUNITÀ DELLA VALLE DI SOLE – TRIENNIO 2026-2028"
   },
   {
    "idAtto": 1215,
@@ -522,6 +504,15 @@
    "tipologiaDesc": "Altri avvisi a scadenza",
    "dataPrimaPubb": "2025-01-20T14:38:15.132+00:00",
    "descri": "RINNOVO CONTRATTO DI SERVIZIO CON LA SOCIETÀ DI SISTEMA TRENTINO RISCOSSIONI S.P.A.. AFFIDAMENTO DI ATTIVITÀ E FUNZIONI DI RISCOSSIONE STRAGIUDIZIALE E COATTIVA DELLE ENTRATE TRIBUTARIE, PATRIMONIALI ED ASSIMILATE DEL COMUNE DI FIEROZZO"
+  },
+  {
+   "idAtto": 1099,
+   "codein": "SA00000390",
+   "stazioneAppaltante": "COMUNITA' DELLA VALLE DEI LAGHI",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2024-12-20T18:02:03.537+00:00",
+   "descri": "ACCREDITAMENTO DI SECONDO LIVELLO PER SERVIZI SOCIALI\nAVVISO PUBBLICO  - avvalimento ELENCHI APERTI del Comune di Trento e del Comune di Rovereto  DI SOGGETTI ACCREDITATI PER LA GESTIONE DI SERVIZI RESIDENZIALI E SEMIRESIDENZIALI PER PERSONE CON DISABILITA' RESIDENTI IN VALLE DEI LAGHI ai sensi degli art. 19, 20, 21 e art. 22 co. 3, lett. B) della L.P. 27 luglio 2007 n. 13"
   },
   {
    "idAtto": 4023,
@@ -551,21 +542,21 @@
    "descri": "BANDO \nPER l’erogazione di un finanziamento a contributo ai sensi dell’art. 5, comma 1 ter della Legge Provinciale per il Volontariato (L.P. 13 febbraio 1992, n. 8) in favore di un ENTE DEL TERZO SETTORE per la gestione di un progetto di Attività DI AGGREGAZIONE per ragazzi dellA SCUOLA SECONDARIA DI PRIMO GRADO Di Vezzano mediante la stipula di una convenzione ai sensi dell’art. 56 del Codice del Terzo Settore (D. Lgs. 3 luglio 2017, n. 117). \nPERIODO 36 MESI"
   },
   {
-   "idAtto": 2980,
-   "codein": "SA00000390",
-   "stazioneAppaltante": "COMUNITA' DELLA VALLE DEI LAGHI",
-   "tipologia": 106,
-   "tipologiaDesc": "Altri avvisi a scadenza",
-   "dataPrimaPubb": "2023-02-28T16:34:05.371+00:00",
-   "descri": "Incarico DEL SERVIZIO DI COLONIA ESTIVA DIURNA 2023, EVENTUALMENTE RIPETIBILE PER L’ANNO 2024."
-  },
-  {
    "idAtto": 2981,
    "codein": "SA00000390",
    "stazioneAppaltante": "COMUNITA' DELLA VALLE DEI LAGHI",
    "tipologia": 106,
    "tipologiaDesc": "Altri avvisi a scadenza",
    "dataPrimaPubb": "2023-02-28T17:48:49.052+00:00",
+   "descri": "Incarico DEL SERVIZIO DI COLONIA ESTIVA DIURNA 2023, EVENTUALMENTE RIPETIBILE PER L’ANNO 2024."
+  },
+  {
+   "idAtto": 2980,
+   "codein": "SA00000390",
+   "stazioneAppaltante": "COMUNITA' DELLA VALLE DEI LAGHI",
+   "tipologia": 106,
+   "tipologiaDesc": "Altri avvisi a scadenza",
+   "dataPrimaPubb": "2023-02-28T16:34:05.371+00:00",
    "descri": "Incarico DEL SERVIZIO DI COLONIA ESTIVA DIURNA 2023, EVENTUALMENTE RIPETIBILE PER L’ANNO 2024."
   },
   {

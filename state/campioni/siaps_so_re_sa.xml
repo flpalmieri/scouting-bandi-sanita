@@ -5,42 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>73</afs:totRecord>
+<afs:totRecord>72</afs:totRecord>
 <item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4727852&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-24T18:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>01/10/2026</pubDate>
-	
-	<description>
-PROCEDURA APERTA PER L’AFFIDAMENTO DELLA FORNITURA DI PACEMAKER, DEFIBRILLATORI, LOOP  RECORDER, ACCESSORI ED ALTRI DISPOSITIVI MEDICI  CORRELATI PER LE ESIGENZE DELLE AA.SS.RR. DELLA  REGIONE CAMPANIA&lt;strong&gt;Scadenza : 24/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[PROCEDURA APERTA PER L’AFFIDAMENTO DELLA FORNITURA DI PACEMAKER, DEFIBRILLATORI, LOOP  RECORDER, ACCESSORI ED ALTRI DISPOSITIVI MEDICI  CORRELATI PER LE ESIGENZE DELLE AA.SS.RR. DELLA  REGIONE CAMPANIA]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[SoReSa SPA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[336.113.162,40]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-24T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4727852]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[Farmaci e Disp. Medici]]></afs:ambito>
-	<afs:CPV><![CDATA[33182000-9 - Apparecchi per il sostegno delle funzioni cardiache]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-01T14:51:15]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4834332&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-25T12:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
@@ -460,4 +426,33 @@ Indagine di mercato/avviso esplorativo su piattaforma SIAPS/So.Re.Sa., ai sensi 
 	<afs:ambito><![CDATA[Farmaci e Disp. Medici]]></afs:ambito>
 	<afs:CPV><![CDATA[33190000-8 - Dispositivi e prodotti medici vari]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-16T15:41:41]]></afs:DtPu
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-16T15:41:41]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4811678&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-30T11:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>22/10/2026</pubDate>
+	
+	<description>
+PROCEDURA TELEMATICA APERTA, AI SENSI DELL’ART. 71 DEL D. LGS. N. 36/2023 E S.M.I., PER L’AFFIDAMENTO, PER LA DURATA DI ANNI 5 (CINQUE), DEL “SERVIZIO DI DISINFESTAZIONE E DERATTIZZAZIONE DELLE AREE TERRITORIALI URBANE COMUNALI E DELLE STRUTTURE SANITARIE AFFERENTI AL COMPRENSORIO DELL’ASL SALERNO” DA AGGIUDICARSI CON IL CRITERIO DELL’OFFERTA ECONOMICAMENTE PI&#217; VANTAGGIOSA.&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[PROCEDURA TELEMATICA APERTA, AI SENSI DELL’ART. 71 DEL D. LGS. N. 36/2023 E S.M.I., PER L’AFFIDAMENTO, PER LA DURATA DI ANNI 5 (CINQUE), DEL “SERVIZIO DI DISINFESTAZIONE E DERATTIZZAZIONE DELLE AREE TERRITORIALI URBANE COMUNALI E DELLE STRUTTURE SANITARIE AFFERENTI AL COMPRENSORIO DELL’ASL SALERNO” DA AGGIUDICARSI CON IL CRITERIO DELL’OFFERTA ECONOMICAMENTE PIÙ VANTAGGIOSA.]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.S.L. SALERNO]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[27.120.430,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T11:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4811678]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<af

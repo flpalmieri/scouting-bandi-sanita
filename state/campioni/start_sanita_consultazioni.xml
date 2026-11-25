@@ -113,7 +113,7 @@ AVVISO ESPLORATIVO DI MERCATO per l’affidamento della fornitura di “SACCHI P
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=625666&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-01T10:00:00]]></link>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=625666&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-01T10:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>19/11/2026</pubDate>
 	
@@ -135,7 +135,7 @@ Consultazione Preliminare di Mercato per la fornitura di ciotole per procedure a
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -318,7 +318,7 @@ Consultazione Preliminare di Mercato per la fornitura di Carta per AL SCAN desti
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T10:24:41.033]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T18:19:06.813]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-16T10:15:36]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -423,4 +423,4 @@ Avviso Consultazione Preliminare di Mercato procedura &quot;Aghi e Siringhe - lo
 	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
 	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></a
+	<afs:bconcluso><![CDATA[0]]></afs
