@@ -37,6 +37,35 @@
       "type_title": "Bando Intercenter"
     }, 
     {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18865673", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-26T00:00:00+01:00", 
+      "Description": "AVVISO DI ASTA PUBBLICA PER LA VENDITA DI IMMOBILI COMUNALI", 
+      "Subject": [], 
+      "Title": "VENDITA IMMOBILI COMUNALI", 
+      "UID": "ae296b996fe54eec8ecd72ed46d9194e", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "AVVISO DI ASTA PUBBLICA PER LA VENDITA DI IMMOBILI COMUNALI", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-25T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_CONSULTAZIONE_PORTALE@18865673", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2027-01-07T08:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "VENDITA IMMOBILI COMUNALI", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18842252", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-24T00:00:00+01:00", 
@@ -936,26 +965,4 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_PORTALE@18252862", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-11-03T00:00:00+01:00", 
-      "Description": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO (ART. 77 D.LGS. 36/2023) per la fornitura di Batteria sterile monouso per sistema di navigazione GPS destinato alla chirurgia assistita da computer", 
-      "Subject": [], 
-      "Title": "Consultazione Kit monouso GPS Station V2", 
-      "UID": "e63d6b96193e400c977cf036a0ed11d0", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "closed", 
-        "Chiuso"
-      ], 
-      "description": "AVVISO DI CONSULTAZIONE PRELIMINARE DI MERCATO (ART. 77 D.LGS. 36/2023) per la fornitura di Batteria sterile monouso per sistema di navigazione GPS destinato alla chirurgia assistita da computer", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-11-02T23:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_CONSULTAZIONE_PORTALE@18252862", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acqu

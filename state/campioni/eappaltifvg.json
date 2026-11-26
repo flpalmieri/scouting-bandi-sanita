@@ -2,24 +2,6 @@
  "totale_dichiarato": 76,
  "righe": [
   {
-   "procedura": "Altro",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
-   "protocollo": "",
-   "titolo": "Fornitura del materiale di consumo originale e/o compatibile con il dosimetro per metacolina APS Vyaire Jaeger, per 48 mesi",
-   "tipologia": "Forniture",
-   "scadenza": "26/11/2026 12:00",
-   "id": "26299"
-  },
-  {
-   "procedura": "UE - Procedura Negoziata",
-   "ente": "Centrale unica di committenza FVG",
-   "protocollo": "",
-   "titolo": "24FAR001.80.CUC - FARMACI ESCLUSIVI",
-   "tipologia": "Forniture",
-   "scadenza": "26/11/2026 12:00",
-   "id": "26320"
-  },
-  {
    "procedura": "Affidamento diretto",
    "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
    "protocollo": "",
@@ -57,21 +39,21 @@
   },
   {
    "procedura": "Manifestazione di Interesse",
-   "ente": "Comune di Gorizia",
-   "protocollo": "",
-   "titolo": "SERVIZIO PER L’ESECUZIONE DI INDAGINI STRUTTURALI DELL’EDIFICIO EX RIMESSA TRAM A GORIZIA NELL’AMBITO DEI LAVORI DI “RIQUALIFICAZIONE DELL’EX RIMESSA TRAM A GORIZIA”. CUP F81B24000420006.",
-   "tipologia": "Servizi",
-   "scadenza": "27/11/2026 18:00",
-   "id": "26335"
-  },
-  {
-   "procedura": "Manifestazione di Interesse",
    "ente": "Centrale unica di committenza FVG",
    "protocollo": "",
    "titolo": "26PRE006 CUC - AGHI E SIRINGHE",
    "tipologia": "Forniture",
    "scadenza": "27/11/2026 18:00",
    "id": "26293"
+  },
+  {
+   "procedura": "Manifestazione di Interesse",
+   "ente": "Comune di Gorizia",
+   "protocollo": "",
+   "titolo": "SERVIZIO PER L’ESECUZIONE DI INDAGINI STRUTTURALI DELL’EDIFICIO EX RIMESSA TRAM A GORIZIA NELL’AMBITO DEI LAVORI DI “RIQUALIFICAZIONE DELL’EX RIMESSA TRAM A GORIZIA”. CUP F81B24000420006.",
+   "tipologia": "Servizi",
+   "scadenza": "27/11/2026 18:00",
+   "id": "26335"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -81,6 +63,15 @@
    "tipologia": "Servizi",
    "scadenza": "30/11/2026 10:00",
    "id": "26022"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "Centrale unica di committenza FVG",
+   "protocollo": "",
+   "titolo": "Servizio somministrazione lavoro EE.LL. - 6^ ed. [Codice iniziativa: 26PGR275]",
+   "tipologia": "Servizi",
+   "scadenza": "30/11/2026 12:00",
+   "id": "26121"
   },
   {
    "procedura": "Affidamento diretto",
@@ -93,30 +84,12 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "Centrale unica di committenza FVG",
-   "protocollo": "",
-   "titolo": "Servizio somministrazione lavoro EE.LL. - 6^ ed. [Codice iniziativa: 26PGR275]",
-   "tipologia": "Servizi",
-   "scadenza": "30/11/2026 12:00",
-   "id": "26121"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
    "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
    "protocollo": "",
    "titolo": "24SER049 SERVIZIO DI ABBATTIMENTO ANIMALI",
    "tipologia": "Servizi",
    "scadenza": "30/11/2026 13:00",
    "id": "26125"
-  },
-  {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "PromoTurismoFVG",
-   "protocollo": "",
-   "titolo": "ACCORDO QUADRO FORNITURA COMPONENTI MECCANICHE E IDRAULICHE PER I POLI MONTANI FVG",
-   "tipologia": "Forniture",
-   "scadenza": "01/12/2026 12:00",
-   "id": "26302"
   },
   {
    "procedura": "Procedura aziendale",
@@ -126,6 +99,15 @@
    "tipologia": "Forniture",
    "scadenza": "01/12/2026 12:00",
    "id": "26332"
+  },
+  {
+   "procedura": "Manifestazione di Interesse",
+   "ente": "PromoTurismoFVG",
+   "protocollo": "",
+   "titolo": "ACCORDO QUADRO FORNITURA COMPONENTI MECCANICHE E IDRAULICHE PER I POLI MONTANI FVG",
+   "tipologia": "Forniture",
+   "scadenza": "01/12/2026 12:00",
+   "id": "26302"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -164,15 +146,6 @@
    "id": "26182"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "Insiel",
-   "protocollo": "",
-   "titolo": "ID 8521 - Fornitura di codici a catalogo per evoluzione e manutenzione della piattaforma firewalling in uso Insiel per un periodo di 36 mesi",
-   "tipologia": "Forniture",
-   "scadenza": "03/12/2026 12:00",
-   "id": "26175"
-  },
-  {
    "procedura": "Manifestazione di Interesse",
    "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
    "protocollo": "",
@@ -192,30 +165,21 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
+   "ente": "Insiel",
+   "protocollo": "",
+   "titolo": "ID 8521 - Fornitura di codici a catalogo per evoluzione e manutenzione della piattaforma firewalling in uso Insiel per un periodo di 36 mesi",
+   "tipologia": "Forniture",
+   "scadenza": "03/12/2026 12:00",
+   "id": "26175"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
    "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
    "protocollo": "",
    "titolo": "25REA024 FORNITURA IN SERVICE DI SISTEMI DIAGNOSTICI PER ESECUZIONE DI ESAMI PER LA RICERCA DI SANGUE OCCULTO NELLE FECI",
    "tipologia": "Forniture",
    "scadenza": "04/12/2026 12:00",
    "id": "26122"
-  },
-  {
-   "procedura": "UE - Procedura Negoziata",
-   "ente": "Centrale unica di committenza FVG",
-   "protocollo": "",
-   "titolo": "24FAR001.86.CUC- Farmaci esclusivi VORANIGO",
-   "tipologia": "Forniture",
-   "scadenza": "04/12/2026 12:00",
-   "id": "26348"
-  },
-  {
-   "procedura": "Altro",
-   "ente": "COMUNE DI VISCO",
-   "protocollo": "",
-   "titolo": "Servizio di project management relativo al progetto sovracomunale di rigenerazione urbana denominato “Museo diffuso della resistenza del Friuli Venezia Giulia” tra i Comuni di Gonars, Palmanova e Visco",
-   "tipologia": "Servizi",
-   "scadenza": "04/12/2026 12:00",
-   "id": "26375"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -227,13 +191,22 @@
    "id": "26310"
   },
   {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "CENTRALE COMMITTENZA RETE DELLE STAZIONI APPALTANTI DEL FRIULI VENEZIA GIULIA",
+   "procedura": "Altro",
+   "ente": "COMUNE DI VISCO",
    "protocollo": "",
-   "titolo": "CS - AFFIDAMENTO IN CONCESSIONE DEL SERVIZIO PUBBLICO LOCALE PER LA GESTIONE DELL’IMPIANTO SPORTIVO “CAMPO SPORTIVO E.E. INNOCENTE”, SITUATO IN COMUNE DI FIUME VENETO (PN)",
+   "titolo": "Servizio di project management relativo al progetto sovracomunale di rigenerazione urbana denominato “Museo diffuso della resistenza del Friuli Venezia Giulia” tra i Comuni di Gonars, Palmanova e Visco",
    "tipologia": "Servizi",
-   "scadenza": "07/12/2026 12:00",
-   "id": "26347"
+   "scadenza": "04/12/2026 12:00",
+   "id": "26375"
+  },
+  {
+   "procedura": "UE - Procedura Negoziata",
+   "ente": "Centrale unica di committenza FVG",
+   "protocollo": "",
+   "titolo": "24FAR001.86.CUC- Farmaci esclusivi VORANIGO",
+   "tipologia": "Forniture",
+   "scadenza": "04/12/2026 12:00",
+   "id": "26348"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -245,31 +218,22 @@
    "id": "26351"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE DI UDINE",
+   "procedura": "Manifestazione di Interesse",
+   "ente": "CENTRALE COMMITTENZA RETE DELLE STAZIONI APPALTANTI DEL FRIULI VENEZIA GIULIA",
    "protocollo": "",
-   "titolo": "2026_Servizio call center",
+   "titolo": "CS - AFFIDAMENTO IN CONCESSIONE DEL SERVIZIO PUBBLICO LOCALE PER LA GESTIONE DELL’IMPIANTO SPORTIVO “CAMPO SPORTIVO E.E. INNOCENTE”, SITUATO IN COMUNE DI FIUME VENETO (PN)",
    "tipologia": "Servizi",
-   "scadenza": "09/12/2026 12:00",
-   "id": "26159"
+   "scadenza": "07/12/2026 12:00",
+   "id": "26347"
   },
   {
-   "procedura": "Altro",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "procedura": "Affidamento diretto",
+   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
    "protocollo": "",
-   "titolo": "FC26SER033 | Co-progettazione per la messa a disposizione di autoemoteche e la gestione integrata delle attività connesse, favorendo la promozione del dono, l'accoglienza dei donatori ed il potenziamento delle raccolte di sangue",
+   "titolo": "Servizio di welfare aziendale, mediante fornitura di carte prepagate, in favore del personale dell’Azienda sanitaria Friuli Occidentale afferente alla Pianta Organica Aggiuntiva a cui si applica il contratto del Comparto Unico del Friuli Venezia Giulia",
    "tipologia": "Servizi",
-   "scadenza": "09/12/2026 12:00",
-   "id": "26290"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "COMUNITA' RIVIERA FRIULANA",
-   "protocollo": "",
-   "titolo": "AFFIDAMENTO DEL SERVIZIO EDUICATIVO PER I CENTRI ESTIVI DEL COMUNE DI LIGNANO SABBIADORO TRIENNIO 2027-2028-2029",
-   "tipologia": "Servizi",
-   "scadenza": "09/12/2026 12:00",
-   "id": "26241"
+   "scadenza": "09/12/2026 10:00",
+   "id": "26386"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -291,12 +255,30 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
+   "ente": "COMUNITA' RIVIERA FRIULANA",
    "protocollo": "",
-   "titolo": "SERVIZIO DI ACCOMPAGNAMENTO E DI TRASPORTO CON AUTOMEZZI ATTREZZATI ED OMOLOGATI PER IL TRASPORTO DEI PAZIENTI NEFROPATICI SOTTOPOSTI A TRATTAMENTO DIALITICO PER ASUGI",
+   "titolo": "AFFIDAMENTO DEL SERVIZIO EDUICATIVO PER I CENTRI ESTIVI DEL COMUNE DI LIGNANO SABBIADORO TRIENNIO 2027-2028-2029",
    "tipologia": "Servizi",
-   "scadenza": "10/12/2026 12:00",
-   "id": "25989"
+   "scadenza": "09/12/2026 12:00",
+   "id": "26241"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE DI UDINE",
+   "protocollo": "",
+   "titolo": "2026_Servizio call center",
+   "tipologia": "Servizi",
+   "scadenza": "09/12/2026 12:00",
+   "id": "26159"
+  },
+  {
+   "procedura": "Altro",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "protocollo": "",
+   "titolo": "FC26SER033 | Co-progettazione per la messa a disposizione di autoemoteche e la gestione integrata delle attività connesse, favorendo la promozione del dono, l'accoglienza dei donatori ed il potenziamento delle raccolte di sangue",
+   "tipologia": "Servizi",
+   "scadenza": "09/12/2026 12:00",
+   "id": "26290"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -326,6 +308,15 @@
    "id": "26254"
   },
   {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
+   "protocollo": "",
+   "titolo": "SERVIZIO DI ACCOMPAGNAMENTO E DI TRASPORTO CON AUTOMEZZI ATTREZZATI ED OMOLOGATI PER IL TRASPORTO DEI PAZIENTI NEFROPATICI SOTTOPOSTI A TRATTAMENTO DIALITICO PER ASUGI",
+   "tipologia": "Servizi",
+   "scadenza": "10/12/2026 12:00",
+   "id": "25989"
+  },
+  {
    "procedura": "Manifestazione di Interesse",
    "ente": "Insiel",
    "protocollo": "",
@@ -333,6 +324,33 @@
    "tipologia": "Servizi",
    "scadenza": "11/12/2026 12:00",
    "id": "26380"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "26PRE005 - PRODOTTI PER VIDEOLAPAROSCOPIA",
+   "tipologia": "Forniture",
+   "scadenza": "14/12/2026 12:00",
+   "id": "26282"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "26PRE004 - VITRECTOMIA E FACOEMULSIFICAZIONE",
+   "tipologia": "Forniture",
+   "scadenza": "14/12/2026 12:00",
+   "id": "26281"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "24PRE002.1 - Materiale per neurochirurgia",
+   "tipologia": "Forniture",
+   "scadenza": "14/12/2026 12:00",
+   "id": "26280"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -351,33 +369,6 @@
    "tipologia": "Servizi",
    "scadenza": "14/12/2026 12:00",
    "id": "26158"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
-   "protocollo": "",
-   "titolo": "24PRE002.1 - Materiale per neurochirurgia",
-   "tipologia": "Forniture",
-   "scadenza": "14/12/2026 12:00",
-   "id": "26280"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
-   "protocollo": "",
-   "titolo": "26PRE004 - VITRECTOMIA E FACOEMULSIFICAZIONE",
-   "tipologia": "Forniture",
-   "scadenza": "14/12/2026 12:00",
-   "id": "26281"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
-   "protocollo": "",
-   "titolo": "26PRE005 - PRODOTTI PER VIDEOLAPAROSCOPIA",
-   "tipologia": "Forniture",
-   "scadenza": "14/12/2026 12:00",
-   "id": "26282"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -417,15 +408,6 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
-   "protocollo": "",
-   "titolo": "PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA (PFTE), PROGETTAZIONE ESECUTIVA (PE), COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, DIREZIONE LAVORI, PER LA RIQUALIFICAZIONE E L’ADEGUAMENTO NORMATIVO DEI PADIGLIONI N. 1 e 8",
-   "tipologia": "Servizi",
-   "scadenza": "21/12/2026 12:00",
-   "id": "26260"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
    "ente": "FRIULI VENEZIA GIULIA STRADE S.P.A.",
    "protocollo": "",
    "titolo": "Procedura Aperta 07-2026 – FVGS - Servizio triennale di brokeraggio assicurativo.",
@@ -435,12 +417,12 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "Insiel",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
    "protocollo": "",
-   "titolo": "ID 8565 - Fornitura di dispositivi NetApp",
-   "tipologia": "Forniture",
-   "scadenza": "23/12/2026 12:00",
-   "id": "26334"
+   "titolo": "PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA (PFTE), PROGETTAZIONE ESECUTIVA (PE), COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, DIREZIONE LAVORI, PER LA RIQUALIFICAZIONE E L’ADEGUAMENTO NORMATIVO DEI PADIGLIONI N. 1 e 8",
+   "tipologia": "Servizi",
+   "scadenza": "21/12/2026 12:00",
+   "id": "26260"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -453,12 +435,30 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
+   "ente": "Insiel",
+   "protocollo": "",
+   "titolo": "ID 8565 - Fornitura di dispositivi NetApp",
+   "tipologia": "Forniture",
+   "scadenza": "23/12/2026 12:00",
+   "id": "26334"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
    "ente": "ENTE DI DECENTRAMENTO REGIONALE DI GORIZIA",
    "protocollo": "",
    "titolo": "Procedura aperta, ai sensi dell'art. 71 D.Lgs 36/2023, per l'affidamento dei servizi di copertura assicurativa dell'Ente di Decentramento regionale di Gorizia",
    "tipologia": "Servizi",
    "scadenza": "24/12/2026 09:00",
    "id": "26185"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "FRIULI VENEZIA GIULIA STRADE S.P.A.",
+   "protocollo": "",
+   "titolo": "GARA 08-2026 – Friuli Venezia Giulia Strade SPA - Accordo Quadro per interventi di manutenzione straordinaria e di ripristino funzionale dei conglomerati bituminosi – Procedura suddivisa in 3 lotti.",
+   "tipologia": "Lavori",
+   "scadenza": "29/12/2026 12:00",
+   "id": "26382"
   },
   {
    "procedura": "Asta di Vendita",
@@ -471,15 +471,6 @@
   },
   {
    "procedura": "Avviso di preinformazione",
-   "ente": "ITS per le Tecnologie dell’Informazione e della Comunicazione Alto Adriatico",
-   "protocollo": "",
-   "titolo": "AVVISO PUBBLICO PER LA MODALITA DI SCELTA DEGLI OPERATORI ECONOMICI SOTTO LA SOGLIA DI RILEVANZA EUROPEA",
-   "tipologia": "Lavori",
-   "scadenza": "31/12/2026 12:00",
-   "id": "23508"
-  },
-  {
-   "procedura": "Avviso di preinformazione",
    "ente": "REGIONE AUTONOMA FRIULI VENEZIA GIULIA",
    "protocollo": "",
    "titolo": "AVVISO DI PREINFORMAZIONE per acquisti della Direzione centrale patrimonio, demanio, servizi generali e sistemi informativi, sotto la soglia di rilevanza europea mediante l'Albo Operatori Economici della Regione FVG",
@@ -488,22 +479,22 @@
    "id": "20343"
   },
   {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
+   "procedura": "Avviso di preinformazione",
+   "ente": "ITS per le Tecnologie dell’Informazione e della Comunicazione Alto Adriatico",
    "protocollo": "",
-   "titolo": "servizi di sterilizzazione e di inserimento di microchip a gatti domestici di soggetti residenti presso uno dei Comuni del territorio di ASUGI con ISEE di valore pari o inferiore a € 30.000,00",
-   "tipologia": "Servizi",
-   "scadenza": "31/12/2026 23:59",
-   "id": "24957"
+   "titolo": "AVVISO PUBBLICO PER LA MODALITA DI SCELTA DEGLI OPERATORI ECONOMICI SOTTO LA SOGLIA DI RILEVANZA EUROPEA",
+   "tipologia": "Lavori",
+   "scadenza": "31/12/2026 12:00",
+   "id": "23508"
   },
   {
-   "procedura": "Procedura non europea",
-   "ente": "COMUNE DI ARTA TERME",
+   "procedura": "UE - Procedura Negoziata senza previa indizione di gara",
+   "ente": "REGIONE AUTONOMA FRIULI VENEZIA GIULIA",
    "protocollo": "",
-   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
-   "tipologia": "Altro",
+   "titolo": "42/2026_TZ_\"Lavori di sistemazione idraulico-forestale su corsi d'acqua 3° classe - VAL AUPA in comune di Moggio Udinese\" CUP: D48H23001800002",
+   "tipologia": "Lavori",
    "scadenza": "31/12/2026 23:59",
-   "id": "24226"
+   "id": "25341"
   },
   {
    "procedura": "Procedura non europea",
@@ -515,13 +506,22 @@
    "id": "24227"
   },
   {
-   "procedura": "UE - Procedura Negoziata senza previa indizione di gara",
-   "ente": "REGIONE AUTONOMA FRIULI VENEZIA GIULIA",
+   "procedura": "Procedura non europea",
+   "ente": "COMUNE DI ARTA TERME",
    "protocollo": "",
-   "titolo": "42/2026_TZ_\"Lavori di sistemazione idraulico-forestale su corsi d'acqua 3° classe - VAL AUPA in comune di Moggio Udinese\" CUP: D48H23001800002",
-   "tipologia": "Lavori",
+   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
+   "tipologia": "Altro",
    "scadenza": "31/12/2026 23:59",
-   "id": "25341"
+   "id": "24226"
+  },
+  {
+   "procedura": "Manifestazione di Interesse",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
+   "protocollo": "",
+   "titolo": "servizi di sterilizzazione e di inserimento di microchip a gatti domestici di soggetti residenti presso uno dei Comuni del territorio di ASUGI con ISEE di valore pari o inferiore a € 30.000,00",
+   "tipologia": "Servizi",
+   "scadenza": "31/12/2026 23:59",
+   "id": "24957"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -633,21 +633,21 @@
   },
   {
    "procedura": "Altro",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
-   "protocollo": "",
-   "titolo": "Avviso pubblico sulle modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2030 23:59",
-   "id": "23766"
-  },
-  {
-   "procedura": "Altro",
    "ente": "ASP \"Daniele Moro\"",
    "protocollo": "",
    "titolo": "Avviso pubblico per la modalità di scelta degli operatori economici nelle procedure sotto la soglia di rilevanza europea",
    "tipologia": "Altro",
    "scadenza": "31/12/2030 23:59",
    "id": "20166"
+  },
+  {
+   "procedura": "Altro",
+   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
+   "protocollo": "",
+   "titolo": "Avviso pubblico sulle modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2030 23:59",
+   "id": "23766"
   },
   {
    "procedura": "Altro",

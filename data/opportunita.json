@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-26T06:17:20+00:00",
- "totale": 129,
+ "aggiornato_il": "2026-11-26T14:45:50+00:00",
+ "totale": 132,
  "opportunita": [
   {
    "id": "empulia:2924901",
@@ -2159,6 +2159,28 @@
    "ultimo_rilevamento": "2026-11-26"
   },
   {
+   "id": "siaps:4855621",
+   "fonti": [
+    "SIAPS So.Re.Sa."
+   ],
+   "titolo": "CONSULTAZIONE PRELIMINARE DI MERCATO E AVVISO VOLONTARIO PER LA TRASPARENZA PREVENTIVA (AI SENSI DELL’ART. 77. E DELL’ ART. 86 DEL D. LGS 36/2023) PER L’AFFIDAMENTO DELLA FORNITURA DELLA PIATTAFORMA HARDWARE E SOFTWARE DI TELE-ECOGRAFIA DA DESTINARE ALLE CASE DI COMUNITA’ DELL’ASL DI SALERNO, PROPEDEUTICO ALL’ESPLETAMENTO DI UNA PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE DI BANDO DI GARA EX ART. 76 COMMA 2 LETTERA B) PUNTO 2) DEL D.LGS. 36/2023.",
+   "ente": "A.S.L. SALERNO",
+   "scadenza": "2026-12-10",
+   "pubblicazione": "2026-11-26",
+   "importo": 400000.0,
+   "cpv": [
+    "30211300"
+   ],
+   "cig": [],
+   "tipo": "Avviso",
+   "link": "https://siaps.soresa.it/portalegare/index.php/bandi?getdettaglio=yes&bando=4855621&tipobando=Avviso&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-10T12:00:00",
+   "regione": "Campania",
+   "motivo_match": "Ente sanitario + CPV IT (30211300)",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-26",
+   "ultimo_rilevamento": "2026-11-26"
+  },
+  {
    "id": "sintel:226611250",
    "fonti": [
     "Sintel"
@@ -2198,6 +2220,26 @@
    "motivo_match": "Ente sanitario + oggetto IT ('telemedicin')",
    "descrizione": "COMPLETAMENTO COLONNA VIDEOLAPAROSCOPICA STORZ PER U.O.C. DI GINECOLOGIA DEL P.O. V. FAZZI",
    "primo_rilevamento": "2026-11-25",
+   "ultimo_rilevamento": "2026-11-26"
+  },
+  {
+   "id": "sintel:227160624",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "Avviso verifica infungibilità Assistenza e manutenzione software “QUANI” (SDO + GROUPER)",
+   "ente": "ASL NO DI NOVARA",
+   "scadenza": "2026-12-11",
+   "pubblicazione": "2026-11-26",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=227160624",
+   "regione": "Piemonte",
+   "motivo_match": "Ente sanitario + oggetto IT ('software')",
+   "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-26",
    "ultimo_rilevamento": "2026-11-26"
   },
   {
@@ -2380,6 +2422,26 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72500000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-23",
+   "ultimo_rilevamento": "2026-11-26"
+  },
+  {
+   "id": "sintel:227030582",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "SERVIZIO DI ARCHIVIAZIONE, GESTIONE DOCUMENTALE E DIGITALIZZAZIONE CARTELLE CLINICHE E ALTRA DOC. AMM.VA E SAN. PER L’ULSS 3 SERENISSIMA",
+   "ente": "AZIENDA ULSS N. 3 SERENISSIMA",
+   "scadenza": "2027-01-12",
+   "pubblicazione": "2026-11-26",
+   "importo": 1601576.4,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=227030582",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
+   "descrizione": "Tipo Sintel: Procedura Aperta; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-26",
    "ultimo_rilevamento": "2026-11-26"
   },
   {

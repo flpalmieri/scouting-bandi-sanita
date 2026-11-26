@@ -152,22 +152,6 @@
   "cig": []
  },
  {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18841680",
-  "title": "Acquisizione in affidamento diretto di Sistemi di monitoraggio, Licenza software, monitor per Aree Critiche dell'Azienda Ospedaliero Universitaria di Ferrara",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "AZIENDA OSPEDALIERA-UNIVERSITARIA DI FERRARA",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "64.010,00 €",
-  "procedura_gara": "Affidamento Diretto",
-  "tipo_bando_gara": "Invito",
-  "criterio": "Prezzo più basso",
-  "scadenza": "2026-11-26T08:00:00+00:00",
-  "pubdate": "2026-11-24T12:00:53+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": []
- },
- {
   "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18567607",
   "title": "Consultazione software gestione stupefacenti",
   "type": "BANDO_CONSULTAZIONE_PORTALE",

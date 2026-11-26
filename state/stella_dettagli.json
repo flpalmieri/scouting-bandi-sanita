@@ -71,15 +71,6 @@
   "pubblicazione": "2026-10-09",
   "tipo_bando": "Bando"
  },
- "22763082": {
-  "cpv": [
-   "33190000"
-  ],
-  "letto_il": "2026-11-20",
-  "procedura": "Aperta",
-  "pubblicazione": "2026-10-27",
-  "tipo_bando": "Bando"
- },
  "22765473": {
   "cpv": [
    "24962000"
@@ -151,15 +142,6 @@
   "letto_il": "2026-11-20",
   "procedura": "Aperta",
   "pubblicazione": "2026-10-20",
-  "tipo_bando": "Bando"
- },
- "22778976": {
-  "cpv": [
-   "33124110"
-  ],
-  "letto_il": "2026-11-20",
-  "procedura": "Aperta",
-  "pubblicazione": "2026-10-21",
   "tipo_bando": "Bando"
  },
  "22779305": {
@@ -416,15 +398,6 @@
   "pubblicazione": "2026-11-13",
   "tipo_bando": "Invito"
  },
- "24378734": {
-  "cpv": [
-   "33690000"
-  ],
-  "letto_il": "2026-11-20",
-  "procedura": "Negoziata",
-  "pubblicazione": "2026-11-16",
-  "tipo_bando": "Invito"
- },
  "24379011": {
   "cpv": [
    "33190000"
@@ -459,15 +432,6 @@
   "letto_il": "2026-11-20",
   "procedura": "Negoziata",
   "pubblicazione": "2026-11-20",
-  "tipo_bando": "Invito"
- },
- "24383179": {
-  "cpv": [
-   "38634000"
-  ],
-  "letto_il": "2026-11-20",
-  "procedura": "Affidamento Diretto",
-  "pubblicazione": "2026-11-19",
   "tipo_bando": "Invito"
  },
  "24386359": {
@@ -569,15 +533,6 @@
   "pubblicazione": "2026-11-24",
   "tipo_bando": "Invito"
  },
- "24392246": {
-  "cpv": [
-   "33190000"
-  ],
-  "letto_il": "2026-11-23",
-  "procedura": "Negoziata",
-  "pubblicazione": "2026-11-23",
-  "tipo_bando": "Invito"
- },
  "24392390": {
   "cpv": [
    "79340000"
@@ -587,20 +542,20 @@
   "pubblicazione": "2026-11-23",
   "tipo_bando": "Invito"
  },
+ "24392431": {
+  "cpv": [
+   "33692100"
+  ],
+  "letto_il": "2026-11-26",
+  "procedura": "Aperta",
+  "pubblicazione": "2026-11-26",
+  "tipo_bando": "Bando"
+ },
  "24392846": {
   "cpv": [
    "33696000"
   ],
   "letto_il": "2026-11-23",
-  "procedura": "Affidamento Diretto",
-  "pubblicazione": "2026-11-23",
-  "tipo_bando": "Invito"
- },
- "24393423": {
-  "cpv": [
-   "33690000"
-  ],
-  "letto_il": "2026-11-24",
   "procedura": "Affidamento Diretto",
   "pubblicazione": "2026-11-23",
   "tipo_bando": "Invito"
@@ -666,6 +621,33 @@
   "letto_il": "2026-11-25",
   "procedura": "Affidamento Diretto",
   "pubblicazione": "2026-11-25",
+  "tipo_bando": "Invito"
+ },
+ "24397576": {
+  "cpv": [
+   "71317100"
+  ],
+  "letto_il": "2026-11-26",
+  "procedura": "Affidamento Diretto",
+  "pubblicazione": "2026-11-26",
+  "tipo_bando": "Invito"
+ },
+ "24398661": {
+  "cpv": [
+   "71323000"
+  ],
+  "letto_il": "2026-11-26",
+  "procedura": "Affidamento Diretto",
+  "pubblicazione": "2026-11-26",
+  "tipo_bando": "Invito"
+ },
+ "24398793": {
+  "cpv": [
+   "33190000"
+  ],
+  "letto_il": "2026-11-26",
+  "procedura": "Affidamento Diretto",
+  "pubblicazione": "2026-11-26",
   "tipo_bando": "Invito"
  },
  "2862427": {

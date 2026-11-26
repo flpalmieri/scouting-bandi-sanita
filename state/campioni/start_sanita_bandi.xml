@@ -5,226 +5,10 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>45</afs:totRecord>
+<afs:totRecord>43</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=626301&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T10:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>20/11/2026</pubDate>
-	<description>FORNITURA DI PIASTRE DESTINATE A PROGETTO DI RICERCA  DESTINATA AL CENTRO DIAGNOSTICO DI CITOFLUORIMETRIA DELLA AOU CAREGGI2&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[FORNITURA DI PIASTRE DESTINATE A PROGETTO DI RICERCA  DESTINATA AL CENTRO DIAGNOSTICO DI CITOFLUORIMETRIA DELLA AOU CAREGGI2]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[39.900,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T10:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[626301]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[ FORNITURA DI PIASTRE PER PROGETTO RICERCA DESTINATA ALLA AOU CAREGGI]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-25T12:56:54]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[38437000-7 - Pipette da laboratorio e accessori]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T08:55:16]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=627706&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>24/11/2026</pubDate>
-	<description>Richiesta preventivo n. 471F/26 fornitura di CAPECITABINA oppure XELODA*120CPR 500MG&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Richiesta preventivo n. 471F/26 fornitura di CAPECITABINA oppure XELODA*120CPR 500MG]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[139.900,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BDF077C0D1]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Richiesta Preventivo]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[627706]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Richiesta preventivo n. 471F/26 Affidamento diretto ai sensi dell'art. 50 comma 1 lett. b) del D.Lgs 36/2023]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-25T10:59:08]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[33690000-3 - Medicinali vari]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-24T08:28:39]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=625615&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T13:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>19/11/2026</pubDate>
-	<description>Fornitura di n. 4 cavi piastra per elettrobisturi inv. N016251 Sale Operatorie SGD Firenze dell&#39;Azienda USL Toscana Centro&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Fornitura di n. 4 cavi piastra per elettrobisturi inv. N016251 Sale Operatorie SGD Firenze dell'Azienda USL Toscana Centro]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL Centro]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL Centro]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[396,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T13:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[625615]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Fornitura di n. 4 cavi piastra per elettrobisturi inv. N016251 Sale Operatorie SGD Firenze dell'Azienda USL Toscana Centro]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-19T10:27:12]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[44411000-4 - Articoli sanitari]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T10:27:12]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=625671&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T13:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>19/11/2026</pubDate>
-	<description>Fornitura n. 1 cavo alimentazione 2P grigio Schuko cod. 880109 per letto  degenza inv. 2028429 Chirurgia Programmata Degenza A/B SMA dell&#39;Azienda USL Toscana Centro&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Fornitura n. 1 cavo alimentazione 2P grigio Schuko cod. 880109 per letto  degenza inv. 2028429 Chirurgia Programmata Degenza A/B SMA dell'Azienda USL Toscana Centro]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL Centro]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL Centro]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[42,90]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T13:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[625671]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Fornitura n. 1 cavo alimentazione 2P grigio Schuko cod. 880109 per letto  degenza inv. 2028429 Chirurgia Programmata Degenza A/B SMA dell'Azienda USL Toscana Centro]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-25T09:54:02]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[31224400-6 - Cavi di connessione]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T11:07:49]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=625731&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T13:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>19/11/2026</pubDate>
-	<description>Servizio di riparazione in exchange di telecomando  a cavo TS 7500 S/N 13486 piano operatorio del tavolo oper. Baxter inv. P028640 Sale Operatorie BSL  dell&#39;Azienda USL Toscana Centro&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Servizio di riparazione in exchange di telecomando  a cavo TS 7500 S/N 13486 piano operatorio del tavolo oper. Baxter inv. P028640 Sale Operatorie BSL  dell'Azienda USL Toscana Centro]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ASL Centro]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ASL Centro]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[850,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T13:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[625731]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Servizio di riparazione in exchange di telecomando  a cavo TS 7500 S/N 13486 piano operatorio del tavolo oper. Baxter inv. P028640 Sale Operatorie BSL  dell'Azienda USL Toscana Centro]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-20T12:12:41]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[50420000-5 - Servizi di riparazione e manutenzione di attrezzature medico-chirurgiche]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T11:47:50]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=627228&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-26T15:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>23/11/2026</pubDate>
-	<description>Affidamento diretto, previa richiesta di preventivo di spesa, per la fornitura di “CONTENZIONE RAPIDA DELLE ARTICOLAZIONI DEI POLSI” ai sensi dell’art. 50 comma 1 lett. b) del D.lgs. 36/2023 &lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Affidamento diretto, previa richiesta di preventivo di spesa, per la fornitura di “CONTENZIONE RAPIDA DELLE ARTICOLAZIONI DEI POLSI” ai sensi dell’art. 50 comma 1 lett. b) del D.lgs. 36/2023 ]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[10.001,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T15:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[627228]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[CONTENZIONE RAPIDA DELLE ARTICOLAZIONI DEI POLSI]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T14:39:48]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[33196000-0 - Ausili medici]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-23T11:10:59]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=627672&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T10:00:00]]></link>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=627672&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T10:00:00]]></link>
 	<category>Bando</category>
 	<pubDate>23/11/2026</pubDate>
 	<description>Richiesta Preventivo N. 203D/26  - FORNITURA REAGENTI PER RICERCA 
@@ -256,7 +40,7 @@ Alexa Fluor® 750 Anti-Nestin antibody [SP103] - Neural Stem Cell Marker REF. AB
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -264,7 +48,7 @@ Alexa Fluor® 750 Anti-Nestin antibody [SP103] - Neural Stem Cell Marker REF. AB
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T17:09:46]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-26T12:21:09]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[33141625-7 - Materiale diagnostico]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-23T17:09:46]]></afs:DtPubblicazioneTecnical>
@@ -382,25 +166,25 @@ N. 2 Bombola calibrazione gas CAL1 non ricaricabile per VMax e CPX G02213867]]> 
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-24T16:15:56]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=627274&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T18:00:00]]></link>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=627553&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T12:00:00]]></link>
 	<category>Bando</category>
 	<pubDate>23/11/2026</pubDate>
-	<description>&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; ESTAR richiesta preventivo 466F-26 fornitura APIXABAN 5 MG 28 CPR&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> ESTAR richiesta preventivo 466F-26 fornitura APIXABAN 5 MG 28 CPR]]>  </afs:Oggetto>
+	<description>PER SD LTM2 CAVI  PLUS systems OSP MEYER&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[PER SD LTM2 CAVI  PLUS systems OSP MEYER]]>  </afs:Oggetto>
     <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
+	<afs:EnteProponente><![CDATA[Azienda Ospedaliera Universitaria Meyer IRCCS]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Azienda Ospedaliera Universitaria Meyer IRCCS]]></afs:DenominazioneEnte>
     <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
 	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
 	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[139.900,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T18:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BDEEF4DBD4]]></afs:CIG>
+	<afs:a_base_asta><![CDATA[584,10]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Richiesta Preventivo]]></afs:TipoProcedura>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
 	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
 	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[627274]]></afs:IdMsg>
+	<afs:IdMsg><![CDATA[627553]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
@@ -408,13 +192,234 @@ N. 2 Bombola calibrazione gas CAL1 non ricaricabile per VMax e CPX G02213867]]> 
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[ESTAR richiesta preventivo 466F-26 fornitura APIXABAN 5 MG 28 CPR]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[Cable for SD LTM PLUS systems up to 64 channels, with FAST Connector to connect to BOX TEROSP MEYER]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-25T15:47:43]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T10:11:28]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[33141000-0 - Materiali medici non chimici di consumo monouso e materiale di consumo ematologico]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-23T14:57:46]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=628083&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>24/11/2026</pubDate>
+	<description>Cavi luce&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Cavi luce]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ASL SudEst]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL SudEst]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[1.344,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[628083]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Cavi luce]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T13:41:15]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[33162000-3 - Apparecchi e strumenti per sala operatoria]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-24T13:41:15]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=628089&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>24/11/2026</pubDate>
+	<description>Sanificazione cappa&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Sanificazione cappa]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ASL SudEst]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ASL SudEst]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[1.945,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[628089]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Sanificazione cappa]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-26T09:41:18]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[50411000-9 - Servizi di riparazione e manutenzione di apparecchiature di misurazione]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-24T13:56:40]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=628432&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>25/11/2026</pubDate>
+	<description>N.1 Tastiera Logitech MX Keys e n.1 Mouse Logitech MX Master 4 For Business&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[N.1 Tastiera Logitech MX Keys e n.1 Mouse Logitech MX Master 4 For Business]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[211,47]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[628432]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Fornitura n.1 tastiera e mouse Logitech]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T10:45:50]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[30236000-2 - Apparecchiatura informatica varia]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T10:45:50]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=628744&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>25/11/2026</pubDate>
+	<description>&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Richiesta preventivo n. 473F-26 fornitura di CARBOSSIMALTOSIO FERRICO MYLAN*5 flaconcini EV 50 mg/ml 2 ml - AIC 050618038&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Richiesta preventivo n. 473F-26 fornitura di CARBOSSIMALTOSIO FERRICO MYLAN*5 flaconcini EV 50 mg/ml 2 ml - AIC 050618038]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[139.900,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[628744]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Richiesta preventivo n. 473F-26 Affidamento diretto ai sensi dell'art. 50 comma 1 lett. b) del D.Lgs. 36/2023]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T15:32:21]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[33690000-3 - Medicinali vari]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-23T14:54:11]]></afs:DtPubblicazioneTecnical>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T14:54:52]]></afs:DtPubblicazioneTecnical>
 </item><item>
-	<tit
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=629271&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>26/11/2026</pubDate>
+	<description>Richiesta preventivo n. 476F-26 fornitura di ADCIRCA*56CPR RIV 20MG - AIC 039598026&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Richiesta preventivo n. 476F-26 fornitura di ADCIRCA*56CPR RIV 20MG - AIC 039598026]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[139.900,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[629271]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Richiesta preventivo n. 476F-26 Affidamento diretto ai sensi dell'art. 50 comma 1 lett. b) del D.Lgs. 36/2023]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-26T12:08:02]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[33690000-3 - Medicinali vari]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-26T12:08:02]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=623837&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T13:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>19/11/2026</pubDate>
+	<description>Affidamento diretto per la fornitura di un “Progetto pilota per un sistema di Intelligenza Artificiale integrato nel flusso RIS-PACS per potenziare la diagnostica senologica clinica e di screening” con previsione di prima adesione per ISPRO. Stipula convenzione per la durata di 12 mesi.&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Affidamento diretto per la fornitura di un “Progetto pilota per un sistema di Intelligenza Artificiale integrato nel flusso RIS-PACS per potenziare la diagnostica senologica clinica e di screening” con previsione di prima adesione per ISPRO. Stipula convenzione per la durata di 12 mesi.]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[139.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T13:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDE31BEE14]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Richiesta Preventivo]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[623837]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[REV1.- Progetto pilota per un sistema di Intelligenza Artificiale integrato nel flusso RIS-PACS per ISPRO]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T10:03:55]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[48982000-5 - Pacchetti software di gestione delle configurazioni]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T13:23:13]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/bandi?getdettaglio=yes&bando=624444&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T13:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>18/11/2026</pubDate>
+	<description> AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50 COMMA 1 LETT. B) DEL D. LGS- 36/2023 E SS.MM.II. PER LA FORNITURA DEVICE SERVER PER STRUMENTI LIS MOXA COMPATIBILE DA DESTINARE ALLE AZIENDE SANITARIE DELLA REGIONE TOSCANA, PER LA DURA TA DI 24 MESI&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[ AFFIDAMENTO DIRETTO,

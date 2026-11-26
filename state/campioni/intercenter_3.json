@@ -66,6 +66,35 @@
       "type_title": "Bando Intercenter"
     }, 
     {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-aperti/BANDO_GARA_PORTALE@18847251", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-26T00:00:00+01:00", 
+      "Description": "Indagine di mercato esplorativa, (allegato II.1 del D.lgs. n. 36/2023) per affidamento di appalto di lavori di \u201cREVAMPING ISOLA ECOLOGICA\u201d CUP E18C25000010009", 
+      "Subject": [], 
+      "Title": "Indagine di mercato esplorativa \u201cREVAMPING ISOLA ECOLOGICA\u201d CUP E18C25000010009", 
+      "UID": "cb400d9c79a74f17971ebd0632768bbb", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "Indagine di mercato esplorativa, (allegato II.1 del D.lgs. n. 36/2023) per affidamento di appalto di lavori di \u201cREVAMPING ISOLA ECOLOGICA\u201d CUP E18C25000010009", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-25T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_GARA_PORTALE@18847251", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-03T08:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "Indagine di mercato esplorativa \u201cREVAMPING ISOLA ECOLOGICA\u201d CUP E18C25000010009", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-aperti/BANDO_GARA_PORTALE@18699887", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-17T00:00:00+01:00", 
@@ -153,18 +182,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-aperti/BANDO_GARA_PORTALE@18467500", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-chiusi/BANDO_GARA_PORTALE@18467500", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-13T00:00:00+01:00", 
       "Description": "INDAGINE DI MERCATO FINALIZZATA ALL'INDIVIDUAZIONE DI OPERATORI ECONOMICI DA INVITARE A SUCCESSIVA PROCEDURA NEGOZIATA, DA SVOLGERSI SULLA PIATTAFORMA SATER GESTITA DA INTERCENT-ER, PER L'AFFIDAMENTO DELL\u2019APPALTO: \u201cMANUTENZIONE STRAORDINARIA DEI TRATTI PIU' DEGRADATI ARGINE DEGLI ANGELI COMPRESA NEL PROGRAMMA OPERATIVO 2024-2026 VALLI DI COMACCHIO\u201d.", 
       "Subject": [], 
       "Title": "INDAGINE DI MERCATO PER INDIVIDUAZIONE DI O.E. DA INVITARE A SUCCESSIVA PROCEDURA NEGOZIATA PER \u201cMANUTENZIONE STRAORDINARIA DEI TRATTI PIU' DEGRADATI ARGINE DEGLI ANGELI", 
-      "UID": "d41e34234b11431b8535d11d8d70081b", 
+      "UID": "ea0dc55592634f9190ea00eb235ab91d", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "INDAGINE DI MERCATO FINALIZZATA ALL'INDIVIDUAZIONE DI OPERATORI ECONOMICI DA INVITARE A SUCCESSIVA PROCEDURA NEGOZIATA, DA SVOLGERSI SULLA PIATTAFORMA SATER GESTITA DA INTERCENT-ER, PER L'AFFIDAMENTO DELL\u2019APPALTO: \u201cMANUTENZIONE STRAORDINARIA DEI TRATTI PIU' DEGRADATI ARGINE DEGLI ANGELI COMPRESA NEL PROGRAMMA OPERATIVO 2024-2026 VALLI DI COMACCHIO\u201d.", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -785,29 +814,4 @@
       "image_scales": null, 
       "mime_type": "text/plain", 
       "review_state": "published", 
-      "scadenza_bando": "2026-10-02T11:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "AVVISO INDAGINE DI MERCATO PER AFFIDAMENTO DELL'APPALTO DI SERVIZI FINALIZZATI ALL\u2019INCLUSIONE E ATTIVAZIONE SOCIALE DI PERSONE IN CONDIZIONE DI FRAGILITA\u2019 E VULNERABILITA\u2019 IN CARICO ALL\u2019AREA SERVIZI ALLA COMUNITA\u2019 DELL\u2019UNIONE DELLA ROMAGNA FAENTINA", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-chiusi/BANDO_GARA_PORTALE@16810599", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-09-15T00:00:00+02:00", 
-      "Description": "Fornitura di apparati di rete per superamento obsolescenza apparati core di datacenter e di frontiera su internet.", 
-      "Subject": [], 
-      "Title": "Avviso di indagine di mercato - procedura negoziata per l'acquisto apparati di rete per potenziamento infrastruttura Core e Datacenter", 
-      "UID": "40b6e8aa9e76418fa3c2fa84ec4aa31c", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "closed", 
-        "Chiuso"
-      ], 
-      "description": "Fornitura di apparati di rete per superamento obsolescenza apparati core di datacenter e di frontiera su internet.", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-09-14T22:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_GARA_PORTALE@16810599", 
-      "image_f
+      "scadenza
