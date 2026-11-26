@@ -155,8 +155,11 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
         if not righe:
             continue
         intestazioni = [_testo(h).lower() for h in re.findall(r"<th[^>]*>(.*?)</th>", righe[0], re.DOTALL | re.IGNORECASE)]
-        # colonna del titolo: "Oggetto" (USL Umbria 2, PAT) oppure "Bando" (AreaCom, Drupal)
-        if not any("oggetto" in h or h in ("bando", "titolo") for h in intestazioni):
+        # colonna del titolo: "Oggetto" (USL Umbria 2, PAT) oppure "Bando" (AreaCom, Drupal); dal
+        # 26/11/2026 anche "Titolo Bando" (ASM Matera): intestazione che INIZIA con "titolo ".
+        def col_titolo(h):
+            return h in ("bando", "titolo") or h.startswith("titolo ")
+        if not any("oggetto" in h or col_titolo(h) for h in intestazioni):
             continue
 
         def colonna(*parole):
@@ -167,7 +170,7 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
 
         c_ogg, c_scad = colonna("oggetto"), colonna("scadenza")
         if c_ogg is None:
-            c_ogg = next(i for i, h in enumerate(intestazioni) if h in ("bando", "titolo"))
+            c_ogg = next(i for i, h in enumerate(intestazioni) if col_titolo(h))
         # ASP Catania (23/11/2026): "Termine per la consegna delle offerte" e "Procedura" al posto di
         # "Scadenza" e "Tipologia". Solo se manca la colonna con il nome solito: le tabelle gia'
         # lette non cambiano.
@@ -599,8 +602,12 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
         from .tls import completa_catena
         verifica = completa_catena(sito["url"].replace("{pagina}", str(sito.get("pagina_iniziale", 1))),
                                    intermedi_extra=sito.get("intermedi_extra"))
-    url_modello = sito["url"]
-    alternativo = sito.get("url_alternativo")
+    # {oggi} nell'indirizzo: la data del giorno (AAAA-MM-GG), per i siti che filtrano per scadenza
+    # (ASM Matera, 26/11/2026: "?data_scadenza_dal={oggi}" restituisce solo le voci ancora aperte
+    # invece di 148 pagine di archivio).
+    oggi = date.today().isoformat()
+    url_modello = sito["url"].replace("{oggi}", oggi)
+    alternativo = (sito.get("url_alternativo") or "").replace("{oggi}", oggi) or None
     paginato = "{pagina}" in url_modello
     max_pagine = int(sito.get("max_pagine", 5)) if paginato else 1
     risultati: dict[str, Opportunita] = {}
@@ -612,6 +619,10 @@ def _leggi_sito(sito: dict, filtro: Filtro, sess) -> list[Opportunita]:
         url = url_modello.replace("{pagina}", str(pagina))
         try:
             r = sess.get(url, headers=intestazioni, timeout=attesa, verify=verifica)
+            if r.status_code == 404 and pagina > prima:
+                # WordPress risponde 404 alla pagina dopo l'ultima (ASM Matera, /page/3/): l'elenco e'
+                # finito. Solo dalla seconda pagina: un 404 sulla prima resta un errore.
+                break
             r.raise_for_status()
         except requests.RequestException as e:
             # Alcuni portali bloccano i server cloud (es. 403 da GitHub Actions):

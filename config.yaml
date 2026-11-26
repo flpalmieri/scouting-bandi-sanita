@@ -223,7 +223,7 @@ aggregatori_misti_regex:
   - '\bCSI[\s-]*piemonte\b|consorzio\s+per\s+il\s+sistema\s+informativo'   # Piemonte: consorzio informatico regionale
   - 'liguria\s+digitale'                                                    # Liguria: societa' informatica della Regione
   # SUAR Liguria: solo con la sigla o con "Liguria" vicino, per non includere le stazioni
-  # uniche appaltanti di altre regioni (es. SUA-RB Basilicata).
+  # uniche appaltanti di altre regioni (la SUA-RB Basilicata ha dal 26/11/2026 una regola sua, sotto).
   - '\bS\.?U\.?A\.?R\b|stazione\s+unica\s+appaltante\s+regional\w*.{0,60}liguri|liguri\w*.{0,60}stazione\s+unica\s+appaltante'
   # Decisione di Flavio (19/11/2026): Regione Toscana (anche come soggetto aggregatore) compra
   # IT per tutte le PA toscane, sanita' compresa. Le sue gare IT entrano "da verificare".
@@ -305,6 +305,23 @@ aggregatori_misti_regex:
   - 'agenzia\s+per\s+i\s+contratti\s+pubblici|agenzia\s+per\s+i\s+procedimenti\s+e\s+la\s+vigilanza\s+in\s+materia\s+di\s+contratti\s+pubblici|agentur\s+f(ü|ue)r\s+(die\s+verfahren|(ö|oe)ffentliche\s+vertr)'
   - '\btrentino\s+digitale\b'
   - 'informatica\s+alto\s+adige|s(ü|ue|u)dtiroler\s+informatik|\bSIAG\b'
+  # Basilicata: decisioni di Flavio (26/11/2026). (a) La SUA-RB (Stazione Unica Appaltante della Regione,
+  # centrale di committenza e soggetto aggregatore) svolge tutte le gare sopra soglia delle aziende
+  # sanitarie e anche quelle della Regione e di altri enti: le sue gare IT entrano "da verificare".
+  # Su TED (CF 80002950766, Regione Basilicata) usa nomi di uffici regionali, spesso senza "SUA-RB" ne'
+  # "Basilicata"; dal 01/01/2025: 59 "DIREZIONE GENERALE - UFFICIO APPALTI DI SERVIZI E FORNITURE", 36
+  # "Direzione Generale Stazione Unica Appaltante della Regione Basilicata - Ufficio Centrale di
+  # Committenza e Soggetto Aggregatore", 1 "Direzione Generale Stazione Unica Appaltante - Ufficio
+  # Appalti di Servizi e Forniture", 2 "Regione Basilicata - Stazione Unica Appaltante (SUA-RB) - ...".
+  # I due nomi generici solo come nome INTERO dell'ente (^...$), per non prendere uffici omonimi di
+  # altre amministrazioni. Non l'ufficio "... SERVIZI DI INGEGNERIA E ARCHITETTURA E LAVORI" (lavori).
+  # (b) L'ufficio SUA della DG Salute ("DIREZIONE GENERALE PER LA SALUTE E LE POLITICHE DELLA PERSONA -
+  # UFFICIO STAZIONE UNICA APPALTANTE": SSR, welfare dei dipendenti, antincendio) come il resto della
+  # SUA-RB, non come ente sanitario. Effetto dal 01/06/2026 su TED: entra "da verificare" la manutenzione
+  # della piattaforma CAST e del cloud regionale (390468, scaduta).
+  - '\bSUA\W?RB\b|stazione\s+unica\s+appaltante\s+della\s+regione\s+basilicata|^\W*regione\s+basilicata\W+stazione\s+unica\s+appaltante'
+  - 'direzione\s+generale\s+per\s+la\s+salute\s+e\s+le\s+politiche\s+della\s+persona\W+ufficio\s+stazione\s+unica\s+appaltante'
+  - '^\W*direzione\s+generale\W+(stazione\s+unica\s+appaltante\W+)?ufficio\s+appalti\s+di\s+servizi\s+e\s+forniture\W*$'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -402,6 +419,12 @@ parole_chiave_it_regex:
   # TED 744682 con CPV 48300000) non aveva parole IT: sulla piattaforma, senza CPV, si perdeva. Non si
   # usa "piattaforma integrata", che su TED siciliano compare anche per il trattamento dei rifiuti.
   - 'informazion[ei]\s+clinic|codifica\s+(semi\W?)?automatic'
+  # Basilicata (26/11/2026): due gare IT della SUA-RB senza parole IT riconosciute: "servizi avanzati a
+  # supporto dell'Agenda Digitale della Regione ... contact center CUP" (G00552, 14,1 M€) e "rete di
+  # monitoraggio multirischio ... piattaforme informative" (G00535). Nessuna delle due espressioni
+  # compare nei campioni delle altre regioni.
+  - 'agenda\s+digitale'
+  - 'piattaform\w*\s+informativ'
 
 # Esclusioni: se il titolo contiene una di queste, l'avviso viene scartato.
 esclusioni_regex:
@@ -1592,6 +1615,31 @@ portali_html:
       url: "https://acquisti.asp.sr.it/announcements?status=2&page={pagina}"
       completa_catena_tls: true
 
+    # Basilicata (26/11/2026, decisione di Flavio). ASM Matera (Azienda Sanitaria Locale di Matera) non ha
+    # una piattaforma di gara attiva (l'albo Net4market albo_asmbasilicata e' fermo al 01/05/2025): pubblica
+    # sul sito WordPress una tabella generata dal server (CIG, "Titolo Bando", link BDNCP, "Data del
+    # documento", scadenza, fase), 10 voci per pagina e 148 pagine di archivio. Il filtro
+    # data_scadenza_dal={oggi} (data del giorno, sostituita dal programma) lascia solo le voci ancora aperte:
+    # 12 al 25/11/2026, quasi tutte RdO e TD su MePA di dispositivi; la scadenza della tabella e' quella
+    # delle schede. La "Data del documento" non si usa: e' incoerente (17/12/2026 per una scadenza del
+    # 03/12). Dopo l'ultima pagina WordPress risponde 404: il programma la tratta come fine dell'elenco.
+    # Fuori gli affidamenti diretti e le trattative dirette (TD MePA: un solo operatore). Resta per anni una
+    # manifestazione per i dializzati con scadenza 2029, non IT: la tabella non e' mai vuota.
+    - nome: ASM Matera
+      nome_fonte: Sito ASM Matera
+      sigla: asmmatera
+      ente: Azienda Sanitaria Locale di Matera
+      regione: Basilicata
+      lettore: tabella
+      max_pagine: 5
+      user_agent: progetto            # ricognizione del 25/11/2026: 200 con entrambi gli User-Agent
+      escludi_titoli_regex:
+        - 'affidamento\s+diretto|trattativa\s+diretta|\bTD\s+(n\W*\s*)?\d'
+        - '\bvendita\b|\balienazion|\basta\s+pubblica'
+      url: "https://www.asmbasilicata.it/amministrazione-trasparente/bandi-di-gara-e-contratti/bandi-di-gara-attivi-e-scaduti/page/{pagina}/?titolo=&data_scadenza_dal={oggi}"
+      timeout_connessione: 20         # sito nuovo: se bloccasse GitHub, si perde poco tempo
+      tentativi: 1
+
 # --- Sintel (ARIA, Lombardia) ------------------------------------------------
 # Piattaforma di gara di tutte le aziende sanitarie lombarde (ASST, ATS, IRCCS,
 # AREU) e di ARIA; la usano anche enti di altre regioni (es. ULSS e aziende
@@ -2094,6 +2142,31 @@ maggioli:
         "AREA U.O.C. Gestione Tecnico Patrimoniale": "AOR San Carlo - UOC Gestione Tecnico Patrimoniale"
         "AREA U.O.C. Sistema Informativo Ospedaliero": "AOR San Carlo - UOC Sistema Informativo Ospedaliero"
       ente_se_vuoto: AOR San Carlo
+    # SUA-RB (26/11/2026, decisione di Flavio): prima una PROVA DI CONNESSIONE da GitHub con il lettore
+    # cosi' com'e' (lezione 115), perche' ASP e San Carlo, istanze Maggioli lucane, sono andate in
+    # ConnectTimeout al primo lancio (run 45661439615). Blocco a se', NON <<: *maggioli_basilicata: se ASP
+    # e San Carlo vengono disattivate, la SUA-RB non deve spegnersi con loro, e viceversa.
+    # Sulla SUA-RB l'ente della voce sta nell'etichetta "Amministrazione committente della SUA-RB
+    # (Soggetti obbligati ...)", che maggioli.py ancora non legge: tutte le voci prendono ente_se_vuoto,
+    # riconosciuto tra gli aggregatori misti (le gare IT entrano "da verificare", quelle con oggetto
+    # sanitario come sanitarie). Se l'host risponde, si aggiunge il codice per l'etichetta; se va in
+    # timeout, abilitato: false qui e la SUA-RB resta coperta da TED (sopra soglia).
+    # 2026: 28 bandi (9 per le aziende o il SSR); 0 bandi e 1 avviso (preinformazione 2023) in corso al
+    # 25/11; prova dal box con maggioli.py: liste 200, "In corso" selezionato.
+    - nome: SUA-RB
+      abilitato: true
+      nome_fonte: Appalti SUA-RB
+      sigla: suarb
+      regione: Basilicata
+      host: "https://www.sua-rb.it"
+      liste: [bandi, avvisi]
+      escludi_tipologie: [Elenco operatori economici]
+      escludi_stazioni_regex:
+        - '\btest\b'
+      escludi_titoli_regex: *escludi_maggioli
+      ente_se_vuoto: Stazione Unica Appaltante della Regione Basilicata (SUA-RB)
+      timeout_connessione: 10
+      tentativi: 0
 
 # --- Piattaforme Net4market (app.albofornitori.it) ------------------------------------
 # Sicilia, fase 2 (23/11/2026). Elenco delle gare in corso dalla chiamata GWT-RPC dell'albo (vedi
