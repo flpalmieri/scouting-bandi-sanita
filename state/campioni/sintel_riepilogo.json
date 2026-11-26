@@ -3,7 +3,7 @@
   "righe_prima_pagina": 10,
   "elementi_per_pagina": "200",
   "pagine_lette": 2,
-  "righe_lette": 298
+  "righe_lette": 295
  },
  "lombardia_ambito_4": {
   "righe_prima_pagina": 85,
@@ -18,16 +18,16 @@
   "righe_lette": 29
  },
  "lombardia_ambito_7": {
-  "righe_prima_pagina": 83,
+  "righe_prima_pagina": 82,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 83
+  "righe_lette": 82
  },
  "lombardia_ambito_8": {
-  "righe_prima_pagina": 21,
+  "righe_prima_pagina": 22,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 21
+  "righe_lette": 22
  },
  "lombardia_ambito_9": {
   "righe_prima_pagina": 27,
@@ -42,7 +42,7 @@
   "righe_lette": 21
  },
  "lombardia": {
-  "righe_lette": 564,
+  "righe_lette": 561,
   "enti_sanitari": {
    "AZIENDA REGIONALE PER L'INNOVAZIONE E GLI ACQUISTI S.P.A.": 16,
    "ASST DELLA VALLE OLONA": 10,
@@ -71,18 +71,18 @@
    "ASST DEGLI SPEDALI CIVILI DI BRESCIA": 3,
    "ASST DI PAVIA": 3,
    "ASST NORD MILANO": 3,
-   "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLA LOMBARDIA E DELL'EMILIA ROMAGNA \"BRUNO UBERTINI\"": 3,
    "A.S.P. - ISTITUTI MILANESI MARTINITT E STELLINE E PIO ALBERGO TRIVULZIO": 2,
    "ASST DEL GARDA": 2,
    "ASST FATEBENEFRATELLI SACCO": 2,
    "ASST MELEGNANO E DELLA MARTESANA": 2,
+   "ASST SANTI PAOLO E CARLO": 2,
    "ATS DELL'INSUBRIA": 2,
+   "ISTITUTO ZOOPROFILATTICO SPERIMENTALE DELLA LOMBARDIA E DELL'EMILIA ROMAGNA \"BRUNO UBERTINI\"": 2,
    "ASP BASSO LODIGIANO": 1,
    "ASST DI MONZA": 1,
-   "ASST SANTI PAOLO E CARLO": 1,
    "ATS DELLA MONTAGNA": 1
   },
-  "procedure_altri_enti": 376,
+  "procedure_altri_enti": 373,
   "altri_enti": {
    "CENTRALE UNICA DI COMMITTENZA AREA VASTA BRESCIA - PROVINCIA DI BRESCIA": 24,
    "COMUNE DI MILANO": 15,
@@ -100,7 +100,6 @@
    "AGESP S.P.A.": 4,
    "ALER BRESCIA - CREMONA - MANTOVA": 4,
    "COMUNE DI BRONI": 4,
-   "COMUNE DI BRUGHERIO": 4,
    "COMUNE DI CARUGATE": 4,
    "COMUNE DI CREMONA": 4,
    "COMUNE DI LOMAZZO": 4,
@@ -108,6 +107,7 @@
    "COMUNITÀ MONTANA VALLE SABBIA": 4,
    "PROVINCIA DI PAVIA": 4,
    "BRIANZACQUE S.R.L.": 3,
+   "COMUNE DI BRUGHERIO": 3,
    "COMUNE DI BUCCINASCO": 3,
    "COMUNE DI CASSANO MAGNAGO": 3,
    "COMUNE DI CASTELLO DI BRIANZA": 3,
@@ -117,7 +117,6 @@
    "COMUNE DI SETTIMO MILANESE": 3,
    "CONSORZIO INFORMATICA TERRITORIO SPA": 3,
    "PROVINCIA DI SONDRIO": 3,
-   "UNIONE COLLI MANTOVANI": 3,
    "UNIVERSITA' DEGLI STUDI DI BRESCIA": 3,
    "AZIENDA SPECIALE SERVIZI DI AGRATE BRIANZA": 2,
    "CITTÀ DI SESTO SAN GIOVANNI": 2,
@@ -130,6 +129,7 @@
    "COMUNE DI CASNATE CON BERNATE": 2,
    "COMUNE DI CERNUSCO SUL NAVIGLIO": 2,
    "COMUNE DI LAINATE": 2,
+   "COMUNE DI MACHERIO": 2,
    "COMUNE DI MONZA": 2,
    "COMUNE DI MORNAGO": 2,
    "COMUNE DI ORZINUOVI": 2,
@@ -144,6 +144,7 @@
    "COMUNITÀ MONTANA DEL PIAMBELLO": 2,
    "COMUNITÀ MONTANA VALTELLINA DI TIRANO": 2,
    "CONSORZIO DEI COMUNI DEL BACINO IMBRIFERO MONTANO DELL'ADDA": 2,
+   "UNIONE COLLI MANTOVANI": 2,
    "A.SE.R SPA": 1,
    "ACCADEMIA DI BELLE ARTI DI BRERA": 1,
    "AGENZIA PER IL TRASPORTO PUBBLICO LOCALE DEL BACINO DELLA CITTÀ METROPOLITANA DI MILANO, MONZA E BRIANZA, LODI E PAVIA": 1,
@@ -207,7 +208,6 @@
    "COMUNE DI LODI": 1,
    "COMUNE DI LONATO DEL GARDA": 1,
    "COMUNE DI LOSINE": 1,
-   "COMUNE DI MACHERIO": 1,
    "COMUNE DI MAGENTA": 1,
    "COMUNE DI MANERBIO": 1,
    "COMUNE DI MANTOVA": 1,
@@ -220,9 +220,7 @@
    "COMUNE DI OFFLAGA": 1,
    "COMUNE DI ORINO": 1,
    "COMUNE DI PALAZZOLO SULL'OGLIO": 1,
-   "COMUNE DI PESCHIERA BORROMEO": 1,
    "COMUNE DI PONTOGLIO": 1,
-   "COMUNE DI PORTO CERESIO": 1,
    "COMUNE DI PREGNANA MILANESE": 1,
    "COMUNE DI PRIMALUNA": 1,
    "COMUNE DI REA": 1,
@@ -296,17 +294,17 @@
   ]
  },
  "veneto": {
-  "righe_prima_pagina": 146,
+  "righe_prima_pagina": 145,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 146,
+  "righe_lette": 145,
   "enti_sanitari": {
    "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA": 24,
    "AZIENDA ULSS N. 3 SERENISSIMA": 16,
    "AZIENDA OSPEDALIERA UNIVERSITARIA INTEGRATA DI VERONA": 15,
    "AZIENDA ULSS N. 7 PEDEMONTANA": 10,
    "AZIENDA ULSS N. 8 BERICA": 10,
-   "AZIENDA ULSS N. 5 POLESANA": 9,
+   "AZIENDA ULSS N. 5 POLESANA": 8,
    "AZIENDA ZERO": 8,
    "AZIENDA ULSS N. 9 SCALIGERA": 5,
    "ISTITUTO ONCOLOGICO VENETO I.R.C.C.S.": 4,
@@ -344,12 +342,12 @@
   ]
  },
  "piemonte": {
-  "righe_prima_pagina": 152,
+  "righe_prima_pagina": 146,
   "elementi_per_pagina": "200",
   "pagine_lette": 1,
-  "righe_lette": 152,
+  "righe_lette": 146,
   "enti_sanitari": {
-   "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 38,
+   "A.O.U. CITTÀ DELLA SALUTE E DELLA SCIENZA DI TORINO": 34,
    "AZIENDA OSPEDALIERA NOVARA": 11,
    "A.O. ORDINE MAURIZIANO TORINO": 8,
    "AZIENDA OSPEDALIERA S. CROCE E CARLE": 6,
@@ -370,11 +368,11 @@
    "AZIENDA SANITARIA ZERO": 1,
    "SCR PIEMONTE SPA": 1
   },
-  "procedure_altri_enti": 44,
+  "procedure_altri_enti": 42,
   "altri_enti": {
-   "COMUNE DI ALESSANDRIA": 10,
+   "COMUNE DI ALESSANDRIA": 9,
    "GIUNTA REGIONALE DEL PIEMONTE": 9,
-   "COMUNE DI BIELLA": 7,
+   "COMUNE DI BIELLA": 6,
    "PROVINCIA DI BIELLA": 4,
    "PROVINCIA DEL VERBANO CUSIO OSSOLA": 3,
    "CITTÀ METROPOLITANA DI TORINO": 2,

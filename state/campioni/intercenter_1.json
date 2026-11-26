@@ -95,6 +95,35 @@
       "type_title": "Bando Intercenter"
     }, 
     {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/bandi-aperti/BANDO_GARA_PORTALE@18335497", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-25T00:00:00+01:00", 
+      "Description": "Appalto specifico (SDA) - Affidamento dei servizi di digitalizzazione e stoccaggio di documentazione sanitaria e amministrativa", 
+      "Subject": [], 
+      "Title": "Appalto specifico (SDA) - Affidamento servizi digitalizzazione e stoccaggio documentazione sanitaria e amministrativa", 
+      "UID": "903ffe42f62b41139219f77395e367e5", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "Appalto specifico (SDA) - Affidamento dei servizi di digitalizzazione e stoccaggio di documentazione sanitaria e amministrativa", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-24T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_GARA_PORTALE@18335497", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2027-01-14T15:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "Appalto specifico (SDA) - Affidamento servizi digitalizzazione e stoccaggio documentazione sanitaria e amministrativa", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/bandi-aperti/BANDO_GARA_PORTALE@18239055", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-06T00:00:00+01:00", 
@@ -1087,33 +1116,4 @@
       "Description": "PROCEDURA APERTA PER L\u2019AFFIDAMENTO DEI SERVIZI DI CONTROLLO DELLA FAUNA SELVATICA (CINGHIALI) PER IL CONTENIMENTO DELLA PESTE SUINA AFRICANA NEI TERRITORI DELL\u2019EMILIA-ROMAGNA", 
       "Subject": [], 
       "Title": "SERVIZI DI CONTROLLO DELLA FAUNA SELVATICA (CINGHIALI) PER IL CONTENIMENTO DELLA PESTE SUINA AFRICANA NEI TERRITORI DELL\u2019EMILIA-ROMAGNA", 
-      "UID": "2cc5352669604b8780d8b9e19a0fe175", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "closed", 
-        "Chiuso"
-      ], 
-      "description": "PROCEDURA APERTA PER L\u2019AFFIDAMENTO DEI SERVIZI DI CONTROLLO DELLA FAUNA SELVATICA (CINGHIALI) PER IL CONTENIMENTO DELLA PESTE SUINA AFRICANA NEI TERRITORI DELL\u2019EMILIA-ROMAGNA", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-06-09T22:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB", 
-      "id": "BANDO_GARA_PORTALE@14624168", 
-      "image_field": "", 
-      "image_scales": null, 
-      "mime_type": "text/plain", 
-      "review_state": "published", 
-      "scadenza_bando": "2026-07-14T14:00:00+00:00", 
-      "tipologia_bando": null, 
-      "title": "SERVIZI DI CONTROLLO DELLA FAUNA SELVATICA (CINGHIALI) PER IL CONTENIMENTO DELLA PESTE SUINA AFRICANA NEI TERRITORI DELL\u2019EMILIA-ROMAGNA", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/bandi-in-corso/BANDO_GARA_PORTALE@14862172", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-07-02T00:00:00+02:00", 
-      "Description": "PROCEDURA NEGOZIATA PER LA FORNITURA DEI VACCINI VIMKUNYA E IMVANEX", 
-      "Subject": [], 
-      "Title": "PROCEDURA NEGOZIATA PER LA FORNITURA DEI VACCINI VIMKUNYA E IMVANEX", 
-      "UID": "e3b9ca8f8dc74
+ 

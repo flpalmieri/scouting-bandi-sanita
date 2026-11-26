@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>16</afs:totRecord>
+<afs:totRecord>17</afs:totRecord>
 <item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/?getdettaglio=yes&bando=1014487&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T10:00:00]]></link>
@@ -40,7 +40,7 @@ CUP: F47H26000290002.]]></afs:Oggetto>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-25T18:00:32.707]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-26T00:27:48.163]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-28T09:25:55]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -184,7 +184,7 @@ CUP: F23G24001030006.
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-25T17:43:31.857]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-26T00:19:53.893]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-09T10:11:45]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>

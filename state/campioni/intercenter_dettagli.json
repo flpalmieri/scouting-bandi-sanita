@@ -1,5 +1,27 @@
 [
  {
+  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-intercenter/bandi-e-procedure-di-gara/bandi-aperti/BANDO_GARA_PORTALE@18335497",
+  "title": "Appalto specifico (SDA) - Affidamento servizi digitalizzazione e stoccaggio documentazione sanitaria e amministrativa",
+  "type": "BANDO_GARA_PORTALE",
+  "ente_appaltante": "INTERCENT-ER AGENZIA REGIONALE DI SVILUPPO DEI MERCATI TELEMATICI",
+  "stato_procedura": "Presentazione Offerte/Risposte",
+  "importo_appalto": "6.295.081,97 €",
+  "procedura_gara": "Ristretta",
+  "tipo_bando_gara": "Invito",
+  "criterio": "Offerta economicamente più vantaggiosa",
+  "scadenza": "2027-01-14T15:00:00+00:00",
+  "pubdate": "2026-11-25T16:38:31+00:00",
+  "sospeso": false,
+  "in_sospensione": false,
+  "cig": [
+   {
+    "codice": "BDFC250DB7",
+    "lotto": "1",
+    "descrizione": "Appalto specifico (SDA) - Affidamento servizi digitalizzazione e stoccaggio documentazione sanitaria e amministrativa"
+   }
+  ]
+ },
+ {
   "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18469073",
   "title": "SERVIZIO TRIENNALE DI ASSISTENZA E MANUTENZIONE HARDWARE E SOFTWARE DELLA PROVINCIA DI FERRARA",
   "type": "BANDO_GARA_PORTALE",
