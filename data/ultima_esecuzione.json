@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-26T06:04:43+00:00",
+  "eseguito_il": "2026-11-26T06:17:20+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -51,10 +51,10 @@
     }
   },
   "errori": [
-    "portali_html: ASM Matera: HTTPSConnectionPool(host='www.asmbasilicata.it', port=443): Max retries exceeded with url: /amministrazione-trasparente/bandi-di-gara-e-contratti/bandi-di-gara-attivi-e-scaduti/page/1/?titolo=&data_scadenza_dal=2026-11-26 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.asmbasilicata.it', port=443) at 0x70bee8ae9100>, 'Connection to www.asmbasilicata.it timed out. (connect timeout=20.0)'))",
+    "portali_html: ASM Matera: HTTPSConnectionPool(host='www.asmbasilicata.it', port=443): Max retries exceeded with url: /amministrazione-trasparente/bandi-di-gara-e-contratti/bandi-di-gara-attivi-e-scaduti/page/1/?titolo=&data_scadenza_dal=2026-11-26 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.asmbasilicata.it', port=443) at 0x7af992df0710>, 'Connection to www.asmbasilicata.it timed out. (connect timeout=20.0)'))",
     "maggioli: ASP Basilicata: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
     "maggioli: AOR San Carlo: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate"
   ],
-  "nuove_opportunita": 1,
+  "nuove_opportunita": 0,
   "totale": 129
 }
