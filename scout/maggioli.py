@@ -115,6 +115,11 @@ def leggi_elenco(pagina: str) -> tuple[list[dict], int | None]:
             nome = _testo(etichetta).rstrip(":").strip().lower()
             if nome in CAMPI:
                 voce[CAMPI[nome]] = _testo(valore)
+            elif nome.startswith("amministrazione committente"):
+                # SUA-RB (26/11/2026): "Amministrazione committente della SUA-RB (Soggetti obbligati ex
+                # art. 10, c. 2-3, L.R. 26/2014)" al posto di "Stazione appaltante": l'ufficio regionale
+                # per cui la stazione unica svolge la procedura. Vedi converti() e ente_committente.
+                voce["committente"] = _testo(valore)
         ml = RE_LINK.search(blocco)
         if ml:
             voce["link"] = html.unescape(ml.group(2)).strip()
@@ -175,11 +180,25 @@ def converti(voce: dict, lista: str, sito: dict, filtro: Filtro,
                     sito["nome"], voce.get("codice"), scadenza, pubblicazione)
         scadenza = None
     mappa = {k.strip().lower(): v for k, v in (sito.get("enti_rinomina") or {}).items()}
-    ente = mappa.get(stazione.lower(), stazione) or sito.get("ente_se_vuoto", "")
+    ente = mappa.get(stazione.lower(), stazione)
+    committente = voce.get("committente", "").strip()
+    if not ente and committente:
+        # Il committente si usa cosi' com'e' quando il filtro lo riconosce (ente sanitario o
+        # aggregatore misto): e' lo stesso nome dell'acquirente su TED (SUA-RB: "DIREZIONE GENERALE -
+        # UFFICIO APPALTI DI SERVIZI E FORNITURE"), e main.py fonde i due record (lezione 80).
+        # Altrimenti (uffici regionali come "UFFICIO PROTEZIONE CIVILE") si compone con il modello
+        # ente_committente del config ("SUA-RB - {committente}"), che resta riconoscibile.
+        riconosciuto = filtro.ente_sanitario(committente) or (filtro.re_aggr and filtro.re_aggr.search(committente))
+        modello = sito.get("ente_committente")
+        ente = committente if riconosciuto or not modello else modello.replace("{committente}", committente)
+    ente = ente or sito.get("ente_se_vuoto", "")
     parti = [f"Tipologia: {tipologia}" if tipologia else "",
              f"Avviso per: {voce['avviso_per']}" if voce.get("avviso_per") else "",
              f"Riferimento: {voce['codice']}" if voce.get("codice") else ""]
     descrizione = "; ".join(p for p in parti if p)
+    # Il committente non va nella descrizione: main.py (rivaluta) rivaluta lo storico anche sulla
+    # descrizione, e un ufficio "Sistemi informativi" o "Gest. Ris. Fin." (\bRIS\b, parola sanitaria)
+    # cambierebbe l'esito. Resta visibile nell'ente, da solo o come "SUA-RB - <committente>".
     motivo = filtro.valuta_testo(titolo, ente, descrizione)
     if not motivo:
         return None, False

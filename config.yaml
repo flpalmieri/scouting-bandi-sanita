@@ -2142,17 +2142,19 @@ maggioli:
         "AREA U.O.C. Gestione Tecnico Patrimoniale": "AOR San Carlo - UOC Gestione Tecnico Patrimoniale"
         "AREA U.O.C. Sistema Informativo Ospedaliero": "AOR San Carlo - UOC Sistema Informativo Ospedaliero"
       ente_se_vuoto: AOR San Carlo
-    # SUA-RB (26/11/2026, decisione di Flavio): prima una PROVA DI CONNESSIONE da GitHub con il lettore
-    # cosi' com'e' (lezione 115), perche' ASP e San Carlo, istanze Maggioli lucane, sono andate in
-    # ConnectTimeout al primo lancio (run 45661439615). Blocco a se', NON <<: *maggioli_basilicata: se ASP
-    # e San Carlo vengono disattivate, la SUA-RB non deve spegnersi con loro, e viceversa.
-    # Sulla SUA-RB l'ente della voce sta nell'etichetta "Amministrazione committente della SUA-RB
-    # (Soggetti obbligati ...)", che maggioli.py ancora non legge: tutte le voci prendono ente_se_vuoto,
-    # riconosciuto tra gli aggregatori misti (le gare IT entrano "da verificare", quelle con oggetto
-    # sanitario come sanitarie). Se l'host risponde, si aggiunge il codice per l'etichetta; se va in
-    # timeout, abilitato: false qui e la SUA-RB resta coperta da TED (sopra soglia).
+    # SUA-RB (26/11/2026, decisione di Flavio). Prova di connessione da GitHub riuscita (run 45765694405:
+    # bandi 0 su 0, avvisi 1 su 1 escluso, campioni suarb_*.json), a differenza di ASP e San Carlo.
+    # Blocco a se', NON <<: *maggioli_basilicata: se ASP e San Carlo vengono disattivate, la SUA-RB non
+    # deve spegnersi con loro, e viceversa.
+    # L'ente della voce sta nell'etichetta "Amministrazione committente della SUA-RB (Soggetti obbligati
+    # ...)", letta da maggioli.py dal 26/11/2026 (campo "committente"). Se il filtro riconosce il
+    # committente (gli uffici SUA, aggregatori misti), l'ente e' il committente cosi' com'e', identico
+    # all'acquirente su TED, e main.py fonde i due record; gli altri uffici regionali (Protezione civile,
+    # FSE, Amministrazione digitale...) diventano "SUA-RB - <ufficio>" (ente_committente), cosi' restano
+    # aggregatori. Senza committente: ente_se_vuoto. Le gare IT entrano "da verificare", quelle con
+    # oggetto sanitario come sanitarie.
     # 2026: 28 bandi (9 per le aziende o il SSR); 0 bandi e 1 avviso (preinformazione 2023) in corso al
-    # 25/11; prova dal box con maggioli.py: liste 200, "In corso" selezionato.
+    # 26/11.
     - nome: SUA-RB
       abilitato: true
       nome_fonte: Appalti SUA-RB
@@ -2164,6 +2166,7 @@ maggioli:
       escludi_stazioni_regex:
         - '\btest\b'
       escludi_titoli_regex: *escludi_maggioli
+      ente_committente: "SUA-RB - {committente}"
       ente_se_vuoto: Stazione Unica Appaltante della Regione Basilicata (SUA-RB)
       timeout_connessione: 10
       tentativi: 0
