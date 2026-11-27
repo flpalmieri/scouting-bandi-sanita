@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>694</afs:totRecord>
+<afs:totRecord>695</afs:totRecord>
 <item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2943864&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2027-01-18T12:00:00]]></link>
@@ -118,6 +118,41 @@ CUI: F94045260711202600017]]></afs:Oggetto>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
 	<afs:dataUltimaModifica><![CDATA[2026-11-26T13:31:51.317]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T12:55:24]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2987620&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-17T10:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>27/11/2026</pubDate>
+	
+	<description>
+Consultazione preliminare di mercato per affidamento fornitura strumentario laparoscopico per le esigenze della U.O.C. Ostetricia e Ginecologia del P.O. di San Severo - ASL FOGGIA&lt;strong&gt;Scadenza : 17/12/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[Consultazione preliminare di mercato per affidamento fornitura strumentario laparoscopico per le esigenze della U.O.C. Ostetricia e Ginecologia del P.O. di San Severo - ASL FOGGIA]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[ASL FG ]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-17T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2987620]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Consultazione preliminare di mercato strumentario laparoscopico  - ASL FOGGIA]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T11:48:36.410]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-27T11:48:36]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
@@ -365,37 +400,4 @@ AVVISO PUBBLICO DI MANIFESTAZIONE DI INTERESSE DA PARTE DEGLI ENTI DEL TERZO SET
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
 	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-20T14:21:55.327]]></afs:dataUltimaModifica>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T14:21:55]]></afs:DtPubblicazioneTecnical>
-	
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://eproc.empulia.it/portale/index.php/?getdettaglio=yes&bando=2984159&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-03T12:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>25/11/2026</pubDate>
-	
-	<description>
-Avviso di consultazione preliminare di mercato, propedeutica all’affidamento della fornitura triennale di: “materiale monouso dedicato a n.2 Micromotori Otologici – Bien Air” in dotazione alla U.O.C. di Otorinolaringoiatria Universitaria AOUC Policlinico Bari. &lt;strong&gt;Scadenza : 03/12/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[Avviso di consultazione preliminare di mercato, propedeutica all’affidamento della fornitura triennale di: “materiale monouso dedicato a n.2 Micromotori Otologici – Bien Air” in dotazione alla U.O.C. di Otorinolaringoiatria Universitaria AOUC Policlinico Bari. ]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:DenominazioneEnte><![CDATA[A.O.U. Policlinico BARI ]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-03T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2984159]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[MATERIALE MON
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecn

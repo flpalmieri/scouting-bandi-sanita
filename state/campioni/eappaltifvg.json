@@ -1,5 +1,5 @@
 {
- "totale_dichiarato": 75,
+ "totale_dichiarato": 76,
  "righe": [
   {
    "procedura": "Affidamento diretto",
@@ -479,24 +479,6 @@
    "id": "23508"
   },
   {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
-   "protocollo": "",
-   "titolo": "servizi di sterilizzazione e di inserimento di microchip a gatti domestici di soggetti residenti presso uno dei Comuni del territorio di ASUGI con ISEE di valore pari o inferiore a € 30.000,00",
-   "tipologia": "Servizi",
-   "scadenza": "31/12/2026 23:59",
-   "id": "24957"
-  },
-  {
-   "procedura": "Procedura non europea",
-   "ente": "COMUNE DI ARTA TERME",
-   "protocollo": "",
-   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2026 23:59",
-   "id": "24226"
-  },
-  {
    "procedura": "UE - Procedura Negoziata senza previa indizione di gara",
    "ente": "REGIONE AUTONOMA FRIULI VENEZIA GIULIA",
    "protocollo": "",
@@ -504,6 +486,15 @@
    "tipologia": "Lavori",
    "scadenza": "31/12/2026 23:59",
    "id": "25341"
+  },
+  {
+   "procedura": "Manifestazione di Interesse",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
+   "protocollo": "",
+   "titolo": "servizi di sterilizzazione e di inserimento di microchip a gatti domestici di soggetti residenti presso uno dei Comuni del territorio di ASUGI con ISEE di valore pari o inferiore a € 30.000,00",
+   "tipologia": "Servizi",
+   "scadenza": "31/12/2026 23:59",
+   "id": "24957"
   },
   {
    "procedura": "Procedura non europea",
@@ -515,6 +506,15 @@
    "id": "24227"
   },
   {
+   "procedura": "Procedura non europea",
+   "ente": "COMUNE DI ARTA TERME",
+   "protocollo": "",
+   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2026 23:59",
+   "id": "24226"
+  },
+  {
    "procedura": "UE - Procedura Aperta",
    "ente": "Comune di San Vito al Tagliamento",
    "protocollo": "",
@@ -522,6 +522,15 @@
    "tipologia": "Servizi",
    "scadenza": "07/01/2027 12:00",
    "id": "26373"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "Autorità di Sistema Portuale del Mare Adriatico Orientale",
+   "protocollo": "",
+   "titolo": "Progetto n. 1898: Lavori di rinnovamento e adeguamento funzionale del raccordo ferroviario Aquilinia – ex Aquila - Lotto A.",
+   "tipologia": "Lavori",
+   "scadenza": "12/01/2027 12:00",
+   "id": "26392"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -615,12 +624,12 @@
   },
   {
    "procedura": "Altro",
-   "ente": "ASP \"Daniele Moro\"",
+   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
    "protocollo": "",
-   "titolo": "Avviso pubblico per la modalità di scelta degli operatori economici nelle procedure sotto la soglia di rilevanza europea",
+   "titolo": "Avviso pubblico sulle modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea",
    "tipologia": "Altro",
    "scadenza": "31/12/2030 23:59",
-   "id": "20166"
+   "id": "23766"
   },
   {
    "procedura": "Altro",
@@ -633,21 +642,21 @@
   },
   {
    "procedura": "Altro",
+   "ente": "ASP \"Daniele Moro\"",
+   "protocollo": "",
+   "titolo": "Avviso pubblico per la modalità di scelta degli operatori economici nelle procedure sotto la soglia di rilevanza europea",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2030 23:59",
+   "id": "20166"
+  },
+  {
+   "procedura": "Altro",
    "ente": "COMUNE DI MERETO DI TOMBA",
    "protocollo": "",
    "titolo": "Avviso pubblico per la modalità di scelta degli operatori economici nelle procedure sotto la soglia di rilevanza europea",
    "tipologia": "Altro",
    "scadenza": "31/12/2030 23:59",
    "id": "22095"
-  },
-  {
-   "procedura": "Altro",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
-   "protocollo": "",
-   "titolo": "Avviso pubblico sulle modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2030 23:59",
-   "id": "23766"
   },
   {
    "procedura": "Altro",

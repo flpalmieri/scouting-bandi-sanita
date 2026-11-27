@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>120</afs:totRecord>
+<afs:totRecord>125</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[http://www.empulia.it/tno-a/empulia/Empulia/SitePages/New_Dettaglio Bando di Gara.aspx?getdettaglio=yes&bando=2927104&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-28T12:00:00]]></link>
@@ -169,7 +169,7 @@ AFFIDAMENTO DIRETTO PER LA STIPULA DI UN ACCORDO QUADRO TRIENNALE CON UN SOLO OP
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-26T17:53:36]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T11:18:05]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[34144210-3 - Veicoli di lotta antincendio]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T09:35:00]]></afs:DtPubblicazioneTecnical>
@@ -295,7 +295,7 @@ AFFIDAMENTO DIRETTO, PREVIA CONSULTAZIONE DI TRE OPERATORI ECONOMICI, AI SENSI D
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-23T11:48:43]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T11:47:06]]></afs:dataUltimaModifica>
 	<afs:CPV><![CDATA[45112710-5 - Lavori di architettura paesaggistica per aree verdi]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-23T11:48:43]]></afs:DtPubblicazioneTecnical>

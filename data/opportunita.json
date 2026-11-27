@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-27T09:54:52+00:00",
- "totale": 135,
+ "aggiornato_il": "2026-11-27T10:53:57+00:00",
+ "totale": 136,
  "opportunita": [
   {
    "id": "ted:660706-2026",
@@ -2134,6 +2134,26 @@
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-05",
+   "ultimo_rilevamento": "2026-11-27"
+  },
+  {
+   "id": "n4m_aocs:411",
+   "fonti": [
+    "Net4market AO Cosenza"
+   ],
+   "titolo": "PROCEDURA APERTA TELEMATICA AI SENSI DELL'ART. 71 DEL D.LGS.36/2023 PER LA FORNITURA DI UN SISTEMA DI PIANIFICAZIONE DEI TRATTAMENTI RADIOTERAPICI (TPS) PER L’AZIENDA OSPEDALIERA DI COSENZA",
+   "ente": "Azienda Ospedaliera di Cosenza",
+   "scadenza": "2026-12-09",
+   "pubblicazione": "2026-11-04",
+   "importo": null,
+   "cpv": [],
+   "cig": [],
+   "tipo": "bando",
+   "link": "https://app.albofornitori.it/alboeproc/albo_aocosenza",
+   "regione": "Calabria",
+   "motivo_match": "Ente sanitario + oggetto IT ('SISTEMA DI PIANIFICAZIONE DEI TRATTAMENT')",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-27",
    "ultimo_rilevamento": "2026-11-27"
   },
   {

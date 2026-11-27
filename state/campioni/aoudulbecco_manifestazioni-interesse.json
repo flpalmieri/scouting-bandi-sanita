@@ -1,0 +1,10 @@
+{
+ "data": [],
+ "meta": {
+  "nb_total": 0,
+  "nb_filtered": 0,
+  "limit": "50",
+  "offset": "0",
+  "sort": "t.publish_date DESC"
+ }
+}
