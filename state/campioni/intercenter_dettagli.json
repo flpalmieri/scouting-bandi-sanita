@@ -156,21 +156,5 @@
   "sospeso": false,
   "in_sospensione": false,
   "cig": []
- },
- {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18567607",
-  "title": "Consultazione software gestione stupefacenti",
-  "type": "BANDO_CONSULTAZIONE_PORTALE",
-  "ente_appaltante": "AZIENDA OSPEDALIERA-UNIVERSITARIA DI PARMA",
-  "stato_procedura": "Pubblicato",
-  "importo_appalto": null,
-  "procedura_gara": null,
-  "tipo_bando_gara": null,
-  "criterio": null,
-  "scadenza": "2026-11-27T11:00:00+00:00",
-  "pubdate": "2026-11-13T15:12:50+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": []
  }
 ]

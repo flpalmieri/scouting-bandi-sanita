@@ -5,82 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>10</afs:totRecord>
+<afs:totRecord>8</afs:totRecord>
 <item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=359330&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>13/11/2026</pubDate>
-	
-	<description>
-AVVISO PUBBLICO DI CONSULTAZIONE PRELIMINARE DI MERCATO FINALIZZATO ALLA VERIFICA DELL’EVENTUALE INFUNGIBILIT&#192; DEL DISPOSITIVO “STIMULAN RAPID CURE” E DELL’ESISTENZA DI PRODOTTI EQUIVALENTI &lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:RegistroSistema><![CDATA[PI053608-26]]></afs:RegistroSistema>
-	<afs:Fascicolo><![CDATA[FE012279]]></afs:Fascicolo>
-	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:Oggetto><![CDATA[AVVISO PUBBLICO DI CONSULTAZIONE PRELIMINARE DI MERCATO FINALIZZATO ALLA VERIFICA DELL’EVENTUALE INFUNGIBILITÀ DEL DISPOSITIVO “STIMULAN RAPID CURE” E DELL’ESISTENZA DI PRODOTTI EQUIVALENTI ]]></afs:Oggetto>
-	<afs:DenominazioneEnte><![CDATA[ASL 2 - LANCIANO VASTO CHIETI]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[359330]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[AVVISO CONSULTAZIONE MERCATO]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-24T15:55:36.880]]></afs:dataUltimaModifica>
-<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T11:31:18]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=359332&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>13/11/2026</pubDate>
-	
-	<description>
-AVVISO PUBBLICO DI INDAGINE DI MERCATO PER LA FORNITURA DI SISTEMI COMPLETI DI PLACCHE E CHIODI IN FIBRA DI CARBONIO (MINIMO 60%) RADIOTRASPARENTI PER LE ESIGENZE DELLA U.O.C. DI ORTOPEDIA E TRAUMATOLOGIA DELLA ASL 2 ABRUZZO&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:RegistroSistema><![CDATA[PI053612-26]]></afs:RegistroSistema>
-	<afs:Fascicolo><![CDATA[FE012280]]></afs:Fascicolo>
-	<afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:Oggetto><![CDATA[AVVISO PUBBLICO DI INDAGINE DI MERCATO PER LA FORNITURA DI SISTEMI COMPLETI DI PLACCHE E CHIODI IN FIBRA DI CARBONIO (MINIMO 60%) RADIOTRASPARENTI PER LE ESIGENZE DELLA U.O.C. DI ORTOPEDIA E TRAUMATOLOGIA DELLA ASL 2 ABRUZZO]]></afs:Oggetto>
-	<afs:DenominazioneEnte><![CDATA[ASL 2 - LANCIANO VASTO CHIETI]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[359332]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[AVVISO PUBBLICO DI INDAGINE DI MERCATO]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-26T15:15:25.203]]></afs:dataUltimaModifica>
-<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T11:37:33]]></afs:DtPubblicazioneTecnical>
-</item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://giada.areacom.eu/portale/index.php/?getdettaglio=yes&bando=354176&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-30T12:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
@@ -189,7 +115,7 @@ Consultazione preliminare di mercato per l&#39;eventuale affidamento di matrice 
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-27T10:51:41.570]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T12:06:08.133]]></afs:dataUltimaModifica>
 <afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T10:36:42]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>

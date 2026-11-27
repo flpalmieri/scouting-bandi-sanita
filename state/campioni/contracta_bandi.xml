@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>87</afs:totRecord>
+<afs:totRecord>81</afs:totRecord>
 <item>
 	<title><![CDATA[Invito ]]></title>
 	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=1608646&tipobando=Invito&RicQ=NO&VisQ=NO&tipoDoc=AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&xslt=XSLT_AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&scadenzaBando=]]></link>
@@ -151,257 +151,41 @@
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[]]></afs:DtPubblicazioneTecnical>
 </item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=2848560&tipobando=Bando&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONCORSO_PORTALE&xslt=XSLT_BANDO_CONCORSO_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>23/09/2026</pubDate>
-	<description>&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; AT2456/26 Concorso di progettazione in due fasi per la realizzazione della nuova Casa di Riposo APSP &quot;PICCOLO SPEDALE&quot; di Pieve Tesino&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> AT2456/26 Concorso di progettazione in due fasi per la realizzazione della nuova Casa di Riposo APSP "PICCOLO SPEDALE" di Pieve Tesino]]> <a href="https://contracta.provincia.tn.it//application/backoffice/loginportale.asp?URL=../CTL_LIBRARY/DOCUMENT/DownloadAttach.asp?TMP_DIFF=2026-11-27%26DOCUMENT=BANDO_GARA%26OPERATION=DOWNLOAD%26URL_EXTRA_ATTACH=../../Report/avvisi_di_revoca.asp,../../Report/avvisi_di_proroga.asp,../../Report/avvisi_di_rettifica.asp%26IDDOC=2848560" title="Scarica Allegati">Scarica Allegati</a> </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[A.P.S.P. Piccolo Spedale]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Provincia Autonoma di Trento]]></afs:DenominazioneEnte>
+	<title><![CDATA[Invito ]]></title>
+	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=3049549&tipobando=Invito&RicQ=NO&VisQ=NO&tipoDoc=AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&xslt=XSLT_AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&scadenzaBando=2026-11-27T12:02:51.107]]></link>
+	<category>Invito</category>
+	<pubDate>27/11/2026</pubDate>
+	<description>affidamento incarico apertura assicurativa presepe vivente &lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[affidamento incarico apertura assicurativa presepe vivente ]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Invito]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Comune di Castello Tesino]]></afs:DenominazioneEnte>
     <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
 	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[684.975,23]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BD0D26DB81]]></afs:CIG>
+	<afs:a_base_asta><![CDATA[292,50]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:02:51.107]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Concorso di Progettazione]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_CONCORSO]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2848560]]></afs:IdMsg>
+    <afs:TipoProcedura><![CDATA[]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[AFFIDAMENTO_SENZA_NEGOZIAZIONE]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[Pubblicato]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[3049549]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONCORSO_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONCORSO_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[AT2456/26 Concorso di progettazione in due fasi per la realizzazione della nuova Casa di Riposo APSP "PICCOLO SPEDALE" di Pieve Tesino]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-27T11:39:00]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71230000-9 - Servizi di organizzazione di concorsi di progettazione architettonica]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-23T15:17:39]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=2959958&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>02/11/2026</pubDate>
-	<description>Procedura negoziata senza bando ai sensi dell’art. 50 comma 1 lett. e) D. Lgs. 36/2023, per l’affidamento del SERVIZIO DI TESORERIA per il periodo dal 01/01/2027 al 31/12/2031.&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Procedura negoziata senza bando ai sensi dell’art. 50 comma 1 lett. e) D. Lgs. 36/2023, per l’affidamento del SERVIZIO DI TESORERIA per il periodo dal 01/01/2027 al 31/12/2031.]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[Comune di Rovereto]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Comune di Rovereto]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[192.500,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BD9BDAFFB6]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2959958]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:TipoDoc><![CDATA[AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE]]></afs:xslt>
 	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bconcluso><![CDATA[1]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[SERVIZIO TESORERIA]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[affidamento incarico apertura assicurativa presepe vivente ]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-27T11:00:30]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[66600000-6 - Servizi di tesoreria]]></afs:CPV>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T11:58:19]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[66512000-2 - Servizi di assicurazione contro infortuni e malattie]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-02T11:13:35]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=2972720&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>03/11/2026</pubDate>
-	<description>Richiesta di offerta per l’affidamento del servizio di manutenzione preventiva e assistenza tecnica a chiamata sugli elettrodomestici e sulle apparecchiature da cucina e di lavanderia in dotazione presso i nidi d’infanzia comunali e le scuole provinciali dell’infanzia con sede nel comune di Trento per la durata di 36 mesi dalla da di stipula del contratto.&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Richiesta di offerta per l’affidamento del servizio di manutenzione preventiva e assistenza tecnica a chiamata sugli elettrodomestici e sulle apparecchiature da cucina e di lavanderia in dotazione presso i nidi d’infanzia comunali e le scuole provinciali dell’infanzia con sede nel comune di Trento per la durata di 36 mesi dalla da di stipula del contratto.]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[Comune di Trento]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Comune di Trento]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[210.900,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BDA4324194]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2972720]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Richiesta di offerta per l’affidamento del servizio di manutenzione ]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-25T10:29:35]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[50800000-3 - Servizi di riparazione e manutenzione vari]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-03T17:06:46]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=2977772&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>30/10/2026</pubDate>
-	<description>SERVIZIO DI TRASPORTO E CONSEGNA PASTI A DOMICILIO &lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[SERVIZIO DI TRASPORTO E CONSEGNA PASTI A DOMICILIO ]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[Azienda Pubblica di Servizi alla Persona Santa Maria]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Azienda Pubblica di Servizi alla Persona Santa Maria]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[747.120,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BCBA959B56]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[2977772]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Invito dall' Avviso PI318972-26]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-26T17:00:46]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[85311100-3 - Servizi di assistenza sociale per persone anziane]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-30T10:24:01]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=3007666&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>12/11/2026</pubDate>
-	<description>&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Riqualificazione di alcune aree di sosta lungo le strade provinciali nella Valle di Terragnolo. Richiesta miglior offerta&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Riqualificazione di alcune aree di sosta lungo le strade provinciali nella Valle di Terragnolo. Richiesta miglior offerta]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[Comune di Terragnolo]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Comune di Terragnolo]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[190.000,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BDC8537C4D]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[3007666]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[ASSI VIARI]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-27T09:45:59]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[45230000-8 - Lavori di costruzione di condutture, linee di comunicazione e linee elettriche, autostrade, strade, campi di aviazione e ferrovie; lavori di livellamento]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-12T16:06:08]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=3040291&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>25/11/2026</pubDate>
-	<description>Fornitura corpi illuminanti per illuminazione pubblica&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Fornitura corpi illuminanti per illuminazione pubblica]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[Comune di Giovo]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Comune di Giovo]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[12.214,70]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BDF82A7504]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[3040291]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Fornitura corpi illuminanti]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-26T17:03:22]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[31500000-1 - Apparecchi di illuminazione e lampade elettriche]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T10:33:07]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=3042727&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>25/11/2026</pubDate>
-	<description>Procedura negoziata senza previa pubblicazione di un bando di gara per acquisto spazio espositivo per la partecipazione alla manifestazione &quot;Artigiano in Fiera 2026&quot;&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Procedura negoziata senza previa pubblicazione di un bando di gara per acquisto spazio espositivo per la partecipazione alla manifestazione "Artigiano in Fiera 2026"]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[Trentino Sviluppo S.P.A.]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Trentino Sviluppo S.P.A.]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[262.950,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BDFC443982]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[3042727]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Negoziata Artigiano in Fiera 2026]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-26T11:43:05]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[79950000-8 - Servizi di organizzazione di mostre, fiere e congressi]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T16:53:12]]></afs:DtPubblicazioneTecnical>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-27T12:02:51]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=2851282&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T17:00:00]]></link>
@@ -410,4 +194,218 @@
 	<description>Comune di Campitello di Fassa - Concessione del Centro Sportivo Ischia 2
 &lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
 	<afs:Oggetto><![CDATA[Comune di Campitello di Fassa - Concessione del Centro Sportivo Ischia 2
-]]> <a href="https://contracta.provincia.tn.it//application/backoffice/loginportale.asp?URL=../CTL_LIBRARY/DOCUMENT/DownloadAttach.asp?TMP_DIFF=2026-11-2
+]]> <a href="https://contracta.provincia.tn.it//application/backoffice/loginportale.asp?URL=../CTL_LIBRARY/DOCUMENT/DownloadAttach.asp?TMP_DIFF=2026-11-27%26DOCUMENT=BANDO_GARA%26OPERATION=DOWNLOAD%26URL_EXTRA_ATTACH=../../Report/avvisi_di_revoca.asp,../../Report/avvisi_di_proroga.asp,../../Report/avvisi_di_rettifica.asp%26IDDOC=2851282" title="Scarica Allegati">Scarica Allegati</a> </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[Comune di Campitello di Fassa]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Consorzio Dei Comuni Trentini Societa' Cooperativa]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[1.352.316,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T17:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BD08EEF940]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Aperta]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2851282]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Campitello di Fassa - Concessione Centro Sportivo Ischia 2]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T18:24:34]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[92610000-0 - Servizi di gestione di impianti sportivi]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-21T17:27:42]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=2987124&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T18:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>04/11/2026</pubDate>
+	<description>Invito a partecipare al confronto concorrenziale per l’affidamento dell’esecuzione del servizio di gestione, conduzione e manutenzione delle centrali idroelettriche comunali denominate “Molini”, “Acquedotto Lavazze” ed “Aleci” per la durata di 3 anni, dal 01.01.2027 al 31.12.2029 con opzione per ulteriori anni 2.&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Invito a partecipare al confronto concorrenziale per l’affidamento dell’esecuzione del servizio di gestione, conduzione e manutenzione delle centrali idroelettriche comunali denominate “Molini”, “Acquedotto Lavazze” ed “Aleci” per la durata di 3 anni, dal 01.01.2027 al 31.12.2029 con opzione per ulteriori anni 2.]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[Comune di Rumo]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Comune di Rumo]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[85.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T18:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDA54F87E7]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2987124]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[servizio di gestione, conduzione e manutenzione delle centrali idroelettriche comunali ]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-26T10:51:04]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[50710000-5 - Servizi di riparazione e manutenzione di impianti elettrici e meccanici di edifici]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-04T09:50:25]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=3029695&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-29T23:59:00]]></link>
+	<category>Bando</category>
+	<pubDate>20/11/2026</pubDate>
+	<description>&lt;strong&gt;Bando Revocato - &lt;/strong&gt; Sostituzione coibentazioni sulle tubazioni di riscaldamento/raffrescamento ai piani dell&#39;edificio ex Poste di via Dogana a Trento&lt;strong&gt;Scadenza : 29/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[<strong>Bando Revocato - </strong> Sostituzione coibentazioni sulle tubazioni di riscaldamento/raffrescamento ai piani dell'edificio ex Poste di via Dogana a Trento]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[Provincia Autonoma di Trento]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Provincia Autonoma di Trento]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[42.049,47]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-29T23:59:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDE7A1D70D]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[Revocato]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[3029695]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[16457-PP-CoibentExPosteDogana]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-20T11:51:08]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[45450000-6 - Altri lavori di completamento di edifici]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T11:38:18]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=3030295&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-29T23:59:00]]></link>
+	<category>Bando</category>
+	<pubDate>24/11/2026</pubDate>
+	<description>Realizzazione impianto di trattamento chimico-fisico per il magazzino polifunzionale di Tuenno&lt;strong&gt;Scadenza : 29/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Realizzazione impianto di trattamento chimico-fisico per il magazzino polifunzionale di Tuenno]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[Provincia Autonoma di Trento]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Provincia Autonoma di Trento]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[73.041,28]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-29T23:59:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDF0F33E9F]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[3030295]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[16067-PP-ImpchimfisPolifTuenno]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T10:36:02]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[45450000-6 - Altri lavori di completamento di edifici]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-24T09:26:58]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=2984958&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T09:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>18/11/2026</pubDate>
+	<description>SERVIZI DI MANUTENZIONE PER I PRODOTTI SOFTWARE IBM DB2 PER IL PERIODO GENNAIO 2027 - DICEMBRE 2028&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[SERVIZI DI MANUTENZIONE PER I PRODOTTI SOFTWARE IBM DB2 PER IL PERIODO GENNAIO 2027 - DICEMBRE 2028]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[Trentino Digitale S.p.a.]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Trentino Digitale S.p.a.]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[185.000,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDCAA9C832]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[2984958]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Servizio di manutenzione sw IBM DB2]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-18T16:50:52]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[72000000-5 - Servizi informatici: consulenza, sviluppo di software, Internet e supporto]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-18T16:50:52]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Avviso ]]></title>
+	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=3009954&tipobando=Avviso&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T10:00:00]]></link>
+	<category>Avviso</category>
+	<pubDate>13/11/2026</pubDate>
+	<description>INDAGINE DI MERCATO PER LA CONSULTAZIONE TRA PIU’ OPERATORI ECONOMICI AI FINI DELL’AFFIDAMENTO TRAMITE PROCEDURA NEGOZIATA SENZA PUBBLICAZIONE DEL BANDO DEL SERVIZIO DI SUPPORTO BIBLIOTECARIO (SEDI DI MEZZOLOMBARDO, CAMPODENNO, SPORMINORE E TON): PERIODO DI ANNI 3 CON OPZIONE DI PROROGA PER ULTERIORI ANNI 2.&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[INDAGINE DI MERCATO PER LA CONSULTAZIONE TRA PIU’ OPERATORI ECONOMICI AI FINI DELL’AFFIDAMENTO TRAMITE PROCEDURA NEGOZIATA SENZA PUBBLICAZIONE DEL BANDO DEL SERVIZIO DI SUPPORTO BIBLIOTECARIO (SEDI DI MEZZOLOMBARDO, CAMPODENNO, SPORMINORE E TON): PERIODO DI ANNI 3 CON OPZIONE DI PROROGA PER ULTERIORI ANNI 2.]]> <a href="https://contracta.provincia.tn.it//application/backoffice/loginportale.asp?URL=../CTL_LIBRARY/DOCUMENT/DownloadAttach.asp?TMP_DIFF=2026-11-27%26DOCUMENT=BANDO_GARA%26OPERATION=DOWNLOAD%26URL_EXTRA_ATTACH=../../Report/avvisi_di_revoca.asp,../../Report/avvisi_di_proroga.asp,../../Report/avvisi_di_rettifica.asp%26IDDOC=3009954" title="Scarica Allegati">Scarica Allegati</a> </afs:Oggetto>
+    <afs:Tipo><![CDATA[Avviso]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[Comune di Mezzolombardo]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[Comune di Mezzolombardo]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[177.855,72]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDCBCE1BC6]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[3009954]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Manifestazione di interesse per l'affidamento del servizio di supporto bibliotecario presso la biblioteca intercomunale di Mezzolombardo, Campodenno, Sporminore e Ton]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-24T11:46:07]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[92511000-6 - Servizi di biblioteche]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-13T11:32:05]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://contracta.provincia.tn.it//portale/index.php/bandi?getdettaglio=yes&bando=2976753&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>05

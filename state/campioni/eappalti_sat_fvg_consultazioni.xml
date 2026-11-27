@@ -5,6 +5,43 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>0</afs:totRecord>
-</channel>
+<afs:totRecord>1</afs:totRecord>
+<item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://eappalti-sat.regione.fvg.it/portale/index.php/?getdettaglio=yes&bando=358031&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-16T12:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>27/11/2026</pubDate>
+	
+	<description>
+AVVISO PUBBLICO CONSULTAZIONI PRELIMINARI DI MERCATO AI SENSI DELL’ART. 77 DEL D.LGS. 36/2023 E S.M.I. PROPEDEUTICHE ALL’INDIZIONE DI UNA GARA EUROPEA A PROCEDURA APERTA PER LA STIPULA DI CONVENZIONI AVENTI AD OGGETTO L’AFFIDAMENTO DEL SERVIZIO DI PREVENZIONE E PROTEZIONE E DEL SERVIZIO DI SORVEGLIANZA SANITARIA A FAVORE DI AMMINISTRAZIONI DELLA REGIONE AUTONOMA FRIULI VENEZIA GIULIA 2^ ED. [CODICE INIZIATIVA: 25PGR218].
+&lt;strong&gt;Scadenza : 16/12/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[AVVISO PUBBLICO CONSULTAZIONI PRELIMINARI DI MERCATO AI SENSI DELL’ART. 77 DEL D.LGS. 36/2023 E S.M.I. PROPEDEUTICHE ALL’INDIZIONE DI UNA GARA EUROPEA A PROCEDURA APERTA PER LA STIPULA DI CONVENZIONI AVENTI AD OGGETTO L’AFFIDAMENTO DEL SERVIZIO DI PREVENZIONE E PROTEZIONE E DEL SERVIZIO DI SORVEGLIANZA SANITARIA A FAVORE DI AMMINISTRAZIONI DELLA REGIONE AUTONOMA FRIULI VENEZIA GIULIA 2^ ED. [CODICE INIZIATIVA: 25PGR218].
+]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[REGIONE AUTONOMA FRIULI VENEZIA GIULIA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-16T12:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[358031]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[CPM SERVIZIO DI PREVENZIONE E PROTEZIONE E SERVIZIO DI SORVEGLIANZA SANITARIA A FAVORE DI AMMINISTRAZIONI DELLA REGIONE FVG 2^ ED.]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T11:57:27.353]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-27T11:57:27]]></afs:DtPubblicazioneTecnical>
+	
+</item></channel>
 </rss>

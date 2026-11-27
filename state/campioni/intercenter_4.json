@@ -443,18 +443,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18567607", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_PORTALE@18567607", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-13T00:00:00+01:00", 
       "Description": "Avviso per la consultazione di mercato avente ad oggetto la fornitura, configurazione, avviamento e manutenzione di un sistema software per la gestione del Registro Elettronico degli Stupefacenti per l\u2019Azienda Ospedaliero-Universitaria (Capofila) e l\u2019Azienda USL di Parma  (Ai sensi dell\u2019art. 77 Consultazioni preliminari di mercato del D.Lgs. 36/2023)  Durata presunta del servizio di manutenzione: MESI 36 (trentasei)", 
       "Subject": [], 
       "Title": "Consultazione software gestione stupefacenti", 
-      "UID": "a635f47ec5b84c5095478b7f47925e81", 
+      "UID": "4a693b5d083a4edfafbe6cf3c8802e7c", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "Avviso per la consultazione di mercato avente ad oggetto la fornitura, configurazione, avviamento e manutenzione di un sistema software per la gestione del Registro Elettronico degli Stupefacenti per l\u2019Azienda Ospedaliero-Universitaria (Capofila) e l\u2019Azienda USL di Parma  (Ai sensi dell\u2019art. 77 Consultazioni preliminari di mercato del D.Lgs. 36/2023)  Durata presunta del servizio di manutenzione: MESI 36 (trentasei)", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -965,4 +965,4 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-ac
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-

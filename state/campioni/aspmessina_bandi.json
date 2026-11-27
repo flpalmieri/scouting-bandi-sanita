@@ -1,16 +1,4 @@
 {
- "totale_dichiarato": 1,
- "voci": [
-  {
-   "ente": "Azienda Sanitaria Provinciale di Messina - Ufficio Provveditorato",
-   "titolo": "Indagine di mercato per eventuale successiva procedura negoziata telematica tramite piattaforma aziendale, senza bando ai sensi dell'art. 50, comma 1, lettera e), del d.lgs. n. 36/2023 suddivisa in nn.38 lotti unici e indivisibili, per la fornitura triennale di reagenti e materiale di laboratorio occorrenti alla U.O.C. di Anatomia Patologica P.O. di Taormina ed alla U.O.S. di Citopatologia e Biologia Molecolare di Messina.",
-   "tipologia": "Forniture",
-   "importo": "161.507,00 €",
-   "pubblicazione": "29/10/2026",
-   "scadenza": "27/11/2026 entro le 12:00",
-   "codice": "G13584",
-   "stato": "In corso",
-   "link": "https://aspmessina-appalti.maggiolicloud.it/PortaleAppalti/it/ppgare_bandi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Bandi/view.action&currentFrame=7&codice=G13584"
-  }
- ]
+ "totale_dichiarato": 0,
+ "voci": []
 }

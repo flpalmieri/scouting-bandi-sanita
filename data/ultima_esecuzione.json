@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-27T10:53:57+00:00",
+  "eseguito_il": "2026-11-27T11:05:21+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -23,7 +23,7 @@
     },
     "plone": {
       "esito": "ok",
-      "pertinenti": 5
+      "pertinenti": 4
     },
     "centrale_acquisti": {
       "esito": "ok",
@@ -54,6 +54,6 @@
     "portali_rss: IZS Puglia e Basilicata: 415 Client Error: Unsupported Media Type for url: https://portale.izspb.it/feed/?post_type=avcp",
     "maggioli: SUA-RB: SUA-RB bandi: 404 Client Error: Not Found for url: https://www.sua-rb.it/PortaleAppalti/it/ppgare_bandi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Bandi/listAllBandi.action&currentFrame=7&model.stato=1&model.iDisplayLength=100; SUA-RB avvisi: 404 Client Error: Not Found for url: https://www.sua-rb.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/listAllAvvisi.action&currentFrame=7&model.stato=1&model.iDisplayLength=100"
   ],
-  "nuove_opportunita": 1,
+  "nuove_opportunita": 0,
   "totale": 136
 }

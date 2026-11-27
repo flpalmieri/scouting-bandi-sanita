@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>73</afs:totRecord>
+<afs:totRecord>74</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4791861&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T12:30:00]]></link>
@@ -320,7 +320,7 @@ Indagine di mercato/avviso esplorativo per la presentazione di manifestazioni di
 
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4848959&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-30T12:00:00]]></link>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4848959&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-30T12:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>19/11/2026</pubDate>
 	
@@ -345,7 +345,7 @@ INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DELL’O.E. A CUI AFFIDAR
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -443,4 +443,4 @@ Procedura aperta per l&#39;affidamento della fornitura di medicazioni speciali&l
 	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
 	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
 	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T16:30:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:Protoc
+	<afs:ProtocolloBando><![CDATA[]]></afs:Protocol

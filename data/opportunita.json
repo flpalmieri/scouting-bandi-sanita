@@ -1,5 +1,5 @@
 {
- "aggiornato_il": "2026-11-27T10:53:57+00:00",
+ "aggiornato_il": "2026-11-27T11:05:21+00:00",
  "totale": 136,
  "opportunita": [
   {
@@ -1743,7 +1743,7 @@
    "cpv": [],
    "cig": [],
    "tipo": "Consultazione Preliminare di Mercato",
-   "link": "https://siaps.soresa.it/portalegare/index.php/bandi?getdettaglio=yes&bando=4850916&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-03T12:00:00",
+   "link": "https://siaps.soresa.it/portalegare/index.php/bandi?getdettaglio=yes&bando=4850916&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-03T12:00:00",
    "regione": "Campania",
    "motivo_match": "Ente sanitario + oggetto IT ('software')",
    "descrizione": null,
@@ -1998,7 +1998,7 @@
    "cpv": [],
    "cig": [],
    "tipo": "Consultazione Preliminare di Mercato",
-   "link": "https://siaps.soresa.it/portalegare/index.php/bandi?getdettaglio=yes&bando=4853046&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-07T12:00:00",
+   "link": "https://siaps.soresa.it/portalegare/index.php/bandi?getdettaglio=yes&bando=4853046&tipobando=Consultazione%20Preliminare%20di%20Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-12-07T12:00:00",
    "regione": "Campania",
    "motivo_match": "Ente sanitario + oggetto IT ('manutenzione correttiva')",
    "descrizione": null,
