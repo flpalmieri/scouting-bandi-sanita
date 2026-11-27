@@ -5,28 +5,28 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>313</afs:totRecord>
+<afs:totRecord>319</afs:totRecord>
 <item>
 	<title><![CDATA[Invito ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1107750&tipobando=Invito&RicQ=NO&VisQ=NO&tipoDoc=AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&xslt=XSLT_AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&scadenzaBando=2026-11-27T12:03:19.900]]></link>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1107229&tipobando=Invito&RicQ=NO&VisQ=NO&tipoDoc=AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&xslt=XSLT_AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&scadenzaBando=2026-11-27T12:18:26.477]]></link>
 	<category>Invito</category>
 	<pubDate>27/11/2026</pubDate>
-	<description>SERVIZIO DI GESTIONE INTEGRATA DELLE POSTAZIONI DI LAVORO (PDCL) E AMMINISTRATORE DI SISTEMA 2026 - 2028&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[SERVIZIO DI GESTIONE INTEGRATA DELLE POSTAZIONI DI LAVORO (PDCL) E AMMINISTRATORE DI SISTEMA 2026 - 2028]]>  </afs:Oggetto>
+	<description>Servizio di gestione ed elaborazione paghe - &quot;Nuovi interventi in favore dei lavoratori e delle lavoratrici ex Sardinia Green Island, Keller, Vesuvius, Ottana Polimeri e Ottana Energia, S&amp;B Olmedo, Sittel e Unilever, destinatari di procedura di licenziamento collettivo. LL.RR. n. 48/2018, n. 9/2019, n. 22/2020 e n. 30/2021 DGR n. 38/56 del 21.12.2022, n. 13/51 del 6.4.2023 e n. 28/3 del 24.8.2023&quot;. Affidamento ed impegno spesa.&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Servizio di gestione ed elaborazione paghe - "Nuovi interventi in favore dei lavoratori e delle lavoratrici ex Sardinia Green Island, Keller, Vesuvius, Ottana Polimeri e Ottana Energia, S&B Olmedo, Sittel e Unilever, destinatari di procedura di licenziamento collettivo. LL.RR. n. 48/2018, n. 9/2019, n. 22/2020 e n. 30/2021 DGR n. 38/56 del 21.12.2022, n. 13/51 del 6.4.2023 e n. 28/3 del 24.8.2023". Affidamento ed impegno spesa.]]>  </afs:Oggetto>
     <afs:Tipo><![CDATA[Invito]]></afs:Tipo>
 	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI ARZANA]]></afs:DenominazioneEnte>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI VILLASOR]]></afs:DenominazioneEnte>
     <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
 	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[8.032,79]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:03:19.900]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:a_base_asta><![CDATA[2.400,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:18:26.477]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BE05C1A6E0]]></afs:CIG>
 	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
     <afs:TipoProcedura><![CDATA[]]></afs:TipoProcedura>
 	<afs:TipoDocOriginal><![CDATA[AFFIDAMENTO_SENZA_NEGOZIAZIONE]]></afs:TipoDocOriginal>
 	<afs:statoFunzionale><![CDATA[Pubblicato]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1107750]]></afs:IdMsg>
+	<afs:IdMsg><![CDATA[1107229]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE]]></afs:xslt>
@@ -34,14 +34,14 @@
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[1]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[SERVIZIO DI GESTIONE INTEGRATA DELLE POSTAZIONI DI LAVORO (PDCL) E AMMINISTRATORE DI SISTEMA 2026 - 2028]]></afs:TitoloDocumento>
+	<afs:TitoloDocumento><![CDATA[Servizio di gestione ed elaborazione paghe - "Nuovi interventi in favore dei lavoratori e delle lavoratrici ex Sardinia Green Island, Keller, Vesuvius, Ottana Polimeri e Ottana Energia, S&B Olmedo, Sittel e Unilever, destinatari di procedura di licen]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-27T12:03:19]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[72311300-1 - Servizi informatici di time sharing]]></afs:CPV>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T12:18:26]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[79211110-0 - Servizi di gestione retribuzioni]]></afs:CPV>
     <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-27T12:03:19]]></afs:DtPubblicazioneTecnical>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-27T12:18:26]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1067175&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T13:00:00]]></link>
@@ -357,16 +357,4 @@ c) Piano gestione del rischio alluvioni (PGRA). Contributi ai Comuni per l’att
 	<afs:IdMsg><![CDATA[1100411]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Copia di AFF_Diretto_PAI]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-27T09:20:06]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71351220-1 - Servizi di consulenza geologica]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T13:10:49]
+	

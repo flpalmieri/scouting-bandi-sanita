@@ -1,6 +1,14 @@
 {
- "totale_dichiarato": 4,
+ "totale_dichiarato": 5,
  "gare": [
+  {
+   "id": 414,
+   "riferimento": null,
+   "titolo": "PROCEDURA APERTA TELEMATICA AI SENSI DELL’ART. 71 DEL D.LGS. 36/2023 PER LA FORNITURA IN SERVICE, SUDDIVISA IN TRE LOTTI, DI SISTEMI DIAGNOSTICI DI LABORATORIO PER L’U.O.C. MICROBIOLOGIA E VIROLOGIA DELL’AZIENDA OSPEDALIERA DI COSENZA",
+   "scadenza": "2027-01-07",
+   "pubblicazione": "2026-11-27",
+   "nota": null
+  },
   {
    "id": 413,
    "riferimento": null,
