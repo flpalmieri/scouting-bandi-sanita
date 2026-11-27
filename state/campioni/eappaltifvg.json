@@ -47,15 +47,6 @@
    "id": "26330"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
-   "protocollo": "",
-   "titolo": "24SER049 SERVIZIO DI ABBATTIMENTO ANIMALI",
-   "tipologia": "Servizi",
-   "scadenza": "30/11/2026 13:00",
-   "id": "26125"
-  },
-  {
    "procedura": "Procedura aziendale",
    "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
    "protocollo": "",
@@ -101,13 +92,13 @@
    "id": "25765"
   },
   {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "procedura": "UE - Procedura Aperta",
+   "ente": "Insiel",
    "protocollo": "",
-   "titolo": "26INV015 -CONSULTAZIONE PRELIMINARE - PROCEDURA PER L'AFFIDAMENTO DELLA FORNITURA COMPRENSIVA DI MANUTENZIONE FULL-RISK DI SISTEMI DI VENTILAZIONE POLMONARE PER LE AZIENDE DEL SSR FVG",
+   "titolo": "ID 8521 - Fornitura di codici a catalogo per evoluzione e manutenzione della piattaforma firewalling in uso Insiel per un periodo di 36 mesi",
    "tipologia": "Forniture",
    "scadenza": "03/12/2026 12:00",
-   "id": "26337"
+   "id": "26175"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -119,6 +110,15 @@
    "id": "26182"
   },
   {
+   "procedura": "Manifestazione di Interesse",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "26INV015 -CONSULTAZIONE PRELIMINARE - PROCEDURA PER L'AFFIDAMENTO DELLA FORNITURA COMPRENSIVA DI MANUTENZIONE FULL-RISK DI SISTEMI DI VENTILAZIONE POLMONARE PER LE AZIENDE DEL SSR FVG",
+   "tipologia": "Forniture",
+   "scadenza": "03/12/2026 12:00",
+   "id": "26337"
+  },
+  {
    "procedura": "Affidamento diretto",
    "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
    "protocollo": "",
@@ -126,15 +126,6 @@
    "tipologia": "Forniture",
    "scadenza": "03/12/2026 12:00",
    "id": "26319"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "Insiel",
-   "protocollo": "",
-   "titolo": "ID 8521 - Fornitura di codici a catalogo per evoluzione e manutenzione della piattaforma firewalling in uso Insiel per un periodo di 36 mesi",
-   "tipologia": "Forniture",
-   "scadenza": "03/12/2026 12:00",
-   "id": "26175"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -146,15 +137,6 @@
    "id": "26310"
   },
   {
-   "procedura": "Altro",
-   "ente": "COMUNE DI VISCO",
-   "protocollo": "",
-   "titolo": "Servizio di project management relativo al progetto sovracomunale di rigenerazione urbana denominato “Museo diffuso della resistenza del Friuli Venezia Giulia” tra i Comuni di Gonars, Palmanova e Visco",
-   "tipologia": "Servizi",
-   "scadenza": "04/12/2026 12:00",
-   "id": "26375"
-  },
-  {
    "procedura": "UE - Procedura Negoziata",
    "ente": "Centrale unica di committenza FVG",
    "protocollo": "",
@@ -162,6 +144,15 @@
    "tipologia": "Forniture",
    "scadenza": "04/12/2026 12:00",
    "id": "26348"
+  },
+  {
+   "procedura": "Altro",
+   "ente": "COMUNE DI VISCO",
+   "protocollo": "",
+   "titolo": "Servizio di project management relativo al progetto sovracomunale di rigenerazione urbana denominato “Museo diffuso della resistenza del Friuli Venezia Giulia” tra i Comuni di Gonars, Palmanova e Visco",
+   "tipologia": "Servizi",
+   "scadenza": "04/12/2026 12:00",
+   "id": "26375"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -200,13 +191,13 @@
    "id": "26386"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE DI UDINE",
+   "procedura": "Altro",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
    "protocollo": "",
-   "titolo": "2026_Servizio call center",
+   "titolo": "FC26SER033 | Co-progettazione per la messa a disposizione di autoemoteche e la gestione integrata delle attività connesse, favorendo la promozione del dono, l'accoglienza dei donatori ed il potenziamento delle raccolte di sangue",
    "tipologia": "Servizi",
    "scadenza": "09/12/2026 12:00",
-   "id": "26159"
+   "id": "26290"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -236,22 +227,13 @@
    "id": "26241"
   },
   {
-   "procedura": "Altro",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "procedura": "UE - Procedura Aperta",
+   "ente": "AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE DI UDINE",
    "protocollo": "",
-   "titolo": "FC26SER033 | Co-progettazione per la messa a disposizione di autoemoteche e la gestione integrata delle attività connesse, favorendo la promozione del dono, l'accoglienza dei donatori ed il potenziamento delle raccolte di sangue",
+   "titolo": "2026_Servizio call center",
    "tipologia": "Servizi",
    "scadenza": "09/12/2026 12:00",
-   "id": "26290"
-  },
-  {
-   "procedura": "Procedura non europea",
-   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
-   "protocollo": "",
-   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
-   "tipologia": "Servizi",
-   "scadenza": "10/12/2026 12:00",
-   "id": "26269"
+   "id": "26159"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -264,6 +246,15 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
+   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
+   "protocollo": "",
+   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
+   "tipologia": "Servizi",
+   "scadenza": "10/12/2026 12:00",
+   "id": "26237"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
    "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
    "protocollo": "",
    "titolo": "SERVIZIO DI ACCOMPAGNAMENTO E DI TRASPORTO CON AUTOMEZZI ATTREZZATI ED OMOLOGATI PER IL TRASPORTO DEI PAZIENTI NEFROPATICI SOTTOPOSTI A TRATTAMENTO DIALITICO PER ASUGI",
@@ -272,13 +263,13 @@
    "id": "25989"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
+   "procedura": "Procedura non europea",
+   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
    "protocollo": "",
-   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
+   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
    "tipologia": "Servizi",
    "scadenza": "10/12/2026 12:00",
-   "id": "26237"
+   "id": "26269"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -354,15 +345,6 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "Comune di San Vito al Tagliamento",
-   "protocollo": "",
-   "titolo": "Gestione asilo nido 2027/2031",
-   "tipologia": "Servizi",
-   "scadenza": "18/12/2026 12:00",
-   "id": "26314"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
    "ente": "Centrale unica di committenza FVG",
    "protocollo": "",
    "titolo": "Servizio di fornitura pasti a domicilio a favore degli Ambiti territoriali per la gestione associata del Servizio Sociale dei Comuni (SSC) [Codice iniziativa: 26PGR309]",
@@ -372,12 +354,21 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "FRIULI VENEZIA GIULIA STRADE S.P.A.",
+   "ente": "Comune di San Vito al Tagliamento",
    "protocollo": "",
-   "titolo": "Procedura Aperta 07-2026 – FVGS - Servizio triennale di brokeraggio assicurativo.",
+   "titolo": "Gestione asilo nido 2027/2031",
    "tipologia": "Servizi",
-   "scadenza": "21/12/2026 12:00",
-   "id": "26263"
+   "scadenza": "18/12/2026 12:00",
+   "id": "26314"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "24SER049 SERVIZIO DI ABBATTIMENTO ANIMALI",
+   "tipologia": "Servizi",
+   "scadenza": "18/12/2026 13:00",
+   "id": "26125"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -387,6 +378,15 @@
    "tipologia": "Servizi",
    "scadenza": "21/12/2026 12:00",
    "id": "26260"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "FRIULI VENEZIA GIULIA STRADE S.P.A.",
+   "protocollo": "",
+   "titolo": "Procedura Aperta 07-2026 – FVGS - Servizio triennale di brokeraggio assicurativo.",
+   "tipologia": "Servizi",
+   "scadenza": "21/12/2026 12:00",
+   "id": "26263"
   },
   {
    "procedura": "UE - Procedura Aperta",

@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-27T11:20:49+00:00",
- "totale": 136,
+ "aggiornato_il": "2026-11-27T14:44:19+00:00",
+ "totale": 138,
  "opportunita": [
   {
    "id": "ted:660706-2026",
@@ -2026,6 +2026,28 @@
    "ultimo_rilevamento": "2026-11-27"
   },
   {
+   "id": "intercenter:a4228b57f874",
+   "fonti": [
+    "Intercent-ER"
+   ],
+   "titolo": "Copia di PN per la fornitura in acquisto di moduli Hardware e Software sviluppati dalla ditta Philips per la RM Philips 3.0T di proprietàdell’IRCCS Azienda Ospedaliero - Universitaria di Bologna Policlinico Sant’Orsola",
+   "ente": "AZIENDA USL DI BOLOGNA",
+   "scadenza": "2026-12-07",
+   "pubblicazione": "2026-11-27",
+   "importo": 314374.4,
+   "cpv": [],
+   "cig": [
+    "BE05B13DD5"
+   ],
+   "tipo": "bando",
+   "link": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18887290",
+   "regione": "Emilia-Romagna",
+   "motivo_match": "Ente sanitario + oggetto IT ('Software')",
+   "descrizione": "PN, ai sensi dell’articolo 76 comma 4 lett. b) del D.Lgs 36/2023, senza pubblicazione di bando, per la fornitura in acquisto di moduli hardware e software sviluppati dalla ditta Philips per la Risonanza magnetica Philips Ingenia 3.0T acquistata dalla Convenzione Consip “AQ per la fornitura di Tomografi a Risonanza Magnetica (RM) – Lotto 2: Tomografi a Risonanza Magnetica (RM) 3.0 Tesla” di proprietà dell’IRCCS Azienda Ospedaliero - Universitaria di Bologna Policlinico Sant’Orsola; Progetto finanziato parte dal PNRR Mission 6 Componente 2 – Investimeno 2.1 – CUP: F33C24000230006 e parte dai Fon",
+   "primo_rilevamento": "2026-11-27",
+   "ultimo_rilevamento": "2026-11-27"
+  },
+  {
    "id": "intercenter:9bc9c1212814",
    "fonti": [
     "Intercent-ER"
@@ -2304,6 +2326,28 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72250000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-24",
+   "ultimo_rilevamento": "2026-11-27"
+  },
+  {
+   "id": "placevda:1376599",
+   "fonti": [
+    "PlaCe-VdA"
+   ],
+   "titolo": "Rinnovo licenze TrendAI - Anno 2027",
+   "ente": "IN.VA. S.P.A.",
+   "scadenza": "2026-12-11",
+   "pubblicazione": "2026-11-27",
+   "importo": 16000.0,
+   "cpv": [
+    "48761000"
+   ],
+   "cig": [],
+   "tipo": "Avviso",
+   "link": "https://place-vda.aflink.it/portale/index.asp",
+   "regione": "Valle d'Aosta",
+   "motivo_match": "Soggetto aggregatore + CPV IT (48761000) - da verificare",
+   "descrizione": null,
+   "primo_rilevamento": "2026-11-27",
    "ultimo_rilevamento": "2026-11-27"
   },
   {

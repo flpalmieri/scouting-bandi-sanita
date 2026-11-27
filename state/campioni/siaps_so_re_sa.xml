@@ -5,44 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>74</afs:totRecord>
+<afs:totRecord>75</afs:totRecord>
 <item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4791861&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T12:30:00]]></link>
-	<category>Bando</category>
-	<pubDate>19/10/2026</pubDate>
-	
-	<description>
-&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; PROCEDURA APERTA PER L’AFFIDAMENTO DELLA FORNITURA DI DISPOSITIVI PER EMODINAMICA E CARDIOLOGIA INTERVENTISTICA PER UOC CARDIOLOGIA DEL P.O. di  ARIANO Irpino
-&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> PROCEDURA APERTA PER L’AFFIDAMENTO DELLA FORNITURA DI DISPOSITIVI PER EMODINAMICA E CARDIOLOGIA INTERVENTISTICA PER UOC CARDIOLOGIA DEL P.O. di  ARIANO Irpino
-]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[A.S.L. AVELLINO]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[8.770.224,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:30:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4791861]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[Farmaci e Disp. Medici]]></afs:ambito>
-	<afs:CPV><![CDATA[33140000-3 - Materiali medici]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-19T09:57:10]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4832842&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T16:30:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
@@ -177,44 +141,6 @@ PROCEDURA TELEMATICA APERTA, AI SENSI DELL’ART. 71 DEL D. LGS. N. 36/2023 E S.
 	<afs:CPV><![CDATA[66510000-8 - Servizi assicurativi]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-19T10:40:14]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4813215&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-30T12:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>21/10/2026</pubDate>
-	
-	<description>
-PROCEDURA APERTA, AI SENSI DELL’ART. 71 DEL CODICE, PER L’AFFIDAMENTO DELLA FORNITURA, DEL TRASPORTO E DELLA POSA IN OPERA DI ARREDI PER LE ESIGENZE DELL’EDIFICIO 2 – “PROGETTO CICOGNA” DELL’A.O.U. FEDERICO II, CON AGGIUDICAZIONE AI SENSI DELL’ART. 108, CO. 1, DEL CODICE NEI CONFRONTI DELL’OFFERTA ECONOMICAMENTE PI&#217; VANTAGGIOSA DETERMINATA SULLA BASE DEL MIGLIOR RAPPORTO PREZZO QUALIT&#192; (OEPV), PER UN IMPORTO COMPLESSIVO PRESUNTO MASSIMO DI € 352.459,00, OLTRE IVA
-
-&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[PROCEDURA APERTA, AI SENSI DELL’ART. 71 DEL CODICE, PER L’AFFIDAMENTO DELLA FORNITURA, DEL TRASPORTO E DELLA POSA IN OPERA DI ARREDI PER LE ESIGENZE DELL’EDIFICIO 2 – “PROGETTO CICOGNA” DELL’A.O.U. FEDERICO II, CON AGGIUDICAZIONE AI SENSI DELL’ART. 108, CO. 1, DEL CODICE NEI CONFRONTI DELL’OFFERTA ECONOMICAMENTE PIÙ VANTAGGIOSA DETERMINATA SULLA BASE DEL MIGLIOR RAPPORTO PREZZO QUALITÀ (OEPV), PER UN IMPORTO COMPLESSIVO PRESUNTO MASSIMO DI € 352.459,00, OLTRE IVA
-
-]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[A.O.U. POLICLINICO FEDERICO II]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[352.929,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T12:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4813215]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[Altri Beni]]></afs:ambito>
-	<afs:CPV><![CDATA[39100000-3 - Mobili]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-10-21T13:37:32]]></afs:DtPubblicazioneTecnical>
 
 </item><item>
 	<title><![CDATA[Bando ]]></title>
@@ -443,4 +369,85 @@ Procedura aperta per l&#39;affidamento della fornitura di medicazioni speciali&l
 	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
 	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
 	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T16:30:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:Protocol
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4833843]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[]]></afs:ambito>
+	<afs:CPV><![CDATA[]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-11T10:30:08]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4837092&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-30T16:30:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>12/11/2026</pubDate>
+	
+	<description>
+D.M. “filtri monouso per spirometro ed apparecchio ossido nitrico esalato”&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[D.M. “filtri monouso per spirometro ed apparecchio ossido nitrico esalato”]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[A.O. SAN GIUSEPPE MOSCATI]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.O. SAN GIUSEPPE MOSCATI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T16:30:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4837092]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[]]></afs:ambito>
+	<afs:CPV><![CDATA[]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-12T16:39:08]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4697088&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-30T18:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>18/09/2026</pubDate>
+	
+	<description>
+&lt;strong&gt;Procedura Ripristinata - &lt;/strong&gt; Riapertura termini - PROCEDURA APERTA PER L’ AFFIDAMENTO DELLA FORNITURA DI AGHI, SIRINGHE, AGHI CANNULA E AGHI PER ANESTESIA PER LE ESIGENZE DELLE AA.SS.RR. DELLA REGIONE CAMPANIA&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[<strong>Procedura Ripristinata - </strong> Riapertura termini - PROCEDURA APERTA PER L’ AFFIDAMENTO DELLA FORNITURA DI AGHI, SIRINGHE, AGHI CANNULA E AGHI PER ANESTESIA PER LE ESIGENZE DELLE AA.SS.RR. DELLA REGIONE CAMPANIA]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[SoReSa SPA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[69.678.349,97]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T18:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4697088]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[Farmaci e Disp. Medici]]></afs:ambito>
+	<afs:CPV><![CDATA[33141320-9 - Aghi per uso medico]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-18T08:11:18]]></afs:DtPubblicazi

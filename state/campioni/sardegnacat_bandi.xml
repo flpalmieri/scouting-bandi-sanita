@@ -5,224 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>319</afs:totRecord>
+<afs:totRecord>336</afs:totRecord>
 <item>
-	<title><![CDATA[Invito ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1107229&tipobando=Invito&RicQ=NO&VisQ=NO&tipoDoc=AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&xslt=XSLT_AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE&scadenzaBando=2026-11-27T12:18:26.477]]></link>
-	<category>Invito</category>
-	<pubDate>27/11/2026</pubDate>
-	<description>Servizio di gestione ed elaborazione paghe - &quot;Nuovi interventi in favore dei lavoratori e delle lavoratrici ex Sardinia Green Island, Keller, Vesuvius, Ottana Polimeri e Ottana Energia, S&amp;B Olmedo, Sittel e Unilever, destinatari di procedura di licenziamento collettivo. LL.RR. n. 48/2018, n. 9/2019, n. 22/2020 e n. 30/2021 DGR n. 38/56 del 21.12.2022, n. 13/51 del 6.4.2023 e n. 28/3 del 24.8.2023&quot;. Affidamento ed impegno spesa.&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Servizio di gestione ed elaborazione paghe - "Nuovi interventi in favore dei lavoratori e delle lavoratrici ex Sardinia Green Island, Keller, Vesuvius, Ottana Polimeri e Ottana Energia, S&B Olmedo, Sittel e Unilever, destinatari di procedura di licenziamento collettivo. LL.RR. n. 48/2018, n. 9/2019, n. 22/2020 e n. 30/2021 DGR n. 38/56 del 21.12.2022, n. 13/51 del 6.4.2023 e n. 28/3 del 24.8.2023". Affidamento ed impegno spesa.]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Invito]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI VILLASOR]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[2.400,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T12:18:26.477]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BE05C1A6E0]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[AFFIDAMENTO_SENZA_NEGOZIAZIONE]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[Pubblicato]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1107229]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_AFFIDAMENTO_SENZA_NEGOZIAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[1]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Servizio di gestione ed elaborazione paghe - "Nuovi interventi in favore dei lavoratori e delle lavoratrici ex Sardinia Green Island, Keller, Vesuvius, Ottana Polimeri e Ottana Energia, S&B Olmedo, Sittel e Unilever, destinatari di procedura di licen]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-27T12:18:26]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[79211110-0 - Servizi di gestione retribuzioni]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-27T12:18:26]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1067175&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T13:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>17/11/2026</pubDate>
-	<description>Affidamento diretto del servizio di architettura e ingegneria per la progettazione, il coordinamento della sicurezza e la direzione dei lavori di riqualificazione impiantistica della mensa universitaria dell’ERSU di Sassari, sita in via dei Mille n. 102 – CUP D44D26004250002.&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Affidamento diretto del servizio di architettura e ingegneria per la progettazione, il coordinamento della sicurezza e la direzione dei lavori di riqualificazione impiantistica della mensa universitaria dell’ERSU di Sassari, sita in via dei Mille n. 102 – CUP D44D26004250002.]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[ENTE REGIONALE PER IL DIRITTO ALLO STUDIO UNIVERSITARIO-SS]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[138.298,34]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T13:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1067175]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Affidamento diretto SIA – Riqualificazione impiantistica mensa ERSU Sassari – CUP D44D26004250002]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-24T12:46:50]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71321000-4 - Servizi di progettazione tecnica per impianti meccanici ed elettrici di edifici]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T12:49:35]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1095457&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T13:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>25/11/2026</pubDate>
-	<description>Servizio di gestione del cantiere occupazionale - LavoRAS annualit&#224; 2026: Settore 3. “Edilizia” Cantiere 3.1  Progetti di manutenzione straordinaria di edifici del patrimonio pubblico sia in uso sia in concessione per finalit&#224; di inclusione sociale, welfare, istruzione e formazione&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Servizio di gestione del cantiere occupazionale - LavoRAS annualità 2026: Settore 3. “Edilizia” Cantiere 3.1  Progetti di manutenzione straordinaria di edifici del patrimonio pubblico sia in uso sia in concessione per finalità di inclusione sociale, welfare, istruzione e formazione]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI VILLASOR]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[9.608,45]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T13:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1095457]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[servizio di gestione del cantiere occupazionale: Settore 3. “Edilizia” Cantiere 3.1  Progetti di manutenzione straordinaria di edifici del patrimonio pubblico sia in uso sia in concessione per finalità di inclusione sociale, welfare, istruzione e for]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-26T11:46:10]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[50000000-5 - Servizi di riparazione e manutenzione]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T09:28:58]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1101885&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T13:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>25/11/2026</pubDate>
-	<description>Affidamento servizi di ingegneria e architettura di redazione della Valutazione Ambientale Strategica del Piano Urbanistico Comunale (P.U.C.) del Comune di Bari Sardo ai sensi del D. lgs 152/06 titolo II parte seconda e smmi e della DGR 67/50 del 23.12.2025&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Affidamento servizi di ingegneria e architettura di redazione della Valutazione Ambientale Strategica del Piano Urbanistico Comunale (P.U.C.) del Comune di Bari Sardo ai sensi del D. lgs 152/06 titolo II parte seconda e smmi e della DGR 67/50 del 23.12.2025]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI BARISARDO]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[14.000,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T13:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1101885]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Affidamento servizi di ingegneria e architettura di redazione della Valutazione Ambientale Strategica del Piano Urbanistico Comunale (P.U.C.) del Comune di Bari Sardo ai sensi del D. lgs 152/06 titolo II parte seconda e smmi e della DGR 67/50 del 23.]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-25T19:23:35]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71410000-5 - Servizi di urbanistica]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T19:23:35]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1101899&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T13:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>25/11/2026</pubDate>
-	<description>Affidamento servizi di ingegneria e architettura di redazione degli elaborati relativi alla parte agronomica nell’ambito dell’adeguamento dello strumento urbanistico comunale al PPR e al PAI.&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Affidamento servizi di ingegneria e architettura di redazione degli elaborati relativi alla parte agronomica nell’ambito dell’adeguamento dello strumento urbanistico comunale al PPR e al PAI.]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[COMUNE DI BARISARDO]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[12.216,01]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T13:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1101899]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Affidamento servizi di ingegneria e architettura di redazione degli elaborati relativi alla parte agronomica nell’ambito dell’adeguamento dello strumento urbanistico comunale al PPR e al PAI.]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-25T19:36:27]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[71410000-5 - Servizi di urbanistica]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T19:36:27]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1051377&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T14:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>10/11/2026</pubDate>
-	<description>Progetto per l’affidamento in concessione del servizio di erogazione alimenti e bevande tramite distributori automatici presso la Biblioteca Metropolitana “Emilio Lussu”. Ripetizione del servizio ai sensi dell&#39;art. 76, comma 6, del D. Lgs. n. 36/2023 per la durata di ulteriori tre anni (2027-2030)&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Progetto per l’affidamento in concessione del servizio di erogazione alimenti e bevande tramite distributori automatici presso la Biblioteca Metropolitana “Emilio Lussu”. Ripetizione del servizio ai sensi dell'art. 76, comma 6, del D. Lgs. n. 36/2023 per la durata di ulteriori tre anni (2027-2030)]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[CITTA' METROPOLITANA DI CAGLIARI]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[CITTA' METROPOLITANA DI CAGLIARI]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[18.150,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T14:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[BDBCD6392A]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1051377]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Progetto per affidamento concessione servizio erogazione alimenti e bevande tramite distributori automatici presso Biblioteca Metropolitana “E. Lussu” Ripetizione servizio ai sensi dell'art. 76, comma 6 D.Lgs. 36/2023 per ulteriore triennio 2027-30]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-26T11:02:22]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[15000000-8 - Prodotti alimentari, bevande, tabacco e prodotti affini]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-10T17:11:01]]></afs:DtPubblicazioneTecnical>
-</item><item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1057129&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T17:00:00]]></link>
 	<category>Bando</category>
@@ -357,4 +141,247 @@ c) Piano gestione del rischio alluvioni (PGRA). Contributi ai Comuni per l’att
 	<afs:IdMsg><![CDATA[1100411]]></afs:IdMsg>
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Copia di AFF_Diretto_PAI]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T09:20:06]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[71351220-1 - Servizi di consulenza geologica]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T13:10:49]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1069658&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T23:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>17/11/2026</pubDate>
+	<description>Affidamento anziano in struttura&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Affidamento anziano in struttura]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI SODDI']]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI SODDI']]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[12.100,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T23:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1069658]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[ Affidamento anziano in struttura]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-17T17:20:18]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[85311100-3 - Servizi di assistenza sociale per persone anziane]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-17T09:30:55]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1058421&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T23:59:00]]></link>
+	<category>Bando</category>
+	<pubDate>12/11/2026</pubDate>
+	<description>FORNITURA DI ARREDI DIDATTICI INNOVATIVI PER I NIDI D&#39;INFANZIA DI TERRALBA&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[FORNITURA DI ARREDI DIDATTICI INNOVATIVI PER I NIDI D'INFANZIA DI TERRALBA]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI TERRALBA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[154.918,03]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T23:59:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDC8790C43]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Negoziata]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1058421]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[FORNITURA DI ARREDI DIDATTICI INNOVATIVI PER I NIDI D'INFANZIA DI TERRALBA]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-26T06:30:34]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[39160000-1 - Arredo scolastico]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-12T17:00:33]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1096886&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T23:59:00]]></link>
+	<category>Bando</category>
+	<pubDate>25/11/2026</pubDate>
+	<description>Fornitura di apparecchiature e componenti per impianti tecnologici, comprensiva di posa, installazione e messa in servizio, nonch&#233; esecuzione di interventi accessori di analisi, manutenzione e ripristino funzionale presso il P.O. San Michele dell&#39;ARNAS G. Brotzu di Cagliari.&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Fornitura di apparecchiature e componenti per impianti tecnologici, comprensiva di posa, installazione e messa in servizio, nonché esecuzione di interventi accessori di analisi, manutenzione e ripristino funzionale presso il P.O. San Michele dell'ARNAS G. Brotzu di Cagliari.]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[AZIENDA OSPEDALIERA G BROTZU]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[16.608,63]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T23:59:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1096886]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Fornitura di apparecchiature e componenti per impianti tecnologici, comprensiva di posa, installazione e messa in servizio presso il P.O. San Michele dell'ARNAS G. Brotzu di Cagliari.]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T15:10:55]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[31682510-8 - Sistemi di alimentazione di emergenza]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T16:02:40]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1057095&tipobando=Bando&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-28T09:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>12/11/2026</pubDate>
+	<description>ADEMPIMENTI CONSEQUENZIALI ALLA DELIBERAZIONE DI GIUNTA COMUNALE N. 313/2026 - AVVIO DELLA PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA PER L&#39;AFFIDAMENTO DEI SERVIZI ORGANIZZATIVI/TECNICI PER L&#39;EVENTO &quot;CAPODANNO IN PIAZZA 2027&quot; CON IL CRITERIO DELL&#39;OFFERTA ECONOMICAMENTE PI&#217; VANTAGGIOSA – RIDUZIONE DEI TERMINI PER RAGIONI DI URGENZA AI SENSI DELL&#39;ART. 71, COMMA 3, DEL D.LGS. N. 36/2023 - APPROVAZIONE ATTI DI GARA  -  CUP E71D26000100003 &lt;strong&gt;Scadenza : 28/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[ADEMPIMENTI CONSEQUENZIALI ALLA DELIBERAZIONE DI GIUNTA COMUNALE N. 313/2026 - AVVIO DELLA PROCEDURA APERTA SOPRA SOGLIA COMUNITARIA PER L'AFFIDAMENTO DEI SERVIZI ORGANIZZATIVI/TECNICI PER L'EVENTO "CAPODANNO IN PIAZZA 2027" CON IL CRITERIO DELL'OFFERTA ECONOMICAMENTE PIÙ VANTAGGIOSA – RIDUZIONE DEI TERMINI PER RAGIONI DI URGENZA AI SENSI DELL'ART. 71, COMMA 3, DEL D.LGS. N. 36/2023 - APPROVAZIONE ATTI DI GARA  -  CUP E71D26000100003 ]]> <a href="https://sardegnacat.regione.sardegna.it/application/backoffice/loginportale.asp?URL=../CTL_LIBRARY/DOCUMENT/DownloadAttach.asp?TMP_DIFF=2026-11-27%26DOCUMENT=BANDO_GARA%26OPERATION=DOWNLOAD%26URL_EXTRA_ATTACH=../../Report/avvisi_di_revoca.asp,../../Report/avvisi_di_proroga.asp,../../Report/avvisi_di_rettifica.asp%26IDDOC=1057095" title="Scarica Allegati">Scarica Allegati</a> </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI SASSARI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[684.546,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-28T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[BDC8268AF7]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Aperta]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1057095]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[CAPODANNO IN PIAZZA 2027_COMUNE DI SASSARI]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T11:02:36]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[79952000-2 - Servizi di organizzazione di eventi]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-12T16:38:13]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1100594&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-28T11:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>25/11/2026</pubDate>
+	<description>Affidamento diretto del Servizio di gestione ed assunzione manodopera per occupazione finalizzata ad Interventi di manutenzione su viabilit&#224; comunale, Aree verdi e parchi Comunali&lt;strong&gt;Scadenza : 28/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Affidamento diretto del Servizio di gestione ed assunzione manodopera per occupazione finalizzata ad Interventi di manutenzione su viabilità comunale, Aree verdi e parchi Comunali]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNEDI TORPE']]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNEDI TORPE']]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[13.636,36]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-28T11:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1100594]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T13:54:15]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[45233141-9 - Lavori di manutenzione stradale]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T13:54:15]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1108938&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-28T11:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>27/11/2026</pubDate>
+	<description>Servizio Trasporto Anziani con conducente - ciclo di cure Termali- &lt;strong&gt;Scadenza : 28/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Servizio Trasporto Anziani con conducente - ciclo di cure Termali- ]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI FURTEI]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI FURTEI]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[1.650,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-28T11:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[Pubblicato]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1108938]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Senza Titolo]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T14:41:16]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[60000000-8 - Servizi di trasporto (escluso il trasporto di rifiuti)]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-27T14:41:16]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://sardegnacat.regione.sardegna.it/portale/index.php/bandi?getdettaglio=yes&bando=1067298&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-28T12:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>16/11/2026</pubDate>
+	<description>Affidamento diretto con negoziazione tramite piattaforma Sardegna CAT per il servizio di fornitura di monografie per la Biblioteca&lt;strong&gt;Scadenza : 28/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[Affidamento diretto con negoziazione tramite piattaforma Sardegna CAT per il servizio di fornitura di monografie per la Biblioteca]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[SARDEGNA RICERCHE]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[56.762,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-28T12:00:00]]></afs:DtScadenzaBa

@@ -1,5 +1,5 @@
 {
-  "eseguito_il": "2026-11-27T11:20:49+00:00",
+  "eseguito_il": "2026-11-27T14:44:19+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
@@ -7,7 +7,7 @@
     },
     "portali_rss": {
       "esito": "ok",
-      "pertinenti": 24
+      "pertinenti": 25
     },
     "portali_html": {
       "esito": "ok",
@@ -19,11 +19,11 @@
     },
     "sintel": {
       "esito": "ok",
-      "pertinenti": 25
+      "pertinenti": 24
     },
     "plone": {
       "esito": "ok",
-      "pertinenti": 4
+      "pertinenti": 5
     },
     "centrale_acquisti": {
       "esito": "ok",
@@ -51,10 +51,8 @@
     }
   },
   "errori": [
-    "portali_rss: IZS Puglia e Basilicata: 415 Client Error: Unsupported Media Type for url: https://portale.izspb.it/feed/?post_type=avcp",
-    "portali_html: SISGAP Regione Calabria: HTTPSConnectionPool(host='sisgap.regione.calabria.it', port=443): Max retries exceeded with url: /sisgap_estensione/Announcement/Bandi?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='sisgap.regione.calabria.it', port=443) at 0x70a5fc272a20>, 'Connection to sisgap.regione.calabria.it timed out. (connect timeout=20.0)'))",
-    "maggioli: SUA-RB: SUA-RB bandi: 404 Client Error: Not Found for url: https://www.sua-rb.it/PortaleAppalti/it/ppgare_bandi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Bandi/listAllBandi.action&currentFrame=7&model.stato=1&model.iDisplayLength=100; SUA-RB avvisi: 404 Client Error: Not Found for url: https://www.sua-rb.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/listAllAvvisi.action&currentFrame=7&model.stato=1&model.iDisplayLength=100"
+    "portali_html: SISGAP Regione Calabria: HTTPSConnectionPool(host='sisgap.regione.calabria.it', port=443): Max retries exceeded with url: /sisgap_estensione/Announcement/Bandi?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='sisgap.regione.calabria.it', port=443) at 0x75e727ef42c0>, 'Connection to sisgap.regione.calabria.it timed out. (connect timeout=20.0)'))"
   ],
-  "nuove_opportunita": 0,
-  "totale": 136
+  "nuove_opportunita": 2,
+  "totale": 138
 }

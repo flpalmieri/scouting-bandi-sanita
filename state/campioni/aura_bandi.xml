@@ -8,7 +8,7 @@
 <afs:totRecord>3</afs:totRecord>
 <item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://aura.puntozeroscarl.it/portale/index.php/bandi?getdettaglio=yes&bando=123490&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T13:00:00]]></link>
+	<link><![CDATA[https://aura.puntozeroscarl.it/portale/index.php/bandi?getdettaglio=yes&bando=123490&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T13:00:00]]></link>
 	<category>Bando</category>
 	<pubDate>25/11/2026</pubDate>
 	
@@ -37,7 +37,7 @@ Servizio di supporto specialistico in materia di Diritto del Lavoro e Diritto Ci
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>

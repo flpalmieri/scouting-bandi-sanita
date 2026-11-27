@@ -88,6 +88,28 @@
   ]
  },
  {
+  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18887290",
+  "title": "Copia di PN per la fornitura in acquisto di moduli Hardware e Software sviluppati dalla ditta Philips per la RM Philips 3.0T di proprietàdell’IRCCS Azienda Ospedaliero - Universitaria di Bologna Policlinico  Sant’Orsola",
+  "type": "BANDO_GARA_PORTALE",
+  "ente_appaltante": "AZIENDA USL DI BOLOGNA",
+  "stato_procedura": "Presentazione Offerte/Risposte",
+  "importo_appalto": "314.374,40 €",
+  "procedura_gara": "Negoziata",
+  "tipo_bando_gara": "Invito",
+  "criterio": "Prezzo più basso",
+  "scadenza": "2026-12-07T12:00:00+00:00",
+  "pubdate": "2026-11-27T11:19:13+00:00",
+  "sospeso": false,
+  "in_sospensione": false,
+  "cig": [
+   {
+    "codice": "BE05B13DD5",
+    "lotto": "1",
+    "descrizione": "FORNITURA  DI N.1 SISTEMA PER ADAPTIVE RADIOTHERAPY"
+   }
+  ]
+ },
+ {
   "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18303711",
   "title": "AFIDAMENTO DIRETTO DEI SERVIZI DI  LICENZE PER IL PROGRAMMA TEAMSYSTEM TS EXPERIENCE",
   "type": "BANDO_GARA_PORTALE",

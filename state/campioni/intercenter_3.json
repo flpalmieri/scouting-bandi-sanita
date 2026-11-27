@@ -153,18 +153,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-aperti/BANDO_GARA_PORTALE@18303569", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-avvisi-e-indagini-di-mercato/avvisi-altri-enti-chiusi/BANDO_GARA_PORTALE@18303569", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-11T00:00:00+01:00", 
       "Description": "INDAGINE DI MERCATO PER L' AFFIDAMENTO DEI LAVORI PER INTERVENTO DI RIPRISTINO DEI DANNI DOVUTI AGLI EVENTI ALLUVIONALI DEL 20 OTTOBRE 2024 PRESSO IL PALAZZETTO DELLO SPORT DI BUDRIO", 
       "Subject": [], 
       "Title": "INDAGINE DI MERCATO PER L'AFFIDAMENTO DEI LAVORI PER INTERVENTO DI RIPRISTINO DEI DANNI PRESSO PALAZZETTO DELLO SPORT DI BUDRIO", 
-      "UID": "d3a5cf75bc224265bbe3050b09eb60f5", 
+      "UID": "2621024ef4924851a990ce881ae7cf42", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "INDAGINE DI MERCATO PER L' AFFIDAMENTO DEI LAVORI PER INTERVENTO DI RIPRISTINO DEI DANNI DOVUTI AGLI EVENTI ALLUVIONALI DEL 20 OTTOBRE 2024 PRESSO IL PALAZZETTO DELLO SPORT DI BUDRIO", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -814,4 +814,4 @@
       "image_scales": null, 
       "mime_type": "text/plain", 
       "review_state": "published", 
-      "scadenza
+      "scaden
