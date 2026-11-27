@@ -2241,7 +2241,7 @@ maggioli:
     # "ASP Cosenza - Ingegneria Clinica".
     - <<: *maggioli_calabria
       nome: ASP Cosenza
-      abilitato: false
+      abilitato: true
       nome_fonte: Appalti ASP Cosenza
       sigla: aspcs
       host: "https://gareappalti.aspcs.it"
