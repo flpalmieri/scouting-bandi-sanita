@@ -1,16 +1,4 @@
 {
- "totale_dichiarato": 1,
- "voci": [
-  {
-   "ente": "U.O.C. Settore Provveditorato - Azienda Ospedaliera Universitaria Policlinico Gaetano Martino di Messina",
-   "tipologia": "Altro",
-   "titolo": "Avviso volontario per la trasparenza preventiva finalizzato all'acquisizione di dispositivi medici monouso per procedure endobariatriche, nello specifico \"Kit Sistema RESET\".",
-   "avviso_per": "Forniture",
-   "pubblicazione": "11/11/2026",
-   "scadenza": "26/11/2026",
-   "codice": "A00012",
-   "stato": "In corso",
-   "link": "https://policlinicomessina-appalti.maggiolicloud.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00012"
-  }
- ]
+ "totale_dichiarato": 0,
+ "voci": []
 }

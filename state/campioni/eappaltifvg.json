@@ -1,24 +1,6 @@
 {
- "totale_dichiarato": 76,
+ "totale_dichiarato": 75,
  "righe": [
-  {
-   "procedura": "Affidamento diretto",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
-   "protocollo": "",
-   "titolo": "servizio di dosimetria per persone e ambienti esposti a rischio da radiazioni ionizzanti.",
-   "tipologia": "Servizi",
-   "scadenza": "26/11/2026 18:00",
-   "id": "26277"
-  },
-  {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "COMUNE DI DUINO AURISINA",
-   "protocollo": "",
-   "titolo": "REALIZZAZIONE ATTRAVERSAMENTO PEDONALE RIALZATO LOCALITÀ DUINO E MANUTENZIONE STRADE IN VARIE LOCALITÀ COMUNALI - CUP B47H22004320004",
-   "tipologia": "Lavori",
-   "scadenza": "27/11/2026 08:30",
-   "id": "26286"
-  },
   {
    "procedura": "Affidamento diretto",
    "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
@@ -92,15 +74,6 @@
    "id": "26125"
   },
   {
-   "procedura": "Procedura aziendale",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
-   "protocollo": "",
-   "titolo": "Fornitura di aspiratore di mucosità e lavaggio broncoalveolare, per 48 mesi",
-   "tipologia": "Forniture",
-   "scadenza": "01/12/2026 12:00",
-   "id": "26332"
-  },
-  {
    "procedura": "Manifestazione di Interesse",
    "ente": "PromoTurismoFVG",
    "protocollo": "",
@@ -108,6 +81,15 @@
    "tipologia": "Forniture",
    "scadenza": "01/12/2026 12:00",
    "id": "26302"
+  },
+  {
+   "procedura": "Procedura aziendale",
+   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
+   "protocollo": "",
+   "titolo": "Fornitura di aspiratore di mucosità e lavaggio broncoalveolare, per 48 mesi",
+   "tipologia": "Forniture",
+   "scadenza": "01/12/2026 12:00",
+   "id": "26332"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -137,15 +119,6 @@
    "id": "25765"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "Insiel",
-   "protocollo": "",
-   "titolo": "ID 8517 - Fornitura di codici a catalogo per manutenzione della piattaforma firewalling utilizzata per le scuole per un periodo di 24 mesi",
-   "tipologia": "Forniture",
-   "scadenza": "03/12/2026 12:00",
-   "id": "26182"
-  },
-  {
    "procedura": "Manifestazione di Interesse",
    "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
    "protocollo": "",
@@ -155,13 +128,13 @@
    "id": "26337"
   },
   {
-   "procedura": "Affidamento diretto",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
+   "procedura": "UE - Procedura Aperta",
+   "ente": "Insiel",
    "protocollo": "",
-   "titolo": "Fornitura di abbonamenti a periodici italiani e stranieri- titoli diversi",
+   "titolo": "ID 8517 - Fornitura di codici a catalogo per manutenzione della piattaforma firewalling utilizzata per le scuole per un periodo di 24 mesi",
    "tipologia": "Forniture",
    "scadenza": "03/12/2026 12:00",
-   "id": "26319"
+   "id": "26182"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -173,13 +146,13 @@
    "id": "26175"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "procedura": "Affidamento diretto",
+   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
    "protocollo": "",
-   "titolo": "25REA024 FORNITURA IN SERVICE DI SISTEMI DIAGNOSTICI PER ESECUZIONE DI ESAMI PER LA RICERCA DI SANGUE OCCULTO NELLE FECI",
+   "titolo": "Fornitura di abbonamenti a periodici italiani e stranieri- titoli diversi",
    "tipologia": "Forniture",
-   "scadenza": "04/12/2026 12:00",
-   "id": "26122"
+   "scadenza": "03/12/2026 12:00",
+   "id": "26319"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -207,6 +180,15 @@
    "tipologia": "Forniture",
    "scadenza": "04/12/2026 12:00",
    "id": "26348"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "25REA024 FORNITURA IN SERVICE DI SISTEMI DIAGNOSTICI PER ESECUZIONE DI ESAMI PER LA RICERCA DI SANGUE OCCULTO NELLE FECI",
+   "tipologia": "Forniture",
+   "scadenza": "04/12/2026 12:00",
+   "id": "26122"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -245,6 +227,24 @@
    "id": "26060"
   },
   {
+   "procedura": "Altro",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "protocollo": "",
+   "titolo": "FC26SER033 | Co-progettazione per la messa a disposizione di autoemoteche e la gestione integrata delle attività connesse, favorendo la promozione del dono, l'accoglienza dei donatori ed il potenziamento delle raccolte di sangue",
+   "tipologia": "Servizi",
+   "scadenza": "09/12/2026 12:00",
+   "id": "26290"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE DI UDINE",
+   "protocollo": "",
+   "titolo": "2026_Servizio call center",
+   "tipologia": "Servizi",
+   "scadenza": "09/12/2026 12:00",
+   "id": "26159"
+  },
+  {
    "procedura": "UE - Procedura Aperta",
    "ente": "Insiel",
    "protocollo": "",
@@ -263,33 +263,6 @@
    "id": "26241"
   },
   {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE DI UDINE",
-   "protocollo": "",
-   "titolo": "2026_Servizio call center",
-   "tipologia": "Servizi",
-   "scadenza": "09/12/2026 12:00",
-   "id": "26159"
-  },
-  {
-   "procedura": "Altro",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
-   "protocollo": "",
-   "titolo": "FC26SER033 | Co-progettazione per la messa a disposizione di autoemoteche e la gestione integrata delle attività connesse, favorendo la promozione del dono, l'accoglienza dei donatori ed il potenziamento delle raccolte di sangue",
-   "tipologia": "Servizi",
-   "scadenza": "09/12/2026 12:00",
-   "id": "26290"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
-   "protocollo": "",
-   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
-   "tipologia": "Servizi",
-   "scadenza": "10/12/2026 12:00",
-   "id": "26237"
-  },
-  {
    "procedura": "Procedura non europea",
    "ente": "COMUNE DI RONCHI DEI LEGIONARI",
    "protocollo": "",
@@ -297,6 +270,15 @@
    "tipologia": "Servizi",
    "scadenza": "10/12/2026 12:00",
    "id": "26269"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
+   "protocollo": "",
+   "titolo": "SERVIZIO DI ACCOMPAGNAMENTO E DI TRASPORTO CON AUTOMEZZI ATTREZZATI ED OMOLOGATI PER IL TRASPORTO DEI PAZIENTI NEFROPATICI SOTTOPOSTI A TRATTAMENTO DIALITICO PER ASUGI",
+   "tipologia": "Servizi",
+   "scadenza": "10/12/2026 12:00",
+   "id": "25989"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -309,12 +291,12 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
+   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
    "protocollo": "",
-   "titolo": "SERVIZIO DI ACCOMPAGNAMENTO E DI TRASPORTO CON AUTOMEZZI ATTREZZATI ED OMOLOGATI PER IL TRASPORTO DEI PAZIENTI NEFROPATICI SOTTOPOSTI A TRATTAMENTO DIALITICO PER ASUGI",
+   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
    "tipologia": "Servizi",
    "scadenza": "10/12/2026 12:00",
-   "id": "25989"
+   "id": "26237"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -470,6 +452,15 @@
    "id": "26365"
   },
   {
+   "procedura": "Manifestazione di Interesse",
+   "ente": "COMUNE DI CODROIPO",
+   "protocollo": "",
+   "titolo": "SERVIZIO DI BROKERAGGIO ASSICURATIVO",
+   "tipologia": "Servizi",
+   "scadenza": "31/12/2026 10:00",
+   "id": "26390"
+  },
+  {
    "procedura": "Avviso di preinformazione",
    "ente": "REGIONE AUTONOMA FRIULI VENEZIA GIULIA",
    "protocollo": "",
@@ -488,6 +479,24 @@
    "id": "23508"
   },
   {
+   "procedura": "Manifestazione di Interesse",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
+   "protocollo": "",
+   "titolo": "servizi di sterilizzazione e di inserimento di microchip a gatti domestici di soggetti residenti presso uno dei Comuni del territorio di ASUGI con ISEE di valore pari o inferiore a € 30.000,00",
+   "tipologia": "Servizi",
+   "scadenza": "31/12/2026 23:59",
+   "id": "24957"
+  },
+  {
+   "procedura": "Procedura non europea",
+   "ente": "COMUNE DI ARTA TERME",
+   "protocollo": "",
+   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2026 23:59",
+   "id": "24226"
+  },
+  {
    "procedura": "UE - Procedura Negoziata senza previa indizione di gara",
    "ente": "REGIONE AUTONOMA FRIULI VENEZIA GIULIA",
    "protocollo": "",
@@ -504,24 +513,6 @@
    "tipologia": "Altro",
    "scadenza": "31/12/2026 23:59",
    "id": "24227"
-  },
-  {
-   "procedura": "Procedura non europea",
-   "ente": "COMUNE DI ARTA TERME",
-   "protocollo": "",
-   "titolo": "FORMAZIONE ELENCO DEGLI OPERATORI ECONOMICI E INDAGINE DI MERCATO PER L’AFFIDAMENTO DI CONTRATTI PUBBLICI (LAVORI, SERVIZI E FORNITURE) DI IMPORTO INFERIORE ALLE SOGLIE DI RILEVANZA EUROPEA",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2026 23:59",
-   "id": "24226"
-  },
-  {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA GIULIANO ISONTINA",
-   "protocollo": "",
-   "titolo": "servizi di sterilizzazione e di inserimento di microchip a gatti domestici di soggetti residenti presso uno dei Comuni del territorio di ASUGI con ISEE di valore pari o inferiore a € 30.000,00",
-   "tipologia": "Servizi",
-   "scadenza": "31/12/2026 23:59",
-   "id": "24957"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -624,15 +615,6 @@
   },
   {
    "procedura": "Altro",
-   "ente": "COMUNE DI MERETO DI TOMBA",
-   "protocollo": "",
-   "titolo": "Avviso pubblico per la modalità di scelta degli operatori economici nelle procedure sotto la soglia di rilevanza europea",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2030 23:59",
-   "id": "22095"
-  },
-  {
-   "procedura": "Altro",
    "ente": "ASP \"Daniele Moro\"",
    "protocollo": "",
    "titolo": "Avviso pubblico per la modalità di scelta degli operatori economici nelle procedure sotto la soglia di rilevanza europea",
@@ -642,21 +624,30 @@
   },
   {
    "procedura": "Altro",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
-   "protocollo": "",
-   "titolo": "Avviso pubblico sulle modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea",
-   "tipologia": "Altro",
-   "scadenza": "31/12/2030 23:59",
-   "id": "23766"
-  },
-  {
-   "procedura": "Altro",
    "ente": "CENTRO DI RIFERIMENTO ONCOLOGICO",
    "protocollo": "",
    "titolo": "Avviso Pubblico - Modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea.",
    "tipologia": "Altro",
    "scadenza": "31/12/2030 23:59",
    "id": "20672"
+  },
+  {
+   "procedura": "Altro",
+   "ente": "COMUNE DI MERETO DI TOMBA",
+   "protocollo": "",
+   "titolo": "Avviso pubblico per la modalità di scelta degli operatori economici nelle procedure sotto la soglia di rilevanza europea",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2030 23:59",
+   "id": "22095"
+  },
+  {
+   "procedura": "Altro",
+   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
+   "protocollo": "",
+   "titolo": "Avviso pubblico sulle modalità di scelta degli operatori economici nelle procedure di affidamento sotto la soglia di rilevanza europea",
+   "tipologia": "Altro",
+   "scadenza": "31/12/2030 23:59",
+   "id": "23766"
   },
   {
    "procedura": "Altro",

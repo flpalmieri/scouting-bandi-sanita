@@ -66,6 +66,28 @@
   ]
  },
  {
+  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18844385",
+  "title": "LICENZE TRENDMICRO AUSL MODENA",
+  "type": "BANDO_GARA_PORTALE",
+  "ente_appaltante": "AZIENDA USL DI MODENA",
+  "stato_procedura": "Presentazione Offerte/Risposte",
+  "importo_appalto": "215.999,99 €",
+  "procedura_gara": "Negoziata",
+  "tipo_bando_gara": "Invito",
+  "criterio": "Prezzo più basso",
+  "scadenza": "2026-12-07T17:00:00+00:00",
+  "pubdate": "2026-11-27T08:24:50+00:00",
+  "sospeso": false,
+  "in_sospensione": false,
+  "cig": [
+   {
+    "codice": "BE02DE661A",
+    "lotto": "1",
+    "descrizione": "Licenza per il Sistema ANTISPAM TRENDMICRO per il periodo 01/01/2027 – 31/12/2029"
+   }
+  ]
+ },
+ {
   "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18303711",
   "title": "AFIDAMENTO DIRETTO DEI SERVIZI DI  LICENZE PER IL PROGRAMMA TEAMSYSTEM TS EXPERIENCE",
   "type": "BANDO_GARA_PORTALE",
@@ -136,22 +158,6 @@
   "cig": []
  },
  {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18465864",
-  "title": "APPLICATIVO AGRINET",
-  "type": "BANDO_GARA_PORTALE",
-  "ente_appaltante": "AZIENDA USL DI MODENA",
-  "stato_procedura": "Presentazione Offerte/Risposte",
-  "importo_appalto": "139.999,99 €",
-  "procedura_gara": "Affidamento Diretto",
-  "tipo_bando_gara": "Invito",
-  "criterio": "Prezzo più basso",
-  "scadenza": "2026-11-26T17:00:00+00:00",
-  "pubdate": "2026-11-19T08:47:40+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": []
- },
- {
   "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18567607",
   "title": "Consultazione software gestione stupefacenti",
   "type": "BANDO_CONSULTAZIONE_PORTALE",
@@ -163,22 +169,6 @@
   "criterio": null,
   "scadenza": "2026-11-27T11:00:00+00:00",
   "pubdate": "2026-11-13T15:12:50+00:00",
-  "sospeso": false,
-  "in_sospensione": false,
-  "cig": []
- },
- {
-  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18469257",
-  "title": "Acquisto di Licenza per il Sistema ANTISPAM TRENDMICRO – AUSL di Modena",
-  "type": "BANDO_CONSULTAZIONE_PORTALE",
-  "ente_appaltante": "AZIENDA USL DI MODENA",
-  "stato_procedura": "Pubblicato",
-  "importo_appalto": null,
-  "procedura_gara": null,
-  "tipo_bando_gara": null,
-  "criterio": null,
-  "scadenza": "2026-11-26T17:00:00+00:00",
-  "pubdate": "2026-11-12T11:29:12+00:00",
   "sospeso": false,
   "in_sospensione": false,
   "cig": []

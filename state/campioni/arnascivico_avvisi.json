@@ -1,5 +1,5 @@
 {
- "totale_dichiarato": 9,
+ "totale_dichiarato": 10,
  "voci": [
   {
    "ente": "U.O.C. Provveditorato",
@@ -59,13 +59,13 @@
   {
    "ente": "U.O.C. Provveditorato",
    "tipologia": "Altro",
-   "titolo": "Fornitura di filtri antibatterici e antivirali monouso per gli spirometri in dotazione presso L''l'UOC Pediatria dell'Arnas",
+   "titolo": "Fornitura di n. 1 tavolo operatorio specialistico per chirurgia maxillo-facciale, o equivalente, completo di accessori e di sedute per microchirurgia, in acquisto oppure in noleggio operativo full risk di durata 36 o 60 mesi con possibilità di riscatto, destinato alla U.O.C. di Chirurgia Maxillo-Facciale dellA.R.N.A.S. Civico.",
    "avviso_per": "Forniture",
-   "pubblicazione": "23/11/2026",
-   "scadenza": "14/12/2026",
-   "codice": "A00515",
+   "pubblicazione": "26/11/2026",
+   "scadenza": "07/12/2026",
+   "codice": "A00517",
    "stato": "In corso",
-   "link": "https://eprocurement.arnascivico.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00515"
+   "link": "https://eprocurement.arnascivico.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00517"
   },
   {
    "ente": "U.O.C. Provveditorato",
@@ -77,6 +77,17 @@
    "codice": "A00514",
    "stato": "In corso",
    "link": "https://eprocurement.arnascivico.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00514"
+  },
+  {
+   "ente": "U.O.C. Provveditorato",
+   "tipologia": "Altro",
+   "titolo": "Fornitura di filtri antibatterici e antivirali monouso per gli spirometri in dotazione presso L''l'UOC Pediatria dell'Arnas",
+   "avviso_per": "Forniture",
+   "pubblicazione": "23/11/2026",
+   "scadenza": "14/12/2026",
+   "codice": "A00515",
+   "stato": "In corso",
+   "link": "https://eprocurement.arnascivico.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00515"
   },
   {
    "ente": "U.O.C. Provveditorato",

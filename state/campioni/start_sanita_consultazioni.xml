@@ -5,7 +5,7 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>953</afs:totRecord>
+<afs:totRecord>954</afs:totRecord>
 <item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
 	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=627187&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-18T18:00:00]]></link>
@@ -40,6 +40,41 @@ I CPM SPIRALI PER USO PERIFERICO, PER USO NEURORADIOLOGICO COMPRESO FILTRI CAVAL
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
 	<afs:dataUltimaModifica><![CDATA[2026-11-26T15:34:48.067]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-26T15:34:48]]></afs:DtPubblicazioneTecnical>
+	
+</item><item>
+	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
+	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=629667&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-12-18T13:00:00]]></link>
+	<category>Consultazione Preliminare di Mercato</category>
+	<pubDate>27/11/2026</pubDate>
+	
+	<description>
+CONSULTAZIONE PRELIMINARE DI MERCATO  PER LA GARA PER LA FORNITURA DI LICENZE MODULI AI PER ELABORAZIONI IMMAGINI PACS (RADIO TERAPIA, FRATTURE OSSEE, POLMONE, ONCOLOGIA, ENCEFALO, SCREENING MAMMOGRAFICO ORGANIZZATO ED OPPORTUNISTICO) PER LE AA.SS DELLA REGIONE TOSCANA CON PREVISIONE DI PRIMO CONTRATTO ATTUATIVO PER L&#39; AOU SENESE, L&#39;AZIENDA USL TOSCANA SUD EST E PER L&#39;AZIENDA OSPEDALIERA MEYER. (CUI2026-021-0006 EX DETERMINA 16/2026&lt;strong&gt;Scadenza : 18/12/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[CONSULTAZIONE PRELIMINARE DI MERCATO  PER LA GARA PER LA FORNITURA DI LICENZE MODULI AI PER ELABORAZIONI IMMAGINI PACS (RADIO TERAPIA, FRATTURE OSSEE, POLMONE, ONCOLOGIA, ENCEFALO, SCREENING MAMMOGRAFICO ORGANIZZATO ED OPPORTUNISTICO) PER LE AA.SS DELLA REGIONE TOSCANA CON PREVISIONE DI PRIMO CONTRATTO ATTUATIVO PER L' AOU SENESE, L'AZIENDA USL TOSCANA SUD EST E PER L'AZIENDA OSPEDALIERA MEYER. (CUI2026-021-0006 EX DETERMINA 16/2026]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
+	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[]]></afs:Contratto>
+	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-18T13:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[629667]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[CPM PER FORNITURA DI LICENZE MODULI AI PER ELABORAZIONI IMMAGINI ]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T10:08:15.897]]></afs:dataUltimaModifica>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-27T10:08:15]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
@@ -213,7 +248,7 @@ Consultazione Preliminare di Mercato per la fornitura di ciotole per procedure a
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-19T17:10:36.357]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-27T09:54:05.230]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-19T17:10:36]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -248,7 +283,7 @@ SACCA DI DRENAGGIO - dedicato ad ASPIRATORE DI LIQUIDI DRAIN STAR&lt;strong&gt;S
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-26T10:50:33.200]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-26T18:16:14.183]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-20T11:08:48]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -315,10 +350,10 @@ Cannule tracheostomiche  in PVC o altro materiale idoneo, extralong per collo ta
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
 	<afs:TitoloDocumento><![CDATA[KIT PER VIOLENZA SESSUALE E KIT PER VIOLENZA NON SESSUALE” ]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-18T14:21:25.663]]></afs:dataUltimaModifica>
+	<afs:dataUltimaModifica><![CDATA[2026-11-26T17:42:48.860]]></afs:dataUltimaModifica>
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-03T17:42:36]]></afs:DtPubblicazioneTecnical>
 	
 </item><item>
@@ -350,7 +385,7 @@ Consultazione Preliminare di Mercato per la fornitura di Carta per AL SCAN desti
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
 	<afs:TitoloDocumento><![CDATA[Consultazione Preliminare di Mercato per la fornitura di Carta per AL SCAN destinata alla Azienda Sanitaria USL Toscana N/O]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
 	<afs:dataUltimaModifica><![CDATA[2026-11-18T10:26:28.973]]></afs:dataUltimaModifica>
@@ -389,43 +424,4 @@ Consultazione Preliminare di Mercato per la fornitura di Carta per AL SCAN desti
 	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
 	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
 	<afs:dataUltimaModifica><![CDATA[2026-11-24T18:19:06.813]]></afs:dataUltimaModifica>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-16T10:15:36]]></afs:DtPubblicazioneTecnical>
-	
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=622045&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_CONSULTAZIONE_PORTALE&xslt=XSLT_BANDO_CONSULTAZIONE_PORTALE&scadenzaBando=2026-11-26T13:00:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>11/11/2026</pubDate>
-	
-	<description>
-AVVISO CONSULTAZIONE PRELIMINARE DI MERCATO PER LA FORNITURA IN NOLEGGIO DI SISTEMI HW/SW PER CONVALIDA DEL CONGELAMENTO PLASMA, DEL TRASPOSTO E CONSERVAZIONE DEL SANGUE E DELLA CENTRIFUGAZIONE SACCHE DI SANGUE.&lt;strong&gt;Scadenza : 26/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[AVVISO CONSULTAZIONE PRELIMINARE DI MERCATO PER LA FORNITURA IN NOLEGGIO DI SISTEMI HW/SW PER CONVALIDA DEL CONGELAMENTO PLASMA, DEL TRASPOSTO E CONSERVAZIONE DEL SANGUE E DELLA CENTRIFUGAZIONE SACCHE DI SANGUE.]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:DenominazioneEnte><![CDATA[ESTAR - Ente di Supporto Tecnico Amministrativo Regionale]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-26T13:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:TipoDocOriginal><![CDATA[]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[622045]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_CONSULTAZIONE_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_CONSULTAZIONE_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[CONSULTAZIONE PRELIMINARE DI MERCATO PER LA FORNITURA IN NOLEGGIO DI SISTEMI HW/SW PER CONVALIDA DEL CONGELAMENTO PLASMA, DEL TRASPOSTO E CONSERVAZIONE DEL SANGUE E DELLA CENTRIFUGAZIONE SACCHE DI SANGUE.]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[1]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-26T10:39:55.823]]></afs:dataUltimaModifica>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-11T12:52:48]]></afs:DtPubblicazioneTecnical>
-	
-</item><item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[https://www.sanita.start.toscana.it/portale/index.php/?getdettaglio=yes&bando=621995&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BA
+	<afs:DtPubblicazioneTecnic

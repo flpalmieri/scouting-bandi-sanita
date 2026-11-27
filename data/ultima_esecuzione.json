@@ -1,17 +1,17 @@
 {
-  "eseguito_il": "2026-11-26T14:45:50+00:00",
+  "eseguito_il": "2026-11-27T09:54:52+00:00",
   "fonti": {
     "ted": {
       "esito": "ok",
-      "pertinenti": 9
+      "pertinenti": 7
     },
     "portali_rss": {
       "esito": "ok",
-      "pertinenti": 22
+      "pertinenti": 24
     },
     "portali_html": {
       "esito": "ok",
-      "pertinenti": 7
+      "pertinenti": 6
     },
     "acquistitelematici": {
       "esito": "ok",
@@ -27,7 +27,7 @@
     },
     "centrale_acquisti": {
       "esito": "ok",
-      "pertinenti": 3
+      "pertinenti": 4
     },
     "jaggaer": {
       "esito": "ok",
@@ -39,7 +39,7 @@
     },
     "net4market": {
       "esito": "ok",
-      "pertinenti": 0
+      "pertinenti": 1
     },
     "tuttogare": {
       "esito": "ok",
@@ -51,11 +51,8 @@
     }
   },
   "errori": [
-    "portali_html: ASM Matera: HTTPSConnectionPool(host='www.asmbasilicata.it', port=443): Max retries exceeded with url: /amministrazione-trasparente/bandi-di-gara-e-contratti/bandi-di-gara-attivi-e-scaduti/page/1/?titolo=&data_scadenza_dal=2026-11-26 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.asmbasilicata.it', port=443) at 0x726fd305faa0>, 'Connection to www.asmbasilicata.it timed out. (connect timeout=20.0)'))",
-    "maggioli: ASP Basilicata: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
-    "maggioli: AOR San Carlo: connessione non riuscita (ConnectTimeout), il sito non risponde ai server di GitHub; altre liste del sito non provate",
     "maggioli: SUA-RB: SUA-RB bandi: 404 Client Error: Not Found for url: https://www.sua-rb.it/PortaleAppalti/it/ppgare_bandi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Bandi/listAllBandi.action&currentFrame=7&model.stato=1&model.iDisplayLength=100; SUA-RB avvisi: 404 Client Error: Not Found for url: https://www.sua-rb.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/listAllAvvisi.action&currentFrame=7&model.stato=1&model.iDisplayLength=100"
   ],
-  "nuove_opportunita": 3,
-  "totale": 132
+  "nuove_opportunita": 6,
+  "totale": 135
 }

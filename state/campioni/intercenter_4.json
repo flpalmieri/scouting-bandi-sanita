@@ -472,18 +472,18 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-aperte/BANDO_CONSULTAZIONE_PORTALE@18469257", 
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-consultazioni-preliminari/consultazioni-preliminari-di-mercato-chiuse/BANDO_CONSULTAZIONE_PORTALE@18469257", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-12T00:00:00+01:00", 
       "Description": "AVVISO PREVENTIVO DI CONSULTAZIONE PER L\u2019ACQUISIZIONE DI BENI/SERVIZI ai sensi dell\u2019art. 50, comma 2 bis, D.Lgs 36/2023. Acquisto/rinnovo di Licenza e Servizi assistenza professionale per il Sistema ANTISPAM TRENDMICRO per Azienda USL di Modena", 
       "Subject": [], 
       "Title": "Acquisto di Licenza per il Sistema ANTISPAM TRENDMICRO \u2013 AUSL di Modena", 
-      "UID": "9aebcd0f0fc84409bb91ffc8597f93ba", 
+      "UID": "250d42d2b5484c8092feda8ad357cf84", 
       "[elevated]": null, 
       "apertura_bando": "1960-01-01", 
       "bando_state": [
-        "open", 
-        "Attivo"
+        "closed", 
+        "Chiuso"
       ], 
       "description": "AVVISO PREVENTIVO DI CONSULTAZIONE PER L\u2019ACQUISIZIONE DI BENI/SERVIZI ai sensi dell\u2019art. 50, comma 2 bis, D.Lgs 36/2023. Acquisto/rinnovo di Licenza e Servizi assistenza professionale per il Sistema ANTISPAM TRENDMICRO per Azienda USL di Modena", 
       "design_italia_meta_type": "Bando Intercenter", 
@@ -965,4 +965,4 @@
       "type_title": "Bando Intercenter"
     }, 
     {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acqu
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-ac

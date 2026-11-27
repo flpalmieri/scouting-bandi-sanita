@@ -1,6 +1,14 @@
 {
- "totale_dichiarato": 2,
+ "totale_dichiarato": 3,
  "gare": [
+  {
+   "id": 5041,
+   "riferimento": "SI/43/2026",
+   "titolo": "Avviso di indagine di mercato propedeutica all'affidamento ai sensi dell'art. 50, c. 1, lett. e) del d.lgs. 36/2023 per la fornitura di licenze software Veeam e servizi connessi per la durata di 5 anni",
+   "scadenza": "2026-12-04",
+   "pubblicazione": "2026-11-25",
+   "nota": null
+  },
   {
    "id": 5051,
    "riferimento": "SP/357/2026",

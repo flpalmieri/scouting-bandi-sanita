@@ -1,17 +1,6 @@
 {
- "totale_dichiarato": 15,
+ "totale_dichiarato": 14,
  "voci": [
-  {
-   "ente": "A.O.U. Policlinico \"Gaspare Rodolico - San Marco\" U.O.C. Settore Acquisti e Logistica",
-   "tipologia": "Altro",
-   "titolo": "Manifestazione di interesse per la fornitura di n. 1 SPIROMETRO CON DIFFUSIONE AVEOLO-CAPILLARE da destinare alla U.O.C. Pneumologia del P.O. G. Rodolico.",
-   "avviso_per": "Forniture",
-   "pubblicazione": "19/11/2026",
-   "scadenza": "26/11/2026",
-   "codice": "A00504",
-   "stato": "In corso",
-   "link": "https://appalti.policlinicorodolicosanmarco.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00504"
-  },
   {
    "ente": "A.O.U. Policlinico \"Gaspare Rodolico - San Marco\" U.O.C. Settore Acquisti e Logistica",
    "tipologia": "Altro",
@@ -48,17 +37,6 @@
   {
    "ente": "A.O.U. Policlinico \"Gaspare Rodolico - San Marco\" U.O.C. Settore Acquisti e Logistica",
    "tipologia": "Altro",
-   "titolo": "Manifestazione di interesse per la fornitura urgente semestrale di materiale odontoiatrico e ortodontico occorrente alla U.O.C. di Clinica Odontoiatrica del P.O. G.Rodolico",
-   "avviso_per": "Forniture",
-   "pubblicazione": "24/11/2026",
-   "scadenza": "03/12/2026",
-   "codice": "A00507",
-   "stato": "In corso",
-   "link": "https://appalti.policlinicorodolicosanmarco.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00507"
-  },
-  {
-   "ente": "A.O.U. Policlinico \"Gaspare Rodolico - San Marco\" U.O.C. Settore Acquisti e Logistica",
-   "tipologia": "Altro",
    "titolo": "Manifestazione di interesse per la fornitura in somministrazione annuale di drenaggi toracici a due camere, occorrenti alla U.O.C. Anestesia e Rianimazione dellAzienda",
    "avviso_per": "Forniture",
    "pubblicazione": "24/11/2026",
@@ -66,6 +44,17 @@
    "codice": "A00506",
    "stato": "In corso",
    "link": "https://appalti.policlinicorodolicosanmarco.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00506"
+  },
+  {
+   "ente": "A.O.U. Policlinico \"Gaspare Rodolico - San Marco\" U.O.C. Settore Acquisti e Logistica",
+   "tipologia": "Altro",
+   "titolo": "Manifestazione di interesse per la fornitura urgente semestrale di materiale odontoiatrico e ortodontico occorrente alla U.O.C. di Clinica Odontoiatrica del P.O. G.Rodolico",
+   "avviso_per": "Forniture",
+   "pubblicazione": "24/11/2026",
+   "scadenza": "03/12/2026",
+   "codice": "A00507",
+   "stato": "In corso",
+   "link": "https://appalti.policlinicorodolicosanmarco.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00507"
   },
   {
    "ente": "A.O.U. Policlinico \"Gaspare Rodolico - San Marco\" U.O.C. Settore Acquisti e Logistica",
