@@ -1626,6 +1626,9 @@ portali_html:
     # Fuori gli affidamenti diretti e le trattative dirette (TD MePA: un solo operatore). Resta per anni una
     # manifestazione per i dializzati con scadenza 2029, non IT: la tabella non e' mai vuota.
     - nome: ASM Matera
+      # Spenta il 27/11/2026 (decisione di Flavio): ConnectTimeout da GitHub nei run 45765694405, 45767140069, 45842233682, dal box risponde.
+      # Controllo manuale settimanale dei bandi attivi su www.asmbasilicata.it
+      abilitato: false
       nome_fonte: Sito ASM Matera
       sigla: asmmatera
       ente: Azienda Sanitaria Locale di Matera
@@ -2105,6 +2108,10 @@ maggioli:
     # Blocco modello proprio, come per Marche e Sicilia: per spegnere la regione basta abilitato: false qui.
     - &maggioli_basilicata
       nome: ASP Basilicata
+      # Spenta il 26/11/2026 (decisione di Flavio): ConnectTimeout da GitHub in tre prove (run 45661439615, 45765694405, 45842233682), dal box risponde.
+      # La eredita l'AOR San Carlo.
+      # Controllo manuale settimanale delle liste "in corso" di gare.aspbasilicata.it e gare.ospedalesancarlo.it
+      abilitato: false
       nome_fonte: Appalti ASP Basilicata
       sigla: aspbasilicata
       regione: Basilicata
