@@ -153,6 +153,12 @@ enti_sanitari_regex:
   # municipalizzate (ASM Terni, ASM Pavia...). Sui 78 nomi della ricognizione (TED dal 01/06/2026,
   # stazioni e committenti della SUA-RB) nessun nome non sanitario cambia.
   - '\bC\.?R\.?O\.?B\b|\bA\.?O\.?R\b\W{0,3}san\s+carlo|\bA\.?S\.?M\b\W{0,3}(di\s+)?matera'
+  # Calabria (27/11/2026). Le cinque ASP, l'AOU Renato Dulbecco, l'AO di Cosenza e il GOM di Reggio Calabria
+  # erano gia' riconosciuti in tutte le grafie viste su TED (101 avvisi dal 01/06/2026, anche "AZIENDA
+  # SANITARIA PROVINCIALE" da sola e il refuso "METROPOLTANO"). Mancava Azienda Zero quando si chiama
+  # solo "Azienda per il Governo della Sanita' della Regione Calabria" (trasparenza L190), senza le parole
+  # "Azienda Zero". Su TED 0 avvisi: oggi nessun effetto.
+  - 'azienda\s+per\s+il\s+governo\s+della\s+sanit'
 
 # Eccezioni alle regole qui sopra: enti che quelle regole prenderebbero per sanitari ma che
 # non lo sono. Valgono solo per il nome dell'ente: una gara IT con un oggetto sanitario entra
@@ -322,6 +328,15 @@ aggregatori_misti_regex:
   - '\bSUA\W?RB\b|stazione\s+unica\s+appaltante\s+della\s+regione\s+basilicata|^\W*regione\s+basilicata\W+stazione\s+unica\s+appaltante'
   - 'direzione\s+generale\s+per\s+la\s+salute\s+e\s+le\s+politiche\s+della\s+persona\W+ufficio\s+stazione\s+unica\s+appaltante'
   - '^\W*direzione\s+generale\W+(stazione\s+unica\s+appaltante\W+)?ufficio\s+appalti\s+di\s+servizi\s+e\s+forniture\W*$'
+  # Calabria (27/11/2026), IN ATTESA DELLA DECISIONE DI FLAVIO (riga commentata). La SUA della Regione
+  # Calabria e' soggetto aggregatore per il SSR (appalti specifici SDAPA di farmaci e vaccini, gare
+  # centralizzate di guanti, lavanolo, medicazioni, microinfusori) e svolge anche gare della Regione
+  # (scuolabus, vigilanza, assistenza tecnica ai fondi, strumentazione informatica per se stessa). Nomi visti:
+  # "S.U.A. REGIONE CALABRIA - SOGGETTO AGGREGATORE" (TED), "Stazione Unica Appaltante Reg. Calabria"
+  # (SISGAP). Non prende le SUA delle Province ("Stazione Unica Appaltante - Provincia di Vibo Valentia",
+  # "SUA - Provincia di Crotone; REGIONE CALABRIA ...", "SUA PROVINCIA DI COSENZA ...") ne' i dipartimenti
+  # della Regione. Effetto su TED dal 01/06/2026: nessuno (9 esiti della gara scuolabus, non letti).
+  # - '^\W*S\.?\s?U\.?\s?A\.?\W+REGIONE\s+CALABRIA\b|stazione\s+unica\s+appaltante\s+(della\s+)?reg(ione|\.)\s*calabria'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -425,6 +440,10 @@ parole_chiave_it_regex:
   # compare nei campioni delle altre regioni.
   - 'agenda\s+digitale'
   - 'piattaform\w*\s+informativ'
+  # Calabria (27/11/2026): "fornitura di un sistema di pianificazione dei trattamenti radioterapici (TPS)"
+  # (AO Cosenza, Net4market 411, scadenza 09/12/2026) e' software clinico (treatment planning system) ma
+  # non conteneva parole IT. Non la sigla TPS da sola. Caso limite da confermare con Flavio.
+  - 'sistem\w*\s+di\s+pianificazione\s+(de[il]\s+)?trattament|treatment\s+planning'
 
 # Esclusioni: se il titolo contiene una di queste, l'avviso viene scartato.
 esclusioni_regex:
@@ -1861,6 +1880,21 @@ acquistitelematici:
       # 79111000): al primo lancio sono entrate come IT un supporto all'ufficio acquisti (449) e l'elenco
       # dei collegi consultivi tecnici (370). Solo filtro testuale.
       ignora_cpv: true
+    # Calabria (27/11/2026). AOU Renato Dulbecco (Catanzaro, dalla fusione di AO Pugliese-Ciaccio e AOU
+    # Mater Domini): usa DigitalPA dal 03/2026 (6 procedure, 0 aperte al 27/11; anche una "Raccolta di
+    # informazioni" sulla conservazione a norma delle cartelle cliniche, settembre 2026), oltre al vecchio
+    # albo Net4market (sezione net4market) e a SISGAP regionale (non letto). Nome dell'ente come su TED
+    # e come lo scrive la piattaforma ("AOU RENATO DULBECCO"), per la deduplica. acquistitelematici.it
+    # risponde ai server di GitHub (IZSAM, IZSM, Giglio, SEUS).
+    - nome: AOU Renato Dulbecco
+      nome_fonte: AOU Dulbecco (DigitalPA)
+      sigla: aoudulbecco
+      host: "https://aourenatodulbecco.acquistitelematici.it"
+      ente: "AOU RENATO DULBECCO"
+      regione: Calabria
+      tipi: [procedure-gara, manifestazioni-interesse]
+      max_risultati: 50
+      escludi_stati: [annullata, tender_canceled]
 
 # --- Piattaforme JAGGAER (ex BravoSolution, indirizzi /esop/...) --------------------
 # L'elenco pubblico "Avvisi in Area Pubblica" e' nell'HTML della pagina (vedi scout/jaggaer.py):
@@ -2115,7 +2149,7 @@ maggioli:
       nome_fonte: Appalti ASP Basilicata
       sigla: aspbasilicata
       regione: Basilicata
-      host: "https://gare.aspbasilicata.it"    # in http risponde 500
+      host: "https://gare.aspbasilicata.it"    # (il "500 in http" visto dal box era il proxy del box, non il sito)
       liste: [bandi, avvisi]
       escludi_tipologie: [Elenco operatori economici]
       escludi_stazioni_regex:
@@ -2177,6 +2211,42 @@ maggioli:
       ente_se_vuoto: Stazione Unica Appaltante della Regione Basilicata (SUA-RB)
       timeout_connessione: 10
       tentativi: 0
+    # ------------------------------------------------------------------------------------------
+    # Calabria (27/11/2026). Due ASP su Maggioli PortaleAppalti. Blocco modello proprio (&maggioli_calabria),
+    # come per Marche, Sicilia e Basilicata: per spegnere la Calabria basta abilitato: false qui.
+    # ASP Vibo Valentia: istanza su maggiolicloud.it (l'infrastruttura di Maggioli che risponde da GitHub
+    # per le aziende siciliane). Prova dal box del 27/11 con i percorsi di maggioli.py: bandi 1 su 1
+    # (G00212 buoni pasto, 02/12), avvisi 0; "In corso" selezionato nella pagina. Il nome della stazione
+    # e' identico all'acquirente su TED (3 avvisi): la deduplica fonde la stessa gara.
+    - &maggioli_calabria
+      nome: ASP Vibo Valentia
+      nome_fonte: Appalti ASP Vibo Valentia
+      sigla: aspvv
+      regione: Calabria
+      host: "https://aspvv-appalti.maggiolicloud.it"
+      liste: [bandi, avvisi]
+      escludi_tipologie: [Elenco operatori economici]
+      escludi_stazioni_regex:
+        - '\btest\b'
+      escludi_titoli_regex: *escludi_maggioli
+      ente_se_vuoto: Azienda Sanitaria Provinciale Vibo Valentia
+      timeout_connessione: 10
+      tentativi: 0
+    # ASP Cosenza: istanza propria (gareappalti.aspcs.it, 14 link su TED). Il server non invia il
+    # certificato intermedio (Sectigo Public Server Authentication CA DV R36): stesso caso dell'ARNAS Civico,
+    # che tls.py completa scaricando l'intermedio dall'indirizzo scritto nel certificato e verificando la
+    # catena fino a certifi (mai verify=False). IN ATTESA DELLA DECISIONE DI FLAVIO: spento. Per accenderlo,
+    # abilitato: true (esplicito: il blocco eredita dal modello qui sopra) e un lancio da solo, perche'
+    # l'host non e' mai stato provato da GitHub. Stazioni su TED: "ASP Cosenza - Ufficio Provveditorato",
+    # "ASP Cosenza - Ingegneria Clinica".
+    - <<: *maggioli_calabria
+      nome: ASP Cosenza
+      abilitato: false
+      nome_fonte: Appalti ASP Cosenza
+      sigla: aspcs
+      host: "https://gareappalti.aspcs.it"
+      completa_catena_tls: true
+      ente_se_vuoto: ASP Cosenza
 
 # --- Piattaforme Net4market (app.albofornitori.it) ------------------------------------
 # Sicilia, fase 2 (23/11/2026). Elenco delle gare in corso dalla chiamata GWT-RPC dell'albo (vedi
@@ -2219,6 +2289,63 @@ net4market:
       ente: Azienda Ospedaliera Universitaria Policlinico Paolo Giaccone
     # ASP Catania non si configura: l'albo albo_aspcatania ha come "in corso" solo 6 gare del
     # 2023-2024 (ancora "Indetta"); le gare correnti dell'ASP stanno sul suo sito (blocco portali_html).
+    # ------------------------------------------------------------------------------------------
+    # Calabria (27/11/2026). Cinque albi sullo stesso host gia' letto da GitHub per la Sicilia
+    # (app.albofornitori.it). Ricognizione dal box con le funzioni di net4market.py (risposte solo in
+    # memoria): in corso ASP Catanzaro 4 (tesoreria, consultazione protesi fonatorie, due indagini), ASP
+    # Reggio Calabria 0, AO Cosenza 4 (tra cui il sistema di pianificazione dei trattamenti radioterapici
+    # e un'indagine di infungibilita' delle piattaforme robotiche), GOM 1, AOU Dulbecco (vecchio albo
+    # albo_aocatanzaro, ancora usato: gara del 15/10/2026) 0. Nessuna gara non riconosciuta. L'albo
+    # albo_aspcrotone non esiste (500, configInvalide): non si configura.
+    # Nomi degli enti come l'acquirente TED degli avvisi che rimandano a quell'albo (deduplica).
+    # Regola in piu' rispetto alla Sicilia: le gare revocate, annullate o sospese hanno il titolo con il
+    # prefisso "REVOCATA -", "GARA REVOCATA -", "SOSPESA -" (AO Cosenza, GOM, AOU) e restano tra le
+    # gare dell'albo: si escludono anche dallo storico. Le tre regole comuni di &escludi_maggioli sono
+    # ripetute (YAML non unisce le liste: se cambiano la', cambiarle qui).
+    - <<: *net4market
+      nome: ASP Catanzaro
+      nome_fonte: Net4market ASP Catanzaro
+      sigla: n4m_aspcz
+      albo: albo_aspcatanzaro
+      ente: ASP Catanzaro - Azienda Sanitaria Provinciale Catanzaro
+      regione: Calabria
+      escludi_titoli_regex: &escludi_n4m_calabria
+        - '^\W*(?:(?:bando\s+(?:rettificato|revocato|in\s+rettifica)|procedura\s+(?:ripristinata|sospesa|in\s+sospensione)|riapertura\s+termini|ADP?)\s*[-\u2013]\s*)*(?:affidamento\s+diretto|affidamento(?:\s+(?:della\s+)?fornitura)?\W*\s*(?:ai\s+sensi\s+dell|di\s+cui\s+all|ex)\W*\s*art\W*\s*(?:n\W*\s*)?50\W*\s*(?:c(?:o|omma)\W*\s*)?1\W*\s*(?:lett\w*\W*\s*)?[ab]\b|richiesta\s+(?:di\s+)?preventivo)'
+        - 'scheda\s+di\s+aggiudicazion|\baggiudicazione\s+definitiv|\besito\s+(di\s+|della\s+)?(gara|procedura)'
+        - '\basta\s+pubblica|\bvendita\b|\balienazion'
+        - '^\W*(gara\s+)?(revocat|annullat|sospes)\w*\s*[-\u2013]'
+    - <<: *net4market
+      nome: ASP Reggio Calabria
+      nome_fonte: Net4market ASP Reggio Calabria
+      sigla: n4m_asprc
+      albo: albo_aspreggiocalabria
+      ente: ASP Reggio Calabria - Azienda Sanitaria Provinciale Reggio Calabria
+      regione: Calabria
+      escludi_titoli_regex: *escludi_n4m_calabria
+    - <<: *net4market
+      nome: AO Cosenza
+      nome_fonte: Net4market AO Cosenza
+      sigla: n4m_aocs
+      albo: albo_aocosenza
+      ente: Azienda Ospedaliera di Cosenza
+      regione: Calabria
+      escludi_titoli_regex: *escludi_n4m_calabria
+    - <<: *net4market
+      nome: GOM Reggio Calabria
+      nome_fonte: Net4market GOM Reggio Calabria
+      sigla: n4m_gom
+      albo: albo_gom
+      ente: GOM Grande Ospedale Metropolitano Bianchi Melacrino Morelli
+      regione: Calabria
+      escludi_titoli_regex: *escludi_n4m_calabria
+    - <<: *net4market
+      nome: AOU Renato Dulbecco (albo Net4market)
+      nome_fonte: Net4market AOU Dulbecco
+      sigla: n4m_aoucz
+      albo: albo_aocatanzaro
+      ente: Azienda Ospedaliero Universitaria "Renato Dulbecco"
+      regione: Calabria
+      escludi_titoli_regex: *escludi_n4m_calabria
 
 # --- Piattaforme TuttoGare (Studio Amica) --------------------------------------------
 # Sicilia, fase 2 (23/11/2026). Servizio JSON /gare/table.php (vedi scout/tuttogare.py), solo le voci
