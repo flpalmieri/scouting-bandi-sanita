@@ -369,6 +369,20 @@ def _salva_campione(feed: dict, contenuto: bytes) -> None:
     (CAMPIONI / f"{nome}.xml").write_bytes(contenuto[:30000])
 
 
+def _salva_errore(feed: dict, r) -> None:
+    """Risposta in errore della prima pagina: codice, intestazioni e i primi 20 kB del corpo, in
+    state/campioni/<feed>_errore.txt. Il corpo passa dalla stessa pulizia del campione (autore dei post)."""
+    try:
+        CAMPIONI.mkdir(parents=True, exist_ok=True)
+        nome = re.sub(r"[^a-z0-9]+", "_", feed["nome"].lower()).strip("_")
+        intestazioni = "\n".join(f"{k}: {v}" for k, v in r.headers.items() if k.lower() != "set-cookie")
+        corpo = RE_AUTORE_CAMPIONE.sub(rb"\1[non salvato]\3", r.content or b"")[:20000]
+        (CAMPIONI / f"{nome}_errore.txt").write_bytes(
+            f"HTTP {r.status_code} {r.reason}\n{intestazioni}\n\n".encode("utf-8", "replace") + corpo)
+    except Exception as e:      # il salvataggio del campione non deve mai nascondere l'errore vero
+        log.warning("RSS %s: campione dell'errore non salvato (%s)", feed["nome"], e)
+
+
 RE_TOT_RECORD = re.compile(rb"<(?:[\w-]+:)?totRecord>\s*(\d+)", re.IGNORECASE)
 RE_RIGHE_PAGINA = re.compile(r"numRowForPag=(\d+)", re.IGNORECASE)
 
@@ -416,6 +430,10 @@ def _leggi_feed(feed: dict, filtro: Filtro, sess) -> list[Opportunita]:
         url = url_modello.replace("{pagina}", str(pagina))
         try:
             r = sess.get(url, headers=HEADERS, timeout=attesa)
+            if r.status_code >= 400 and pagina == 1:
+                # Lezione 17: il campione serve proprio quando la risposta e' un errore (IZS di Puglia e
+                # Basilicata, 27/11/2026: 415 da GitHub, 200 dal box; prima non restava nulla da guardare).
+                _salva_errore(feed, r)
             r.raise_for_status()
         except Exception as e:
             if pagina == 1:

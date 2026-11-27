@@ -12,6 +12,10 @@ Lettori disponibili:
                    CIG/data pubblicazione (USL Umbria 2, portali PAT di ISWEB come l'IZSUM,
                    AreaCom Abruzzo su Drupal). Se mancano "scadenza" e "tipologia" valgono
                    "termine" e "procedura" (ASP Catania, "Termine per la consegna delle offerte").
+                   Dal 27/11/2026 (SISGAP, Regione Calabria) anche il titolo in "Nome procedura",
+                   tra piu' colonne "termine" quella delle offerte (non la pre-qualifica),
+                   l'importo in "Base asta" e, se ci sono, le colonne "Stato" ed "Ente" (intestazione
+                   esatta): lo stato vale per escludi_stati / solo_stati, l'ente solo con ente_da_colonna.
   traspare       - elenco \"announcements\" delle piattaforme Traspare (L&G Solution: ASP Siracusa,
                    ISMETT): schede tender-card con procedura, scadenza, titolo, stato, CIG,
                    importo; il R.U.P. non si legge e nel campione e' sostituito da \"[non salvato]\".
@@ -57,6 +61,19 @@ Opzioni per sito (config.yaml), oltre a nome, sigla, ente, regione, lettore, url
   escludi_tipologie_regex - scarta le voci il cui tipo di procedura (colonna \"Procedura\"/\"Tipologia\"
                           o etichetta Traspare) corrisponde; anche dallo storico (ESCLUSI).
   intermedi_extra       - file PEM del repository con intermedi TLS non scaricabili (vedi tls.py).
+  solo_stati            - (27/11/2026, SISGAP) si tengono solo le voci con uno di questi stati
+                          (es. [Aperta, Aperta pre-qualifica]); le altre si saltano senza toglierle
+                          dallo storico (una gara chiusa resta tra le scadute 30 giorni, come altrove).
+                          Con solo_stati, gli stati di escludi_stati (es. Revocata) tolgono la voce
+                          anche dallo storico; senza solo_stati escludi_stati resta come prima.
+  ente_da_colonna       - (27/11/2026, SISGAP) elenchi di piu' enti: l'ente di ogni voce e' quello della
+                          colonna "Ente" (lettore tabella), tradotto con enti_rinomina se presente, altrimenti
+                          il nome scritto; senza colonna vale ente.
+  enti_rinomina         - tabella "nome come scritto sul sito" -> nome dell'ente (stesso nome di TED, per
+                          la deduplica). Vale con ente_da_colonna.
+  link_senza_query      - (27/11/2026, SISGAP) toglie dal link tutto cio' che segue "?": su SISGAP il link
+                          porta "?CurrentPage=N", che cambia quando la voce scorre di pagina e cambierebbe
+                          l'identificativo della voce.
   scadenza_max_giorni   - se la "scadenza" e' piu' lontana di cosi' dalla pubblicazione
                           (default 365) non e' un termine di gara ma la fine della
                           pubblicazione sul sito: viene ignorata.
@@ -154,11 +171,13 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
         righe = re.findall(r"<tr[^>]*>(.*?)</tr>", tabella, re.DOTALL | re.IGNORECASE)
         if not righe:
             continue
-        intestazioni = [_testo(h).lower() for h in re.findall(r"<th[^>]*>(.*?)</th>", righe[0], re.DOTALL | re.IGNORECASE)]
+        # \s* prima di ">": SISGAP chiude la prima intestazione con "</th >" (27/11/2026).
+        intestazioni = [_testo(h).lower() for h in re.findall(r"<th[^>]*>(.*?)</th\s*>", righe[0], re.DOTALL | re.IGNORECASE)]
         # colonna del titolo: "Oggetto" (USL Umbria 2, PAT) oppure "Bando" (AreaCom, Drupal); dal
         # 26/11/2026 anche "Titolo Bando" (ASM Matera): intestazione che INIZIA con "titolo ".
         def col_titolo(h):
-            return h in ("bando", "titolo") or h.startswith("titolo ")
+            # SISGAP (27/11/2026): "Nome procedura".
+            return h in ("bando", "titolo", "nome procedura") or h.startswith("titolo ")
         if not any("oggetto" in h or col_titolo(h) for h in intestazioni):
             continue
 
@@ -175,14 +194,23 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
         # "Scadenza" e "Tipologia". Solo se manca la colonna con il nome solito: le tabelle gia'
         # lette non cambiano.
         if c_scad is None:
-            c_scad = colonna("termine")
+            # SISGAP (27/11/2026) ha due colonne "termine": pre-qualifica (quasi sempre vuota) e invio
+            # offerte. Si preferisce quella delle offerte; con una sola colonna "termine" non cambia nulla.
+            offerte = [i for i, h in enumerate(intestazioni) if "termine" in h and "offert" in h]
+            c_scad = offerte[0] if offerte else colonna("termine")
         c_cig = colonna("cig")
         c_tipo, c_imp = colonna("tipolog", "tipo"), colonna("importo")
+        if c_imp is None:
+            c_imp = colonna("base asta", "base d'asta")            # SISGAP: "Base asta"
+        # Stato ed ente solo con l'intestazione esatta ("Struttura proponente" o "Presentazione"
+        # contengono "ente"): SISGAP, 27/11/2026. Nelle altre tabelle lette non ci sono.
+        c_stato = next((i for i, h in enumerate(intestazioni) if h == "stato"), None)
+        c_ente = next((i for i, h in enumerate(intestazioni) if h == "ente"), None)
         if c_tipo is None:
             c_tipo = colonna("procedura")
         c_pubb = colonna("pubblicazion", "data avviso")   # es. portali PAT/ISWEB
         for riga in righe[1:]:
-            celle = re.findall(r"<td[^>]*>(.*?)</td>", riga, re.DOTALL | re.IGNORECASE)
+            celle = re.findall(r"<td[^>]*>(.*?)</td\s*>", riga, re.DOTALL | re.IGNORECASE)
             if not celle:
                 continue
             cella = lambda i: _testo(celle[i]).replace("\n", " ") if i is not None and i < len(celle) else ""
@@ -198,6 +226,8 @@ def lettore_tabella(pagina: str, url_base: str) -> list[dict]:
                 "scadenza_grezza": cella(c_scad),
                 "tipo_grezzo": cella(c_tipo),
                 "importo_grezzo": cella(c_imp),
+                "stato_grezzo": cella(c_stato) if c_stato is not None else "",
+                "ente_grezzo": cella(c_ente) if c_ente is not None else "",
             })
     return voci
 
@@ -435,6 +465,11 @@ def _ente_voce(voce: dict, sito: dict) -> str:
     l'ente di un altro sito che pubblica lo stesso avviso, main.py fonde i due record.
     Un'area non prevista diventa "<ente> - <area>"."""
     ente = sito.get("ente", "")
+    if sito.get("ente_da_colonna") and (voce.get("ente_grezzo") or "").strip():
+        # Elenchi di piu' enti (SISGAP, 27/11/2026): l'ente della riga, con il nome di TED se previsto.
+        scritto = RE_SPAZI.sub(" ", voce["ente_grezzo"]).strip()
+        rinomina = {RE_SPAZI.sub(" ", k).strip().lower(): v for k, v in (sito.get("enti_rinomina") or {}).items()}
+        return rinomina.get(scritto.lower(), scritto)
     mappa = sito.get("enti_per_area")
     area = RE_SPAZI.sub(" ", voce.get("area") or "").strip()
     if not mappa or not area:
@@ -452,8 +487,15 @@ def _converti(voce: dict, sito: dict, filtro: Filtro) -> Opportunita | None:
     titolo, testo = voce["titolo"], voce["testo"]
     if not titolo:
         return None
+    if sito.get("link_senza_query") and voce.get("link"):
+        voce = dict(voce, link=voce["link"].split("?", 1)[0])
     stato = (voce.get("stato_grezzo") or "").strip().lower()
     if stato and stato in {x.lower() for x in sito.get("escludi_stati", [])}:
+        if sito.get("solo_stati"):
+            # SISGAP: revocata, soppressa, sospesa: fuori anche dallo storico.
+            ESCLUSI.add(_id_voce(voce, sito))
+        return None
+    if sito.get("solo_stati") and stato not in {x.lower() for x in sito["solo_stati"]}:
         return None
     escl = _esclusioni_sito(sito)
     tip = sito.get("escludi_tipologie_regex")

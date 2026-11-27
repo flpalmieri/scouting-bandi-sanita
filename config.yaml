@@ -328,7 +328,7 @@ aggregatori_misti_regex:
   - '\bSUA\W?RB\b|stazione\s+unica\s+appaltante\s+della\s+regione\s+basilicata|^\W*regione\s+basilicata\W+stazione\s+unica\s+appaltante'
   - 'direzione\s+generale\s+per\s+la\s+salute\s+e\s+le\s+politiche\s+della\s+persona\W+ufficio\s+stazione\s+unica\s+appaltante'
   - '^\W*direzione\s+generale\W+(stazione\s+unica\s+appaltante\W+)?ufficio\s+appalti\s+di\s+servizi\s+e\s+forniture\W*$'
-  # Calabria (27/11/2026), IN ATTESA DELLA DECISIONE DI FLAVIO (riga commentata). La SUA della Regione
+  # Calabria: decisione di Flavio (27/11/2026). La SUA della Regione
   # Calabria e' soggetto aggregatore per il SSR (appalti specifici SDAPA di farmaci e vaccini, gare
   # centralizzate di guanti, lavanolo, medicazioni, microinfusori) e svolge anche gare della Regione
   # (scuolabus, vigilanza, assistenza tecnica ai fondi, strumentazione informatica per se stessa). Nomi visti:
@@ -336,7 +336,8 @@ aggregatori_misti_regex:
   # (SISGAP). Non prende le SUA delle Province ("Stazione Unica Appaltante - Provincia di Vibo Valentia",
   # "SUA - Provincia di Crotone; REGIONE CALABRIA ...", "SUA PROVINCIA DI COSENZA ...") ne' i dipartimenti
   # della Regione. Effetto su TED dal 01/06/2026: nessuno (9 esiti della gara scuolabus, non letti).
-  # - '^\W*S\.?\s?U\.?\s?A\.?\W+REGIONE\s+CALABRIA\b|stazione\s+unica\s+appaltante\s+(della\s+)?reg(ione|\.)\s*calabria'
+  # Su SISGAP le gare IT della SUA entrano "da verificare".
+  - '^\W*S\.?\s?U\.?\s?A\.?\W+REGIONE\s+CALABRIA\b|stazione\s+unica\s+appaltante\s+(della\s+)?reg(ione|\.)\s*calabria'
 
 # Parole chiave sul titolo/oggetto che indicano un contesto sanitario
 # (servono per enti non sanitari, es. una Regione che compra un sistema FSE).
@@ -442,7 +443,7 @@ parole_chiave_it_regex:
   - 'piattaform\w*\s+informativ'
   # Calabria (27/11/2026): "fornitura di un sistema di pianificazione dei trattamenti radioterapici (TPS)"
   # (AO Cosenza, Net4market 411, scadenza 09/12/2026) e' software clinico (treatment planning system) ma
-  # non conteneva parole IT. Non la sigla TPS da sola. Caso limite da confermare con Flavio.
+  # non conteneva parole IT. Non la sigla TPS da sola. Nel perimetro: decisione di Flavio del 27/11/2026.
   - 'sistem\w*\s+di\s+pianificazione\s+(de[il]\s+)?trattament|treatment\s+planning'
 
 # Esclusioni: se il titolo contiene una di queste, l'avviso viene scartato.
@@ -1662,6 +1663,42 @@ portali_html:
       timeout_connessione: 20         # sito nuovo: se bloccasse GitHub, si perde poco tempo
       tentativi: 1
 
+    # Calabria (27/11/2026, decisione 5 di Flavio). SISGAP, piattaforma della Regione Calabria (nuova
+    # versione, ASP.NET): tabella generata dal server con nome procedura, tipo, stato, date, base asta ed
+    # ente, 20 voci per pagina (?page=N), dalla piu' recente. 40 procedure in tutto al 27/11 (SUA 19, AOU
+    # Dulbecco 15 + 1 come "AO Catanzaro Pugliese-Ciaccio", dipartimenti 6), 1 aperta (anatomia
+    # patologica dell'AOU, 14/12), nessuna IT. Il filtro sullo stato del sito e' solo in POST con token:
+    # si leggono 3 pagine e si tengono le voci aperte (solo_stati); revocate, soppresse e sospese escono
+    # anche dallo storico. L'ente e' quello della riga, con i nomi di TED per la deduplica. Il link perde
+    # "?CurrentPage=N" (la scheda si apre senza, verificato dall'utente). Le schede non si leggono (gli
+    # allegati hanno i nomi dei componenti delle commissioni). Host mai provato da GitHub.
+    - nome: SISGAP Regione Calabria
+      nome_fonte: SISGAP Calabria
+      sigla: sisgap
+      ente: Regione Calabria (SISGAP)
+      regione: Calabria
+      lettore: tabella
+      url: "https://sisgap.regione.calabria.it/sisgap_estensione/Announcement/Bandi?page={pagina}"
+      max_pagine: 3
+      user_agent: progetto            # pagine della fase 1b scaricate dal box con lo User-Agent del progetto
+      ente_da_colonna: true
+      enti_rinomina:
+        "AOU Renato Dulbecco": "AZIENDA OSPEDALIERO-UNIVERSITARIA “Renato Dulbecco”"
+        "AO Catanzaro \"Pugliese-Ciaccio\"": "AZIENDA OSPEDALIERO-UNIVERSITARIA “Renato Dulbecco”"
+        "Stazione Unica Appaltante Reg. Calabria": "S.U.A. REGIONE CALABRIA - SOGGETTO AGGREGATORE"
+      solo_stati: [Aperta, Aperta pre-qualifica, Pubblicata]
+      escludi_stati: [Revocata, Soppressa, Sospesa]
+      link_senza_query: true
+      timeout_connessione: 20
+      tentativi: 1
+    # Calabria, siti dell'ASP Cosenza e del GOM (decisione 4 di Flavio: "si', con un lettore esistente"):
+    # nessun lettore esistente li legge e non aggiungono quasi nulla. ASP Cosenza: schede <article
+    # class="card-article"> con titolo senza link e date "Inizio | Fine", ma la "Fine" non e' il termine
+    # (manipoli: 31/12 nell'elenco, 05/09 nella scheda) e le schede rimandano agli avvisi della piattaforma
+    # Maggioli ("ID Maggioli: A00153"), gia' letta con la scadenza vera. GOM: titolo e data di
+    # pubblicazione soltanto (due voci senza titolo), "Scade il" vuoto nelle schede; gare sopra soglia su
+    # ASP Consip, gia' su TED; "Avvisi e indagini di mercato" fermo al 07/01/2026. Non letti.
+
 # --- Sintel (ARIA, Lombardia) ------------------------------------------------
 # Piattaforma di gara di tutte le aziende sanitarie lombarde (ASST, ATS, IRCCS,
 # AREU) e di ARIA; la usano anche enti di altre regioni (es. ULSS e aziende
@@ -2235,10 +2272,10 @@ maggioli:
     # ASP Cosenza: istanza propria (gareappalti.aspcs.it, 14 link su TED). Il server non invia il
     # certificato intermedio (Sectigo Public Server Authentication CA DV R36): stesso caso dell'ARNAS Civico,
     # che tls.py completa scaricando l'intermedio dall'indirizzo scritto nel certificato e verificando la
-    # catena fino a certifi (mai verify=False). IN ATTESA DELLA DECISIONE DI FLAVIO: spento. Per accenderlo,
-    # abilitato: true (esplicito: il blocco eredita dal modello qui sopra) e un lancio da solo, perche'
-    # l'host non e' mai stato provato da GitHub. Stazioni su TED: "ASP Cosenza - Ufficio Provveditorato",
-    # "ASP Cosenza - Ingegneria Clinica".
+    # catena fino a certifi (mai verify=False). Accesa il 27/11/2026 (decisione di Flavio, commit 2665a32,
+    # run 45987480844): "catena completata e verificata con 1 intermedi", bandi 0 su 0, avvisi 8 su 8.
+    # abilitato: true esplicito, perche' il blocco eredita dal modello qui sopra. Stazioni su TED: "ASP
+    # Cosenza - Ufficio Provveditorato", "ASP Cosenza - Ingegneria Clinica".
     - <<: *maggioli_calabria
       nome: ASP Cosenza
       abilitato: true
