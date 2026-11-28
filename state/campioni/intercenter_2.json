@@ -3,7 +3,7 @@
   "batching": {
     "@id": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search", 
     "first": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=0", 
-    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=40700", 
+    "last": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=40800", 
     "next": "https://intercenter.regione.emilia-romagna.it/++api++/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/@querystring-search?b_start=50"
   }, 
   "items": [
@@ -530,6 +530,35 @@
       "type_title": "Bando Intercenter"
     }, 
     {
+      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18824580", 
+      "@type": "BandoIntercenter", 
+      "Date": "2026-11-27T00:00:00+01:00", 
+      "Description": "Manutenzione straordinaria delle strade comunali anno 2026", 
+      "Subject": [], 
+      "Title": "Manutenzione straordinaria delle strade comunali anno 2026", 
+      "UID": "38a1059b9eb24c3cb17b4ee19d538cf4", 
+      "[elevated]": null, 
+      "apertura_bando": "1960-01-01", 
+      "bando_state": [
+        "open", 
+        "Attivo"
+      ], 
+      "description": "Manutenzione straordinaria delle strade comunali anno 2026", 
+      "design_italia_meta_type": "Bando Intercenter", 
+      "effective": "2026-11-26T23:00:00+00:00", 
+      "enhanced_links_enabled": null, 
+      "getObjSize": "0 KB", 
+      "id": "BANDO_GARA_PORTALE@18824580", 
+      "image_field": "", 
+      "image_scales": null, 
+      "mime_type": "text/plain", 
+      "review_state": "published", 
+      "scadenza_bando": "2026-12-28T07:00:00+00:00", 
+      "tipologia_bando": null, 
+      "title": "Manutenzione straordinaria delle strade comunali anno 2026", 
+      "type_title": "Bando Intercenter"
+    }, 
+    {
       "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18664567", 
       "@type": "BandoIntercenter", 
       "Date": "2026-11-20T00:00:00+01:00", 
@@ -932,25 +961,4 @@
       "review_state": "published", 
       "scadenza_bando": "2026-12-21T10:00:00+00:00", 
       "tipologia_bando": null, 
-      "title": "STRADA PROVINCIALE N. 33 DI CANTONE. PONTE SUL RIO LISONE, PROGRESSIVA KM 7+120. LAVORI DI MANUTENZIONE STRAORDINARIA E INSTALLAZIONE DELLE BARRIERE DI SICUREZZA. CUP D95F21000600001. [COD. INTERVENTO 737 - COD. MIMS DM 225/2021: 00102.V1.PC]", 
-      "type_title": "Bando Intercenter"
-    }, 
-    {
-      "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18698840", 
-      "@type": "BandoIntercenter", 
-      "Date": "2026-11-19T00:00:00+01:00", 
-      "Description": "SERVIZIO DI GESTIONE DEL VIVAIO ZERINA DI IMOLA FINALIZZATO ALLA TUTELA DELLA BIODIVERSIT\u00c0 E VALORIZZAZIONE DEL SETTORE VIVAISTICO DAL 01/01/2027 AL 31/08/2028", 
-      "Subject": [], 
-      "Title": "SERVIZIO DI GESTIONE DEL VIVAIO ZERINA DI IMOLA FINALIZZATO ALLA TUTELA DELLA BIODIVERSIT\u00c0 E VALORIZZAZIONE DEL SETTORE VIVAISTICO DAL 01/01/2027 AL 31/08/2028", 
-      "UID": "2193cb9c324f4621b2c609f04175ee55", 
-      "[elevated]": null, 
-      "apertura_bando": "1960-01-01", 
-      "bando_state": [
-        "open", 
-        "Attivo"
-      ], 
-      "description": "SERVIZIO DI GESTIONE DEL VIVAIO ZERINA DI IMOLA FINALIZZATO ALLA TUTELA DELLA BIODIVERSIT\u00c0 E VALORIZZAZIONE DEL SETTORE VIVAISTICO DAL 01/01/2027 AL 31/08/2028", 
-      "design_italia_meta_type": "Bando Intercenter", 
-      "effective": "2026-11-18T23:00:00+00:00", 
-      "enhanced_links_enabled": null, 
-      "getObjSize": "0 KB"
+      "title": "STRADA PROVINCIALE N. 33 DI CANTONE. PONTE SUL RIO LISONE, PROGRESSIVA KM 7+120. LAVORI DI MANUTENZIONE STRAORDINARIA E INSTALLAZIONE DELLE BARRIERE DI SICUREZZA. CUP D95F21000600001. [COD. INTERVENTO 737 - COD. MIMS DM 225/2021

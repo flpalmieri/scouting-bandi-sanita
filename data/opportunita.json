@@ -1,6 +1,6 @@
 {
- "aggiornato_il": "2026-11-27T14:44:19+00:00",
- "totale": 138,
+ "aggiornato_il": "2026-11-28T13:55:55+00:00",
+ "totale": 139,
  "opportunita": [
   {
    "id": "ted:660706-2026",
@@ -90,7 +90,7 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('DEEP WEB') - da verificare",
    "descrizione": "AVVISO PER LA RACCOLTA DI PREVENTIVI FINALIZZATI ALL’AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50 COMMA 1) LETT. B) DEL D.LGS. N. 36/2023 PER IL RINNOVO DEL SERVIZIO DI MONITORAGGIO DARK/DEEP WEB, COMPRENSIVO DELLA COMPONENTE DI THREAT INTELLIGENCE, PER",
    "primo_rilevamento": "2026-11-12",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "empulia:2931485",
@@ -244,7 +244,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
    "descrizione": "CPM NETWORKING E APPARATI INFRASTRUTTURALI",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "empulia:2937954",
@@ -326,7 +326,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('software')",
    "descrizione": "CPM MANUTENZIONI HW E SW",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:226408591",
@@ -967,7 +967,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('telemonitor')",
    "descrizione": "cpm valvole percutanee",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "intercenter:3ea9a1b693f2",
@@ -1268,7 +1268,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('HW/SW')",
    "descrizione": "CONSULTAZIONE PRELIMINARE DI MERCATO PER LA FORNITURA IN NOLEGGIO DI SISTEMI HW/SW PER CONVALIDA DEL CONGELAMENTO PLASMA, DEL TRASPOSTO E CONSERVAZIONE DEL SANGUE E DELLA CENTRIFUGAZIONE SACCHE DI SANGUE.",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "intercenter:885228cd3389",
@@ -1333,7 +1333,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72500000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-27",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:751690-2026",
@@ -1356,7 +1356,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72212000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:227037500",
@@ -1376,7 +1376,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
    "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-24",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:754163-2026",
@@ -1418,7 +1418,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('SUBSCRIPTION')",
    "descrizione": "Tipo Sintel: Procedura Aperta; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:225610516",
@@ -1458,7 +1458,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
    "descrizione": "Tipo Sintel: Affidamento diretto previa richiesta di preventivi; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:225580182",
@@ -1478,7 +1478,7 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('software') - da verificare",
    "descrizione": "Tipo Sintel: Procedura Aperta; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:226559522",
@@ -1498,7 +1498,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('INFORMATIC')",
    "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:718962-2026",
@@ -1542,7 +1542,7 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('software') - da verificare",
    "descrizione": "Affidamento diretto in regime di infungibilità tecnica dei servizi di sviluppo software su procedure software fornite da Zen Sistemi Srl (Questionario RENAM) della durata di 12 mesi in ambito PNC. CUP E39I23001530001 - pos.5/498-2026; Procedura: Negoziata (Invito)",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "contracta:2984958",
@@ -1566,7 +1566,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72000000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-24",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:227060254",
@@ -1586,7 +1586,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
    "descrizione": "Tipo Sintel: Procedura negoziata senza bando; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-25",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "siaps:4838823",
@@ -1608,7 +1608,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72300000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-20",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:226429225",
@@ -1628,7 +1628,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('PIATTAFORMA DIGITALE')",
    "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:755116-2026",
@@ -1652,7 +1652,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48000000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-30",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:226226331",
@@ -1672,7 +1672,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenze d’uso')",
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sardegnacat:1060961",
@@ -1696,7 +1696,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72267000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-25",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:763852-2026",
@@ -1748,7 +1748,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('software')",
    "descrizione": null,
    "primo_rilevamento": "2026-11-23",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:749235-2026",
@@ -1815,7 +1815,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72500000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "siaps:4847535",
@@ -1837,7 +1837,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72000000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-20",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "giada-cons:361686",
@@ -1857,7 +1857,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('ARCHIVIO DIGITAL')",
    "descrizione": null,
    "primo_rilevamento": "2026-11-23",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "stella-cons:24388435",
@@ -1877,7 +1877,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
    "descrizione": "CONSULTAZIONE PRELIMINARE DI MERCATO PER L’AFFIDAMENTO DELLA FORNITURA DELL’AGGIORNAMENTO DEL SOFTWARE PER GLI ECOTOMOGRAFI PHILIPS EPIQ IN DOTAZIONE PRESSO LA U.O.C. CARDIOLOGIA",
    "primo_rilevamento": "2026-11-20",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "n4m_aspragusa:5041",
@@ -1897,7 +1897,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenze software')",
    "descrizione": "Riferimento sull'albo Net4market: SI/43/2026",
    "primo_rilevamento": "2026-11-27",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:227078217",
@@ -1917,7 +1917,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
    "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-25",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:227037968",
@@ -1937,7 +1937,29 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-24",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
+  },
+  {
+   "id": "sintel:227226615",
+   "fonti": [
+    "Sintel"
+   ],
+   "titolo": "ID26SIC010 - Servizio di manutenzione e assistenza tecnica full-risk di n. 1 laser a femtosecondi mod. Visumax 800, n.1 laser ad eccimeri mod. Mel 90, relativo software di gestione e archiviazione dati mod. Forum in uso presso la UOC Oculistica dell’Ospedale Sant’Antonio",
+   "ente": "AZIENDA OSPEDALE-UNIVERSITÀ PADOVA",
+   "scadenza": "2026-12-04",
+   "pubblicazione": "2026-11-27",
+   "importo": 117000.0,
+   "cpv": [],
+   "cig": [
+    "ID26SIC010"
+   ],
+   "tipo": "avviso esplorativo",
+   "link": "https://www.sintel.regione.lombardia.it/eprocdata/auctionDetail.xhtml?id=227226615",
+   "regione": "Veneto",
+   "motivo_match": "Ente sanitario + oggetto IT ('software')",
+   "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
+   "primo_rilevamento": "2026-11-28",
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:226853504",
@@ -1957,7 +1979,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('INTELLIGENZA ARTIFICIALE')",
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:722510-2026",
@@ -1983,7 +2005,7 @@
    "motivo_match": "CPV software sanitario (48180000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "siaps:4853046",
@@ -2003,7 +2025,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('manutenzione correttiva')",
    "descrizione": null,
    "primo_rilevamento": "2026-11-24",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:226923080",
@@ -2023,7 +2045,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('PACS')",
    "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-21",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "intercenter:a4228b57f874",
@@ -2045,7 +2067,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('Software')",
    "descrizione": "PN, ai sensi dell’articolo 76 comma 4 lett. b) del D.Lgs 36/2023, senza pubblicazione di bando, per la fornitura in acquisto di moduli hardware e software sviluppati dalla ditta Philips per la Risonanza magnetica Philips Ingenia 3.0T acquistata dalla Convenzione Consip “AQ per la fornitura di Tomografi a Risonanza Magnetica (RM) – Lotto 2: Tomografi a Risonanza Magnetica (RM) 3.0 Tesla” di proprietà dell’IRCCS Azienda Ospedaliero - Universitaria di Bologna Policlinico Sant’Orsola; Progetto finanziato parte dal PNRR Mission 6 Componente 2 – Investimeno 2.1 – CUP: F33C24000230006 e parte dai Fon",
    "primo_rilevamento": "2026-11-27",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "intercenter:9bc9c1212814",
@@ -2067,7 +2089,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
    "descrizione": "Procedura negoziata senza bando, di cui all'art. 50, comma 1, lett. e) e dell’art. 14 comma 1 lett. c del D.Lgs n. 36/2023, per appalto di fornitura triennale della Licenza per il Sistema ANTISPAM TRENDMICRO per il periodo 01/01/2027 – 31/12/2029, occorrente al Servizio ICT dell’AUSL di Modena mediante Piattaforma digitale di approvvigionamento regionale SATER di Intercert-er. Importo complessivo base d’asta pari ad € 165.000,00 IVA esclusa; Lotti: Licenza per il Sistema ANTISPAM TRENDMICRO per il periodo 01/01/2027 – 31/12/2029; Procedura: Negoziata (Invito)",
    "primo_rilevamento": "2026-11-27",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "stella:24394855",
@@ -2091,7 +2113,7 @@
    "motivo_match": "Ente sanitario + CPV IT (72268000)",
    "descrizione": "Avviso manifestazione di interesse - Procedura negoziata ex art. 50, comma 1, lett. e) D.Lgs. 36/2023, finalizzata all'affidamento dellafornitura di una soluzione software per la gestione dei sistemi ALPI e delle prestazioni aggiuntive\nProcedura: Negoziata (Avviso)",
    "primo_rilevamento": "2026-11-27",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:227007510",
@@ -2111,7 +2133,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('SOFTWARE')",
    "descrizione": "Tipo Sintel: Affidamento diretto previa richiesta di preventivi; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-24",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:227008354",
@@ -2131,7 +2153,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('applicativ')",
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-24",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:768150-2026",
@@ -2156,7 +2178,7 @@
    "motivo_match": "Ente sanitario + CPV IT (48730000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-05",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "n4m_aocs:411",
@@ -2176,7 +2198,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('SISTEMA DI PIANIFICAZIONE DEI TRATTAMENT')",
    "descrizione": null,
    "primo_rilevamento": "2026-11-27",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:226965660",
@@ -2196,7 +2218,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('APPLICATIV')",
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-23",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "siaps:4855621",
@@ -2218,7 +2240,7 @@
    "motivo_match": "Ente sanitario + CPV IT (30211300)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-26",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:226611250",
@@ -2238,7 +2260,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('informatizzat')",
    "descrizione": "Tipo Sintel: Indagine di mercato; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-13",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "empulia:2982122",
@@ -2260,7 +2282,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('telemedicin')",
    "descrizione": "COMPLETAMENTO COLONNA VIDEOLAPAROSCOPICA STORZ PER U.O.C. DI GINECOLOGIA DEL P.O. V. FAZZI",
    "primo_rilevamento": "2026-11-25",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:227160624",
@@ -2280,7 +2302,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('software')",
    "descrizione": "Tipo Sintel: Manifestazione di interesse; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-26",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "intercenter:f2bb97abb3ed",
@@ -2302,7 +2324,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('RIS')",
    "descrizione": "SERVIZIO TRIENNALE DI MANUTENZIONE ED ASSISTENZA TECNICA FULL RISK PER IL SISTEMA RIS/CIS/PACS ESTENSA in dotazione all’Azienda Ospedaliero Universitaria di Parma e Servizio di Reperibilità 24/h/7gg - come meglio specificato nell’elenco di cui all’Allegato B del presente avviso Durata presunta del servizio: ANNI TRE Precisazioni: decorrenza contratto 01/01/2027-31/12/2029; Lotti: SERVIZIO TRIENNALE DI MANUTENZIONE ED ASSISTENZA TECNICA FULL RISK PER IL SISTEMA RIS/CIS/PACS ESTENSA in dotazione all’Azienda Ospedaliero Universitaria di Parma e Servizio di Reperibilità 24/h/7gg; Procedura: Negozi",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "placevda:1368860",
@@ -2326,7 +2348,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72250000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-24",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "placevda:1376599",
@@ -2348,7 +2370,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (48761000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-27",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:794218-2026",
@@ -2394,7 +2416,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72000000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-24",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:765436-2026",
@@ -2440,7 +2462,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('software')",
    "descrizione": "Dosimetria",
    "primo_rilevamento": "2026-11-27",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "stella:22779305",
@@ -2464,7 +2486,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('RIS')",
    "descrizione": "Procedura aperta ai sensi dell’articolo 71 del D. Lgs. n. 36/2023 per la fornitura di un nuovo sistema informatico RIS-PACS, comprensivo di servizi, presidio tecnico on-site, noleggio delle componenti hardware - software e delle postazioni di refertazione, per la durata di 60 mesi\nProcedura: Aperta (Bando)",
    "primo_rilevamento": "2026-11-20",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "startsan-cons:629667",
@@ -2484,7 +2506,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('LICENZE')",
    "descrizione": "CPM PER FORNITURA DI LICENZE MODULI AI PER ELABORAZIONI IMMAGINI",
    "primo_rilevamento": "2026-11-27",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:683594-2026",
@@ -2506,7 +2528,7 @@
    "motivo_match": "Oggetto sanitario ('Clinic') + CPV IT (72260000)",
    "descrizione": null,
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:811712-2026",
@@ -2528,7 +2550,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72500000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-23",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:227030582",
@@ -2548,7 +2570,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "Tipo Sintel: Procedura Aperta; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-26",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:674254-2026",
@@ -2571,7 +2593,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (48730000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "intercenter:f5d77d76da5c",
@@ -2593,7 +2615,7 @@
    "motivo_match": "Oggetto sanitario ('sanitari') + oggetto IT ('digitalizzazion')",
    "descrizione": "Appalto specifico (SDA) - Affidamento dei servizi di digitalizzazione e stoccaggio di documentazione sanitaria e amministrativa; Procedura: Ristretta (Invito)",
    "primo_rilevamento": "2026-11-26",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:801033-2026",
@@ -2615,7 +2637,7 @@
    "motivo_match": "Soggetto aggregatore + CPV IT (72000000) - da verificare",
    "descrizione": null,
    "primo_rilevamento": "2026-11-18",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:207615667",
@@ -2635,7 +2657,7 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('informatic') - da verificare",
    "descrizione": "Tipo Sintel: Sistema Dinamico di Acquisizione - Bando istitutivo; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:217957222",
@@ -2655,7 +2677,7 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('licenze software') - da verificare",
    "descrizione": "Tipo Sintel: Sistema Dinamico di Acquisizione - Bando istitutivo; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:222659368",
@@ -2675,7 +2697,7 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('informatic') - da verificare",
    "descrizione": "Tipo Sintel: Sistema Dinamico di Acquisizione - Bando istitutivo; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "sintel:225416241",
@@ -2695,7 +2717,7 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('licenze software') - da verificare",
    "descrizione": "Tipo Sintel: Sistema Dinamico di Acquisizione - Bando istitutivo; Ambito: forniture/servizi",
    "primo_rilevamento": "2026-11-19",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:560155-2026",
@@ -2757,7 +2779,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('LICENZE SOFTWARE')",
    "descrizione": null,
    "primo_rilevamento": "2026-11-27",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "aslcn2:dd2a662b5266",
@@ -2801,7 +2823,7 @@
    "motivo_match": "Soggetto aggregatore + oggetto IT ('Licenze') - da verificare",
    "descrizione": "DATA PUBBLICAZIONE: 24/11/2026\nDATA SCADENZA: \nTIPOLOGIA: Forniture\nIMPORTO: \nCIG: BDF3EBD9A1",
    "primo_rilevamento": "2026-11-24",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "ted:722587-2026",
@@ -2867,7 +2889,7 @@
    "motivo_match": "Oggetto sanitario ('clinic') + CPV IT (72250000)",
    "descrizione": null,
    "primo_rilevamento": "2026-11-20",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "uslumbria1:1bdb9ab7d6e8",
@@ -2889,7 +2911,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('licenza d’uso')",
    "descrizione": "DATA PUBBLICAZIONE: 12/02/2026",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "uslumbria1:546ea13c0804",
@@ -2911,7 +2933,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('cloud')",
    "descrizione": "DATA PUBBLICAZIONE: 07/08/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "uslumbria1:6dd9664313c5",
@@ -2951,7 +2973,7 @@
    "motivo_match": "Ente sanitario + oggetto IT ('DIGITALIZZAZION')",
    "descrizione": "DATA PUBBLICAZIONE: 26/06/2025",
    "primo_rilevamento": "2026-10-13",
-   "ultimo_rilevamento": "2026-11-27"
+   "ultimo_rilevamento": "2026-11-28"
   },
   {
    "id": "uslumbria2:5137a51e173c",

@@ -5,116 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portale</description>
 <language>IT-it</language>
-<afs:totRecord>292</afs:totRecord>
+<afs:totRecord>297</afs:totRecord>
 <item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1373164&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T16:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>25/11/2026</pubDate>
-	<description>FORNITURA VESTIARIO ED EQUIPAGGIAMENTO TECNICO PER L’ANNO 2026, MEDIANTE AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50, CO.1 LETT B) DEL D.LGS 36/2023, PER IL PERSONALE DELLA STRUTTURA INFRASTRUTTURE FUNIVIARIE.&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[FORNITURA VESTIARIO ED EQUIPAGGIAMENTO TECNICO PER L’ANNO 2026, MEDIANTE AFFIDAMENTO DIRETTO AI SENSI DELL’ART. 50, CO.1 LETT B) DEL D.LGS 36/2023, PER IL PERSONALE DELLA STRUTTURA INFRASTRUTTURE FUNIVIARIE.]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[3.853,56]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T16:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1373164]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Affidamento vestiario 2026]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-27T15:13:28]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[18110000-3 - Indumenti professionali]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T14:41:53]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1374474&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T17:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>26/11/2026</pubDate>
-	<description>Fornitura ed installazione impianto antintrusione  per l’archivio storico regionale e per il magazzino della struttura Patrimonio storico-artistico e gestioni siti culturali e manutenzione per 24 mesi con possibilit&#224; di estensione del servizio per ulteriore 12 mesi.&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Fornitura ed installazione impianto antintrusione  per l’archivio storico regionale e per il magazzino della struttura Patrimonio storico-artistico e gestioni siti culturali e manutenzione per 24 mesi con possibilità di estensione del servizio per ulteriore 12 mesi.]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[15.922,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T17:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1374474]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Invito dall' Avviso PE175914-26]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-27T09:43:33]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[50610000-4 - Servizi di riparazione e manutenzione di attrezzature di sicurezza]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-26T11:56:43]]></afs:DtPubblicazioneTecnical>
-</item><item>
-	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1372865&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-27T19:00:00]]></link>
-	<category>Bando</category>
-	<pubDate>25/11/2026</pubDate>
-	<description>Servizio di pulizia presso l&#39;Istituzione Scolastica Mont-Emilius 3 dal 01/12/2026 al 30/06/2027&lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;</description>
-	<afs:Oggetto><![CDATA[Servizio di pulizia presso l'Istituzione Scolastica Mont-Emilius 3 dal 01/12/2026 al 30/06/2027]]>  </afs:Oggetto>
-    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[Unité des Communes valdôtaines Mont-Émilius]]></afs:EnteProponente>
-	<afs:DenominazioneEnte><![CDATA[Unité des Communes valdôtaines Mont-Émilius]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[12.250,00]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T19:00:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:CIG><![CDATA[]]></afs:CIG>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
-	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
-	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[1372865]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:TitoloDocumento><![CDATA[Servizio di pulizia presso l'Istituzione Scolastica Mont-Emilius 3 dal 01/12/2026 al 30/06/2027]]></afs:TitoloDocumento>
-	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
-	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
-	<afs:dataUltimaModifica><![CDATA[2026-11-26T12:49:00]]></afs:dataUltimaModifica>
-	<afs:CPV><![CDATA[90910000-9 - Servizi di pulizia]]></afs:CPV>
-    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T12:02:22]]></afs:DtPubblicazioneTecnical>
-</item><item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1368691&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-28T18:00:00]]></link>
 	<category>Bando</category>
@@ -260,7 +152,7 @@
 	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-23T16:19:30]]></afs:DtPubblicazioneTecnical>
 </item><item>
 	<title><![CDATA[Bando ]]></title>
-	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1376784&tipobando=Bando&RicQ=YES&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T08:00:00]]></link>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1376784&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T08:00:00]]></link>
 	<category>Bando</category>
 	<pubDate>27/11/2026</pubDate>
 	<description>redazione progetto di fattibilit&#224; tecnica ed economica, progetto esecutivo, direzione lavori e coordinamento della sicurezza per l&#39;installazione di guard-rail lungo la strada per la localit&#224; Omens&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
@@ -282,7 +174,7 @@
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -396,4 +288,115 @@
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
 	<afs:TitoloDocumento><![CDATA[AD_Revisione mezzi comunali anno 2027]]></afs:TitoloDocumento>
 	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
-	<af
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T15:11:38]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[50110000-9 - Servizi di riparazione e manutenzione di veicoli a motore e attrezzature affini]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-23T15:11:38]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1369898&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T09:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>23/11/2026</pubDate>
+	<description>servizio di rifacimento segnaletica orizzontale 2027-2028&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[servizio di rifacimento segnaletica orizzontale 2027-2028]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI PRE'-SAINT-DIDIER]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI PRE'-SAINT-DIDIER]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Servizi]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[38.056,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1369898]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[AD_servizio di rifacimento segnaletica orizzontale 2027-2028]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-23T15:41:15]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[34922100-7 - Segnaletica orizzontale]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-23T15:41:15]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1372357&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T09:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>25/11/2026</pubDate>
+	<description>INVITO ALLA CONSULTAZIONE DEL MERCATO, NELL’AMBITO DI AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. A), DEL D.LGS. N. 36/2023 SU E-PROCUREMENT DELLA CUC VDA PER L’AFFIDAMENTO DELL&#39;INTERVENTO DI MANUTENZIONE STRAORDINARIA AL FABBRICATO DI PROPRIETA&#39; COMUNALE SITO IN VIA COUGNIN NEL COMUNE DI HONE. CUP B11E26000020004
+&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[INVITO ALLA CONSULTAZIONE DEL MERCATO, NELL’AMBITO DI AFFIDAMENTO DIRETTO, AI SENSI DELL’ART. 50, COMMA 1, LETT. A), DEL D.LGS. N. 36/2023 SU E-PROCUREMENT DELLA CUC VDA PER L’AFFIDAMENTO DELL'INTERVENTO DI MANUTENZIONE STRAORDINARIA AL FABBRICATO DI PROPRIETA' COMUNALE SITO IN VIA COUGNIN NEL COMUNE DI HONE. CUP B11E26000020004
+]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[COMUNE DI HONE]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[COMUNE DI HONE]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Lavori]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[77.255,60]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T09:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1372357]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Invito dall' Avviso PE189165-26]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<afs:paginaDiDettaglio><![CDATA[bandi]]></afs:paginaDiDettaglio>
+	<afs:dataUltimaModifica><![CDATA[2026-11-25T15:36:49]]></afs:dataUltimaModifica>
+	<afs:CPV><![CDATA[45262522-6 - Lavori edili]]></afs:CPV>
+    <afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-25T09:46:09]]></afs:DtPubblicazioneTecnical>
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[https://place-vda.aflink.it//portale/index.php/bandi?getdettaglio=yes&bando=1350357&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA_PORTALE&xslt=XSLT_BANDO_GARA_PORTALE&scadenzaBando=2026-11-30T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>09/11/2026</pubDate>
+	<description>&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; Fornitura di composizioni floreali per la Chiesa di Sant’Orso in occasione della Messa degli Artigiani - 1027a Fiera di Sant&#39;Orso&lt;strong&gt;Scadenza : 30/11/2026&lt;/strong&gt;</description>
+	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> Fornitura di composizioni floreali per la Chiesa di Sant’Orso in occasione della Messa degli Artigiani - 1027a Fiera di Sant'Orso]]>  </afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:EnteProponente>
+	<afs:DenominazioneEnte><![CDATA[REGIONE AUTONOMA VALLE D'AOSTA]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[no]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[300,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-30T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:CIG><![CDATA[]]></afs:CIG>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+    <afs:TipoProcedura><![CDATA[Affidamento Diretto]]></afs:TipoProcedura>
+	<afs:TipoDocOriginal><![CDATA[BANDO_GARA]]></afs:TipoDocOriginal>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[1350357]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:TitoloDocumento><![CDATA[Fornitura di composizioni floreali per la 1027a Fiera di Sant’Orso]]></afs:TitoloDocumento>
+	<afs:bScaduto><![CDATA[0]]></afs:bScaduto>
+	<afs:DataChiusuraTecnical><![CDATA[]]></afs:DataChiusuraTecnical>
+	<a

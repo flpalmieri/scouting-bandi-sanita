@@ -126,6 +126,22 @@
   "cig": []
  },
  {
+  "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18663592",
+  "title": "Fornitura di attività professionali per integrazione del sistema informativo SUITESTENSA CIS PACS con Digital Crential Proxy",
+  "type": "BANDO_GARA_PORTALE",
+  "ente_appaltante": "AZIENDA OSPEDALIERA-UNIVERSITARIA DI BOLOGNA",
+  "stato_procedura": "Presentazione Offerte/Risposte",
+  "importo_appalto": "39.999,00 €",
+  "procedura_gara": "Affidamento Diretto",
+  "tipo_bando_gara": "Invito",
+  "criterio": "Prezzo più basso",
+  "scadenza": "2026-12-03T11:00:00+00:00",
+  "pubdate": "2026-11-27T15:16:51+00:00",
+  "sospeso": false,
+  "in_sospensione": false,
+  "cig": []
+ },
+ {
   "@id": "https://intercenter.regione.emilia-romagna.it/bandi-e-strumenti-di-acquisto/bandi-altri-enti/altri-enti-bandi-e-procedure-di-gara/bandi-altri-enti-aperti/BANDO_GARA_PORTALE@18700730",
   "title": "Affidamento diretto in regime di infungibilità tecnica dei servizi di sviluppo software su procedure software fornite da Zen Sistemi Srl (Questionario RENAM) in ambito PNC - pos.5/498-2026",
   "type": "BANDO_GARA_PORTALE",

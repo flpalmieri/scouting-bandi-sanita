@@ -1,28 +1,6 @@
 {
- "totale_dichiarato": 10,
+ "totale_dichiarato": 8,
  "voci": [
-  {
-   "ente": "U.O.C. Provveditorato",
-   "tipologia": "Altro",
-   "titolo": "Sistema macchina-reattivi con metodica PCR-SSP senza l'utilizzo dell'elettroforesi su gel per la tipizzazione genomica di conferma dei gruppi sanguigni e varianti nei pazienti",
-   "avviso_per": "Forniture",
-   "pubblicazione": "13/11/2026",
-   "scadenza": "27/11/2026",
-   "codice": "A00509",
-   "stato": "In corso",
-   "link": "https://eprocurement.arnascivico.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00509"
-  },
-  {
-   "ente": "U.O.C. Provveditorato",
-   "tipologia": "Altro",
-   "titolo": "Materiale consumabile emoglobinometri e pungidito",
-   "avviso_per": "Forniture",
-   "pubblicazione": "13/11/2026",
-   "scadenza": "27/11/2026",
-   "codice": "A00510",
-   "stato": "In corso",
-   "link": "https://eprocurement.arnascivico.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00510"
-  },
   {
    "ente": "U.O.C. Provveditorato",
    "tipologia": "Altro",
@@ -70,17 +48,6 @@
   {
    "ente": "U.O.C. Provveditorato",
    "tipologia": "Altro",
-   "titolo": "Fornitura di sistemi di immobilizzazione per radioterapia dell'Arnas",
-   "avviso_per": "Forniture",
-   "pubblicazione": "23/11/2026",
-   "scadenza": "14/12/2026",
-   "codice": "A00514",
-   "stato": "In corso",
-   "link": "https://eprocurement.arnascivico.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00514"
-  },
-  {
-   "ente": "U.O.C. Provveditorato",
-   "tipologia": "Altro",
    "titolo": "Fornitura di filtri antibatterici e antivirali monouso per gli spirometri in dotazione presso L''l'UOC Pediatria dell'Arnas",
    "avviso_per": "Forniture",
    "pubblicazione": "23/11/2026",
@@ -88,6 +55,17 @@
    "codice": "A00515",
    "stato": "In corso",
    "link": "https://eprocurement.arnascivico.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00515"
+  },
+  {
+   "ente": "U.O.C. Provveditorato",
+   "tipologia": "Altro",
+   "titolo": "Fornitura di sistemi di immobilizzazione per radioterapia dell'Arnas",
+   "avviso_per": "Forniture",
+   "pubblicazione": "23/11/2026",
+   "scadenza": "14/12/2026",
+   "codice": "A00514",
+   "stato": "In corso",
+   "link": "https://eprocurement.arnascivico.it/PortaleAppalti/it/ppgare_avvisi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Avvisi/view.action&currentFrame=7&codice=A00514"
   },
   {
    "ente": "U.O.C. Provveditorato",

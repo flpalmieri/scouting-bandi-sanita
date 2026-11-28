@@ -1,24 +1,6 @@
 {
- "totale_dichiarato": 74,
+ "totale_dichiarato": 72,
  "righe": [
-  {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "Centrale unica di committenza FVG",
-   "protocollo": "",
-   "titolo": "26PRE006 CUC - AGHI E SIRINGHE",
-   "tipologia": "Forniture",
-   "scadenza": "27/11/2026 18:00",
-   "id": "26293"
-  },
-  {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "Comune di Gorizia",
-   "protocollo": "",
-   "titolo": "SERVIZIO PER L’ESECUZIONE DI INDAGINI STRUTTURALI DELL’EDIFICIO EX RIMESSA TRAM A GORIZIA NELL’AMBITO DEI LAVORI DI “RIQUALIFICAZIONE DELL’EX RIMESSA TRAM A GORIZIA”. CUP F81B24000420006.",
-   "tipologia": "Servizi",
-   "scadenza": "27/11/2026 18:00",
-   "id": "26335"
-  },
   {
    "procedura": "UE - Procedura Aperta",
    "ente": "COMUNE DI MONFALCONE",
@@ -47,15 +29,6 @@
    "id": "26330"
   },
   {
-   "procedura": "Procedura aziendale",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
-   "protocollo": "",
-   "titolo": "Fornitura di aspiratore di mucosità e lavaggio broncoalveolare, per 48 mesi",
-   "tipologia": "Forniture",
-   "scadenza": "01/12/2026 12:00",
-   "id": "26332"
-  },
-  {
    "procedura": "Manifestazione di Interesse",
    "ente": "PromoTurismoFVG",
    "protocollo": "",
@@ -65,13 +38,13 @@
    "id": "26302"
   },
   {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "COMUNE DI UDINE",
+   "procedura": "Procedura aziendale",
+   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
    "protocollo": "",
-   "titolo": "Servizio di distribuzione del mangime antifecondativo per piccioni (2027-2029)",
-   "tipologia": "Servizi",
-   "scadenza": "02/12/2026 12:00",
-   "id": "26326"
+   "titolo": "Fornitura di aspiratore di mucosità e lavaggio broncoalveolare, per 48 mesi",
+   "tipologia": "Forniture",
+   "scadenza": "01/12/2026 12:00",
+   "id": "26332"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -86,10 +59,28 @@
    "procedura": "Manifestazione di Interesse",
    "ente": "COMUNE DI UDINE",
    "protocollo": "",
+   "titolo": "Servizio di distribuzione del mangime antifecondativo per piccioni (2027-2029)",
+   "tipologia": "Servizi",
+   "scadenza": "02/12/2026 12:00",
+   "id": "26326"
+  },
+  {
+   "procedura": "Manifestazione di Interesse",
+   "ente": "COMUNE DI UDINE",
+   "protocollo": "",
    "titolo": "INDIZIONE INDAGINE DI MERCATO FINALIZZATA ALL'AFFIDAMENTO DIRETTO. PR FESR 2021 – 2027. Procedura n. 69. Progetto “Exploring, Sharing, Belonging. Progettazione di percorsi digitali inclusivi e sviluppo di contenuti divulgativi",
    "tipologia": "Servizi",
    "scadenza": "02/12/2026 13:00",
    "id": "25765"
+  },
+  {
+   "procedura": "Manifestazione di Interesse",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "26INV015 -CONSULTAZIONE PRELIMINARE - PROCEDURA PER L'AFFIDAMENTO DELLA FORNITURA COMPRENSIVA DI MANUTENZIONE FULL-RISK DI SISTEMI DI VENTILAZIONE POLMONARE PER LE AZIENDE DEL SSR FVG",
+   "tipologia": "Forniture",
+   "scadenza": "03/12/2026 12:00",
+   "id": "26337"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -99,6 +90,15 @@
    "tipologia": "Forniture",
    "scadenza": "03/12/2026 12:00",
    "id": "26175"
+  },
+  {
+   "procedura": "Affidamento diretto",
+   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
+   "protocollo": "",
+   "titolo": "Fornitura di abbonamenti a periodici italiani e stranieri- titoli diversi",
+   "tipologia": "Forniture",
+   "scadenza": "03/12/2026 12:00",
+   "id": "26319"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -111,48 +111,12 @@
   },
   {
    "procedura": "Manifestazione di Interesse",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
-   "protocollo": "",
-   "titolo": "26INV015 -CONSULTAZIONE PRELIMINARE - PROCEDURA PER L'AFFIDAMENTO DELLA FORNITURA COMPRENSIVA DI MANUTENZIONE FULL-RISK DI SISTEMI DI VENTILAZIONE POLMONARE PER LE AZIENDE DEL SSR FVG",
-   "tipologia": "Forniture",
-   "scadenza": "03/12/2026 12:00",
-   "id": "26337"
-  },
-  {
-   "procedura": "Affidamento diretto",
-   "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
-   "protocollo": "",
-   "titolo": "Fornitura di abbonamenti a periodici italiani e stranieri- titoli diversi",
-   "tipologia": "Forniture",
-   "scadenza": "03/12/2026 12:00",
-   "id": "26319"
-  },
-  {
-   "procedura": "Manifestazione di Interesse",
    "ente": "COMUNE DI MARANO LAGUNARE",
    "protocollo": "",
    "titolo": "SERVIZIO DI CONSERVATORE, CURATORE SCIENTIFICO NONCHÉ ORGANIZZATORE DIDATTICO DEL MUSEO ARCHEOLOGICO DELLA LAGUNA” – ANNO 2027",
    "tipologia": "Servizi",
    "scadenza": "04/12/2026 12:00",
    "id": "26310"
-  },
-  {
-   "procedura": "UE - Procedura Negoziata",
-   "ente": "Centrale unica di committenza FVG",
-   "protocollo": "",
-   "titolo": "24FAR001.86.CUC- Farmaci esclusivi VORANIGO",
-   "tipologia": "Forniture",
-   "scadenza": "04/12/2026 12:00",
-   "id": "26348"
-  },
-  {
-   "procedura": "Altro",
-   "ente": "COMUNE DI VISCO",
-   "protocollo": "",
-   "titolo": "Servizio di project management relativo al progetto sovracomunale di rigenerazione urbana denominato “Museo diffuso della resistenza del Friuli Venezia Giulia” tra i Comuni di Gonars, Palmanova e Visco",
-   "tipologia": "Servizi",
-   "scadenza": "04/12/2026 12:00",
-   "id": "26375"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -164,13 +128,22 @@
    "id": "26122"
   },
   {
-   "procedura": "Manifestazione di Interesse",
-   "ente": "CENTRALE COMMITTENZA RETE DELLE STAZIONI APPALTANTI DEL FRIULI VENEZIA GIULIA",
+   "procedura": "Altro",
+   "ente": "COMUNE DI VISCO",
    "protocollo": "",
-   "titolo": "CS - AFFIDAMENTO IN CONCESSIONE DEL SERVIZIO PUBBLICO LOCALE PER LA GESTIONE DELL’IMPIANTO SPORTIVO “CAMPO SPORTIVO E.E. INNOCENTE”, SITUATO IN COMUNE DI FIUME VENETO (PN)",
+   "titolo": "Servizio di project management relativo al progetto sovracomunale di rigenerazione urbana denominato “Museo diffuso della resistenza del Friuli Venezia Giulia” tra i Comuni di Gonars, Palmanova e Visco",
    "tipologia": "Servizi",
-   "scadenza": "07/12/2026 12:00",
-   "id": "26347"
+   "scadenza": "04/12/2026 12:00",
+   "id": "26375"
+  },
+  {
+   "procedura": "UE - Procedura Negoziata",
+   "ente": "Centrale unica di committenza FVG",
+   "protocollo": "",
+   "titolo": "24FAR001.86.CUC- Farmaci esclusivi VORANIGO",
+   "tipologia": "Forniture",
+   "scadenza": "04/12/2026 12:00",
+   "id": "26348"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -182,6 +155,15 @@
    "id": "26351"
   },
   {
+   "procedura": "Manifestazione di Interesse",
+   "ente": "CENTRALE COMMITTENZA RETE DELLE STAZIONI APPALTANTI DEL FRIULI VENEZIA GIULIA",
+   "protocollo": "",
+   "titolo": "CS - AFFIDAMENTO IN CONCESSIONE DEL SERVIZIO PUBBLICO LOCALE PER LA GESTIONE DELL’IMPIANTO SPORTIVO “CAMPO SPORTIVO E.E. INNOCENTE”, SITUATO IN COMUNE DI FIUME VENETO (PN)",
+   "tipologia": "Servizi",
+   "scadenza": "07/12/2026 12:00",
+   "id": "26347"
+  },
+  {
    "procedura": "Affidamento diretto",
    "ente": "AZIENDA SANITARIA FRIULI OCCIDENTALE",
    "protocollo": "",
@@ -191,13 +173,13 @@
    "id": "26386"
   },
   {
-   "procedura": "Altro",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "procedura": "UE - Procedura Aperta",
+   "ente": "Insiel",
    "protocollo": "",
-   "titolo": "FC26SER033 | Co-progettazione per la messa a disposizione di autoemoteche e la gestione integrata delle attività connesse, favorendo la promozione del dono, l'accoglienza dei donatori ed il potenziamento delle raccolte di sangue",
-   "tipologia": "Servizi",
+   "titolo": "ID 8520 - Fornitura di codici a catalogo per l’evoluzione e manutenzione per 36 mesi della piattaforma di bilanciamento in uso ad Insiel",
+   "tipologia": "Forniture",
    "scadenza": "09/12/2026 12:00",
-   "id": "26290"
+   "id": "26186"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -207,15 +189,6 @@
    "tipologia": "Forniture",
    "scadenza": "09/12/2026 12:00",
    "id": "26060"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "Insiel",
-   "protocollo": "",
-   "titolo": "ID 8520 - Fornitura di codici a catalogo per l’evoluzione e manutenzione per 36 mesi della piattaforma di bilanciamento in uso ad Insiel",
-   "tipologia": "Forniture",
-   "scadenza": "09/12/2026 12:00",
-   "id": "26186"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -236,6 +209,24 @@
    "id": "26159"
   },
   {
+   "procedura": "Altro",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "protocollo": "",
+   "titolo": "FC26SER033 | Co-progettazione per la messa a disposizione di autoemoteche e la gestione integrata delle attività connesse, favorendo la promozione del dono, l'accoglienza dei donatori ed il potenziamento delle raccolte di sangue",
+   "tipologia": "Servizi",
+   "scadenza": "09/12/2026 12:00",
+   "id": "26290"
+  },
+  {
+   "procedura": "Procedura non europea",
+   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
+   "protocollo": "",
+   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
+   "tipologia": "Servizi",
+   "scadenza": "10/12/2026 12:00",
+   "id": "26269"
+  },
+  {
    "procedura": "UE - Procedura Aperta",
    "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
    "protocollo": "",
@@ -243,15 +234,6 @@
    "tipologia": "Forniture",
    "scadenza": "10/12/2026 12:00",
    "id": "26254"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
-   "protocollo": "",
-   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
-   "tipologia": "Servizi",
-   "scadenza": "10/12/2026 12:00",
-   "id": "26237"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -263,13 +245,13 @@
    "id": "25989"
   },
   {
-   "procedura": "Procedura non europea",
-   "ente": "COMUNE DI RONCHI DEI LEGIONARI",
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ENTE DI DECENTRAMENTO REGIONALE DI UDINE",
    "protocollo": "",
-   "titolo": "PROCEDURA TELEMATICA DI CONCESSIONE STRUMENTALE DELLA GESTIONE DELL’IMPIANTO SPORTIVO PRIVO DI RILEVANZA ECONOMICA DEL COMUNE DI RONCHI DEI LEGIONARI ADIBITO AL GIOCO DEL TENNIS SITO IN P. LE LEDA BEVILACQUA, N. 1.",
+   "titolo": "2026_OPERA 0130 + 0165_Malignani Corpo A _ STEC Verifica progettazione.",
    "tipologia": "Servizi",
    "scadenza": "10/12/2026 12:00",
-   "id": "26269"
+   "id": "26237"
   },
   {
    "procedura": "Manifestazione di Interesse",
@@ -284,10 +266,28 @@
    "procedura": "UE - Procedura Aperta",
    "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
    "protocollo": "",
+   "titolo": "26PRE004 - VITRECTOMIA E FACOEMULSIFICAZIONE",
+   "tipologia": "Forniture",
+   "scadenza": "14/12/2026 12:00",
+   "id": "26281"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
    "titolo": "26PRE005 - PRODOTTI PER VIDEOLAPAROSCOPIA",
    "tipologia": "Forniture",
    "scadenza": "14/12/2026 12:00",
    "id": "26282"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
+   "protocollo": "",
+   "titolo": "24PRE002.1 - Materiale per neurochirurgia",
+   "tipologia": "Forniture",
+   "scadenza": "14/12/2026 12:00",
+   "id": "26280"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -306,24 +306,6 @@
    "tipologia": "Servizi",
    "scadenza": "14/12/2026 12:00",
    "id": "26257"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
-   "protocollo": "",
-   "titolo": "24PRE002.1 - Materiale per neurochirurgia",
-   "tipologia": "Forniture",
-   "scadenza": "14/12/2026 12:00",
-   "id": "26280"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
-   "ente": "ARCS - AZIENDA REGIONALE DI COORDINAMENTO PER LA SALUTE",
-   "protocollo": "",
-   "titolo": "26PRE004 - VITRECTOMIA E FACOEMULSIFICAZIONE",
-   "tipologia": "Forniture",
-   "scadenza": "14/12/2026 12:00",
-   "id": "26281"
   },
   {
    "procedura": "UE - Procedura Aperta",
@@ -372,21 +354,21 @@
   },
   {
    "procedura": "UE - Procedura Aperta",
-   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
-   "protocollo": "",
-   "titolo": "PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA (PFTE), PROGETTAZIONE ESECUTIVA (PE), COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, DIREZIONE LAVORI, PER LA RIQUALIFICAZIONE E L’ADEGUAMENTO NORMATIVO DEI PADIGLIONI N. 1 e 8",
-   "tipologia": "Servizi",
-   "scadenza": "21/12/2026 12:00",
-   "id": "26260"
-  },
-  {
-   "procedura": "UE - Procedura Aperta",
    "ente": "FRIULI VENEZIA GIULIA STRADE S.P.A.",
    "protocollo": "",
    "titolo": "Procedura Aperta 07-2026 – FVGS - Servizio triennale di brokeraggio assicurativo.",
    "tipologia": "Servizi",
    "scadenza": "21/12/2026 12:00",
    "id": "26263"
+  },
+  {
+   "procedura": "UE - Procedura Aperta",
+   "ente": "AZIENDA SANITARIA UNIVERSITARIA FRIULI CENTRALE",
+   "protocollo": "",
+   "titolo": "PROGETTAZIONE DI FATTIBILITA’ TECNICO-ECONOMICA (PFTE), PROGETTAZIONE ESECUTIVA (PE), COORDINAMENTO DELLA SICUREZZA IN FASE DI PROGETTAZIONE ED ESECUZIONE, DIREZIONE LAVORI, PER LA RIQUALIFICAZIONE E L’ADEGUAMENTO NORMATIVO DEI PADIGLIONI N. 1 e 8",
+   "tipologia": "Servizi",
+   "scadenza": "21/12/2026 12:00",
+   "id": "26260"
   },
   {
    "procedura": "UE - Procedura Aperta",

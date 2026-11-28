@@ -5,42 +5,8 @@
 <ttl>15</ttl>
 <description>Bandi pubblici portalegare</description>
 <language>IT-it</language>
-<afs:totRecord>75</afs:totRecord>
+<afs:totRecord>74</afs:totRecord>
 <item>
-	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4832842&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-27T16:30:00]]></link>
-	<category>Consultazione Preliminare di Mercato</category>
-	<pubDate>10/11/2026</pubDate>
-	
-	<description>
-&lt;strong&gt;Bando Rettificato - &lt;/strong&gt; BATTERIE MONOUSO &lt;strong&gt;Scadenza : 27/11/2026&lt;/strong&gt;
-	</description>
-	
-	<afs:Oggetto><![CDATA[<strong>Bando Rettificato - </strong> BATTERIE MONOUSO ]]></afs:Oggetto>
-    <afs:Tipo><![CDATA[Consultazione Preliminare di Mercato]]></afs:Tipo>
-	<afs:EnteProponente><![CDATA[A.O. SAN GIUSEPPE MOSCATI]]></afs:EnteProponente>																	   
-	<afs:DenominazioneEnte><![CDATA[A.O. SAN GIUSEPPE MOSCATI]]></afs:DenominazioneEnte>
-    <afs:Contratto><![CDATA[]]></afs:Contratto>
-	<afs:AppaltoPNRR><![CDATA[]]></afs:AppaltoPNRR>
-	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
-	<afs:a_base_asta><![CDATA[]]></afs:a_base_asta>
-	<afs:DtScadenzaBandoTecnical><![CDATA[2026-11-27T16:30:00]]></afs:DtScadenzaBandoTecnical>
-	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
-	<afs:statoFunzionale><![CDATA[]]></afs:statoFunzionale>
-	<afs:IdMsg><![CDATA[4832842]]></afs:IdMsg>
-	<afs:OpenDettaglio>1</afs:OpenDettaglio>
-	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
-	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
-	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
-	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
-	<afs:bEsito><![CDATA[0]]></afs:bEsito>
-	<afs:ambito><![CDATA[]]></afs:ambito>
-	<afs:CPV><![CDATA[]]></afs:CPV>
-	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-11-10T12:14:38]]></afs:DtPubblicazioneTecnical>
-
-</item><item>
 	<title><![CDATA[Bando ]]></title>
 	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4841585&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-30T10:00:00]]></link>
 	<category>Bando</category>
@@ -282,7 +248,7 @@ INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DELL’O.E. A CUI AFFIDAR
 
 </item><item>
 	<title><![CDATA[Consultazione Preliminare di Mercato ]]></title>
-	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4854335&tipobando=Consultazione Preliminare di Mercato&RicQ=YES&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-30T12:00:00]]></link>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4854335&tipobando=Consultazione Preliminare di Mercato&RicQ=NO&VisQ=SI&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-11-30T12:00:00]]></link>
 	<category>Consultazione Preliminare di Mercato</category>
 	<pubDate>24/11/2026</pubDate>
 	
@@ -307,7 +273,7 @@ INDAGINE ESPLORATIVA DI MERCATO PER L’INDIVIDUAZIONE DELL’O.E. A CUI AFFIDAR
 	<afs:OpenDettaglio>1</afs:OpenDettaglio>
 	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
 	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
-	<afs:RichiestaQuesito><![CDATA[YES]]></afs:RichiestaQuesito>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
 	<afs:VisualizzaQuesiti><![CDATA[SI]]></afs:VisualizzaQuesiti>
 	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
 	<afs:bEsito><![CDATA[0]]></afs:bEsito>
@@ -450,4 +416,37 @@ D.M. “filtri monouso per spirometro ed apparecchio ossido nitrico esalato”&l
 	<afs:ambito><![CDATA[Farmaci e Disp. Medici]]></afs:ambito>
 	<afs:CPV><![CDATA[33141320-9 - Aghi per uso medico]]></afs:CPV>
 	<afs:VariantiCorsoOpera><![CDATA[]]></afs:VariantiCorsoOpera>
-	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-18T08:11:18]]></afs:DtPubblicazi
+	<afs:DtPubblicazioneTecnical><![CDATA[2026-09-18T08:11:18]]></afs:DtPubblicazioneTecnical>
+
+</item><item>
+	<title><![CDATA[Bando ]]></title>
+	<link><![CDATA[http://siaps.soresa.it/portale/index.php/bandi?getdettaglio=yes&bando=4853781&tipobando=Bando&RicQ=NO&VisQ=NO&tipoDoc=BANDO_GARA&xslt=XSLT_BANDO_GARA&scadenzaBando=2026-12-01T10:00:00]]></link>
+	<category>Bando</category>
+	<pubDate>24/11/2026</pubDate>
+	
+	<description>
+AFFIDAMENTO AI SENSI DELL’ART. 50, CO. 1, LETT. B), DEL D.LGS. 36/2023 FORNITURA DEL FARMACO TIBSOVO PER LE ESIGENZE DELL’A.O.U. FEDERICO II&lt;strong&gt;Scadenza : 01/12/2026&lt;/strong&gt;
+	</description>
+	
+	<afs:Oggetto><![CDATA[AFFIDAMENTO AI SENSI DELL’ART. 50, CO. 1, LETT. B), DEL D.LGS. 36/2023 FORNITURA DEL FARMACO TIBSOVO PER LE ESIGENZE DELL’A.O.U. FEDERICO II]]></afs:Oggetto>
+    <afs:Tipo><![CDATA[Bando]]></afs:Tipo>
+	<afs:EnteProponente><![CDATA[]]></afs:EnteProponente>																	   
+	<afs:DenominazioneEnte><![CDATA[A.O.U. POLICLINICO FEDERICO II]]></afs:DenominazioneEnte>
+    <afs:Contratto><![CDATA[Forniture]]></afs:Contratto>
+	<afs:AppaltoPNRR><![CDATA[no]]></afs:AppaltoPNRR>
+	<afs:AppaltoPNC><![CDATA[]]></afs:AppaltoPNC>
+	<afs:a_base_asta><![CDATA[33.939,00]]></afs:a_base_asta>
+	<afs:DtScadenzaBandoTecnical><![CDATA[2026-12-01T10:00:00]]></afs:DtScadenzaBandoTecnical>
+	<afs:ProtocolloBando><![CDATA[]]></afs:ProtocolloBando>
+	<afs:statoFunzionale><![CDATA[PresOfferte]]></afs:statoFunzionale>
+	<afs:IdMsg><![CDATA[4853781]]></afs:IdMsg>
+	<afs:OpenDettaglio>1</afs:OpenDettaglio>
+	<afs:TipoDoc><![CDATA[BANDO_GARA_PORTALE]]></afs:TipoDoc>
+	<afs:xslt><![CDATA[XSLT_BANDO_GARA_PORTALE]]></afs:xslt>
+	<afs:RichiestaQuesito><![CDATA[NO]]></afs:RichiestaQuesito>
+	<afs:VisualizzaQuesiti><![CDATA[NO]]></afs:VisualizzaQuesiti>
+	<afs:bconcluso><![CDATA[0]]></afs:bconcluso>
+	<afs:bEsito><![CDATA[0]]></afs:bEsito>
+	<afs:ambito><![CDATA[Farmaci e Disp. Medici]]></afs:ambito>
+	<afs:CPV><![CDATA[33690000-3 - Medicinali vari]]></afs:CPV>
+	<afs:VariantiCorsoOpera><![CDATA[]]></afs
